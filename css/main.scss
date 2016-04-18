@@ -7,19 +7,34 @@
 
 // Our variables
 $base-font-family: Helvetica, Arial, sans-serif;
+/*$secondary-font-family:"ArialBlack", Gadget, Arial, sans-serif;*/
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
+/*
+@mixin MaisonNeue-Bold {
+  font-family: 'MaisonNeue-Bold', arial, sans-serif;
+  font-weight: 300; font-style: normal; }
+
+@include font-face(MaisonNeue-Bold, 'https://dl.dropboxusercontent.com/u/12644668/fonts/maisonneuebold.ttf', 300, normal);*/
+
+@mixin ArialBlack { 
+	font-family: 'ArialBlack', Gadget, Arial, sans-serif;
+	font-weight: 900; }
+
 $spacing-unit:     30px;
 
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$text-color: #000;
+$primary-color: #4a4a4a;
+$quote-color: #3b3b3b;
+$brand-color:      #6F5723;
+$background-color: #fff;
+$white-bg: #fff;
 
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+ $grey-color:       #828282;
+ $grey-color-light: lighten($grey-color, 40%);
+ $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
 $content-width:    800px;
@@ -47,6 +62,8 @@ $on-laptop:        900px;
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
-        "layout"
+        "home",
+        "layout",
+        "gallery"
         
 ;
