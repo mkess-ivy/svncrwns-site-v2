@@ -235,6 +235,18 @@
     }
 }*/
 
+
+/* BG properties and images */
+
+.hero-bg { background-size: cover; background-position: center center; width: 100%; height: 40vh; }
+
+.hero-left-image { background-image: url('/assets/images/hero-left-image.png'); }
+.hero-right-image { background-image: url('/assets/images/hero-right-image.png'); }
+.section01-bg-image { background-image: url('/assets/images/section-01-bg.png'); }
+
+
+/* #BG properties and images */
+
 /* Header */
 
 .header-row { width: 100%; height: auto; display: inline-block; float: left; position: relative; background-color: $white-bg; }
@@ -247,8 +259,26 @@
 
 .fullpage { height: 100vh; width: 100%; }
 
-.hero-section { margin: 0 2.5em; background-color: $grey-color-dark; height: 80vh; z-index: 3; position: relative;}
-.huge-hero-logo { position: absolute; z-index: 2; bottom: 2em; padding: .5em; }
+.hero-section { margin: 0 2.5em; z-index: 3; position: relative;}
+.huge-hero-logo { position: absolute; z-index: 2; bottom: 2.5em; padding: .5em; }
+.hero-icon { 
+    /*vertical-align: middle;*/
+    /*background-image: url("/assets/images/small-crown.png");*/
+    /*width: 20%;*/
+    /*padding: 1em;*/
+    /*background-size: cover;*/
+    /*margin: 0 auto;*/
+    position: absolute;
+    /*background-position: center center;
+    background-repeat: no-repeat;*/
+    top: 48%;
+    right: 42%;
+    /*transform: translateY(-50%);*/
+}
+
+.section-bg { background-size: cover; background-position: center center; height: 100vh; width: 100%; z-index: 2;}
+.content-fill { height: 90vh; z-index: 4; position: relative; background: $background-color; top: 3em;}
+.section-identifier { position: relative; padding: .2em; font-family: $alt-font-1; font-size: $section-id-number;}
 
 /* #Section */
 
