@@ -242,6 +242,7 @@
 .hero-left-image { background-image: url('/assets/images/hero-left-image.png'); }
 .hero-right-image { background-image: url('/assets/images/hero-right-image.png'); }
 .section01-bg-image { background-image: url('/assets/images/section-01-bg.png'); }
+.section02-bg-image { background-image: url('/assets/images/section-02-bg.png'); }
 /* #BG properties and images */
 
 
@@ -260,14 +261,16 @@
 .huge-hero-logo { position: absolute; z-index: 2; bottom: 1em; padding: .5em; }
 .hero-icon { position: absolute; top: 48%; right: 42%; }
 
-.section-bg { background-size: cover; background-position: center center; height: 100vh; width: 100%; z-index: 2; position: relative;}
+.section-bg { background-size: cover; background-position: center center; height: 100vh; width: 100%; z-index: 2; position: relative; }
 .section-no-height { height: auto; }
-.content-fill { height: 90vh; z-index: 4; position: relative; background: $background-color; top: 2em;}
-.content-fill-no-height { height: auto; z-index: 4; position: relative; background: $background-color; top: 2em; margin-bottom: 2em; }
+.section-bg-no-height { background-size: cover; background-position: center center; width: 100%; z-index: 2; position: relative; }
+.content-fill { height: 90vh; position: relative; background: $background-color; top: 2em;}
+.content-fill-no-height { height: auto; position: relative; background: $background-color; top: 2em; margin-bottom: 2em; }
 .section-identifier { position: relative; padding: .2em; font-family: $alt-font-1; font-size: $section-number-font-size; color: $brand-color; }
 .section-identifier-r { float: right; }
 .section-text { text-align: right; width: 80%; padding-left: 1.4em; font-size: 20px;
     font-family: $alt-font-2; line-height: 24px; font-weight: 900; text-decoration: underline; }
+.captions { position: relative; }
 .image-caption { font-size: 6px; width: 45%; float: right; position: relative;right: 1em; bottom: -6em; }
 .image-caption-title { font-size: 8px; text-transform: uppercase; font-weight: bold; }
 
@@ -275,10 +278,14 @@
     .note-date { text-align: center; font-size: 3em; color: rgba(155,155,155,.45); }
     .note-issue { text-transform: uppercase; position: relative; z-index: 5; top: -2.5em; }
 .note-text { padding: 1em 1em 0; font-style: oblique; font-size: 1.05em; position: relative;}
-.note-salutation { position: relative; padding-top: 2em; text-transform: uppercase; font-size: 1.1em; text-align: center; color: $primary-color; font-weight: lighter; }
+.note-salutation { position: relative; padding: 2em 0; text-transform: uppercase; font-size: 1.1em; text-align: center; color: $primary-color; font-weight: lighter; }
 .note-author { display: block; font-style: normal; font-weight: bolder; letter-spacing: -1px; padding-top: .3em; }
 .note-title { font-size: 3.2em; font-family: $alt-font-1; text-align: center; text-transform: uppercase; opacity: .46; position: absolute; clear: both; top: 6em; line-height: 1em; }
 .note-title-alt-color { @include brandcolortext; font-size: 85px;}
+
+.section-quote { width: 65%; text-align: justify; margin: 0 auto; position: relative; padding-bottom: 2em; }
+.section-quotation { font-weight: bold; font-size: 60px; color: $brand-color-2; position: absolute; top: -.5em; left: -.5em;}
+.section-quote-author { text-transform: uppercase; font-weight: bold; font-size: .8em; padding-top: 1em; text-align: right; }
 
 /* #Section */
 
@@ -291,11 +298,22 @@
 /* Misc */
 .alt-color { color: $primary-color; }
 .position-img-home-01 { margin: 0 1em; padding: 0 1em; position: relative; top: -.7em; }
+.position-img-home-03 { margin: 0 1em; padding: 5em .5em 0 3em; position: relative; }
 .image-number-r { position: relative; z-index: 5; top: 2em; right: 1em; float: right; color: $image-number-color;
     font-family: $alt-font-1; font-size: $small-font-size; 
 }
 .control-image { width: 100%; }
-.home-image1-prop { height: 260px; }
+.home-image-prop { height: 260px; }
+.control-image-s3 { width: 95%;}
+.control-image-s3b { height: 100px; width: 75%; position: relative; top: -5em; left: -2em; }
+
+/*.height-alt { height: 135vh; }*/
+.height-alt-s3 { height: 145vh; }
 /* #Misc */
 
-
+/* Test */
+* { outline: 1px black solid; }
+.section-prop { background-color: blueviolet; color: white; }
+.bg1 { background: url('/assets/images/section-01-bg.png') no-repeat center center / cover;}
+.herecontent { background: white; margin: 2em;}
+/* #Test */
