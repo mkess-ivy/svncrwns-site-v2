@@ -8,6 +8,7 @@
 // Our font families variables
 $base-font-family: Helvetica, Arial, sans-serif;
 $alt-font-1: Arial Black, sans-serif;
+$alt-font-2: "Maison Neue", sans-serif;
 
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
@@ -26,9 +27,9 @@ $base-line-height: 1.5;
 
 @include font-face(MaisonNeue-Bold, 'https://dl.dropboxusercontent.com/u/12644668/fonts/maisonneuebold.ttf', 300, normal);*/
 
-@mixin ArialBlack { 
-	font-family: 'ArialBlack', Gadget, Arial, sans-serif;
-	font-weight: 900; }
+@mixin brandcolortext {
+    color: $brand-color;
+}
 
 $spacing-unit:     30px;
 
