@@ -291,6 +291,13 @@
 
 /* --Section 4- */
 .bg-s-4 { background: url('/assets/images/section-01-bg.png') no-repeat center center / cover; }
+.bg-s-5 { background: url('/assets/images/section-04a-bg.png') no-repeat center center / cover; }
+.produce { position: relative; top: -5.5em; color: $white-bg; left: 0.5em; font-size: 2.3em; text-transform: uppercase; font-family: $alt-font-1; line-height: 1em; }
+.featured-category { font-size: 0.8em; text-transform: uppercase; font-weight: bold; padding: 1.3em 0; }
+.featured-title { font-family: $alt-font-1; text-transform: uppercase; font-size: 1.5em; padding: 1.5em 0; }
+.featured-text { padding: 0 1em 2em 2em; text-align: left; }
+.featured-button { background: #C68DAB; width: 55%; text-transform: uppercase; right: -8em; position: relative; padding: .75em; top: 1em;}
+.featured-button-text { font-size: 1.2em; font-family: $alt-font-1; text-align: right; }
 /* --#Section4- */
 
 /* #Section */
@@ -327,5 +334,5 @@
 .s-img-id {  color: $color_img_id; text-transform: uppercase; font-family: $alt-font-1; font-size: $size_img_id; width: 20%;}
 .p-img-id-1 { top: 3em; position: relative; left: 3em; }
 .p-img-id-2 { position: relative; top: -4.5em; left: 1.6em; z-index: 5; }
-.captionthis { width: 45%; font-size: 6px; padding: 0 0 2em 2em; }
+.captionthis { width: 55%; font-size: 6px; padding: 0 0 2em 2em; }
 /* #Test */
