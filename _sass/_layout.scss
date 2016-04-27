@@ -269,18 +269,21 @@
 .section-identifier { position: relative; padding: .2em; font-family: $alt-font-1; font-size: $section-number-font-size; color: $brand-color; }
 .section-identifier-r { text-align: right; }
 .section-text-s { text-align: right; width: 80%;  font-size: 20px; font-family: $alt-font-2; line-height: 24px; text-decoration: underline; }
+.width-adj { width: 82%; }
 .section-text-p-1 { padding-left: 1.4em; }
 .section-text-p-3 { position: absolute; top: 5em; right: 2em; }
+.section-text-p-5 { position: relative; top: -2em; left: 1em; }
 .captions { position: relative; padding-top: 4em;}
-.image { position: relative; }
+.image, .image-set { position: relative; }
+.image-set { position: relative; }
 .image-caption { font-size: 6px; width: 45%; float: right; position: relative;right: 1em; bottom: -6em; }
 .s-caption { font-size: 6px; }
 .p-caption { width: 45%; float: right; position: relative;right: 1em; bottom: -6em; }
 .image-caption-title { font-size: 8px; text-transform: uppercase; font-weight: bold; }
 
-.note-meta { clear: both; @extend %clearfix; font-family: $alt-font-1; padding-top: 2em;} 
-    .note-date { text-align: center; font-size: 3em; color: rgba(155,155,155,.45); }
-    .note-issue { text-transform: uppercase; position: relative; z-index: 5; top: -2.5em; }
+.note-meta { clear: both; @extend %clearfix; font-family: $alt-font-1; padding-top: 2em; position: relative;} 
+    .note-date { text-align: center; font-size: 2.5em; color: rgba(155,155,155,.45); }
+    .note-issue { text-transform: uppercase; position: absolute; z-index: 5; top: 3.5em; left: 2em; }
 .note-text { padding: 1em 1em 0; font-style: oblique; font-size: 1.05em; position: relative;}
 .note-salutation { position: relative; padding: 2em 0; text-transform: uppercase; font-size: 1.1em; text-align: center; color: $primary-color; font-weight: lighter; }
 .note-author { display: block; font-style: normal; font-weight: bolder; letter-spacing: -1px; padding-top: .3em; }
@@ -303,6 +306,12 @@
 .featured-button-text a { text-decoration: none; color: black; }
 .featured-button-text a:hover { color: $primary-color; }
 /* --#Section4- */
+
+/* Section 6 */
+.bottom-footer-link a { text-decoration: none; color: $brand-color-2; font-size: 1.5em; font-family: $alt-font-1; line-height: 1em;}
+.bottom-footer-link { padding: 3em 0; text-align: center; }
+.bottom-footer-nav { width: 23%; padding-right: 1em; }
+/* #Section 6 */
 
 /* #Section */
 
@@ -333,11 +342,11 @@
 .section-prop { background-color: purple; color: white; }
 .bg1 { background: url('/assets/images/section-03-bg.png') no-repeat center center / cover;}
 .herecontent { background: white; margin: 2em; position: relative;}
-.section-03-img1-prop { float: right; padding: 1em 2em 0; }
-.section-03-img2-prop { top: 10em; position: absolute; left: 1em; } 
-.section-05-img3-prop { top: -7em; position: absolute; right: 1em; }
+.section-03-img1-prop { padding: 1em 2em 0; }
+.section-03-img2-prop { top: -2em; left: 1em; } 
+.section-05-img3-prop { top: 11em; position: absolute; right: 1em; }
 .s-img-id {  color: $color_img_id; text-transform: uppercase; font-family: $alt-font-1; font-size: $size_img_id; width: 20%;}
-.p-img-id-1 { top: 3em; position: relative; left: 3em; }
-.p-img-id-2 { position: relative; top: -4.5em; left: 1.6em; z-index: 5; }
+.p-img-id-1 { top: 2em; position: relative; left: 1em; }
+.p-img-id-2 { position: relative; top: 2em; left: 0.6em;  }
 .captionthis { width: 55%; font-size: 6px; padding: 0 0 2em 2em; }
 /* #Test */
