@@ -261,22 +261,36 @@
 .huge-hero-logo { position: absolute; z-index: 2; bottom: 1em; padding: .5em; }
 .hero-icon { position: absolute; top: 48%; right: 42%; }
 
-.section-bg { background-size: cover; background-position: center center; height: 100vh; width: 100%; z-index: 2; position: relative; }
+.section-bg { background-size: cover; background-position: center center; height: 100vh; width: 100%; z-index: 2; position: relative; 
+    @include palm { height: 111vh; }
+}
 .section-no-height { height: auto; }
 .section-bg-no-height { background-size: cover; background-position: center center; width: 100%; z-index: 2; position: relative; }
-.content-fill { height: 90vh; position: relative; background: $background-color; top: 2em;}
+.content-fill { height: 90vh; position: relative; background: $background-color; top: 2em;
+    @include palm { height: 100vh; }
+}
 .content-fill-no-height { height: auto; position: relative; background: $background-color; top: 2em; margin-bottom: 2em; }
 .section-identifier { position: relative; padding: .2em; font-family: $alt-font-1; font-size: $section-number-font-size; color: $brand-color; }
 .section-identifier-r { text-align: right; }
 .section-text-s { text-align: right; width: 80%;  font-size: 20px; font-family: $alt-font-2; line-height: 24px; text-decoration: underline; }
-.width-adj { width: 82%; }
+.width-adj { width: 82%; 
+    @include palm { width: 70%; }
+}
 .section-text-p-1 { padding-left: 1.4em; }
-.section-text-p-3 { position: absolute; top: 5em; right: 2em; }
-.section-text-p-5 { position: relative; top: -2em; left: 1em; }
-.captions { position: relative; padding-top: 4em;}
+.section-text-p-3 { position: absolute; top: 5em; right: 2em; 
+    @include palm { left: -1em; right: 0; }
+}
+.section-text-p-5 { position: relative; top: -2em; left: 1em; 
+    @include palm { top: -5em; }
+}
+.captions { position: relative; padding-top: 4em;
+    @include palm { padding-bottom: 1em; }
+}
 .image, .image-set { position: relative; }
 .image-set { position: relative; }
-.image-caption { font-size: 6px; width: 45%; float: right; position: relative;right: 1em; bottom: -6em; }
+.image-caption { font-size: 6px; width: 45%; float: right; position: relative;right: 1em; bottom: -6em;
+    @include palm { bottom: -11em; }
+ }
 .s-caption { font-size: 6px; }
 .p-caption { width: 45%; float: right; position: relative;right: 1em; bottom: -6em; }
 .image-caption-title { font-size: 8px; text-transform: uppercase; font-weight: bold; }
@@ -297,11 +311,19 @@
 /* --Section 4- */
 .bg-s-4 { background: url('/assets/images/section-01-bg.png') no-repeat center center / cover; }
 .bg-s-5 { background: url('/assets/images/section-04a-bg.png') no-repeat center center / cover; }
-.produce { position: relative; top: -5.5em; color: $white-bg; left: 0.5em; font-size: 2.3em; text-transform: uppercase; font-family: $alt-font-1; line-height: 1em; }
+.produce { position: relative; top: -5.5em; color: $white-bg; left: 0.5em; font-size: 2.3em; text-transform: uppercase; font-family: $alt-font-1; line-height: 1em; 
+    @include palm { font-size: 3.3em; }
+}
 .featured-category { font-size: 0.8em; text-transform: uppercase; font-weight: bold; padding: 1.3em 0; }
-.featured-title { font-family: $alt-font-1; text-transform: uppercase; font-size: 1.5em; padding: 1.5em 0; }
-.featured-text { padding: 0 1em 2em 2em; text-align: left; }
-.featured-button { background: #C68DAB; width: 55%; text-transform: uppercase; right: -8em; position: relative; padding: .75em; top: 1em;}
+.featured-title { font-family: $alt-font-1; text-transform: uppercase; font-size: 1.5em; padding: 1.5em 0; 
+    @include palm { width: 70%; margin: 0 auto; }
+}
+.featured-text { padding: 0 1em 2em 2em; text-align: left; 
+    @include palm { padding: 0 2em 2em 3em; }
+}
+.featured-button { background: #C68DAB; width: 55%; text-transform: uppercase; right: -8em; position: relative; padding: .75em; top: 1em; 
+    @include palm { width: 40%; right: -14em; top: 2em; }
+}
 .featured-button-text { font-size: 0.7em; font-family: $alt-font-1; text-align: right; }
 .featured-button-text a { text-decoration: none; color: black; }
 .featured-button-text a:hover { color: $primary-color; }
@@ -309,8 +331,12 @@
 
 /* Section 6 */
 .bottom-footer-link a { text-decoration: none; color: $brand-color-2; font-size: 1.5em; font-family: $alt-font-1; line-height: 1em;}
-.bottom-footer-link { padding: 3em 0; text-align: center; }
-.bottom-footer-nav { width: 23%; padding-right: 1em; }
+.bottom-footer-link { padding: 3em 0; text-align: center; 
+    @include palm { padding: 6em 0; }
+}
+.bottom-footer-nav { width: 23%; padding-right: 1em; 
+    @include palm { width: 18%; }
+}
 /* #Section 6 */
 
 /* #Section */
@@ -329,24 +355,54 @@
     font-family: $alt-font-1; font-size: $small-font-size; 
 }
 .control-image { width: 100%; }
-.home-image-prop { height: 260px; }
+.home-image-prop { height: 260px; 
+    @include palm { height: 335px; }  
+}
 .control-image-s3 { width: 95%;}
 .control-image-s3b { height: 100px; width: 75%; position: relative; top: -5em; left: -2em; }
 
 /*.height-alt { height: 135vh; }*/
 .height-alt-s3 { height: 145vh; }
+
+.palm-img {
+    @include palm { width: 210px; }
+}
+
+.palm-img2 {
+    @include palm { width: 300px; text-align: center; }
+}
+.palm-img3 {
+    @include palm { width: 13em; }
+}
+.height90 { 
+    @include palm { height: 90vh; }
+}
+.height85 {
+    @include palm { height: 85vh; }
+}
 /* #Misc */
 
 /* Test */
 /** { outline: 1px solid black; }*/
 .section-prop { background-color: purple; color: white; }
 .bg1 { background: url('/assets/images/section-03-bg.png') no-repeat center center / cover;}
-.herecontent { background: white; margin: 2em; position: relative;}
-.section-03-img1-prop { padding: 1em 2em 0; }
-.section-03-img2-prop { top: -2em; left: 1em; } 
+.herecontent { background: white; margin: 2em; position: relative; }
+.section-03-img1-prop { padding: 1em 2em 0; 
+    @include palm { padding: 0; text-align: center; }
+}
+.section-03-img2-prop { top: -2em; left: 1em; 
+    @include palm { top: -6em; left: 3em; }
+} 
+.section-04-img { 
+    @include palm { text-align: center; }
+}
 .section-05-img3-prop { top: 11em; position: absolute; right: 1em; }
 .s-img-id {  color: $color_img_id; text-transform: uppercase; font-family: $alt-font-1; font-size: $size_img_id; width: 20%;}
-.p-img-id-1 { top: 2em; position: relative; left: 1em; }
+.p-img-id-1 { top: 2em; position: relative; left: 1em; 
+    @include palm { left: 4em; }
+}
 .p-img-id-2 { position: relative; top: 2em; left: 0.6em;  }
-.captionthis { width: 55%; font-size: 6px; padding: 0 0 2em 2em; }
+.captionthis { width: 55%; font-size: 6px; padding: 0 0 2em 2em; 
+    @include palm { padding: 0 0 2em 4em; }
+}
 /* #Test */

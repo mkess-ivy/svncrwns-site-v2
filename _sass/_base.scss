@@ -159,7 +159,9 @@ a {
 }
 
 .martop2 { margin-top: 2em; }
-.pad2 { margin-top: 6em; }
+.pad2 { margin-top: 6em; 
+    @include palm { margin-top: 4em; }
+}
 .padbot3 { padding-bottom: 3em; }
 .center-pos { text-align: center; }
 
