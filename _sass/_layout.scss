@@ -260,7 +260,9 @@
 
 .hero-section { margin: 0 2.5em; z-index: 3; position: relative;}
 .hero-section-alt { margin: 0 1em; }
-.huge-hero-logo { position: absolute; z-index: 2; bottom: 1em; padding: .5em; }
+.huge-hero-logo { position: absolute; z-index: 2; bottom: 1em; padding: .5em; 
+    @include palm-mid { bottom: 0em; }
+}
 .hero-icon { position: absolute; top: 48%; right: 42%; 
     @include palm-mid { top: 13em; right: 47%; }
 }
@@ -300,16 +302,16 @@
 }
 .section-text-p-5 { position: relative; top: -2em; left: 1em; 
     @include palm { top: -5em; }
-    @include palm-mid { top: -2em; }
+    @include palm-mid { top: -.5em; }
 }
 .captions { position: relative; padding-top: 4em;
     @include palm { padding-bottom: 1em; }
 }
 .image, .image-set { position: relative; }
 .image-set { position: relative; }
-.image-caption { font-size: 6px; width: 45%; float: right; position: relative;right: 1em; bottom: -6em;
-    @include palm { bottom: -11em; }
-    @include palm-mid { bottom: -8em; font-size: 8px; }
+.image-caption { font-size: 6px; width: 50%; float: right; position: absolute; right: 3em; bottom: 2em;
+    @include palm {}
+    @include palm-mid { font-size: 8px; }
     @include palm-three { width: 35%; right: 4em; }
  }
 .s-caption { font-size: 6px; }
@@ -318,13 +320,16 @@
     @include palm-mid { font-size: 9px; }
 }
 
-.note-meta { clear: both; @extend %clearfix; font-family: $alt-font-1; padding-top: 2em; position: relative;} 
-    .note-date { text-align: center; font-size: 2.5em; color: rgba(155,155,155,.45); 
-        @include palm-mid { font-size: 3.2em; }
-    }
-    .note-issue { text-transform: uppercase; position: absolute; z-index: 5; top: 3.5em; left: 2em; 
-        @include palm-mid { left: 5em; top: 4em;}
-    }
+.note-meta { clear: both; @extend %clearfix; font-family: $alt-font-1; padding-top: 2em; position: relative; width: 90%; margin: 0 1em;
+    @include palm-mid { width: 70%; margin: 0 1em 0 5em; }
+} 
+.note-date { text-align: center; font-size: 2.5em; color: rgba(155,155,155,.45); 
+    @include palm-mid { font-size: 3.2em; }
+}
+.note-issue { text-transform: uppercase; position: absolute; z-index: 5; top: 2em; padding: 1.5em; 
+    @include palm-mid { padding: 2em;  }
+}
+
 .note-text { padding: 1em 1em 0; font-style: oblique; font-size: 1.05em; position: relative;
     @include palm-mid { padding: 1em 4em 0; }
     @include palm-three { padding: 4em 5em 0; }
@@ -340,8 +345,12 @@
     @include palm-mid { font-size: 2em; }
 }
 
-.section-quote { width: 70%; text-align: right; margin: 0 auto; position: relative; padding-bottom: 2em; }
-.section-quotation { font-weight: bold; font-size: 60px; color: $brand-color-2; position: absolute; top: -.5em; left: -.2em;}
+.section-quote { width: 70%; text-align: right; margin: 0 auto; position: relative; padding-bottom: 2em; 
+    @include palm-mid { padding-top: 3em; }
+}
+.section-quotation { font-weight: bold; font-size: 60px; color: $brand-color-2; position: absolute; top: -.5em; left: -.2em;
+    @include palm-mid { top: 0em; left: -.5em; }
+}
 .section-quote-author { text-transform: uppercase; font-weight: bold; font-size: .8em; padding-top: 1em; text-align: right; }
 
 /* --Section 4- */
@@ -350,6 +359,7 @@
 .produce { position: relative; top: -5.5em; color: $white-bg; left: 0.5em; font-size: 2.3em; text-transform: uppercase; font-family: $alt-font-1; line-height: 1em; 
     @include palm { font-size: 3.3em; }
     @include palm-mid { padding: 0 1em; }
+    @include palm-three { padding: 0 2em; }
 }
 .featured-category { font-size: 0.8em; text-transform: uppercase; font-weight: bold; padding: 1.3em 0; 
     @include palm-three { padding: 5em 0; }
@@ -380,10 +390,7 @@
 .bottom-footer-link { padding: 3em 0; text-align: center; 
     @include palm { padding: 6em 0; }
 }
-.bottom-footer-nav { width: 20%; padding-right: 1em; 
-    @include palm { width: 18%; }
-    @include palm-mid { width: 12%; }
-}
+.bottom-footer-nav { width: 4em; padding-right: 1em; }
 /* #Section 6 */
 
 /* #Section */
@@ -442,12 +449,12 @@
 .section-prop { background-color: purple; color: white; }
 .bg1 { background: url('/assets/images/section-03-bg.png') no-repeat center center / cover;}
 .herecontent { background: white; margin: 2em; position: relative; }
-.section-03-img1-prop { padding: 1em 2em 0; 
-    @include palm { padding: 0; text-align: center; }
+.section-03-img1-prop { width: 55%; margin: 0 auto;
+   
 }
-.section-03-img2-prop { top: -2em; left: 1em; 
-    @include palm { top: -6em; left: 3em; }
-    @include palm-mid { left: 4em; width: 42%; top: -4em;}
+.section-03-img2-prop { top: -3em; left: 3em; width: 42%;
+    /*@include palm { top: -3em; left: 3em; }*/
+    @include palm-mid { left: 4em; top: -1em;}
 } 
 .section-04-img { 
     @include palm { text-align: center; }
@@ -458,10 +465,10 @@
     @include palm-mid { top: 14em; right: 4em; }
 }
 .s-img-id {  color: $color_img_id; text-transform: uppercase; font-family: $alt-font-1; font-size: $size_img_id; width: 20%;}
-.p-img-id-1 { top: 2em; position: relative; left: 1em; 
+/*.p-img-id-1 { top: 2em; position: relative; left: 1em; 
     @include palm { left: 4em; }
 }
-.p-img-id-2 { position: relative; top: 2em; left: 0.6em;  }
+.p-img-id-2 { position: relative; top: 2em; left: 0.6em;  }*/
 .p-img-id-3 { position: absolute; padding: 1em;  }
 .captionthis { width: 55%; font-size: 6px; padding: 0 0 2em 2em; 
     @include palm { padding: 0 0 2em 4em; }

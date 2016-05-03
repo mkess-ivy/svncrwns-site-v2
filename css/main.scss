@@ -51,12 +51,13 @@ $color_img_id: #ffffff;
 // Width of the content area
 $content-width:    800px;
 
-$on-palm:          400px;
+$on-palm:           400px;
 $on-palm-mid:       500px;
 $on-palm-three:     600px;
-$on-laptop:        900px;
-$tablet-width:    768px;
-$desktop-width:    1024px;
+$on-tablet:         700px
+$on-laptop:         900px;
+$tablet-width:      768px;
+$desktop-width:     1024px;
 
 @mixin palm {
     @media screen and (min-width: #{$on-palm}) {
@@ -72,6 +73,12 @@ $desktop-width:    1024px;
 
 @mixin palm-three {
     @media screen and (min-width: #{$on-palm-three}) {
+        @content;
+    }
+}
+
+@mixin palm-tablet {
+    @media screen and (min-width: #{$on-palm-tablet}) {
         @content;
     }
 }
