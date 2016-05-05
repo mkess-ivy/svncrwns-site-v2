@@ -1,8 +1,13 @@
-.footer-elements { padding: 3em 0;}
+.footer-elements { padding: 3em 0;
+	@include tablet { padding: 10em 0 3em 0;}
+}
 .footer-logo { padding-bottom: 2em; }
-.footer-section-wrapper { position: relative; width: 100%;}
+.footer-section-wrapper { position: relative; width: 100%;
+	@include tablet { padding-top: 5em;	}
+}
 .footer-section { padding: 2em; text-transform: uppercase; font-size: .7em;
 	@include palm-three { width: 33%; float: left; }
+
 }
 .footer-line { width: 5em; height: .1em; background: black; margin: 1em auto; }
 .brand-link, .brand-link:visited { color: black; }
