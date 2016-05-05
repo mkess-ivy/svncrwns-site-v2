@@ -260,12 +260,16 @@
 .fullpage { position: relative; height: 100vh; width: 100%; 
     @include tablet { height: 110vh; }
 }
-.hero-section { margin: 2.5em; z-index: 3; position: relative;}
-.hero-prop { margin: 3.5em; }
+.hero-section { z-index: 3; position: relative; 
+    @include tablet { margin: 2.5em; }
+}
+.hero-prop { margin: 2em;
+    @include tablet {margin: 3.5em;} 
+}
 .hero-section-alt { margin: 0 1em; 
     @include tablet { margin: 0 4em; }
 }
-.huge-hero-logo { position: absolute; z-index: 2; bottom: 1em; padding: .5em; 
+.huge-hero-logo { position: absolute; z-index: 2; bottom: 5em; padding: .5em; 
     @include palm-mid { bottom: 0em; }
     @include tablet { bottom: 4em; }
 }
@@ -278,7 +282,9 @@
     @include palm-mid { height: 123vh; }
     @include palm-three { height: 137vh; }
 }*/
-.section-bg { background-size: cover; background-position: center center; width: 100%; z-index: 2; position: relative; padding: 3em;}
+.section-bg { background-size: cover; background-position: center center; width: 100%; z-index: 2; position: relative; padding: 2em;
+    @include tablet { padding: 3em; }
+}
 
 .section-no-height { height: auto; }
 .section-bg-no-height { background-size: cover; background-position: center center; width: 100%; z-index: 2; position: relative; }
@@ -288,13 +294,15 @@
     @include palm-three { height: 126vh; }
     @include tablet { top: 4em; }
 }*/
-.content-fill { position: relative; background: $background-color; padding: 1em; }
+.content-fill { position: relative; background: $background-color; 
+    @include tablet { padding: 1em;  }
+}
 .content-fill-no-height { height: auto; position: relative; background: $background-color; top: 2em; margin-bottom: 2em; }
 .section-identifier { position: relative; padding: .2em; font-family: $alt-font-1; font-size: $section-number-font-size; color: $brand-color; 
     @include palm-three { padding: .5em; }
 }
 .section-identifier-r { text-align: right; }
-.section-text-s { text-align: right; width: 80%;  font-size: 20px; font-family: $alt-font-2; line-height: 24px; text-decoration: underline; 
+.section-text-s { text-align: right; width: 90%;  font-size: 20px; font-family: $alt-font-2; line-height: 24px; text-decoration: underline; 
     @include palm-mid { font-size: 2.6em; line-height: 1em; }
 }
 
@@ -303,7 +311,7 @@
     @include palm-mid { width: 85%; }
 }
 
-.section-text-p-1 { padding-left: 1.4em; 
+.section-text-p-1 { position: relative; top: -.5em;
     @include palm-mid { position: relative; top: -1em; padding: 0; }
     /*@include tablet { left: -3em; }*/
 }
@@ -326,10 +334,11 @@
     @include palm-mid { font-size: 8px; }
     @include palm-three { width: 35%; right: 4em; }
  }*/
- .image-caption { font-size: 6px; width: 50%; position: relative; padding: 1em 2em;
+ .image-caption { font-size: 6px; width: 70%; position: relative; padding: 4em;
     @include palm {}
     @include palm-mid { font-size: 8px; }
     @include palm-three { width: 40%; }
+    @include tablet { padding: 1em 2em; }
  }
 .s-caption { font-size: 6px; }
 .p-caption { width: 45%; float: right; position: relative;right: 1em; bottom: -6em; }
@@ -409,6 +418,7 @@
 .bottom-footer-link a { text-decoration: none; color: $brand-color-2; font-size: 1.5em; font-family: $alt-font-1; line-height: 1em;
     @include palm-mid { font-size: 2em; }
 }
+.bottom-footer-link a:hover { color: black; }
 .bottom-footer-link { padding: 3em 0; text-align: center; 
     @include palm { padding: 6em 0; }
 }
@@ -426,7 +436,7 @@
 /* Misc */
 .alt-color { color: $primary-color; }
 .position-img-home-01 { margin: 0 1em; padding: 0 1em; position: relative; top: -.7em; 
-    padding: 0 4em;
+    @include tablet { padding: 0 4em; }
 }
 .position-img-home-03 { margin: 0 1em; padding: 5em .5em 0 3em; position: relative; }
 .image-number-r { position: relative; z-index: 5; top: 2em; right: 1em; float: right; color: $image-number-color;
