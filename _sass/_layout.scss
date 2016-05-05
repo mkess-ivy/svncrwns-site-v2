@@ -282,7 +282,7 @@
     @include palm-mid { height: 123vh; }
     @include palm-three { height: 137vh; }
 }*/
-.section-bg { background-size: cover; background-position: center center; width: 100%; z-index: 2; position: relative; padding: 2em;
+.section-bg { background-size: cover; background-position: center center; width: 100%; z-index: 2; position: relative; padding: 1em;
     @include tablet { padding: 3em; }
 }
 
@@ -479,13 +479,14 @@
 }
 
 .separator { height: 5em; width: 100%; }
+.margin-extra { margin: 1em; }
 /* #Misc */
 
 /* Test */
 /** { outline: 1px solid black; }*/
 .section-prop { background-color: purple; color: white; }
 .bg1 { background: url('/assets/images/section-03-bg.png') no-repeat center center / cover;}
-.herecontent { background: white; margin: 2em; position: relative; padding: 1em; }
+.herecontent { background: white; margin: 1em; position: relative; /* scrapped the padding */}
 .section-03-img1-prop { width: 55%; margin: 0 auto;
    
 }
