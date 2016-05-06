@@ -239,7 +239,8 @@
 /* BG properties and images */
 .hero-bg { background-size: cover; background-position: center center; width: 100%; height: 40vh; 
     @include palm-mid { width: 50%; height: 75vh; float: left; }
-    @include tablet { height: 85vh; }
+    @include tablet { height: 100vh; }
+
 }
 
 .hero-left-image { background-image: url('/assets/images/hero-left-image.png'); }
@@ -257,8 +258,8 @@
 
 
 /* Section */
-.fullpage { position: relative; height: 100vh; width: 100%; 
-    @include tablet { height: 110vh; }
+.fullpage { position: relative; width: 100%; 
+    @include tablet {  }
 }
 .hero-section { z-index: 3; position: relative; 
     @include tablet { margin: 2.5em; }
@@ -269,9 +270,10 @@
 .hero-section-alt { margin: 0 1em; 
     @include tablet { margin: 0 4em; }
 }
-.huge-hero-logo { position: absolute; z-index: 2; bottom: 5em; padding: .5em; 
-    @include palm-mid { bottom: 0em; }
-    @include tablet { bottom: 4em; }
+.huge-hero-logo { position: relative; z-index: 2; bottom: 8em; padding: .5em; 
+    @include palm { bottom: 10em; }
+    @include palm-mid { bottom: 9em; }
+    @include tablet { bottom: 12em; }
 }
 .hero-icon { position: absolute; top: 48%; right: 42%; 
     @include palm-mid { top: 13em; right: 47%; }
@@ -302,31 +304,50 @@
     @include palm-three { padding: .5em; }
 }
 .section-identifier-r { text-align: right; }
-.section-text-s { text-align: right; width: 90%;  font-size: 20px; font-family: $alt-font-2; line-height: 24px; text-decoration: underline; 
-    @include palm-mid { font-size: 2.6em; line-height: 1em; }
+.section-text-s { text-align: right; width: 90%;  font-size: 1.3em; font-family: $alt-font-2; line-height: 1em; text-decoration: underline; 
+    @include palm { font-size: 2em; width: 85%; }
+    @include palm-mid {  line-height: 1em; width: 85%; }
+    @include tablet-mid { font-size: 3em; }
 }
 
-.width-adj { width: 82%; 
-    @include palm { width: 70%; }
+.width-adj-1 { 
+    @include palm-three { width: 70%; }
+}
+.width-adj-3 { width: 82%; 
+    @include palm { width: 85%; }
     @include palm-mid { width: 85%; }
+    @include palm-three { width: 70%; }
+    @include tablet { width: 65%; }
+}
+
+.width-adj-5 { 
+    @include palm-three { width: 70%; }
+    @include tablet { width: 65%; }
 }
 
 .section-text-p-1 { position: relative; top: -.5em;
-    @include palm-mid { position: relative; top: -1em; padding: 0; }
-    /*@include tablet { left: -3em; }*/
+    @include palm { top: 0em; left: .5em; }
+    @include palm-mid { position: relative; top: -1em; padding: 0; top: 0em; left: .5em; }
+    @include palm-three { left: -1.5em; }
+    @include tablet-mid { top: -6em; }
 }
-.section-text-p-3 { position: absolute; top: 5em; right: 2em; 
-    @include palm { left: -1em; right: 0; }
-    @include palm-mid { left: 0; top: 3em; }
+.section-text-p-3 { position: absolute; top: 13em; right: 2em; 
+    @include palm { left: .5em; right: 0; top: 10.5em;}
+    @include palm-mid { left: 0; top: 16em; }
     @include tablet { left: -2em; }
+    @include tablet-mid { left: 0em; top: 3em; }
 }
-.section-text-p-5 { position: relative; top: -2em; left: 1em; 
-    @include palm { top: -5em; }
+.section-text-p-5 { position: relative; top: -1.5em; left: 0em; 
+    @include palm { top: -1em; }
     @include palm-mid { top: -.5em; }
+    @include palm-three { top: -1.5em; left: -2em; }
+    @include tablet-mid { left: 0em; }
 }
-.captions { position: relative; padding-top: 4em;
+.captions { position: relative; padding-top: 2em; padding-bottom: .5em;
     @include palm { padding-bottom: 1em; }
 }
+
+.captions-v2 { padding-top: 0em; }
 .image, .image-set { position: relative; }
 .image-set { position: relative; }
 /*.image-caption { font-size: 6px; width: 50%; float: right; position: absolute; right: 3em; bottom: 2em;
@@ -334,16 +355,18 @@
     @include palm-mid { font-size: 8px; }
     @include palm-three { width: 35%; right: 4em; }
  }*/
- .image-caption { font-size: 6px; width: 70%; position: relative; padding: 4em;
-    @include palm {}
+ .image-caption { font-size: 6px; width: 70%; position: relative; padding: 1em 3em;
+    @include palm { width: 55%; }
     @include palm-mid { font-size: 8px; }
     @include palm-three { width: 40%; }
     @include tablet { padding: 1em 2em; }
+    @include tablet-mid { font-size: 12px; width: 50%;}
  }
 .s-caption { font-size: 6px; }
 .p-caption { width: 45%; float: right; position: relative;right: 1em; bottom: -6em; }
 .image-caption-title { font-size: 8px; text-transform: uppercase; font-weight: bold; 
     @include palm-mid { font-size: 9px; }
+    @include tablet-mid { font-size: 14px; }
 }
 
 .note-meta { clear: both; @extend %clearfix; font-family: $alt-font-1; padding-top: 2em; position: relative; width: 90%; margin: 0 1em;
@@ -360,48 +383,58 @@
     @include palm-mid { padding: 1em 4em 0; }
     @include palm-three { padding: 4em 5em 0; }
 }
-.note-salutation { position: relative; padding: 2em 0; text-transform: uppercase; font-size: 1.1em; text-align: center; color: $primary-color; font-weight: lighter; 
+.note-salutation { position: relative; padding: 2em 0; text-transform: uppercase; text-align: center; color: $primary-color; font-weight: lighter; 
     @include palm-three { padding: 4em 0;  }
 }
 .note-author { display: block; font-style: normal; font-weight: bolder; letter-spacing: -1px; padding-top: .3em; }
-.note-title { font-size: 3.2em; font-family: $alt-font-1; text-align: center; text-transform: uppercase; opacity: .46; position: absolute; clear: both; top: 6em; line-height: 1em; 
+.note-title { font-size: 3.2em; font-family: $alt-font-1; text-align: center; text-transform: uppercase; opacity: .46; position: absolute; clear: both; top: 10em; line-height: 1em; 
+    @include palm { top: 6em; font-size: 4.2em; }
     @include palm-mid { font-size: 4.2em; top: 5em; line-height: 1.2em; }
+    @include palm-three { top: 6em; }
 }
 .note-title-alt-color { @include brandcolortext; font-size: 85px; 
+    @include palm { font-size: 1.7em; }
     @include palm-mid { font-size: 2em; }
 }
 
-.section-quote { width: 70%; text-align: right; margin: 0 auto; position: relative; padding-bottom: 2em; 
+.section-quote { width: 70%; text-align: right; margin: 0 auto; position: relative; padding-bottom: 7em; top: 10em;
+    @include palm { padding-bottom: 12em; }
     @include palm-mid { padding-top: 3em; }
+    @include tablet-mid { padding-top: 0em; }
 }
 .section-quotation { font-weight: bold; font-size: 60px; color: $brand-color-2; position: absolute; top: -.5em; left: -.2em;
+    @include palm { top: -.6em; left: -.5em; }
     @include palm-mid { top: 0em; left: -.5em; }
     @include tablet { font-size: 70px; top: -.1em; left: -0.1em; }
 }
 .section-quote-author { text-transform: uppercase; font-weight: bold; font-size: .8em; padding-top: 1em; text-align: right; }
+.section-quote-text {
+    @include tablet-mid { font-size: 1.2em; }
+}
 
 /* --Section 4- */
 .bg-s-4 { background: url('/assets/images/section-01-bg.png') no-repeat center center / cover; }
 .bg-s-5 { background: url('/assets/images/section-04a-bg.png') no-repeat center center / cover; }
-.produce { position: absolute; top: 2.5em; color: $white-bg; left: 0.5em; font-size: 2.3em; text-transform: uppercase; font-family: $alt-font-1; line-height: 1em; width: 100%;
-    @include palm { font-size: 3.3em; }
+.produce { position: absolute; top: 3.4em; color: $white-bg; left: 0.4em; font-size: 2.4em; text-transform: uppercase; font-family: $alt-font-1; line-height: 1em; width: 100%;
+    @include palm { font-size: 3.4em; }
     @include palm-mid { padding: 0 1em; }
     @include palm-three { padding: 0 2em; }
-    @include tablet { padding: 0 1.4em; font-size: 5.3em; left: 0;  }
+    @include tablet { padding: 0 1.3em; font-size: 4.5em; left: 0;  }
+    @include tablet-mid { font-size: 5.5em; padding: 0 1.1em; top: 2.6em; }
 }
 .featured-category { font-size: 0.8em; text-transform: uppercase; font-weight: bold; padding: 1.3em 0; 
     @include palm-three { padding: 5em 0; }
 }
 .featured-title { font-family: $alt-font-1; text-transform: uppercase; font-size: 1.5em; padding: 1.5em 0; 
     @include palm { width: 70%; margin: 0 auto; }
-    @include palm-three { padding: .5em 0 2em; font-size: 3.3em; line-height: 1em;  }
+    @include palm-three { padding: .5em 0 2em; font-size: 3.3em; line-height: 1em; width: 74%;}
 }
-.featured-text { padding: 0 1em 2em 2em; text-align: left; 
+.featured-text { padding: 0 1em 2em; text-align: left; 
     @include palm { padding: 0 2em 2em 3em; }
     @include palm-mid { padding: 0 4em 2em 4em; font-size: 1.2em; }
     @include palm-three { padding: 0 3.5em 4em 5em; }
 }
-.featured-button { background: #C68DAB; width: 55%; text-transform: uppercase; right: -1em; position: relative; padding: .75em; top: -1em; float: right;
+.featured-button { background: #C68DAB; width: 45%; text-transform: uppercase; right: -2em; position: relative; padding: .75em; top: -1em; float: right;
     @include palm { width: 40%; }
     @include palm-mid { width: 30%; }
     @include palm-three { width: 25%;}
@@ -415,7 +448,7 @@
 /* --#Section4- */
 
 /* Section 6 */
-.bottom-footer-link a { text-decoration: none; color: $brand-color-2; font-size: 1.5em; font-family: $alt-font-1; line-height: 1em;
+.bottom-footer-link a { text-decoration: none; color: $brand-color-2; font-size: 1.3em; font-family: $alt-font-1; line-height: 1em;
     @include palm-mid { font-size: 2em; }
 }
 .bottom-footer-link a:hover { color: black; }
@@ -457,18 +490,30 @@
 .palm-img {
     @include palm { width: 210px; }
     @include palm-mid { width: 19em; }
+    @include palm-three { width: 22em; }
 }
 
 .palm-img2 {
     @include palm { width: 300px; text-align: center; }
+    @include palm-three { width: 350px; }
     @include tablet { width: 26em; }
+    @include tablet-mid { width: 30em; }
 }
 .palm-img3 {
     @include palm { width: 13em; }
     @include palm-mid { width: 17em; }
+    @include palm-three { width: 21em; margin: 0 auto; }
 }
 .palm-img4 {
     @include palm-mid { width: 12em; }
+}
+
+.palm-img5 { 
+    @include palm-three { width: 10em;  }    
+}
+
+.palm-img6 {
+    @include palm-three { width: 7em; }
 }
 .height90 { 
     @include palm { height: 90vh; }
@@ -480,6 +525,7 @@
 
 .separator { height: 5em; width: 100%; }
 .margin-extra { margin: 1em; }
+.padding-extra { padding: 1em; }
 /* #Misc */
 
 /* Test */
@@ -487,29 +533,41 @@
 .section-prop { background-color: purple; color: white; }
 .bg1 { background: url('/assets/images/section-03-bg.png') no-repeat center center / cover;}
 .herecontent { background: white; margin: 1em; position: relative; /* scrapped the padding */}
-.section-03-img1-prop { width: 55%; margin: 0 auto;
-   
+.section-03-img1-prop { width: 70%; margin: 0 auto; top: 1em;
+   @include palm-three { width: 65%; }
 }
-.section-03-img2-prop { top: -3em; left: 3em; width: 42%;
-    /*@include palm { top: -3em; left: 3em; }*/
+.section-03-img2-prop { top: -3em; left: 1em; width: 54%;
+    @include palm { top: -3em; left: 1em; }
     @include palm-mid { left: 4em; top: -1em;}
-    @include tablet { top: -3em; }
+    @include palm-three { top: -5em; left: 1em; }
+    @include tablet { top: -5em; left: 3em; }
 } 
-.section-04-img { 
-    @include palm { text-align: center; }
+.section-04-img { padding-bottom: 4em; text-align: center; 
+    @include palm { }
     @include tablet { padding-bottom: 8em; }
 }
 
-.section-05-img1-prop { margin: 0 auto; width: 50%;}
-.section-05-img3-prop { top: 11em; position: absolute; right: 1em; 
+.section-05-img1-prop { margin: 0 auto; width: 73%; top: 1em;
+    @include tablet-mid { width: 50%; }
+}
+.section-05-img2-prop { top: -3em; left: 1em; width: 54%;
+    @include palm { top: -3em; left: 1em; }
+    @include palm-mid { left: 4em; top: -1em;}
+    @include palm-three { top: -5em; left: 1em; }
+    @include tablet { top: -5em; left: 3em; }
+    @include tablet-mid { left: 6em; }
+}
+.section-05-img3-prop { top: 8em; position: absolute; right: 1em; 
+    @include palm { top: 10em; right: 3em; }
     @include palm-mid { top: 14em; right: 4em; }
+    @include palm-three { width: 20%; }
 }
 .s-img-id {  color: $color_img_id; text-transform: uppercase; font-family: $alt-font-1; font-size: $size_img_id; width: 20%;}
 /*.p-img-id-1 { top: 2em; position: relative; left: 1em; 
     @include palm { left: 4em; }
 }
 .p-img-id-2 { position: relative; top: 2em; left: 0.6em;  }*/
-.p-img-id-3 { position: absolute; padding: 1em;  }
+.p-img-id-3 { position: absolute; padding: .5em;  }
 .captionthis { width: 55%; font-size: 6px; padding: 0 0 2em 2em; 
     @include palm { padding: 0 0 2em 4em; }
     @include palm-mid { font-size: 8px; }

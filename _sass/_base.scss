@@ -106,7 +106,7 @@ a {
     }
 }
 
-.section-link:hover { color: $brand-color; }
+.section-link:hover { color: $brand-color-2; }
 .section-link:visited { color: black; }
 
 
@@ -161,7 +161,7 @@ a {
 }
 
 .martop2 { margin-top: 2em; }
-.pad2 { margin-top: 6em; 
+.pad2 { margin-top: 2em; 
     @include palm { margin-top: 4em; }
 }
 .padbot3 { padding-bottom: 3em; }
