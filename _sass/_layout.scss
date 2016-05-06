@@ -1,28 +1,7 @@
 /*
  * Site header
 */
-/*.site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
-
-    // Positioning context for the mobile navigation icon
-    position: relative;
-}
-
-.site-title {
-    font-size: 26px;
-    line-height: 56px;
-    letter-spacing: -1px;
-    margin-bottom: 0;
-    float: left;
-
-    &,
-    &:visited {
-        color: $grey-color-dark;
-    }
-}
-
+/*
 .site-nav {
     float: right;
     line-height: 56px;
@@ -158,91 +137,14 @@
 
 
 
-/**
- * Page content
- */
-/*.page-content {
-    padding: $spacing-unit 0;
-}
 
-.page-heading {
-    font-size: 20px;
-}
-
-.post-list {
-    margin-left: 0;
-    list-style: none;
-
-    > li {
-        margin-bottom: $spacing-unit;
-    }
-}
-
-.post-meta {
-    font-size: $small-font-size;
-    color: $grey-color;
-}
-
-.post-link {
-    display: block;
-    font-size: 24px;
-}
-*/
-
-
-/**
- * Posts
- */
-/*.post-header {
-    margin-bottom: $spacing-unit;
-}
-
-.post-title {
-    font-size: 42px;
-    letter-spacing: -1px;
-    line-height: 1;
-
-    @include media-query($on-laptop) {
-        font-size: 36px;
-    }
-}*/
-/*
-.post-content {
-    margin-bottom: $spacing-unit;
-
-    h2 {
-        font-size: 32px;
-
-        @include media-query($on-laptop) {
-            font-size: 28px;
-        }
-    }
-
-    h3 {
-        font-size: 26px;
-
-        @include media-query($on-laptop) {
-            font-size: 22px;
-        }
-    }
-
-    h4 {
-        font-size: 20px;
-
-        @include media-query($on-laptop) {
-            font-size: 18px;
-        }
-    }
-}*/
 
 
 /* BG properties and images */
 .hero-bg { background-size: cover; background-position: center center; width: 100%; height: 40vh; 
     @include palm-mid { width: 50%; height: 75vh; float: left; }
     @include tablet { height: 100vh; }
-
 }
-
 .hero-left-image { background-image: url('/assets/images/hero-left-image.png'); }
 .hero-right-image { background-image: url('/assets/images/hero-right-image.png'); }
 .section01-bg-image { background-image: url('/assets/images/section-01-bg.png'); }
@@ -573,3 +475,60 @@
     @include palm-mid { font-size: 8px; }
 }
 /* #Test */
+
+
+/** =================
+    GLOBAL CLASSES
+
+    classes used throughout the entire website
+    =================
+*/
+.wrapper { padding-top: 4em; }
+.crwns-wrapper { max-width: calc((#{$content-width} / 2.5) - (#{$spacing-unit} * 2)); margin-right: auto; margin-left: auto; padding-right: $spacing-unit; padding-left: $spacing-unit; @extend %clearfix; 
+    @include laptop { max-width: calc(#{$content-width} - (#{$spacing-unit} * 2)); }
+    
+}
+
+.row { width: 100%; position: relative; }
+.box-page-title { float: right; transform: rotate(90deg); position: relative; right: -3.8em;  top: 4em;
+    @include mobile-mid {  }
+    @include pad { right: -5.1em; top: 32%; }
+    @include laptop { right: -8.6em;  top: 40%; }
+}
+    .box-page-title__text { font-family: $alt-font-1; font-size: 30px; 
+        @include pad { font-size: 60px; }
+        @include laptop { font-size: 100px; }
+    }
+
+.brand-link a { font-size: 30px; color: #C9A443; text-decoration: underline; font-family: $alt-font-1; line-height: .9em; }
+
+.martop2 { margin-top: 2em; }
+
+/** =================
+    REUSABLE CLASSES
+
+    component classes + modifiers
+    =================
+*/
+
+    /* - initially designed for Work page */
+.box-hero { width: auto; outline: 1px solid red; position: relative;}
+    .box-hero__img { width: 100%;
+        @include pad { width: 70%; }
+    }
+    .box-hero__img--right { float: right; }
+    .box-hero__text { width: 100%;
+        @include pad { width: 28%; }
+    }
+    .box-hero__text--right { float: right; }
+        .box-hero__text--date { font-size: 10px; text-transform: uppercase; font-weight: bold; }
+        .box-hero__text--date-position { position: relative; transform: rotate(-90deg); transform-origin: left top 0; left: -1.3em; top: 6.2em; }
+        .box-hero__text--title {}
+        .box-hero__text--content { font-size: 12px; padding-top: 1em; }
+
+
+
+
+
+
+

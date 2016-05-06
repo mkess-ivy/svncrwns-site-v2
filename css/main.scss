@@ -6,10 +6,10 @@
 
 
 // Our font families variables
-$base-font-family: Helvetica, Arial, sans-serif;
+
+$fontfamily-v1: Helvetica, Arial, sans-serif;
 $alt-font-1: Arial Black, sans-serif;
 $alt-font-2: "Maison Neue", sans-serif;
-
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $section-number-font-size: 1.2em;
@@ -32,7 +32,8 @@ $base-line-height: 1.5;
     color: $brand-color;
 }
 
-$spacing-unit:     30px;
+
+$spacing-unit:     20px;
 
 $text-color: #000;
 $primary-color: #4a4a4a;
@@ -49,16 +50,20 @@ $color_img_id: #ffffff;
  $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
-$content-width:    800px;
+$content-width:    1000px;
 
 $on-palm:           400px;
 $on-palm-mid:       500px;
 $on-palm-three:     600px;
 $on-tablet:         700px;
 $on-tablet-mid:   800px;
-$on-laptop:         900px;
+/*$on-laptop:         900px;
 $tablet-width:      768px;
-$desktop-width:     1024px;
+$desktop-width:     1024px;*/
+
+
+
+
 
 @mixin palm {
     @media screen and (min-width: #{$on-palm}) {
@@ -90,6 +95,64 @@ $desktop-width:     1024px;
     }
 }
 
+/* mixins for second set of media queries */
+/* other media queries to consider - i think i need to redo the home page a-fucking-gain -_-
+
+* mobile - from 300px
+* mobile-mid - from 480px
+* pad - from 786px
+* laptop - from 1024px
+* desktop and larger - from 1200 px
+*/
+
+$on-mobile:         300px;
+$on-mobile-mid:     480px;
+$on-pad:            750px;
+$on-laptop:         1024px;
+$on-desktop:        1200px;
+
+
+
+@mixin mobile {
+    @media screen and (min-width: #{$on-mobile}) {
+        @content;
+    }
+}
+
+@mixin mobile-mid {
+    @media screen and (min-width: #{$on-mobile-mid}) {
+        @content;
+    }
+}
+
+@mixin pad {
+    @media screen and (min-width: #{$on-pad}) {
+        @content;
+    }
+}
+
+@mixin laptop {
+    @media screen and (min-width: #{$on-laptop}) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media screen and (min-width: #{$on-desktop}) {
+        @content;
+    }
+}
+
+/* #mixins for second set of media queries */
+
+
+
+
+
+
+
+
+
 // Using media queries with like this:
 // @include media-query($on-palm) {
 //     .wrapper {
@@ -102,6 +165,12 @@ $desktop-width:     1024px;
         @content;
     }
 }
+
+
+
+
+
+
 
 
 
