@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<div class="press">
+
+  <header class="press-header">
+    <div class="press-topmsg"><span class="press-logo">svncrwns</span> presents</div>
+  </header>
+
+  <article class="press-content">
+    <div class="press-hero"><img src=" {{ page.img-path }}"/></div>
+    <div class="press-text">{{ page.description }}</div>
+    <div class="date-group">
+      <div class="press-date">{{ page.date }}</div>
+      <div class="press-time">{{ page.time }}</div>
+    </div>
+    <div class="partner-group">
+      <div class="partner-logo"><img src="{{ page.partner-logo }}"/></div>
+      <div class="partner-name">{{ page.partner-name }}</div>
+      <div class="partner-address">{{ page.partner-address }}</div>
+    </div>
+    <div class="press-button-group">
+      <a class="press-button" href="{{ page.pressrelease-path }}" target="_blank">view press release</a>
+    </div>
+  </article>
+
+</div>

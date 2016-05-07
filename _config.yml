@@ -12,3 +12,8 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
+
+collections:
+  catalog:
+    output: true
+    permalink: /catalog/:path/

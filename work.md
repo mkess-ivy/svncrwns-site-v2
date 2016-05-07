@@ -82,7 +82,7 @@ permalink: /work/
 
 	<!-- Pre-Footer -->
 	<div class="row">
-		<div class="bottom-footer-link">
+		<div class="sub-link">
       		<a href="/archive">view all projects</a>
     	</div>
 	    <div class="padbot3 center-pos">
