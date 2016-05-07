@@ -484,8 +484,10 @@
     =================
 */
 .wrapper { padding-top: 4em; }
-.crwns-wrapper { max-width: calc((#{$content-width} / 2.5) - (#{$spacing-unit} * 2)); margin-right: auto; margin-left: auto; padding-right: $spacing-unit; padding-left: $spacing-unit; @extend %clearfix; 
-    @include laptop { max-width: calc(#{$content-width} - (#{$spacing-unit} * 2)); }
+.crwns-wrapper {  margin-right: 5%; margin-left: 5%; padding-right: $spacing-unit; padding-left: $spacing-unit; @extend %clearfix; 
+   /* @include mobile-mid { margin-left: 5%; }*/
+    @include laptop { max-width: 1024px; margin: 0 auto;}
+    @include desktop { max-width: 1200px;  }
     
 }
 
@@ -500,9 +502,14 @@
         @include laptop { font-size: 100px; }
     }
 
-.brand-link a { font-size: 30px; color: #C9A443; text-decoration: underline; font-family: $alt-font-1; line-height: .9em; }
+.brand-link a { font-size: 30px; color: #C9A443; text-decoration: underline; font-family: $alt-font-1; line-height: .9em; 
+    @include pad { font-size: 55px; }
+    @include desktop { font-size: 85px; }
+}
 
-.martop2 { margin-top: 2em; }
+.martop2 { margin-top: 2em; 
+    @include mobile-mid { margin-top: 6em; }
+}
 
 /** =================
     REUSABLE CLASSES
@@ -512,19 +519,49 @@
 */
 
     /* - initially designed for Work page */
-.box-hero { width: auto; outline: 1px solid red; position: relative;}
+.box-hero { width: auto; position: relative;}
     .box-hero__img { width: 100%;
-        @include pad { width: 70%; }
+        @include mobile-mid { width: 70%; float: left;}
     }
     .box-hero__img--right { float: right; }
-    .box-hero__text { width: 100%;
-        @include pad { width: 28%; }
+    .box-hero__text { width: 100%; 
+        @include mobile-mid { width: 28%; float: left; padding-top: 1.5em; }
+        @include pad { padding-top: 3.5em; }
+        @include desktop { padding-top: 6.5em; }
     }
     .box-hero__text--right { float: right; }
-        .box-hero__text--date { font-size: 10px; text-transform: uppercase; font-weight: bold; }
-        .box-hero__text--date-position { position: relative; transform: rotate(-90deg); transform-origin: left top 0; left: -1.3em; top: 6.2em; }
-        .box-hero__text--title {}
-        .box-hero__text--content { font-size: 12px; padding-top: 1em; }
+        .box-hero__text--date { font-size: 10px; text-transform: uppercase; font-weight: bold; 
+            @include laptop { font-size: 14px; }
+        }
+        .box-hero__text--date-position { position: relative; transform: rotate(-90deg); transform-origin: left top 0; left: -1.3em; top: 6.2em; 
+            @include mobile-mid { transform: none; transform-origin: none; left: -1.3em; top: 1.5em; }
+            @include laptop { top: 3.5em; }
+            @include desktop { top: 0em; }
+        }
+
+        .box-hero__text--data-position-r { position: absolute !important; top: 29em !important; left: -1.5em !important; }
+
+        .box-hero__text--title, .box-hero__text--title-r { width: 80%; 
+            @include mobile-mid { position: relative; left: -1em; padding-top: 1em;}
+            @include pad { padding-top: 0em;  line-height: 40px; left: -.5em;}
+            @include laptop { left: -.5em; padding-top: .3em; }
+            @include desktop { left: -7.5em; }
+        }
+
+        .box-hero__text--title-r { 
+            @include pad { left: 0.2em !important; }
+            @include laptop { left: 0.9em !important;  }
+            @include desktop { left: 6.9em !important; }
+        }
+        .box-hero__text--content { font-size: 12px; padding-top: 1em; width: 80%; 
+            @include mobile-mid { left: 1em; position: relative; width: 100%; font-size: 10px; }
+            @include pad { font-size: 12px; padding-top: 2em; }
+            @include laptop { font-size: 14px; padding-top: 2.5em; }
+        }
+
+        .box-hero--right { 
+            @include mobile-mid {text-align: right; left: .5em; }
+        }
 
 
 

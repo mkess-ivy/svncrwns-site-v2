@@ -107,6 +107,7 @@ $desktop-width:     1024px;*/
 
 $on-mobile:         300px;
 $on-mobile-mid:     480px;
+$on-mobile-lg:      620px;
 $on-pad:            750px;
 $on-laptop:         1024px;
 $on-desktop:        1200px;
@@ -121,6 +122,12 @@ $on-desktop:        1200px;
 
 @mixin mobile-mid {
     @media screen and (min-width: #{$on-mobile-mid}) {
+        @content;
+    }
+}
+
+@mixin mobile-lg {
+    @media screen and (min-width: #{$on-mobile-lg}) {
         @content;
     }
 }

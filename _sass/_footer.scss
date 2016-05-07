@@ -1,5 +1,6 @@
 .footer-elements { padding: 3em 0;
 	@include tablet { padding: 10em 0 3em 0;}
+	@include laptop {     padding: 10em 0 14em 0; }
 }
 .footer-logo { padding-bottom: 2em; }
 .footer-section-wrapper { position: relative; width: 100%;
