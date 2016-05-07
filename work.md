@@ -79,7 +79,7 @@ permalink: /work/
 			</div>
 		</div>
 	</div>
-
+	
 	<!-- Pre-Footer -->
 	<div class="row">
 		<div class="sub-link">

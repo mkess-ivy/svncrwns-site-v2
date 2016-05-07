@@ -515,8 +515,10 @@
 }
 
 .brand-link a:hover { color: #745c1c; }
-.secondary-link a { font-size: 30px; color: black; text-decoration: none; 
+.secondary-link a { font-size: 30px; color: black; text-decoration: none; text-transform: uppercase;
     @include mobile-mid { font-size: 40px; }
+    @include pad { font-size: 50px; }
+    @include laptop { font-size: 60px; }
 }
 .sub-link a { text-decoration: none; color: $brand-color-2; font-size: 1.3em; font-family: $alt-font-1; line-height: 1em;
     @include palm-mid { font-size: 2em; }
