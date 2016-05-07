@@ -1,7 +1,7 @@
 ---
 layout: page
-title: about
-permalink: /about/
+title: work
+permalink: /work/
 ---
 
 <div class="box-page-title">
