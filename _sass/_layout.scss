@@ -483,25 +483,35 @@
     classes used throughout the entire website
     =================
 */
-.wrapper { padding-top: 4em; }
+.crwns-content { margin: 0 2%; position: relative; }
+.wrapper { padding-top: 4em; 
+    @include laptop { }
+    @include desktop { padding-top: 6em; }
+}
 .crwns-wrapper {  margin-right: 5%; margin-left: 5%; padding-right: $spacing-unit; padding-left: $spacing-unit; @extend %clearfix; 
-    @include mobile-mid { max-width: 480px; margin: 0 auto; }
-    @include mobile-lg { max-width: 620px; margin: 0 auto;}
-    @include pad { max-width: 750px; margin: 0 auto;}
-    @include laptop { max-width: 1024px; margin: 0 auto;}
-    @include desktop { max-width: 1200px;  }
+    @include mobile-mid { max-width: 480px; margin: 0 5%; }
+    @include mobile-lg { max-width: 620px; margin: 0 5%;}
+    @include pad { max-width: 750px; margin: 0 5%;}
+    @include laptop { max-width: 1024px; margin: 0 5%;}
+    @include desktop { max-width: 1200px;  margin: 0 auto;}
     
 }
 
 .row { width: 100%; position: relative; }
-.box-page-title { float: right; transform: rotate(90deg); position: relative; right: -3.8em;  top: 4em;
-    @include mobile-mid {  }
-    @include pad { right: -5.1em; top: 32%; }
-    @include laptop { right: -8.6em;  top: 40%; }
+.row.last { padding-bottom: 9em; }
+.box-page-title { float: right; transform: rotate(90deg); position: fixed; right: 1.6em; top: 27em; transform-origin: right bottom 0;
+    @include mobile-mid { right: 2.2em; }
+    @include mobile-lg { right: 2.9em; top: 32em; }
+    @include pad { right: 3.3em; top: 36em; }
+    @include laptop { right: 4.7em;  top: 41em; }
+    @include desktop { right: 5.4em; top: 45em; }
 }
     .box-page-title__text { font-family: $alt-font-1; font-size: 30px; 
+        @include mobile-mid { font-size: 40px; }
+        @include mobile-lg { font-size: 50px; }
         @include pad { font-size: 60px; }
-        @include laptop { font-size: 100px; }
+        @include laptop { font-size: 80px; }
+        @include desktop { font-size: 100px; }
     }
 
 .brand-link a { font-size: 30px; color: #C9A443; text-decoration: underline; font-family: $alt-font-1; line-height: .9em; 
@@ -512,8 +522,16 @@
 
 .brand-link a:hover { color: #745c1c; }
 
-.martop2 { margin-top: 2em; 
+.martop2:first-child { margin-top: 2em; 
     @include mobile-mid { margin-top: 6em; }
+}
+
+.martop2 { 
+    @include mobile-mid { margin-top: 6em; }
+    @include mobile-lg { margin-top: 8em; }
+    @include pad {margin-top: 10em; }
+    @include laptop { margin-top: 14em; }
+    @include laptop { margin-top: 18em; }
 }
 
 /** =================
@@ -543,12 +561,13 @@
             @include laptop { font-size: 14px; }
         }
         .box-hero__text--date-position { position: relative; transform: rotate(-90deg); transform-origin: left top 0; left: -1.3em; top: 6.2em; 
-            @include mobile-mid { transform: none; transform-origin: none; left: -1.3em; top: 1.5em; }
-            @include laptop { top: 3.5em; }
-            @include desktop { top: 0em; }
+            @include mobile-mid { transform: none; transform-origin: none; left: 1em; top: 1.5em;}
+            @include mobile-lg { top: 2.8em;  }
+            @include laptop { top: 3.5em; left: 1em;}
+            @include desktop { top: 0em; left: 1em; }
         }
 
-        .box-hero__text--data-position-r { /*position: absolute !important; top: 29em !important; left: -1.5em !important;*/ float: left;}
+        .box-hero__text--data-position-r, .box-hero__text--content-r { /*position: absolute !important; top: 29em !important; left: -1.5em !important;*/ float: left;}
 
         .box-hero__text--title, .box-hero__text--title-r { width: 70%; 
             @include mobile-mid { position: relative; left: -1em; padding-top: 1em; width: 80%;}
@@ -559,11 +578,11 @@
         }
 
         .box-hero__text--title-r { 
-            @include mobile-mid { left: 3em !important; }
-            @include mobile-lg { left: 6em !important; }
+            @include mobile-mid { left: 1.6em !important; padding-top: 2em !important;}
+            @include mobile-lg { left: 6em !important; padding-top: 3em !important;}
             @include pad { left: 3.2em !important; }
-            @include laptop { left: 4.9em !important;  }
-            @include desktop { left: 6.9em !important; }
+            @include laptop { left: 4.9em !important;  padding-top: 4.3em !important;}
+            @include desktop { left: 6.9em !important; padding-top: 2em !important;}
         }
         .box-hero__text--content { font-size: 12px; padding-top: 1em; width: 70%; 
             @include mobile-mid { left: 1em; position: relative; width: 100%; font-size: 10px; width: 80%; }
@@ -572,7 +591,8 @@
         }
 
         .box-hero--right { 
-            @include mobile-mid {text-align: right; left: .5em; }
+            @include mobile-mid {text-align: right; left: .5em; float: right;}
+            
         }
 
 

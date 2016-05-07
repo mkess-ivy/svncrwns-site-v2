@@ -1,3 +1,4 @@
+.site-footer { position: relative; z-index: 4; background: white; }
 .footer-elements { padding: 3em 0;
 	@include tablet { padding: 10em 0 3em 0;}
 	@include laptop {     padding: 10em 0 14em 0; }
