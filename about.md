@@ -30,7 +30,7 @@ permalink: /about/
 				<img src="http://placehold.it/800x600" />
 			</div>
 			<div class="box-hero__text">
-				<div class="box-hero--right box-hero__text--date box-hero__text--date-position box-hero__text--date-position-r ">feb 2016</div>
+				<div class="box-hero--right box-hero__text--date box-hero__text--date-position box-hero__text--date-position-r">feb 2016</div>
 				<div class="box-hero__text--title-r brand-link"><a href="/"><span class="nobr">Pop-Up</span> Museum: Sankofa</a></div>
 				<div class="box-hero--right box-hero__text--content">Some random subtext that explains this two word title</div>
 			</div>

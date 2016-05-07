@@ -485,7 +485,9 @@
 */
 .wrapper { padding-top: 4em; }
 .crwns-wrapper {  margin-right: 5%; margin-left: 5%; padding-right: $spacing-unit; padding-left: $spacing-unit; @extend %clearfix; 
-   /* @include mobile-mid { margin-left: 5%; }*/
+    @include mobile-mid { max-width: 480px; margin: 0 auto; }
+    @include mobile-lg { max-width: 620px; margin: 0 auto;}
+    @include pad { max-width: 750px; margin: 0 auto;}
     @include laptop { max-width: 1024px; margin: 0 auto;}
     @include desktop { max-width: 1200px;  }
     
@@ -504,6 +506,7 @@
 
 .brand-link a { font-size: 30px; color: #C9A443; text-decoration: underline; font-family: $alt-font-1; line-height: .9em; 
     @include pad { font-size: 55px; }
+    @include laptop { font-size: 70px; }
     @include desktop { font-size: 85px; }
 }
 
@@ -525,13 +528,17 @@
     .box-hero__img { width: 100%;
         @include mobile-mid { width: 70%; float: left;}
     }
-    .box-hero__img--right { float: right; }
+    .box-hero__img--right { 
+        @include mobile-mid {float: right; }
+    }
     .box-hero__text { width: 100%; 
         @include mobile-mid { width: 28%; float: left; padding-top: 1.5em; }
         @include pad { padding-top: 3.5em; }
         @include desktop { padding-top: 6.5em; }
     }
-    .box-hero__text--right { float: right; }
+    .box-hero__text--right { 
+        @include mobile-mid {float: right; }
+    }
         .box-hero__text--date { font-size: 10px; text-transform: uppercase; font-weight: bold; 
             @include laptop { font-size: 14px; }
         }
@@ -541,22 +548,25 @@
             @include desktop { top: 0em; }
         }
 
-        .box-hero__text--data-position-r { position: absolute !important; top: 29em !important; left: -1.5em !important; }
+        .box-hero__text--data-position-r { /*position: absolute !important; top: 29em !important; left: -1.5em !important;*/ float: left;}
 
-        .box-hero__text--title, .box-hero__text--title-r { width: 80%; 
-            @include mobile-mid { position: relative; left: -1em; padding-top: 1em;}
-            @include pad { padding-top: 0em;  line-height: 40px; left: -.5em;}
-            @include laptop { left: -.5em; padding-top: .3em; }
-            @include desktop { left: -7.5em; }
+        .box-hero__text--title, .box-hero__text--title-r { width: 70%; 
+            @include mobile-mid { position: relative; left: -1em; padding-top: 1em; width: 80%;}
+            @include mobile-lg { padding-top: 2em; left: -3em; }
+            @include pad { padding-top: 1.5em;  line-height: 40px; left: -3.5em;}
+            @include laptop { left: -5.5em; padding-top: 3.3em; }
+            @include desktop { left: -7.5em; padding-top: 0.3em;}
         }
 
         .box-hero__text--title-r { 
-            @include pad { left: 0.2em !important; }
-            @include laptop { left: 0.9em !important;  }
+            @include mobile-mid { left: 3em !important; }
+            @include mobile-lg { left: 6em !important; }
+            @include pad { left: 3.2em !important; }
+            @include laptop { left: 4.9em !important;  }
             @include desktop { left: 6.9em !important; }
         }
-        .box-hero__text--content { font-size: 12px; padding-top: 1em; width: 80%; 
-            @include mobile-mid { left: 1em; position: relative; width: 100%; font-size: 10px; }
+        .box-hero__text--content { font-size: 12px; padding-top: 1em; width: 70%; 
+            @include mobile-mid { left: 1em; position: relative; width: 100%; font-size: 10px; width: 80%; }
             @include pad { font-size: 12px; padding-top: 2em; }
             @include laptop { font-size: 14px; padding-top: 2.5em; }
         }
