@@ -507,6 +507,8 @@
     @include desktop { font-size: 85px; }
 }
 
+.brand-link a:hover { color: #745c1c; }
+
 .martop2 { margin-top: 2em; 
     @include mobile-mid { margin-top: 6em; }
 }
