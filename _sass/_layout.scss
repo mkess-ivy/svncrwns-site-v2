@@ -493,6 +493,10 @@
 
 .row { width: 100%; position: relative; }
 .row.last { padding-bottom: 9em; }
+.col-2 { width: 100%; position: relative;
+    @include mobile-lg { width: 48%; float: left; padding-right: 30px; }
+}
+.col2.last { padding-right: 0; }
 .box-page-title { float: right; transform: rotate(90deg); position: fixed; right: 1.6em; top: 27em; transform-origin: right bottom 0;
     @include mobile-mid { right: 2.2em; }
     @include mobile-lg { right: 2.9em; top: 32em; }
@@ -535,6 +539,8 @@
     @include mobile-mid { margin-top: 6em; }
 }
 
+.sub-link-v3 { padding: 0; }
+
 .martop2 { 
     @include mobile-mid { margin-top: 6em; }
     @include mobile-lg { margin-top: 8em; }
@@ -550,6 +556,8 @@
 .martop-catalog { 
     @include mobile-mid { margin-top: 5em; }
 }
+
+.center-position { text-align: center; }
 /** =================
     REUSABLE CLASSES
 
@@ -568,6 +576,7 @@
     .box-hero__img--right { 
         @include mobile-mid {float: right; }
     }
+    .box-hero__img--50 { width: 100%; position: relative;}
     .box-hero__text--right { 
         @include mobile-mid {float: right; }
     }
@@ -634,11 +643,15 @@
         
     }
 
+    .subheader__text { text-transform: uppercase; color: #C9A443; font-weight: bold; padding-bottom: 10px; }
+    .subheader__text--title { font-size: 22px; font-family: $alt-font-1; text-transform: uppercase;}
+    .subheader__text--subtext {  text-transform: none; font-weight: lighter;  font-size: 18px; }
+    .subheader__text--block { padding: 0 0 10px 10px; }
+    .offerings-block { text-align: center; font-size: 18px; padding-bottom: 3em; color: #4A4A4A; }
+    .offerings-block__title { font-family: $alt-font-1; font-size: 20px; }
+    .offerings-block__title--header { text-align: center; font-size: 20px; line-height: 1em; color: #4a4a4a;}
 
-
-
-
-
-
-
+/* One-off classes */
+.offerings-icon { width: 3em; }
+.get-links { text-align: center; padding: 5em 0; }
 
