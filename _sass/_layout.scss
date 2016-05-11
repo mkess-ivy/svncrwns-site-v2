@@ -497,12 +497,12 @@
     @include mobile-lg { width: 48%; float: left; padding-right: 30px; }
 }
 .col2.last { padding-right: 0; }
-.box-page-title { float: right; transform: rotate(90deg); position: fixed; right: 1.6em; top: 27em; transform-origin: right bottom 0;
+.box-page-title { float: right; transform: rotate(90deg); position: fixed; right: 1.6em; top: 25em; transform-origin: right bottom 0;
     @include mobile-mid { right: 2.2em; }
-    @include mobile-lg { right: 2.9em; top: 32em; }
-    @include pad { right: 3.3em; top: 36em; }
-    @include laptop { right: 4.7em;  top: 41em; }
-    @include desktop { right: 5.4em; top: 45em; }
+    @include mobile-lg { right: 2.9em; }
+    @include pad { right: 3.3em; }
+    @include laptop { right: 4.7em;  }
+    @include desktop { right: 5.4em; }
 }
     .box-page-title__text { font-family: $alt-font-1; font-size: 30px; 
         @include mobile-mid { font-size: 40px; }
@@ -540,6 +540,7 @@
 }
 
 .sub-link-v3 { padding: 0; }
+.sub-link-v3 a { font-size: 1em; }
 
 .martop2 { 
     @include mobile-mid { margin-top: 6em; }
@@ -576,7 +577,15 @@
     .box-hero__img--right { 
         @include mobile-mid {float: right; }
     }
-    .box-hero__img--50 { width: 100%; position: relative;}
+    .box-hero__img--text { position: absolute; top: 50%; font-weight: bold; font-family: $alt-font-1; left: .25em; color: white; font-size: 1em;
+        @include mobile-mid { top: 50%; font-size: 1.6em; left: .65em; }
+        @include mobile-lg { font-size: 1.1em; }
+        @include pad { font-size: 1.4em; }
+        @include laptop { font-size: 2em; }
+    }
+    .box-hero__img--50 { width: 100%; position: relative;
+        @include mobile-lg { width: 50%; float: left; }
+    }
     .box-hero__text--right { 
         @include mobile-mid {float: right; }
     }
@@ -618,7 +627,7 @@
         }
 
         .box-hero__text--title-v2 { text-align: center; margin: 0 auto; left: 0; right: 0; padding-top: 1em; width: 100%;
-            @include mobile-mid { width: 60%; }
+            @include mobile-mid { width: 65%; }
             @include laptop { width: 40%; }
         }
 
@@ -628,9 +637,9 @@
             @include laptop { font-size: 14px; padding-top: 2.5em; }
         }
 
-        .box-hero__text--content-v2 { text-align: left; margin: 0 auto; width: 100%; left: 0;
+        .box-hero__text--content-v2 { text-align: center; margin: 0 auto; width: 100%; left: 0;
             @include mobile-mid { font-size: 20px; }
-            @include pad { width: 60%; }
+            @include pad { width: 60%; text-align: left;}
             @include desktop { width: 50%; }
         }
 
@@ -644,14 +653,25 @@
     }
 
     .subheader__text { text-transform: uppercase; color: #C9A443; font-weight: bold; padding-bottom: 10px; }
-    .subheader__text--title { font-size: 22px; font-family: $alt-font-1; text-transform: uppercase;}
-    .subheader__text--subtext {  text-transform: none; font-weight: lighter;  font-size: 18px; }
-    .subheader__text--block { padding: 0 0 10px 10px; }
-    .offerings-block { text-align: center; font-size: 18px; padding-bottom: 3em; color: #4A4A4A; }
-    .offerings-block__title { font-family: $alt-font-1; font-size: 20px; }
-    .offerings-block__title--header { text-align: center; font-size: 20px; line-height: 1em; color: #4a4a4a;}
+    .subheader__text--title { font-size: 22px; font-family: $alt-font-1; text-transform: uppercase; 
+        @include laptop { font-size: 26px; }
+    }
+    .subheader__text--subtext {  text-transform: none; font-weight: lighter;  font-size: 18px; 
+        @include mobile-lg { font-size: 25px; line-height: 30px; }
+        @include laptop { font-size: 35px; line-height: 40px; }
+    }
+    .subheader__text--block { padding: 0 0 10px 10px; 
+        @include mobile-lg { padding: 0 0 10px 20px; }
+        @include laptop { padding: 0 0 10px 55px; }
+    }
+    .offerings-block { text-align: center; font-size: 18px; padding-bottom: 3em; color: #4A4A4A; 
+        @include laptop { width: 70%; margin: 0 auto; }
+    }
+    .offerings-block__text--title { font-family: $alt-font-1; font-size: 20px; }
+    .offerings-block__text--header { text-align: center; font-size: 20px; line-height: 1em; color: #4a4a4a;}
 
 /* One-off classes */
 .offerings-icon { width: 3em; }
 .get-links { text-align: center; padding: 5em 0; }
+.offerings-block__text--create { width: 60%; margin: 0 auto; }
 

@@ -43,75 +43,75 @@ permalink: /offerings/
 	<div class="separator"></div>
 
 	<div class="row clear">
-		<div class="box-hero__text--subtext">Here’s a brief list of our service offerings, let’s create something</div>
+		<div class="box-hero__text--subtext">Here’s a brief list of our service offerings, let’s create&nbsp;something</div>
 	</div>
 	<div class="separator"></div>
 
 	<div class="row clear">
 		<div class="col-2">
 			<div class="offerings-block">
-				<div class="offerings-block__title">
+				<div class="offerings-block__text--title">
 					branding + identity
 				</div>
-				<div>
+				<div class="offerings-block__text">
 					Street art seitan neutra jean shorts, franzen portland ethical next level
 				</div>
 			</div>
 			<div class="offerings-block">
-				<div class="offerings-block__title">
+				<div class="offerings-block__text--title">
 					web development
 				</div>
-				<div>
+				<div class="offerings-block__text">
 					Street art seitan neutra jean shorts, franzen portland ethical next level
 				</div>
 			</div>
 			<div class="offerings-block">
-				<div class="offerings-block__title">
+				<div class="offerings-block__text--title">
 					social campaigns
 				</div>
-				<div>
+				<div class="offerings-block__text">
 					Street art seitan neutra jean shorts, franzen portland ethical next level
 				</div>
 			</div>
 			<div class="offerings-block">
-				<div class="offerings-block__title">
+				<div class="offerings-block__text--title">
 					event production
 				</div>
-				<div>
+				<div class="offerings-block__text">
 					Street art seitan neutra jean shorts, franzen portland ethical next level
 				</div>
 			</div>
 		</div>
 		<div class="col-2 last">
 			<div class="offerings-block">
-				<div class="offerings-block__title">
+				<div class="offerings-block__text--title">
 					visual production
 				</div>
-				<div>
+				<div class="offerings-block__text">
 					Street art seitan neutra jean shorts, franzen portland ethical next level
 				</div>
 			</div>
 			<div class="offerings-block">
-				<div class="offerings-block__title">
+				<div class="offerings-block__text--title">
 					post-production
 				</div>
-				<div>
+				<div class="offerings-block__text">
 					Street art seitan neutra jean shorts, franzen portland ethical next level
 				</div>
 			</div>
 			<div class="offerings-block">
-				<div class="offerings-block__title">
+				<div class="offerings-block__text--title">
 					creative direction
 				</div>
-				<div>
+				<div class="offerings-block__text">
 					Street art seitan neutra jean shorts, franzen portland ethical next level
 				</div>
 			</div>
 			<div class="offerings-block">
-				<div class="offerings-block__title">
+				<div class="offerings-block__text--title">
 					concept design
 				</div>
-				<div>
+				<div class="offerings-block__text">
 					Street art seitan neutra jean shorts, franzen portland ethical next level
 				</div>
 			</div>
@@ -124,11 +124,11 @@ permalink: /offerings/
 	</div>
 	<div class="separator"></div>
 	<div class="row clear">
-		<div class="offerings-block__title offerings-block__title--header">
+		<div class="offerings-block__text--title offerings-block__text--header">
 			let's create something
 		</div>
 		<div class="separator"></div>
-		<div class="center-position">
+		<div class="center-position offerings-block__text--create">
 			SVNCRWNS is based in Baltimore, MD.  Established in 2013, the creative production house focuses on creating singular experiences for clients and target markets.  Small team, BIG ideas, even BIGGER production.  Let’s create some DOPE SHXT.  Think of anything yet?  
 		</div>
 	</div>
@@ -151,8 +151,9 @@ permalink: /offerings/
 			<div class="sub-link sub-link-v3"><a href="/">subscribe to the list</a></div>
 		</div>
 	    <div class="padbot3 center-pos">
+	    	<a href="/catalog"><img src="/assets/images/prev-nav.png" class="bottom-footer-nav" /></a>
 	        <a href=""><img src="/assets/images/back-to-top-nav.png" class="bottom-footer-nav" /></a>
-	        <a href=""><img src="/assets/images/next-nav.png" class="bottom-footer-nav" /></a>
+	        <a href="/"><img src="/assets/images/next-nav.png" class="bottom-footer-nav" /></a>
 	    </div>
 	</div>
 </div>
