@@ -674,4 +674,12 @@
 .offerings-icon { width: 3em; }
 .get-links { text-align: center; padding: 5em 0; }
 .offerings-block__text--create { width: 60%; margin: 0 auto; }
-
+.section-404 { font-size: 10.5em; font-family: $alt-font-1; position: absolute; overflow: hidden; top: -0.5em; left: -0.2em;
+    @include laptop {font-size: 35.5em; left: -0.1em; right: 0; }
+}
+.clear-404 { height: 10vh;
+    @include laptop {height: 65vh; }
+}
+.warn-404 { text-align: center; z-index: 5; position: relative; background: white; font-family: $alt-font-1; text-transform: uppercase;  margin: 0 auto; font-size: 0.6em; width: 42.9%; top: 4.5em; left: -1.4em;
+    @include laptop { font-size: 2em; top: 4em; width: 46%;}
+}
