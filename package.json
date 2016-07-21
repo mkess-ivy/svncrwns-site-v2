@@ -1,8 +1,8 @@
 {
-  "name": "my-project-name",
+  "name": "svncrwns-dev",
   "version": "0.1.0",
   "devDependencies": {
-    "grunt": "^1.0.1",
+    "grunt": "^0.4.0",
     "grunt-contrib-jshint": "^1.0.0",
     "grunt-contrib-nodeunit": "~0.4.1",
     "grunt-contrib-uglify": "~0.5.0"
