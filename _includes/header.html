@@ -1,8 +1,29 @@
 <header class="site-header">
     <!-- <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a> -->
-    <div class="header-row">
-    	<div class="icon"><img src="/assets/images/small-crown.png" /></div>
-    	<div class="logo"><img src="/assets/images/mobile-logo.png" /></div>
+    <div class="header-row" id="home">
+    	<!-- <div class="icon"><img src="/assets/images/small-crown.png" /></div> -->
+    	<!-- <div class="icon"><a href="{{ site.baseurl }}"><img src="/assets/images/crown-logo.svg" /></a></div> -->
+    	<!-- <div class="logo"><img src="/assets/images/mobile-logo.png" /></div> -->
+    	<div class="logo"><img src="/assets/images/svn-logo.svg" /></div>
+    </div>
+    <div id="menu-container">
+        <button id="overlay-menu" type="button" class="menuButton"></button>
+    </div>
+    <div class="overlay overlay-data">
+        <button type="button" class="overlay-close">Close</button>
+        <nav>
+            <ul>
+                <li><a href="{{ site.baseurl }}">Home.</a></li>
+                <li><a href="{{ site.baseurl }}/work">Work.</a></li>
+                <li><a href="{{ site.baseurl }}/offerings">Offerings.</a></li>
+                <li><a href="{{ site.baseurl }}/catalog">Catalog.</a></li>
+                <li><a href="/">Ideas.</a></li>
+                <li><a href="/">Events.</a></li>
+                <li><a href="/">Opportunities.</a></li>
+                <li class="menu-icons"><a href="http://www.instagram.com/svncrwns" target="_blank"><img src="/assets/images/instagram_icon-v2.png" width="7%" alt="SVNCRWNS Instagram Channel" title="SVNCRWNS Instagram Channel"/></a>&nbsp;<a href="http://www.instagram.com/svncrwns" target="_blank"><img src="/assets/images/vimeo_icon.png" width="7%"/ alt="SVNCRWNS Vimeo Channel" title="SVNCRWNS Vimeo Channel"></a></li>
+                <!-- <li class="copyright">svncrwns. &copy; 2016.</li> -->
+            </ul>
+        </nav>
     </div>
 
 </header>

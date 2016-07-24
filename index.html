@@ -2,181 +2,216 @@
 layout: default
 ---
 
-
-
- <!--  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul> -->
-  <div class="divider"></div>
+  <div class="clear"></div>
 
   <!-- Section Hero -->
   <section class="fullpage">
     <div class="hero-section hero-prop">
-      <div class="hero-icon"><img src="/assets/images/small-crown.png" /></div>
+      <div class="hero-icon"><img src="/assets/images/crown-logo-white.svg" /></div>
       <div class="hero-left-image hero-bg"></div>
       <div class="hero-right-image hero-bg"></div>
     </div>
     <div class="huge-hero-logo">
-      <img src="/assets/images/hero-huge-logo.png" />
+      <!-- <img src="/assets/images/hero-huge-logo.png" /> -->
+      <img src="/assets/images/svn-logo-big.svg" />
     </div>
   </section>
-  <!-- #Section Hero -->
 
+
+  <!-- Starting here - 7/21, refactoring code -->
   <!-- Section 01 -->
   <section class="section-bg section01-bg-image">
-    <div class="hero-section content-fill margin-extra">
-      <div class="section-identifier"><span class="alt-color">|</span>01</div>
-      <div class="position-img-home-01">
-        <div class="image-number-r">01</div>
-        <img src="/assets/images/section-01-bg.png" class="control-image home-image-prop" />
+
+    <div class="svn-wrapper">
+
+      <div class="svn-content">
+        <div class="svn-content_no">
+          <span class="alt-color">|</span>01
+        </div>
+        
+        <!-- removing class possvn-content_contain-imgition-img-home-01 -->
+        <div class="svn-content_contain-img">
+          <div class="svn-content_img-no svn-content_img-no-txt">01</div>
+          <!-- remove control-image , home-image-prop classes -->
+          <img src="/assets/images/section-01-bg.png" />
+        </div>
+
+        <div class="svn-content_contain-txt svn-content_headline">
+          In a world of hyper-visibility where the invisible is also celebrated
+        </div>
+
+        <!-- <div class="separator"></div> -->
+        <div class="svn-content_contain-caption">
+          <div class="svn-content_caption-title">
+            01. Something Bold
+          </div>
+          <div class="svn-content_caption-sm">
+            Type something of interest here, just some filler shxt, no one cares what this says anyway.  Just keep on typing, get it?!  Type something of interest here, just some filler shxt, no one cares what this says anyway.  Just keep on typing, get&nbsp;it?!
+          </div>  
+        </div>
+
       </div>
-      <div class="section-text-s section-text-p-1 width-adj-1"><a href="#" class="section-link">In a world of hyper-visibility  where the invisible is also celebrated</a></div>
-      <div class="separator"></div>
-      <div class="captions captions-v2">
-        <div class="image-caption">
-          <div class="image-caption-title">01. Something Bold</div>
-          <div class="image-caption-text">Type something of interest here, just some filler shxt, no one cares what this says anyway.  Just keep on typing, get it?!  Type something of interest here, just some filler shxt, no one cares what this says anyway.  Just keep on typing, get&nbsp;it?!</div>
+    </div>
+  </section>
+
+
+
+
+  <!-- Section 02 - ARTIST'S NOTE - NEEDS TEMPLATE LANG -->
+  <section class="clear">
+
+    <div class="svn-wrapper">
+
+      <div class="svn-content">
+        <div class="svn-content_no right"> 
+          <span class="alt-color">|</span>02
+        </div>
+        <div class="svn-content_contain-note">
+          <div class="svn-content_note-date">april 2016</div>
+          <div class="svn-content_note-issue">number 01</div>
+        </div>
+
+        <div class="svn-content_note-title">
+          artist's <span class="note-title-alt-color">note</span>
+        </div>
+        <div class="svn-content_note-text">
+          <p>Butcher four loko meggings crucifix man bun. You probably haven't heard of them farm-to-table microdosing pop-up 90's. Locavore truffaut hammock franzen raw denim +1, chartreuse waistcoat poutine. Mustache kombucha bushwick you probably haven't heard of them vinyl YOLO. Microdosing cliche taxidermy, williamsburg jean shorts biodiesel selfies whatever. Lomo cronut brunch skateboard sartorial synth readymade, swag yr art party. Chia craft beer trust fund sartorial celiac.</p>
+          <p>Butcher four loko meggings crucifix man bun. You probably haven't heard of them farm-to-table microdosing pop-up 90's. Locavore truffaut hammock franzen raw denim +1, chartreuse waistcoat poutine. Mustache kombucha bushwick you probably haven't heard of them vinyl YOLO. Microdosing cliche taxidermy, williamsburg jean shorts biodiesel selfies whatever. Lomo cronut brunch skateboard sartorial synth readymade, swag yr art party. Chia craft beer trust fund sartorial celiac.</p>
+          <div class="svn-content_note-salutation">peace, <span class="note-author">svncrwns founders</span></div>
         </div>
       </div>
     </div>
   </section>
-  <!-- #Section 01 -->
+  
 
-  <!-- Section 02 - ARTIST'S NOTE - NEEDS TEMPLATE LANG -->
-  <section class="section-bg-no-height clear">
-    <div class="hero-section hero-section-alt content-fill-no-height">
-      <div class="section-identifier section-identifier-r"><span class="alt-color">|</span>02</div>
-      <div class="note-meta">
-        <div class="note-date">april 2016</div>
-        <div class="note-issue">number 01</div>
-      </div>
-      <div class="note-title">artist's <span class="note-title-alt-color">note</span></div>
-      <div class="note-text">
-        <p>Butcher four loko meggings crucifix man bun. You probably haven't heard of them farm-to-table microdosing pop-up 90's. Locavore truffaut hammock franzen raw denim +1, chartreuse waistcoat poutine. Mustache kombucha bushwick you probably haven't heard of them vinyl YOLO. Microdosing cliche taxidermy, williamsburg jean shorts biodiesel selfies whatever. Lomo cronut brunch skateboard sartorial synth readymade, swag yr art party. Chia craft beer trust fund sartorial celiac.</p>
-        <p>Butcher four loko meggings crucifix man bun. You probably haven't heard of them farm-to-table microdosing pop-up 90's. Locavore truffaut hammock franzen raw denim +1, chartreuse waistcoat poutine. Mustache kombucha bushwick you probably haven't heard of them vinyl YOLO. Microdosing cliche taxidermy, williamsburg jean shorts biodiesel selfies whatever. Lomo cronut brunch skateboard sartorial synth readymade, swag yr art party. Chia craft beer trust fund sartorial celiac.</p>
-        <div class="note-salutation">peace, <span class="note-author">svncrwns founders</span></div>
-      </div>
-    </div>
-  </section>
-  <!-- #Section 02 -->
 
   <!-- Section 03-->
   <section class="section-bg bg1 clear">
-    <div class="herecontent">
-      <div class="section-identifier section-identifier-r"><span class="alt-color">|</span>03</div>
-      <div class="image-set">
-        <div class="image section-03-img1-prop">
-          <div class="s-img-id p-img-id-3">03a</div>
-          <img src="/assets/images/section-03-img1.png" class="palm-img" />
+
+    <div class="svn-wrapper">
+      <div class="svn-content">
+        <div class="svn-content_no right">
+          <span class="alt-color">|</span>03
         </div>
-        <div class="image section-03-img2-prop">
-          <div class="s-img-id p-img-id-3">03b</div>
-          <img src="/assets/images/section-03-img2.png" class="palm-img4"/>
-        </div>
-      </div>
-      <div class="section-text-s section-text-p-3 width-adj-3"><a href="#" class="section-link">In a world of hyper-visibility where the invisible is also celebrated</a></div>
-      <div class="section-quote">
-        <div class="section-quotation">&ldquo;</div>
-        <div class="section-quote-text">It’s been just over 10 years since Ashanti Marshall started playing shows in halls and cafes in and around her hometown of Edmonton, Alberta. At 18 she co-founded the rock band, Noisy Colours. and so on and so forth.</div>
-        <div class="section-quote-author">-afropunk</div>
-      </div>
-      <div class="captions">
-          <!-- <div class="captionthis"> -->
-          <div class="image-caption">
-            <div class="image-caption-title">03a. Something Bold</div>
-            <div class="">Type something of interest here, just some filler shxt, no one cares what this says anyway.  Just keep on typing, get it?!</div>
+        <div class="image-set">
+          <div class="svn-content_img1">
+            <div class="svn-content_img-no svn-content_img-no-txt">
+              03A
+            </div>
+            <img src="/assets/images/section-03-img1.png" class="palm-img" />
           </div>
-          <div class="image-caption">
-            <div class="image-caption-title">03b. Something Bold</div>
-            <div class="">Type something of interest here, just some filler shxt, no one cares what this says anyway.  Just keep on typing, get it?!</div>
+          <div class="section-03-img2-prop">
+            <div class="svn-content_img-no svn-content_img-no-txt left">
+            03B
+            </div>
+            <img src="/assets/images/section-03-img2.png" class="palm-img4"/>
           </div>
         </div>
+        <div class="svn-content_contain-txt svn-content_headline">In a world of hyper-visibility where the invisible is also celebrated</div>
+        <div class="section-quote">
+          <div class="section-quotation">&ldquo;</div>
+          <div class="section-quote-text">It’s been just over 10 years since Ashanti Marshall started playing shows in halls and cafes in and around her hometown of Edmonton, Alberta. At 18 she co-founded the rock band, Noisy Colours. and so on and so forth.</div>
+          <div class="section-quote-author">-afropunk</div>
+        </div>
+        
+        <div class="svn-content_contain-caption">
+          <div class="svn-content_caption-title">
+            03a. Something Bold
+          </div>
+          <div class="svn-content_caption-sm">
+            Type something of interest here, just some filler shxt, no one cares what this says anyway.  Just keep on typing, get it?!
+          </div>
+          <div class="svn-caption_spacer"></div>
+          <div class="svn-content_caption-title">
+            03b. Something Bold
+          </div>
+          <div class="svn-content_caption-sm">
+            Type something of interest here, just some filler shxt, no one cares what this says anyway.  Just keep on typing, get it?!</div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
-  <!-- #Section 03-->
+
 
   <!-- Produce Shxt Everyday -->
   <section class="section-bg clear">
-    <div class="herecontent">
-      <div class="section-identifier"><span class="alt-color">|</span>04</div>
-      <div class="image section-04-img">
-        <img src = "/assets/images/section-04-img1.png" class="pad2 palm-img2"/>
+    <div class="svn-wrapper">
+      <div class="svn-content">
+        <div class="svn-content_no"><span class="alt-color">|</span>04</div>
+        <div class="svn-content_contain-img pad2 width100">
+          <img src = "/assets/images/hands.jpeg"/>
+          <div class="svn-content_produce">produce shxt every day</div>
+        </div>
+        
       </div>
-      <div class="produce">produce shxt every day</div>
+    </div>
   </section>
-  <!-- #Produce Shxt Everyday -->
+  
 
   <!-- Featured Work -->
   <section class="section-bg bg-s-5 clear">
-    <div class="herecontent padding-extra center-pos">
-      <div class="featured-category">Featured Work</div>
-      <div class="featured-title">Baltimore Love Thing</div>
-      <div class="featured-text">
-        <p>Waistcoat chicharrones green juice flexitarian affogato celiac semiotics, cliche pickled pabst. Narwhal intelligentsia gentrify etsy farm-to-table banh mi. Everyday carry vinyl seitan, craft beer paleo wolf literally irony 90's bitters ethical retro banh mi. Bitters godard direct trade +1 post-ironic. </p>
-        <p>Waistcoat chicharrones green juice flexitarian affogato celiac semiotics, cliche pickled pabst. Narwhal intelligentsia gentrify etsy farm-to-table banh mi. Everyday carry vinyl seitan, craft beer paleo wolf literally irony 90's bitters ethical retro banh mi. Bitters godard direct trade +1 post-ironic. </p>
-      </div>
-      <div class="featured-button">
-        <div class="featured-button-text"><a href="#" class="featured-button-link">view project</a></div>
+    <div class="svn-wrapper mar4">
+      <div class="svn-content">
+        <div class="featured-category">Featured Work</div>
+        <div class="featured-title">Baltimore Love Thing</div>
+        <div class="featured-text">
+          <p>Waistcoat chicharrones green juice flexitarian affogato celiac semiotics, cliche pickled pabst. Narwhal intelligentsia gentrify etsy farm-to-table banh mi. Everyday carry vinyl seitan, craft beer paleo wolf literally irony 90's bitters ethical retro banh mi. Bitters godard direct trade +1 post-ironic. </p>
+          <p>Waistcoat chicharrones green juice flexitarian affogato celiac semiotics, cliche pickled pabst. Narwhal intelligentsia gentrify etsy farm-to-table banh mi. Everyday carry vinyl seitan, craft beer paleo wolf literally irony 90's bitters ethical retro banh mi. Bitters godard direct trade +1 post-ironic. </p>
+        </div>
+        <div class="featured-button">
+          <div class="featured-button-text"><a href="#" class="featured-button-link">view project</a></div>
+        </div>
       </div>
     </div>
   </section>
-  <!-- #Featured Work -->
+
 
   <!-- Section 05 -->
   <section class="section-bg bg1 clear">
-    <div class="herecontent">
-      <div class="section-identifier section-identifier-r"><span class="alt-color">|</span>05</div>
-      <div class="image-set clear">
-        <div class="image section-05-img1-prop">
-          <div class="s-img-id p-img-id-3">05a</div>
-          <img src="/assets/images/section-05a-img.png" class="palm-img3" />
+    <div class="svn-wrapper">
+      <div class="svn-content">
+        <div class="svn-content_no">
+          <span class="alt-color">|</span>05
         </div>
-        <div class="image section-05-img2-prop">
-          <div class="s-img-id p-img-id-3">05b</div>
-          <img src="/assets/images/section-05b-img.png" class="palm-img5"/>
+        <div class="svn-content_contain-img width200 clear">
+          <div class="image">
+            <div class="svn-content_img-no svn-content_img-no-txt">05A</div>
+            <img src="/assets/images/section-05a-img.png" class="palm-img3" />
+          </div>
+          <div class="image section-05-img2-prop">
+            <div class="svn-content_img-no svn-content_img-no-txt img-left small">05B</div>
+            <img src="/assets/images/section-05b-img.png" class="palm-img5"/>
+          </div>
+          <div class="image section-05-img3-prop">
+            <div class="svn-content_img-no svn-content_img-no-txt img-left small">VIBES</div>
+            <img src="/assets/images/section-05c-img.png" class="palm-img6"/>
+          </div>
         </div>
-        <div class="image section-05-img3-prop">
-          <div class="s-img-id p-img-id-3">vibes</div>
-          <img src="/assets/images/section-05c-img.png" class="palm-img6"/>
+        <div class="svn-content_contain-txt svn-content_headline">In a world of hyper-visibility where the invisible is also celebrated</div>
+        <div class="svn-content_contain-caption">
+          <div class="svn-content_caption-title">05a. Something Bold</div>
+          <div class="svn-content_caption-sm">Type something of interest here, just some filler shxt, no one cares what this says anyway.  Just keep on typing, get it?!</div>
+          <div class="svn-caption_spacer"></div>
+          <div class="svn-content_caption-title">05b. Something Bold</div>
+          <div class="svn-content_caption-sm">Type something of interest here, just some filler shxt, no one cares what this says anyway.  Just keep on typing, get it?!</div>
+          <div class="svn-caption_spacer"></div>
+          <div class="svn-content_caption-title">VIBES. Something Bold</div>
+          <div class="svn-content_caption-sm">Type something of interest here, just some filler shxt, no one cares what this says anyway.  Just keep on typing, get it?!</div>
         </div>
       </div>
-      <div class="section-text-s section-text-p-5 width-adj-5"><a href="#" class="section-link">In a world of hyper-visibility where the invisible is also celebrated</a></div>
-      <div class="captions">
-          <div class="image-caption">
-            <div class="image-caption-title">05a. Something Bold</div>
-            <div class="">Type something of interest here, just some filler shxt, no one cares what this says anyway.  Just keep on typing, get it?!</div>
-          </div>
-          <div class="image-caption">
-            <div class="image-caption-title">05b. Something Bold</div>
-            <div class="">Type something of interest here, just some filler shxt, no one cares what this says anyway.  Just keep on typing, get it?!</div>
-          </div>
-          <div class="image-caption">
-            <div class="image-caption-title">VIBES. Something Bold</div>
-            <div class="">Type something of interest here, just some filler shxt, no one cares what this says anyway.  Just keep on typing, get it?!</div>
-          </div>
-        </div>
     </div>
   </section>
-  <!-- #Section 05 -->
+  
 
   <!-- Beginning of Footer -->
   <section class="clear">
     <div class="bottom-footer-link">
-      <a href="">subscribe to svncrwns</a>
+      <a href="{{ site.baseurl }}/catalog">subscribe to svncrwns</a>
     </div>
     <div class="padbot3 center-pos">
-        <a href=""><img src="/assets/images/back-to-top-nav.png" class="bottom-footer-nav" /></a>
-        <a href=""><img src="/assets/images/next-nav.png" class="bottom-footer-nav" /></a>
+        <a href="#home"><img src="/assets/images/circle-up.svg" class="bottom-footer-nav" /></a>
+        <a href=""><img src="/assets/images/circle-right.svg" class="bottom-footer-nav" /></a>
     </div>
   </section>
   <!-- #Beginning of Footer -->

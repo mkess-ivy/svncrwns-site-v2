@@ -1,152 +1,13 @@
-/*
- * Site header
-*/
-/*
-.site-nav {
-    float: right;
-    line-height: 56px;
-
-    .menu-icon {
-        display: none;
-    }
-
-    .page-link {
-        color: $text-color;
-        line-height: $base-line-height;
-
-        // Gaps between nav items, but not on the first one
-        &:not(:first-child) {
-            margin-left: 20px;
-        }
-    }
-
-    @include media-query($on-palm) {
-        position: absolute;
-        top: 9px;
-        right: 30px;
-        background-color: $background-color;
-        border: 1px solid $grey-color-light;
-        border-radius: 5px;
-        text-align: right;
-
-        .menu-icon {
-            display: block;
-            float: right;
-            width: 36px;
-            height: 26px;
-            line-height: 0;
-            padding-top: 10px;
-            text-align: center;
-
-            > svg {
-                width: 18px;
-                height: 15px;
-
-                path {
-                    fill: $grey-color-dark;
-                }
-            }
-        }
-
-        .trigger {
-            clear: both;
-            display: none;
-        }
-
-        &:hover .trigger {
-            display: block;
-            padding-bottom: 5px;
-        }
-
-        .page-link {
-            display: block;
-            padding: 5px 10px;
-        }
-    }
-}*/
-
-
-
-/**
- * Site footer
- */
-/*.site-footer {
-    border-top: 1px solid $grey-color-light;
-    padding: $spacing-unit 0;
-}
-
-.footer-heading {
-    font-size: 18px;
-    margin-bottom: $spacing-unit / 2;
-}
-
-.contact-list,
-.social-media-list {
-    list-style: none;
-    margin-left: 0;
-}
-
-.footer-col-wrapper {
-    font-size: 15px;
-    color: $grey-color;
-    margin-left: -$spacing-unit / 2;
-    @extend %clearfix;
-}
-
-.footer-col {
-    float: left;
-    margin-bottom: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
-}
-
-.footer-col-1 {
-    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-    width:         calc(35% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-2 {
-    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-3 {
-    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-    width:         calc(45% - (#{$spacing-unit} / 2));
-}
-
-@include media-query($on-laptop) {
-    .footer-col-1,
-    .footer-col-2 {
-        width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-        width:         calc(50% - (#{$spacing-unit} / 2));
-    }
-
-    .footer-col-3 {
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
-    }
-}
-
-@include media-query($on-palm) {
-    .footer-col {
-        float: none;
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
-    }
-}*/
-
-
-
-
-
 
 /* BG properties and images */
-.hero-bg { background-size: cover; background-position: center center; width: 100%; height: 40vh; 
+.hero-bg { background-size: cover; background-position: bottom right; background-repeat: no-repeat; width: 100%; height: 50vh; 
     @include palm-mid { width: 50%; height: 75vh; float: left; }
     @include tablet { height: 100vh; }
 }
-.hero-left-image { background-image: url('/assets/images/hero-left-image.png'); }
-.hero-right-image { background-image: url('/assets/images/hero-right-image.png'); }
+/*.hero-left-image { background-image: url('/assets/images/hero-left-image.png'); }*/
+.hero-left-image { background-image: url('/assets/images/person.jpeg'); }
+/*.hero-right-image { background-image: url('/assets/images/hero-right-image.png'); }*/
+.hero-right-image { background-image: url('/assets/images/drive.jpeg'); }
 .section01-bg-image { background-image: url('/assets/images/section-01-bg.png'); }
 .section02-bg-image { background-image: url('/assets/images/section-02-bg.png'); }
 /* #BG properties and images */
@@ -154,12 +15,13 @@
 
 /* Header */
 .header-row { width: 100%; height: auto; display: inline-block; float: left; position: relative; background-color: $white-bg; }
-.icon { float: left; padding: 1em;}
-.logo { float: right; padding: 1em; }
+.icon { float: left; padding: .5em; width: 23%;}
+.logo { float: right; padding: .5em; width: 42%;}
 /* #Header */
 
 
 /* Section */
+
 .fullpage { position: relative; width: 100%; 
     @include tablet {  }
 }
@@ -172,12 +34,12 @@
 .hero-section-alt { margin: 0 1em; 
     @include tablet { margin: 0 4em; }
 }
-.huge-hero-logo { position: relative; z-index: 2; bottom: 8em; padding: .5em; 
+.huge-hero-logo { position: relative; z-index: 2; bottom: 5.5em; padding: .5em; 
     @include palm { bottom: 10em; }
     @include palm-mid { bottom: 9em; }
     @include tablet { bottom: 12em; }
 }
-.hero-icon { position: absolute; top: 48%; right: 42%; 
+.hero-icon { position: absolute; top: 42%; right: 32%; 
     @include palm-mid { top: 13em; right: 47%; }
 }
 
@@ -186,7 +48,7 @@
     @include palm-mid { height: 123vh; }
     @include palm-three { height: 137vh; }
 }*/
-.section-bg { background-size: cover; background-position: center center; width: 100%; z-index: 2; position: relative; padding: 1em;
+.section-bg { background-size: cover; background-position: center center; width: 100%; z-index: 2; position: relative; /*padding: 1em; using a wrapper to define margin */
     @include tablet { padding: 3em; }
 }
 
@@ -201,6 +63,9 @@
 .content-fill { position: relative; background: $background-color; 
     @include tablet { padding: 1em;  }
 }
+
+
+
 .content-fill-no-height { height: auto; position: relative; background: $background-color; top: 2em; margin-bottom: 2em; }
 .section-identifier { position: relative; padding: .2em; font-family: $alt-font-1; font-size: $section-number-font-size; color: $brand-color; 
     @include palm-three { padding: .5em; }
@@ -299,12 +164,12 @@
     @include palm-mid { font-size: 2em; }
 }
 
-.section-quote { width: 70%; text-align: right; margin: 0 auto; position: relative; padding-bottom: 7em; top: 10em;
+.section-quote { width: 70%; text-align: right; margin: 0 auto; position: relative; padding-bottom: 5em; top: 0em;
     @include palm { padding-bottom: 12em; }
     @include palm-mid { padding-top: 3em; }
     @include tablet-mid { padding-top: 0em; }
 }
-.section-quotation { font-weight: bold; font-size: 60px; color: $brand-color-2; position: absolute; top: -.5em; left: -.2em;
+.section-quotation { font-weight: bold; font-size: 60px; color: $brand-color; position: absolute; top: -.5em; left: -.2em;
     @include palm { top: -.6em; left: -.5em; }
     @include palm-mid { top: 0em; left: -.5em; }
     @include tablet { font-size: 70px; top: -.1em; left: -0.1em; }
@@ -317,17 +182,17 @@
 /* --Section 4- */
 .bg-s-4 { background: url('/assets/images/section-01-bg.png') no-repeat center center / cover; }
 .bg-s-5 { background: url('/assets/images/section-04a-bg.png') no-repeat center center / cover; }
-.produce { position: absolute; top: 3.4em; color: $white-bg; left: 0.4em; font-size: 2.4em; text-transform: uppercase; font-family: $alt-font-1; line-height: 1em; width: 100%;
+/*.produce { position: absolute; top: 3.4em; color: $white-bg; left: 0.4em; font-size: 2.4em; text-transform: uppercase; font-family: $alt-font-1; line-height: 1em; width: 100%;
     @include palm { font-size: 3.4em; }
     @include palm-mid { padding: 0 1em; }
     @include palm-three { padding: 0 2em; }
     @include tablet { padding: 0 1.3em; font-size: 4.5em; left: 0;  }
     @include tablet-mid { font-size: 5.5em; padding: 0 1.1em; top: 2.6em; }
-}
-.featured-category { font-size: 0.8em; text-transform: uppercase; font-weight: bold; padding: 1.3em 0; 
+}*/
+.featured-category { font-size: 0.8em; text-transform: uppercase; font-weight: bold; padding: 1.3em 0; text-align: center;
     @include palm-three { padding: 5em 0; }
 }
-.featured-title { font-family: $alt-font-1; text-transform: uppercase; font-size: 1.5em; padding: 1.5em 0; 
+.featured-title { font-family: $alt-font-1; text-transform: uppercase; font-size: 1.5em; padding: 1.5em 0; text-align: center;
     @include palm { width: 70%; margin: 0 auto; }
     @include palm-three { padding: .5em 0 2em; font-size: 3.3em; line-height: 1em; width: 74%;}
 }
@@ -428,11 +293,11 @@
 /** { outline: 1px solid black; }*/
 .section-prop { background-color: purple; color: white; }
 .bg1 { background: url('/assets/images/section-03-bg.png') no-repeat center center / cover;}
-.herecontent { background: white; margin: 1em; position: relative; /* scrapped the padding */}
+/*.herecontent { background: white; margin: 1em; position: relative;*/ /* scrapped the padding } */
 .section-03-img1-prop { width: 70%; margin: 0 auto; top: 1em;
    @include palm-three { width: 65%; }
 }
-.section-03-img2-prop { top: -3em; left: 1em; width: 54%;
+.section-03-img2-prop { top: -3em; padding-left: 1em; width: 54%; position: relative;
     @include palm { top: -3em; left: 1em; }
     @include palm-mid { left: 4em; top: -1em;}
     @include palm-three { top: -5em; left: 1em; }
@@ -446,7 +311,7 @@
 .section-05-img1-prop { margin: 0 auto; width: 73%; top: 1em;
     @include tablet-mid { width: 50%; }
 }
-.section-05-img2-prop { top: -3em; left: 1em; width: 54%;
+.section-05-img2-prop { top: -3em; padding-left: 0em; width: 54%;
     @include palm { top: -3em; left: 1em; }
     @include palm-mid { left: 4em; top: -1em;}
     @include palm-three { top: -5em; left: 1em; }
