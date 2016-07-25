@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: work
 permalink: /work/
 ---
@@ -10,9 +10,9 @@ permalink: /work/
 
 <div class="crwns-wrapper clear">
 	
-	<!-- #Work1 -->
-	<div class="row martop2 clear">
-		<div class="box-hero">
+	<!-- #Work1 , removed martop2 from box-hero -->
+	<div class="row clear">
+		<div class="box-hero clear">
 			<div class="box-hero__img">
 				<img src="http://placehold.it/800x600" />
 			</div>
@@ -86,8 +86,8 @@ permalink: /work/
       		<a href="/archive">view all projects</a>
     	</div>
 	    <div class="padbot3 center-pos">
-	        <a href=""><img src="/assets/images/back-to-top-nav.png" class="bottom-footer-nav" /></a>
-	        <a href=""><img src="/assets/images/next-nav.png" class="bottom-footer-nav" /></a>
+	        <a href=""><img src="/assets/images/circle-up.svg" class="bottom-footer-nav" /></a>
+	        <a href=""><img src="/assets/images/circle-right.svg" class="bottom-footer-nav" /></a>
 	    </div>
 	</div>
 </div>

@@ -1,14 +1,14 @@
 
 /* BG properties and images */
 .hero-bg { background-size: cover; background-position: bottom right; background-repeat: no-repeat; width: 100%; height: 50vh; 
-    @include palm-mid { width: 50%; height: 75vh; float: left; }
+    @include palm-mid { width: 50%; height: 90vh; float: left; }
     @include tablet { height: 100vh; }
 }
 /*.hero-left-image { background-image: url('/assets/images/hero-left-image.png'); }*/
-.hero-left-image { background-image: url('/assets/images/person.jpeg'); }
+.hero-left-image { background-image: url('/assets/images/person.jpg'); }
 /*.hero-right-image { background-image: url('/assets/images/hero-right-image.png'); }*/
-.hero-right-image { background-image: url('/assets/images/drive.jpeg'); }
-.section01-bg-image { background-image: url('/assets/images/section-01-bg.png'); }
+.hero-right-image { background-image: url('/assets/images/drive.jpg'); }
+.section01-bg-image { background-image: url('/assets/images/bridge.jpeg'); }
 .section02-bg-image { background-image: url('/assets/images/section-02-bg.png'); }
 /* #BG properties and images */
 
@@ -35,12 +35,12 @@
     @include tablet { margin: 0 4em; }
 }
 .huge-hero-logo { position: relative; z-index: 2; bottom: 5.5em; padding: .5em; 
-    @include palm { bottom: 10em; }
-    @include palm-mid { bottom: 9em; }
+    /*@include palm { bottom: 10em; }*/
+    @include palm-mid { bottom: 2em; }
     @include tablet { bottom: 12em; }
 }
 .hero-icon { position: absolute; top: 42%; right: 32%; 
-    @include palm-mid { top: 13em; right: 47%; }
+    @include palm-mid { top: 13em; right: 37%; }
 }
 
 /*.section-bg { background-size: cover; background-position: center center; height: 100vh; width: 100%; z-index: 2; position: relative; 
@@ -165,13 +165,13 @@
 }
 
 .section-quote { width: 70%; text-align: right; margin: 0 auto; position: relative; padding-bottom: 5em; top: 0em;
-    @include palm { padding-bottom: 12em; }
+    /*@include palm { padding-bottom: 12em; }*/
     @include palm-mid { padding-top: 3em; }
     @include tablet-mid { padding-top: 0em; }
 }
 .section-quotation { font-weight: bold; font-size: 60px; color: $brand-color; position: absolute; top: -.5em; left: -.2em;
     @include palm { top: -.6em; left: -.5em; }
-    @include palm-mid { top: 0em; left: -.5em; }
+    @include palm-mid { top: 0em; left: -.5em; font-size: 90px; }
     @include tablet { font-size: 70px; top: -.1em; left: -0.1em; }
 }
 .section-quote-author { text-transform: uppercase; font-weight: bold; font-size: .8em; padding-top: 1em; text-align: right; }
@@ -181,7 +181,7 @@
 
 /* --Section 4- */
 .bg-s-4 { background: url('/assets/images/section-01-bg.png') no-repeat center center / cover; }
-.bg-s-5 { background: url('/assets/images/section-04a-bg.png') no-repeat center center / cover; }
+.bg-s-5 { background: url('/assets/images/bikes.jpeg') no-repeat center center / cover; }
 /*.produce { position: absolute; top: 3.4em; color: $white-bg; left: 0.4em; font-size: 2.4em; text-transform: uppercase; font-family: $alt-font-1; line-height: 1em; width: 100%;
     @include palm { font-size: 3.4em; }
     @include palm-mid { padding: 0 1em; }
@@ -198,8 +198,8 @@
 }
 .featured-text { padding: 0 1em 2em; text-align: left; 
     @include palm { padding: 0 2em 2em 3em; }
-    @include palm-mid { padding: 0 4em 2em 4em; font-size: 1.2em; }
-    @include palm-three { padding: 0 3.5em 4em 5em; }
+    @include palm-mid { padding: 0 2em 2em 2em; font-size: 1.2em; }
+    /*@include palm-three { padding: 0 3.5em 4em 5em; }*/
 }
 .featured-button { background: #C68DAB; width: 45%; text-transform: uppercase; right: -2em; position: relative; padding: .75em; top: -1em; float: right;
     @include palm { width: 40%; }
@@ -292,14 +292,14 @@
 /* Test */
 /** { outline: 1px solid black; }*/
 .section-prop { background-color: purple; color: white; }
-.bg1 { background: url('/assets/images/section-03-bg.png') no-repeat center center / cover;}
+.bg1 { background: url('/assets/images/wall.jpeg') no-repeat center center / cover;}
 /*.herecontent { background: white; margin: 1em; position: relative;*/ /* scrapped the padding } */
 .section-03-img1-prop { width: 70%; margin: 0 auto; top: 1em;
    @include palm-three { width: 65%; }
 }
 .section-03-img2-prop { top: -3em; padding-left: 1em; width: 54%; position: relative;
-    @include palm { top: -3em; left: 1em; }
-    @include palm-mid { left: 4em; top: -1em;}
+    @include palm { width: 65%; }
+    @include palm-mid { top: -1em;}
     @include palm-three { top: -5em; left: 1em; }
     @include tablet { top: -5em; left: 3em; }
 } 
@@ -311,17 +311,17 @@
 .section-05-img1-prop { margin: 0 auto; width: 73%; top: 1em;
     @include tablet-mid { width: 50%; }
 }
-.section-05-img2-prop { top: -3em; padding-left: 0em; width: 54%;
+.section-05-img2-prop { top: -1em; left: -1em; width: 60%;
     @include palm { top: -3em; left: 1em; }
     @include palm-mid { left: 4em; top: -1em;}
     @include palm-three { top: -5em; left: 1em; }
     @include tablet { top: -5em; left: 3em; }
     @include tablet-mid { left: 6em; }
 }
-.section-05-img3-prop { top: 8em; position: absolute; right: 1em; 
-    @include palm { top: 10em; right: 3em; }
-    @include palm-mid { top: 14em; right: 4em; }
-    @include palm-three { width: 20%; }
+.section-05-img3-prop { top: -2em; position: relative; right: -1em; width: 60%; float: right;
+    @include palm { top: -4em; width: 70%; }
+    @include palm-mid { top: -4em; right: 4em; }
+    /*@include palm-three { width: 20%; }*/
 }
 .s-img-id {  color: $color_img_id; text-transform: uppercase; font-family: $alt-font-1; font-size: $size_img_id; width: 20%;}
 /*.p-img-id-1 { top: 2em; position: relative; left: 1em; 
