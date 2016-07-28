@@ -16,7 +16,9 @@
 /* Header */
 .header-row { width: 100%; height: auto; display: inline-block; float: left; position: relative; background-color: $white-bg; }
 .icon { float: left; padding: .5em; width: 23%;}
-.logo { float: right; padding: .5em; width: 42%;}
+.logo { float: right; padding: .5em; width: 42%;
+    @include tablet { width: 35%; }
+}
 /* #Header */
 
 
@@ -37,7 +39,7 @@
 .huge-hero-logo { position: relative; z-index: 2; bottom: 5.5em; padding: .5em; 
     /*@include palm { bottom: 10em; }*/
     @include palm-mid { bottom: 2em; }
-    @include tablet { bottom: 12em; }
+    @include tablet { bottom: 7em; }
 }
 .hero-icon { position: absolute; top: 42%; right: 32%; 
     @include palm-mid { top: 13em; right: 37%; }
@@ -49,7 +51,7 @@
     @include palm-three { height: 137vh; }
 }*/
 .section-bg { background-size: cover; background-position: center center; width: 100%; z-index: 2; position: relative; /*padding: 1em; using a wrapper to define margin */
-    @include tablet { padding: 3em; }
+    @include tablet { padding: 2em 0; }
 }
 
 .section-no-height { height: auto; }
@@ -162,6 +164,7 @@
 .note-title-alt-color { @include brandcolortext; font-size: 85px; 
     @include palm { font-size: 1.7em; }
     @include palm-mid { font-size: 2em; }
+    @include tablet { font-size: 1.7em; }
 }
 
 .section-quote { width: 70%; text-align: right; margin: 0 auto; position: relative; padding-bottom: 5em; top: 0em;
@@ -301,7 +304,7 @@
     @include palm { width: 65%; }
     @include palm-mid { top: -1em;}
     @include palm-three { top: -5em; left: 1em; }
-    @include tablet { top: -5em; left: 3em; }
+    @include tablet { width: 45%; padding-left: 0; top: -5em; left: 3em; }
 } 
 .section-04-img { padding-bottom: 4em; text-align: center; 
     @include palm { }

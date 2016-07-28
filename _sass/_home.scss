@@ -1,5 +1,7 @@
 /* Header */
-#menu-container { position: absolute; top: 0; bottom: 0; left: 0; right: 0; height: 80px; width: 100px; }
+#menu-container { position: absolute; top: 0; bottom: 0; left: 0; right: 0; height: 80px; width: 100px; 
+  @include tablet { left: 30px; }
+}
 #overlay-menu { margin: 0.2em; }
 .menuButton { text-indent: 0; color: #fff; font-size: 3em; position: relative; background: url("/assets/images/crown-logo.svg") no-repeat center center; background-size: cover; width: 75%; height: 75%; border: 1px solid white; }
 .menuButton:hover { background: url("/assets/images/crown-logo-brand2.svg") no-repeat center center; background-size: cover; }
@@ -30,8 +32,9 @@
 
 /* Home */
 .svn-wrapper { width: 300px; padding: 2em 0; margin: 0 auto;
-  @include palm { width: 350px; }
+  /*@include palm { width: 350px; }*/
   @include palm-mid { width: 450px; }
+  @include tablet { width: 600px; }
 }
 
 .svn-content { position: relative; background: $background-color;}
@@ -59,19 +62,29 @@
 
 .svn-content_contain-caption { position: relative; width: 90%; padding: 1.5em;
   @include palm-mid { width: 75%; }
+  @include tablet { clear: both; padding-top: 5em; }
 }
 .svn-content_caption-sm { font-size: 10px; }
-.svn-content_caption-title { .svn-content_note-salutationfont-size: 12px; text-transform: uppercase; font-weight: bold; }
+.svn-content_caption-title { font-size: 12px; text-transform: uppercase; font-weight: bold; }
 
-.svn-content_note-date { text-align: center; font-size: 2.5em; color: rgba(155,155,155, 0.45); }
+.svn-content_note-date { text-align: center; font-size: 2.5em; color: rgba(155,155,155, 0.45); 
+  @include tablet { text-align: left; }
+}
 .svn-content_note-issue { text-transform: uppercase; position: absolute;top: 1.3em; 
   @include palm-mid { left: 4em; }
+  @include tablet { left: 2em; }
 }
 
-.svn-content_note-text { font-style: oblique; font-size: 1.05em; padding-top: 1em;}
-.svn-content_note-text p { padding-bottom: 1em; }
-.svn-content_note-title { font-size: 3.2em; font-family: $alt-font-1; text-align: center; text-transform: uppercase;opacity: .26; position: absolute; /* clear: both; */ top: 8em; line-height: 1em; }
-.svn-content_note-salutation { position: relative; padding: 1em 0; text-transform: uppercase; text-align: center; color: #4a4a4a; font-weight: lighter; }
+.svn-content_note-text { font-style: oblique; font-size: 1.05em; padding-top: 1em; }
+.svn-content_note-text p { padding-bottom: 1em; 
+  @include tablet { width: 50%; float: left; padding-right: 1em; }
+}
+.svn-content_note-title { font-size: 3.2em; font-family: $alt-font-1; text-align: center; text-transform: uppercase;opacity: .26; position: absolute; /* clear: both; */ top: 8em; line-height: 1em; 
+  @include tablet { font-size: 6em; top: 1.8em; line-height: 1.1em; }
+}
+.svn-content_note-salutation { position: relative; padding: 1em 0; text-transform: uppercase; text-align: center; color: #4a4a4a; font-weight: lighter; 
+  @include tablet { text-align: right; padding: 3em 0; }
+}
 .svn-content_note-author { display: block; font-style: normal; font-weight: bolder; letter-spacing: -1px; padding-top: .3em; }
 
 
@@ -81,6 +94,28 @@
 .svn-content_produce { position: absolute; top: 2em; color: #fff; font-size: 2.4em; text-transform: uppercase; font-family: $alt-font-1; line-height: 1em; 
   @include palm-mid { width: 75%; text-align: left; font-size: 4em; left: 1em; top: 1em; }
 }
+
+
+/* Desktop positioning of images */
+.svn-special_one { 
+  @include tablet { width: 60%; margin: auto; float: right; right: 1.5em; }
+}
+.svn-special_three-a {
+  @include tablet { width: 55%; left: -2em; }
+}
+
+.svn-special_one-text { 
+  @include tablet {clear: both; position: absolute; width: 58%; top: 2.5em; background: rgba(255,255,255, 0.5); padding: .2em; }
+}
+.svn-special_three-text {
+  @include tablet { width: 60%; position: absolute; top: 4em; right: 0; background: rgba(255,255,255,0.5); padding: .2em; } 
+}
+
+
+
+
+
+
 
 
 .pad2 { padding: 2em 0; }
