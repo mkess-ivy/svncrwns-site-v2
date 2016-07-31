@@ -8,16 +8,19 @@
 .hero-left-image { background-image: url('/assets/images/person.jpg'); }
 /*.hero-right-image { background-image: url('/assets/images/hero-right-image.png'); }*/
 .hero-right-image { background-image: url('/assets/images/drive.jpg'); }
-.section01-bg-image { background-image: url('/assets/images/bridge.jpeg'); }
+.section01-bg-image { background-image: url('/assets/images/geostairs.jpg'); }
 .section02-bg-image { background-image: url('/assets/images/section-02-bg.png'); }
+.section-bg_three { background-image: url('/assets/images/person.jpg'); }
 /* #BG properties and images */
 
 
 /* Header */
 .header-row { width: 100%; height: auto; display: inline-block; float: left; position: relative; background-color: $white-bg; }
 .icon { float: left; padding: .5em; width: 23%;}
-.logo { float: right; padding: .5em; width: 42%;
-    @include tablet { width: 35%; }
+.logo { display: none; float: right; padding: .5em; /*width: 42%;*/
+    /*@include mobile-mid { }*/
+    @include tablet { display: block;  /*width: 35%;*/ }
+    @include laptop {/* width: 29%; */}
 }
 /* #Header */
 
@@ -28,10 +31,11 @@
     @include tablet {  }
 }
 .hero-section { z-index: 3; position: relative; 
-    @include tablet { margin: 2.5em; }
+    /*@include tablet { margin: 2.5em; }*/
 }
 .hero-prop { margin: 2em;
     @include tablet {margin: 3.5em;} 
+    @include laptop { margin: 5.5em; }
 }
 .hero-section-alt { margin: 0 1em; 
     @include tablet { margin: 0 4em; }
@@ -40,9 +44,13 @@
     /*@include palm { bottom: 10em; }*/
     @include palm-mid { bottom: 2em; }
     @include tablet { bottom: 7em; }
+    @include laptop { bottom: 5.5em; text-align: center; }
 }
-.hero-icon { position: absolute; top: 42%; right: 32%; 
+.hero-icon { position: absolute; top: 42%; right: 25%; 
+    @include mobile-mid { right: 32%; }
     @include palm-mid { top: 13em; right: 37%; }
+    @include tablet { right: 40%; top: 15em;}
+    @include laptop { right: 43%; }
 }
 
 /*.section-bg { background-size: cover; background-position: center center; height: 100vh; width: 100%; z-index: 2; position: relative; 
@@ -51,8 +59,11 @@
     @include palm-three { height: 137vh; }
 }*/
 .section-bg { background-size: cover; background-position: center center; width: 100%; z-index: 2; position: relative; /*padding: 1em; using a wrapper to define margin */
-    @include tablet { padding: 2em 0; }
+    @include tablet { padding: 5em 0;}
+    @include laptop { padding: 7em 0; }
 }
+
+
 
 .section-no-height { height: auto; }
 .section-bg-no-height { background-size: cover; background-position: center center; width: 100%; z-index: 2; position: relative; }
@@ -194,27 +205,30 @@
 }*/
 .featured-category { font-size: 0.8em; text-transform: uppercase; font-weight: bold; padding: 1.3em 0; text-align: center;
     @include palm-three { padding: 5em 0; }
+    @include tablet { padding: 2em 0; }
 }
 .featured-title { font-family: $alt-font-1; text-transform: uppercase; font-size: 1.5em; padding: 1.5em 0; text-align: center;
     @include palm { width: 70%; margin: 0 auto; }
-    @include palm-three { padding: .5em 0 2em; font-size: 3.3em; line-height: 1em; width: 74%;}
+    @include palm-mid { padding: .5em 0 2em; font-size: 2.3em; line-height: 1em; width: 74%;}
+    @include tablet { font-size: 3em; }
 }
-.featured-text { padding: 0 1em 2em; text-align: left; 
-    @include palm { padding: 0 2em 2em 3em; }
-    @include palm-mid { padding: 0 2em 2em 2em; font-size: 1.2em; }
+.featured-text { /*padding: 0 1em 2em;*/ text-align: center; padding-bottom: 3em;
+    @include palm { /*padding: 0 2em 2em 3em; */}
+    @include palm-mid { /*padding: 0 2em 2em 2em;*/ font-size: 1.2em; }
+    @include tablet { padding-bottom: 2em; }
     /*@include palm-three { padding: 0 3.5em 4em 5em; }*/
 }
-.featured-button { background: #C68DAB; width: 45%; text-transform: uppercase; right: -2em; position: relative; padding: .75em; top: -1em; float: right;
+/*.featured-button { background: #C68DAB; width: 45%; text-transform: uppercase; right: -2em; position: relative; padding: .75em; top: -1em; float: right;
     @include palm { width: 40%; }
     @include palm-mid { width: 30%; }
     @include palm-three { width: 25%;}
     @include tablet { right: -3em; }
-}
-.featured-button-text { font-size: 0.7em; font-family: $alt-font-1; text-align: right; 
+}*/
+.featured-button-text { font-size: 0.7em; font-family: $alt-font-1; text-align: center; 
     @include tablet { font-size: 1em; }
 }
-.featured-button-text a { text-decoration: none; color: black; }
-.featured-button-text a:hover { color: $primary-color; }
+.featured-button-text a { font-size: 1.5em; text-decoration: none; color: black; border-bottom: 2px solid #C68DAB; padding-bottom: 0.5em; }
+.featured-button-text a:hover { border-color: black; }
 /* --#Section4- */
 
 /* Section 6 */
@@ -295,7 +309,7 @@
 /* Test */
 /** { outline: 1px solid black; }*/
 .section-prop { background-color: purple; color: white; }
-.bg1 { background: url('/assets/images/wall.jpeg') no-repeat center center / cover;}
+.bg1 { background: url('/assets/images/white.jpeg') no-repeat center center / cover;}
 /*.herecontent { background: white; margin: 1em; position: relative;*/ /* scrapped the padding } */
 .section-03-img1-prop { width: 70%; margin: 0 auto; top: 1em;
    @include palm-three { width: 65%; }
