@@ -59,7 +59,7 @@ $on-tablet:         700px; /* used this one */
 $on-tablet-mid:   800px;
 $on-laptop:         900px; /* used this one */
 $tablet-width:      768px;
-$desktop-width:     1024px;
+$on-desktop:        1024px;
 
 
 
@@ -101,6 +101,12 @@ $desktop-width:     1024px;
     }
 }
 
+@mixin desktop {
+    @media screen and (min-width: #{$on-desktop}) {
+        @content;
+    }
+}
+
 /* mixins for second set of media queries */
 /* other media queries to consider - i think i need to redo the home page a-fucking-gain -_-
 
@@ -112,11 +118,11 @@ $desktop-width:     1024px;
 */
 
 $on-mobile:         300px;
-$on-mobile-mid:     480px;
+$on-mobile-mid:     480px; /* used this one */
 $on-mobile-lg:      620px;
 $on-pad:            750px;
 /*$on-laptop:         1024px;*/
-$on-desktop:        1200px;
+$on-desktop-blah:        1200px;
 
 
 
@@ -150,8 +156,8 @@ $on-desktop:        1200px;
     }
 }*/
 
-@mixin desktop {
-    @media screen and (min-width: #{$on-desktop}) {
+@mixin desktop-blah {
+    @media screen and (min-width: #{$on-desktop-blah}) {
         @content;
     }
 }

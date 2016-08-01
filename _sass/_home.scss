@@ -11,11 +11,11 @@
 .menuButton:active { position: relative; top: 1px; }
 .overlay { position: fixed; width: 100%; height: 100%; top: 0; left: 0; background: rgba(201,164,67,0.95); z-index: 500; }
 .overlay nav { text-align: center; position: relative; top: 5%; height: 45%; font-size: 3em; 
-  @include palm-mid { font-size: 3.5em; }
+  @include palm-mid { font-size: 3.5em; padding-top: 0.6em;}
 }
 .overlay ul { list-style: none; padding: 0; margin: 0 auto; display: inline-block; height: 100%; position: relative; }
 .overlay ul li { height: 20%; padding-bottom: 0.3em; 
-  @include palm-mid { padding-bottom: 1.2em; }
+  @include palm-mid { padding-bottom: 1.6em; }
 }
 .overlay ul li a { font-weight: 300; font-family: $alt-font-1; text-decoration: none; color: #fff; margin-right: 40px; }
 .overlay ul li a:hover { color: #6F5723; }
@@ -37,6 +37,8 @@
   .menu-icons img { width: 10%; }
 }
 
+
+
 /* Home */
 .svn-wrapper { width: 300px; padding: 2em 0; margin: 0 auto;
   /*@include palm { width: 350px; }*/
@@ -48,6 +50,46 @@
   @include mobile-mid {margin: 2em 5em; }
   @include tablet { margin: 2em 4em; }
 }
+
+
+
+/* Hero */
+.fullpage { position: relative; width: 100%; 
+    @include tablet {  }
+}
+.hero-section { z-index: 3; position: relative; 
+    /*@include tablet { margin: 2.5em; }*/
+}
+.hero-prop { margin: 2em;
+    @include tablet {margin: 3.5em;} 
+    @include laptop { margin: 5.5em; }
+}
+.hero-icon { position: absolute; top: 45%; right: 26%; 
+    @include mobile-mid { right: 32%; }
+    @include palm-mid { right: 37%; top: 20em; }
+    @include tablet { right: 40%; top: 15em;}
+    @include laptop { right: 43%; top: 22em;}
+    /*@include desktop {  }*/
+}
+.hero-right-image { background-image: url('/assets/images/drive.jpg'); }
+.hero-left-image { background-image: url('/assets/images/person.jpg'); }
+.hero-bg { background-size: cover; background-position: bottom right; background-repeat: no-repeat; width: 100%; height: 50vh; 
+    @include palm-mid { width: 50%; height: 90vh; float: left; }
+    @include tablet { height: 100vh; }
+}
+.huge-hero-logo { position: relative; z-index: 2; bottom: 5.5em; padding: .5em; 
+    /*@include palm { bottom: 10em; }*/
+    @include palm-mid { bottom: 2em; }
+    @include tablet { bottom: 7em; }
+    @include laptop { width: 70%; margin: 0 auto; bottom: 6.5em; text-align: center; }
+}
+.section-bg { background-size: cover; background-position: center center; width: 100%; z-index: 2; position: relative; /*padding: 1em; using a wrapper to define margin */
+    @include tablet { padding: 5em 0;}
+    @include laptop { padding: 7em 0; }
+}
+.section01-bg-image { background-image: url('/assets/images/geostairs.jpg'); }
+
+
 
 .svn-content { position: relative; background: $background-color;
   @include tablet { float: left; }
@@ -97,28 +139,29 @@
   @include tablet { clear: both; padding: 1em 0 5em; width: 50%; float: right; display: inline-block; margin-right: 1.5em;}
   @include laptop { width: 35%; }
 }
-.svn-content_caption-sm { font-size: 10px; 
-  @include tablet { font-size: 8px; float: right; display: block; width: 60%; clear: right; }
+.svn-content_caption-sm { font-size: 9px; 
+  @include tablet { font-size: 9px; float: right; display: block; width: 60%; clear: right; }
   /*@include laptop { width: 60%; }*/
 }
 .svn-content_caption-title { font-size: 12px; text-transform: uppercase; font-weight: bold; 
-  @include tablet { float: left; display: inline-block; font-size: 8px;}
+  @include tablet { float: left; display: inline-block; font-size: 9px;}
 }
 
 .svn-content_note-date { text-align: center; font-size: 2.5em; color: rgba(155,155,155, 0.45); 
-  @include tablet { text-align: left; }
+  /*@include tablet {  }*/
 }
-.svn-content_note-issue { text-transform: uppercase; position: absolute;top: 1.3em; 
-  @include palm-mid { left: 4em; }
-  @include tablet { left: 2em; }
+.svn-content_note-issue { text-transform: uppercase; position: relative; top: -2.4em; z-index: 200; text-align: center;  
+/*  @include palm-mid { left: 4em; }
+  @include tablet { left: 2em; }*/
 }
 
-.svn-content_note-text { font-style: oblique; font-size: 1.05em; padding-top: 1em; }
-.svn-content_note-text p { padding-bottom: 1em; 
+.svn-content_note-text { }
+.svn-content_note-text p { font-size: 1.05em; text-align: center; padding-top: 2em; position: relative; padding-bottom: 1em; 
+  @include palm-mid { font-size: 1.2em; line-height: 1.8em; }
   @include tablet { width: 50%; float: left; padding-left: 1em; }
 }
-.svn-content_note-title { font-size: 3.2em; font-family: $alt-font-1; text-align: center; text-transform: uppercase;opacity: .26; position: absolute; /* clear: both; */ top: 8em; line-height: 1em; 
-  @include tablet { font-size: 6em; top: 1.8em; line-height: 1.1em; }
+.svn-content_note-title { font-size: 3.2em; font-family: $alt-font-1; text-align: center; text-transform: uppercase;opacity: .26; position: relative; /* clear: both; */ top: 0em; line-height: 1em; 
+  @include tablet { font-size: 6em; line-height: 1.1em; }
 }
 .svn-content_note-salutation { position: relative; padding: 1em 0; text-transform: uppercase; text-align: center; color: #4a4a4a; font-weight: lighter; 
   @include tablet { text-align: right; padding: 3em 0; }
@@ -162,8 +205,20 @@
 
 
 
-
-
+/* Misc */
+.backtop-icon { 
+  -webkit-box-shadow: 1px 1px 2px 0px rgba(50, 50, 50, 0.55);
+  -moz-box-shadow:    1px 1px 2px 0px rgba(50, 50, 50, 0.55);
+  box-shadow:         1px 1px 2px 0px rgba(50, 50, 50, 0.55);
+  padding: 0.4em 0.8em;
+  background: white;
+  position: fixed;
+  bottom: 2em; 
+  right: 0em;
+  z-index: 200;
+  border-radius: 34px;
+  margin-right: 0.3em;
+ }
 .section-nobg { padding: 5em 0; }
 .pad2 { padding: 2em 0; }
 .mar4 { margin: 4em auto; }
