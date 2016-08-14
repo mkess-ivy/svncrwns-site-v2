@@ -4,33 +4,93 @@ title: offerings
 permalink: /offerings/
 ---
 
-<div class="box-page-title">
+<!-- <div class="box-page-title">
 	<div class="box-page-title__text">{{ page.title }}</div>
-</div>
+</div> -->
 
 <div class="crwns-wrapper clear">
 	
-	<!-- #Work1 -->
-	<!-- <div class="row martop2 clear">
-		<div class="box-hero">
-			<div class="box-hero__img">
-				<img src="http://placehold.it/800x600" />
+	<div class="video-wrapper section-bg video-hero offerings-hero offerings-bg clear">
+		<div class="row clear">
+			<div class="col-2">
+				<div class="offerings-block offerings-block-white">
+					<div class="offerings-block__text--title">
+						branding + identity
+					</div>
+					<div class="offerings-block__text">
+						Street art seitan neutra jean shorts, franzen portland ethical next level
+					</div>
+				</div>
+				<div class="offerings-block offerings-block-white">
+					<div class="offerings-block__text--title">
+						web development
+					</div>
+					<div class="offerings-block__text">
+						Street art seitan neutra jean shorts, franzen portland ethical next level
+					</div>
+				</div>
+				<div class="offerings-block offerings-block-white">
+					<div class="offerings-block__text--title">
+						social campaigns
+					</div>
+					<div class="offerings-block__text">
+						Street art seitan neutra jean shorts, franzen portland ethical next level
+					</div>
+				</div>
+				<div class="offerings-block offerings-block-white">
+					<div class="offerings-block__text--title">
+						event production
+					</div>
+					<div class="offerings-block__text">
+						Street art seitan neutra jean shorts, franzen portland ethical next level
+					</div>
+				</div>
 			</div>
-			<div class="box-hero__text">
-				<div class="box-hero__text--date box-hero__text--date-position">feb 2016</div>
-				<div class="box-hero__text--title brand-link"><a href="/"><span class="nobr">Pop-Up</span> Museum: Sankofa</a></div>
-				<div class="box-hero__text--content">Some random subtext that explains this two word title</div>
+			<div class="col-2 last">
+				<div class="offerings-block offerings-block-white">
+					<div class="offerings-block__text--title">
+						visual production
+					</div>
+					<div class="offerings-block__text">
+						Street art seitan neutra jean shorts, franzen portland ethical next level
+					</div>
+				</div>
+				<div class="offerings-block offerings-block-white">
+					<div class="offerings-block__text--title">
+						post-production
+					</div>
+					<div class="offerings-block__text">
+						Street art seitan neutra jean shorts, franzen portland ethical next level
+					</div>
+				</div>
+				<div class="offerings-block offerings-block-white">
+					<div class="offerings-block__text--title">
+						creative direction
+					</div>
+					<div class="offerings-block__text">
+						Street art seitan neutra jean shorts, franzen portland ethical next level
+					</div>
+				</div>
+				<div class="offerings-block offerings-block-white">
+					<div class="offerings-block__text--title">
+						concept design
+					</div>
+					<div class="offerings-block__text">
+						Street art seitan neutra jean shorts, franzen portland ethical next level
+					</div>
+				</div>
 			</div>
 		</div>
-	</div> -->
+		<div class="backtop-icon"><a href="#home"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a></div>
+	</div>
 
 	<div class="row martop2 clear">
 		<div class="box-hero">
 			<div class="box-hero__img--50">
-				<img src="http://placehold.it/800x600" />
+				<img src="https://dl.dropboxusercontent.com/u/12644668/shoes.jpg" />
 			</div>
 			<div class="box-hero__img--50">
-				<img src="http://placehold.it/800x600" />
+				<img src="https://dl.dropboxusercontent.com/u/12644668/windows.jpeg" />
 				<div class="box-hero__img--text">got work? we have ideas</div>
 			</div>
 		</div>
@@ -119,7 +179,7 @@ permalink: /offerings/
 	</div>
 	<div class="row clear">
 		<div class="center-position">
-			<img src="/assets/images/crown-brand.png" class="offerings-icon"/>
+			<img src="/assets/images/crown-logo.svg" class="offerings-icon"/>
 		</div>
 	</div>
 	<div class="separator"></div>
@@ -151,9 +211,9 @@ permalink: /offerings/
 			<div class="sub-link sub-link-v3"><a href="/">subscribe to the list</a></div>
 		</div>
 	    <div class="padbot3 center-pos">
-	    	<a href="/catalog"><img src="/assets/images/prev-nav.png" class="bottom-footer-nav" /></a>
-	        <a href=""><img src="/assets/images/back-to-top-nav.png" class="bottom-footer-nav" /></a>
-	        <a href="/"><img src="/assets/images/next-nav.png" class="bottom-footer-nav" /></a>
+	    	<a href="/catalog"><img src="/assets/images/circle-left.svg" class="bottom-footer-nav" /></a>
+	        <a href=""><img src="/assets/images/circle-up.svg" class="bottom-footer-nav" /></a>
+	        <a href="/"><img src="/assets/images/circle-right.svg" class="bottom-footer-nav" /></a>
 	    </div>
 	</div>
 </div>

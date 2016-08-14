@@ -1,9 +1,112 @@
+/* Reusable Code */
+.spacer-half { padding: .5em 0; }
+.spacer1x {padding: 1em 0;}
+.spacer2x { padding: 2em 0; }
+.spacer3x { padding: 3em 0; }
+.spacer3x2 {padding: 6em 0;}
+
+
+/* Work - in the process of trying to reduce the media queries, possibly remove mobile-lg, find less breakpoints for content*/
+.video-hero { height: 75vh; position: relative; z-index: 200;}
+.video-bg { background-image: url('https://static.squarespace.com/static/54527e03e4b0733fc75e3179/t/5494c7e6e4b0bc65ffa37ef6/1419036646591/faster.good.gif'); }
+
+
+.some-box { width: 70%; margin: 0 auto; }
+.some-box_text { width: 40%; float: left; margin-right: 0.7em; text-align: justify; }
+.some-box_pic { width: 48%; float: left; margin-top: 2em; }
+
+.title-container { text-align: center; }
+.title { text-transform: uppercase; letter-spacing: 4px;}
+.title-icon { width: 3em; margin: 0 auto 20px; }
+
+.year { font-weight: bold; font-size: 14px; }
+.padbot20 { padding-bottom: 8em; }
+
+.box-hero { width: auto; position: relative;}
+.box-hero__img { width: 100%;
+    @include tablet { width: 70%; float: left;}
+}
+.box-hero__text { width: 100%; 
+    @include tablet { width: 28%; float: left; padding-top: 1.5em; }
+    @include desktop { padding-top: 6.5em; }
+}
+.box-hero__text--date { font-size: 10px; text-transform: uppercase; letter-spacing: 4px; 
+    @include laptop { font-size: 12px; }
+}
+.box-hero__text--date-position { position: relative; transform: rotate(-90deg); transform-origin: left top 0; left: -1.6em; top: 0em; 
+    @include tablet { transform: none; transform-origin: none; left: 1em; top: 2.8em;}
+    @include laptop { top: 3.5em; left: 1em;}
+    @include desktop { top: 0em; left: 1em; }
+}
+.box-hero__text--title, .box-hero__text--title-r { width: 100%;
+    @include tablet { position: relative; padding-top: 2.7em;  line-height: 40px; left: -3.5em;}
+    @include laptop { left: -5.5em; padding-top: 3.3em; }
+    @include desktop { /*left: -7.5em; */ left: -4.5em; padding-top: 0.3em;}
+}
+.box-hero__text--content { font-size: 12px; padding-top: 1em; width: 70%; 
+    
+    @include tablet { position: relative; width: 80%; padding-top: 0em; left: 1em;}
+    @include laptop { font-size: 14px; padding-top: 2.5em; }
+}
+.brand-link a { font-size: 28px; color: $brand-color; text-decoration: underline; font-family: $alt-font-1; line-height: .9em; 
+    @include laptop { font-size: 44px; }
+    @include desktop { font-size: 50px; }
+}
+.brand-link a:hover { color: #745c1c; }
+
+.box-hero__img--right { 
+    @include tablet {float: right; }
+}
+.box-hero--right { 
+    @include tablet {text-align: right; left: .5em; float: right;}
+}
+.box-hero__text--data-position-r { float: left;}
+.box-hero__text--content-r { float: left; left: 3em; }
+.box-hero__text--title-r { 
+    @include tablet { left: 3.2em !important; }
+    @include laptop { left: 4.9em !important;  padding-top: 4.3em !important;}
+    @include desktop { left: 6.9em !important; padding-top: 2em !important;}
+}
+
+
+/* Offerings */
+.offerings-bg { background-image: url('https://dl.dropboxusercontent.com/u/12644668/shoes.jpg'); }
+.offerings-hero { height: 80vh; padding: 0; }
+.offerings-block-white { color: white !important; }
+
+
+
+.secondary-link a { font-size: 30px; color: black; text-decoration: none; text-transform: uppercase;
+    @include mobile-mid { font-size: 40px; }
+    @include pad { font-size: 50px; }
+    @include laptop { font-size: 60px; }
+}
 
 
 
 
 
 
+/*not using */
+.background {
+    position: relative;
+    /*top: 50%;
+    left: 50%;*/
+    min-width: 100%;
+    /*min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover;*/
+}
+
+
+
+
+/* Old Shit */
 .section-no-height { height: auto; }
 .section-bg-no-height { background-size: cover; background-position: center center; width: 100%; z-index: 2; position: relative; }
 .content-fill { position: relative; background: $background-color; 
@@ -51,7 +154,7 @@
 }
 
 /* Section 6 */
-.bottom-footer-nav { width: 4em; padding-right: 1em; }
+
 
 /* Dividers */
 .divider { padding: 2.5em 0; width: 100%; }
@@ -169,24 +272,8 @@
         @include laptop { font-size: 80px; }
         @include desktop { font-size: 100px; }
     }
-.brand-link a { font-size: 30px; color: #C9A443; text-decoration: underline; font-family: $alt-font-1; line-height: .9em; 
-    @include pad { font-size: 55px; }
-    @include laptop { font-size: 70px; }
-    @include desktop { font-size: 85px; }
-}
-.brand-link a:hover { color: #745c1c; }
-.secondary-link a { font-size: 30px; color: black; text-decoration: none; text-transform: uppercase;
-    @include mobile-mid { font-size: 40px; }
-    @include pad { font-size: 50px; }
-    @include laptop { font-size: 60px; }
-}
-.sub-link a { text-decoration: none; color: $brand-color-2; font-size: 1.3em; font-family: $alt-font-1; line-height: 1em;
-    @include palm-mid { font-size: 2em; }
-}
-.sub-link a:hover { color: black; }
-.sub-link { padding: 3em 0; text-align: center; 
-    @include palm { padding: 6em 0; }
-}
+
+
 .sub-link-v2 a { font-size: 14px; text-transform: uppercase; color: #C68DAB;
     @include mobile-mid { font-size: 20px; }
 }
@@ -213,16 +300,12 @@
 
 /** REUSABLE CLASSES */
     /* - initially designed for Work page */
-.box-hero { width: auto; position: relative;}
+
 .box-hero-v2 { margin-top: 7em; 
     @include mobile-mid { margin-top: 2em; }
 }
-    .box-hero__img { width: 100%;
-        @include mobile-mid { width: 70%; float: left;}
-    }
-    .box-hero__img--right { 
-        @include mobile-mid {float: right; }
-    }
+    
+    
     .box-hero__img--text { position: absolute; top: 50%; font-weight: bold; font-family: $alt-font-1; left: .25em; color: white; font-size: 1em;
         @include mobile-mid { top: 50%; font-size: 1.6em; left: .65em; }
         @include mobile-lg { font-size: 1.1em; }
@@ -235,47 +318,20 @@
     .box-hero__text--right { 
         @include mobile-mid {float: right; }
     }
-    .box-hero__text { width: 100%; 
-        @include mobile-mid { width: 28%; float: left; padding-top: 1.5em; }
-        @include pad { padding-top: 3.5em; }
-        @include desktop { padding-top: 6.5em; }
-    }
-        .box-hero__text--date { font-size: 10px; text-transform: uppercase; font-weight: bold; 
-            @include laptop { font-size: 14px; }
-        }
+    
+        
         .box-hero__text--date-v2 {text-align: center; font-weight: lighter; 
             @include mobile-mid { font-size: 12px; }
         }
-        .box-hero__text--date-position { position: relative; transform: rotate(-90deg); transform-origin: left top 0; left: -1.3em; top: 6.2em; 
-            @include mobile-mid { transform: none; transform-origin: none; left: 1em; top: 1.5em;}
-            @include mobile-lg { top: 2.8em;  }
-            @include laptop { top: 3.5em; left: 1em;}
-            @include desktop { top: 0em; left: 1em; }
-        }
-        .box-hero__text--data-position-r, .box-hero__text--content-r { /*position: absolute !important; top: 29em !important; left: -1.5em !important;*/ float: left;}
-        .box-hero__text--title, .box-hero__text--title-r { width: 70%; 
-            @include mobile-mid { position: relative; left: -1em; padding-top: 1em; width: 80%;}
-            @include mobile-lg { padding-top: 2em; left: -3em; }
-            @include pad { padding-top: 1.5em;  line-height: 40px; left: -3.5em;}
-            @include laptop { left: -5.5em; padding-top: 3.3em; }
-            @include desktop { left: -7.5em; padding-top: 0.3em;}
-        }
-        .box-hero__text--title-r { 
-            @include mobile-mid { left: 1.6em !important; padding-top: 2em !important;}
-            @include mobile-lg { left: 6em !important; padding-top: 3em !important;}
-            @include pad { left: 3.2em !important; }
-            @include laptop { left: 4.9em !important;  padding-top: 4.3em !important;}
-            @include desktop { left: 6.9em !important; padding-top: 2em !important;}
-        }
+        
+        
+        
+        
         .box-hero__text--title-v2 { text-align: center; margin: 0 auto; left: 0; right: 0; padding-top: 1em; width: 100%;
             @include mobile-mid { width: 65%; }
             @include laptop { width: 40%; }
         }
-        .box-hero__text--content { font-size: 12px; padding-top: 1em; width: 70%; 
-            @include mobile-mid { left: 1em; position: relative; width: 100%; font-size: 10px; width: 80%; }
-            @include pad { font-size: 12px; padding-top: 2em; }
-            @include laptop { font-size: 14px; padding-top: 2.5em; }
-        }
+        
         .box-hero__text--content-v2 { text-align: center; margin: 0 auto; width: 100%; left: 0;
             @include mobile-mid { font-size: 20px; }
             @include pad { width: 60%; text-align: left;}
@@ -284,10 +340,7 @@
         .box-hero__text--subtext { font-size: 16px; text-align: center; font-style: italic; 
             @include mobile-mid { font-size: 18px; }
         }
-    .box-hero--right { 
-        @include mobile-mid {text-align: right; left: .5em; float: right;}
-        
-    }
+    
     .subheader__text { text-transform: uppercase; color: #C9A443; font-weight: bold; padding-bottom: 10px; }
     .subheader__text--title { font-size: 22px; font-family: $alt-font-1; text-transform: uppercase; 
         @include laptop { font-size: 26px; }

@@ -18,3 +18,8 @@ collections:
   catalog:
     output: true
     permalink: /catalog/:path/
+
+
+  # work:
+  #   output: true
+  #   permalink: /work/:path/

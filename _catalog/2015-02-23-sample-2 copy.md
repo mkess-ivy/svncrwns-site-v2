@@ -1,9 +1,10 @@
 ---
 layout: catalog
-title:  "Pop-Up Museum I: Sankofa"
+title:  "3Pop-Up Museum I: Sankofa"
 date:   'Feb 23 2016'
 medium: art
 featured: yes
+img-path: http://placehold.it/800x600
 ---
 
 Waistcoat chicharrones green juice flexitarian affogato celiac semiotics, cliche pickled pabst. Narwhal intelligentsia gentrify etsy farm-to-table banh mi.

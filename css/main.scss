@@ -53,13 +53,13 @@ $color_img_id: #ffffff;
 $content-width:    1000px;
 
 $on-palm:           400px; /* used this one */
-$on-palm-mid:       500px; /* used this one */
+$on-palm-mid:       500px; /* used this one, this is where mobile breaks to desktop */
 $on-palm-three:     600px;
-$on-tablet:         700px; /* used this one */
+$on-tablet:         700px; /* used this one, this is another important breakpoint */
 $on-tablet-mid:   800px;
 $on-laptop:         900px; /* used this one */
 $tablet-width:      768px;
-$on-desktop:        1024px;
+$on-desktop:        1024px; /* used this one */
 
 
 
