@@ -1,11 +1,11 @@
 ---
 layout: default
-title: work
-permalink: /work/
+title: featured
+permalink: /featured/
 ---
 
 <div class="box-page-title">
-	<div class="box-page-title__text">{{ page.title }}</div>
+	<!-- <div class="box-page-title__text">{{ page.title }}</div> -->
 </div>
 
 <div class="crwns-wrapper clear">
@@ -90,9 +90,9 @@ permalink: /work/
 		<div class="sub-link">
       		<a href="{{ site.baseurl }}/catalog">view catalog</a>
     	</div>
-	    <div class="padbot3 center-pos">
+	    <!-- <div class="padbot3 center-pos">
 	        <a href=""><img src="/assets/images/circle-up.svg" class="bottom-footer-nav" /></a>
 	        <a href=""><img src="/assets/images/circle-right.svg" class="bottom-footer-nav last" /></a>
-	    </div>
+	    </div> -->
 	</div>
 </div>

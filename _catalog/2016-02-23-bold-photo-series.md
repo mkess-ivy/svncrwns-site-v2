@@ -1,10 +1,11 @@
 ---
 layout: catalog
-title:  "6Pop-Up Museum I: Sankofa"
+title:  "bold photo series"
 date:   'Feb 23 2016'
+year:	'2016'
 medium: art
 featured: yes
-img-path: https://dl.dropboxusercontent.com/u/12644668/thugmythproj/montier.jpg
+img-path: http://placehold.it/800x600
 ---
 
 Waistcoat chicharrones green juice flexitarian affogato celiac semiotics, cliche pickled pabst. Narwhal intelligentsia gentrify etsy farm-to-table banh mi.

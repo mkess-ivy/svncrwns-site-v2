@@ -3,25 +3,53 @@ layout: default
 ---
 <div class="press">
 
-  <header class="press-header">
+  <!-- <header class="press-header">
     <div class="press-topmsg"><span class="press-logo">svncrwns</span> presents</div>
-  </header>
+  </header> -->
 
-  <article class="press-content">
-    <div class="press-hero"><img src=" {{ page.img-path }}"/></div>
-    <div class="press-text">{{ page.description }}</div>
-    <div class="date-group">
-      <div class="press-date">{{ page.date }}</div>
-      <div class="press-time">{{ page.time }}</div>
+  <article class="catalog-content">
+    <div class="catalog-hero catalog-hero1"><img src=" {{ page.img-path }}"/></div>
+    <div class="catalog-hero catalog-hero2"><img src=" {{ page.img-path2 }}"/></div>
+    
+    <div class="catalog-title_group">
+      <div class="catalog-title"><a href="{{ page.url }}">{{ page.title }}</a></div>
+      <div class="catalog-date">{{ page.date | date: '%B %d %Y' }}</div>
+      <div class="catalog-credits_title">credits</div>
+      <ul class="catalog-credits_group">
+        <li class="catalog-credits_position">{{ page.position1 }}</li>
+        <li class="catalog-credits_artist">{{ page.artist1 }}</li>
+        <li class="catalog-credits_position">{{ page.position2 }}</li>
+        <li class="catalog-credits_artist">{{ page.artist2 }}</li>
+        <li class="catalog-credits_position">{{ page.position3 }}</li>
+        <li class="catalog-credits_artist">{{ page.artist3 }}</li>
+      </ul>
     </div>
-    <div class="partner-group">
-      <div class="partner-logo"><img src="{{ page.partner-logo }}"/></div>
-      <div class="partner-name">{{ page.partner-name }}</div>
-      <div class="partner-address">{{ page.partner-address }}</div>
+    
+    <div class="separator"></div>
+    
+    <div class="catalog-post_content">
+      {{ page.content }}
     </div>
-    <div class="press-button-group">
-      <a class="press-button" href="{{ page.pressrelease-path }}" target="_blank">view press release</a>
+
+    <div class="separator"></div>
+
+    <div class="catalog-video_group center-position">
+      <div class="catalog-video_title">video</div>
+      <div class="catalog-video_content center-position">
+        <iframe src="https://player.vimeo.com/video/178758716" width="1000" height="413" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      </div>
+      <div class="catalog-video_meta catalog-video_name">{{ page.video-name }}</div>
+      <div class="catalog-video_meta catalog-video_excerpt">{{ page.video-excerpt }}</div>
     </div>
+
+    <div class="separator"></div>
+
+    <div class="catalog-photo-group">
+      <img src="{{ page.img-path }}" class="catalog-photo"/>
+      <img src="{{ page.photo-a }}" class="catalog-photo" />
+      <img src="{{ page.img-path2 }}" class="catalog-photo" />
+    </div>
+    
   </article>
 
 </div>

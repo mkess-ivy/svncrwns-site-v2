@@ -1,10 +1,11 @@
 ---
 layout: catalog
-title:  "5Pop-Up Museum I: Sankofa"
-date:   'Feb 23 2016'
+title:  "Solely Supreme"
+date:   'Feb 23 2015'
+year:	'2015'
 medium: art
 featured: yes
-img-path: https://dl.dropboxusercontent.com/u/12644668/black.png
+img-path: https://dl.dropboxusercontent.com/u/12644668/thugmythproj/montier.jpg
 ---
 
 Waistcoat chicharrones green juice flexitarian affogato celiac semiotics, cliche pickled pabst. Narwhal intelligentsia gentrify etsy farm-to-table banh mi.

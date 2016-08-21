@@ -8,7 +8,8 @@
 
 /* Work - in the process of trying to reduce the media queries, possibly remove mobile-lg, find less breakpoints for content*/
 .video-hero { height: 75vh; position: relative; z-index: 200;}
-.video-bg { background-image: url('https://static.squarespace.com/static/54527e03e4b0733fc75e3179/t/5494c7e6e4b0bc65ffa37ef6/1419036646591/faster.good.gif'); }
+/*.video-bg { background-image: url('https://static.squarespace.com/static/54527e03e4b0733fc75e3179/t/5494c7e6e4b0bc65ffa37ef6/1419036646591/faster.good.gif'); }*/
+.video-bg { background-image: url('/assets/images/test.gif'); }
 
 
 .some-box { width: 70%; margin: 0 auto; }
@@ -17,7 +18,9 @@
 
 .title-container { text-align: center; }
 .title { text-transform: uppercase; letter-spacing: 4px;}
-.title-icon { width: 3em; margin: 0 auto 20px; }
+.title-icon { width: 3em; margin: 0 auto 20px; display: none;
+    @include tablet { display: block; }
+}
 
 .year { font-weight: bold; font-size: 14px; }
 .padbot20 { padding-bottom: 8em; }
@@ -81,6 +84,47 @@
     @include pad { font-size: 50px; }
     @include laptop { font-size: 60px; }
 }
+
+/* Catalog */
+/*.title-crwn { margin: 0 auto; text-align: center; }*/
+.catalog-link a { font-size: 1.2em; font-family: $brand-font; text-align: center; 
+    @include palm { font-size: 1.8em; }
+}
+.martop-catalog:first-child { margin-top: 2em;
+    @include mobile-mid { margin-top: 3em; }
+}
+.martop-catalog { 
+    @include mobile-mid { margin: 0.5em 0; }
+}
+.box-hero-v2 { margin-top: 2em; 
+    @include mobile-mid { margin-top: 2em; }
+}
+
+/* Catalog Single */
+.catalog-content { margin-top: 2em; }
+.catalog-hero { position: relative; }
+.catalog-hero1 {  }
+.catalog-hero2 { width: 65%; margin-top: -4em; left: 5em; }
+.catalog-title_group { margin: 2em 0; text-align: center;  font-size: 1.5em; }
+.catalog-title a { font-family: $brand-font; color: $brand-color; }
+.catalog-date { font-size: 0.6em; padding: 0.5em 0; }
+.catalog-credits_title { font-family: $brand-font; text-transform: uppercase; font-size: 0.6em; margin: 3em 0 1em; }
+.catalog-credits_group { list-style: none; padding: 0; margin: 0; font-size: 0.7em; }
+.catalog-credits_position { font-size: 0.8em; }
+.catalog-credits_artist { font-family: $brand-font; font-size: 0.8em; text-transform: uppercase; margin-bottom: 1.5em; }
+.catalog-post_content { font-size: 0.8em; width: 85%; margin: 0 auto; }
+.catalog-post_content p { padding-bottom: 1em; }
+.catalog-video_title { text-align: center; text-transform: uppercase; letter-spacing: 3px; padding: 1em 0; }
+.catalog-video_content iframe { width: 90%; }
+.catalog-video_meta { font-family: $brand-font; margin: 0 auto; }
+.catalog-video_name { padding: 2em 0 0; border-bottom: 2px solid black; width: 50%; }
+.catalog-video_excerpt { font-size: 0.8em; width: 70%; line-height: 1.8em; margin-top: 2em; }
+.catalog-photo { padding: 1em; }
+
+
+
+
+
 
 
 
@@ -208,7 +252,9 @@
     @include palm { height: 85vh; }
     @include palm-three { height: 95vh; }
 }
-.separator { height: 5em; width: 100%; }
+.separator { height: 2em; width: 100%; 
+    @include palm { height: 5em; }
+}
 .margin-extra { margin: 1em; }
 .padding-extra { padding: 1em; }
 
@@ -241,8 +287,8 @@
 /** GLOBAL CLASSES */
 .crwns-content { margin: 0 2%; position: relative; }
 .wrapper { padding-top: 4em; 
-    @include laptop { }
-    @include desktop { padding-top: 6em; }
+    /*@include laptop { }*/
+    @include desktop { padding-top: 0; }
 }
 .crwns-wrapper {  margin-right: 5%; margin-left: 5%; padding-right: $spacing-unit; padding-left: $spacing-unit; @extend %clearfix; 
     @include mobile-mid { max-width: 480px; margin: 0 5%; }
@@ -290,20 +336,13 @@
     @include laptop { margin-top: 14em; }
     @include laptop { margin-top: 18em; }
 }
-.martop-catalog:first-child { margin-top: 4em;
-    @include mobile-mid { margin-top: 6em; }
-}
-.martop-catalog { 
-    @include mobile-mid { margin-top: 5em; }
-}
+
 .center-position { text-align: center; }
 
 /** REUSABLE CLASSES */
     /* - initially designed for Work page */
 
-.box-hero-v2 { margin-top: 7em; 
-    @include mobile-mid { margin-top: 2em; }
-}
+
     
     
     .box-hero__img--text { position: absolute; top: 50%; font-weight: bold; font-family: $alt-font-1; left: .25em; color: white; font-size: 1em;

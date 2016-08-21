@@ -1,10 +1,11 @@
 ---
 layout: catalog
-title:  "4Pop-Up Museum I: Sankofa"
+title:  "Walking Fall"
 date:   'Feb 23 2016'
+year:	'2015'
 medium: art
 featured: yes
-img-path: https://dl.dropboxusercontent.com/u/12644668/drink.jpeg
+img-path: http://placehold.it/800x600
 ---
 
 Waistcoat chicharrones green juice flexitarian affogato celiac semiotics, cliche pickled pabst. Narwhal intelligentsia gentrify etsy farm-to-table banh mi.

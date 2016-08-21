@@ -1,10 +1,11 @@
 ---
 layout: catalog
-title:  "2Pop-Up Potato"
+title:  "gullah vortex"
 date:   'Feb 23 2016'
+year:	'2016'
 medium: art
 featured: yes
-img-path: http://placehold.it/800x600
+img-path: https://dl.dropboxusercontent.com/u/12644668/drink.jpeg
 ---
 
 Waistcoat chicharrones green juice flexitarian affogato celiac semiotics, cliche pickled pabst. Narwhal intelligentsia gentrify etsy farm-to-table banh mi.

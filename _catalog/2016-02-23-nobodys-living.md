@@ -1,7 +1,8 @@
 ---
 layout: catalog
-title:  "1Pop-Up Museum I: Sankofa"
+title:  "Nobody's Living"
 date:   'Feb 23 2016'
+year:	'2016'
 medium: art
 featured: yes
 img-path: https://dl.dropboxusercontent.com/u/12644668/thugmythproj/montier.jpg

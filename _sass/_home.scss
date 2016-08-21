@@ -1,3 +1,14 @@
+@font-face {
+  font-family: 'League Spartan';
+  src: url('/assets/fonts/leaguespartan-bold.eot'); /* IE9 Compat Modes */
+  src: url('/assets/fonts/leaguespartan-bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+      url('/assets/fonts/leaguespartan-bold.woff2') format('woff2'), /* Super Modern Browsers */
+      url('/assets/fonts/leaguespartan-bold.woff') format('woff'), /* Pretty Modern Browsers */
+      url('/assets/fonts/leaguespartan-bold.svg#league_spartanbold') format('svg'); /* Legacy iOS */
+      font-weight: bold;
+      font-style: normal;
+}
+
 /* ----- TOC -----
 
 Header
@@ -149,9 +160,10 @@ Section 05
   @include palm { top: -1em; }
   @include palm-mid { width: 80%; }
 }
-.svn-content_headline { text-align: right; font-size: 1.5em; font-family: $alt-font-2; line-height: 1em; text-decoration: underline; 
-  @include mobile-mid { font-size: 2em; }
-  @include palm { font-size: 2.3em; }
+.svn-content_headline { text-align: right; font-size: 1.7em; font-family: $brand-font; line-height: 1em; text-decoration: underline; color: $brand-color;
+  @include palm { font-size: 2em; }
+  @include mobile-mid { font-size: 2.3em; }
+  
 }
 .svn-content_contain-caption { position: relative; width: 90%; padding: 1.5em;
   @include palm-mid { width: 75%; }
