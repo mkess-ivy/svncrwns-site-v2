@@ -28,7 +28,7 @@ Section 05
 /* Header */
 .site-header {  }
 #menu-container { position: relative; height: 60px; width: 80px; display: block; text-align: center; margin: 0 auto;
-  @include mobile-mid { height: 80px; width: 100px;  }
+  @include palm-mid { height: 80px; width: 100px;  }
   @include tablet { float: left; text-align: none; margin: none; }
 }
 .menuButton { text-indent: 0; color: #fff; font-size: 3em; position: relative; background: url("/assets/images/crown-logo.svg") no-repeat center center; background-size: cover; width: 75%; height: 75%; border: 1px solid white; 
@@ -71,7 +71,7 @@ Section 05
   @include laptop { width: 800px; }
 }
 .hero-wrapper { margin: 1em 5em;
-  @include mobile-mid {margin: 2em 5em; }
+  @include palm-mid {margin: 2em 5em; }
   @include tablet { margin: 0em 1em; }
 }
 

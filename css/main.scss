@@ -53,21 +53,40 @@ $color_img_id: #ffffff;
 // Width of the content area
 $content-width:    1000px;
 
+$on-mobile:         300px;
 $on-palm:           400px; /* used this one */
+$on-mobile-mid:     480px; /* used this one */
 $on-palm-mid:       500px; /* used this one, this is where mobile breaks to desktop */
 $on-palm-three:     600px;
+$on-mobile-lg:      620px;
 $on-tablet:         700px; /* used this one, this is another important breakpoint */
+$on-pad:            750px;
 $on-tablet-mid:   800px;
 $on-laptop:         900px; /* used this one */
 $tablet-width:      768px;
 $on-desktop:        1024px; /* used this one */
+/*$on-laptop:         1024px;*/
+$on-desktop-blah:        1200px;
 
 
 
 
+
+
+@mixin mobile {
+    @media screen and (min-width: #{$on-mobile}) {
+        @content;
+    }
+}
 
 @mixin palm {
     @media screen and (min-width: #{$on-palm}) {
+        @content;
+    }
+}
+
+@mixin mobile-mid {
+    @media screen and (min-width: #{$on-mobile-mid}) {
         @content;
     }
 }
@@ -84,8 +103,20 @@ $on-desktop:        1024px; /* used this one */
     }
 }
 
+@mixin mobile-lg {
+    @media screen and (min-width: #{$on-mobile-lg}) {
+        @content;
+    }
+}
+
 @mixin tablet {
     @media screen and (min-width: #{$on-tablet}) {
+        @content;
+    }
+}
+
+@mixin pad {
+    @media screen and (min-width: #{$on-pad}) {
         @content;
     }
 }
@@ -108,6 +139,12 @@ $on-desktop:        1024px; /* used this one */
     }
 }
 
+@mixin desktop-blah {
+    @media screen and (min-width: #{$on-desktop-blah}) {
+        @content;
+    }
+}
+
 /* mixins for second set of media queries */
 /* other media queries to consider - i think i need to redo the home page a-fucking-gain -_-
 
@@ -118,38 +155,17 @@ $on-desktop:        1024px; /* used this one */
 * desktop and larger - from 1200 px
 */
 
-$on-mobile:         300px;
-$on-mobile-mid:     480px; /* used this one */
-$on-mobile-lg:      620px;
-$on-pad:            750px;
-/*$on-laptop:         1024px;*/
-$on-desktop-blah:        1200px;
 
 
 
-@mixin mobile {
-    @media screen and (min-width: #{$on-mobile}) {
-        @content;
-    }
-}
 
-@mixin mobile-mid {
-    @media screen and (min-width: #{$on-mobile-mid}) {
-        @content;
-    }
-}
 
-@mixin mobile-lg {
-    @media screen and (min-width: #{$on-mobile-lg}) {
-        @content;
-    }
-}
 
-@mixin pad {
-    @media screen and (min-width: #{$on-pad}) {
-        @content;
-    }
-}
+
+
+
+
+
 
 /*@mixin laptop {
     @media screen and (min-width: #{$on-laptop}) {
@@ -157,11 +173,7 @@ $on-desktop-blah:        1200px;
     }
 }*/
 
-@mixin desktop-blah {
-    @media screen and (min-width: #{$on-desktop-blah}) {
-        @content;
-    }
-}
+
 
 /* #mixins for second set of media queries */
 
