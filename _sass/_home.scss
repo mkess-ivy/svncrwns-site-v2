@@ -154,7 +154,7 @@ Section 05
 .svn-content_contain-img { width: 85%; margin: 0 auto; position: relative; text-align: center;}
 .svn-content_img-no { position: absolute; z-index: 5; padding: 1em; right: 0; }
 .svn-content_img-no.left {text-align: left; left: 15px;}
-.svn-content_img-no-txt { color: #fff; font-family: $alt-font-1; font-size: 14px; }
+.svn-content_img-no-txt { color: #fff; font-family: $brand-font; font-size: 14px; }
 .svn-content_contain-txt { position: relative; top: -1em; padding-right: 0.3em; margin: 0 auto; background: rgba(255,255,255,0.4); width:75%;
   @include mobile-mid { top: -2em; }
   @include palm { top: -1em; }
