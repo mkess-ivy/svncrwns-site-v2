@@ -1,0 +1,14 @@
+
+#sampletext { position: absolute; font : italic bold 60px arial; color : #aaaaaa; margin-top : 200px; }
+#slideshow > div { position: absolute;  width: 100%; margin: 0 auto;
+/*  @include laptop { width: 30%; left: 10em; }*/
+}
+.marginauto { margin: 0 auto; }
+/*.slideshow-container { display: none;
+  @include laptop { position: relative; display: block; }
+}*/
+
+#slideshow { position: relative; margin: 0 auto; width: 55%; height: 400px; display: block; text-align: center; 
+	@include palm { height: 500px; padding-top: 2em; }
+	@include laptop	{ width: 49%; float: left; height: auto; padding-bottom: 4em;}
+}

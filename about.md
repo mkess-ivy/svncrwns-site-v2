@@ -9,7 +9,7 @@ permalink: /about/
 	
 		<div class="backtop-icon"><a href="#home"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a></div>
 	
-
+	<div class="about-separator"></div>
 	<div class="row about-hero_group clear">
 		<div class="catalog-hero about-hero1"><img src="/assets/images/montier.png" /></div>
 		<div class="catalog-hero about-hero2"><img src="/assets/images/chavon.png" /></div>
@@ -28,15 +28,15 @@ permalink: /about/
 		</div>
 	</div>
 
-	<!-- <div class="separator"></div> -->
-	<div class="about-hero_group martop2">
+	<div class="separator"></div>
+	<div class="about-hero_group">
 		<div class="about-middle-hero1"><img src="/assets/images/white.jpeg" /></div>
 		<div class="about-middle-hero2"><img src="/assets/images/hands.jpeg" /></div>
 	</div>
 
-	<!-- <div class="separator"></div> -->
+	<div class="separator"></div>
 
-	<div class="about-content_group martop2">
+	<div class="about-content_group">
 		<div class="about-content_title">what we do</div>
 		<div class="about-content_text">
 			<p>Through agentic action, people devise ways of adapting flexibly to remarkably diverse geographic, climatic and social environments; they figure out ways to circumvent physical and environmental constraints, redesign and construct environments to their liking… By these inventive means, people improve their odds in the fitness survival game.</p>

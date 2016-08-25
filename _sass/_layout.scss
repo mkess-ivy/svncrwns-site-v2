@@ -66,7 +66,7 @@
 .box-hero__text--data-position-r { float: left;}
 .box-hero__text--content-r { float: left; left: 3em; }
 .box-hero__text--title-r { 
-    @include tablet { left: 3.2em !important; }
+    @include tablet { left: 3.2em !important; padding-top: 4.5em;}
     @include laptop { left: 4.9em !important;  padding-top: 4.3em !important;}
     @include desktop { left: 6.9em !important; padding-top: 2em !important;}
 }
@@ -174,17 +174,37 @@
 .about-hero2 { width: 50%; margin-top: -4em; left: 8em; position: relative; 
     @include palm { margin-top: -6em; left: 11em; }
     @include palm-mid { left: 15em; margin-top: -8em; }
+    @include mobile-lg { left: 17em; }
+    @include pad { left: 22em; }
+    @include laptop { width: 40%; left: 30em; }
+    @include desktop { left: 34em; }
 }
 .about-title { font-family: $brand-font; color: $brand-color; text-align: right; font-size: 1.5em; text-decoration: underline; margin-top: 1em;
     @include palm-mid { width: 50%; margin-top: -4em; font-size: 2.1em; }
+    @include mobile-lg { width: 40%; margin-top: -6em; }
+    @include pad { font-size: 2.5em; }
+    @include desktop { font-size: 3.5em;  }
 }
 .about-content_title { text-align: center; text-transform: uppercase; font-family: $brand-font; padding: 2em 0; letter-spacing: 2px;}
 .about-content_text p { font-size: 0.9em; 
     @include palm-mid { width: 75%; margin: 0 auto; padding-bottom: 2em; font-size: 1.1em; }
+    @include pad { width: 60%; }
 }
-.about-middle-hero2 { width: 70%; margin: -3em auto 0; }
+.about-middle-hero1 {
+    @include pad { width: 90%; margin: 0 auto; }
+    @include laptop { width: 75%; }
+}
+.about-middle-hero2 { width: 70%; margin: -5em auto 0; 
+    @include palm-mid { margin: -8em auto 0; }
+    @include pad { width: 60%; }
+    @include laptop { width: 50%; }
+}
+.about-list_group { 
+    @include laptop { width: 55% !important; margin: 0 auto; }
+}
 .about-list { list-style: none; text-align: center; font-family: $brand-font; font-size: 1.1em; margin: 0;
     @include palm-mid { width: 50%; float: left; }
+    @include tablet { font-size: 1.3em; }
 }
 .about-list li { padding-bottom: 1em; }
 .about-content_text a { color: $brand-color; font-size: 1.4em; text-align: center; font-family: $brand-font; padding-bottom: 1em; display: block; }
@@ -192,6 +212,16 @@
 .special_group { 
     @include palm-mid { margin-top: 4em; }
 }
+.about-separator {
+    @include tablet { height: 2em; }
+}
+
+/* Journal */
+.journal-wrapper { width: 50%; margin: 0 auto; }
+.journal-wrapper_list { list-style: none; text-align: center; margin: 0 auto; position: relative;  padding-top: 1.3em; text-transform: uppercase; letter-spacing: 2px; font-size: 10px;}
+.journal-wrapper_list li { display: inline-block; }
+.journal-title { text-align: center; padding-top: 15px; }
+.journal-title a { font-size: 1.7em; font-family: $brand-font;  }
 
 
 

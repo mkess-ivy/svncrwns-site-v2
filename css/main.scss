@@ -61,9 +61,9 @@ $on-palm-three:     600px;
 $on-mobile-lg:      620px;
 $on-tablet:         700px; /* used this one, this is another important breakpoint */
 $on-pad:            750px;
+$tablet-width:      768px;
 $on-tablet-mid:   800px;
 $on-laptop:         900px; /* used this one */
-$tablet-width:      768px;
 $on-desktop:        1024px; /* used this one */
 /*$on-laptop:         1024px;*/
 $on-desktop-blah:        1200px;
@@ -247,6 +247,7 @@ $on-desktop-blah:        1200px;
         "base",
         "home",
         "layout",
+        "slider",
         "footer"
         
 ;
