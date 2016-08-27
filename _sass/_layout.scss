@@ -217,18 +217,35 @@
 }
 
 /* Journal */
-.journal-wrapper { width: 50%; margin: 0 auto; }
-.journal-wrapper_list { list-style: none; text-align: center; margin: 0 auto; position: relative;  padding-top: 1.3em; text-transform: uppercase; letter-spacing: 2px; font-size: 10px;}
+.journal-wrapper { width: 75%; margin: 0 auto; 
+    @include tablet { width: 50%; }
+}
+.journal-wrapper_list { list-style: none; text-align: center; margin: 0 auto; position: relative;  padding-top: 1.3em; text-transform: uppercase; letter-spacing: 2px; font-size: 8px;
+    @include palm-mid { font-size: 10px; }
+}
 .journal-wrapper_list li { display: inline-block; }
 .journal-title { text-align: center; padding-top: 15px; }
-.journal-title a { font-size: 1.7em; font-family: $brand-font;  }
+.journal-title a { font-size: 1.3em; font-family: $brand-font;
+    @include tablet { font-size: 1.7em; }
+}
+.journal-container { padding: 4em 0 2em; }
 
-
-
-
-
-
-
+/* Journal Posts */
+.post-container { padding-top: 3em; margin: 0 10%; }
+.post-date { text-align: center; text-transform: uppercase; font-size: 0.8em; letter-spacing: 3px; }
+.post-title { text-align: center; padding: 0.7em 0 2.5em; font-size: 2em; font-family: "League Spartan"; }
+.post-content { width: 80%; margin: 0 auto; padding-bottom: 3em;
+    @include tablet { width: 35%; float: right; padding-top: 1em; }
+}
+.img-content { width: 80%; margin: 0 auto; 
+    @include tablet { width: 60%; float: left; }
+}
+.body-content { padding-top: 1.5em; }
+.journal-caption { width: 75%; padding: 1em 0;
+    @include tablet { width: 65%; }
+}
+.journal-caption_group { padding-top: 4em; }
+.journal-caption_sm { font-size: 0.8em; }
 
 
 
