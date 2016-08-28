@@ -5,7 +5,7 @@ date:   'Aug 05 2016'
 year:	'2016'
 featured: yes
 
-img-path: /assets/images/drink.jpeg
+img-path: /assets/images/drink.jpg
 tags: "film"
 ---
 
