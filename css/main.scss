@@ -16,26 +16,8 @@ $small-font-size:  $base-font-size * 0.875;
 $section-number-font-size: 1.2em;
 $section-hero-font-size: 20px;
 $size_img_id: 0.8em;
-
 $base-line-height: 1.5;
-
-/*$section-id-number: 1.2em;*/
-
-
-/*
-@mixin MaisonNeue-Bold {
-  font-family: 'MaisonNeue-Bold', arial, sans-serif;
-  font-weight: 300; font-style: normal; }
-
-@include font-face(MaisonNeue-Bold, 'https://dl.dropboxusercontent.com/u/12644668/fonts/maisonneuebold.ttf', 300, normal);*/
-
-@mixin brandcolortext {
-    color: $brand-color;
-}
-
-
 $spacing-unit:     20px;
-
 $text-color: #000;
 $primary-color: #4a4a4a;
 $quote-color: #3b3b3b;
@@ -45,10 +27,10 @@ $background-color: #fff;
 $white-bg: #fff;
 $image-number-color: #fff;
 $color_img_id: #ffffff;
-
  $grey-color:       #828282;
  $grey-color-light: lighten($grey-color, 40%);
  $grey-color-dark:  darken($grey-color, 25%);
+
 
 // Width of the content area
 $content-width:    1000px;
@@ -67,6 +49,7 @@ $on-laptop:         900px; /* used this one */
 $on-desktop:        1024px; /* used this one */
 /*$on-laptop:         1024px;*/
 $on-desktop-blah:        1200px;
+$on-tv:     1400px;
 
 
 
@@ -145,85 +128,11 @@ $on-desktop-blah:        1200px;
     }
 }
 
-/* mixins for second set of media queries */
-/* other media queries to consider - i think i need to redo the home page a-fucking-gain -_-
-
-* mobile - from 300px
-* mobile-mid - from 480px
-* pad - from 786px
-* laptop - from 1024px
-* desktop and larger - from 1200 px
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*@mixin laptop {
-    @media screen and (min-width: #{$on-laptop}) {
-        @content;
-    }
-}*/
-
-
-
-/* #mixins for second set of media queries */
-
-
-
-
-
-
-
-
-
-// Using media queries with like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
+@mixin tv {
+    @media screen and (min-width: #{$on-tv}) {
         @content;
     }
 }
-
-
-
-
-
-
-
-
-
-// Using media queries with like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-@mixin media-query($device) {
-    @media screen and (min-width: $device) {
-        @content;
-    }
-}
-
-
-
-
-
-
 
 
 
@@ -238,6 +147,10 @@ $on-desktop-blah:        1200px;
     line-height: 24px;
     font-weight: 900;
     text-decoration: underline;
+}
+
+@mixin brandcolortext {
+    color: $brand-color;
 }
 
 

@@ -1,11 +1,11 @@
 ---
 layout: catalog
 title:  "bold photo series"
-date:   'Feb 23 2016'
+date:   'Jan 01 2016'
 year:	'2016'
 medium: art
-featured: yes
-img-path: http://placehold.it/800x600
+featured: "no"
+img-path: /assets/images/catalog_bold-notreally.JPG
 ---
 
 Waistcoat chicharrones green juice flexitarian affogato celiac semiotics, cliche pickled pabst. Narwhal intelligentsia gentrify etsy farm-to-table banh mi.

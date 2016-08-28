@@ -1,3 +1,18 @@
+/* ----- TOC -----
+
+Reusable Code
+Featured
+Offerings
+Catalog
+Catalog Single
+About
+Journal
+Journal Posts
+Section 04 Featured Work
+Section 05
+
+----- #TOC ----- */
+
 /* Reusable Code */
 .spacer-half { padding: .5em 0; }
 .spacer1x {padding: 1em 0;}
@@ -6,24 +21,19 @@
 .spacer3x2 {padding: 6em 0;}
 
 
-/* Work - in the process of trying to reduce the media queries, possibly remove mobile-lg, find less breakpoints for content*/
+/* Featured */
 .video-hero { height: 75vh; position: relative; z-index: 200;}
-/*.video-bg { background-image: url('https://static.squarespace.com/static/54527e03e4b0733fc75e3179/t/5494c7e6e4b0bc65ffa37ef6/1419036646591/faster.good.gif'); }*/
 .video-bg { background-image: url('/assets/images/test.gif'); }
+/*.video-bg { background-image: url('https://static.squarespace.com/static/54527e03e4b0733fc75e3179/t/5494c7e6e4b0bc65ffa37ef6/1419036646591/faster.good.gif'); }*/
 
-
-.some-box { width: 70%; margin: 0 auto; }
+/*.some-box { width: 70%; margin: 0 auto; }
 .some-box_text { width: 40%; float: left; margin-right: 0.7em; text-align: justify; }
-.some-box_pic { width: 48%; float: left; margin-top: 2em; }
-
+.some-box_pic { width: 48%; float: left; margin-top: 2em; }*/
 .title-container { text-align: center; }
 .title { text-transform: uppercase; letter-spacing: 4px;}
 .title-icon { width: 3em; margin: 0 auto 20px; display: none;
     @include tablet { display: block; }
 }
-
-.year { font-weight: bold; font-size: 14px; }
-.padbot20 { padding-bottom: 8em; }
 
 .box-hero { width: auto; position: relative;}
 .box-hero__img { width: 100%;
@@ -42,18 +52,18 @@
     @include desktop { top: 0em; left: 1em; }
 }
 .box-hero__text--title, .box-hero__text--title-r { width: 100%;
-    @include tablet { position: relative; padding-top: 2.7em;  line-height: 40px; left: -3.5em;}
-    @include laptop { left: -5.5em; padding-top: 3.3em; }
+    @include tablet { position: relative; padding-top: 2.7em;  line-height: 40px; left: -2em;}
+    @include laptop { left: -2.5em; padding-top: 3.3em; }
     @include desktop { /*left: -7.5em; */ left: -4.5em; padding-top: 0.3em;}
 }
 .box-hero__text--content { font-size: 12px; padding-top: 1em; width: 70%; 
-    
     @include tablet { position: relative; width: 80%; padding-top: 0em; left: 1em;}
-    @include laptop { font-size: 14px; padding-top: 2.5em; }
+    @include laptop { font-size: 14px; padding-top: 1em; }
 }
+
 .brand-link a { font-size: 28px; color: $brand-color; text-decoration: underline; font-family: $alt-font-1; line-height: .9em; 
-    @include laptop { font-size: 44px; }
-    @include desktop { font-size: 50px; }
+    @include tablet { font-size: 40px; }
+    @include laptop { font-size: 55px; }
 }
 .brand-link a:hover { color: #745c1c; }
 
@@ -66,10 +76,14 @@
 .box-hero__text--data-position-r { float: left;}
 .box-hero__text--content-r { float: left; left: 3em; }
 .box-hero__text--title-r { 
-    @include tablet { left: 3.2em !important; padding-top: 4.5em;}
+    @include tablet { left: 3.2em !important; padding-top: 3.8em; padding-bottom: 1em; }
     @include laptop { left: 4.9em !important;  padding-top: 4.3em !important;}
     @include desktop { left: 6.9em !important; padding-top: 2em !important;}
 }
+
+.year { font-weight: bold; font-size: 14px; }
+.padbot20 { padding-bottom: 8em; }
+
 
 
 /* Offerings */
@@ -77,16 +91,15 @@
 .offerings-hero { height: 80vh; padding: 0; }
 .offerings-block-white { color: white !important; }
 
-
-
 .secondary-link a { font-size: 30px; color: black; text-decoration: none; text-transform: uppercase;
     @include mobile-mid { font-size: 40px; }
     @include pad { font-size: 50px; }
     @include laptop { font-size: 60px; }
 }
 
+
+
 /* Catalog */
-/*.title-crwn { margin: 0 auto; text-align: center; }*/
 .catalog-link a { font-size: 1.2em; font-family: $brand-font; text-align: center; 
     @include palm { font-size: 1.8em; }
 }
@@ -99,6 +112,7 @@
 .box-hero-v2 { margin-top: 2em; 
     @include mobile-mid { margin-top: 2em; }
 }
+
 
 
 /* Catalog Single */
@@ -166,6 +180,8 @@
     @include laptop { width: 40%; }
 }
 
+
+
 /* About */
 .about-hero1 { 
     @include palm-mid { width: 100%; }
@@ -173,33 +189,33 @@
 }
 .about-hero2 { width: 50%; margin-top: -4em; left: 8em; position: relative; 
     @include palm { margin-top: -6em; left: 11em; }
-    @include palm-mid { left: 15em; margin-top: -8em; }
-    @include mobile-lg { left: 17em; }
-    @include pad { left: 22em; }
+    @include palm-mid { left: 16em; margin-top: -8em; }
+    @include tablet { left: 22em; }
     @include laptop { width: 40%; left: 30em; }
     @include desktop { left: 34em; }
 }
 .about-title { font-family: $brand-font; color: $brand-color; text-align: right; font-size: 1.5em; text-decoration: underline; margin-top: 1em;
+    @include palm { font-size: 2.6em; padding-bottom: 1.5em; }
     @include palm-mid { width: 50%; margin-top: -4em; font-size: 2.1em; }
-    @include mobile-lg { width: 40%; margin-top: -6em; }
-    @include pad { font-size: 2.5em; }
+    @include tablet { width: 40%; margin-top: -6em; font-size: 2.5em; }
     @include desktop { font-size: 3.5em;  }
 }
-.about-content_title { text-align: center; text-transform: uppercase; font-family: $brand-font; padding: 2em 0; letter-spacing: 2px;}
+.about-content_title { text-align: center; text-transform: uppercase; font-family: $brand-font; padding: 4em 0; letter-spacing: 2px;}
 .about-content_text p { font-size: 0.9em; 
     @include palm-mid { width: 75%; margin: 0 auto; padding-bottom: 2em; font-size: 1.1em; }
-    @include pad { width: 60%; }
+    @include tablet { width: 60%; }
+    @include desktop { width: 45%; }
 }
 .about-middle-hero1 {
-    @include pad { width: 90%; margin: 0 auto; }
+    @include tablet { width: 90%; margin: 0 auto; }
     @include laptop { width: 75%; }
 }
 .about-middle-hero2 { width: 70%; margin: -5em auto 0; 
     @include palm-mid { margin: -8em auto 0; }
-    @include pad { width: 60%; }
+    @include tablet { width: 60%; }
     @include laptop { width: 50%; }
 }
-.about-list_group { 
+.about-list_group { padding-top: 3em;
     @include laptop { width: 55% !important; margin: 0 auto; }
 }
 .about-list { list-style: none; text-align: center; font-family: $brand-font; font-size: 1.1em; margin: 0;
@@ -216,9 +232,12 @@
     @include tablet { height: 2em; }
 }
 
+
+
 /* Journal */
 .journal-wrapper { width: 75%; margin: 0 auto; 
-    @include tablet { width: 50%; }
+    @include tablet { width: 70%; }
+    @include laptop { width: 65%; }
 }
 .journal-wrapper_list { list-style: none; text-align: center; margin: 0 auto; position: relative;  padding-top: 1.3em; text-transform: uppercase; letter-spacing: 2px; font-size: 8px;
     @include palm-mid { font-size: 10px; }
@@ -229,6 +248,8 @@
     @include tablet { font-size: 1.7em; }
 }
 .journal-container { padding: 4em 0 2em; }
+
+
 
 /* Journal Posts */
 .post-container { padding-top: 3em; margin: 0 10%; }
@@ -253,76 +274,68 @@
 
 
 /*not using */
-.background {
+/*.background {
     position: relative;
-    /*top: 50%;
-    left: 50%;*/
-    min-width: 100%;
-    /*min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    background: url(polina.jpg) no-repeat;
-    background-size: cover;*/
-}
+    min-width: 100%; 
+}*/
 
 
 
 
 /* Old Shit */
-.section-no-height { height: auto; }
-.section-bg-no-height { background-size: cover; background-position: center center; width: 100%; z-index: 2; position: relative; }
-.content-fill { position: relative; background: $background-color; 
+/*.section-no-height { height: auto; }*/
+/*.section-bg-no-height { background-size: cover; background-position: center center; width: 100%; z-index: 2; position: relative; }*/
+/*.content-fill { position: relative; background: $background-color; 
     @include tablet { padding: 1em;  }
-}
-.content-fill-no-height { height: auto; position: relative; background: $background-color; top: 2em; margin-bottom: 2em; }
-.section-identifier { position: relative; padding: .2em; font-family: $alt-font-1; font-size: $section-number-font-size; color: $brand-color; 
+}*/
+/*.content-fill-no-height { height: auto; position: relative; background: $background-color; top: 2em; margin-bottom: 2em; }*/
+/*.section-identifier { position: relative; padding: .2em; font-family: $alt-font-1; font-size: $section-number-font-size; color: $brand-color; 
     @include palm-three { padding: .5em; }
-}
-.section-identifier-r { text-align: right; }
-.section-text-s { text-align: right; width: 90%;  font-size: 1.3em; font-family: $alt-font-2; line-height: 1em; text-decoration: underline; 
+}*/
+/*.section-identifier-r { text-align: right; }*/
+/*.section-text-s { text-align: right; width: 90%;  font-size: 1.3em; font-family: $alt-font-2; line-height: 1em; text-decoration: underline; 
     @include palm { font-size: 2em; width: 85%; }
     @include palm-mid {  line-height: 1em; width: 85%; }
     @include tablet-mid { font-size: 3em; }
-}
-.width-adj-1 { 
+}*/
+/*.width-adj-1 { 
     @include palm-three { width: 70%; }
-}
-.width-adj-3 { width: 82%; 
+}*/
+/*.width-adj-3 { width: 82%; 
     @include palm { width: 85%; }
     @include palm-mid { width: 85%; }
     @include palm-three { width: 70%; }
     @include tablet { width: 65%; }
-}
-.width-adj-5 { 
+}*/
+/*.width-adj-5 { 
     @include palm-three { width: 70%; }
     @include tablet { width: 65%; }
-}
-.captions { position: relative; padding-top: 2em; padding-bottom: .5em;
+}*/
+/*.captions { position: relative; padding-top: 2em; padding-bottom: .5em;
     @include palm { padding-bottom: 1em; }
-}
-.captions-v2 { padding-top: 0em; }
-.image-caption { font-size: 6px; width: 70%; position: relative; padding: 1em 3em;
+}*/
+/*.captions-v2 { padding-top: 0em; }*/
+/*.image-caption { font-size: 6px; width: 70%; position: relative; padding: 1em 3em;
     @include palm { width: 55%; }
     @include palm-mid { font-size: 8px; }
     @include palm-three { width: 40%; }
     @include tablet { padding: 1em 2em; }
     @include tablet-mid { font-size: 12px; width: 50%;}
- }
-.s-caption { font-size: 6px; }
-.p-caption { width: 45%; float: right; position: relative;right: 1em; bottom: -6em; }
-.image-caption-title { font-size: 8px; text-transform: uppercase; font-weight: bold; 
+ }*/
+/*.s-caption { font-size: 6px; }
+.p-caption { width: 45%; float: right; position: relative;right: 1em; bottom: -6em; }*/
+/*.image-caption-title { font-size: 8px; text-transform: uppercase; font-weight: bold; 
     @include palm-mid { font-size: 9px; }
     @include tablet-mid { font-size: 14px; }
-}
+}*/
 
 /* Section 6 */
 
 
 /* Dividers */
-.divider { padding: 2.5em 0; width: 100%; }
+/*.divider { padding: 2.5em 0; width: 100%; }*/
+
+
 
 /* Misc */
 .position-img-home-01 { margin: 0 1em; padding: 0 1em; position: relative; top: -.7em; 
@@ -411,14 +424,7 @@
     /*@include laptop { }*/
     @include desktop { padding-top: 0; }
 }
-.crwns-wrapper {  margin-right: 5%; margin-left: 5%; padding-right: $spacing-unit; padding-left: $spacing-unit; @extend %clearfix; 
-    @include mobile-mid { max-width: 480px; margin: 0 5%; }
-    @include mobile-lg { max-width: 620px; margin: 0 5%; clear: both;}
-    @include pad { max-width: 750px; margin: 0 auto;}
-    @include laptop { max-width: 1024px; margin: 0 auto;}
-    @include desktop { max-width: 1200px;  margin: 0 auto;}
-    
-}
+
 .row { width: 100%; position: relative; }
 .row.last { padding-bottom: 9em; }
 .col-2 { width: 100%; position: relative;
@@ -533,104 +539,3 @@
     @include laptop { font-size: 2em; top: 4em; width: 46%;}
 }
 
-/* Delete this last */
-/*.hero-left-image { background-image: url('/assets/images/hero-left-image.png'); }*/
-/*.hero-right-image { background-image: url('/assets/images/hero-right-image.png'); }*/
-/*.section01-bg-image { background-image: url('/assets/images/geostairs.jpg'); }
-.section02-bg-image { background-image: url('/assets/images/section-02-bg.png'); }
-*/
-/*.icon { float: left; padding: .5em; width: 23%;}*/
-/*.hero-section-alt { margin: 0 1em; 
-    @include tablet { margin: 0 4em; }
-}*/
-/*.section-bg { background-size: cover; background-position: center center; height: 100vh; width: 100%; z-index: 2; position: relative; 
-    @include palm { height: 111vh; }
-    @include palm-mid { height: 123vh; }
-    @include palm-three { height: 137vh; }
-}*/
-/*.p-img-id-1 { top: 2em; position: relative; left: 1em; 
-    @include palm { left: 4em; }
-}
-.p-img-id-2 { position: relative; top: 2em; left: 0.6em;  }*/
-/*.herecontent { background: white; margin: 1em; position: relative;*/ /* scrapped the padding } */
-/*.height-alt { height: 135vh; }*/
-/*.bg-s-4 { background: url('/assets/images/section-01-bg.png') no-repeat center center / cover; }
-.bg-s-5 { background: url('/assets/images/bikes.jpeg') no-repeat center center / cover; }*/
-/*.produce { position: absolute; top: 3.4em; color: $white-bg; left: 0.4em; font-size: 2.4em; text-transform: uppercase; font-family: $alt-font-1; line-height: 1em; width: 100%;
-    @include palm { font-size: 3.4em; }
-    @include palm-mid { padding: 0 1em; }
-    @include palm-three { padding: 0 2em; }
-    @include tablet { padding: 0 1.3em; font-size: 4.5em; left: 0;  }
-    @include tablet-mid { font-size: 5.5em; padding: 0 1.1em; top: 2.6em; }
-}*/
-
-/*.featured-button { background: #C68DAB; width: 45%; text-transform: uppercase; right: -2em; position: relative; padding: .75em; top: -1em; float: right;
-    @include palm { width: 40%; }
-    @include palm-mid { width: 30%; }
-    @include palm-three { width: 25%;}
-    @include tablet { right: -3em; }
-}*/
-/*
-.note-meta { clear: both; @extend %clearfix; font-family: $alt-font-1; padding-top: 2em; position: relative; width: 90%; margin: 0 1em;
-    @include palm-mid { width: 70%; margin: 0 1em 0 5em; }
-} 
-.note-date { text-align: center; font-size: 2.5em; color: rgba(155,155,155,.45); 
-    @include palm-mid { font-size: 3.2em; }
-}
-.note-issue { text-transform: uppercase; position: absolute; z-index: 5; top: 2em; padding: 1.5em; 
-    @include palm-mid { padding: 2em;  }
-}
-
-.note-text { padding: 1em 1em 0; font-style: oblique; font-size: 1.05em; position: relative;
-    @include palm-mid { padding: 1em 4em 0; }
-    @include palm-three { padding: 4em 5em 0; }
-}
-.note-salutation { position: relative; padding: 2em 0; text-transform: uppercase; text-align: center; color: $primary-color; font-weight: lighter; 
-    @include palm-three { padding: 4em 0;  }
-}
-
-.note-title { font-size: 3.2em; font-family: $alt-font-1; text-align: center; text-transform: uppercase; opacity: .46; position: absolute; clear: both; top: 10em; line-height: 1em; 
-    @include palm { top: 6em; font-size: 4.2em; }
-    @include palm-mid { font-size: 4.2em; top: 5em; line-height: 1.2em; }
-    @include palm-three { top: 6em; }
-}*/
-
-
-/*.section-quote { width: 70%; text-align: right; margin: 0 auto; position: relative; padding-bottom: 5em; top: 0em;
-    @include palm-mid { padding-top: 3em; }
-    @include tablet-mid { padding-top: 0em; }
-}
-.section-quotation { font-weight: bold; font-size: 60px; color: $brand-color; position: absolute; top: -.5em; left: -.2em;
-    @include palm { top: -.6em; left: -.5em; }
-    @include palm-mid { top: 0em; left: -.5em; font-size: 90px; }
-    @include tablet { font-size: 70px; top: -.1em; left: -0.1em; }
-}
-.section-quote-author { text-transform: uppercase; font-weight: bold; font-size: .8em; padding-top: 1em; text-align: right; }
-.section-quote-text {
-    @include tablet-mid { font-size: 1.2em; }
-}*/
-/*.content-fill { height: 90vh; position: relative; background: $background-color; top: 2em;
-    @include palm { height: 100vh; }
-    @include palm-mid { height: 112vh; }
-    @include palm-three { height: 126vh; }
-    @include tablet { top: 4em; }
-}*/
-
-/*.section-text-p-1 { position: relative; top: -.5em;
-    @include palm { top: 0em; left: .5em; }
-    @include palm-mid { position: relative; top: -1em; padding: 0; top: 0em; left: .5em; }
-    @include palm-three { left: -1.5em; }
-    @include tablet-mid { top: -6em; }
-}
-.section-text-p-3 { position: absolute; top: 13em; right: 2em; 
-    @include palm { left: .5em; right: 0; top: 10.5em;}
-    @include palm-mid { left: 0; top: 16em; }
-    @include tablet { left: -2em; }
-    @include tablet-mid { left: 0em; top: 3em; }
-}
-.section-text-p-5 { position: relative; top: -1.5em; left: 0em; 
-    @include palm { top: -1em; }
-    @include palm-mid { top: -.5em; }
-    @include palm-three { top: -1.5em; left: -2em; }
-    @include tablet-mid { left: 0em; }
-}*/

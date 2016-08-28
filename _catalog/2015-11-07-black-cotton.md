@@ -1,11 +1,11 @@
 ---
 layout: catalog
-title:  "Collabmore SPECTRUM"
-date:   'Feb 23 2016'
-year:	'2016'
+title:  "Black Cotton"
+date:   'Nov 07 2015'
+year:	'2015'
 medium: art
-featured: yes
-img-path: http://placehold.it/800x600
+featured: "no"
+img-path: /assets/images/drive.jpg
 ---
 
 Waistcoat chicharrones green juice flexitarian affogato celiac semiotics, cliche pickled pabst. Narwhal intelligentsia gentrify etsy farm-to-table banh mi.

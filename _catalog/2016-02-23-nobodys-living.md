@@ -4,7 +4,7 @@ title:  "Nobody's Living"
 date:   'Feb 23 2016'
 year:	'2016'
 medium: art
-featured: yes
+featured: "no"
 img-path: https://dl.dropboxusercontent.com/u/12644668/thugmythproj/montier.jpg
 ---
 

@@ -1,11 +1,11 @@
 ---
 layout: catalog
-title:  "Walking Fall"
-date:   'Feb 23 2016'
+title:  "Solely Supreme"
+date:   'Apr 23 2015'
 year:	'2015'
 medium: art
-featured: yes
-img-path: http://placehold.it/800x600
+featured: true
+img-path: /assets/images/catalog_solely-supreme.png
 ---
 
 Waistcoat chicharrones green juice flexitarian affogato celiac semiotics, cliche pickled pabst. Narwhal intelligentsia gentrify etsy farm-to-table banh mi.

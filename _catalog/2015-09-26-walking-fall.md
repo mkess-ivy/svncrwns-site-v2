@@ -1,11 +1,11 @@
 ---
 layout: catalog
-title:  "New Secrets"
-date:   'Feb 23 2014'
-year:	'2014'
+title:  "Walking Fall"
+date:   'Sept 26 2016'
+year:	'2015'
 medium: art
-featured: yes
-img-path: https://dl.dropboxusercontent.com/u/12644668/black.png
+featured: "no"
+img-path: https://dl.dropboxusercontent.com/u/12644668/thugmythproj/montier.jpg
 ---
 
 Waistcoat chicharrones green juice flexitarian affogato celiac semiotics, cliche pickled pabst. Narwhal intelligentsia gentrify etsy farm-to-table banh mi.

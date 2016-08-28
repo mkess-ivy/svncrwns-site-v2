@@ -1,11 +1,11 @@
 ---
 layout: catalog
-title:  "Rebranding Sankofa"
-date:   'Feb 23 2016'
-year:	'2016'
+title:  "New Secrets"
+date:   'Feb 23 2014'
+year:	'2014'
 medium: art
-featured: yes
-img-path: https://dl.dropboxusercontent.com/u/12644668/shoes.jpg
+featured: "no"
+img-path: https://dl.dropboxusercontent.com/u/12644668/black.png
 ---
 
 Waistcoat chicharrones green juice flexitarian affogato celiac semiotics, cliche pickled pabst. Narwhal intelligentsia gentrify etsy farm-to-table banh mi.

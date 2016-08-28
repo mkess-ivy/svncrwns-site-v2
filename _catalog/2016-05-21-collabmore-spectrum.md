@@ -1,11 +1,11 @@
 ---
 layout: catalog
-title:  "Solely Supreme"
-date:   'Feb 23 2015'
-year:	'2015'
+title:  "Collabmore SPECTRUM"
+date:   'May 21 2016'
+year:	'2016'
 medium: art
-featured: yes
-img-path: https://dl.dropboxusercontent.com/u/12644668/thugmythproj/montier.jpg
+featured: true
+img-path: http://placehold.it/800x600
 ---
 
 Waistcoat chicharrones green juice flexitarian affogato celiac semiotics, cliche pickled pabst. Narwhal intelligentsia gentrify etsy farm-to-table banh mi.

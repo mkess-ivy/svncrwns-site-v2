@@ -28,7 +28,7 @@ permalink: /about/
 		</div>
 	</div>
 
-	<div class="separator"></div>
+	<div class="spacer3x"></div>
 	<div class="about-hero_group">
 		<div class="about-middle-hero1"><img src="/assets/images/white.jpeg" /></div>
 		<div class="about-middle-hero2"><img src="/assets/images/hands.jpeg" /></div>
