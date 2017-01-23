@@ -390,8 +390,14 @@ if it's not present, don't show loader */
 .section01-bg-image { 
   background-image: url('/assets/images/geostairs.jpg'); 
 }
-.section-bg_three { 
+/*
+Using a bg color for now 
+
+.section02-bg-img { 
   background-image: url('/assets/images/person.jpg'); 
+}*/
+.section03-bg-img { 
+  background: url('/assets/images/white.jpg') no-repeat center center / cover;
 }
 .section-03-img2-prop { 
   top: -3em; 
@@ -409,9 +415,8 @@ if it's not present, don't show loader */
     left: 3em; 
   }
 }
-.bg1 { 
-  background: url('/assets/images/white.jpg') no-repeat center center / cover;
-}
+
+
 .section-05-img3-prop { 
   top: -2em; 
   position: relative; 
