@@ -30,7 +30,12 @@ Section 05
 /* This only works with JavaScript, 
 if it's not present, don't show loader */
 .no-js #loader { display: none;  }
-.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.js #loader { 
+  display: block; 
+  position: absolute; 
+  left: 100px; 
+  top: 0; 
+}
 .se-pre-con {
   position: fixed;
   left: 0px;
@@ -43,94 +48,313 @@ if it's not present, don't show loader */
 
 /* Header */
 .site-header {  }
-#menu-container { position: relative; height: 60px; width: 80px; display: block; text-align: center; margin: 0 auto;
-  @include palm-mid { height: 80px; width: 100px;  }
-  @include tablet { float: left; text-align: none; margin: none; }
+#menu-container { 
+  position: relative; 
+  height: 60px; 
+  width: 80px; 
+  display: block; 
+  text-align: center; 
+  margin: 0 auto;
+  @include palm-mid { 
+    height: 80px; 
+    width: 100px;  
+  }
+  @include tablet { 
+    float: left; 
+    text-align: none; 
+    margin: none; 
+  }
 }
-.menuButton { text-indent: 0; color: #fff; font-size: 3em; position: relative; background: url("/assets/images/crown-logo.svg") no-repeat center center; background-size: cover; width: 75%; height: 75%; border: 1px solid white; 
+.menuButton { 
+  text-indent: 0; 
+  color: #fff; 
+  font-size: 3em; 
+  position: relative; 
+  background: url("/assets/images/crown-logo.svg") no-repeat center center; 
+  background-size: cover; 
+  width: 75%; 
+  height: 75%; 
+  border: none; 
 }
-.menuButton:hover { background: url("/assets/images/crown-logo-brand2.svg") no-repeat center center; background-size: cover; -o-transition:.75s;
-  -ms-transition:.75s; -moz-transition:.75s; -webkit-transition:.75s; transition:.75s;}
-.menuButton:active { position: relative; top: 1px; }
-.menu-icons { padding-top: 2%; }
-.menu-icons img { width: 3%; }
-#overlay-menu { margin: 0.2em; }
-.overlay { position: fixed; width: 100%; height: 100%; top: 0; left: 0; background: rgba(201,164,67,0.95); z-index: 500; }
-.overlay nav { text-align: center; position: relative; top: 5%; height: 45%; font-size: 3em; 
-  @include palm-mid { font-size: 3em; padding-top: 2.5em;}
+.menuButton:hover { 
+  background: url("/assets/images/crown-logo-brand2.svg") no-repeat center center; 
+  background-size: cover; 
+  -o-transition:.75s;
+  -ms-transition:.75s; 
+  -moz-transition:.75s; 
+  -webkit-transition:.75s; 
+  transition:.75s;
 }
-.overlay ul { list-style: none; padding: 0; margin: 0 auto; display: inline-block; height: 100%; position: relative; }
-.overlay ul li { height: 25%; padding: 0; margin:0; width: 100%;
-  @include palm-mid { padding-bottom: 2em; }
+.menuButton:active { 
+  position: relative; 
+  top: 1px; 
 }
-.overlay ul li a { text-decoration: none; color: #fff; letter-spacing: 4px; font-family: $brand-font;}
-.overlay ul li a:hover { color: #6F5723; }
-.overlay-close { width: 35px; height: 30px; position: absolute; right: 10px; top: 10px; overflow: hidden; border: none; background: url('/assets/images/close-v2.png') no-repeat center center; background-size: contain; text-indent: 200%; color: transparent; outline: none; z-index: 100; }
-.overlay-data { opacity: 0; visibility: hidden; -webkit-transition: opacity 0.5s, visibility 0s 0.5s; transition: opacity 0.5s, visibility 0s 0.5s; }
-.overlay-open { opacity: 1; visibility: visible; -webkit-transition: opacity 0.5s; transition: opacity 0.5s; }
+.menu-icons { 
+  padding-top: 2%; 
+}
+.menu-icons img { 
+  width: 3%; 
+}
+#overlay-menu { 
+  margin: 0.2em; 
+}
+.overlay { 
+  position: fixed; 
+  width: 100%; 
+  height: 100%; 
+  top: 0; 
+  left: 0; 
+  background: rgba(201,164,67,0.95); 
+  z-index: 500; 
+}
+.overlay nav { 
+  /*text-align: center; */
+  position: relative;
+  bottom: -18em;
+  padding-right: 1em;
+  text-align: right;
+  /*top: 5%; */
+  /*height: 45%; */
+  /*font-size: 3em;*/ 
+  
+  @include palm-mid { 
+  /*  font-size: 3em; */
+    /*padding-top: 2.5em;*/
+  }
+}
+.overlay ul { 
+  list-style: none; 
+  padding: 0; 
+  margin: 0 auto; 
+  display: inline-block;
+  height: 100%; 
+  position: relative; 
+}
+.overlay ul li { 
+  height: 25%; 
+  padding: 0; 
+  margin:0; 
+  width: 100%;
+  
+  @include palm-mid { 
+    padding-bottom: 2em; 
+  }
+}
+.overlay ul li a { 
+  text-decoration: none; 
+  color: #fff; 
+  letter-spacing: 2px; 
+  font-family: $brand-font;
+  font-size: 40px;
+  text-transform: uppercase;
+  line-height: 44px;
+}
+.overlay ul li a:hover { 
+  color: #6F5723; 
+}
+.overlay-close { 
+  width: 35px; 
+  height: 30px; 
+  position: absolute; 
+  right: 10px; 
+  top: 10px; 
+  overflow: hidden; 
+  border: none; 
+  background: url('/assets/images/close-v2.png') no-repeat center center; 
+  background-size: contain; 
+  text-indent: 200%; 
+  color: transparent; 
+  outline: none; 
+  z-index: 100; 
+}
+.overlay-data { 
+  opacity: 0; 
+  visibility: hidden; 
+  -webkit-transition: opacity 0.5s, visibility 0s 0.5s; 
+  transition: opacity 0.5s, visibility 0s 0.5s; 
+}
+.overlay-open { 
+  opacity: 1; 
+  visibility: visible; 
+  -webkit-transition: opacity 0.5s; 
+  transition: opacity 0.5s; 
+}
 
 @media screen and (max-width: 500px) {
-  .overlay nav { font-size: 2em; top: 13%; height: 45%; left: 3%; }
-  .menu-icons { padding-top: 15%; }
-  .menu-icons img { width: 10%; }
-}
-.header-row { width: 100%; height: auto; display: inline-block; float: left; position: relative; background-color: $white-bg; }
-.logo { display: none; float: right; padding: .5em;
-    @include tablet { display: block; }
+  .overlay nav { 
+    /*font-size: 2em; */
+    /*top: 13%; 
+    height: 45%; 
+    left: 3%; */
+  }
+  .menu-icons { 
+    padding-top: 15%; 
+  }
+  .menu-icons img { 
+    width: 10%; 
+  }
 }
 
+.header-row { 
+  width: 100%; 
+  height: auto; 
+  display: inline-block; 
+  float: left; 
+  position: relative; 
+}
+.logo { 
+  display: none; 
+  float: right; 
+  padding: .5em;
+  
+  @include tablet { 
+    display: block; 
+  }
+}
 
 /* Wrappers */
-.svn-wrapper { width: 300px; padding: 2em 0; margin: 0 auto;
-  @include palm-mid { width: 450px; }
-  @include tablet { width: 600px; padding: 0;}
-  @include laptop { width: 800px; }
+.svn-wrapper { 
+  width: 300px; 
+  padding: 2em 0; 
+  margin: 0 auto;
+  
+  @include palm-mid { 
+    width: 450px; 
+  }
+  @include tablet { 
+    width: 600px; 
+    padding: 0;
+  }
+  @include laptop { 
+    width: 800px; 
+  }
 }
-.hero-wrapper { margin: 1em 5em;
-  @include palm-mid {margin: 2em 5em; }
-  @include tablet { margin: 0em 1em; }
+.hero-wrapper { 
+  margin: 1em 5em;
+  @include palm-mid {
+    margin: 2em 5em; 
+  }
+  @include tablet { 
+    margin: 0em 1em; 
+  }
 }
-.crwns-wrapper {  margin-right: 5%; margin-left: 5%; padding-right: $spacing-unit; padding-left: $spacing-unit; @extend %clearfix; 
-    @include palm { max-width: 400px; margin: 0 5%; }
-    @include palm-mid { max-width: 500px; margin: 0 auto; clear: both;}
-    @include tablet { max-width: 700px; margin: 0 auto;}
-    @include laptop { max-width: 1024px; margin: 0 auto;}
-    @include desktop { max-width: 1200px;  margin: 0 auto;}
-    
+.crwns-wrapper { 
+  margin-right: 5%; 
+  margin-left: 5%; 
+  padding-right: $spacing-unit; 
+  padding-left: $spacing-unit; 
+  @extend %clearfix; 
+    @include palm { 
+      max-width: 400px; 
+      margin: 0 5%; 
+    }
+    @include palm-mid { 
+      max-width: 500px; 
+      margin: 0 auto; 
+      clear: both;
+    }
+    @include tablet { 
+      max-width: 700px; 
+      margin: 0 auto;
+    }
+    @include laptop { 
+      max-width: 1024px; 
+      margin: 0 auto;
+    }
+    @include desktop { 
+      max-width: 1200px; 
+      margin: 0 auto;
+    }
 }
-
 
 /* Hero */
-.fullpage { position: relative; width: 100%; 
-  @include desktop-blah { width: 1100px; margin: 0 auto; }
-  @include tv { width: 1300px; }
+.fullpage { 
+  position: relative; 
+  width: 100%; 
+  @include desktop-blah { 
+    width: 1100px; 
+    margin: 0 auto; 
+  }
+  @include tv { 
+    width: 1300px; 
+  }
 }
-
-.hero-section { z-index: 3; position: relative; }
-.hero-prop { margin: 2em;
-  @include tablet {margin: 3.5em;} 
-  @include laptop { margin: 5.5em; }
+.hero-section { 
+  z-index: 3; 
+  position: relative; 
 }
-.hero-icon { position: absolute; top: 45%; right: 26%; 
-  @include palm-mid { right: 38%;  }
-  @include tablet { right: 40%; top: 17em;}
-  @include laptop { right: 42%; top: 21em; }
-  @include desktop-blah { right: 44%; }
+.hero-prop { 
+  margin: 0.5em 2em 2em 2em;
+  @include tablet {
+    margin: 3.5em;
+  } 
+  @include laptop { 
+    margin: 5.5em; 
+  }
 }
-.hero-right-image { background-image: url('/assets/images/drive.jpg'); }
-.hero-left-image { background-image: url('/assets/images/person.jpg'); }
-.hero-bg { background-size: cover; background-position: bottom right; background-repeat: no-repeat; width: 100%; height: 50vh; 
-  @include palm-mid {  height: 60vh;  }
-  @include tablet { width: 50%; float: left; height: 75vh; }
-  @include laptop { height: 90vh; }
-  @include tv { height: 100vh; }
+.hero-icon { 
+  position: absolute; 
+  top: 9.5em; 
+  text-align: center; 
+  width: 100px; 
+  height: 77px; 
+  margin: auto; 
+  right: 0; 
+  left: 0;
+  @include tablet {
+    top: 17em;
+  }
+  @include laptop {
+    top: 21em; 
+  }
 }
-.huge-hero-logo { position: relative; z-index: 2; bottom: 5.5em; padding: .5em; 
-  @include palm-mid { bottom: 7.5em; }
-  @include laptop { width: 90%; margin: 0 auto; bottom: 4.5em; text-align: center; }
+.hero-right-image { 
+  background-image: url('/assets/images/drive.jpg'); 
 }
-.width100 { width: 100%; 
-  @include laptop { width: 80%; }
+.hero-left-image { 
+  background-image: url('/assets/images/person.jpg'); 
+}
+.hero-bg { 
+  background-size: cover; 
+  background-position: bottom right; 
+  background-repeat: no-repeat; 
+  width: 100%; 
+  height: calc(50vh - 105px); 
+  @include palm-mid { 
+    height: 60vh;  
+  }
+  @include tablet { 
+    width: 50%; 
+    float: left; 
+    height: 75vh; 
+  }
+  @include laptop { 
+    height: 90vh; 
+  }
+  @include tv { 
+    height: 100vh; 
+  }
+}
+.huge-hero-logo { 
+  position: relative; 
+  z-index: 2; 
+  bottom: 5.5em; 
+  padding: .5em; 
+  @include palm-mid { 
+    bottom: 7.5em; 
+  }
+  @include laptop { 
+    width: 90%; 
+    margin: 0 auto; 
+    bottom: 4.5em; 
+    text-align: center; 
+  }
+}
+.width100 { 
+  width: 100%; 
+  @include laptop { 
+    width: 80%; 
+  }
 }
 .backtop-icon { 
   -webkit-box-shadow: 1px 1px 2px 0px rgba(50, 50, 50, 0.55);
@@ -146,140 +370,386 @@ if it's not present, don't show loader */
   margin-right: 0.3em;
  }
 
-
 /* Background meta and images */
-.section-bg { background-size: cover; background-position: center center; width: 100%; z-index: 2; position: relative; /*padding: 1em; using a wrapper to define margin */
-  @include tablet { padding: 5em 0;}
-  @include laptop { padding: 7em 0; }
+.section-bg { 
+  background-size: cover; 
+  background-position: center center; 
+  width: 100%; 
+  z-index: 2; 
+  position: relative; /*padding: 1em; using a wrapper to define margin */
+  @include tablet { 
+    padding: 5em 0;
+  }
+  @include laptop { 
+    padding: 7em 0; 
+  }
 }
-.section-nobg { padding: 5em 0; }
-.section01-bg-image { background-image: url('/assets/images/geostairs.jpg'); }
-.section-bg_three { background-image: url('/assets/images/person.jpg'); }
-.section-03-img2-prop { top: -3em; padding-left: 1em; width: 65%; position: relative;
-  @include palm-mid { top: -5em; left: 1em; }
-  @include tablet { width: 45%; padding-left: 0; top: -5em; left: 3em; }
+.section-nobg { 
+  padding: 5em 0; 
 }
-.bg1 { background: url('/assets/images/white.jpg') no-repeat center center / cover;}
-.section-05-img3-prop { top: -2em; position: relative; right: -1em; width: 70%; float: right;
-  @include palm-mid { top: -4em; right: 4em; }
-  @include laptop { top: -7em; right: 6.5em; }
+.section01-bg-image { 
+  background-image: url('/assets/images/geostairs.jpg'); 
 }
-
+.section-bg_three { 
+  background-image: url('/assets/images/person.jpg'); 
+}
+.section-03-img2-prop { 
+  top: -3em; 
+  padding-left: 1em; 
+  width: 65%; 
+  position: relative;
+  @include palm-mid { 
+    top: -5em; 
+    left: 1em; 
+  }
+  @include tablet { 
+    width: 45%; 
+    padding-left: 0; 
+    top: -5em; 
+    left: 3em; 
+  }
+}
+.bg1 { 
+  background: url('/assets/images/white.jpg') no-repeat center center / cover;
+}
+.section-05-img3-prop { 
+  top: -2em; 
+  position: relative; 
+  right: -1em; 
+  width: 70%; 
+  float: right;
+  @include palm-mid { 
+    top: -4em; 
+    right: 4em; 
+  }
+  @include laptop { 
+    top: -7em; 
+    right: 6.5em; 
+  }
+}
 
 /* Reusable Classes */
-.svn-content { position: relative; background: $background-color;
-  @include tablet { float: left; }
-  @include laptop { width: 100%; }
+.svn-content { 
+  position: relative; 
+  background: $background-color;
+  @include tablet { 
+    float: left; 
+  }
+  @include laptop { 
+    width: 100%; 
+  }
 }
-.svn-content_no { position: relative; padding: 1em 0.5em; font-family: $alt-font-1; font-size: $section-number-font-size; color: $brand-color; 
-  @include palm-mid { padding: .5em; }
-  @include laptop { padding: 1.5em 1.5em 4em; }
+.svn-content_no { 
+  position: relative; 
+  padding: 1em 0.5em; 
+  font-family: $alt-font-1; 
+  font-size: $section-number-font-size; 
+  color: $brand-color; 
+  @include palm-mid { 
+    padding: .5em; 
+  }
+  @include laptop { 
+    padding: 1.5em 1.5em 4em; 
+  }
 }
-.svn-content_no.right { text-align: right; }
-.svn-content_no-featured { text-align: center; color: black; padding: 0 0 2.5em; }
-.alt-color { color: $primary-color; }
-.svn-content_contain-img { width: 85%; margin: 0 auto; position: relative; text-align: center;}
-.svn-content_img-no { position: absolute; z-index: 5; padding: 1em; right: 0; }
-.svn-content_img-no.left {text-align: left; left: 15px;}
-.svn-content_img-no-txt { color: #fff; font-family: $brand-font; font-size: 14px; }
-.svn-content_contain-txt { position: relative; top: -1em; padding-right: 0.3em; margin: 0 auto; width:75%;
-  @include palm-mid { width: 80%; }
+.svn-content_no.right { 
+  text-align: right; 
 }
-.svn-content_headline { text-align: right; font-size: 1.7em; font-family: $brand-font; line-height: 1.3em; text-decoration: underline; color: $brand-color;
-  @include palm-mid { font-size: 2.3em; }
-  
+.svn-content_no-featured { 
+  text-align: center; 
+  color: black; 
+  padding: 0 0 2.5em; 
 }
-.svn-content_contain-caption { position: relative; width: 90%; padding: 1.5em;
-  @include palm-mid { width: 75%; }
-  @include tablet { clear: both; padding: 1em 0 5em; width: 50%; float: right; display: inline-block; margin-right: 1.5em;}
-  @include laptop { width: 35%; }
+.alt-color { 
+  color: $primary-color; 
 }
-.svn-content_caption-sm { font-size: 9px; 
-  @include tablet { font-size: 9px; float: right; display: block; width: 60%; clear: right; }
+.svn-content_contain-img { 
+  width: 85%; 
+  margin: 0 auto; 
+  position: relative; 
+  text-align: center;
 }
-.svn-content_caption-title { font-size: 12px; text-transform: uppercase; font-weight: bold; 
-  @include tablet { float: left; display: inline-block; font-size: 9px;}
+.svn-content_img-no { 
+  position: absolute; 
+  z-index: 5; 
+  padding: 1em; 
+  right: 0; 
 }
-.svn-caption_spacer { height: 1em; 
-  @include tablet { clear: both; }
+.svn-content_img-no.left {
+  text-align: left; 
+  left: 15px;
 }
-
+.svn-content_img-no-txt { 
+  color: #fff; 
+  font-family: $brand-font; 
+  font-size: 14px; 
+}
+.svn-content_contain-txt { 
+  position: relative; 
+  top: -1em; 
+  padding-right: 0.3em; 
+  margin: 0 auto; 
+  width:75%;
+  @include palm-mid { 
+    width: 80%; 
+  }
+}
+.svn-content_headline { 
+  text-align: right; 
+  font-size: 1.7em; 
+  font-family: $brand-font; 
+  line-height: 1.3em; 
+  text-decoration: underline; 
+  color: $brand-color;
+  text-shadow: 3px 3px rgba(111,87,35,0.3);
+  @include palm-mid { 
+    font-size: 2.3em; 
+  }
+}
+.svn-content_contain-caption { 
+  position: relative; 
+  width: 90%; 
+  padding: 1.5em;
+  @include palm-mid { 
+    width: 75%; 
+  }
+  @include tablet { 
+    clear: both; 
+    padding: 1em 0 5em; 
+    width: 50%; 
+    float: right; 
+    display: inline-block; 
+    margin-right: 1.5em;}
+  @include laptop { 
+    width: 35%; 
+  }
+}
+.svn-content_caption-sm { 
+  font-size: 9px; 
+  @include tablet { 
+    font-size: 9px; 
+    float: right; 
+    display: block; 
+    width: 60%; 
+    clear: right; 
+  }
+}
+.svn-content_caption-title { 
+  font-size: 12px; 
+  text-transform: uppercase; 
+  font-weight: bold; 
+  @include tablet { 
+    float: left; 
+    display: inline-block; 
+    font-size: 9px;
+  }
+}
+.svn-caption_spacer { 
+  height: 1em; 
+  @include tablet { 
+    clear: both; 
+  }
+}
 
 /* Section 1 */
 .svn-special_one { 
-  @include tablet { width: 60%; margin: auto; float: right; right: 1.5em; }
+  @include tablet { 
+    width: 60%; 
+    margin: auto; 
+    float: right; 
+    right: 1.5em; 
+  }
 }
 .svn-special_one-text { 
-  @include tablet {clear: both; position: absolute; width: 58%; top: 1.2em; padding: .2em; }
-  @include laptop { width: 45%; top: 4.5em;}
+  @include tablet {
+    clear: both; 
+    position: absolute; 
+    width: 58%; 
+    top: 1.2em; 
+    padding: .2em; 
+  }
+  @include laptop { 
+    width: 45%; 
+    top: 4.5em;
+  }
 }
-
 
 /* Section 2 */
-.svn-content_contain-note { position: relative; font-family: $alt-font-1 }
-.svn-content_note-date { text-align: center; font-size: 2.5em; color: rgba(155,155,155, 0.45); }
-.svn-content_note-issue { text-transform: uppercase; position: relative; top: -2.4em; z-index: 200; text-align: center;}
-.svn-content_note-title { font-size: 3.2em; font-family: $alt-font-1; text-align: center; text-transform: uppercase;opacity: .26; position: relative; /* clear: both; */ top: 0em; line-height: 1em; 
-  @include tablet { font-size: 6em; line-height: 1.1em; }
+.svn-content_contain-note { 
+  position: relative; 
+  font-family: $alt-font-1; 
 }
-.note-title-alt-color { @include brandcolortext; font-size: 85px; 
+.svn-content_note-date { 
+  text-align: center; 
+  font-size: 2.5em; 
+  color: rgba(155,155,155, 0.45); 
+}
+.svn-content_note-issue { 
+  text-transform: uppercase; 
+  position: relative; 
+  top: -2.4em; 
+  z-index: 200; 
+  text-align: center;
+}
+.svn-content_note-title { 
+  font-size: 3.2em; 
+  font-family: $alt-font-1; 
+  text-align: center; 
+  text-transform: uppercase;
+  opacity: .26; 
+  position: relative;
+  top: 0em; 
+  line-height: 1em; 
+  @include tablet { 
+    font-size: 6em; 
+    line-height: 1.1em; 
+  }
+}
+.note-title-alt-color { 
+  @include brandcolortext; 
+  font-size: 85px; 
   @include palm-mid { font-size: 2em; }
   @include tablet { font-size: 1.7em; }
 }
-.svn-content_note-text p { font-size: 0.9em; text-align: center; padding-top: 2em; position: relative; padding-bottom: 1em; width: 85%; margin: 0 auto; line-height: 2em;
-  @include palm-mid { font-size: 1.2em; line-height: 1.8em; }
-  @include tablet { width: 50%; float: left; padding-left: 1em; }
+.svn-content_note-text p { 
+  font-size: 0.9em; 
+  text-align: center; 
+  padding-top: 2em; 
+  position: relative; 
+  padding-bottom: 1em; 
+  width: 85%; 
+  margin: 0 auto; 
+  line-height: 2em;
+  @include palm-mid { 
+    font-size: 1.2em; 
+    line-height: 1.8em; 
+  }
+  @include tablet { 
+    width: 50%; 
+    float: left; 
+    padding-left: 1em; 
+  }
 }
-.svn-content_note-salutation { position: relative; padding: 1em 0; text-transform: uppercase; text-align: center; color: #4a4a4a; font-weight: lighter; 
-  @include tablet { text-align: right; padding: 3em 0; }
+.svn-content_note-salutation { 
+  position: relative; 
+  padding: 1em 0; 
+  text-transform: uppercase; 
+  text-align: center; 
+  color: #4a4a4a; 
+  font-weight: lighter; 
+  @include tablet { 
+    text-align: right; 
+    padding: 3em 0; 
+  }
 }
-.note-author { display: block; font-style: normal; font-weight: bolder; letter-spacing: -1px; padding-top: .3em; }
-
+.note-author { 
+  display: block; 
+  font-style: normal; 
+  font-weight: bolder; 
+  letter-spacing: -1px; 
+  padding-top: .3em; 
+}
 
 /* Section 03 */
-.image-set { position: relative; }
-.svn-content_img1 { width: 80%; margin: 0 auto; top: 1em; position: relative; }
+.image-set { 
+  position: relative; 
+}
+.svn-content_img1 { 
+  width: 80%; 
+  margin: 0 auto; 
+  top: 1em; 
+  position: relative; 
+}
 .svn-special_three-a {
-  @include tablet { width: 55%; left: -2em; }
+  @include tablet { 
+    width: 55%; 
+    left: -2em; 
+  }
 }
 .svn-special_three-text {
-  @include tablet { width: 60%; position: absolute; top: 7em; right: 0; padding: .2em; } 
-  @include laptop { width: 45%; top: 8em;}
+  @include tablet { 
+    width: 60%; 
+    position: absolute; 
+    top: 7em; 
+    right: 0; 
+    padding: .2em; 
+  } 
+  @include laptop { 
+    width: 45%; 
+    top: 8em;
+  }
 }
-
 
 /* Section 04 */
 .svn-content_col {
   @include tablet { margin-bottom: 5em; }
 }
-.svn-content_bg { background: white; margin: 1em; 
+.svn-content_bg { 
+  background: white; 
+  margin: 1em;
+
   @include palm-mid { margin: 3em; }
   @include tablet { margin: 5em; }
   @include laptop { margin: 2em 10em; }
 }
-.featured-category { font-size: 0.8em; text-transform: uppercase; font-weight: bold; padding: 1.3em 0; text-align: center;
+.featured-category { 
+  font-size: 0.8em; 
+  text-transform: uppercase; 
+  font-weight: bold; 
+  padding: 1.3em 0; 
+  text-align: center;
+
   @include tablet { padding: 2em 0; }
 }
-
-.featured-title { font-family: $alt-font-1; text-transform: uppercase; font-size: 1.5em; padding: 1.5em 0; text-align: center;
-  @include palm-mid { padding: .5em 0 2em; font-size: 2.3em; line-height: 1em; width: 77%; margin: 0 auto; }
+.featured-title { 
+  font-family: $alt-font-1; 
+  text-transform: uppercase; 
+  font-size: 1.5em; 
+  padding: 1.5em 0; 
+  text-align: center;
+  @include palm-mid { 
+    padding: .5em 0 2em; 
+    font-size: 2.3em; 
+    line-height: 1em; 
+    width: 77%; 
+    margin: 0 auto; 
+  }
   @include tablet { font-size: 3em; }
 }
-.featured-text p { text-align: center; padding-bottom: 3em;
-  @include palm-mid { font-size: 1.2em; line-height: 1.8em;}
+.featured-text p { 
+  text-align: center; 
+  padding-bottom: 3em;
+  @include palm-mid { 
+    font-size: 1.2em; 
+    line-height: 1.8em;
+  }
   @include tablet { padding-bottom: 2em; }
 }
-.featured-button-text { font-size: 0.7em; font-family: $alt-font-1; text-align: center; 
+.featured-button-text { 
+  font-size: 0.7em; 
+  font-family: $alt-font-1; 
+  text-align: center;
+
   @include tablet { font-size: 1em; }
 }
-.featured-button-text a { font-size: 1.5em; text-decoration: none; color: black; border-bottom: 2px solid $brand-color-2; padding-bottom: 0.5em; }
+.featured-button-text a { 
+  font-size: 1.5em; 
+  text-decoration: none; 
+  color: black; 
+  border-bottom: 2px solid $brand-color-2; 
+  padding-bottom: 0.5em; 
+}
 .featured-button-text a:hover { border-color: black; }
-
 
 /* Section 05 */
 .svn-content_img-no.small { padding: .4em; }
 .svn-special_five-text {
-  @include tablet { width: 60%; right: -2.5em; }
-  @include laptop { width: 45%; right: -4.5em; }
+  @include tablet { 
+    width: 60%; 
+    right: -2.5em; 
+  }
+  @include laptop { 
+    width: 45%; 
+    right: -4.5em; 
+  }
 }
-
