@@ -1,4 +1,4 @@
-.site-footer { position: relative; z-index: 4; background: white; }
+.site-footer { position: relative; z-index: 4; background: white; padding-top: 2em;}
 .footer-elements { padding: 0em 0;
 	@include tablet { padding: 0em 0 3em 0;}
 	/*@include laptop { padding: 11em 0 3em 0; }
@@ -6,12 +6,14 @@
 }
 .footer-logo { padding-bottom: 2em; }
 .footer-section-wrapper { position: relative; width: 100%;
-	@include tablet { padding-top: 5em;	}
+	/*@include tablet { padding-top: 5em;	}*/
 }
-.footer-section { text-transform: uppercase; font-size: .7em; width: 100%; padding-top: 4em;
-	@include tablet { width: 16%; float: right; padding-top: 0;}
+.footer-section { text-transform: uppercase; font-size: .9em; width: 100%; padding-top: 4em;
+	@include tablet { width: auto; float: right; padding-top: 0;}
 }
-
+.footer-section:nth-child(3) {
+	margin-right: 30px;
+}
 .footer-line { width: 5em; height: .1em; background: black; margin: 1em auto; }
 .brand-link, .brand-link:visited { color: black; font-family: $alt-font-1; }
 .brand-link:hover { color: $brand-color-2; text-decoration: none; }
@@ -19,15 +21,21 @@
 .bottom-footer-link { text-align: center; padding: 2em 0; }
 .bottom-footer-link a { color: $brand-color; font-family: $alt-font-1; font-size: 1.5em; }
 
-.footer-email-title{ letter-spacing: 4px; font-size: 1.5em; text-align: center;
+.footer-email-title{ letter-spacing: 4px; font-size: 1.2em; text-align: center;
 	@include tablet {text-align: left; }
 }
 
-.footer-email-list { margin-left: 0; padding-top: 1em; list-style: none; text-align: center;
+.footer-email-list { margin-left: 0; list-style: none; text-align: center;
 	@include tablet {text-align: left; }
 }
-.footer-email-list li { text-transform: lowercase; padding-bottom: 3px; }
-
+.footer-email-list li { text-transform: lowercase; }
+.footer-email-list a {
+	font-size: 0.9em;
+}
+.footer-email-list a:hover {
+	text-decoration: line-through;
+	
+}
 .float-left { float: left; }
 .float-right { float: right; }
 

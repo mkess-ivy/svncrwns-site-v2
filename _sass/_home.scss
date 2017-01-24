@@ -46,6 +46,11 @@ if it's not present, don't show loader */
   background: url(/assets/images/Preloader_21.gif) center no-repeat #fff;
 }
 
+/* No Scroll w/ Overlay Present */
+body.noScroll {
+  overflow: hidden;
+}
+
 /* Header */
 .site-header {  }
 #menu-container { 
@@ -206,10 +211,14 @@ if it's not present, don't show loader */
   display: none; 
   float: right; 
   padding: .5em;
+  z-index: 999;
   
   @include tablet { 
     display: block; 
   }
+}
+.logo-img {
+  width: 7em;
 }
 
 /* Wrappers */
@@ -230,10 +239,7 @@ if it's not present, don't show loader */
   }
 }
 .hero-wrapper { 
-  margin: 1em 5em;
-  @include palm-mid {
-    margin: 2em 5em; 
-  }
+  margin: 0.5em 5em;
   @include tablet { 
     margin: 0em 1em; 
   }
@@ -289,23 +295,23 @@ if it's not present, don't show loader */
     margin: 3.5em;
   } 
   @include laptop { 
-    margin: 5.5em; 
+    margin: 2.5em 3.5em 2em; 
   }
 }
 .hero-icon { 
   position: absolute; 
-  top: 9.5em; 
+  top: 11em; 
   text-align: center; 
   width: 100px; 
   height: 77px; 
   margin: auto; 
   right: 0; 
   left: 0;
-  @include tablet {
-    top: 17em;
+  @include palm-mid {
+    top: 13em;
   }
   @include laptop {
-    top: 21em; 
+    top: 12em; 
   }
 }
 .hero-right-image { 
@@ -321,15 +327,12 @@ if it's not present, don't show loader */
   width: 100%; 
   height: calc(50vh - 105px); 
   @include palm-mid { 
-    height: 60vh;  
+    height: calc(55vh - 105px); 
   }
   @include tablet { 
     width: 50%; 
     float: left; 
-    height: 75vh; 
-  }
-  @include laptop { 
-    height: 90vh; 
+    height: calc(90vh - 100px); 
   }
   @include tv { 
     height: 100vh; 
@@ -338,22 +341,14 @@ if it's not present, don't show loader */
 .huge-hero-logo { 
   position: relative; 
   z-index: 2; 
-  bottom: 5.5em; 
+  bottom: 4em; 
   padding: .5em; 
-  @include palm-mid { 
-    bottom: 7.5em; 
-  }
-  @include laptop { 
-    width: 90%; 
-    margin: 0 auto; 
-    bottom: 4.5em; 
-    text-align: center; 
-  }
+  text-align: right;
 }
 .width100 { 
-  width: 100%; 
+  width: 70%; 
   @include laptop { 
-    width: 80%; 
+    width: 40%; 
   }
 }
 .backtop-icon { 
@@ -419,17 +414,14 @@ Using a bg color for now
 
 .section-05-img3-prop { 
   top: -2em; 
-  position: relative; 
-  right: -1em; 
-  width: 70%; 
-  float: right;
+  width: 85%; 
+  margin: 0 auto;
+
   @include palm-mid { 
     top: -4em; 
-    right: 4em; 
   }
   @include laptop { 
     top: -7em; 
-    right: 6.5em; 
   }
 }
 
@@ -438,7 +430,9 @@ Using a bg color for now
   position: relative; 
   background: $background-color;
   @include tablet { 
-    float: left; 
+    float: left;
+    clear: both;
+    width: 100%;
   }
   @include laptop { 
     width: 100%; 
@@ -454,7 +448,7 @@ Using a bg color for now
     padding: .5em; 
   }
   @include laptop { 
-    padding: 1.5em 1.5em 4em; 
+    padding: 1.5em 1.5em 2em; 
   }
 }
 .svn-content_no.right { 
@@ -491,7 +485,7 @@ Using a bg color for now
 }
 .svn-content_contain-txt { 
   position: relative; 
-  top: -1em; 
+  top: -0.5em; 
   padding-right: 0.3em; 
   margin: 0 auto; 
   width:75%;
@@ -520,23 +514,23 @@ Using a bg color for now
   }
   @include tablet { 
     clear: both; 
-    padding: 1em 0 5em; 
-    width: 50%; 
-    float: right; 
-    display: inline-block; 
-    margin-right: 1.5em;}
+    padding: 7em 0 1em;
+    width: 40%;
+    float: right;
+    display: inline-block;
+    margin-right: 1.5em;
+  }
   @include laptop { 
     width: 35%; 
   }
 }
+.close-caption {
+  padding-top: 2em;
+}
 .svn-content_caption-sm { 
   font-size: 9px; 
-  @include tablet { 
-    font-size: 9px; 
-    float: right; 
-    display: block; 
-    width: 60%; 
-    clear: right; 
+  @include tablet {  
+    display: block;
   }
 }
 .svn-content_caption-title { 
@@ -544,8 +538,6 @@ Using a bg color for now
   text-transform: uppercase; 
   font-weight: bold; 
   @include tablet { 
-    float: left; 
-    display: inline-block; 
     font-size: 9px;
   }
 }
@@ -570,7 +562,7 @@ Using a bg color for now
     clear: both; 
     position: absolute; 
     width: 58%; 
-    top: 1.2em; 
+    top: 3.2em; 
     padding: .2em; 
   }
   @include laptop { 
@@ -684,6 +676,71 @@ Using a bg color for now
     top: 8em;
   }
 }
+.reel {
+  position:relative;
+  padding-bottom:56.25%;
+  padding-top:30px;
+  height:0;
+  overflow:hidden;
+}
+.reel iframe, 
+.reel object, 
+.reel embed {
+  position:absolute;
+  top:0;
+  left:0;
+  right: 0;
+  text-align: center;
+  margin: auto;
+  width:90%;
+  height:100%;
+}
+
+.reel .overlay{
+    position: absolute;
+    width: 100%;
+    height:100%;
+    background:#000;
+    opacity:0.5;
+    z-index:999;
+}
+
+.reel .overlay .text-container{
+    width:100%;
+    text-align:center;
+}
+
+.reel .overlay .text-container h1{
+    color:#FFF;
+    text-transform:uppercase;
+}
+.svn-slide-single {
+  background-image: url('https://cdn1.thehunt.com/app/public/system/zine_images/10512910/original/e5e12a834b264b130d8d6e5be10e7f36.jpeg');
+}
+.hide {
+  display: none;
+}
+.svn-slider {
+  width:  500px;
+  height: 500px;
+  margin: auto;
+  position: relative;
+}
+.hero {
+  width: 100vw;
+    height: 50px;
+    filter: grayscale(90%);
+}
+.hero-1 {
+  background-image: url('http://lorempixel.com/500/500/nature/3/');
+}
+.hero-2 {
+  background-image: url('http://lorempixel.com/500/500/nature/1/');
+}
+.hero-3 {
+    background-image: url('http://lorempixel.com/500/500/nature/6/');
+}
+
 
 /* Section 04 */
 .svn-content_col {
@@ -755,6 +812,15 @@ Using a bg color for now
   }
   @include laptop { 
     width: 45%; 
-    right: -4.5em; 
+    right: -4.5em;
+    top: -2.5em;
   }
 }
+
+/* Media Queries Used */
+
+/*
+palm-mid = 500
+tablet = 700
+laptop = 900
+*/

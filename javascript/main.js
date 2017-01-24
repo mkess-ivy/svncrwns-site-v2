@@ -15,16 +15,28 @@ $(document).ready(function(){
 
   $("#overlay-menu").click(function() {
     $(".overlay").addClass("overlay-open");
+    $("body").addClass("noScroll");
   });
 
 
   $(".overlay-close").click(function() {
     $(".overlay").removeClass("overlay-open");
+    $("body").removeClass("noScroll");
   });
 
   // Wait for window load
   $(window).load(function() {
     // Animate loader off screen
     $(".se-pre-con").fadeOut("slow");;
+  });
+
+  $('.svn-slider').slick({
+    autoplay: true,
+    autoplaySpeed: 4000,
+    arrows: false,
+    infinite: true,
+    fade: true,
+    speed: 500,
+    cssEase: 'linear'
   });
 });
