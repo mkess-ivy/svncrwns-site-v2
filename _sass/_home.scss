@@ -11,7 +11,8 @@
 
 /* ----- TOC -----
 
-Header
+PreLoader
+Header & Overlay Menu
 Wrappers
 Hero
 Background meta and images
@@ -24,9 +25,8 @@ Section 05
 
 ----- #TOC ----- */
 
-/* Loader */
+/* PreLoader */
 
-/* Paste this css to your style sheet file or under head tag */
 /* This only works with JavaScript, 
 if it's not present, don't show loader */
 .no-js #loader { display: none;  }
@@ -51,8 +51,7 @@ body.noScroll {
   overflow: hidden;
 }
 
-/* Header */
-.site-header {  }
+/* Header & Overlay Menu */
 #menu-container { 
   position: relative; 
   height: 60px; 
@@ -60,14 +59,10 @@ body.noScroll {
   display: block; 
   text-align: center; 
   margin: 0 auto;
-  @include palm-mid { 
-    height: 80px; 
-    width: 100px;  
-  }
   @include tablet { 
     float: left; 
-    text-align: none; 
-    margin: none; 
+    text-align: none;
+    margin: none;
   }
 }
 .menuButton { 
@@ -94,11 +89,8 @@ body.noScroll {
   position: relative; 
   top: 1px; 
 }
-.menu-icons { 
-  padding-top: 2%; 
-}
 .menu-icons img { 
-  width: 3%; 
+  width: 5%; 
 }
 #overlay-menu { 
   margin: 0.2em; 
@@ -109,23 +101,17 @@ body.noScroll {
   height: 100%; 
   top: 0; 
   left: 0; 
-  background: rgba(201,164,67,0.95); 
+/*  background: rgba(201,164,67,0.95); */
+  background-image: url('/assets/images/overlay-bg.png');
+  background-size: cover;
+  background-position: bottom left;
   z-index: 500; 
 }
 .overlay nav { 
-  /*text-align: center; */
   position: relative;
   bottom: -18em;
   padding-right: 1em;
   text-align: right;
-  /*top: 5%; */
-  /*height: 45%; */
-  /*font-size: 3em;*/ 
-  
-  @include palm-mid { 
-  /*  font-size: 3em; */
-    /*padding-top: 2.5em;*/
-  }
 }
 .overlay ul { 
   list-style: none; 
@@ -140,10 +126,6 @@ body.noScroll {
   padding: 0; 
   margin:0; 
   width: 100%;
-  
-  @include palm-mid { 
-    padding-bottom: 2em; 
-  }
 }
 .overlay ul li a { 
   text-decoration: none; 
@@ -184,22 +166,6 @@ body.noScroll {
   -webkit-transition: opacity 0.5s; 
   transition: opacity 0.5s; 
 }
-
-@media screen and (max-width: 500px) {
-  .overlay nav { 
-    /*font-size: 2em; */
-    /*top: 13%; 
-    height: 45%; 
-    left: 3%; */
-  }
-  .menu-icons { 
-    padding-top: 15%; 
-  }
-  .menu-icons img { 
-    width: 10%; 
-  }
-}
-
 .header-row { 
   width: 100%; 
   height: auto; 
@@ -244,34 +210,6 @@ body.noScroll {
     margin: 0em 1em; 
   }
 }
-.crwns-wrapper { 
-  margin-right: 5%; 
-  margin-left: 5%; 
-  padding-right: $spacing-unit; 
-  padding-left: $spacing-unit; 
-  @extend %clearfix; 
-    @include palm { 
-      max-width: 400px; 
-      margin: 0 5%; 
-    }
-    @include palm-mid { 
-      max-width: 500px; 
-      margin: 0 auto; 
-      clear: both;
-    }
-    @include tablet { 
-      max-width: 700px; 
-      margin: 0 auto;
-    }
-    @include laptop { 
-      max-width: 1024px; 
-      margin: 0 auto;
-    }
-    @include desktop { 
-      max-width: 1200px; 
-      margin: 0 auto;
-    }
-}
 
 /* Hero */
 .fullpage { 
@@ -300,7 +238,7 @@ body.noScroll {
 }
 .hero-icon { 
   position: absolute; 
-  top: 11em; 
+  top: 12em; 
   text-align: center; 
   width: 100px; 
   height: 77px; 
@@ -308,7 +246,10 @@ body.noScroll {
   right: 0; 
   left: 0;
   @include palm-mid {
-    top: 13em;
+    top: 13.5em;
+  }
+  @include tablet {
+    top: 12em;
   }
   @include laptop {
     top: 12em; 
@@ -325,9 +266,9 @@ body.noScroll {
   background-position: bottom right; 
   background-repeat: no-repeat; 
   width: 100%; 
-  height: calc(50vh - 105px); 
+  height: calc(50vh - 85px); 
   @include palm-mid { 
-    height: calc(55vh - 105px); 
+    height: calc(55vh - 95px); 
   }
   @include tablet { 
     width: 50%; 
@@ -345,7 +286,7 @@ body.noScroll {
   padding: .5em; 
   text-align: right;
 }
-.width100 { 
+.hero-logo_img { 
   width: 70%; 
   @include laptop { 
     width: 40%; 
@@ -371,26 +312,14 @@ body.noScroll {
   background-position: center center; 
   width: 100%; 
   z-index: 2; 
-  position: relative; /*padding: 1em; using a wrapper to define margin */
+  position: relative;
   @include tablet { 
-    padding: 5em 0;
+    padding: 4em 0;
   }
-  @include laptop { 
-    padding: 7em 0; 
-  }
-}
-.section-nobg { 
-  padding: 5em 0; 
 }
 .section01-bg-image { 
   background-image: url('/assets/images/geostairs.jpg'); 
 }
-/*
-Using a bg color for now 
-
-.section02-bg-img { 
-  background-image: url('/assets/images/person.jpg'); 
-}*/
 .section03-bg-img { 
   background: url('/assets/images/white.jpg') no-repeat center center / cover;
 }
@@ -406,12 +335,9 @@ Using a bg color for now
   @include tablet { 
     width: 45%; 
     padding-left: 0; 
-    top: -5em; 
     left: 3em; 
   }
 }
-
-
 .section-05-img3-prop { 
   top: -2em; 
   width: 85%; 
@@ -425,7 +351,7 @@ Using a bg color for now
   }
 }
 
-/* Reusable Classes */
+/* Content Specific Classes */
 .svn-content { 
   position: relative; 
   background: $background-color;
@@ -433,9 +359,6 @@ Using a bg color for now
     float: left;
     clear: both;
     width: 100%;
-  }
-  @include laptop { 
-    width: 100%; 
   }
 }
 .svn-content_no { 
@@ -448,7 +371,7 @@ Using a bg color for now
     padding: .5em; 
   }
   @include laptop { 
-    padding: 1.5em 1.5em 2em; 
+    padding: .5em 1.5em 1em; 
   }
 }
 .svn-content_no.right { 
@@ -714,33 +637,6 @@ Using a bg color for now
     color:#FFF;
     text-transform:uppercase;
 }
-.svn-slide-single {
-  background-image: url('https://cdn1.thehunt.com/app/public/system/zine_images/10512910/original/e5e12a834b264b130d8d6e5be10e7f36.jpeg');
-}
-.hide {
-  display: none;
-}
-.svn-slider {
-  width:  500px;
-  height: 500px;
-  margin: auto;
-  position: relative;
-}
-.hero {
-  width: 100vw;
-    height: 50px;
-    filter: grayscale(90%);
-}
-.hero-1 {
-  background-image: url('http://lorempixel.com/500/500/nature/3/');
-}
-.hero-2 {
-  background-image: url('http://lorempixel.com/500/500/nature/1/');
-}
-.hero-3 {
-    background-image: url('http://lorempixel.com/500/500/nature/6/');
-}
-
 
 /* Section 04 */
 .svn-content_col {

@@ -19,6 +19,35 @@ Section 05
 .spacer2x { padding: 2em 0; }
 .spacer3x { padding: 3em 0; }
 .spacer3x2 {padding: 6em 0;}
+.crwns-wrapper { 
+  margin-right: 5%; 
+  margin-left: 5%; 
+  padding-right: $spacing-unit; 
+  padding-left: $spacing-unit; 
+  @extend %clearfix; 
+    @include palm { 
+      max-width: 400px; 
+      margin: 0 5%; 
+    }
+    @include palm-mid { 
+      max-width: 500px; 
+      margin: 0 auto; 
+      clear: both;
+    }
+    @include tablet { 
+      max-width: 700px; 
+      margin: 0 auto;
+    }
+    @include laptop { 
+      max-width: 1024px; 
+      margin: 0 auto;
+    }
+    @include desktop { 
+      max-width: 1200px; 
+      margin: 0 auto;
+    }
+}
+
 
 
 /* Featured */
@@ -420,7 +449,7 @@ Section 05
 
 /** GLOBAL CLASSES */
 .crwns-content { margin: 0 2%; position: relative; }
-.wrapper { padding-top: 4em; 
+.wrapper { padding-top: 2em; 
     /*@include laptop { }*/
     @include desktop { padding-top: 0; }
 }
