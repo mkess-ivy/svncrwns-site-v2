@@ -1,7 +1,7 @@
 ---
 layout: catalog
 title:  "Walking Fall"
-date:   'Sept 26 2016'
+date:   'Sept 26 2015'
 year:	'2015'
 medium: art
 featured: "no"

@@ -13,6 +13,10 @@ Section 05
 
 ----- #TOC ----- */
 
+body.white {
+    background-color: #fff;
+}
+
 /* Reusable Code */
 .spacer-half { padding: .5em 0; }
 .spacer1x {padding: 1em 0;}
@@ -27,7 +31,7 @@ Section 05
   @extend %clearfix; 
     @include palm { 
       max-width: 400px; 
-      margin: 0 5%; 
+      margin: 0 auto; 
     }
     @include palm-mid { 
       max-width: 500px; 
@@ -49,191 +53,524 @@ Section 05
 }
 
 
-
 /* Featured */
-.video-hero { height: 75vh; position: relative; z-index: 200;}
-.video-bg { background-image: url('/assets/images/test.gif'); }
-/*.video-bg { background-image: url('https://static.squarespace.com/static/54527e03e4b0733fc75e3179/t/5494c7e6e4b0bc65ffa37ef6/1419036646591/faster.good.gif'); }*/
-
-/*.some-box { width: 70%; margin: 0 auto; }
-.some-box_text { width: 40%; float: left; margin-right: 0.7em; text-align: justify; }
-.some-box_pic { width: 48%; float: left; margin-top: 2em; }*/
-.title-container { text-align: center; }
-.title { text-transform: uppercase; letter-spacing: 4px;}
-.title-icon { width: 3em; margin: 0 auto 20px; display: none;
-    @include tablet { display: block; }
+.video-hero { 
+    height: 75vh; 
+    position: relative; 
+    z-index: 200;
 }
-
-.box-hero { width: auto; position: relative;}
-.box-hero__img { width: 100%;
-    @include tablet { width: 70%; float: left;}
+.video-bg { 
+    background-image: url('/assets/images/test.gif'); 
 }
-.box-hero__text { width: 100%; 
-    @include tablet { width: 28%; float: left; padding-top: 1.5em; }
-    @include desktop { padding-top: 6.5em; }
+.title-container { 
+    text-align: center; 
 }
-.box-hero__text--date { font-size: 10px; text-transform: uppercase; letter-spacing: 4px; 
-    @include laptop { font-size: 12px; }
+.title { 
+    text-transform: uppercase; 
+    letter-spacing: 4px;
 }
-.box-hero__text--date-position { position: relative; transform: rotate(-90deg); transform-origin: left top 0; left: -1.6em; top: 0em; 
-    @include tablet { transform: none; transform-origin: none; left: 1em; top: 2.8em;}
-    @include laptop { top: 3.5em; left: 1em;}
+.title-icon { 
+    width: 3em; 
+    margin: 0 auto 20px; 
+    display: none;
+    @include tablet { 
+        display: block; 
+    }
+}
+.box-hero { 
+    width: auto; 
+    position: relative;
+}
+.box-hero__img { 
+    width: 100%;
+    @include tablet { 
+        width: 70%; 
+        float: left;
+    }
+}
+.box-hero__text { 
+    width: 100%; 
+    @include tablet { 
+        width: 29%; 
+        float: left; 
+        padding-top: 1.5em; 
+    }
+    @include desktop { 
+        padding-top: 6.5em; 
+    }
+}
+.box-hero__text--date { 
+    font-size: 10px; 
+    text-transform: uppercase; 
+    letter-spacing: 4px; 
+    @include laptop { 
+        font-size: 12px; 
+    }
+}
+.box-hero__text--date-position { 
+    position: relative; 
+    transform: rotate(-90deg); 
+    transform-origin: left top 0; 
+    left: -1.6em; 
+    top: 0em; 
+    @include tablet { 
+        transform: none; 
+        transform-origin: none; 
+        left: 1em; 
+        top: 2.8em;
+    }
+    @include laptop { 
+        top: 3.5em; 
+        left: 1em;
+    }
     @include desktop { top: 0em; left: 1em; }
 }
-.box-hero__text--title, .box-hero__text--title-r { width: 100%;
-    @include tablet { position: relative; padding-top: 2.7em;  line-height: 40px; left: -2em;}
-    @include laptop { left: -2.5em; padding-top: 3.3em; }
-    @include desktop { /*left: -7.5em; */ left: -4.5em; padding-top: 0.3em;}
+.box-hero__text--title, 
+.box-hero__text--title-r { 
+    width: 100%;
+    text-align: center;
+    @include tablet { 
+        position: relative; 
+        padding-top: 2.7em;  
+        line-height: 40px; 
+        left: -2em;
+        text-align: left;
+    }
+    @include laptop { 
+        left: -2.5em; 
+        padding-top: 3.3em; 
+    }
+    @include desktop { 
+        left: -4.5em; 
+        padding-top: 0.3em;
+    }
 }
-.box-hero__text--content { font-size: 12px; padding-top: 1em; width: 70%; 
-    @include tablet { position: relative; width: 80%; padding-top: 0em; left: 1em;}
-    @include laptop { font-size: 14px; padding-top: 1em; }
+ .box-hero__text--title-v2 { 
+    text-align: center; 
+    margin: 0 auto; 
+    left: 0; 
+    right: 0; 
+    padding-top: 1em; 
+    width: 100%;
+    @include mobile-mid { 
+        width: 65%; 
+    }
+    @include laptop { 
+        width: 40%; 
+    }
 }
-
-.brand-link a { font-size: 28px; color: $brand-color; text-decoration: underline; font-family: $alt-font-1; line-height: .9em; 
-    @include tablet { font-size: 40px; }
-    @include laptop { font-size: 55px; }
+.box-hero__text--content { 
+    font-family: $brand-font; 
+    font-size: 14px; 
+    padding-top: 1em; 
+    width: 95%;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 24px;
+    @include tablet { 
+        position: relative; 
+        width: 80%; 
+        padding-top: 0em; 
+        left: 1em;
+    }
+    @include laptop { 
+        font-size: 14px; 
+        padding-top: 1em; 
+    }
 }
-.brand-link a:hover { color: #745c1c; }
-
+.brand-link a { 
+    font-size: 36px; 
+    color: $brand-color; 
+    text-decoration: none; 
+    font-family: $alt-font-1; 
+    line-height: .9em; 
+    @include tablet { 
+        font-size: 40px; 
+        text-decoration: underline;
+    }
+    @include laptop { 
+        font-size: 44px; 
+    }
+}
+.brand-link a:hover { 
+    color: #745c1c; 
+}
 .box-hero__img--right { 
-    @include tablet {float: right; }
+    @include tablet {
+        float: right; 
+    }
 }
 .box-hero--right { 
-    @include tablet {text-align: right; left: .5em; float: right;}
+    @include tablet {
+        text-align: right; 
+        left: .5em; 
+        float: right;
+    }
 }
-.box-hero__text--data-position-r { float: left;}
-.box-hero__text--content-r { float: left; left: 3em; }
+.box-hero__text--data-position-r { 
+    float: left;
+}
+.box-hero__text--content-r { 
+    float: left; 
+    left: 3em; 
+}
 .box-hero__text--title-r { 
-    @include tablet { left: 3.2em !important; padding-top: 3.8em; padding-bottom: 1em; }
-    @include laptop { left: 4.9em !important;  padding-top: 4.3em !important;}
-    @include desktop { left: 6.9em !important; padding-top: 2em !important;}
+    @include tablet { 
+        left: 3.2em !important; 
+        padding-top: 3.8em; 
+        padding-bottom: 1em; 
+    }
+    @include laptop { 
+        left: 4.9em !important;  
+        padding-top: 4.3em !important;
+    }
+    @include desktop { 
+        left: 6.9em !important; 
+        padding-top: 2em !important;
+    }
 }
-
-.year { font-weight: bold; font-size: 14px; }
-.padbot20 { padding-bottom: 8em; }
-
+.year { 
+    font-weight: bold; 
+    font-size: 14px; 
+}
+.padbot20 { 
+    padding-bottom: 5em; 
+}
 
 
 /* Offerings */
-.offerings-bg { background-image: url('https://dl.dropboxusercontent.com/u/12644668/shoes.jpg'); }
-.offerings-hero { height: 80vh; padding: 0; }
-.offerings-block-white { color: white !important; }
-
-.secondary-link a { font-size: 30px; color: black; text-decoration: none; text-transform: uppercase;
-    @include mobile-mid { font-size: 40px; }
-    @include pad { font-size: 50px; }
-    @include laptop { font-size: 60px; }
+.offerings-bg { 
+    background-image: url('https://dl.dropboxusercontent.com/u/12644668/shoes.jpg'); 
+}
+.offerings-hero { 
+    height: 80vh; 
+    padding: 0; 
+}
+.offerings-block-white { 
+    color: white !important; 
 }
 
+.secondary-link a { 
+    font-size: 30px; 
+    color: black; 
+    text-decoration: none; 
+    text-transform: uppercase;
+    @include mobile-mid { 
+        font-size: 40px; 
+    }
+    @include pad { 
+        font-size: 50px; 
+    }
+    @include laptop { 
+        font-size: 60px; 
+    }
+}
 
 
 /* Catalog */
-.catalog-link a { font-size: 1.2em; font-family: $brand-font; text-align: center; 
-    @include palm { font-size: 1.8em; }
+.catalog-link a { 
+    font-size: 1.2em; 
+    font-family: $brand-font; 
+    text-align: center; 
+    @include palm { 
+        font-size: 1.8em; 
+    }
 }
-.martop-catalog:first-child { margin-top: 2em;
-    @include mobile-mid { margin-top: 3em; }
+.martop-catalog:first-child { 
+    margin-top: 2em;
+    @include mobile-mid { 
+        margin-top: 3em; 
+    }
 }
 .martop-catalog { 
-    @include mobile-mid { margin: 0.5em 0; }
+    @include mobile-mid { 
+        margin: 0.5em 0; 
+    }
 }
-.box-hero-v2 { margin-top: 2em; 
-    @include mobile-mid { margin-top: 2em; }
+.box-hero-v2 { 
+    margin-top: 2em; 
+    @include mobile-mid { 
+        margin-top: 2em; 
+    }
 }
-
 
 
 /* Catalog Single */
-.catalog-content { margin-top: 2em; }
-.catalog-hero { position: relative; }
+.catalog-content { 
+    margin-top: 2em; 
+}
+.catalog-hero { 
+    position: relative; 
+}
 .catalog-hero1 { 
-    @include palm-mid { width: 80%; }
-    @include tablet { width: 90%; }
+    @include palm-mid { 
+        width: 80%; 
+    }
+    @include tablet { 
+        width: 90%; 
+    }
 }
-.catalog-hero2 { width: 65%; margin-top: -4em; left: 5em; 
-    @include palm-mid { width: 60%; margin-top: -6em; left: 12em; }
-    @include tablet { width: 70%; }
-    @include laptop { margin-top: -10em; left: 16em; }
-    @include desktop { margin-top: -15em; left: 18em; }
+.catalog-hero2 { 
+    width: 65%; 
+    margin-top: -4em; 
+    left: 5em; 
+    @include palm-mid { 
+        width: 60%; 
+        margin-top: -6em; 
+        left: 12em; 
+    }
+    @include tablet { 
+        width: 70%; 
+    }
+    @include laptop { 
+        margin-top: -10em; 
+        left: 16em; 
+    }
+    @include desktop { 
+        margin-top: -15em; 
+        left: 18em; 
+    }
 }
-.catalog-title_group { text-align: center;  font-size: 1.5em; 
-    @include palm-mid { width: 40%; float: right; position: relative; }
+.catalog-title_group { 
+    text-align: center;  
+    font-size: 1.5em; 
+    @include palm-mid { 
+        width: 40%; 
+        float: right; 
+        position: relative; 
+    }
 }
-.catalog-title a { font-family: $brand-font; color: $brand-color; }
-.catalog-date { font-size: 0.6em; padding: 0.5em 0; }
-.catalog-credits_title { font-family: $brand-font; text-transform: uppercase; font-size: 0.6em; margin: 3em 0 1em; }
-.catalog-credits_group { list-style: none; padding: 0; margin: 0; font-size: 0.7em; }
-.catalog-credits_position { font-size: 0.8em; }
-.catalog-credits_artist { font-family: $brand-font; font-size: 0.8em; text-transform: uppercase; margin-bottom: 1.5em; }
-.catalog-post_content { font-size: 0.8em; margin: 0 auto; position: relative; 
-    @include palm-mid { width: 55%; float: left; }
-    @include tablet { font-size: 1.1em; }
+.catalog-title a { 
+    font-family: $brand-font; 
+    color: $brand-color; 
 }
-.catalog-post_content p { padding-bottom: 1em; 
-    /*@include palm-mid { padding: 0; }*/
+.catalog-date { 
+    font-size: 0.6em; 
+    padding: 0.5em 0; 
 }
-.catalog-video_title { text-align: center; text-transform: uppercase; letter-spacing: 3px; padding: 1em 0; }
-.catalog-video_content iframe { width: 90%; }
-.catalog-video_meta { font-family: $brand-font; margin: 0 auto; }
-.catalog-video_name { padding: 2em 0 0; border-bottom: 2px solid black; width: 30%; }
-.catalog-video_excerpt { font-size: 0.8em; width: 70%; line-height: 1.8em; margin-top: 2em; 
-    @include tablet { width: 55%; font-size: 1.2em; }
+.catalog-credits_title { 
+    font-family: $brand-font; 
+    text-transform: uppercase; 
+    font-size: 0.6em; 
+    margin: 3em 0 1em; 
 }
-.catalog-photo { padding: 1em; }
-.catalog-photo_number-pos { position: absolute; padding: 1.5em; 
-    @include palm-mid { padding: 2em; }
+.catalog-credits_group { 
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+    font-size: 0.7em; 
 }
-.catalog-testimonial_cover { background-image: url("/assets/images/office.png"); background-size: cover; background-position: center center; background-repeat: no-repeat;
-    @include palm { padding: 2em 0; }
+.catalog-credits_position { 
+    font-size: 0.8em; 
 }
-.catalog-testimonial_group { text-align: center; color: white; 
-    @include palm-mid { margin-top: 4em; }
+.catalog-credits_artist { 
+    font-family: $brand-font; 
+    font-size: 0.8em; 
+    text-transform: uppercase; 
+    margin-bottom: 1.5em; 
 }
-.catalog-testimonial_title, .catalog-testimonial_author {  padding: 2em 0; font-size: 0.6em; }
-.catalog-testimonial_author { width: 60%; margin: 0 auto; }
-.catalog-testimonial_text { font-size: 1.2em;  font-family: $brand-font; width: 80%; margin: 0 auto; padding: 2em 0;
-    @include palm-mid { font-size: 2em; padding: 1em 0; }
-    @include laptop { width: 55%; }
+.catalog-post_content { 
+    font-size: 0.8em; 
+    margin: 0 auto; 
+    position: relative; 
+    @include palm-mid { 
+        width: 55%; 
+        float: left; 
+    }
+    @include tablet { 
+        font-size: 1.1em; 
+    }
 }
-.catalog-single-wrapper { width: 90%; margin: 0 auto; position: relative; }
-.catalog-primary_group { margin-top: 2em; }
-.catalog-hero_group { width: 100%; position: relative;  
-    @include tablet { padding-bottom: 2em; }
+.catalog-post_content p { 
+    padding-bottom: 1em; 
+}
+.catalog-video_title { 
+    text-align: center; 
+    text-transform: uppercase; 
+    letter-spacing: 3px; 
+    padding: 1em 0; 
+}
+.catalog-video_content iframe { 
+    width: 90%; 
+}
+.catalog-video_meta { 
+    font-family: $brand-font;
+    margin: 0 auto; 
+}
+.catalog-video_name { 
+    padding: 2em 0 0; 
+    border-bottom: 2px solid black; 
+    width: 30%; 
+}
+.catalog-video_excerpt { 
+    font-size: 0.8em; 
+    width: 70%; 
+    line-height: 1.8em; 
+    margin-top: 2em; 
+    @include tablet { 
+        width: 55%; 
+        font-size: 1.2em; 
+    }
+}
+.catalog-photo { 
+    padding: 1em; 
+}
+.catalog-photo_number-pos { 
+    position: absolute; 
+    padding: 1.5em; 
+    @include palm-mid { 
+        padding: 2em; 
+    }
+}
+.catalog-testimonial_cover { 
+    background-image: url("/assets/images/office.png"); 
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat;
+    @include palm { 
+        padding: 2em 0; 
+    }
+}
+.catalog-testimonial_group { 
+    text-align: center; 
+    color: white; 
+    @include palm-mid { 
+        margin-top: 4em; 
+    }
+}
+.catalog-testimonial_title, .catalog-testimonial_author { 
+    padding: 2em 0; 
+    font-size: 0.6em; 
+}
+.catalog-testimonial_author { 
+    width: 60%; 
+    margin: 0 auto; 
+}
+.catalog-testimonial_text { 
+    font-size: 1.2em;  
+    font-family: $brand-font; 
+    width: 80%; 
+    margin: 0 auto; 
+    padding: 2em 0;
+    @include palm-mid { 
+        font-size: 2em; 
+        padding: 1em 0; 
+    }
+    @include laptop { 
+        width: 55%; 
+    }
+}
+.catalog-single-wrapper { 
+    width: 90%; 
+    margin: 0 auto; 
+    position: relative; 
+}
+.catalog-primary_group { 
+    margin-top: 2em; 
+}
+.catalog-hero_group { 
+    width: 100%; 
+    position: relative;  
+    @include tablet { 
+        padding-bottom: 2em; 
+    }
 }
 .catalog-photo_group { 
-    @include palm-mid { width: 75%; }
+    @include palm-mid { 
+        width: 75%; 
+    }
 }
 .catalog-caption {
-    @include palm-mid { width: 60%; padding: 0.8em; float: right; }
-    @include laptop { width: 40%; }
+    @include palm-mid { 
+        width: 60%; 
+        padding: 0.8em; 
+        float: right; 
+    }
+    @include laptop { 
+        width: 40%; 
+    }
 }
-
 
 
 /* About */
 .about-hero1 { 
-    @include palm-mid { width: 100%; }
-    @include tablet { width: 90%; }
+    @include palm-mid { 
+        width: 100%; 
+    }
+    @include tablet { 
+        width: 90%; 
+    }
 }
-.about-hero2 { width: 50%; margin-top: -4em; left: 8em; position: relative; 
-    @include palm { margin-top: -6em; left: 11em; }
-    @include palm-mid { left: 16em; margin-top: -8em; }
-    @include tablet { left: 22em; }
-    @include laptop { width: 40%; left: 30em; }
-    @include desktop { left: 34em; }
+.about-hero2 { 
+    width: 50%; 
+    margin-top: -4em; 
+    left: 8em; 
+    position: relative; 
+    @include palm { 
+        margin-top: -6em; 
+        left: 11em; 
+    }
+    @include palm-mid { 
+        left: 16em; 
+        margin-top: -8em; 
+    }
+    @include tablet { 
+        left: 22em; 
+    }
+    @include laptop { 
+        width: 40%; 
+        left: 30em; 
+    }
+    @include desktop { 
+        left: 34em; 
+    }
 }
-.about-title { font-family: $brand-font; color: $brand-color; text-align: right; font-size: 1.5em; text-decoration: underline; margin-top: 1em;
-    @include palm { font-size: 2.6em; padding-bottom: 1.5em; }
-    @include palm-mid { width: 50%; margin-top: -4em; font-size: 2.1em; }
-    @include tablet { width: 40%; margin-top: -6em; font-size: 2.5em; }
-    @include desktop { font-size: 3.5em;  }
+.about-title { 
+    font-family: $brand-font; 
+    color: $brand-color; 
+    text-align: right; 
+    font-size: 1.5em; 
+    text-decoration: underline; 
+    margin-top: 1em;
+    @include palm { 
+        font-size: 2.6em; 
+        padding-bottom: 1.5em; 
+    }
+    @include palm-mid { 
+        width: 50%; 
+        margin-top: -4em; 
+        font-size: 2.1em; 
+    }
+    @include tablet { 
+        width: 40%; 
+        margin-top: -6em; 
+        font-size: 2.5em; 
+    }
+    @include desktop { 
+        font-size: 3.5em;  
+    }
 }
-.about-content_title { text-align: center; text-transform: uppercase; font-family: $brand-font; padding: 4em 0; letter-spacing: 2px;}
-.about-content_text p { font-size: 0.9em; 
-    @include palm-mid { width: 75%; margin: 0 auto; padding-bottom: 2em; font-size: 1.1em; }
-    @include tablet { width: 60%; }
-    @include desktop { width: 45%; }
+.about-content_title { 
+    text-align: center; 
+    text-transform: uppercase; 
+    font-family: $brand-font; 
+    padding: 4em 0; 
+    letter-spacing: 2px;
+}
+.about-content_text p { 
+    font-size: 0.9em; 
+    @include palm-mid { 
+        width: 75%; 
+        margin: 0 auto; 
+        padding-bottom: 2em; 
+        font-size: 1.1em; 
+    }
+    @include tablet { 
+        width: 60%; 
+    }
+    @include desktop { 
+        width: 45%; 
+    }
 }
 .about-middle-hero1 {
     @include tablet { width: 90%; margin: 0 auto; }
@@ -296,73 +633,6 @@ Section 05
 }
 .journal-caption_group { padding-top: 4em; }
 .journal-caption_sm { font-size: 0.8em; }
-
-
-
-
-
-
-/*not using */
-/*.background {
-    position: relative;
-    min-width: 100%; 
-}*/
-
-
-
-
-/* Old Shit */
-/*.section-no-height { height: auto; }*/
-/*.section-bg-no-height { background-size: cover; background-position: center center; width: 100%; z-index: 2; position: relative; }*/
-/*.content-fill { position: relative; background: $background-color; 
-    @include tablet { padding: 1em;  }
-}*/
-/*.content-fill-no-height { height: auto; position: relative; background: $background-color; top: 2em; margin-bottom: 2em; }*/
-/*.section-identifier { position: relative; padding: .2em; font-family: $alt-font-1; font-size: $section-number-font-size; color: $brand-color; 
-    @include palm-three { padding: .5em; }
-}*/
-/*.section-identifier-r { text-align: right; }*/
-/*.section-text-s { text-align: right; width: 90%;  font-size: 1.3em; font-family: $alt-font-2; line-height: 1em; text-decoration: underline; 
-    @include palm { font-size: 2em; width: 85%; }
-    @include palm-mid {  line-height: 1em; width: 85%; }
-    @include tablet-mid { font-size: 3em; }
-}*/
-/*.width-adj-1 { 
-    @include palm-three { width: 70%; }
-}*/
-/*.width-adj-3 { width: 82%; 
-    @include palm { width: 85%; }
-    @include palm-mid { width: 85%; }
-    @include palm-three { width: 70%; }
-    @include tablet { width: 65%; }
-}*/
-/*.width-adj-5 { 
-    @include palm-three { width: 70%; }
-    @include tablet { width: 65%; }
-}*/
-/*.captions { position: relative; padding-top: 2em; padding-bottom: .5em;
-    @include palm { padding-bottom: 1em; }
-}*/
-/*.captions-v2 { padding-top: 0em; }*/
-/*.image-caption { font-size: 6px; width: 70%; position: relative; padding: 1em 3em;
-    @include palm { width: 55%; }
-    @include palm-mid { font-size: 8px; }
-    @include palm-three { width: 40%; }
-    @include tablet { padding: 1em 2em; }
-    @include tablet-mid { font-size: 12px; width: 50%;}
- }*/
-/*.s-caption { font-size: 6px; }
-.p-caption { width: 45%; float: right; position: relative;right: 1em; bottom: -6em; }*/
-/*.image-caption-title { font-size: 8px; text-transform: uppercase; font-weight: bold; 
-    @include palm-mid { font-size: 9px; }
-    @include tablet-mid { font-size: 14px; }
-}*/
-
-/* Section 6 */
-
-
-/* Dividers */
-/*.divider { padding: 2.5em 0; width: 100%; }*/
 
 
 
@@ -449,11 +719,14 @@ Section 05
 
 /** GLOBAL CLASSES */
 .crwns-content { margin: 0 2%; position: relative; }
-.wrapper { padding-top: 2em; 
-    /*@include laptop { }*/
-    @include desktop { padding-top: 0; }
+.wrapper { 
+    @include tablet { 
+        padding-top: 2em;
+    }
+    @include desktop { 
+        padding-top: 0; 
+    }
 }
-
 .row { width: 100%; position: relative; }
 .row.last { padding-bottom: 9em; }
 .col-2 { width: 100%; position: relative;
@@ -522,10 +795,7 @@ Section 05
         
         
         
-        .box-hero__text--title-v2 { text-align: center; margin: 0 auto; left: 0; right: 0; padding-top: 1em; width: 100%;
-            @include mobile-mid { width: 65%; }
-            @include laptop { width: 40%; }
-        }
+       
         
         .box-hero__text--content-v2 { text-align: center; margin: 0 auto; width: 100%; left: 0;
             @include mobile-mid { font-size: 20px; }

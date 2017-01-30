@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: white-bg
 title: featured
 permalink: /featured/
 ---
@@ -9,14 +9,8 @@ permalink: /featured/
 	<div class="spacer"></div>
 
 	<!-- Autoplay Video Hero -->
-	<div class="section-bg video-hero video-bg clear">
-		<!-- <video autoplay loop muted poster="screenshot.jpg" class="background clear">
-			<source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
-		</video> -->
-		<!-- <iframe src="https://player.vimeo.com/video/176795301?autoplay=1&loop=1" width="1000" height="563" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
-		<div class="backtop-icon"><a href="#home"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a></div>
-	</div>
-	<div class="spacer3x2"></div>
+	
+	<div class="spacer2x"></div>
 	
 	<div class="title-container">
 		<div class="title-icon"><img src="/assets/images/crown-logo.svg" /></div>
@@ -27,7 +21,7 @@ permalink: /featured/
 
 
 {% assign sorted = (site.catalog | sort: 'date') | reverse %}
-{% for project in sorted reversed limit: 5 %}
+{% for project in sorted limit: 5 reversed %}
 	
 		{% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
 		  {% if thecycle == 'odd' %}
