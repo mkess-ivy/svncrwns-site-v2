@@ -169,9 +169,10 @@ body.white {
     line-height: 24px;
     @include tablet { 
         position: relative; 
-        width: 80%; 
-        padding-top: 0em; 
-        left: 1em;
+        width: 90%; 
+        padding-top: 1em; 
+        left: 0em;
+        text-align: left;
     }
     @include laptop { 
         font-size: 14px; 
@@ -212,7 +213,7 @@ body.white {
 }
 .box-hero__text--content-r { 
     float: left; 
-    left: 3em; 
+    left: 1em; 
 }
 .box-hero__text--title-r { 
     @include tablet { 
