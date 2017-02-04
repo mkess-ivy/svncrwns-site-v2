@@ -1,5 +1,6 @@
-// Smooth Scroll
 $(document).ready(function(){
+  
+  // Smooth Scroll
   $('a[href^="#"]').on('click',function (e) {
       e.preventDefault();
 
@@ -13,11 +14,11 @@ $(document).ready(function(){
       });
   });
 
+  // Overlay Menu
   $("#overlay-menu").click(function() {
     $(".overlay").addClass("overlay-open");
     $("body").addClass("noScroll");
   });
-
 
   $(".overlay-close").click(function() {
     $(".overlay").removeClass("overlay-open");
