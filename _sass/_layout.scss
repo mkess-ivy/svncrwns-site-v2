@@ -67,7 +67,8 @@ body.white {
 }
 .title { 
     text-transform: uppercase; 
-    letter-spacing: 4px;
+    letter-spacing: 6px;
+    font-family: $brand-font;
 }
 .title-icon { 
     width: 3em; 
@@ -83,15 +84,17 @@ body.white {
 }
 .box-hero__img { 
     width: 100%;
+    filter: grayscale(100%);
+    box-shadow: 3px 3px 13px #000;
     @include tablet { 
-        width: 70%; 
+        width: 65%; 
         float: left;
     }
 }
 .box-hero__text { 
     width: 100%; 
     @include tablet { 
-        width: 29%; 
+        width: 34%; 
         float: left; 
         padding-top: 1.5em; 
     }
@@ -186,7 +189,7 @@ body.white {
     font-family: $alt-font-1; 
     line-height: .9em; 
     @include tablet { 
-        font-size: 40px; 
+        font-size: 35px; 
         text-decoration: underline;
     }
     @include laptop { 

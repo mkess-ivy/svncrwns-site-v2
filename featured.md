@@ -32,7 +32,7 @@ permalink: /featured/
 					</div>
 					<div class="box-hero__text">
 						<div class="box-hero__text--date box-hero__text--date-position">
-							{{ project.date | date: '%B %Y' }}
+							{{ project.date | date: '%Y' }}
 						</div>
 						<div class="box-hero__text--title brand-link">
 							<a href="{{ project.url }}">{{ project.title }}</a>
@@ -53,7 +53,7 @@ permalink: /featured/
 						</div>
 						<div class="box-hero__text">
 							<div class="box-hero--right box-hero__text--date box-hero__text--date-position box-hero__text--date-position-r">
-								{{ project.date | date: '%B %Y' }}
+								{{ project.date | date: '%Y' }}
 							</div>
 							<div class="box-hero__text--title-r brand-link">
 								<a href="{{ project.url }}">{{ project.title }}</a>

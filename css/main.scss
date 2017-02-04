@@ -154,14 +154,10 @@ $on-tv:     1400px;
     color: $brand-color;
 }
 
-
-
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
         "home",
         "layout",
-        "slider",
         "footer"
-        
 ;

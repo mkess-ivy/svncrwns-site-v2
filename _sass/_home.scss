@@ -89,6 +89,9 @@ body.noScroll {
   position: relative; 
   top: 1px; 
 }
+.menu-text {
+  display: none;
+}
 .menu-icons img { 
   width: 5%; 
 }
@@ -108,10 +111,11 @@ body.noScroll {
   z-index: 500; 
 }
 .overlay nav { 
-  position: relative;
-  bottom: -18em;
+  position: absolute;
+  bottom: 50px;
   padding-right: 1em;
   text-align: right;
+  width: 100%;
 }
 .overlay ul { 
   list-style: none; 
@@ -135,9 +139,14 @@ body.noScroll {
   font-size: 40px;
   text-transform: uppercase;
   line-height: 44px;
+  @include tablet {
+    font-size: 70px;
+    line-height: 70px;
+  }
 }
 .overlay ul li a:hover { 
-  color: #6F5723; 
+  /*color: #6F5723;*/ 
+  color: #b5aa36;
 }
 .overlay-close { 
   width: 35px; 
@@ -147,7 +156,7 @@ body.noScroll {
   top: 10px; 
   overflow: hidden; 
   border: none; 
-  background: url('/assets/images/close-v2.png') no-repeat center center; 
+  background: url('/assets/images/close-v3.png') no-repeat center center; 
   background-size: contain; 
   text-indent: 200%; 
   color: transparent; 
@@ -249,10 +258,10 @@ body.noScroll {
     top: 22.5em;
   }
   @include tablet {
-    top: 12em;
+    top: 18em;
   }
   @include laptop {
-    top: 12em; 
+    top: 20em; 
   }
 }
 .hero-right-image { 
@@ -638,29 +647,39 @@ body.noScroll {
     text-transform:uppercase;
 }*/
 .yellow-box {
-  width: 300px;
-  height: 150px;
+  width: 90%;
+  height: 400px;
   position: relative;
-  background: yellow;
+  /*background: yellow;*/
+  background-image: url('/assets/images/whitebark.jpg');
+  background-size: cover;
+  background-position: center center;
   margin: 0 auto;
   text-align: center;
-  /*display: flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   -webkit-display: flex;
   -webkit-align-items: center;
-  -webkit-justify-content: center;*/
+  -webkit-justify-content: center;
+  @include palm-mid {
+    height: 550px;
+  }
+}
+.html5videohere {
+  position: relative;
 }
 /* Fullscreen Overlay */
 .svn-video-overlay {
   width: 100%;
-  height: 100vh;
+  /*height: 100vh; remove this temporarily */
   /* 50% opacity black */
   background: rgba(0,0,0,.5);
   /* Stays locked on scroll */
-  position: fixed;
+ /* position: fixed;*/
+  position: absolute;
   /* On top of the rest*/
-  z-index: 4;
+  z-index: 5;
   /* Hidden */
   opacity: 0;
   /* No interference */
@@ -710,21 +729,22 @@ body.noScroll {
   transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
 }
-.close {
+.html5-close {
   width: 20px;
-  fill: white;
+  /*fill: white;*/
   position: absolute;
+  color: red;
   right: 0;
   /* Bring above video */
   top: -30px;
 }
-.close:hover {
+.html5-close:hover {
   /* 50% opacity white */
   fill: rgba(255,255,255,0.5);
   cursor: pointer;
 }
 /* Class to fade in overlay */
-.show {
+.html5-show {
   opacity: 1;
 }
 

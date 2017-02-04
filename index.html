@@ -8,8 +8,10 @@ layout: default
   <section class="fullpage">
     <div class="hero-section hero-prop">
       <div class="hero-icon"><img src="/assets/images/crown-logo-white.svg" /></div>
-      <div class="hero-left-image hero-bg"></div>
-      <div class="hero-right-image hero-bg"></div>
+      <div class="hero-images">
+        <div class="hero-left-image hero-bg"></div>
+        <div class="hero-right-image hero-bg"></div>
+      </div>
     </div><!-- .hero-prop -->
     <div class="huge-hero-logo">
       <img src="/assets/images/svn-logo-big.svg" class="hero-logo_img"/>
@@ -53,13 +55,26 @@ layout: default
         <div class="svn-content_no right">
           02
         </div>
-        <div class="yellow-box">
-          
+        <div class="html5videohere yellow-box">
+          <div class="svn-video-overlay">
+            <div class="video-container">
+
+              <!-- SVG Close (X) Icon -->
+              <i class="fa fa-times html5-close" aria-hidden="true"></i>
+
+              <!-- Embedded video -->
+              <iframe id="video" src="https://player.vimeo.com/video/104641191?api=1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+            </div>
+          </div>
+          <div class="svn-play-btn">
+            <span class="play" id="video-fullscreen"></span>
+          </div>
         </div>
         
         <div class="svn-content_contain-caption close-caption">
           <div class="svn-content_caption-title">
-            02a. Something Bold
+            02. Something Bold
           </div>
           <div class="svn-content_caption-sm">
             Type something of interest here, just some filler shxt, no one cares what this says anyway.  Just keep on typing, get it?!
