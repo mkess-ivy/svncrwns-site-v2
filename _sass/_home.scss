@@ -238,7 +238,7 @@ body.noScroll {
 }
 .hero-icon { 
   position: absolute; 
-  top: 12em; 
+  top: 20em; 
   text-align: center; 
   width: 100px; 
   height: 77px; 
@@ -246,7 +246,7 @@ body.noScroll {
   right: 0; 
   left: 0;
   @include palm-mid {
-    top: 13.5em;
+    top: 22.5em;
   }
   @include tablet {
     top: 12em;
@@ -606,7 +606,7 @@ body.noScroll {
   height:0;
   overflow:hidden;
 }
-.reel iframe, 
+/*.reel iframe, 
 .reel object, 
 .reel embed {
   position:absolute;
@@ -636,7 +636,98 @@ body.noScroll {
 .reel .overlay .text-container h1{
     color:#FFF;
     text-transform:uppercase;
+}*/
+.yellow-box {
+  width: 300px;
+  height: 150px;
+  position: relative;
+  background: yellow;
+  margin: 0 auto;
+  text-align: center;
+  /*display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-display: flex;
+  -webkit-align-items: center;
+  -webkit-justify-content: center;*/
 }
+/* Fullscreen Overlay */
+.svn-video-overlay {
+  width: 100%;
+  height: 100vh;
+  /* 50% opacity black */
+  background: rgba(0,0,0,.5);
+  /* Stays locked on scroll */
+  position: fixed;
+  /* On top of the rest*/
+  z-index: 4;
+  /* Hidden */
+  opacity: 0;
+  /* No interference */
+  left: -100%;
+  /* CSS3 Transition */
+  transition: opacity .5s;
+  -webkit-transition: opacity .5s;
+}
+.play {
+  width: 70px;
+  height: 70px;
+  background: #222;
+  display: block;
+  margin: 0 auto;
+  /* Important for :after */
+  position: relative;
+  /* Makes a circle */
+  border-radius: 50%;
+}
+.play:hover {
+  background: #333;
+  cursor: pointer;
+}
+.play:after {
+  position: absolute;
+  content: "";
+  /* Centering */
+  top: 50%;
+  margin-top: -15px;
+  left: 50%;
+  margin-left:  -8px;
+  /* CSS Triangle */
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 15px 0 15px 20px;
+  border-color: transparent transparent transparent #ffffff;
+}
+
+/* 90% width container */
+.video-container {
+  width: 90%;
+  /* Centering */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+}
+.close {
+  width: 20px;
+  fill: white;
+  position: absolute;
+  right: 0;
+  /* Bring above video */
+  top: -30px;
+}
+.close:hover {
+  /* 50% opacity white */
+  fill: rgba(255,255,255,0.5);
+  cursor: pointer;
+}
+/* Class to fade in overlay */
+.show {
+  opacity: 1;
+}
+
 
 /* Section 04 */
 .svn-content_col {

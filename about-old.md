@@ -1,7 +1,7 @@
 ---
 layout: default
 title: about
-permalink: /about/
+permalink: /about-old/
 ---
 
 <div class="crwns-wrapper about-wrapper clear">

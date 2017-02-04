@@ -8,11 +8,9 @@ permalink: /journal/
 <div class="slider-hero_text"><span class="slider-hero_text-small">no magic</span> all hustle</div>
 <div id="slideshow">
 	<div class="marginauto">
-	  <!-- <img src="/assets/images/flowerguy.jpg"> -->
 	  <img src="/assets/images/warehouse-1.jpg">
 	</div>
 	<div class="marginauto">
-	  <!-- <img src="/assets/images/jessie.jpg"> -->
 	  <img src="/assets/images/warehouse-2.jpg">
 	</div>
 </div>

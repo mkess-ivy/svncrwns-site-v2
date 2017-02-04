@@ -250,7 +250,6 @@ body.white {
 .offerings-block-white { 
     color: white !important; 
 }
-
 .secondary-link a { 
     font-size: 30px; 
     color: black; 
@@ -574,31 +573,71 @@ body.white {
     }
 }
 .about-middle-hero1 {
-    @include tablet { width: 90%; margin: 0 auto; }
-    @include laptop { width: 75%; }
+    @include tablet { 
+        width: 90%; 
+        margin: 0 auto; 
+    }
+    @include laptop { 
+        width: 75%; 
+    }
 }
-.about-middle-hero2 { width: 70%; margin: -5em auto 0; 
-    @include palm-mid { margin: -8em auto 0; }
-    @include tablet { width: 60%; }
-    @include laptop { width: 50%; }
+.about-middle-hero2 { 
+    width: 70%; 
+    margin: -5em auto 0; 
+    @include palm-mid { 
+        margin: -8em auto 0; 
+    }
+    @include tablet { 
+        width: 60%; 
+    }
+    @include laptop { 
+        width: 50%; 
+    }
 }
-.about-list_group { padding-top: 3em;
-    @include laptop { width: 55% !important; margin: 0 auto; }
+.about-list_group { 
+    padding-top: 3em;
+    @include laptop { 
+        width: 55% !important; 
+        margin: 0 auto; }
 }
-.about-list { list-style: none; text-align: center; font-family: $brand-font; font-size: 1.1em; margin: 0;
-    @include palm-mid { width: 50%; float: left; }
-    @include tablet { font-size: 1.3em; }
+.about-list { 
+    list-style: none; 
+    text-align: center; 
+    font-family: $brand-font; 
+    font-size: 1.1em; 
+    margin: 0;
+    @include palm-mid { 
+        width: 50%; 
+        float: left; 
+    }
+    @include tablet { 
+        font-size: 1.3em; 
+    }
 }
-.about-list li { padding-bottom: 1em; }
-.about-content_text a { color: $brand-color; font-size: 1.4em; text-align: center; font-family: $brand-font; padding-bottom: 1em; display: block; }
-.about-wrapper { margin: 0 auto !important; }
+.about-list li { 
+    padding-bottom: 1em; 
+}
+.about-content_text a { 
+    color: $brand-color; 
+    font-size: 1.4em; 
+    text-align: center; 
+    font-family: $brand-font; 
+    padding-bottom: 1em; 
+    display: block; 
+}
+.about-wrapper { 
+    margin: 0 auto !important; 
+}
 .special_group { 
-    @include palm-mid { margin-top: 4em; }
+    @include palm-mid { 
+        margin-top: 4em; 
+    }
 }
 .about-separator {
-    @include tablet { height: 2em; }
+    @include tablet { 
+        height: 2em; 
+    }
 }
-
 
 
 /* Journal */

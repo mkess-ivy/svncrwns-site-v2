@@ -1,46 +1,4 @@
-<footer class="site-footer">
-  <div class="wrapper">
-    <div class="svn-wrapper clear">
-
-      <div class="footer-elements center-pos clear">
-        <div class="footer-section-wrapper">
-
-          <div class="footer-section float-left">
-            <img src="/assets/images/svn-logo.svg" class="logo-img" />
-          </div>
-
-          <div class="footer-section float-right">
-            <div class="footer-email-meta">
-              <div class="footer-email-title">contact</div>
-              <ul class="footer-email-list">
-                <li><a href="mailto:hello@svncrwns.com">hello@svncrwns.com</a></li>
-                <li><a href="#">subscribe</a></li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="footer-section float-right">
-            <div class="footer-email-meta">
-              <div class="footer-email-title">social</div>
-              <ul class="footer-email-list">
-                <li><a href="#">Instagram</a></li>
-                <li><a href="#">Vimeo</a></li>
-              </ul>
-            </div>
-          </div>
-
-        </div>
-        <div class="separator"></div>
-      </div>
-
-    </div>
-  </div>
-</footer>
-
-
-<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script>
-      // Scroll to the very bottom to see the stuff we wrote, the big giant blocks are:
+// Scroll to the very bottom to see the stuff we wrote, the big giant blocks are:
       // froogaloop
       // and
       // fitvid.js
@@ -436,8 +394,3 @@
           player.api("pause");
         })
       });
-
-
-
-
-    </script>

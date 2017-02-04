@@ -30,13 +30,5 @@ $(document).ready(function(){
     $(".se-pre-con").fadeOut("slow");;
   });
 
-  $('.svn-slider').slick({
-    autoplay: true,
-    autoplaySpeed: 4000,
-    arrows: false,
-    infinite: true,
-    fade: true,
-    speed: 500,
-    cssEase: 'linear'
-  });
+  
 });
