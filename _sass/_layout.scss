@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'League Spartan';
+  src: url('/assets/fonts/leaguespartan-bold.eot'); /* IE9 Compat Modes */
+  src: url('/assets/fonts/leaguespartan-bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+      url('/assets/fonts/leaguespartan-bold.woff2') format('woff2'), /* Super Modern Browsers */
+      url('/assets/fonts/leaguespartan-bold.woff') format('woff'), /* Pretty Modern Browsers */
+      url('/assets/fonts/leaguespartan-bold.svg#league_spartanbold') format('svg'); /* Legacy iOS */
+      font-weight: bold;
+      font-style: normal;
+}
 /* ----- TOC -----
 
 Reusable Code
@@ -14,15 +24,10 @@ Section 05
 ----- #TOC ----- */
 
 body.white {
-    background-color: #fff;
+    background-color: $color-white;
 }
 
 /* Reusable Code */
-.spacer-half { padding: .5em 0; }
-.spacer1x {padding: 1em 0;}
-.spacer2x { padding: 2em 0; }
-.spacer3x { padding: 3em 0; }
-.spacer3x2 {padding: 6em 0;}
 .crwns-wrapper { 
   margin-right: 5%; 
   margin-left: 5%; 
@@ -43,32 +48,35 @@ body.white {
       margin: 0 auto;
     }
     @include laptop { 
-      max-width: 1024px; 
+      max-width: 800px; 
       margin: 0 auto;
     }
     @include desktop { 
-      max-width: 1200px; 
+      max-width: 1000px; 
       margin: 0 auto;
+    }
+    @include tv {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
+.spacer2x { padding: 2em 0; }
+.spacer3x { padding: 3em 0; }
+.row { 
+    width: 100%; 
+    position: relative; 
+}
+.featured-separator {
+    padding-bottom: 14em;
+    @include tablet {
+        padding-bottom: 10em;
     }
 }
 
 
 /* Featured */
-.video-hero { 
-    height: 75vh; 
-    position: relative; 
-    z-index: 200;
-}
-.video-bg { 
-    background-image: url('/assets/images/test.gif'); 
-}
 .title-container { 
     text-align: center; 
-}
-.title { 
-    text-transform: uppercase; 
-    letter-spacing: 6px;
-    font-family: $brand-font;
 }
 .title-icon { 
     width: 3em; 
@@ -77,6 +85,11 @@ body.white {
     @include tablet { 
         display: block; 
     }
+}
+.title { 
+    text-transform: uppercase; 
+    letter-spacing: 6px;
+    font-family: $font-brand1;
 }
 .box-hero { 
     width: auto; 
@@ -92,25 +105,97 @@ body.white {
     }
 }
 .box-hero__text { 
-    width: 100%; 
+    
     @include tablet { 
+        display: flex;
+        align-items: center;
+        justify-content: center;
         width: 34%; 
         float: left; 
-        padding-top: 1.5em; 
     }
     @include desktop { 
-        padding-top: 6.5em; 
+        /*padding-top: 6.5em; */
+    }
+}
+.box-hero__text--title, 
+.box-hero__text--title-r { 
+    width: 70%;
+    text-shadow: 1px 1px 2px black;
+    position: absolute;
+    top: -2em;
+    left: -1em; 
+    @include tablet { 
+        width: 100%;
+        position: relative;
+        padding-top: 6em;  
+        line-height: 40px; 
+        left: -2.5em;
+        text-align: center;
+        top: 0;
+    }
+    @include laptop { 
+        padding-top: 8em; 
+    }
+    @include tv { 
+        left: -7.5em;
+    }
+}
+.brand-link a { 
+    font-size: 36px; 
+    color: $color-brand3;
+    text-decoration: none; 
+    font-family: $font-brand1; 
+    line-height: 1em; 
+    @include palm {
+        font-size: 45px;
+        line-height: 1.1em;
+    }
+    @include tablet { 
+        font-size: 40px; 
+        text-decoration: underline;
+    }
+    @include laptop { 
+        font-size: 46px; 
+    }
+    @include tv {
+        font-size: 65px;
+    }
+}
+.brand-link a:hover { 
+    color: $color-brand1; 
+}
+.box-hero__meta {
+    position: absolute;
+    bottom: 0px;
+}
+.box-hero__category {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: $brand-font;
+    position: absolute;
+    color: $color-brand3;
+    bottom: -40px;
+    @include tablet {
+        left: -15px;
+        font-size: 50px;
     }
 }
 .box-hero__text--date { 
-    font-size: 10px; 
+    font-size: 16px; 
     text-transform: uppercase; 
-    letter-spacing: 4px; 
-    @include laptop { 
-        font-size: 12px; 
+    font-family: $brand-font;
+    position: relative;
+    bottom: -60px;
+    @include tablet {
+        font-size: 20px;
+        bottom: -50px;
+        left: -0.7em;
     }
+    /*@include laptop { 
+        font-size: 12px; 
+    }*/
 }
-.box-hero__text--date-position { 
+/*.box-hero__text--date-position { 
     position: relative; 
     transform: rotate(-90deg); 
     transform-origin: left top 0; 
@@ -119,36 +204,49 @@ body.white {
     @include tablet { 
         transform: none; 
         transform-origin: none; 
-        left: 1em; 
-        top: 2.8em;
+        left: -1em; 
+        top: 3em;
     }
     @include laptop { 
         top: 3.5em; 
         left: 1em;
     }
     @include desktop { top: 0em; left: 1em; }
+}*/
+
+/* Featured - Right Side Elements */
+.box-hero__img--right { 
+    @include tablet {
+        float: right; 
+    }
 }
-.box-hero__text--title, 
 .box-hero__text--title-r { 
-    width: 100%;
-    text-align: center;
     @include tablet { 
-        position: relative; 
-        padding-top: 2.7em;  
-        line-height: 40px; 
-        left: -2em;
-        text-align: left;
+        left: 6em !important;
     }
     @include laptop { 
-        left: -2.5em; 
-        padding-top: 3.3em; 
+        left: 5em !important;  
     }
     @include desktop { 
-        left: -4.5em; 
-        padding-top: 0.3em;
+        left: 7em !important; 
     }
 }
- .box-hero__text--title-v2 { 
+.box-hero__meta-r {
+    @include tablet {
+        bottom: 0px;
+        right: 40px;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* .box-hero__text--title-v2 { 
     text-align: center; 
     margin: 0 auto; 
     left: 0; 
@@ -161,8 +259,8 @@ body.white {
     @include laptop { 
         width: 40%; 
     }
-}
-.box-hero__text--content { 
+}*/
+/*.box-hero__text--content { 
     font-family: $brand-font; 
     font-size: 14px; 
     padding-top: 1em; 
@@ -181,29 +279,12 @@ body.white {
         font-size: 14px; 
         padding-top: 1em; 
     }
-}
-.brand-link a { 
-    font-size: 36px; 
-    color: $brand-color; 
-    text-decoration: none; 
-    font-family: $alt-font-1; 
-    line-height: .9em; 
-    @include tablet { 
-        font-size: 35px; 
-        text-decoration: underline;
-    }
-    @include laptop { 
-        font-size: 44px; 
-    }
-}
-.brand-link a:hover { 
-    color: #745c1c; 
-}
-.box-hero__img--right { 
-    @include tablet {
-        float: right; 
-    }
-}
+}*/
+
+
+
+
+/*
 .box-hero--right { 
     @include tablet {
         text-align: right; 
@@ -217,29 +298,16 @@ body.white {
 .box-hero__text--content-r { 
     float: left; 
     left: 1em; 
-}
-.box-hero__text--title-r { 
-    @include tablet { 
-        left: 3.2em !important; 
-        padding-top: 3.8em; 
-        padding-bottom: 1em; 
-    }
-    @include laptop { 
-        left: 4.9em !important;  
-        padding-top: 4.3em !important;
-    }
-    @include desktop { 
-        left: 6.9em !important; 
-        padding-top: 2em !important;
-    }
-}
-.year { 
+}*/
+
+/*.year { 
     font-weight: bold; 
     font-size: 14px; 
-}
+}*/
 .padbot20 { 
     padding-bottom: 5em; 
 }
+
 
 
 /* Offerings */
@@ -770,7 +838,7 @@ body.white {
         padding-top: 0; 
     }
 }
-.row { width: 100%; position: relative; }
+
 .row.last { padding-bottom: 9em; }
 .col-2 { width: 100%; position: relative;
     @include mobile-lg { width: 48%; float: left; padding-right: 30px; }
@@ -880,4 +948,9 @@ body.white {
 .warn-404 { text-align: center; z-index: 5; position: relative; background: white; font-family: $alt-font-1; text-transform: uppercase;  margin: 0 auto; font-size: 0.6em; width: 42.9%; top: 4.5em; left: -1.4em;
     @include laptop { font-size: 2em; top: 4em; width: 46%;}
 }
+.spacer-half { padding: .5em 0; }
+.spacer1x {padding: 1em 0;}
+
+
+.spacer3x2 {padding: 6em 0;}
 

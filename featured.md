@@ -6,9 +6,6 @@ permalink: /featured/
 
 
 <div class="crwns-wrapper clear">
-	<div class="spacer"></div>
-
-	<!-- Autoplay Video Hero -->
 	
 	<div class="spacer2x"></div>
 	
@@ -23,48 +20,51 @@ permalink: /featured/
 {% assign sorted = (site.catalog | sort: 'date') | reverse %}
 {% for project in sorted limit: 5 reversed %}
 	
-		{% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-		  {% if thecycle == 'odd' %}
-			<div class="row padbot20 clear">
+	{% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+		{% if thecycle == 'odd' %}
+			<div class="row featured-separator clear">
 				<div class="box-hero clear">
 					<div class="box-hero__img">
 						<img src="{{ project.img-path }}" />
 					</div>
 					<div class="box-hero__text">
-						<div class="box-hero__text--date box-hero__text--date-position">
-							{{ project.date | date: '%Y' }}
-						</div>
 						<div class="box-hero__text--title brand-link">
 							<a href="{{ project.url }}">{{ project.title }}</a>
 						</div>
-						<div class="box-hero__text--content">
-							{{ project.excerpt }}
+					</div>
+					<div class="box-hero__meta">
+						<div class="box-hero__category">
+							{{ project.category }}
+						</div>
+						<div class="box-hero__text--date box-hero__text--date-position">
+							{{ project.date | date: '%Y' }}
 						</div>
 					</div>
-
 				</div>
 			</div>
-			{% endif %}
-			{% if thecycle == 'even' %}
-				<div class="row padbot20 clear">
-					<div class="box-hero clear">
-						<div class="box-hero__img box-hero__img--right ">
-							<img src="{{ project.img-path }}" />
+		{% endif %}
+		{% if thecycle == 'even' %}
+			<div class="row featured-separator clear">
+				<div class="box-hero clear">
+					<div class="box-hero__img box-hero__img--right">
+						<img src="{{ project.img-path }}" />
+					</div>
+					<div class="box-hero__text">
+						<div class="box-hero__text--title-r brand-link">
+							<a href="{{ project.url }}">{{ project.title }}</a>
 						</div>
-						<div class="box-hero__text">
-							<div class="box-hero--right box-hero__text--date box-hero__text--date-position box-hero__text--date-position-r">
-								{{ project.date | date: '%Y' }}
-							</div>
-							<div class="box-hero__text--title-r brand-link">
-								<a href="{{ project.url }}">{{ project.title }}</a>
-							</div>
-							<div class="box-hero--right box-hero__text--content box-hero__text--content-r">
-								{{ project.excerpt }}
-							</div>
+					</div>
+					<div class="box-hero__meta box-hero__meta-r">
+						<div class="box-hero__category">
+							{{ project.category }}
+						</div>
+						<div class="box-hero__text--date box-hero__text--date-position">
+							{{ project.date | date: '%Y' }}
 						</div>
 					</div>
 				</div>
-			{% endif %}
+			</div>
+		{% endif %}
 		
 
 	{% endfor %}
@@ -75,9 +75,5 @@ permalink: /featured/
 		<div class="sub-link">
       		<a href="{{ site.baseurl }}/catalog">view catalog</a>
     	</div>
-	    <!-- <div class="padbot3 center-pos">
-	        <a href=""><img src="/assets/images/circle-up.svg" class="bottom-footer-nav" /></a>
-	        <a href=""><img src="/assets/images/circle-right.svg" class="bottom-footer-nav last" /></a>
-	    </div> -->
 	</div>
 </div>

@@ -5,6 +5,8 @@ date:   'May 21 2016'
 year:	'2016'
 medium: art
 featured: true
+category: "film"
+
 img-path: https://dl.dropboxusercontent.com/u/12644668/svn-blue.jpg
 ---
 

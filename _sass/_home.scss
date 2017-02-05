@@ -363,7 +363,7 @@ body.noScroll {
 /* Content Specific Classes */
 .svn-content { 
   position: relative; 
-  background: $background-color;
+  background: $color-white;
   @include tablet { 
     float: left;
     clear: both;

@@ -5,6 +5,7 @@ date:   'Jul 01 2016'
 year:	'2016'
 medium: art
 featured: "no"
+category: "film"
 img-path: /assets/images/drink.jpg
 ---
 
