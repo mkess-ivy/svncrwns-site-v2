@@ -42,29 +42,5 @@ if (/iPad|iPhone|iPod/.test(navigator.platform)) {
   bannerVideo.style.display = 'none';
 }
 
-  // Hover Menu, show word 'menu'
-  // $('.menuButton').hover(
-  //     function(){$(this).addClass('menu-text');}
-  //   )
-
-    // var iframe = $('#video')[0];
-    // var videoFullscreen = document.getElementById("video-fullscreen");
-    
-    // $('.play').click(function(){
-    //   if (iframe.requestFullscreen) {
-    //       iframe.requestFullscreen();
-    //   }
-    //   else if (iframe.msRequestFullscreen) {
-    //       iframe.msRequestFullscreen();
-    //   }
-    //   else if (iframe.mozRequestFullScreen) {
-    //       iframe.mozRequestFullScreen();
-    //   }
-    //   else if (iframe.webkitRequestFullScreen) {
-    //       iframe.webkitRequestFullScreen();
-    //   }
-    // }
-    // })
-
   
 });

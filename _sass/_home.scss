@@ -248,7 +248,7 @@ body.noScroll {
 .hero-icon { 
   position: absolute; 
   top: 20em; 
-  text-align: center; 
+  /*text-align: center; */
   width: 100px; 
   height: 77px; 
   margin: auto; 
@@ -313,6 +313,12 @@ body.noScroll {
   z-index: 200;
   border-radius: 34px;
   margin-right: 0.3em;
+ }
+ .backtop-icon:hover {
+  background: black;
+ }
+ .backtop-icon a:hover, .backtop-icon:hover a {
+  color: white;
  }
 
 /* Background meta and images */

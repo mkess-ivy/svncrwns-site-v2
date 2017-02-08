@@ -238,6 +238,100 @@ body.white {
 }
 
 
+/* Catalog Single */
+.catalog_page-wrapper {
+  margin: 0 20px;
+}
+.catalog_credits-wrapper ul,
+.catalog_credits-wrapper li {
+  list-style: none;
+}
+.catalog_title {
+  color: $color-brand3;
+  font-family: $brand-font;
+  font-size: 36px;
+  padding: 50px 0;
+  text-align: center;
+  text-decoration: underline;
+}
+.catalog_title-credit {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: $brand-font;
+  color: $color-gray;
+}
+.catalog_hero-section {
+}
+.catalog_hero-1 {
+
+}
+.catalog_hero-2 {
+  margin: -4em auto 0;
+  width: 85%;
+  position: relative;
+}
+.catalog_section {
+  margin-top: 4em;
+}
+.credits-list {
+  text-align: center;
+  text-transform: uppercase; 
+  margin: 2em 0 4em;
+}
+.catalog_credits-group {
+  color: $color-brand1;
+  font-size: 12px;
+  font-weight: bold;
+}
+.catalog_credits-artist { 
+  margin-bottom: 1.5em;
+}
+.catalog_credits-artist li {
+  color: $color-gray;
+  font-weight: lighter;
+}
+.catalog_content-wrapper {
+  margin-bottom: 6em;
+}
+.catalog_content-wrapper p {
+  margin-bottom: 1.5em;
+}
+.catalog_img-no {
+  position: absolute;
+  left: 0;
+  z-index: 5;
+  padding: 1em; 
+}
+.catalog_photo-group {
+  position: relative;
+  margin: 1em 0;
+}
+.catalog_photo-group-2 {
+  width: 90%;
+  float: right;
+}
+.catalog_caption-close {
+  padding: 2em 0 8em;
+}
+.catalog_testimonial-group {
+  background-image: url('/assets/images/office.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: white;
+  font-family: $brand-font;
+  text-align: center;
+  padding: 3em 0;
+}
+.catalog_testimonial-text {
+  font-size: 22px;
+  padding: 2em 0.5em;
+}
+
+
+
+
+
 
 
 
@@ -277,6 +371,18 @@ body.white {
 
 
 /* Catalog */
+
+
+
+
+
+
+
+
+
+
+
+
 .catalog-link a { 
     font-size: 1.2em; 
     font-family: $brand-font; 
@@ -305,6 +411,13 @@ body.white {
 
 
 /* Catalog Single */
+.catalog-hero-section {
+    float: right;
+    position: relative;
+    width: 70%;
+    margin-top: -4.2em;
+    z-index: -2;
+}
 .catalog-content { 
     margin-top: 2em; 
 }
@@ -312,12 +425,12 @@ body.white {
     position: relative; 
 }
 .catalog-hero1 { 
-    @include palm-mid { 
+    /*@include palm-mid { 
         width: 80%; 
     }
     @include tablet { 
         width: 90%; 
-    }
+    }*/
 }
 .catalog-hero2 { 
     width: 65%; 
@@ -333,11 +446,11 @@ body.white {
     }
     @include laptop { 
         margin-top: -10em; 
-        left: 16em; 
+        /*left: 16em; */
     }
     @include desktop { 
         margin-top: -15em; 
-        left: 18em; 
+        /*left: 18em; */
     }
 }
 .catalog-title_group { 

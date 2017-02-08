@@ -1,11 +1,11 @@
 ---
-layout: default
+layout: white-bg
 ---
-<div class="press">
+<!-- <div class="press"> -->
 
 
-  <article class="catalog-content">
-  <section class="fullpage">
+<article>
+  <section class="catalog-hero-section">
     <div class="catalog-hero_group">
       <div class="catalog-hero catalog-hero1"><img src=" {{ page.img-path }}"/></div>
       <div class="catalog-hero catalog-hero2"><img src=" {{ page.img-path2 }}"/></div>
@@ -150,24 +150,24 @@ layout: default
       </div>
     </div>
   </section>
-     <!-- Testimonial Group -->
+  <!-- Testimonial Group -->
 
-      {% if page.testimonial-group == "yes" %}
-      <div class="catalog-testimonial_group">
-        <div class="catalog-testimonial_cover">
-          <div class="crwns-wrapper">
-            <div class="title catalog-testimonial_title">{{ page.testimonial-category }}</div>
-            <div class="catalog-testimonial_text">
-              {{ page.testimonial-text }}
-            </div>
-            <div class="title catalog-testimonial_author">
-              {{ page.testimonial-author }}
-            </div>
-          </div>
+  {% if page.testimonial-group == "yes" %}
+  <div class="catalog-testimonial_group">
+    <div class="catalog-testimonial_cover">
+      <div class="crwns-wrapper">
+        <div class="title catalog-testimonial_title">{{ page.testimonial-category }}</div>
+        <div class="catalog-testimonial_text">
+          {{ page.testimonial-text }}
+        </div>
+        <div class="title catalog-testimonial_author">
+          {{ page.testimonial-author }}
         </div>
       </div>
-      {% endif %}
+    </div>
+  </div>
+  {% endif %}
     
-  </article>
+</article>
 
-</div>
+<!-- </div> -->

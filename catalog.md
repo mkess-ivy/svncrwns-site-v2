@@ -13,7 +13,6 @@ permalink: /catalog/
 		<div class="row martop-catalog clear">
 
 			<div class="title-container">
-			<!-- 	<div class="title-icon"><img src="/assets/images/crown-logo.svg" width="48" /></div> -->
 				<div class="title">catalog</div>
 			</div>
 		</div>
