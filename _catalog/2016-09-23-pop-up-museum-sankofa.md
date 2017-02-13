@@ -1,6 +1,6 @@
 ---
 layout: catalog
-title:  "Pop-Up Museum I: Sankofa"
+title:  "Pop-Up Museum: Sankofa"
 date:   'Sept 23 2016'
 year:	'2016'
 medium: art
