@@ -70,15 +70,15 @@ body.noScroll {
   color: #fff; 
   font-size: 3em; 
   position: relative; 
-  background: url("/assets/images/crown-logo.svg") no-repeat center center; 
-  background-size: cover; 
+  background: url("/assets/images/crown-logo-v2.svg") no-repeat center center; 
+  background-size: contain; 
   width: 75%; 
   height: 75%; 
   border: none; 
 }
 .menuButton:hover { 
-  background: url("/assets/images/crown-logo-brand2.svg") no-repeat center center; 
-  background-size: cover; 
+  background: url("/assets/images/crown-logo-black.svg") no-repeat center center; 
+  background-size: contain; 
   -o-transition:.75s;
   -ms-transition:.75s; 
   -moz-transition:.75s; 
@@ -88,9 +88,6 @@ body.noScroll {
 .menuButton:active { 
   position: relative; 
   top: 1px; 
-}
-.menu-text {
-  display: none;
 }
 .menu-icons img { 
   width: 5%; 
@@ -140,13 +137,13 @@ body.noScroll {
   text-transform: uppercase;
   line-height: 44px;
   @include tablet {
-    font-size: 70px;
-    line-height: 70px;
+    font-size: 40px;
+    line-height: 45px;
   }
 }
 .overlay ul li a:hover { 
   /*color: #6F5723;*/ 
-  color: #b5aa36;
+  color: $color-brand1;
 }
 .overlay-close { 
   width: 35px; 
@@ -156,12 +153,16 @@ body.noScroll {
   top: 10px; 
   overflow: hidden; 
   border: none; 
-  background: url('/assets/images/close-v3.png') no-repeat center center; 
-  background-size: contain; 
-  text-indent: 200%; 
-  color: transparent; 
+  /*background: url('/assets/images/close-v3.png') no-repeat center center; 
+  background-size: contain; */
+ /* text-indent: 200%; */
+  background-color: transparent; 
   outline: none; 
   z-index: 100; 
+  font-size: 20px;
+}
+.overlay-close:hover {
+  color: $color-white;
 }
 .overlay-data { 
   opacity: 0; 
@@ -194,6 +195,17 @@ body.noScroll {
 }
 .logo-img {
   width: 7em;
+}
+.site-header {
+  @include desktop-blah {
+    max-width: 1350px;
+    margin: 0 auto;
+  }
+}
+.menu-icons .fa {
+  @include tablet {
+    font-size: 40px;  
+  }
 }
 
 /* Wrappers */
@@ -236,33 +248,32 @@ body.noScroll {
   z-index: 3; 
   position: relative; 
 }
-.hero-prop { 
-  margin: 0.5em 2em 2em 2em;
+.hero-images {
+  position: relative;
   @include tablet {
-    margin: 3.5em;
-  } 
-  @include laptop { 
-    margin: 2.5em 3.5em 2em; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
+}
+.hero-prop { 
+  margin: 0.5em 2em 7em 2em;
+  @include tablet {
+    margin: 3.5em 3.5em 7em 3.5em;
+  } 
+  /*@include laptop { 
+    margin: 2.5em 3.5em 2em; 
+  }*/
 }
 .hero-icon { 
   position: absolute; 
-  top: 20em; 
-  /*text-align: center; */
   width: 100px; 
   height: 77px; 
   margin: auto; 
   right: 0; 
   left: 0;
-  @include palm-mid {
-    top: 22.5em;
-  }
-  @include tablet {
-    top: 18em;
-  }
-  @include laptop {
-    top: 20em; 
-  }
+  top: 0;
+  bottom: 0;
 }
 .hero-right-image { 
   background-image: url('/assets/images/drive.jpg'); 
@@ -289,17 +300,18 @@ body.noScroll {
   }
 }
 .huge-hero-logo { 
-  position: relative; 
+  position: absolute; 
   z-index: 2; 
-  bottom: 4em; 
+  bottom: -6em; 
+  right: 10px;
   padding: .5em; 
   text-align: right;
 }
 .hero-logo_img { 
   width: 70%; 
-  @include laptop { 
+  /*@include laptop { 
     width: 40%; 
-  }
+  }*/
 }
 .backtop-icon { 
   -webkit-box-shadow: 1px 1px 2px 0px rgba(50, 50, 50, 0.55);
@@ -437,7 +449,7 @@ body.noScroll {
   font-family: $brand-font; 
   line-height: 1.3em; 
   text-decoration: underline; 
-  color: $brand-color;
+  color: $color-brand5;
   text-shadow: 3px 3px rgba(111,87,35,0.3);
   @include palm-mid { 
     font-size: 2.3em; 
@@ -621,37 +633,6 @@ body.noScroll {
   height:0;
   overflow:hidden;
 }
-/*.reel iframe, 
-.reel object, 
-.reel embed {
-  position:absolute;
-  top:0;
-  left:0;
-  right: 0;
-  text-align: center;
-  margin: auto;
-  width:90%;
-  height:100%;
-}
-
-.reel .overlay{
-    position: absolute;
-    width: 100%;
-    height:100%;
-    background:#000;
-    opacity:0.5;
-    z-index:999;
-}
-
-.reel .overlay .text-container{
-    width:100%;
-    text-align:center;
-}
-
-.reel .overlay .text-container h1{
-    color:#FFF;
-    text-transform:uppercase;
-}*/
 .yellow-box {
   width: 90%;
   height: 400px;
