@@ -33,14 +33,37 @@ $(document).ready(function(){
 
   // Background Video
   var banner = document.querySelector('.banner');
-var bannerVideo = document.querySelector('.banner__video');
+  var bannerVideo = document.querySelector('.banner__video');
 
-if (/iPad|iPhone|iPod/.test(navigator.platform)) {
-  banner.style.backgroundImage = 'url("' + bannerVideo.poster + '")';
-  banner.style.backgroundSize = 'cover';
-  banner.style.backgroundPosition = 'center';
-  bannerVideo.style.display = 'none';
-}
+  if (/iPad|iPhone|iPod/.test(navigator.platform)) {
+    banner.style.backgroundImage = 'url("' + bannerVideo.poster + '")';
+    banner.style.backgroundSize = 'cover';
+    banner.style.backgroundPosition = 'center';
+    bannerVideo.style.display = 'none';
+  }
 
-  
+  // Catalog Page - remove classes to get desired desktop view
+  // Pseudocode
+
+  // if the screen size equals tablet
+  // find #photo5, remove .catalog_photo-group, add .catalog_photo-5
+  // find #photo6, remove .catalog_photo-group2, add .catalog_photo-6
+  if (window.matchMedia("(min-width: 700px)").matches) {
+    $("#js-photo5").removeClass('catalog_photo-group');
+    $("#js-photo5").addClass('catalog_photo-5');
+    $("#js-photo6").removeClass('catalog_photo-group-2');
+    $("#js-photo6").removeClass('catalog_photo-group');
+    $("#js-photo6").addClass('catalog_photo-6');
+    $("#js-photo7").removeClass('catalog_photo-group');
+    $("#js-photo7").addClass('catalog_photo-7');
+  } 
+  else {
+    $("#js-photo5").removeClass('catalog_photo-5');
+    $("#js-photo5").addClass('catalog_photo-group');
+    $("#js-photo6").removeClass('catalog_photo-6');
+    $("#js-photo6").addClass('catalog_photo-group');
+    $("#js-photo6").addClass('catalog_photo-group-2');
+    $("#js-photo7").removeClass('catalog_photo-7');
+    $("#js-photo7").addClass('catalog_photo-group');
+  }
 });
