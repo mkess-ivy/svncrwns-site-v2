@@ -10,10 +10,10 @@ layout: white-bg
 </section> -->
 
 <article>
-  <section>
+  <section class="site-wrapper clear">
     <div class="catalog_title">{{ page.title }}</div>
     <div class="catalog_hero-section">
-      <div class="catalog_hero-1">
+      <div class="catalog_hero-1 clear">
         <div class="catalog_img-no svn-content_img-no-txt">01</div>
         <img src="{{ page.photo1 }}" />
       </div>
@@ -24,7 +24,7 @@ layout: white-bg
     </div>
   </section>
   <div class="svn-wrapper clear"> 
-    <section class="catalog_section">
+    <section class="catalog_section clear">
       <div class="catalog_credits-wrapper">
         <div class="catalog_title-credit">credits</div>
         <ul class="credits-list">
@@ -128,8 +128,8 @@ layout: white-bg
         {{ page.content }}
       </div>
     </section>
-    <section>
-      <div class="clear">
+    <section class="clear">
+      <div class="pos-rel clear">
         <div class="catalog_photo-group">
           <div class="catalog_img-no svn-content_img-no-txt">03</div>
           <img src="{{ page.photo3 }}" />
@@ -169,13 +169,13 @@ layout: white-bg
         </div>  
       </div>
     </section>
-    <section>
+    <section class="clear">
       <div class="clear">
-        <div class="catalog_photo-group">
+        <div class="catalog_photo-group" id="js-photo5">
           <div class="catalog_img-no svn-content_img-no-txt">05</div>
           <img src="{{ page.photo5 }}" />
         </div>
-        <div class="catalog_photo-group  catalog_photo-group-2">
+        <div class="catalog_photo-group  catalog_photo-group-2" id="js-photo6">
           <div class="catalog_img-no svn-content_img-no-txt">06</div>
           <img src="{{ page.photo6 }}" />
         </div>
@@ -197,7 +197,8 @@ layout: white-bg
       </div>
     </section>
     <section>
-      <div class="catalog_photo-group">
+      {% if page.photogroup4 == "yes" %}
+      <div class="catalog_photo-group" id="js-photo7">
         <div class="catalog_img-no svn-content_img-no-txt">07</div>
         <img src="{{ page.photo7 }}" />
       </div>
@@ -208,6 +209,40 @@ layout: white-bg
         <div class="svn-content_caption-sm">
           {{ page.caption7-text }}
         </div>
+      </div>
+      {% endif %}
+      {% if page.visual-group == "yes" %}
+      <div class="pos-rel catalog-html5-video">
+        <div class="catalog_photo-group" id="js-photo7">
+          <div class="catalog_img-no svn-content_img-no-txt">07</div>
+          <img src="{{ page.photo7 }}" class="catalog_img-filter" />
+        </div>
+
+        <div class="svn-video-overlay">
+          <div class="video-container">
+
+            <!-- SVG Close (X) Icon -->
+            <i class="fa fa-times html5-close" aria-hidden="true"></i>
+
+            <!-- Embedded video -->
+            <iframe id="video" src="{{ page.video-url }}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+          </div>
+        </div>
+        <div class="svn-play-btn catalog-play-btn">
+          <span class="play catalog-play" id="video-fullscreen"></span>
+        </div>
+
+      </div>
+      <div class="svn-content_contain-caption catalog_caption-close">
+        <div class="svn-content_caption-title">
+          {{ page.caption7-title }}
+        </div>
+        <div class="svn-content_caption-sm">
+          {{ page.caption7-text }}
+        </div>
+      </div>
+      {% endif %}
     </section>
   </div>
   {% if page.testimonial-group == "yes" %}
