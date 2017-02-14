@@ -461,3 +461,31 @@ CONTACT
   letter-spacing: 2px;
 }
 
+/* 404 */
+.section-404 {
+  font-family: $font-brand1;
+  font-size: 36em;
+  margin-top: -81px;
+  z-index: -30;
+  position: relative;
+  margin-left: -94px;
+  overflow: hidden;
+}
+.row-404 {
+  height: 100vh;
+}
+.warn-404 {
+  position: absolute;
+  z-index: 23;
+  font-size: 3em;
+  top: 5em;
+  font-family: 'League Spartan', sans-serif;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+  text-transform: uppercase;
+  bottom: 0;
+  color: wheat;
+}
+
