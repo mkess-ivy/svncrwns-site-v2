@@ -11,8 +11,7 @@
 /* ----- TOC -----
 
 Reusable Code
-Featured
-Offerings
+Featured Work
 Catalog
 Catalog Single
 About
@@ -24,205 +23,200 @@ Section 05
 ----- #TOC ----- */
 
 body.white {
-    background-color: $color-white;
-}
-:root { /* Better default for document with a lot of chemical formulas */
-  text-underline-position: under;
+  background-color: $color-white;
 }
 
-/* Reusable Code */
+/* ====================
+REUSABLE CODE
+======================= */
 .crwns-wrapper { 
   margin-right: 5%; 
   margin-left: 5%; 
   padding-right: $spacing-unit; 
   padding-left: $spacing-unit; 
   @extend %clearfix; 
-    @include palm { 
-      max-width: 350px; 
-      margin: 0 auto; 
-    }
-    @include palm-mid { 
-      max-width: 450px; 
-      margin: 0 auto; 
-      clear: both;
-    }
-    @include tablet { 
-      max-width: 650px; 
-      margin: 0 auto;
-    }
-    @include laptop { 
-      max-width: 800px; 
-      margin: 0 auto;
-    }
-    @include desktop { 
-      max-width: 950px; 
-      margin: 0 auto;
-    }
-    @include tv {
-      max-width: 1200px;
-      margin: 0 auto;
-    }
+  @include palm { 
+    max-width: 350px; 
+    margin: 0 auto; 
+  }
+  @include palm-mid { 
+    max-width: 450px; 
+    margin: 0 auto; 
+    clear: both;
+  }
+  @include tablet { 
+    max-width: 650px; 
+    margin: 0 auto;
+  }
+  @include laptop { 
+    max-width: 800px; 
+    margin: 0 auto;
+  }
+  @include desktop { 
+    max-width: 950px; 
+    margin: 0 auto;
+  }
+  @include tv {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
 }
 .spacer1x {padding: 1em 0;}
 .spacer2x { padding: 2em 0; }
 .spacer3x { padding: 3em 0; }
 .row { 
-    width: 100%; 
-    position: relative; 
+  width: 100%; 
+  position: relative; 
 }
-.featured-separator {
-    padding-bottom: 14em;
-    @include tablet {
-        padding-bottom: 10em;
-    }
+.pos-rel {
+  position: relative;
 }
 
 
-/* Featured */
+/* ====================
+FEATURED WORK
+======================= */
 .title-container { 
-    text-align: center; 
+  text-align: center; 
 }
 .title-icon { 
-    width: 3em; 
-    margin: 0 auto 20px; 
-    display: none;
-    @include tablet { 
-        display: block; 
-    }
+  width: 3em; 
+  margin: 0 auto 20px; 
+  display: none;
+  @include tablet { 
+    display: block; 
+  }
 }
 .title { 
-    text-transform: uppercase; 
-    letter-spacing: 6px;
-    font-family: $font-brand1;
+  text-transform: uppercase; 
+  letter-spacing: 6px;
+  font-family: $font-brand1;
 }
 .box-hero { 
-    width: auto; 
-    position: relative;
+  width: auto; 
+  position: relative;
 }
 .box-hero__img { 
-    width: 100%;
-    filter: contrast(85%) grayscale(100%);
-    box-shadow: 3px 3px 13px #000;
-    @include tablet { 
-        width: 65%; 
-        float: left;
-    }
+  width: 100%;
+  -webkit-filter: contrast(80%) grayscale(125%);
+  filter: contrast(80%) grayscale(125%);
+  box-shadow: 3px 3px 13px #000;
+  @include tablet { 
+    width: 65%; 
+    float: left;
+  }
 }
 .box-hero__text { 
-    @include tablet { 
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 34%; 
-        float: left; 
-    }
+  padding-top: 20px;
+  font-family: $font-brand1;
+  text-align: center;
+  @include tablet { 
+    width: 34%; 
+    float: left;
+    padding-top: 35px;
+    margin-left: -4em;
+    position: relative;
+  }
+  @include laptop {
+    padding-top: 85px;
+  }
 }
-.box-hero__text--title, 
-.box-hero__text--title-r { 
-    width: 70%;
-    text-shadow: 1px 1px 2px black;
-    position: absolute;
-    top: -2em;
-    left: -1em; 
-    @include tablet { 
-        width: 100%;
-        position: relative;
-        padding-top: 6em;  
-        line-height: 40px; 
-        left: -2.5em;
-        text-align: center;
-        top: 0;
-    }
-    @include laptop { 
-        padding-top: 8em; 
-    }
-    @include tv { 
-        left: -7.5em;
-    }
+.box-hero__text a {
+  color: $color-brand3;
+}
+.box-hero__text a:hover {
+ color: $color-brand2; 
+}
+.box-hero__text-r {
+  margin-left: 0;
+  right: -4em;
+}
+.box-hero__text--title { 
+  text-shadow: 1px 1px 2px black;
+  @include tablet { 
+    width: 100%;
+    position: relative;
+    line-height: 40px; 
+    text-align: center;
+  }
 }
 .brand-link a { 
-    font-size: 36px; 
-    color: $color-brand3;
-    text-decoration: none; 
-    font-family: $font-brand1; 
-    line-height: 1em; 
-    @include palm {
-        font-size: 45px;
-        line-height: 1.1em;
-    }
-    @include tablet { 
-        font-size: 40px; 
-        text-decoration: underline;
-    }
-    @include laptop { 
-        font-size: 46px; 
-    }
-    @include tv {
-        font-size: 65px;
-    }
+  font-size: 30px; 
+  color: $color-brand3;
+  text-decoration: none; 
+  font-family: $font-brand1; 
+  line-height: 1em; 
+  @include tablet { 
+    font-size: 40px; 
+    line-height: 1.1em;
+    text-decoration: underline;
+  }
+  @include laptop { 
+    font-size: 46px; 
+  }
+  @include tv {
+    font-size: 65px;
+  }
 }
 .brand-link a:hover { 
-    color: $color-brand2; 
+  color: $color-brand2; 
 }
 .box-hero__meta {
-    position: absolute;
-    bottom: 0px;
+  color: #6f6f6f;
+  margin: 1.5em 0 0.5em;
 }
 .box-hero__category {
-    font-size: 20px;
-    text-transform: uppercase;
-    font-family: $brand-font;
-    position: absolute;
-    color: $color-brand3;
-    bottom: -40px;
-    @include tablet {
-        left: -15px;
-        font-size: 50px;
-    }
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: $brand-font;
+  position: absolute;
+  color: $color-brand3;
+  bottom: -40px;
+  @include tablet {
+    left: -15px;
+    font-size: 50px;
+  }
 }
 .box-hero__text--date { 
-    font-size: 16px; 
-    text-transform: uppercase; 
-    font-family: $brand-font;
-    position: relative;
-    bottom: -60px;
-    @include tablet {
-        font-size: 20px;
-        bottom: -50px;
-        left: -0.7em;
-    }
+  font-size: 16px; 
+  text-transform: uppercase; 
+  font-family: $brand-font;
+  position: relative;
+  bottom: -60px;
+  @include tablet {
+    font-size: 20px;
+    bottom: -50px;
+    left: -0.7em;
+  }
+}
+.featured-separator {
+  padding-bottom: 5em;
+  @include tablet {
+    padding-bottom: 10em;
+  }
 }
 
 /* Featured - Right Side Elements */
 .box-hero__img--right { 
-    @include tablet {
-        float: right; 
-    }
-}
-.box-hero__text--title-r { 
-    @include tablet { 
-        left: 6em !important;
-    }
-    @include laptop { 
-        left: 5em !important;  
-    }
-    @include desktop { 
-        left: 7em !important; 
-    }
+  @include tablet {
+    float: right; 
+  }
 }
 .box-hero__meta-r {
-    @include tablet {
-        bottom: 0px;
-        right: 40px;
-    }
+  @include tablet {
+    bottom: 0px;
+    right: 40px;
+  }
 }
 
 
-/* Catalog */
+/* ====================
+CATALOG
+======================= */
 .catalog-wrapper {
-    margin: 5em auto;
-    z-index: 2;
-    background: $color-white;
+  margin: 5em auto;
+  z-index: 2;
+  background: $color-white;
 }
 .banner {
   position: relative;
@@ -241,16 +235,43 @@ body.white {
   z-index: -1;
 }
 .catalog-link a { 
-    font-size: 1.2em; 
-    font-family: $brand-font; 
-    text-align: center; 
-    @include tablet { 
-        font-size: 1.8em; 
-    }
+  font-size: 1.2em; 
+  font-family: $brand-font; 
+  text-align: center; 
+  @include tablet { 
+    font-size: 1.8em; 
+  }
+}
+.box-hero-v2 { 
+  margin-top: 2em; 
+  @include mobile-mid { 
+    margin-top: 2em; 
+  }
+}
+.center-position { text-align: center; }
+.martop-catalog:first-child { 
+  margin-top: 2em;
+  @include mobile-mid { 
+    margin-top: 3em; 
+  }
+}
+.martop-catalog { 
+  @include mobile-mid { 
+    margin: 0.5em 0; 
+  }
+}
+.separator { 
+  height: 2em; 
+  width: 100%; 
+  @include tablet { 
+    height: 5em; 
+  }
 }
 
 
-/* Catalog Single */
+/* ====================
+CATALOG SINGLE
+======================= */
 .catalog_page-wrapper {
   margin: 0 20px;
 }
@@ -383,13 +404,13 @@ body.white {
   padding: 2em 0.5em;
 }
 .catalog_credits-wrapper {
-    @include tablet {
-        float: left;
-        width: 35%;
-    }
-    @include desktop-blah {
-        margin-left: 2em;
-    }
+  @include tablet {
+    float: left;
+    width: 35%;
+  }
+  @include desktop-blah {
+    margin-left: 2em;
+  }
 }
 .catalog_photo-5 {
   position: relative;
@@ -405,12 +426,9 @@ body.white {
 .catalog_photo-7 {
   position: relative;
 }
-.pos-rel {
-    position: relative;
-}
 .site-wrapper {
-    max-width: 1350px;
-    margin: 0 auto;
+  max-width: 1350px;
+  margin: 0 auto;
 }
 .catalog-html5-video {
   display: flex;
@@ -429,7 +447,9 @@ body.white {
   filter: grayscale(50%) saturate(75%);
 }
 
-/* Contact */
+/* ====================
+CONTACT
+======================= */
 .sub-title {
   letter-spacing: 2px;
 }
@@ -449,7 +469,7 @@ body.white {
 
 
 /* Offerings */
-.offerings-bg { 
+/*.offerings-bg { 
     background-image: url('https://dl.dropboxusercontent.com/u/12644668/shoes.jpg'); 
 }
 .offerings-hero { 
@@ -474,7 +494,7 @@ body.white {
         font-size: 60px; 
     }
 }
-
+*/
 
 /* Catalog */
 
@@ -489,28 +509,14 @@ body.white {
 
 
 
+/*
 
-.martop-catalog:first-child { 
-    margin-top: 2em;
-    @include mobile-mid { 
-        margin-top: 3em; 
-    }
-}
-.martop-catalog { 
-    @include mobile-mid { 
-        margin: 0.5em 0; 
-    }
-}
-.box-hero-v2 { 
-    margin-top: 2em; 
-    @include mobile-mid { 
-        margin-top: 2em; 
-    }
-}
+
+}*/
 
 
 /* Catalog Single */
-.catalog-hero-section {
+/*.catalog-hero-section {
     float: right;
     position: relative;
     width: 70%;
@@ -524,12 +530,7 @@ body.white {
     position: relative; 
 }
 .catalog-hero1 { 
-    /*@include palm-mid { 
-        width: 80%; 
-    }
-    @include tablet { 
-        width: 90%; 
-    }*/
+   
 }
 .catalog-hero2 { 
     width: 65%; 
@@ -545,11 +546,11 @@ body.white {
     }
     @include laptop { 
         margin-top: -10em; 
-        /*left: 16em; */
+       
     }
     @include desktop { 
         margin-top: -15em; 
-        /*left: 18em; */
+        
     }
 }
 .catalog-title_group { 
@@ -710,11 +711,11 @@ body.white {
     @include laptop { 
         width: 40%; 
     }
-}
+}*/
 
 
 /* About */
-.about-hero1 { 
+/*.about-hero1 { 
     @include palm-mid { 
         width: 100%; 
     }
@@ -858,11 +859,11 @@ body.white {
     @include tablet { 
         height: 2em; 
     }
-}
+}*/
 
 
 /* Journal */
-.journal-wrapper { width: 75%; margin: 0 auto; 
+/*.journal-wrapper { width: 75%; margin: 0 auto; 
     @include tablet { width: 70%; }
     @include laptop { width: 65%; }
 }
@@ -874,12 +875,12 @@ body.white {
 .journal-title a { font-size: 1.3em; font-family: $brand-font;
     @include tablet { font-size: 1.7em; }
 }
-.journal-container { padding: 4em 0 2em; }
+.journal-container { padding: 4em 0 2em; }*/
 
 
 
 /* Journal Posts */
-.post-container { padding-top: 3em; margin: 0 10%; }
+/*.post-container { padding-top: 3em; margin: 0 10%; }
 .post-date { text-align: center; text-transform: uppercase; font-size: 0.8em; letter-spacing: 3px; }
 .post-title { text-align: center; padding: 0.7em 0 2.5em; font-size: 2em; font-family: "League Spartan"; }
 .post-content { width: 80%; margin: 0 auto; padding-bottom: 3em;
@@ -893,12 +894,12 @@ body.white {
     @include tablet { width: 65%; }
 }
 .journal-caption_group { padding-top: 4em; }
-.journal-caption_sm { font-size: 0.8em; }
+.journal-caption_sm { font-size: 0.8em; }*/
 
 
 
 /* Misc */
-.position-img-home-01 { margin: 0 1em; padding: 0 1em; position: relative; top: -.7em; 
+/*.position-img-home-01 { margin: 0 1em; padding: 0 1em; position: relative; top: -.7em; 
     @include tablet { padding: 0 4em; }
 }
 .position-img-home-03 { margin: 0 1em; padding: 5em .5em 0 3em; position: relative; }
@@ -946,14 +947,12 @@ body.white {
     @include palm { height: 85vh; }
     @include palm-three { height: 95vh; }
 }
-.separator { height: 2em; width: 100%; 
-    @include tablet { height: 5em; }
-}
+
 .margin-extra { margin: 1em; }
-.padding-extra { padding: 1em; }
+.padding-extra { padding: 1em; }*/
 
 /* Test */
-.section-prop { background-color: purple; color: white; }
+/*.section-prop { background-color: purple; color: white; }
 .section-03-img1-prop { width: 70%; margin: 0 auto; top: 1em;
    @include palm-three { width: 65%; }
 }
@@ -976,10 +975,10 @@ body.white {
 .captionthis { width: 55%; font-size: 6px; padding: 0 0 2em 2em; 
     @include palm { padding: 0 0 2em 4em; }
     @include palm-mid { font-size: 8px; }
-}
+}*/
 
 /** GLOBAL CLASSES */
-.crwns-content { margin: 0 2%; position: relative; }
+/*.crwns-content { margin: 0 2%; position: relative; }
 .wrapper { 
     @include tablet { 
         padding-top: 2em;
@@ -1027,13 +1026,13 @@ body.white {
     @include laptop { margin-top: 18em; }
 }
 
-.center-position { text-align: center; }
+
 
 /** REUSABLE CLASSES */
     /* - initially designed for Work page */
 
 
-    
+    /*
     
     .box-hero__img--text { position: absolute; top: 50%; font-weight: bold; font-family: $alt-font-1; left: .25em; color: white; font-size: 1em;
         @include mobile-mid { top: 50%; font-size: 1.6em; left: .65em; }
@@ -1065,9 +1064,9 @@ body.white {
         }
         .box-hero__text--subtext { font-size: 16px; text-align: center; font-style: italic; 
             @include mobile-mid { font-size: 18px; }
-        }
+        }*/
     
-    .subheader__text { text-transform: uppercase; color: #C9A443; font-weight: bold; padding-bottom: 10px; }
+    /*.subheader__text { text-transform: uppercase; color: #C9A443; font-weight: bold; padding-bottom: 10px; }
     .subheader__text--title { font-size: 22px; font-family: $alt-font-1; text-transform: uppercase; 
         @include laptop { font-size: 26px; }
     }
@@ -1083,10 +1082,10 @@ body.white {
         @include laptop { width: 70%; margin: 0 auto; }
     }
     .offerings-block__text--title { font-family: $alt-font-1; font-size: 20px; }
-    .offerings-block__text--header { text-align: center; font-size: 20px; line-height: 1em; color: #4a4a4a;}
+    .offerings-block__text--header { text-align: center; font-size: 20px; line-height: 1em; color: #4a4a4a;}*/
 
 /* One-off classes */
-.offerings-icon { width: 3em; }
+/*.offerings-icon { width: 3em; }
 .get-links { text-align: center; padding: 5em 0; }
 .offerings-block__text--create { width: 60%; margin: 0 auto; }
 .section-404 { font-size: 10.5em; font-family: $alt-font-1; position: absolute; overflow: hidden; top: -0.5em; left: -0.2em;
@@ -1102,5 +1101,5 @@ body.white {
 
 
 
-.spacer3x2 {padding: 6em 0;}
+.spacer3x2 {padding: 6em 0;}*/
 

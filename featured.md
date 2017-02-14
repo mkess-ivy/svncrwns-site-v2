@@ -32,15 +32,12 @@ permalink: /featured/
 						<div class="box-hero__text--title brand-link">
 							<a href="{{ project.url }}">{{ project.title }}</a>
 						</div>
-					</div>
-					<div class="box-hero__meta">
-						<div class="box-hero__category">
-							{{ project.category }}
+						<div class="box-hero__meta">
+							{{ project.subtitle }}
 						</div>
-						<div class="box-hero__text--date box-hero__text--date-position">
-							{{ project.date | date: '%Y' }}
-						</div>
+						<a href="{{ project.url }}"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
 					</div>
+					
 				</div>
 			</div>
 		{% endif %}
@@ -50,19 +47,16 @@ permalink: /featured/
 					<div class="box-hero__img box-hero__img--right">
 						<img src="{{ project.img-path }}" />
 					</div>
-					<div class="box-hero__text">
-						<div class="box-hero__text--title-r brand-link">
+					<div class="box-hero__text box-hero__text-r">
+						<div class="box-hero__text--title brand-link">
 							<a href="{{ project.url }}">{{ project.title }}</a>
 						</div>
-					</div>
-					<div class="box-hero__meta box-hero__meta-r">
-						<div class="box-hero__category">
-							{{ project.category }}
+						<div class="box-hero__meta">
+							{{ project.subtitle }}
 						</div>
-						<div class="box-hero__text--date box-hero__text--date-position">
-							{{ project.date | date: '%Y' }}
-						</div>
+						<a href="{{ project.url }}"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
 					</div>
+					
 				</div>
 			</div>
 		{% endif %}

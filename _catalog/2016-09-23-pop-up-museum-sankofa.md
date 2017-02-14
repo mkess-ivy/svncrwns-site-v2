@@ -5,7 +5,7 @@ date:   'Sept 23 2016'
 year:	'2016'
 medium: art
 featured: true
-category: "film"
+subtitle: "some random subtext that explains this two word title"
 
 img-path: /assets/images/drink.jpg
 ---
