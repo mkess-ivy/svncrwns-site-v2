@@ -58,32 +58,24 @@ $color_img_id: #ffffff;
 // Width of the content area
 $content-width:    1000px;
 
-$on-mobile:         300px;
-$on-palm:           400px; /* featured */
-$on-mobile-mid:     480px; /* used this one */
-$on-palm-mid:       500px; /* featured, this is where mobile breaks to desktop */
-$on-palm-three:     600px;
-$on-mobile-lg:      620px;
+
+$on-palm:           400px; /* wrapper, featured */
+$on-mobile-mid:     480px; /* catalog */
+$on-palm-mid:       500px; /* wrapper, featured, home, footer */
+
 $on-tablet:         700px; /* home, featured, this is another important breakpoint */
-$on-pad:            750px;
-$tablet-width:      768px;
-$on-tablet-mid:   800px;
-$on-laptop:         900px; /* used this one */
-$on-desktop:        1024px; /* used this one */
-/*$on-laptop:         1024px;*/
-$on-desktop-blah:        1200px;
-$on-tv:     1400px;
+
+$on-laptop:         900px; /* featured, catalog, footer, home */
+$on-desktop:        1024px; /* wrapper */
+
+$on-desktop-blah:        1200px; /* catalog, home, header */
+$on-tv:     1400px; /* wrapper, featured, home */
 
 
 
 
 
 
-@mixin mobile {
-    @media screen and (min-width: #{$on-mobile}) {
-        @content;
-    }
-}
 
 @mixin palm {
     @media screen and (min-width: #{$on-palm}) {
@@ -103,17 +95,6 @@ $on-tv:     1400px;
     }
 }
 
-@mixin palm-three {
-    @media screen and (min-width: #{$on-palm-three}) {
-        @content;
-    }
-}
-
-@mixin mobile-lg {
-    @media screen and (min-width: #{$on-mobile-lg}) {
-        @content;
-    }
-}
 
 @mixin tablet {
     @media screen and (min-width: #{$on-tablet}) {
@@ -121,17 +102,6 @@ $on-tv:     1400px;
     }
 }
 
-@mixin pad {
-    @media screen and (min-width: #{$on-pad}) {
-        @content;
-    }
-}
-
-@mixin tablet-mid {
-    @media screen and (min-width: #{$on-tablet-mid}) {
-        @content;
-    }
-}
 
 @mixin laptop {
     @media screen and (min-width: #{$on-laptop}) {

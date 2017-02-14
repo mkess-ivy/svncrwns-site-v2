@@ -1,8 +1,6 @@
 .site-footer { position: relative; z-index: 4; background: white; padding-top: 2em;}
 .footer-elements { padding: 0em 0;
 	@include tablet { padding: 0em 0 3em 0;}
-	/*@include laptop { padding: 11em 0 3em 0; }
-	@include desktop { padding:  }*/
 }
 .footer-logo { padding-bottom: 2em; }
 .footer-section-wrapper { position: relative; width: 100%;
