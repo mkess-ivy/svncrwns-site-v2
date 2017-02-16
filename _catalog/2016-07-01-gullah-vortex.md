@@ -1,5 +1,5 @@
 ---
-layout: catalog
+layout: catalog-full
 title:  "gullah vortex"
 date:   'Jul 01 2016'
 year:	'2016'

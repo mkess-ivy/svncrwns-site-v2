@@ -1,5 +1,5 @@
 ---
-layout: catalog
+layout: catalog-full
 title:  "bold photo series"
 date:   'Jan 01 2016'
 year:	'2016'

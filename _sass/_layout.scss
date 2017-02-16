@@ -270,7 +270,7 @@ CATALOG
 
 
 /* ====================
-CATALOG SINGLE
+CATALOG SINGLE FULL
 ======================= */
 .catalog_page-wrapper {
   margin: 0 20px;
@@ -448,6 +448,26 @@ CATALOG SINGLE
 }
 
 
+/* Catalog Single Photo */
+.catalog_photo-wrapper {
+  width: 90%;
+  @include palm-mid {
+    margin: 0 auto;
+    width: 75%;
+  }
+}
+.catalog_photo-bottom {
+  margin-bottom: 4em;
+}
+.catalog_photo-title {
+  text-align: center;
+  font-size: 2em;
+  font-family: $font-brand1;
+  color: $color-brand3;
+  text-decoration: underline;
+}
+
+
 /* ====================
 CONTACT
 ======================= */
@@ -461,31 +481,27 @@ CONTACT
   letter-spacing: 2px;
 }
 
-/* 404 */
-.section-404 {
-  font-family: $font-brand1;
-  font-size: 36em;
-  margin-top: -81px;
-  z-index: -30;
-  position: relative;
-  margin-left: -94px;
-  overflow: hidden;
-}
-.row-404 {
+/* ====================
+404
+======================= */
+.four_row {
   height: 100vh;
-}
-.warn-404 {
-  position: absolute;
-  z-index: 23;
-  font-size: 3em;
-  top: 5em;
-  font-family: 'League Spartan', sans-serif;
-  right: 0;
-  left: 0;
-  margin: auto;
+  color: white;
+  display: flex;
+  align-items: center;
   text-align: center;
-  text-transform: uppercase;
-  bottom: 0;
-  color: wheat;
+  width: 100%;
+  justify-content: center;
+  font-family: 'League Spartan',sans-serif;
+  letter-spacing: 0px;
+  line-height: 30px;
+}
+.four_row a {
+  margin: 0;
+  padding: 0;
+  color: $color-brand3;
+}
+.four_row a:hover {
+  color: $color-brand4;
 }
 

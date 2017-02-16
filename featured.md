@@ -18,11 +18,11 @@ permalink: /featured/
 
 
 
-{% assign sorted = (site.catalog | sort: 'date') | reverse %}
-{% for project in sorted limit: 5 reversed %}
+{% assign features = site.catalog | where:"featured", "yes" | sort:"featured-rank" %}
+{% for project in features %}
 	
 	{% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-		{% if thecycle == 'odd' %}
+			{% if thecycle == 'odd' %}
 			<div class="row featured-separator clear">
 				<div class="box-hero clear">
 					<div class="box-hero__img">
@@ -40,27 +40,26 @@ permalink: /featured/
 					
 				</div>
 			</div>
-		{% endif %}
-		{% if thecycle == 'even' %}
-			<div class="row featured-separator clear">
-				<div class="box-hero clear">
-					<div class="box-hero__img box-hero__img--right">
-						<img src="{{ project.img-path }}" />
-					</div>
-					<div class="box-hero__text box-hero__text-r">
-						<div class="box-hero__text--title brand-link">
-							<a href="{{ project.url }}">{{ project.title }}</a>
+			{% endif %}
+			{% if thecycle == 'even' %}
+				<div class="row featured-separator clear">
+					<div class="box-hero clear">
+						<div class="box-hero__img box-hero__img--right">
+							<img src="{{ project.img-path }}" />
 						</div>
-						<div class="box-hero__meta">
-							{{ project.subtitle }}
+						<div class="box-hero__text box-hero__text-r">
+							<div class="box-hero__text--title brand-link">
+								<a href="{{ project.url }}">{{ project.title }}</a>
+							</div>
+							<div class="box-hero__meta">
+								{{ project.subtitle }}
+							</div>
+							<a href="{{ project.url }}"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
 						</div>
-						<a href="{{ project.url }}"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+						
 					</div>
-					
 				</div>
-			</div>
-		{% endif %}
-		
+			{% endif %}
 
 	{% endfor %}
 

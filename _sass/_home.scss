@@ -259,7 +259,7 @@ body.noScroll {
 .hero-prop { 
   margin: 0.5em 2em 7em 2em;
   @include tablet {
-    margin: 3.5em 3.5em 7em 3.5em;
+    margin: 1em 3.5em 7em 3.5em;
   } 
   /*@include laptop { 
     margin: 2.5em 3.5em 2em; 
@@ -293,7 +293,7 @@ body.noScroll {
   @include tablet { 
     width: 50%; 
     float: left; 
-    height: calc(90vh - 100px); 
+    height: calc(95vh - 70px); 
   }
   @include tv { 
     height: 100vh; 

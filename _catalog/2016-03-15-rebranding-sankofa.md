@@ -1,5 +1,5 @@
 ---
-layout: catalog
+layout: catalog-full
 title:  "Rebranding Sankofa"
 date:   'Mar 15 2016'
 year:	'2016'

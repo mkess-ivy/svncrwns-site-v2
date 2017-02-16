@@ -19,9 +19,6 @@ collections:
     output: true
     permalink: /catalog/:path/
 
-  journal:
-    output: true
-    permalink: /journal/:path/
 
 # gems: [jekyll-paginate]
 

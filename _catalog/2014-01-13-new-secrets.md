@@ -1,5 +1,5 @@
 ---
-layout: catalog
+layout: catalog-full
 title:  "New Secrets"
 date:   'Feb 23 2014'
 year:	'2014'

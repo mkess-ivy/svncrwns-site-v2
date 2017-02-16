@@ -1,5 +1,5 @@
 ---
-layout: catalog
+layout: catalog-full
 title:  "Nobody's Living"
 date:   'Feb 23 2016'
 year:	'2016'

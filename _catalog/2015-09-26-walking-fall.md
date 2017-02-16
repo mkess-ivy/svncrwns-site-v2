@@ -1,5 +1,5 @@
 ---
-layout: catalog
+layout: catalog-full
 title:  "Walking Fall"
 date:   'Sept 26 2015'
 year:	'2015'

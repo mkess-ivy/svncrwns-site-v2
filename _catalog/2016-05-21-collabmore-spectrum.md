@@ -1,11 +1,13 @@
 ---
-layout: catalog
+layout: catalog-full
 title:  "Collabmore SPECTRUM"
 date:   'May 21 2016'
 year:	'2016'
 medium: art
-featured: true
 category: "film"
+featured: "yes"
+featured-rank: "4"
+subtitle: "some random subtext that explains this two word title"
 
 img-path: https://dl.dropboxusercontent.com/u/12644668/svn-blue.jpg
 ---
