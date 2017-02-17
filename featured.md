@@ -19,7 +19,7 @@ permalink: /featured/
 
 
 {% assign features = site.catalog | where:"featured", "yes" | sort:"featured-rank" %}
-{% for project in features %}
+{% for project in features limit: 5 %}
 	
 	{% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
 			{% if thecycle == 'odd' %}

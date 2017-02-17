@@ -1,10 +1,10 @@
 ---
-layout: catalog-comingsoon
-title:  "Pop-Up Museum: Sankofa"
-date:   'Sept 23 2016'
+layout: catalog-full
+title:  "City of Gods"
+date:   'Aug 23 2016'
 year:	'2016'
 featured: "yes"
-featured-rank: "2"
+featured-rank: "5"
 subtitle: "some random subtext that explains this two word title"
 
 img-path: /assets/images/drink.jpg
@@ -82,7 +82,10 @@ testimonial-text: "… this was by far one of the best experiences of the entire
 testimonial-author: "some kid, sankofa pop up 2016"
 ---
 
-Waistcoat chicharrones green juice flexitarian affogato celiac semiotics, cliche pickled pabst. Narwhal intelligentsia gentrify etsy farm-to-table banh mi.
-Some other random ass text goes here.
 
-How many times will I see this line though?
+Through agentic action, people devise ways of adapting flexibly to remarkably diverse geographic, climatic and social environments; 
+
+
+they figure out ways to circumvent physical and environmental constraints, redesign and construct environments to their liking… By these inventive means, people improve their odds in the fitness survival game.  
+
+Through agentic action, people devise ways of adapting flexibly to remarkably diverse geographic, climatic and social environments; they figure out ways to circumvent physical and environmental constraints, redesign and construct environments to their liking… By these inventive means, people improve their odds in the fitness survival game.  

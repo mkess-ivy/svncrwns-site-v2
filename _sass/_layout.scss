@@ -21,7 +21,6 @@ Section 04 Featured Work
 Section 05
 
 ----- #TOC ----- */
-
 body.white {
   background-color: $color-white;
 }
@@ -448,7 +447,9 @@ CATALOG SINGLE FULL
 }
 
 
-/* Catalog Single Photo */
+/* ====================
+CATALOG SINGLE PHOTO
+======================= */
 .catalog_photo-wrapper {
   width: 90%;
   @include palm-mid {
@@ -479,6 +480,14 @@ CONTACT
   font-size: 12px;
   color: $color-brand2;
   letter-spacing: 2px;
+}
+
+/* ====================
+COMING SOON
+======================= */
+.soon-layout p {
+  color: black;
+  font-size: 2em;
 }
 
 /* ====================

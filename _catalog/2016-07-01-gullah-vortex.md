@@ -1,10 +1,11 @@
 ---
-layout: catalog-full
+layout: catalog-comingsoon
 title:  "gullah vortex"
 date:   'Jul 01 2016'
 year:	'2016'
 medium: art
-featured: "no"
+featured: "yes"
+featured-rank: "3"
 subtitle: "some random subtext that explains this two word title"
 img-path: /assets/images/drink.jpg
 ---

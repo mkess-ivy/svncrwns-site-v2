@@ -153,9 +153,6 @@ body.noScroll {
   top: 10px; 
   overflow: hidden; 
   border: none; 
-  /*background: url('/assets/images/close-v3.png') no-repeat center center; 
-  background-size: contain; */
- /* text-indent: 200%; */
   background-color: transparent; 
   outline: none; 
   z-index: 100; 
@@ -260,10 +257,7 @@ body.noScroll {
   margin: 0.5em 2em 7em 2em;
   @include tablet {
     margin: 1em 3.5em 7em 3.5em;
-  } 
-  /*@include laptop { 
-    margin: 2.5em 3.5em 2em; 
-  }*/
+  }
 }
 .hero-icon { 
   position: absolute; 
@@ -309,9 +303,6 @@ body.noScroll {
 }
 .hero-logo_img { 
   width: 70%; 
-  /*@include laptop { 
-    width: 40%; 
-  }*/
 }
 .backtop-icon { 
   -webkit-box-shadow: 1px 1px 2px 0px rgba(50, 50, 50, 0.55);
@@ -659,19 +650,11 @@ body.noScroll {
 /* Fullscreen Overlay */
 .svn-video-overlay {
   width: 100%;
-  /*height: 100vh; remove this temporarily */
-  /* 50% opacity black */
   background: rgba(0,0,0,.5);
-  /* Stays locked on scroll */
- /* position: fixed;*/
   position: absolute;
-  /* On top of the rest*/
   z-index: 5;
-  /* Hidden */
   opacity: 0;
-  /* No interference */
   left: -100%;
-  /* CSS3 Transition */
   transition: opacity .5s;
   -webkit-transition: opacity .5s;
 }
@@ -681,9 +664,7 @@ body.noScroll {
   background: #222;
   display: block;
   margin: 0 auto;
-  /* Important for :after */
   position: relative;
-  /* Makes a circle */
   border-radius: 50%;
 }
 .play:hover {
@@ -693,23 +674,18 @@ body.noScroll {
 .play:after {
   position: absolute;
   content: "";
-  /* Centering */
   top: 50%;
   margin-top: -15px;
   left: 50%;
   margin-left:  -8px;
-  /* CSS Triangle */
   width: 0;
   height: 0;
   border-style: solid;
   border-width: 15px 0 15px 20px;
   border-color: transparent transparent transparent #ffffff;
 }
-
-/* 90% width container */
 .video-container {
   width: 90%;
-  /* Centering */
   position: absolute;
   top: 50%;
   left: 50%;
@@ -718,19 +694,15 @@ body.noScroll {
 }
 .html5-close {
   width: 20px;
-  /*fill: white;*/
   position: absolute;
   color: red;
   right: 0;
-  /* Bring above video */
   top: -30px;
 }
 .html5-close:hover {
-  /* 50% opacity white */
   fill: rgba(255,255,255,0.5);
   cursor: pointer;
 }
-/* Class to fade in overlay */
 .html5-show {
   opacity: 1;
 }
@@ -810,11 +782,3 @@ body.noScroll {
     top: -2.5em;
   }
 }
-
-/* Media Queries Used */
-
-/*
-palm-mid = 500
-tablet = 700
-laptop = 900
-*/

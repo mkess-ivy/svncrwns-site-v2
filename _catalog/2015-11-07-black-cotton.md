@@ -1,5 +1,5 @@
 ---
-layout: catalog-full
+layout: catalog-comingsoon
 title:  "Black Cotton"
 date:   'Nov 07 2015'
 year:	'2015'

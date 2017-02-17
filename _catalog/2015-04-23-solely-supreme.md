@@ -1,5 +1,5 @@
 ---
-layout: catalog-full
+layout: catalog-comingsoon
 title:  "Solely Supreme"
 date:   'Apr 23 2015'
 year:	'2015'

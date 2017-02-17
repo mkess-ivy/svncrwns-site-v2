@@ -1,5 +1,5 @@
 ---
-layout: catalog-full
+layout: catalog-comingsoon
 title:  "Collabmore SPECTRUM"
 date:   'May 21 2016'
 year:	'2016'
