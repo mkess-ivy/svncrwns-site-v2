@@ -691,6 +691,12 @@ body.noScroll {
   left: 50%;
   transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
+  @include palm-mid {
+    width: 110%;
+  }
+  @include desktop-blah {
+    width: 150%;
+  }
 }
 .html5-close {
   width: 20px;
