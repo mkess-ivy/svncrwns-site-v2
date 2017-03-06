@@ -207,28 +207,35 @@ layout: white-bg
         </div>
       </div>
       {% endif %}
+
       {% if page.visual-group == "yes" %}
-      <div class="pos-rel catalog-html5-video">
-        <div class="catalog_photo-group" id="js-photo7">
-          <div class="catalog_img-no svn-content_img-no-txt">07</div>
-          <img src="{{ page.photo7 }}" class="catalog_img-filter" />
-        </div>
+      <div class="pos-rel">
+        <div class="catalog_img-no svn-content_img-no-txt">07</div>
+        <div class="pos-rel catalog-html5-video" style="background-image: url('{{ page.photo7 }}');">
 
-        <div class="svn-video-overlay">
-          <div class="video-container">
+          <!-- using image src for image, makes the video play button NOT centered on all sides
 
-            <!-- SVG Close (X) Icon -->
-            <i class="fa fa-times html5-close" aria-hidden="true"></i>
+          <div class="catalog_photo-group" id="js-photo7">
+            <div class="catalog_img-no svn-content_img-no-txt">07</div>
+            <img src="{{ page.photo7 }}" class="catalog_img-filter" />
+          </div> -->
 
-            <!-- Embedded video -->
-            <iframe id="video" src="{{ page.video-url }}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          <div class="svn-video-overlay">
+            <div class="video-container">
 
+              <!-- SVG Close (X) Icon -->
+              <i class="fa fa-times fa-2x html5-close" aria-hidden="true"></i>
+
+              <!-- Embedded video -->
+              <iframe id="video" src="{{ page.video-url }}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+            </div>
           </div>
-        </div>
-        <div class="svn-play-btn catalog-play-btn">
-          <span class="play catalog-play" id="video-fullscreen"></span>
-        </div>
+          <div class="svn-play-btn">
+            <span class="play catalog-play" id="video-fullscreen"></span>
+          </div>
 
+        </div>
       </div>
       <div class="svn-content_contain-caption catalog_caption-close">
         <div class="svn-content_caption-title">

@@ -5,7 +5,7 @@ permalink: /catalog/
 ---
 
 <div class="banner">
-	<video autoplay loop muted class="banner__video" poster="/assets/images/poster.png">
+	<video autoplay loop muted class="banner__video" poster="/assets/images/poster.jpg">
 		<source src="/assets/video/catalog-video.mp4" type="video/mp4">
 	</video>
 	<div class="crwns-wrapper catalog-wrapper clear">

@@ -55,7 +55,7 @@ body.noScroll {
 #menu-container { 
   position: relative; 
   height: 60px; 
-  width: 80px; 
+  /*width: 80px; */
   display: block; 
   text-align: center; 
   margin: 0 auto;
@@ -102,7 +102,7 @@ body.noScroll {
   top: 0; 
   left: 0; 
 /*  background: rgba(201,164,67,0.95); */
-  background-image: url('/assets/images/overlay-bg.png');
+  background-image: url('/assets/images/overlay-bg.jpg');
   background-size: cover;
   background-position: bottom left;
   z-index: 500; 
@@ -248,9 +248,15 @@ body.noScroll {
 .hero-images {
   position: relative;
   @include tablet {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+    -ms-flex-align: center;
+      align-items: center;
+  -webkit-box-pack: center;
+    -ms-flex-pack: center;
+      justify-content: center;
   }
 }
 .hero-prop { 
@@ -634,12 +640,15 @@ body.noScroll {
   background-position: center center;
   margin: 0 auto;
   text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  -webkit-display: flex;
-  -webkit-align-items: center;
-  -webkit-justify-content: center;
+  -webkit-box-align: center;
+    -ms-flex-align: center;
+      align-items: center;
+  -webkit-box-pack: center;
+    -ms-flex-pack: center;
+      justify-content: center;
   @include palm-mid {
     height: 550px;
   }
@@ -701,8 +710,8 @@ body.noScroll {
 .html5-close {
   width: 20px;
   position: absolute;
-  color: red;
-  right: 0;
+  color: black;
+  right: -15px;
   top: -30px;
 }
 .html5-close:hover {

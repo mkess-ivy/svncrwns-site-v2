@@ -24,6 +24,9 @@ Section 05
 body.white {
   background-color: $color-white;
 }
+/** {
+  outline: 1px solid green;
+}*/
 
 /* ====================
 REUSABLE CODE
@@ -282,7 +285,7 @@ CATALOG SINGLE FULL
   color: $color-brand3;
   font-family: $brand-font;
   font-size: 36px;
-  padding: 50px 0;
+  padding: 50px 5px;
   text-align: center;
   text-decoration: underline;
   @include tablet {
@@ -433,14 +436,25 @@ CATALOG SINGLE FULL
   margin: 0 auto;
 }
 .catalog-html5-video {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+    -ms-flex-align: center;
+      align-items: center;
+  -webkit-box-pack: center;
+    -ms-flex-pack: center;
+      justify-content: center;
+  /* Using background image for catalog-full template */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 35vh;  
 }
-.catalog-play-btn {
+/*.catalog-play-btn {
   margin: auto;
   position: absolute;
-}
+}*/
 .catalog-play {
   background: $color-brand2;
 }
@@ -499,11 +513,17 @@ COMING SOON
 .four_row {
   height: 100vh;
   color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+    -ms-flex-align: center;
+      align-items: center;
+  -webkit-box-pack: center;
+    -ms-flex-pack: center;
+      justify-content: center;
   text-align: center;
   width: 100%;
-  justify-content: center;
   font-family: 'League Spartan',sans-serif;
   letter-spacing: 0px;
   line-height: 30px;
