@@ -1,5 +1,5 @@
 ---
-layout: catalog-full
+layout: catalog-comingsoon
 title:  "City of Gods"
 date:   'Aug 23 2016'
 year:	'2016'

@@ -1,0 +1,163 @@
+---
+layout: white-bg
+---
+
+<div class="spacer2x"></div>
+
+<article class="catalog_photo-wrapper video">
+	<!-- <div class="pos-rel">
+		<div class="catalog_img-no svn-content_img-no-txt">01</div>
+		<img src="{{ page.photo1 }}" />
+	</div> -->
+	
+  <section>
+    {% if page.visual-group == "yes" %}
+      <div class="pos-rel">
+        <div class="catalog_img-no svn-content_img-no-txt">01</div>
+        <div class="pos-rel catalog-html5-video" style="background-image: url('{{ page.photo1 }}');">
+
+          <div class="svn-video-overlay">
+            <div class="video-container">
+
+              <!-- SVG Close (X) Icon -->
+              <i class="fa fa-times fa-2x html5-close" aria-hidden="true"></i>
+
+              <!-- Embedded video -->
+              <iframe id="video" src="{{ page.video-url }}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+            </div>
+          </div>
+          <div class="svn-play-btn">
+            <span class="play catalog-play" id="video-fullscreen"></span>
+          </div>
+
+        </div>
+      </div>
+    {% endif %} 
+  </section>
+
+  <section class="clear">
+    <div class="svn-content_contain-caption catalog_caption-close video">
+      <div class="svn-content_caption-title">
+        {{ page.caption1-title }}
+      </div>
+      <div class="svn-content_caption-sm">
+        {{ page.caption1-text }}
+      </div>  
+      <div class="svn-caption_spacer"></div>
+    </div>
+  </section>
+
+	<section class="catalog_section video clear">
+    
+    <div class="catalog_credits-wrapper video">
+      <div class="catalog_video-title">{{ page.title }}</div>
+      <div class="spacer1x"></div>
+      <div class="catalog_video-text">{{ page.content }}</div>
+      <div class="spacer1x"></div>
+      <div class="catalog_title-credit video">credits</div>
+      <ul class="credits-list video group">
+        <li class="catalog_credits-group">
+          {{ page.position1 }}
+          <ul class="catalog_credits-artist video">
+            <li>{{ page.artist1 }}</li>
+            {% if page.add1b == "yes" %}
+            <li>{{ page.artist1b }}</li>
+            {% endif %}
+            {% if page.add1c == "yes" %}
+            <li>{{ page.artist1c }}</li>
+            {% endif %}
+            {% if page.add1d == "yes" %}
+            <li>{{ page.artist1d }}</li>
+            {% endif %}
+            {% if page.add1e %}
+            <li>{{ page.artist1e }}</li>
+            {% endif %}
+          </ul>
+        </li>
+        <li class="catalog_credits-group">
+          {{ page.position2 }}
+          <ul class="catalog_credits-artist video">
+            <li>{{ page.artist2 }}</li>
+            {% if page.add2b == "yes" %}
+            <li>{{ page.artist2b }}</li>
+            {% endif %}
+            {% if page.add2c == "yes" %}
+            <li>{{ page.artist2c }}</li>
+            {% endif %}
+            {% if page.add2d == "yes" %}
+            <li>{{ page.artist2d }}</li>
+            {% endif %}
+            {% if page.add2e %}
+            <li>{{ page.artist2e }}</li>
+            {% endif %}
+          </ul>
+        </li>
+        <li class="catalog_credits-group">
+          {{ page.position3 }}
+          <ul class="catalog_credits-artist video">
+            <li>{{ page.artist3 }}</li>
+            {% if page.add3b == "yes" %}
+            <li>{{ page.artist3b }}</li>
+            {% endif %}
+            {% if page.add3c == "yes" %}
+            <li>{{ page.artist3c }}</li>
+            {% endif %}
+            {% if page.add3d == "yes" %}
+            <li>{{ page.artist3d }}</li>
+            {% endif %}
+            {% if page.add3e %}
+            <li>{{ page.artist3e }}</li>
+            {% endif %}
+          </ul>
+        </li>
+        {% if page.addpos4 == "yes" %}
+        <li class="catalog_credits-group">
+          {{ page.position4 }}
+          <ul class="catalog_credits-artist video">
+            <li>{{ page.artist4 }}</li>
+            {% if page.add4b == "yes" %}
+            <li>{{ page.artist4b }}</li>
+            {% endif %}
+            {% if page.add4c == "yes" %}
+            <li>{{ page.artist4c }}</li>
+            {% endif %}
+            {% if page.add4d == "yes" %}
+            <li>{{ page.artist3d }}</li>
+            {% endif %}
+            {% if page.add4e %}
+            <li>{{ page.artist3e }}</li>
+            {% endif %}
+          </ul>
+        </li>
+        {% endif %}
+        {% if page.addpos5 == "yes" %}
+        <li class="catalog_credits-group">
+          {{ page.position5 }}
+          <ul class="catalog_credits-artist video">
+            <li>{{ page.artist5 }}</li>
+            {% if page.add5b == "yes" %}
+            <li>{{ page.artist5b }}</li>
+            {% endif %}
+            {% if page.add5c == "yes" %}
+            <li>{{ page.artist5c }}</li>
+            {% endif %}
+            {% if page.add5d == "yes" %}
+            <li>{{ page.artist5d }}</li>
+            {% endif %}
+            {% if page.add5e %}
+            <li>{{ page.artist5e }}</li>
+            {% endif %}
+          </ul>
+        </li>
+        {% endif %}
+      </ul>
+    </div>
+    <!-- <div class="catalog_content-wrapper">
+      {{ page.content }}
+    </div> -->
+  </section>
+
+ 
+
+</article>

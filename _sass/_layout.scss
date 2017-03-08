@@ -24,9 +24,7 @@ Section 05
 body.white {
   background-color: $color-white;
 }
-/** {
-  outline: 1px solid green;
-}*/
+
 
 /* ====================
 REUSABLE CODE
@@ -193,9 +191,6 @@ FEATURED WORK
 }
 .featured-separator {
   padding-bottom: 5em;
-  @include tablet {
-    padding-bottom: 10em;
-  }
 }
 
 /* Featured - Right Side Elements */
@@ -241,7 +236,7 @@ CATALOG
   font-family: $brand-font; 
   text-align: center; 
   @include tablet { 
-    font-size: 1.8em; 
+    font-size: 1.5em; 
   }
 }
 .box-hero-v2 { 
@@ -392,7 +387,7 @@ CATALOG SINGLE FULL
   }
 }
 .catalog_caption-close {
-  padding: 2em 0 8em;
+  padding: 1em 0 5em;
 }
 .catalog_testimonial-group {
   background-image: url('/assets/images/office.png');
@@ -449,12 +444,17 @@ CATALOG SINGLE FULL
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  height: 35vh;  
+  height: 35vh;
+  @include palm-mid {
+    height: 45vh;
+  }
+  @include tablet {
+    height: 65vh;
+  }
+  @include laptop {
+    height: 83vh;
+  }
 }
-/*.catalog-play-btn {
-  margin: auto;
-  position: absolute;
-}*/
 .catalog-play {
   background: $color-brand2;
 }
@@ -485,6 +485,62 @@ CATALOG SINGLE PHOTO
   text-decoration: underline;
 }
 
+
+/* ====================
+CATALOG VIDEO
+======================= */
+.catalog_video-title {
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.catalog_title-credit.video {
+  text-align: left;
+}
+.credits-list.video {
+  text-align: left;
+}
+.credits-list.video li {
+  width: 50%;
+  float: left;
+  @include tablet {
+    width: 25%;
+  }
+}
+.catalog_credits-wrapper.video {
+  float: none;
+  width: 100%;
+}
+.catalog_credits-artist.video li {
+  float: none;
+  display: block;
+  width: 100%;
+}
+.catalog_caption-close.video {
+  padding: 1em;
+  @include tablet {
+    padding: 1em 0;
+  }
+}
+.catalog_section.video {
+  margin-top: 0;
+}
+.catalog_video-text {
+  font-size: 14px;
+  width: 100%;
+  @include tablet {
+    width: 42%;
+  }
+}
+.catalog_photo-wrapper.video {
+  width: 100%;
+  @include tablet {
+    width: 75%;
+  }
+}
+.catalog_section.video {
+  padding: 1em;
+}
 
 /* ====================
 CONTACT

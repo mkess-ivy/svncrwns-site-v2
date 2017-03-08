@@ -66,4 +66,15 @@ $(document).ready(function(){
     $("#js-photo7").removeClass('catalog_photo-7');
     $("#js-photo7").addClass('catalog_photo-group');
   }
+
+  // Reveal Back to top icon after certain scroll height
+  $('#js-backtop').hide();
+  $(window).scroll(function() {
+    if ($(window).scrollTop() > 100) {
+      $('#js-backtop').fadeIn("slow");
+    }
+    else {
+      $('#js-backtop').fadeOut("fast");
+    }
+  });
 });

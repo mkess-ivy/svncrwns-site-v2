@@ -10,11 +10,11 @@ permalink: /featured/
 	<div class="spacer2x"></div>
 	
 	<div class="title-container">
-		<div class="title-icon"><img src="/assets/images/crown-logo.svg" /></div>
+		<!-- <div class="title-icon"><img src="/assets/images/crown-logo.svg" /></div> -->
 		<div class="title">featured work</div>
 		<div class="spacer3x"></div>
 	</div>
-	<div class="backtop-icon"><a href="#home"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a></div>
+	<div class="backtop-icon" id="js-backtop"><a href="#home"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a></div>
 
 
 

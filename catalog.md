@@ -15,6 +15,7 @@ permalink: /catalog/
 			<div class="title-container">
 				<div class="title">catalog</div>
 			</div>
+			<div class="backtop-icon" id="js-backtop"><a href="#home"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a></div>
 		</div>
 		<div class="separator"></div>
 

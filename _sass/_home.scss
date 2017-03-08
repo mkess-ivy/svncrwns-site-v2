@@ -68,7 +68,7 @@ body.noScroll {
 .menuButton { 
   text-indent: 0; 
   color: #fff; 
-  font-size: 3em; 
+  font-size: 6em; 
   position: relative; 
   background: url("/assets/images/crown-logo-v2.svg") no-repeat center center; 
   background-size: contain; 
@@ -92,8 +92,15 @@ body.noScroll {
 .menu-icons img { 
   width: 5%; 
 }
+.menu-txt {
+  color: #000;
+  display: block;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
 #overlay-menu { 
-  margin: 0.2em; 
+  margin: 10px; 
 }
 .overlay { 
   position: fixed; 
@@ -133,9 +140,9 @@ body.noScroll {
   color: #fff; 
   letter-spacing: 2px; 
   font-family: $brand-font;
-  font-size: 40px;
+  font-size: 30px;
   text-transform: uppercase;
-  line-height: 44px;
+  line-height: 36px;
   @include tablet {
     font-size: 40px;
     line-height: 45px;
@@ -465,7 +472,7 @@ body.noScroll {
     width: 40%;
     float: right;
     display: inline-block;
-    margin-right: 1.5em;
+    /*margin-right: 1.5em;*/
   }
   @include laptop { 
     width: 35%; 

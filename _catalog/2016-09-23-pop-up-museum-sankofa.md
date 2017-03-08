@@ -4,6 +4,7 @@ title:  "Pop-Up Museum: Sankofa"
 featured: "yes"
 featured-rank: "2"
 subtitle: "an exhibition produced to teach youth about African history"
+year:	'2016'
 
 img-path: /assets/images/featured-popupmuseum.png
 

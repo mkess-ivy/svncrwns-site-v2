@@ -1,6 +1,6 @@
 .site-footer { position: relative; z-index: 4; background: white; padding-top: 2em;}
-.footer-elements { padding: 0em 0;
-	@include tablet { padding: 0em 0 3em 0;}
+.footer-elements { padding: 0 0 2em;
+	@include tablet { padding: 0em 0 1em 0;}
 }
 .footer-logo { padding-bottom: 2em; }
 .footer-section-wrapper { position: relative; width: 100%;
@@ -30,7 +30,8 @@
 }
 .footer-email-list li { text-transform: lowercase; }
 .footer-email-list a {
-	font-size: 0.9em;
+	font-size: 0.8em;
+	letter-spacing: 2px;
 }
 .footer-email-list a:hover {
 	text-decoration: line-through;
@@ -46,5 +47,5 @@
 }
 .sub-link a:hover { color: black; }
 .sub-link { padding: 3em 0; text-align: center; 
-    @include palm { padding: 6em 0; }
+    @include palm { padding: 2em 0; }
 }
