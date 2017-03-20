@@ -65,7 +65,7 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
-	background-image: url("http://placehold.it/1400x933");
+	/*background-image: url("http://placehold.it/1400x933");*/
 	height: $slide-height;
 	width: 60%;
 	float: left;
@@ -103,28 +103,15 @@
 
 /* Three-Fold Slide */
 .three-fold_slide {
-	width: 33.1%;
+	width: 33.3%;
 	float: left;
 	height: $slide-height;
 	background-position: center center;
 	background-size: cover;
 }
-.three-fold_slide_01 {
-	background-image: url('/assets/images/test-hendrix.jpg');
-	z-index: 10;
-}
-.three-fold_slide_02 {
-	background-image: url('/assets/images/test-hendrix.jpg');
-	z-index: 11;
-}
-.three-fold_slide_03 {
-	background-image: url('/assets/images/test-hendrix.jpg');
-	z-index: 12;
-}
 
 /* One in One Slide */
 .slide-bg {
-	background-image: url('/assets/images/test-hendrix.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
@@ -134,7 +121,6 @@
 	justify-content: center;
 }
 .slide-inner {
-	background-image: url('/assets/images/test-hendrix.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
@@ -145,7 +131,6 @@
 
 /* Two Plus One Slide */
 .two-plus_slide {
-	background-image: url('/assets/images/test-hendrix.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
@@ -155,7 +140,6 @@
 	float: left;
 }
 .one-plus_slide {
-	background-image: url('/assets/images/test-hendrix.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
