@@ -1,8 +1,8 @@
 ---
 layout: catalog-comingsoon
-title:  "H E L L O"
+title:  "Reclaiming Youth"
 date:   'Aug 23 2016'
-year:	'2016'
+year:	'2015'
 subtitle: "some random subtext that explains this two word title"
 featured: "no"
 

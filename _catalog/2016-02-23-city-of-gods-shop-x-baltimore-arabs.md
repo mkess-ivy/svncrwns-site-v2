@@ -1,11 +1,11 @@
 ---
 layout: catalog-comingsoon
-title:  "bold photo series"
-date:   'Jan 01 2016'
+title:  "City of Gods Shop x Baltimore Arabs"
+date:   'Mar 15 2016'
 year:	'2016'
 medium: art
 featured: "no"
-img-path: /assets/images/catalog_bold-notreally.JPG
+img-path: https://dl.dropboxusercontent.com/u/12644668/shoes.jpg
 ---
 
 Waistcoat chicharrones green juice flexitarian affogato celiac semiotics, cliche pickled pabst. Narwhal intelligentsia gentrify etsy farm-to-table banh mi.

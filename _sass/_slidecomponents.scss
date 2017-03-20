@@ -1,0 +1,193 @@
+.svn-slider {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: $slide-height;
+	margin: 0 auto;
+}
+.slide {
+	position: relative;
+}
+.slick-track {
+	height: $slide-height;
+}
+.slick-prev {
+	left: 40px !important;
+	z-index: 10;
+}
+.slick-next {
+	right: 40px !important;
+	z-index: 10;
+}
+.slick-prev.slick-arrow {
+	background-image: url('/assets/images/slide-left.png');
+	height: 75px;
+	width: 35px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	content: none;
+}
+.slick-prev.slick-arrow:hover {
+	background-image: url('/assets/images/slide-left-black.png');
+	height: 75px;
+	width: 35px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.slick-prev:before {
+	content: none !important;
+}
+.slick-next.slick-arrow {
+	background-image: url('/assets/images/slide-right.png');
+	height: 75px;
+	width: 35px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	content: none;
+}
+.slick-next.slick-arrow:hover {
+	background-image: url('/assets/images/slide-right-black.png');
+	height: 75px;
+	width: 35px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.slick-next:before {
+	content: none !important;
+}
+
+/* Introduction Slide */
+.slide-intro {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-image: url("http://placehold.it/1400x933");
+	height: $slide-height;
+	width: 60%;
+	float: left;
+}
+.slide-intro_text {
+	width: 39%;
+	float: left;
+	position: relative;
+	padding-top: 100px;
+	height: $slide-height;
+}
+.slide-intro_title {
+	font-size: 85px;
+	line-height: 80px;
+	word-break: break-all;
+	font-family: 'League Spartan', sans-serif;
+	text-transform: uppercase;
+	left: -200px;
+	position: absolute;
+	width: 100%;
+}
+.slide-intro_copy {
+	bottom: 0;
+	position: absolute;
+	padding: 30px;
+	font-size: 14px;
+}
+.slide1 {
+	background-image: url('/assets/images/test-hendrix.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: $slide-height;
+	width: 100%;
+}
+
+/* Three-Fold Slide */
+.three-fold_slide {
+	width: 33.1%;
+	float: left;
+	height: $slide-height;
+	background-position: center center;
+	background-size: cover;
+}
+.three-fold_slide_01 {
+	background-image: url('/assets/images/test-hendrix.jpg');
+	z-index: 10;
+}
+.three-fold_slide_02 {
+	background-image: url('/assets/images/test-hendrix.jpg');
+	z-index: 11;
+}
+.three-fold_slide_03 {
+	background-image: url('/assets/images/test-hendrix.jpg');
+	z-index: 12;
+}
+
+/* One in One Slide */
+.slide-bg {
+	background-image: url('/assets/images/test-hendrix.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: $slide-height;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+.slide-inner {
+	background-image: url('/assets/images/test-hendrix.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: 90%;
+	width: 40%;
+	margin: 30px 0 0 40px;
+}
+
+/* Two Plus One Slide */
+.two-plus_slide {
+	background-image: url('/assets/images/test-hendrix.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: $slide-height;
+	width: 47%;
+	margin-right: 10px;
+	float: left;
+}
+.one-plus_slide {
+	background-image: url('/assets/images/test-hendrix.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: $slide-height;
+	width: 4%;
+	float: left;
+}
+
+/* Fin Slide */
+.slide-fin_text {
+	font-family: 'League Spartan', sans-serif;
+	font-size: 60px;
+	text-transform: uppercase;
+}
+.slide-intro_copy.slide-fin_text {
+	padding: 20px !important;
+}
+
+/* Credits Slide */
+.slide_credits-wrapper {
+	width: 75%;
+	margin: 7em auto;
+}
+.slide-credits_list {
+	list-style: none;
+	margin-top: 30px;
+	font-size: 14px;
+	text-transform: uppercase;
+	width: 80%;
+}
+.catalog_credits-group.slide {
+	float: left;
+	width: 145px;
+	padding-bottom: 20px;
+}

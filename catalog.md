@@ -19,6 +19,22 @@ permalink: /catalog/
 		</div>
 		<div class="separator"></div>
 
+		<div class="title-container">2017</div>
+		
+		{% for project in site.catalog reversed %}
+		{% if project.year == "2017" %}
+		<div class="row martop-catalog clear">
+			<div class="box-hero box-hero-v2 center-position">
+				<div class="catalog-link">
+					<a href="{{ project.url }}">{{ project.title }}</a>
+				</div>
+			</div>
+		</div>
+		{% endif %}
+		{% endfor %}
+
+		<div class="separator"></div>
+
 		<div class="title-container">2016</div>
 		
 		{% for project in site.catalog reversed %}

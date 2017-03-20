@@ -484,6 +484,26 @@ CATALOG SINGLE PHOTO
   color: $color-brand3;
   text-decoration: underline;
 }
+.svn-content_contain-caption.photo {
+  padding: 1em;
+  @include palm-mid {
+    width: 100%;
+  }
+}
+.svn-content_contain-caption.photo li {
+  list-style: none;
+  padding-bottom: 1.5em;
+  @include palm-mid {
+    width: 31%;
+    float: left;
+    margin-right: 8px;
+    margin-bottom: 1em;
+  }
+  @include tablet {
+    width: 24%;
+    margin-right: 20px;
+  }
+}
 
 
 /* ====================
@@ -518,8 +538,8 @@ CATALOG VIDEO
 }
 .catalog_caption-close.video {
   padding: 1em;
-  @include tablet {
-    padding: 1em 0;
+  @include palm-mid {
+    padding: 2em;
   }
 }
 .catalog_section.video {
@@ -540,6 +560,9 @@ CATALOG VIDEO
 }
 .catalog_section.video {
   padding: 1em;
+  @include palm-mid {
+    padding: 2em;
+  }
 }
 
 /* ====================

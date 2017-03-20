@@ -28,6 +28,8 @@ $section-number-font-size: 1.2em;
 $primary-color: #4a4a4a;
 $brand-color-2: #C9A443;
 
+// Slide Properties
+$slide-height: calc(100vh - 66px);
 
 
 $alt-font-1: Arial Black, sans-serif;
@@ -148,5 +150,6 @@ $on-tv:     1400px; /* wrapper, featured, home */
         "base",
         "home",
         "layout",
-        "footer"
+        "footer",
+        "slidecomponents"
 ;

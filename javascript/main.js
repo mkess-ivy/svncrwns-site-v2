@@ -1,5 +1,4 @@
 $(document).ready(function(){
-  
   // Smooth Scroll
   $('a[href^="#"]').on('click',function (e) {
       e.preventDefault();
@@ -13,6 +12,8 @@ $(document).ready(function(){
           window.location.hash = target;
       });
   });
+
+  
 
   // Overlay Menu
   $("#overlay-menu").click(function() {
@@ -41,6 +42,9 @@ $(document).ready(function(){
     banner.style.backgroundPosition = 'center';
     bannerVideo.style.display = 'none';
   }
+
+  
+
 
   // Catalog Page - remove classes to get desired desktop view
   // Pseudocode
@@ -77,4 +81,10 @@ $(document).ready(function(){
       $('#js-backtop').fadeOut("fast");
     }
   });
+
+
+  // Scroll Reveal Class
+  window.sr = ScrollReveal();
+  sr.reveal('.foo', { duration: 500, opacity: 0.1 });
+
 });

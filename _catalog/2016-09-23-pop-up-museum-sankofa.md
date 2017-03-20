@@ -1,5 +1,5 @@
 ---
-layout: catalog-full
+layout: catalog-project
 title:  "Pop-Up Museum: Sankofa"
 featured: "yes"
 featured-rank: "2"

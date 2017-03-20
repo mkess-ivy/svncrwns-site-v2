@@ -9,7 +9,7 @@ featured: "yes"
 featured-rank: "4"
 subtitle: "some random subtext that explains this two word title"
 
-img-path: https://dl.dropboxusercontent.com/u/12644668/svn-blue.jpg
+img-path: /assets/images/drink.jpg
 ---
 
 Waistcoat chicharrones green juice flexitarian affogato celiac semiotics, cliche pickled pabst. Narwhal intelligentsia gentrify etsy farm-to-table banh mi.

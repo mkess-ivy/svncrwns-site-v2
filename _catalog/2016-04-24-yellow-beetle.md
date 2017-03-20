@@ -1,10 +1,8 @@
 ---
-layout: catalog-video
+layout: catalog-film
 title:  "Yellow Beetle"
 date:   'Apr 24 2016'
 year:	'2016'
-medium: art
-category: "film"
 img-path: https://dl.dropboxusercontent.com/u/12644668/black.png
 featured: "no"
 subtitle: "some random subtext that explains this two word title"
