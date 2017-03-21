@@ -1,6 +1,7 @@
 <!-- Slide Components -->
 
-<!-- Introduction Slide -->
+  <!-- Slide 1 -->
+  {% if page.slide1 == "intro-slide" %}
   <div class="slide" id="intro-slide">
     <div class="slide-intro" style="background-image:url('{{ page.intro-slide_img }}');"></div>
     <div class="slide-intro_text">
@@ -10,37 +11,173 @@
       </div>
     </div>
   </div>
+  {% endif %}
 
-  <!-- Three-Fold Slide -->
-  <div class="slide" id="three-fold-slide">
-    <div class="three-fold_slide" style="background-image:url('{{ page.three-fold-slide_img1 }}');"></div>
-    <div class="three-fold_slide" style="background-image:url('{{ page.three-fold-slide_img2 }}');"></div>
-    <div class="three-fold_slide" style="background-image:url('{{ page.three-fold-slide_img3 }}');"></div>
-  </div>
-
-  <!-- One in One Slide -->
-  <div class="slide slide-bg" style="background-image: url('{{ page.one-in-one_img-cover }}');" id="one-in-one-slide">
-    <div class="slide-inner" style="background-image: url('{{ page.one-in-one_img-inner }}');">
+  <!-- Slide 2 -->
+  {% case page.slide2 %}
+    {% when 'three-fold-slide' %}
+    <div class="slide" id="three-fold-slide">
+      <div class="three-fold_slide" style="background-image:url('{{ page.three-fold-slide_img1 }}');"></div>
+      <div class="three-fold_slide" style="background-image:url('{{ page.three-fold-slide_img2 }}');"></div>
+      <div class="three-fold_slide" style="background-image:url('{{ page.three-fold-slide_img3 }}');"></div>
     </div>
-  </div>
-  
 
-  <!-- Full Width Slide -->
-  <div class="slide slide1" style="background-image: url('{{ page.full-width_img1 }}');" id="full-width-slide">
-  </div>
+    {% when 'one-in-one-slide' %}
+    <div class="slide slide-bg" style="background-image: url('{{ page.one-in-one_img-cover }}');" id="one-in-one-slide">
+      <div class="slide-inner" style="background-image: url('{{ page.one-in-one_img-inner }}');">
+      </div>
+    </div>
+    <div class="slide slide1" style="background-image: url('{{ page.full-width_img1 }}');" id="full-width-slide">
+    </div>
 
-  <!-- Two Plus One Slide -->
-  <div class="slide" id="two-plus-one-slide">
-      <div class="two-plus_slide" style="background-image: url('{{ page.twoplus_img1 }}');"></div>
-      <div class="two-plus_slide" style="background-image: url('{{ page.twoplus_img2 }}');"></div>
-      <div class="one-plus_slide" style="background-image: url('{{ page.oneplus_img3 }}');"></div>
-  </div>
+    {% when 'two-plus-one-slide' %}
+    <div class="slide" id="two-plus-one-slide">
+        <div class="two-plus_slide" style="background-image: url('{{ page.twoplus_img1 }}');"></div>
+        <div class="two-plus_slide" style="background-image: url('{{ page.twoplus_img2 }}');"></div>
+        <div class="one-plus_slide" style="background-image: url('{{ page.oneplus_img3 }}');"></div>
+    </div>
 
-  <!-- Full Width Slide -->
-  <div class="slide slide1" style="background-image: url('{{ page.full-width_img2 }}');" id="full-width-slide">
-  </div>
+    {% when 'full-width-slide1' %}
+    <div class="slide slide1" style="background-image: url('{{ page.full-width_img1 }}');" id="full-width-slide">
+    </div>
 
-  <!-- Fin Slide -->
+    {% when 'full-width-slide2' %}
+    <div class="slide slide1" style="background-image: url('{{ page.full-width_img2 }}');" id="full-width-slide">
+    </div>
+   {% endcase %}
+
+   <!-- Slide 3 -->
+   {% case page.slide3 %}
+    {% when 'three-fold-slide' %}
+    <div class="slide" id="three-fold-slide">
+      <div class="three-fold_slide" style="background-image:url('{{ page.three-fold-slide_img1 }}');"></div>
+      <div class="three-fold_slide" style="background-image:url('{{ page.three-fold-slide_img2 }}');"></div>
+      <div class="three-fold_slide" style="background-image:url('{{ page.three-fold-slide_img3 }}');"></div>
+    </div>
+
+    {% when 'one-in-one-slide' %}
+    <div class="slide slide-bg" style="background-image: url('{{ page.one-in-one_img-cover }}');" id="one-in-one-slide">
+      <div class="slide-inner" style="background-image: url('{{ page.one-in-one_img-inner }}');">
+      </div>
+    </div>
+
+    {% when 'two-plus-one-slide' %}
+    <div class="slide" id="two-plus-one-slide">
+        <div class="two-plus_slide" style="background-image: url('{{ page.twoplus_img1 }}');"></div>
+        <div class="two-plus_slide" style="background-image: url('{{ page.twoplus_img2 }}');"></div>
+        <div class="one-plus_slide" style="background-image: url('{{ page.oneplus_img3 }}');"></div>
+    </div>
+
+    {% when 'full-width-slide1' %}
+    <div class="slide slide1" style="background-image: url('{{ page.full-width_img1 }}');" id="full-width-slide">
+    </div>
+
+    {% when 'full-width-slide2' %}
+    <div class="slide slide1" style="background-image: url('{{ page.full-width_img2 }}');" id="full-width-slide">
+    </div>
+   {% endcase %}
+
+   <!-- Slide 4 -->
+   {% case page.slide4 %}
+    {% when 'three-fold-slide' %}
+    <div class="slide" id="three-fold-slide">
+      <div class="three-fold_slide" style="background-image:url('{{ page.three-fold-slide_img1 }}');"></div>
+      <div class="three-fold_slide" style="background-image:url('{{ page.three-fold-slide_img2 }}');"></div>
+      <div class="three-fold_slide" style="background-image:url('{{ page.three-fold-slide_img3 }}');"></div>
+    </div>
+
+    {% when 'one-in-one-slide' %}
+    <div class="slide slide-bg" style="background-image: url('{{ page.one-in-one_img-cover }}');" id="one-in-one-slide">
+      <div class="slide-inner" style="background-image: url('{{ page.one-in-one_img-inner }}');">
+      </div>
+    </div>
+    <div class="slide slide1" style="background-image: url('{{ page.full-width_img1 }}');" id="full-width-slide">
+    </div>
+
+    {% when 'two-plus-one-slide' %}
+    <div class="slide" id="two-plus-one-slide">
+        <div class="two-plus_slide" style="background-image: url('{{ page.twoplus_img1 }}');"></div>
+        <div class="two-plus_slide" style="background-image: url('{{ page.twoplus_img2 }}');"></div>
+        <div class="one-plus_slide" style="background-image: url('{{ page.oneplus_img3 }}');"></div>
+    </div>
+
+    {% when 'full-width-slide1' %}
+    <div class="slide slide1" style="background-image: url('{{ page.full-width_img1 }}');" id="full-width-slide">
+    </div>
+
+    {% when 'full-width-slide2' %}
+    <div class="slide slide1" style="background-image: url('{{ page.full-width_img2 }}');" id="full-width-slide">
+    </div>
+   {% endcase %}
+
+   <!-- Slide 5 -->
+   {% case page.slide5 %}
+    {% when 'three-fold-slide' %}
+    <div class="slide" id="three-fold-slide">
+      <div class="three-fold_slide" style="background-image:url('{{ page.three-fold-slide_img1 }}');"></div>
+      <div class="three-fold_slide" style="background-image:url('{{ page.three-fold-slide_img2 }}');"></div>
+      <div class="three-fold_slide" style="background-image:url('{{ page.three-fold-slide_img3 }}');"></div>
+    </div>
+
+    {% when 'one-in-one-slide' %}
+    <div class="slide slide-bg" style="background-image: url('{{ page.one-in-one_img-cover }}');" id="one-in-one-slide">
+      <div class="slide-inner" style="background-image: url('{{ page.one-in-one_img-inner }}');">
+      </div>
+    </div>
+    <div class="slide slide1" style="background-image: url('{{ page.full-width_img1 }}');" id="full-width-slide">
+    </div>
+
+    {% when 'two-plus-one-slide' %}
+    <div class="slide" id="two-plus-one-slide">
+        <div class="two-plus_slide" style="background-image: url('{{ page.twoplus_img1 }}');"></div>
+        <div class="two-plus_slide" style="background-image: url('{{ page.twoplus_img2 }}');"></div>
+        <div class="one-plus_slide" style="background-image: url('{{ page.oneplus_img3 }}');"></div>
+    </div>
+
+    {% when 'full-width-slide1' %}
+    <div class="slide slide1" style="background-image: url('{{ page.full-width_img1 }}');" id="full-width-slide">
+    </div>
+
+    {% when 'full-width-slide2' %}
+    <div class="slide slide1" style="background-image: url('{{ page.full-width_img2 }}');" id="full-width-slide">
+    </div>
+   {% endcase %}
+
+   <!-- Slide 6 -->
+   {% case page.slide6 %}
+    {% when 'three-fold-slide' %}
+    <div class="slide" id="three-fold-slide">
+      <div class="three-fold_slide" style="background-image:url('{{ page.three-fold-slide_img1 }}');"></div>
+      <div class="three-fold_slide" style="background-image:url('{{ page.three-fold-slide_img2 }}');"></div>
+      <div class="three-fold_slide" style="background-image:url('{{ page.three-fold-slide_img3 }}');"></div>
+    </div>
+
+    {% when 'one-in-one-slide' %}
+    <div class="slide slide-bg" style="background-image: url('{{ page.one-in-one_img-cover }}');" id="one-in-one-slide">
+      <div class="slide-inner" style="background-image: url('{{ page.one-in-one_img-inner }}');">
+      </div>
+    </div>
+    <div class="slide slide1" style="background-image: url('{{ page.full-width_img1 }}');" id="full-width-slide">
+    </div>
+
+    {% when 'two-plus-one-slide' %}
+    <div class="slide" id="two-plus-one-slide">
+        <div class="two-plus_slide" style="background-image: url('{{ page.twoplus_img1 }}');"></div>
+        <div class="two-plus_slide" style="background-image: url('{{ page.twoplus_img2 }}');"></div>
+        <div class="one-plus_slide" style="background-image: url('{{ page.oneplus_img3 }}');"></div>
+    </div>
+
+    {% when 'full-width-slide1' %}
+    <div class="slide slide1" style="background-image: url('{{ page.full-width_img1 }}');" id="full-width-slide">
+    </div>
+
+    {% when 'full-width-slide2' %}
+    <div class="slide slide1" style="background-image: url('{{ page.full-width_img2 }}');" id="full-width-slide">
+    </div>
+   {% endcase %}
+
+  <!-- Slide 7 -->
+  {% if page.slide7 == "fin-slide" %}
   <div class="slide" id="fin-slide">
     <div class="slide-intro" style="background-image:url('{{ page.fin-slide_img }}');"></div>
     <div class="slide-intro_text">
@@ -49,88 +186,88 @@
       </div>
     </div>
   </div>
+  {% endif %}
 
-  <!-- Credits Slide -->
-  <div class="slide">
+  <!-- Slide 8 -->
+  {% if page.slide8 == "credits-slide" %}
+  <div class="slide" id="credits-slide">
     <div class="slide_credits-wrapper">
-      <div class="slide_title catalog_title-credit video">credits</div>
+      <div class="slide_title catalog_title-credit slide">credits</div>
       <ul class="slide-credits_list">
         <li class="catalog_credits-group slide">
-          producer
+          {{ page.credit1 }}
           <ul class="catalog_credits-artist video">
-            <li>montier kess</li>
+            <li>{{ page.credit1-name1 }}</li>
           </ul>
         </li>
         <li class="catalog_credits-group slide">
-          producer
+          {{ page.credit2 }}
           <ul class="catalog_credits-artist video">
-            <li>montier kess</li>
+            <li>{{ page.credit2-name1 }}</li>
           </ul>
         </li>
         <li class="catalog_credits-group slide">
-          producer
+          {{ page.credit3 }}
           <ul class="catalog_credits-artist video">
-            <li>montier kess</li>
+            <li>{{ page.credit3-name1 }}</li>
           </ul>
         </li>
         <li class="catalog_credits-group slide">
-          producer
+          {{ page.credit4 }}
           <ul class="catalog_credits-artist video">
-            <li>montier kess</li>
+            <li>{{ page.credit4-name1 }}</li>
           </ul>
         </li>
         <li class="catalog_credits-group slide">
-          producer
+          {{ page.credit5 }}
           <ul class="catalog_credits-artist video">
-            <li>montier kess</li>
+            <li>{{ page.credit5-name1 }}</li>
           </ul>
         </li>
         <li class="catalog_credits-group slide">
-          producer
+          {{ page.credit6 }}
           <ul class="catalog_credits-artist video">
-            <li>montier kess</li>
+            <li>{{ page.credit6-name1 }}</li>
           </ul>
         </li>
         <li class="catalog_credits-group slide">
-          producer
+          {{ page.credit7 }}
           <ul class="catalog_credits-artist video">
-            <li>montier kess</li>
+            <li>{{ page.credit7-name1 }}</li>
             
           </ul>
         </li>
         <li class="catalog_credits-group slide">
-          producer
+          {{ page.credit8 }}
           <ul class="catalog_credits-artist video">
-            <li>montier kess</li>
+            <li>{{ page.credit8-name1 }}</li>
           </ul>
         </li>
         <li class="catalog_credits-group slide">
-          producer
+          {{ page.credit9 }}
           <ul class="catalog_credits-artist video">
-            <li>montier kess</li>
+            <li>{{ page.credit9-name1 }}</li>
           </ul>
         </li>
         <li class="catalog_credits-group slide">
-          producer
+          {{ page.credit10 }}
           <ul class="catalog_credits-artist video">
-            <li>montier kess</li>
+            <li>{{ page.credit10-name1 }}</li>
           </ul>
         </li>
         <li class="catalog_credits-group slide">
-          producer
+          {{ page.credit11 }}
           <ul class="catalog_credits-artist video">
-            <li>montier kess</li>
+            <li>{{ page.credit11-name1 }}</li>
           </ul>
         </li>
         <li class="catalog_credits-group slide">
-          producer
+          {{ page.credit1 }}
           <ul class="catalog_credits-artist video">
-            <li>montier kess</li>
-            <li>montier kess</li>
-            <li>montier kess</li>
-            <li>montier kess</li>
+            <li>{{ page.credit12-name1 }}</li>
           </ul>
         </li>
       </ul>
     </div>
   </div>
+  {% endif %}

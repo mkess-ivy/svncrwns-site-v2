@@ -80,7 +80,7 @@
 .slide-intro_title {
 	font-size: 85px;
 	line-height: 80px;
-	word-break: break-all;
+	/*word-break: break-all;*/
 	font-family: 'League Spartan', sans-serif;
 	text-transform: uppercase;
 	left: -200px;
@@ -156,6 +156,7 @@
 }
 .slide-intro_copy.slide-fin_text {
 	padding: 20px !important;
+	line-height: 0;
 }
 
 /* Credits Slide */
@@ -172,6 +173,11 @@
 }
 .catalog_credits-group.slide {
 	float: left;
-	width: 145px;
-	padding-bottom: 20px;
+	width: 160px;
+	padding-bottom: 25px;
+	font-size: 14px;
+}
+.catalog_title-credit.slide {
+	text-align: left;
+	font-size: 40px;
 }
