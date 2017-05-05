@@ -1,58 +1,69 @@
 ---
-layout: catalog-comingsoon
-title:  "KennHall x SVNCRWNS"
-date:   'Aug 23 2016'
+layout: catalog-slide
+title:  "Kenn Hall"
+date:   'Feb 27 2017'
 year:	'2017'
 subtitle: "some random subtext that explains this two word title"
-featured: "no"
-
-photo1-group: "yes"
+featured: "yes"
+featured-rank: "1"
 img-path: /assets/images/drink.jpg
-caption1-title: "01. Something Bold"
-caption1-text: "Type something of interest here, just some filler shxt, no one cares what this says anyway.  Just keep on typing, get it?!"
 
-photo2-group: "yes"
-img-path2: /assets/images/shoes.jpg
-caption2-title: "02. Something Bold"
-caption2-text: "Type something of interest here, just some filler shxt, no one cares what this says anyway.  Just keep on typing, get it?!"
+slide1: "intro-slide"
+intro-slide_img: /assets/images/project_kennhall/kh-1.jpg
+intro-slide_title: introduction here
+intro-slide_copy: "On a warm and cloudy evening, before the rain poured out of the clouds, the sky was a bright, beautiful orange with shadows of green - a rainbow before the storm. Featuring Chavon and her kimono."
 
-photo3-group: "yes"
-photo3: https://dl.dropboxusercontent.com/u/12644668/blue.png
-caption3-title: "03. v i b e s"
-caption3-text: "Type something of interest here, just some filler shxt, no one cares what this says anyway.  Just keep on typing, get it?!"
+slide2: "full-width-slide1"
+full-width_img1: /assets/images/project_kennhall/kh-2.jpg
 
-photo4-group: "no"
+slide3: "one-in-one-slide"
+one-in-one_img-cover: /assets/images/project_kennhall/kh-3.jpg
+one-in-one_img-inner: /assets/images/project_kennhall/kh-4.jpg
 
-photo5-group: "no"
+slide4: "full-width-slide2"
+full-width_img2: /assets/images/project_kennhall/kh-5.jpg
 
-position1: "producer + director"
-artist1: "svncrwns"
+slide5: "two-plus-one-slide"
+twoplus_img1: /assets/images/project_kennhall/kh-6.jpg
+twoplus_img2: /assets/images/project_kennhall/kh-7.jpg
+oneplus_img3: /assets/images/project_kennhall/kh-6.jpg
 
-position2: "cinematography"
-artist2: "6 points"
+slide6: "full-width-slide3"
+full-width_img3: /assets/images/project_kennhall/kh-8.jpg
 
-position3: "talent"
-artist3: "neptune"
+slide7: "fin-slide"
+fin-slide_img: /assets/images/project_chasingtheorangesky/ctos-9.jpg
 
-video-group: "yes"
-video-name: "nobody's living"
-video-excerpt: "a short film about learning to see with your own eyes, sounds trivial but be amazed at what you can see for yourself"
+slide8: "credits-slide"
 
-testimonial-group: "yes"
-testimonial-category: "work"
-testimonial-text: "… this was by far one of the best experiences of the entire school year."
-testimonial-author: "some kid, sankofa pop up 2016"
+credit1: direction
+credit1-name1: chavon henderson
+
+credit2: model
+credit2-name1: chavon henderson
+
+credit3: photography
+credit3-name1: montier kess
+
 ---
 
-
-Through agentic action, people devise ways of adapting flexibly to remarkably diverse geographic, climatic and social environments; 
-
-
-they figure out ways to circumvent physical and environmental constraints, redesign and construct environments to their liking… By these inventive means, people improve their odds in the fitness survival game.  
-
-Through agentic action, people devise ways of adapting flexibly to remarkably diverse geographic, climatic and social environments; they figure out ways to circumvent physical and environmental constraints, redesign and construct environments to their liking… By these inventive means, people improve their odds in the fitness survival game.  
-
-
-
-
-
+<ul class="slide-credits_list">
+	<li class="catalog_credits-group slide">
+	  creative direction
+	  <ul class="catalog_credits-artist video">
+	    <li>chavon henderson</li>
+	  </ul>
+	</li>
+	<li class="catalog_credits-group slide">
+	  model
+	  <ul class="catalog_credits-artist video">
+	    <li>chavon henderson</li>
+	  </ul>
+	</li>
+	<li class="catalog_credits-group slide">
+	  photography
+	  <ul class="catalog_credits-artist video">
+	    <li>montier kess</li>
+	  </ul>
+	</li>	
+</ul>

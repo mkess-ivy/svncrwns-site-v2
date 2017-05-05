@@ -4,7 +4,8 @@ title:  "Kendrick Brown x SVNCRWNS"
 date:   'Aug 23 2016'
 year:	'2014'
 subtitle: "some random subtext that explains this two word title"
-featured: "no"
+featured: "yes"
+featured-rank: "4"
 
 photo1-group: "yes"
 img-path: /assets/images/drink.jpg

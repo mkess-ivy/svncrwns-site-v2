@@ -8,7 +8,7 @@ permalink: /catalog/
 	<video autoplay loop muted class="banner__video" poster="/assets/images/poster.jpg">
 		<source src="/assets/video/catalog-video.mp4" type="video/mp4">
 	</video>
-	<div class="crwns-wrapper catalog-wrapper clear">
+	<div class="crwns-wrapper catalog-wrapper video-wrapper clear">
 		<div class="spacer3x"></div>
 		<div class="row martop-catalog clear">
 

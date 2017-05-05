@@ -4,8 +4,7 @@ title:  "gullah vortex"
 date:   'Jul 01 2016'
 year:	'2016'
 medium: art
-featured: "yes"
-featured-rank: "3"
+featured: "no"
 subtitle: "some random subtext that explains this two word title"
 img-path: /assets/images/drink.jpg
 ---

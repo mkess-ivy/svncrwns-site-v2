@@ -1,10 +1,11 @@
 ---
 layout: catalog-slide
-title:  "TEST"
+title:  "Youth in a Secret Garden"
 date:   'Aug 23 2016'
-year:	'2016'
+year:	'2015'
 subtitle: "some random subtext that explains this two word title"
-featured: "no"
+featured: "yes"
+featured-rank: "7"
 img-path: /assets/images/drink.jpg
 
 slide1: "intro-slide"
@@ -34,43 +35,4 @@ full-width_img2: /assets/images/test-hendrix.jpg
 
 slide7: "fin-slide"
 fin-slide_img: /assets/images/test-hendrix.jpg
-
-slide8: "credits-slide"
-credit1: producer
-credit1-name1: montier kess
-
-credit2: producer
-credit2-name1: montier kess
-
-credit3: producer
-credit3-name1: montier kess
-
-credit4: producer
-credit4-name1: montier kess
-
-credit5: producer
-credit5-name1: montier kess
-
-credit6: producer
-credit6-name1: montier kess
-
-credit7: producer
-credit7-name1: montier kess
-
-credit8: producer
-credit8-name1: montier kess
-
-credit9: producer
-credit9-name1: montier kess
-
-credit10: producer
-credit10-name1: montier kess
-
-credit11: producer
-credit11-name1: montier kess
-
-credit12: producer
-credit12-name1: montier kess
 ---
-
- 

@@ -218,7 +218,7 @@ CATALOG
 .banner {
   position: relative;
   overflow: hidden;
-  background: rgba(0,0,0,0.6) url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAG0lEQVQYV2NkYGD4z8DAwMgABXAGNgGwSgwVAFbmAgXQdISfAAAAAElFTkSuQmCC');
+  /*background: rgba(0,0,0,0.6) url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAG0lEQVQYV2NkYGD4z8DAwMgABXAGNgGwSgwVAFbmAgXQdISfAAAAAElFTkSuQmCC');*/
 }
 .banner__video {
   position: absolute;
@@ -230,6 +230,10 @@ CATALOG
   min-height: 100%;
   transform: translateX(-50%) translateY(-50%);
   z-index: -1;
+}
+.video-wrapper {
+  width: 75%;
+  max-width: 775px;
 }
 .catalog-link a { 
   font-size: 1.2em; 

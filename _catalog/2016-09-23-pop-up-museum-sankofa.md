@@ -9,31 +9,31 @@ year:	'2016'
 img-path: /assets/images/featured-popupmuseum.png
 
 photogroup1: "yes"
-photo1: /assets/images/popupmuseum-1.jpg
+photo1: /assets/images/project_popupmuseum/popupmuseum-1.jpg
 caption1-title: "01. ART WALL WALLS!"
 caption1-text: "The kids wrote affirmations and things they wanted to tell themselves and each other on the collaborative art wall."
-photo2: /assets/images/popupmuseum-2.gif
+photo2: /assets/images/project_popupmuseum/popupmuseum-2.gif
 caption2-title: "02. dreamers"
 caption2-text: "Type something of interest here, just some filler shxt, no one cares what this says anyway.  Just keep on typing, get it?!"
 
 photogroup2: "yes"
-photo3: /assets/images/popupmuseum-3.jpg
+photo3: /assets/images/project_popupmuseum/popupmuseum-3.jpg
 caption3-title: "03. fly high!"
 caption3-text: "Our message to the youth is to keep your heads in the clouds.  We need ambitious thinkers. We need fearless dreamers."
-photo4: /assets/images/popupmuseum-4.jpg
+photo4: /assets/images/project_popupmuseum/popupmuseum-4.jpg
 caption4-title: "04. go"
 caption4-text: "Dream hard, dream long. Let's learn and build the lives we want, leave the legacy we want, create the history we want. Never stop dreaming."
 
 photogroup3: "yes"
-photo5: /assets/images/popupmuseum-5.gif
+photo5: /assets/images/project_popupmuseum/popupmuseum-5.gif
 caption5-title: "05. Blue Skys"
-photo6: /assets/images/popupmuseum-6.jpg
+photo6: /assets/images/project_popupmuseum/popupmuseum-6.jpg
 caption6-title: "06. Something Old, Something New"
 caption6-text: "The kids enjoyed dressing up with the African clothing. They had pants suits, dresses, scarves, hats and other trinkets to adorn themselves with.  And what's a dress up moment, without checking yourself out in the mirror."
 
 photogroup4: "no"
 visual-group: "yes"
-photo7: /assets/images/popupmuseum-7.jpg
+photo7: /assets/images/project_popupmuseum/popupmuseum-7.jpg
 caption7-title: "07. pop-up museum visual"
 caption7-text: "A recap of the setup and execution of SANKOFA. 6 min 28 sec."
 

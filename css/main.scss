@@ -72,9 +72,76 @@ $on-tv:     1400px; /* wrapper, featured, home */
 
 
 
+// Mixins for Fonts
+
+@mixin font_huge {
+    font-size: 55px;
+}
+@mixin font_extra_big_brand {
+    @extend font_extra_big;
+    color: $color-brand5;
+    text-transform: initial;
+}
+@mixin font_extra_big {
+    font-size: 44px;
+}
+@mixin font_text_area {
+    font-size: 38px;
+}
+@mixin font_lz_brand {
+    @extend font_lz;
+    color: $color-brand5;
+}
+@mixin font_lz {
+    font-size: 35px;
+}
+@mixin font_lowercase_offbeat {
+    font-size: 40px;
+    color: $color-brand5;
+    text-transform: initial;
+    line-height: 52px;
+}
+@mixin font_lg_lowercase {
+    text-transform: initial;
+    font-size: 26px;
+}
+@mixin font_size_lg {
+    font-size: 26px;
+}
+@mixin font_size_med_brand {
+    @extend font_size_med;
+    color: $color-brand5;
+}
+@mixin font_size_med {
+    font-size: 18px;
+}
+@mixin font_standard {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: $font-brand1;
+}
+@mixin font_size_small {
+    font-size: 14px;
+}
+@mixin font_size_micro {
+    font-size: 12px;
+}
+@mixin font_size_micro_extra {
+    font-size: 11px;
+    font-weight: bold;
+    font-family: $font-brand2;
+}
+@mixin font_size_tiny {
+    font-family: $font-brand2;
+    font-size: 9px;
+    text-transform: initial;
+}
 
 
 
+
+
+// Media Query Mixins
 
 @mixin palm {
     @media screen and (min-width: #{$on-palm}) {
@@ -127,9 +194,8 @@ $on-tv:     1400px; /* wrapper, featured, home */
 }
 
 
+// Mixins - One Off Elements
 
-
-// Mixins 
 @mixin hero-text {
     text-align: right;
     width: 80%;
@@ -140,16 +206,15 @@ $on-tv:     1400px; /* wrapper, featured, home */
     font-weight: 900;
     text-decoration: underline;
 }
-
 @mixin brandcolortext {
     color: $brand-color;
 }
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "base",
-        "home",
-        "layout",
-        "footer",
-        "slide_components"
+    "base",
+    "svncrwns_theme",
+    "layout",
+    "footer",
+    "slide_components"
 ;

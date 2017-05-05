@@ -27,8 +27,7 @@ Section 05
 
 /* PreLoader */
 
-/* This only works with JavaScript, 
-if it's not present, don't show loader */
+// This only works with JavaScript, if it's not present, don't show loader
 .no-js #loader { display: none;  }
 .js #loader { 
   display: block; 
@@ -472,7 +471,6 @@ body.noScroll {
     width: 40%;
     float: right;
     display: inline-block;
-    /*margin-right: 1.5em;*/
   }
   @include laptop { 
     width: 35%; 

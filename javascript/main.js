@@ -1,4 +1,5 @@
 $(document).ready(function(){
+  
   // Smooth Scroll
   $('a[href^="#"]').on('click',function (e) {
       e.preventDefault();
@@ -12,8 +13,6 @@ $(document).ready(function(){
           window.location.hash = target;
       });
   });
-
-  
 
   // Overlay Menu
   $("#overlay-menu").click(function() {
