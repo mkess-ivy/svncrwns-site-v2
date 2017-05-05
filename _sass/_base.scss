@@ -18,12 +18,12 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-    font-family: $fontfamily-v1;
+    font-family: $font-brand1;
     font-size: $base-font-size;
     line-height: $base-line-height;
     font-weight: 300;
     color: $text-color;
-    background-color: $brand-color3;
+    /*background-color: $brand-color3;*/
     -webkit-text-size-adjust: 100%;
 }
 

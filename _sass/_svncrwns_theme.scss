@@ -54,30 +54,25 @@ body.noScroll {
 #menu-container { 
   position: relative; 
   height: 60px; 
-  /*width: 80px; */
   display: block; 
   text-align: center; 
   margin: 0 auto;
   @include tablet { 
-    float: left; 
+    float: right; 
     text-align: none;
     margin: none;
   }
 }
 .menuButton { 
   text-indent: 0; 
-  color: #fff; 
-  font-size: 6em; 
+  color: #fff;  
   position: relative; 
-  background: url("/assets/images/crown-logo-v2.svg") no-repeat center center; 
-  background-size: contain; 
-  width: 75%; 
-  height: 75%; 
+  background-color: transparent;
   border: none; 
 }
 .menuButton:hover { 
-  background: url("/assets/images/crown-logo-black.svg") no-repeat center center; 
-  background-size: contain; 
+  /*background: url("/assets/images/crown-logo-black.svg") no-repeat center center; */
+  /*background-size: contain; */
   -o-transition:.75s;
   -ms-transition:.75s; 
   -moz-transition:.75s; 
@@ -93,10 +88,7 @@ body.noScroll {
 }
 .menu-txt {
   color: #000;
-  display: block;
-  font-size: 12px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
+  font-size: 35px;
 }
 #overlay-menu { 
   margin: 10px; 
@@ -181,14 +173,16 @@ body.noScroll {
 }
 .header-row { 
   width: 100%; 
-  height: auto; 
+  height: 100vh; 
   display: inline-block; 
   float: left; 
   position: relative; 
+  background-image: url('/assets/images/hero_home.png');
+  background-size: cover;
 }
 .logo { 
   display: none; 
-  float: right; 
+  float: left; 
   padding: .5em;
   z-index: 999;
   
@@ -225,7 +219,7 @@ body.noScroll {
     padding: 0;
   }
   @include laptop { 
-    width: 800px; 
+    width: 885px; /* width was 800px */
   }
 }
 .hero-wrapper { 
@@ -247,11 +241,11 @@ body.noScroll {
     width: 1300px; 
   }
 }
-.hero-section { 
+/*.hero-section { 
   z-index: 3; 
   position: relative; 
-}
-.hero-images {
+}*/
+/*.hero-images {
   position: relative;
   @include tablet {
   display: -webkit-box;
@@ -264,14 +258,14 @@ body.noScroll {
     -ms-flex-pack: center;
       justify-content: center;
   }
-}
-.hero-prop { 
+}*/
+/*.hero-prop { 
   margin: 0.5em 2em 7em 2em;
   @include tablet {
     margin: 1em 3.5em 7em 3.5em;
   }
-}
-.hero-icon { 
+}*/
+/*.hero-icon { 
   position: absolute; 
   width: 100px; 
   height: 77px; 
@@ -280,13 +274,13 @@ body.noScroll {
   left: 0;
   top: 0;
   bottom: 0;
-}
-.hero-right-image { 
+}*/
+/*.hero-right-image { 
   background-image: url('/assets/images/drive.jpg'); 
 }
 .hero-left-image { 
   background-image: url('/assets/images/person.jpg'); 
-}
+}*/
 .hero-bg { 
   background-size: cover; 
   background-position: bottom right; 
@@ -305,14 +299,14 @@ body.noScroll {
     height: 100vh; 
   }
 }
-.huge-hero-logo { 
+/*.huge-hero-logo { 
   position: absolute; 
   z-index: 2; 
   bottom: -6em; 
   right: 10px;
   padding: .5em; 
   text-align: right;
-}
+}*/
 .hero-logo_img { 
   width: 70%; 
 }
@@ -467,7 +461,7 @@ body.noScroll {
   }
   @include tablet { 
     clear: both; 
-    padding: 7em 0 1em;
+    padding: 3em 0 1em;
     width: 40%;
     float: right;
     display: inline-block;
@@ -501,6 +495,26 @@ body.noScroll {
 }
 
 /* Section 1 */
+.content_container {
+  width: 90%;
+  margin: 0 auto;
+}
+.content_50 {
+  width: 50%;
+  float: left;
+  min-height: 500px;
+  @include flex;
+}
+.pull_right {
+  float: right;
+}
+.content_text {
+  @include font_lowercase_offbeat;
+  @include align_right;
+  width: 40%;
+}
+
+
 .svn-special_one { 
   @include tablet { 
     width: 60%; 

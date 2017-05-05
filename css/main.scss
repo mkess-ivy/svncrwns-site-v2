@@ -8,6 +8,7 @@
 // Our font families variables
 $brand-font: "League Spartan", "Maison Neue", Arial Black, sans-serif;
 $fontfamily-v1: Helvetica, Arial, sans-serif;
+// Not using these top two variables anymore
 
 
 $font-brand1: 'League Spartan', 'Maison Neue', Arial Black, sans-serif;
@@ -72,6 +73,7 @@ $on-tv:     1400px; /* wrapper, featured, home */
 
 
 
+
 // Mixins for Fonts
 
 @mixin font_huge {
@@ -96,10 +98,11 @@ $on-tv:     1400px; /* wrapper, featured, home */
     font-size: 35px;
 }
 @mixin font_lowercase_offbeat {
-    font-size: 40px;
+    font-size: 28px;
     color: $color-brand5;
     text-transform: initial;
-    line-height: 52px;
+    line-height: 40px;
+    text-decoration: underline;
 }
 @mixin font_lg_lowercase {
     text-transform: initial;
@@ -136,8 +139,17 @@ $on-tv:     1400px; /* wrapper, featured, home */
     font-size: 9px;
     text-transform: initial;
 }
+@mixin align_right {
+    text-align: right;
+}
 
-
+// Misc Mixins
+@mixin flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 
 
 
