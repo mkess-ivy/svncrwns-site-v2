@@ -68,7 +68,11 @@ body.noScroll {
   color: #fff;  
   position: relative; 
   background-color: transparent;
-  border: none; 
+  border: none;
+  @include palm-mid {
+    width: 32px;
+    float: right;
+  }
 }
 .menuButton:hover { 
   /*background: url("/assets/images/crown-logo-black.svg") no-repeat center center; */
@@ -89,6 +93,10 @@ body.noScroll {
 .menu-txt {
   color: #000;
   font-size: 35px;
+  cursor: pointer;
+}
+.menu-txt:hover {
+  color: $color-brand5;
 }
 #overlay-menu { 
   margin: 10px; 
@@ -177,15 +185,23 @@ body.noScroll {
   display: inline-block; 
   float: left; 
   position: relative; 
-  background-image: url('/assets/images/hero_home.png');
+  /*background-image: url('/assets/images/hero_home.png');*/
   background-size: cover;
+  background-position: top left;
+  background-repeat: no-repeat;
+  @include tablet {
+    background-position: center center;
+  }
 }
 .logo { 
-  display: none; 
-  float: left; 
+  width: 100%;
+  text-align: center;
   padding: .5em;
   z-index: 999;
-  
+  @include palm-mid {
+    float: left;
+    width: auto;
+  }
   @include tablet { 
     display: block; 
   }
@@ -195,7 +211,7 @@ body.noScroll {
 }
 .site-header {
   @include desktop-blah {
-    max-width: 1350px;
+    /*max-width: 1350px;*/
     margin: 0 auto;
   }
 }
@@ -223,9 +239,10 @@ body.noScroll {
   }
 }
 .hero-wrapper { 
-  margin: 0.5em 5em;
+  /*margin: 0.5em 5em;*/
   @include tablet { 
-    margin: 0em 1em; 
+    margin: 0em 1em;
+    width: auto;
   }
 }
 
@@ -322,6 +339,7 @@ body.noScroll {
   z-index: 200;
   border-radius: 34px;
   margin-right: 0.3em;
+  cursor: pointer;
  }
  .backtop-icon:hover {
   background: black;
@@ -419,7 +437,8 @@ body.noScroll {
   position: absolute; 
   z-index: 5; 
   padding: 1em; 
-  right: 0; 
+  top: 0;
+  right: 7px;
 }
 .svn-content_img-no.left {
   text-align: left; 
@@ -452,12 +471,19 @@ body.noScroll {
     font-size: 2.3em; 
   }
 }
+.contain_caption_wrapper {
+  position: relative;
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
 .svn-content_contain-caption { 
-  position: relative; 
-  width: 90%; 
-  padding: 1.5em;
+  
+  /*width: 90%; */
+  /*padding: 1.5em;*/
+  
   @include palm-mid { 
-    width: 75%; 
+    width: 75%;
+    float: right;
   }
   @include tablet { 
     clear: both; 
@@ -467,14 +493,16 @@ body.noScroll {
     display: inline-block;
   }
   @include laptop { 
-    width: 35%; 
+    width: 25%; 
   }
 }
 .close-caption {
   padding-top: 2em;
 }
 .svn-content_caption-sm { 
-  font-size: 9px; 
+  font-family: $font-brand2;
+  font-size: 9px;
+  text-align: right;
   @include tablet {  
     display: block;
   }
@@ -483,37 +511,86 @@ body.noScroll {
   font-size: 12px; 
   text-transform: uppercase; 
   font-weight: bold; 
+  font-family: $font-brand2;
+  text-align: right;
   @include tablet { 
     font-size: 9px;
   }
 }
 .svn-caption_spacer { 
-  height: 1em; 
+  height: 20px; 
   @include tablet { 
     clear: both; 
   }
 }
 
+/* Fonts */
+.footer_signup_big {
+  @include font_size_lg;
+  color: $color-brand5;
+  text-align: right;
+  text-transform: uppercase;
+}
+.footer_signup_small {
+  text-transform: uppercase;
+  text-align: right;
+  color: $color-brand5;
+  @include font_size_micro;
+}
 /* Section 1 */
 .content_container {
   width: 90%;
   margin: 0 auto;
 }
 .content_50 {
-  width: 50%;
-  float: left;
-  min-height: 500px;
-  @include flex;
+  width: 100%;
+  position: relative;
+  @include tablet {
+    width: 55%;
+    float: left;
+    min-height: 350px;
+    @include flex;
+  }
+  @include laptop {
+    min-height: 465px;
+  }
+}
+.mobile_align_right {
+  text-align: right;
 }
 .pull_right {
-  float: right;
+  @include tablet {
+    float: right !important;  
+  }
+}
+.pull_left {
+  @include tablet {
+    float: left;
+  }
+}
+.pull_up {
+  margin: -80px auto 0;
+  width: 85%;
+}
+.align_bottom {
+  vertical-align: bottom;
 }
 .content_text {
   @include font_lowercase_offbeat;
-  @include align_right;
-  width: 40%;
+  margin-top: 30px;
+  @include tablet {
+    width: 40%;
+    font-size: 22px;
+    line-height: 27px;
+  }
+  @include laptop {
+    font-size: 28px;
+    line-height: 40px;
+  }
 }
-
+.content_half_vertical {
+  position: relative;
+}
 
 .svn-special_one { 
   @include tablet { 
@@ -650,11 +727,10 @@ body.noScroll {
   overflow:hidden;
 }
 .yellow-box {
-  width: 90%;
   height: 400px;
   position: relative;
   /*background: yellow;*/
-  background-image: url('/assets/images/whitebark.jpg');
+  /*background-image: url('/assets/images/hero_home3.png');*/
   background-size: cover;
   background-position: center center;
   margin: 0 auto;
@@ -670,6 +746,9 @@ body.noScroll {
       justify-content: center;
   @include palm-mid {
     height: 550px;
+  }
+  @include tablet {
+    width: 90%;
   }
 }
 .html5videohere {
@@ -720,7 +799,7 @@ body.noScroll {
   transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
   @include palm-mid {
-    width: 110%;
+    width: 135%; /* was 110% */
   }
   @include desktop-blah {
     width: 150%;

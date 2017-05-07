@@ -90,10 +90,6 @@ $on-tv:     1400px; /* wrapper, featured, home */
 @mixin font_text_area {
     font-size: 38px;
 }
-@mixin font_lz_brand {
-    @extend font_lz;
-    color: $color-brand5;
-}
 @mixin font_lz {
     font-size: 35px;
 }
@@ -103,6 +99,7 @@ $on-tv:     1400px; /* wrapper, featured, home */
     text-transform: initial;
     line-height: 40px;
     text-decoration: underline;
+    text-align: right;
 }
 @mixin font_lg_lowercase {
     text-transform: initial;

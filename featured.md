@@ -14,7 +14,7 @@ permalink: /featured/
 		<div class="title">featured work</div>
 		<div class="spacer3x"></div>
 	</div>
-	<div class="backtop-icon" id="js-backtop"><a href="#home"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a></div>
+	{% include backtop_icon.html %}
 
 
 

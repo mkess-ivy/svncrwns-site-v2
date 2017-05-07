@@ -1,12 +1,23 @@
 ---
 layout: default
+
+home_hero_img     : "background-image: url('/assets/images/hero_home.png"
+section1_img      : "/assets/images/philly1.png"
+section1_text     : "In a world of hyper-visibility where the invisible is also celebrated"
+
+video_url         : "https://player.vimeo.com/video/104641191?api=1"
+video_hero_img    : "/assets/images/hero_home3.png"
+
+section3_img1     : "/assets/images/white.jpg"
+section3_img2     : "/assets/images/hands.jpeg"
+section3_text     : "In a world of hyper-visibility where the invisible is also celebrated"
 ---
 
   <div class="clear"></div>
 
   <!-- Section Hero -->
   <section class="fullpage">
-    <div class="backtop-icon" id="js-backtop"><a href="#home"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a></div>
+    {% include backtop_icon.html %}
   </section>
 
   <!-- Section 01 -->
@@ -16,54 +27,22 @@ layout: default
         <div class="svn-content_no">
           01
         </div>
-        <div class="svn-content_contain-img svn-special_one">
-          <div class="svn-content_img-no svn-content_img-no-txt">01</div>
-          <img src="/assets/images/shoes.jpg" />
-        </div>
-        <div class="svn-content_contain-txt svn-content_headline svn-special_one-text">
-          In a world of hyper-visibility where the invisible is also celebrated
-        </div>
-        <div class="svn-content_contain-caption">
-          <div class="svn-content_caption-title">
-            01. Something Bold
-          </div>
-          <div class="svn-content_caption-sm">
-            Type something of interest here, just some filler shxt, no one cares what this says anyway.  Just keep on typing, get it?!  Type something of interest here, just some filler shxt, no one cares what this says anyway.  Just keep on typing, get&nbsp;it?!
-          </div>  
-        </div>
-      </div>
-    </div> <!-- .svn-wrapper -->
-  </section><!-- .section-bg -->
-
-  <!-- Testing this section out -->
-  <section class="section-bg section01-bg-image clear">
-    <div class="svn-wrapper">
-      <div class="svn-content foo">
-        <div class="svn-content_no">
-          01
-        </div>
         <div class="content_container">
           <div class="content_50 pull_right">
-            <!-- <div class="svn-content_img-no svn-content_img-no-txt">01</div> -->
-            <img src="/assets/images/philly1.png" />
+            <div class="svn-content_img-no svn-content_img-no-txt">01</div>
+            <img src="{{ page.section1_img }}" />
           </div>
           <div class="content_50 content_text">
-            In a world of hyper-visibility where the invisible is also celebrated
+            {{ page.section1_text }}
           </div>
-          <div class="svn-content_contain-caption">
-            <div class="svn-content_caption-title">
-              01. Something Bold
-            </div>
-            <div class="svn-content_caption-sm">
-              Type something of interest here, just some filler shxt, no one cares what this says anyway.  Just keep on typing, get it?!  Type something of interest here, just some filler shxt, no one cares what this says anyway.  Just keep on typing, get&nbsp;it?!
-            </div>  
-          </div>
+
+          {% include caption.html caption_title="01. Something Bold" caption_text="Type something of interest here, just some filler shxt, no one cares what this says anyway.  Just keep on typing, get it?!" %}
+
         </div>
         
       </div>
     </div> <!-- .svn-wrapper -->
   </section><!-- .section-bg -->
-  <!-- # Testing this section out -->
 
   <!-- Section 00 ARTIST'S NOTE -->
   <!-- Not including an artist note right now, removed code into a partial -->
@@ -72,34 +51,26 @@ layout: default
   <section class="section-bg clear">
     <div class="svn-wrapper clear">
       <div class="svn-content foo">
-        <div class="svn-content_no right">
-          02
-        </div>
-        <div class="html5videohere yellow-box">
-          <div class="svn-video-overlay">
-            <div class="video-container">
+        <div class="svn-content_no right">02</div>
+        <div class="content_container">
+          <div class="html5videohere yellow-box" style="background-image: url('{{ page.video_hero_img }}');">
+            <div class="svn-video-overlay">
+              <div class="video-container">
 
-              <!-- SVG Close (X) Icon -->
-              <i class="fa fa-times html5-close" aria-hidden="true"></i>
+                <!-- SVG Close (X) Icon -->
+                <i class="fa fa-times html5-close" aria-hidden="true"></i>
 
-              <!-- Embedded video -->
-              <iframe id="video" src="https://player.vimeo.com/video/104641191?api=1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                <!-- Embedded video -->
+                <iframe id="video" src="{{ page.video_url }}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
+              </div>
+            </div>
+            <div class="svn-play-btn">
+              <span class="play" id="video-fullscreen"></span>
             </div>
           </div>
-          <div class="svn-play-btn">
-            <span class="play" id="video-fullscreen"></span>
-          </div>
-        </div>
-        
-        <div class="svn-content_contain-caption close-caption">
-          <div class="svn-content_caption-title">
-            02. Something Bold
-          </div>
-          <div class="svn-content_caption-sm">
-            Type something of interest here, just some filler shxt, no one cares what this says anyway.  Just keep on typing, get it?!
-          </div>
-          <div class="svn-caption_spacer"></div>
+          
+          {% include caption.html caption_title="02. Something Bold" caption_text="Type something of interest here, just some filler shxt, no one cares what this says anyway.  Just keep on typing, get it?!" %}
         </div>
       </div>
     </div><!-- .svn-wrapper -->
@@ -109,30 +80,31 @@ layout: default
   <!-- Not including the featured work section -->
 
   <!-- Section 03 -->
-  <section class="section-bg section03-bg-img clear">
+  <section class="section-bg section01-bg-image clear">
     <div class="svn-wrapper">
       <div class="svn-content foo">
-        <div class="svn-content_no">
-          03
-        </div>
-        <div class="svn-content_contain-img clear">
-          <div class="svn-content_img-no svn-content_img-no-txt">03A</div>
-          <img src="/assets/images/white.jpg" />
-          <div class="image-set section-05-img3-prop">
-            <div class="svn-content_img-no svn-content_img-no-txt small">VIBES</div>
-            <img src="/assets/images/hands.jpeg"/>
+        <div class="svn-content_no">03</div>
+        <div class="content_container">
+          <div class="content_50 pull_right">
+            <div class="content_half_vertical">
+              <div class="svn-content_img-no svn-content_img-no-txt">03</div>
+              <img src="/assets/images/white.jpg" />
+            </div>
+            <div class="content_half_vertical pull_up">
+              <div class="svn-content_img-no svn-content_img-no-txt">VIBES</div>
+              <img src="{{ page.section3_img2 }}" />
+            </div>
           </div>
+          <div class="content_50 content_text">
+            {{ page.section3_text }}
+          </div>
+
+          {% include caption.html caption_title="03. Something Bold" caption_text="Type something of interest here, just some filler shxt, no one cares what this says anyway.  Just keep on typing, get it?!" caption_title_extra="03. VIBES. Bold" caption_text_extra="Type something of interest here, just some filler shxt, no one cares what this says anyway.  Just keep on typing, get it?!" %}
+
         </div>
-        <div class="svn-content_contain-txt svn-content_headline svn-special_five-text">In a world of hyper-visibility where the invisible is also celebrated</div>
-        <div class="svn-content_contain-caption close-caption">
-          <div class="svn-content_caption-title">03a. Something Bold</div>
-          <div class="svn-content_caption-sm">Type something of interest here, just some filler shxt, no one cares what this says anyway.  Just keep on typing, get it?!</div>
-          <div class="svn-caption_spacer"></div>
-          <div class="svn-content_caption-title">VIBES. Bold</div>
-          <div class="svn-content_caption-sm">Type something of interest here, just some filler shxt, no one cares what this says anyway.  Just keep on typing, get it?!</div>
-        </div>
+        
       </div>
-    </div><!-- .svn-wrapper -->
+    </div> <!-- .svn-wrapper -->
   </section><!-- .section-bg -->
   
 

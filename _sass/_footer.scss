@@ -1,11 +1,68 @@
 .site-footer { position: relative; z-index: 4; background: white; padding-top: 2em;}
+.footer_section {
+	width: 100%;
+	position: relative;
+	margin-top: 50px;
+	@include tablet {
+		width: 33%;
+		float: left;
+		margin-top: 0;
+		min-height: 170px;
+	}
+}
+.footer_section:first-child {
+	margin-top: 0;
+}
+.footer_copyright {
+	font-size: 8px;
+	margin-top: 5px;
+	color: $color-brand5;
+}
+.footer-section-wrapper { 
+	position: relative; 
+	width: 100%;
+	/*min-height: 170px;*/
+}
+.footer_align_bottom {
+	@include tablet {
+		position: absolute;
+		bottom: 0;	
+	}
+}
+ul.list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	text-align: right;
+	color: $color-brand5;
+	width: 100%;
+	@include font_size_micro;
+	@include tablet {
+		width: auto;
+		float: left;
+		margin-right: 20px;
+		text-align: initial;
+	}
+}
+ul.list li {
+	margin-bottom: 3px;
+}
+.footer_center {
+	left: 5% !important;
+	text-align: center;
+}
+.footer_center a {
+	color: $color-brand5;
+}
+.footer_right {
+	right: 0 !important;
+}
+
 .footer-elements { padding: 0 0 2em;
 	@include tablet { padding: 0em 0 1em 0;}
 }
 .footer-logo { padding-bottom: 2em; }
-.footer-section-wrapper { position: relative; width: 100%;
-	/*@include tablet { padding-top: 5em;	}*/
-}
+
 .footer-section { text-transform: uppercase; font-size: .9em; width: 100%; padding-top: 2em;
 	@include tablet { width: auto; float: right; padding-top: 0;}
 }
@@ -37,7 +94,9 @@
 	text-decoration: line-through;
 	
 }
-.float-left { float: left; }
+.float-left { 
+	float: left; 
+}
 .float-right { float: right; }
 
 .bottom-footer-nav { width: 3em; padding-right: 1em; }
