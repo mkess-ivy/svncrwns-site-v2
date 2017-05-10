@@ -6,7 +6,9 @@ year:	'2016'
 subtitle: "some random subtext that explains this two word title"
 featured: "yes"
 featured-rank: "1"
-img-path: /assets/images/drink.jpg
+img-path: /assets/images/philly1.png
+
+section1_img					: "/assets/images/philly1.png"
 
 slide1: "intro-slide"
 intro-slide_img: /assets/images/project_chasingtheorangesky/ctos-1.jpg

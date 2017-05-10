@@ -1,13 +1,13 @@
 ---
-layout: white-bg
-title: featured
-permalink: /featured/
+layout            : white-bg
+title 						: featured
+permalink					: /featured/
 ---
 
 <!-- for the new featured page - each project is in a wrapper followed by a full width div that contains the divider that aligns left or right -->
 <div class="hero-wrapper">
 	<div class="title-container">
-		<div class="title">featured <br/>work.</div>
+		<div class="title">featured<br/>work.</div>
 	</div>
 </div>
 <div class="crwns-wrapper clear">
@@ -24,7 +24,7 @@ permalink: /featured/
 	
 	{% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
 			{% if thecycle == 'odd' %}
-			<div class="row featured-separator clear">
+			<!-- <div class="row featured-separator clear">
 				<div class="box-hero clear">
 					<div class="box-hero__img">
 						<img src="{{ project.img-path }}" />
@@ -40,7 +40,26 @@ permalink: /featured/
 					</div>
 					
 				</div>
-			</div>
+			</div> -->
+			<!-- Section 01 -->
+		  
+		    <div class="svn-wrapper">
+		      <div class="svn-content clear">
+		        
+		        <div class="content_container project_content_featured clear">
+		          <div class="content_50 pull_right">
+		            
+		            <img src="{{ project.img-path }}" />
+		          </div>
+		          <div class="content_50 content_text">
+		            {{ project.section1_text }}
+		          </div>
+
+		        </div>
+		        
+		      </div>
+		    </div> <!-- .svn-wrapper -->
+		  
 			{% endif %}
 			{% if thecycle == 'even' %}
 				<div class="row featured-separator clear">
