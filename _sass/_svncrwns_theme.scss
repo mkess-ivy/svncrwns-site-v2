@@ -166,7 +166,7 @@ body.noScroll {
     margin: none;
   }
   @include tablet {
-    right: 25px; 
+    right: 39px; 
     top: 23px; 
     
   }
@@ -343,7 +343,7 @@ body.noScroll {
 .hero-wrapper { 
   /*margin: 0.5em 5em;*/
   @include palm-mid { 
-    margin: 0em 1em;
+    margin: 0 30px;
     width: auto;
   }
 }
@@ -430,29 +430,15 @@ body.noScroll {
   width: 70%; 
 }
 .backtop-icon { 
-  /*-webkit-box-shadow: 1px 1px 2px 0px rgba(50, 50, 50, 0.55);
-  -moz-box-shadow:    1px 1px 2px 0px rgba(50, 50, 50, 0.55);
-  box-shadow:         1px 1px 2px 0px rgba(50, 50, 50, 0.55);*/
-  /*padding: 0.4em 0.8em;
-  background: white;*/
   position: fixed;
   bottom: 2em; 
   right: 10px;
   z-index: 200;
-  /*border-radius: 34px;*/
   margin-right: 0.3em;
   cursor: pointer;
- /* background-image: url('/assets/images/slide-up.png');
-  width: 30px;
-  height: 20px;
-  background-size: cover;
-  background-position: center center;*/
  }
  .backtop-icon:hover {
   background-image: url('/assets/images/slide-up-hover.png');
- }
- .backtop-icon a:hover, .backtop-icon:hover a {
-  /*color: white;*/
  }
 
 /* Background meta and images */
@@ -583,11 +569,7 @@ body.noScroll {
   margin-top: 50px;
   padding-bottom: 50px;
 }
-.svn-content_contain-caption { 
-  
-  /*width: 90%; */
-  /*padding: 1.5em;*/
-  
+.svn-content_contain-caption {   
   @include palm-mid { 
     width: 75%;
     float: right;
@@ -824,8 +806,6 @@ body.noScroll {
 .yellow-box {
   height: 400px;
   position: relative;
-  /*background: yellow;*/
-  /*background-image: url('/assets/images/hero_home3.png');*/
   background-size: cover;
   background-position: center center;
   margin: 0 auto;

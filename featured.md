@@ -4,16 +4,17 @@ title: featured
 permalink: /featured/
 ---
 
-
+<!-- for the new featured page - each project is in a wrapper followed by a full width div that contains the divider that aligns left or right -->
+<div class="hero-wrapper">
+	<div class="title-container">
+		<div class="title">featured <br/>work.</div>
+	</div>
+</div>
 <div class="crwns-wrapper clear">
 	
-	<div class="spacer2x"></div>
 	
-	<div class="title-container">
-		<!-- <div class="title-icon"><img src="/assets/images/crown-logo.svg" /></div> -->
-		<div class="title">featured <br/>work.</div>
-		<div class="spacer3x"></div>
-	</div>
+	
+	
 	{% include backtop_icon.html %}
 
 
@@ -62,12 +63,4 @@ permalink: /featured/
 			{% endif %}
 
 	{% endfor %}
-
-	
-	<!-- Pre-Footer -->
-	<div class="row">
-		<div class="sub-link">
-      		<a href="{{ site.baseurl }}/catalog">view catalog</a>
-    	</div>
-	</div>
 </div>
