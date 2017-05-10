@@ -89,6 +89,7 @@ $on-tv:     1400px; /* wrapper, featured, home */
 }
 @mixin font_text_area {
     font-size: 38px;
+    line-height: 38px;
 }
 @mixin font_lz {
     font-size: 35px;
@@ -114,17 +115,17 @@ $on-tv:     1400px; /* wrapper, featured, home */
 }
 @mixin font_size_med {
     font-size: 18px;
+    text-transform: uppercase;
 }
 @mixin font_standard {
     font-size: 16px;
     text-transform: uppercase;
-    font-family: $font-brand1;
 }
 @mixin font_size_small {
     font-size: 14px;
 }
 @mixin font_size_micro {
-    font-size: 12px;
+    font-size: 12px  !important;
 }
 @mixin font_size_micro_extra {
     font-size: 11px;
@@ -217,6 +218,11 @@ $on-tv:     1400px; /* wrapper, featured, home */
 }
 @mixin brandcolortext {
     color: $brand-color;
+}
+@mixin menumenu_col($width, $float) {
+    width: $width;
+    float: $float;
+    /*margin-top: 130px;*/
 }
 
 // Import partials from `sass_dir` (defaults to `_sass`)

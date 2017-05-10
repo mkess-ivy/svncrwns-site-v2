@@ -17,12 +17,27 @@ markdown: kramdown
 collections:
   catalog:
     output: true
-    permalink: /catalog/:path/
+    permalink: /catalog/:title/
 
+# Site Variables 
+logo              : "/assets/images/svn-logo.svg"
 
-# gems: [jekyll-paginate]
+# Menu Information
 
-# paginate: 5
+menu_bg           : "/assets/images/menu_hero.png"
+menu_tagline      : "Svncrwns is a brand mgmt &amp; production studio"
+menu_services     : "web + photo + events + film"
+menu_location     : "based in baltimore, md"
+menu_status       : "open for hire"
+menu_status_url   : /contact
 
-# paginate_path: "/journal/page:num"
+menu_s1_title     : "special announcement"
+menu_s1_name_url  : "/catalog/humble"
+menu_s1_name      : "humble"
+menu_s1_detail1   : "short film screening"
+menu_s1_detail2   : "greenmount west<br/> film festival<br/>may 4, 2017<br/>7 pm"
+menu_s2_title     : "featured project"
+menu_s2_name_url  : "/catalog/chasing-the-orange-sky"
+menu_s2_name      : "chasing the orange sky"
+menu_s2_detail1   : "photo exhibit"
 

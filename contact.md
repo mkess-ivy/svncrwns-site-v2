@@ -2,18 +2,13 @@
 layout: white-bg
 title: contact
 permalink: /contact/
+
+hero_img          : "yes"
+home_hero_img     : "background-image: url('/assets/images/contact_hero.jpg"
 ---
 
 
 <div class="crwns-wrapper catalog-wrapper clear">
-	<div class="spacer1x"></div>
-	<div class="row martop-catalog clear">
-
-		<div class="title-container">
-			<div class="title">well, hello!</div>
-		</div>
-	</div>
-	<div class="separator"></div>
 
 	<div class="title-container">
 		<div class="title sub-title">email</div>
@@ -22,7 +17,7 @@ permalink: /contact/
 		</div>
 	</div>
 
-	<div class="spacer2x"></div>
+	<div class="spacer1x"></div>
 	
 	<div class="title-container">
 		<div class="title sub-title">social</div>
@@ -34,12 +29,12 @@ permalink: /contact/
 		</div>
 	</div>
 
-	<div class="spacer2x"></div>
+	<div class="spacer1x"></div>
 
 	<div class="title-container">
-		<div class="title sub-title">email list</div>
+		<div class="title sub-title">work with us?</div>
 		<div class="title contact_info">
-			<a href="http://eepurl.com/b3ZHLH" target="_blank">subscribe</a>
+			<a href="http://eepurl.com/b3ZHLH" target="_blank">let's get started</a>
 		</div>
 	</div>
 	

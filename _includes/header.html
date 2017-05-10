@@ -1,28 +1,75 @@
 <header class="site-header clear">
+    {% if page.hero_img == "yes" %}
     <div class="header-row clear" style="{{ page.home_hero_img }}');">
+    {% endif %}
         <div class="svn-wrapper hero-wrapper" id="home">
         
-            
-            <div class="logo"><a href="/"><img src="/assets/images/svn-logo.svg" class="logo-img" /></a></div>
+            <div class="logo"><a href="/"><img src="{{ site.logo }}" class="logo-img" /></a></div>
             <div id="menu-container">
                 <button id="overlay-menu" type="button" class="menuButton">
                 <div class="menu-txt">&equiv;</div>
                 </button>
                 
             </div>
-            <div class="overlay overlay-data">
-                <button type="button" class="overlay-close"><i class="fa fa-lg fa-close"></i></button>
-                <nav>
-                    <ul>
-                        <li><a href="/">Home</a></li>
-                        <li><a href="{{ site.baseurl }}/featured">Featured</a></li>
-                        <li><a href="{{ site.baseurl }}/catalog">Catalog</a></li>
-                        <li><a href="{{ site.baseurl }}/contact">Contact</a></li>
-                      
-                        <li class="menu-icons"><a href="http://www.instagram.com/svncrwns" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>&nbsp;<a href="http://www.instagram.com/svncrwns" target="_blank">
-                        <i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
-                    </ul>
-                </nav>
+            <div class="overlay overlay-data" style="background-image: url('{{ site.menu_bg }}');">
+                <button type="button" class="overlay-close"><img src="/assets/images/close-icon.png"/></button>
+                <div class="overlay_container clear">
+                    <div>
+                        <div class="menu_bio_container">
+                            <div class="font_size_lg uppercase">{{ site.menu_tagline }}</div>
+                            <div class="divider">&nbsp;</div>
+                            <div class="font_size_micro">{{ site.menu_services }}</div>
+                            <div class="divider">&nbsp;</div>
+                            <div class="font_size_med">{{ site.menu_location }}</div>
+                            <div class="divider">&nbsp;</div>
+                            <div class="font_size_med"><a href="{{ site.menu_status_url }}" class="link">
+                                {{ site.menu_status }}</a>
+                            </div>
+                        </div>
+                        <div class="menu_bio_container">
+                            <div class="menu_section clear">
+                                <div class="font_size_micro uppercase">
+                                    {{ site.menu_s1_title }}
+                                </div>
+                                <div class="font_size_lg uppercase"><a href="{{ site.menu_s1_name_url }}" class="link">{{ site.menu_s1_name }}</a></div>
+                                <div class="menu_small_container">
+                                    <div class="font_size_micro uppercase">{{ site.menu_s1_detail1 }}</div>
+                                    <div class="font_size_lg">@</div>
+                                    <div class="font_size_micro uppercase">{{ site.menu_s1_detail2 }}</div>
+                                    <div class="divider">&nbsp;</div>
+                                </div>
+                            </div>
+                            <div class="menu_section">
+                                <div class="font_size_micro uppercase">
+                                {{ site.menu_s2_title }}
+                                </div>
+                                <div class="font_size_lg uppercase"><a href="{{ site.menu_s2_name_url }}" class="link">{{ site.menu_s2_name }}</a></div>
+                                <div class="font_size_micro uppercase">
+                                {{ site.menu_s2_detail1 }}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu_list_container">
+                            <div class="font_size_micro uppercase">menu</div>
+                            <nav>
+                                <ul>
+                                    <li><a href="/">Home</a></li>
+                                    <li>
+                                    <div class="font_size_small uppercase">featured</div>
+                                    <a href="{{ site.baseurl }}/featured">work</a></li>
+                                    <li>
+                                    <div class="font_size_small uppercase">work archive</div>
+                                    <a href="{{ site.baseurl }}/catalog">Catalog</a></li>
+                                    <li><a href="{{ site.baseurl }}/contact">Contact</a></li>
+                                  
+                                    <li class="small_links_w"><a href="http://www.instagram.com/svncrwns" target="_blank" class="small_links">instagram</a></li>
+                                    <li class="small_links_w"><a href="http://www.vimeo.com/svncrwns" target="_blank" class="small_links">vimeo</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    
+                </div>
             </div>
         </div>
     </div>

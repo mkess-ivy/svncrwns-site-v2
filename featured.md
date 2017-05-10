@@ -11,7 +11,7 @@ permalink: /featured/
 	
 	<div class="title-container">
 		<!-- <div class="title-icon"><img src="/assets/images/crown-logo.svg" /></div> -->
-		<div class="title">featured work</div>
+		<div class="title">featured <br/>work.</div>
 		<div class="spacer3x"></div>
 	</div>
 	{% include backtop_icon.html %}

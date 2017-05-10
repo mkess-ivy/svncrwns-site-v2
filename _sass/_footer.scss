@@ -1,4 +1,22 @@
-.site-footer { position: relative; z-index: 4; background: white; padding-top: 2em;}
+.site-footer { 
+	position: relative; 
+	z-index: 4; 
+	background: white; 
+	/*padding-top: 2em;*/
+}
+/* Fonts */
+.footer_signup_big {
+  @include font_size_lg;
+  color: $color-brand5;
+  text-align: right;
+  text-transform: uppercase;
+}
+.footer_signup_small {
+  text-transform: uppercase;
+  text-align: right;
+  color: $color-brand5;
+  @include font_size_micro;
+}
 .footer_section {
 	width: 100%;
 	position: relative;
@@ -26,7 +44,15 @@
 .footer_align_bottom {
 	@include tablet {
 		position: absolute;
-		bottom: 0;	
+		bottom: 0;
+	}
+}
+.footer_social {
+	@include tablet {
+		width: 65%;
+		left: 0;
+		right: 0;
+		margin: auto;
 	}
 }
 ul.list {
@@ -47,20 +73,23 @@ ul.list {
 ul.list li {
 	margin-bottom: 3px;
 }
-.footer_center {
-	left: 5% !important;
-	text-align: center;
-}
-.footer_center a {
+ul.list li a {
 	color: $color-brand5;
 }
 .footer_right {
 	right: 0 !important;
 }
-
-.footer-elements { padding: 0 0 2em;
-	@include tablet { padding: 0em 0 1em 0;}
+.footer-elements { 
+	padding: 0 0 90px;
+	@include tablet { 
+		padding: 0em 0 1em 0;
+	}
 }
+
+
+
+
+
 .footer-logo { padding-bottom: 2em; }
 
 .footer-section { text-transform: uppercase; font-size: .9em; width: 100%; padding-top: 2em;
