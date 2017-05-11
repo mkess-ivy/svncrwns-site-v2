@@ -277,6 +277,12 @@ body.noScroll {
 }
 
 /* Fonts */
+.font_lz {
+  @include font_lz;
+  text-align: right;
+  line-height: 38px;
+  margin-bottom: 7px;
+}
 .font_size_lg {
   @include font_size_lg;
   text-align: right;
@@ -293,7 +299,8 @@ body.noScroll {
 .font_size_med {
   @include font_size_med;
   text-align: right;
-  line-height: 18px;
+  line-height: 20px;
+  margin-bottom: 7px;
 }
 .font_standard {
   @include font_standard;
@@ -317,10 +324,15 @@ body.noScroll {
 }
 .link {
   color: #000;
+  cursor: pointer;
 }
 .link:hover {
   color: $color-brand5;
   text-decoration: none;
+}
+
+.brand_color {
+  color: $color-brand5;
 }
 
 /* Wrappers */

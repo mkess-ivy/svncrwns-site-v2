@@ -10,76 +10,53 @@ permalink					: /featured/
 		<div class="title">featured<br/>work.</div>
 	</div>
 </div>
-<div class="crwns-wrapper clear">
-	
-	
-	
-	
-	{% include backtop_icon.html %}
 
-
-
+<div class="outer_wrapper">
 {% assign features = site.catalog | where:"featured", "yes" | sort:"featured-rank" %}
 {% for project in features limit: 7 %}
-	
-	{% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-			{% if thecycle == 'odd' %}
-			<!-- <div class="row featured-separator clear">
-				<div class="box-hero clear">
-					<div class="box-hero__img">
-						<img src="{{ project.img-path }}" />
-					</div>
-					<div class="box-hero__text">
-						<div class="box-hero__text--title brand-link">
-							<a href="{{ project.url }}">{{ project.title }}</a>
-						</div>
-						<div class="box-hero__meta">
-							{{ project.subtitle }}
-						</div>
-						<a href="{{ project.url }}"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-					</div>
-					
-				</div>
-			</div> -->
-			<!-- Section 01 -->
-		  
-		    <div class="svn-wrapper">
-		      <div class="svn-content clear">
-		        
-		        <div class="content_container project_content_featured clear">
-		          <div class="content_50 pull_right">
-		            
-		            <img src="{{ project.img-path }}" />
-		          </div>
-		          <div class="content_50 content_text">
-		            {{ project.section1_text }}
-		          </div>
 
-		        </div>
-		        
-		      </div>
-		    </div> <!-- .svn-wrapper -->
-		  
-			{% endif %}
-			{% if thecycle == 'even' %}
-				<div class="row featured-separator clear">
-					<div class="box-hero clear">
-						<div class="box-hero__img box-hero__img--right">
-							<img src="{{ project.img-path }}" />
-						</div>
-						<div class="box-hero__text box-hero__text-r">
-							<div class="box-hero__text--title brand-link">
-								<a href="{{ project.url }}">{{ project.title }}</a>
-							</div>
-							<div class="box-hero__meta">
-								{{ project.subtitle }}
-							</div>
-							<a href="{{ project.url }}"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-						</div>
-						
-					</div>
+{% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+		{% if thecycle == 'odd' %}
+<!-- Template 1 -->
+<div class="page_wrapper">
+	<div class="sec_wrapper clear">
+		<div class="some-image"><img src="{{ project.cover-image }}" /></div>
+		<div class="some-text clear">
+			<div class="some-text-inner">
+				<div class="some-text-content">
+					<div class="font_lz uppercase"><a href="{{ project.url }}" class="link">{{ project.title }}</a></div>
+					<div class="font_size_med uppercase">{{ project.subtitle }}</div>
+					<div class="font_size_micro brand_color uppercase">{{ project.category }} | {{ project.index-location }}</div>
 				</div>
-			{% endif %}
-
-	{% endfor %}
+			</div>
+		</div>
+	</div>
+</div>
+<div class="divider_wrapper clear">
+	<div class="divider_divider">&nbsp;</div>
+</div>
+<!-- # Template 1 -->
+{% endif %}
+{% if thecycle == 'even' %}
+<!-- Template 2 -->
+<div class="page_wrapper">
+	<div class="sec_wrapper clear">
+		<div class="some-image some-image-option"><img src="{{ project.cover-image }}" /></div>
+		<div class="some-text some-text-option clear">
+			<div class="some-text-inner">
+				<div class="some-text-content">
+					<div class="font_lz uppercase"><a href="{{ project.url }}" class="link">{{ project.title }}</a></div>
+					<div class="font_size_med uppercase">{{ project.subtitle }}</div>
+					<div class="font_size_micro brand_color uppercase">{{ project.category }} | {{ project.index-location }}</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="divider_wrapper clear">
+	<div class="divider_divider divider_option">&nbsp;</div>
+</div>
+<!-- # Template 2 -->
+{% endif %}
+{% endfor %}
 </div>

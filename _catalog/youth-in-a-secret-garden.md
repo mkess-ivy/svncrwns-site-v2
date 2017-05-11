@@ -1,12 +1,20 @@
 ---
-layout: catalog-slide
-title:  "Youth in a Secret Garden"
-date:   'Aug 23 2016'
-year:	'2015'
-subtitle: "some random subtext that explains this two word title"
-featured: "yes"
-featured-rank: "7"
+layout 						: catalog-slide
+title 						:  "Youth in a Secret Garden"
+date 							:   'Aug 23 2016'
+year 							:	'2015'
+featured 					: "yes"
+featured-rank 		: "7"
+
+
 img-path: /assets/images/drink.jpg
+
+
+cover-image						: /assets/images/reclaimedyouth_cover.jpg
+subtitle							: "on a warm and cloudy day, one day before rain poured from the clouds"
+category							: "photo serie"
+index-location				: "p5"
+
 
 slide1: "intro-slide"
 intro-slide_img: http://placehold.it/1400x933

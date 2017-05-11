@@ -3,8 +3,7 @@ layout: catalog-comingsoon
 title:  "City of Gods Shop"
 date:   'Aug 23 2016'
 year:	'2016'
-featured: "yes"
-featured-rank: "5"
+featured: "no"
 subtitle: "some random subtext that explains this two word title"
 
 img-path: /assets/images/drink.jpg

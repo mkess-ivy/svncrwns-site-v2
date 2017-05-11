@@ -1,12 +1,19 @@
 ---
-layout: catalog-project
-title:  "Pop-Up Museum: Sankofa"
-featured: "yes"
-featured-rank: "2"
-subtitle: "an exhibition produced to teach youth about African history"
-year:	'2016'
+layout 						: catalog-project
+title 						:  "Pop-Up Museum: Sankofa"
+date 							: "Feb 23 2016"
+featured 					: "yes"
+featured-rank			: "2"
+year 							:	'2016'
+
 
 img-path: /assets/images/featured-popupmuseum.png
+
+
+cover-image						: /assets/images/sankofa_cover.jpg
+subtitle							: "on a warm and cloudy day, one day before rain poured from the clouds"
+category							: "art installation"
+index-location				: "a1"
 
 photogroup1: "yes"
 photo1: /assets/images/project_popupmuseum/popupmuseum-1.jpg

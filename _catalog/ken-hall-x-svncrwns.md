@@ -1,12 +1,18 @@
 ---
-layout: catalog-slide
-title:  "Kenn Hall"
-date:   'Feb 27 2017'
-year:	'2017'
-subtitle: "some random subtext that explains this two word title"
-featured: "yes"
-featured-rank: "1"
-img-path: /assets/images/drink.jpg
+layout						: catalog-slide
+title 						:  "Kenn Hall"
+date 							:   'Feb 27 2017'
+year 							:	'2017'
+featured 					: "yes"
+featured-rank 		: "1"
+
+
+img-path 					: /assets/images/drink.jpg
+
+cover-image						: /assets/images/kh_cover.jpg
+subtitle							: "on a warm and cloudy day, one day before rain poured from the clouds"
+category							: "photo series"
+index-location				: "p2"
 
 slide1: "intro-slide"
 intro-slide_img: /assets/images/project_kennhall/kh-1.jpg
