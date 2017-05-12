@@ -1,7 +1,7 @@
 ---
 layout            : white-bg
 title 						: featured
-permalink					: /featured/
+permalink					: /featured-hjhjhjhj/
 ---
 
 <!-- for the new featured page - each project is in a wrapper followed by a full width div that contains the divider that aligns left or right -->

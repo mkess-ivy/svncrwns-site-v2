@@ -283,6 +283,10 @@ body.noScroll {
   line-height: 38px;
   margin-bottom: 7px;
 }
+.font_size_la {
+  @include font_size_la;
+  text-align: right;
+}
 .font_size_lg {
   @include font_size_lg;
   text-align: right;
@@ -306,6 +310,7 @@ body.noScroll {
   @include font_standard;
   margin: 15px 0;
   line-height: 18px;
+  text-align: right;
 }
 .uppercase {
   text-transform: uppercase;

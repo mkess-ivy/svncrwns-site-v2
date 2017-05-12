@@ -1,0 +1,8 @@
+<div class="catalog_item font_size_la js-background-trigger clear">
+	<a href="{{ project.url }}" class="catalog-url">{{ project.title }}</a>
+	{% if project.cover-image %}
+	<div class="js-background-receiver" style="background-image: url({{ project.cover-image }});"></div>
+	{% else %}
+	<div class="js-background-receiver" style="background-image: url('/assets/images/coming-soon.png');"></div>
+	{% endif %}
+</div>

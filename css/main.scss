@@ -4,16 +4,20 @@
 @charset "utf-8";
 
 
-
 // Our font families variables
 $brand-font: "League Spartan", "Maison Neue", Arial Black, sans-serif;
 $fontfamily-v1: Helvetica, Arial, sans-serif;
+$alt-font-1: Arial Black, sans-serif;
+$alt-font-2: "Maison Neue", sans-serif;
+
 // Not using these top two variables anymore
 
 
+// Font Families
 $font-brand1: 'League Spartan', 'Maison Neue', Arial Black, sans-serif;
 $font-brand2: Helvetica, Arial, sans-serif;
 
+// Colors
 $color-brand1:      #040707;
 $color-brand2:      #794C08;
 $color-brand3:      #A58124;
@@ -22,7 +26,7 @@ $color-brand5:      #6F5723;
 $color-gray:        #4A4A4A;
 $color-white:       #FFFFFF;
 
-
+// I don't need these
 $brown1: #745c1c;
 $brand-color: #6F5723;
 $section-number-font-size: 1.2em;
@@ -33,8 +37,7 @@ $brand-color-2: #C9A443;
 $slide-height: calc(100vh - 66px);
 
 
-$alt-font-1: Arial Black, sans-serif;
-$alt-font-2: "Maison Neue", sans-serif;
+
 
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
@@ -109,6 +112,9 @@ $on-tv:     1400px; /* wrapper, featured, home */
 @mixin font_size_lg {
     font-size: 26px;
 }
+@mixin font_size_la {
+    font-size: 20px;
+}
 @mixin font_size_med_brand {
     @extend font_size_med;
     color: $color-brand5;
@@ -119,7 +125,6 @@ $on-tv:     1400px; /* wrapper, featured, home */
 }
 @mixin font_standard {
     font-size: 16px;
-    text-transform: uppercase;
 }
 @mixin font_size_small {
     font-size: 14px;

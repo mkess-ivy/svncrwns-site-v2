@@ -8,6 +8,8 @@ subtitle: "some random subtext that explains this two word title"
 
 img-path: /assets/images/drink.jpg
 
+catalog-image					: /assets/images/humble-catalog.jpg
+
 photogroup1: "yes"
 photo1: /assets/images/green.jpg
 caption1-title: "01. Something Bold"

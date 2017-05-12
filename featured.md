@@ -4,11 +4,12 @@ title 						: featured
 permalink					: /featured/
 ---
 
-<!-- for the new featured page - each project is in a wrapper followed by a full width div that contains the divider that aligns left or right -->
+
 <div class="hero-wrapper">
 	<div class="title-container">
 		<div class="title">featured<br/>work.</div>
 	</div>
+	{% include backtop_icon.html %}
 </div>
 
 <div class="outer_wrapper">

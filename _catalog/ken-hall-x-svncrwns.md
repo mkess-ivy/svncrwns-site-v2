@@ -14,6 +14,8 @@ subtitle							: "on a warm and cloudy day, one day before rain poured from the 
 category							: "photo series"
 index-location				: "p2"
 
+catalog-image					: /assets/images/project_kennhall/KH-1.jpg
+
 slide1: "intro-slide"
 intro-slide_img: /assets/images/project_kennhall/kh-1.jpg
 intro-slide_title: introduction here

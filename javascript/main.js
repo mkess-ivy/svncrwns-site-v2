@@ -86,4 +86,19 @@ $(document).ready(function(){
   window.sr = ScrollReveal();
   sr.reveal('.foo', { duration: 500, opacity: 0.1 });
 
+
+  // Catalog Hover Feature
+  $(".js-background-trigger").hover(function(){
+   $(".js-background-receiver", this).addClass('hover');
+}
+, 
+function(){
+   $(".js-background-receiver", this).removeClass('hover');
+});
+
+  // $(".js-background-trigger > a").hover(function(){
+  //   $(".js-background-receiver", this).css('display', 'block !important');
+
+  // })
+
 });
