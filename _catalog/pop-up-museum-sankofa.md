@@ -10,7 +10,7 @@ year 							:	'2016'
 img-path: /assets/images/featured-popupmuseum.png
 
 
-cover-image						: /assets/images/sankofa_cover.jpg
+catalog-cover-image						: /assets/images/sankofa_cover.jpg
 subtitle							: "on a warm and cloudy day, one day before rain poured from the clouds"
 category							: "art installation"
 index-location				: "a1"

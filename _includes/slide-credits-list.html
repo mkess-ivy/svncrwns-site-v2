@@ -1,0 +1,10 @@
+<ul class="slide-credits_list">
+	{% for credit in site.data.[include.list-name] %}
+	<li class="catalog_credits-group slide">
+	  {{ credit.position }}
+	  <ul class="catalog_credits-artist video">
+	    <li>{{ credit.name }}</li>
+	  </ul>
+	</li>
+	{% endfor %}
+</ul>

@@ -5,7 +5,7 @@ date:   'May 04 2017'
 year:	'2017'
 featured: "no"
 
-cover-image						: /assets/images/humble-cover.jpg
+catalog-cover-image						: /assets/images/humble-cover.jpg
 subtitle							: "on a warm and cloudy day, one day before rain poured from the clouds"
 category							: "art installation"
 index-location				: "a1"

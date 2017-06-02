@@ -42,9 +42,6 @@ $(document).ready(function(){
     bannerVideo.style.display = 'none';
   }
 
-  
-
-
   // Catalog Page - remove classes to get desired desktop view
   // Pseudocode
 
@@ -90,15 +87,10 @@ $(document).ready(function(){
   // Catalog Hover Feature
   $(".js-background-trigger").hover(function(){
    $(".js-background-receiver", this).addClass('hover');
-}
-, 
-function(){
-   $(".js-background-receiver", this).removeClass('hover');
-});
-
-  // $(".js-background-trigger > a").hover(function(){
-  //   $(".js-background-receiver", this).css('display', 'block !important');
-
-  // })
+  }
+  , 
+  function(){
+     $(".js-background-receiver", this).removeClass('hover');
+  });
 
 });

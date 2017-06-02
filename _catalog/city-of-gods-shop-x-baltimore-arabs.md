@@ -1,16 +1,16 @@
 ---
-layout 						: catalog-comingsoon
-title 						:  "City of Gods Shop x Baltimore Arabs"
-date 							:   'Mar 15 2016'
-year 							:	'2016'
-featured 					: "yes"
-featured-rank 		: "5"
+layout 								: catalog-comingsoon
+title 								: "City of Gods Shop x Baltimore Arabs"
+date 									: 'Mar 15 2016'
+year 									:	'2016'
+featured 							: "yes"
+featured-rank 				: "5"
 
 
 img-path: https://dl.dropboxusercontent.com/u/12644668/shoes.jpg
 
 
-cover-image						: /assets/images/cog_cover.jpg
+catalog-cover-image						: /assets/images/cog_cover.jpg
 subtitle							: "on a warm and cloudy day, one day before rain poured from the clouds"
 category							: "documentary"
 index-location				: "f1"

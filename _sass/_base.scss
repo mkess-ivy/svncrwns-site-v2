@@ -1,3 +1,7 @@
+@import 'mixins';
+@import 'media_queries';
+@import 'variables';
+
 *, *:before, *:after {
   box-sizing: border-box;
 }

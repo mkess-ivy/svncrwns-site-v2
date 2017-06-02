@@ -7,7 +7,7 @@ featured 					: "yes"
 featured-rank			: "4"
 
 
-cover-image						: /assets/images/kendrick_cover.jpg
+catalog-cover-image						: /assets/images/kendrick_cover.jpg
 subtitle							: "on a warm and cloudy day, one day before rain poured from the clouds"
 category							: "art installation"
 index-location				: "a1"
@@ -59,7 +59,4 @@ they figure out ways to circumvent physical and environmental constraints, redes
 
 Through agentic action, people devise ways of adapting flexibly to remarkably diverse geographic, climatic and social environments; they figure out ways to circumvent physical and environmental constraints, redesign and construct environments to their liking… By these inventive means, people improve their odds in the fitness survival game.  
 
-
-
-
-
+{% include video-credit-list.html list-name='seat-at-the-table-credits' %}

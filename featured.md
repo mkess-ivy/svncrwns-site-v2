@@ -7,7 +7,7 @@ permalink					: /featured/
 
 <div class="hero-wrapper">
 	<div class="title-container">
-		<div class="title">featured<br/>work.</div>
+		<div class="title" id="home">featured<br/>work.</div>
 	</div>
 	{% include backtop_icon.html %}
 </div>
@@ -21,7 +21,7 @@ permalink					: /featured/
 <!-- Template 1 -->
 <div class="page_wrapper">
 	<div class="sec_wrapper clear">
-		<div class="some-image"><img src="{{ project.cover-image }}" /></div>
+		<div class="some-image"><img src="{{ project.catalog-cover-image }}" /></div>
 		<div class="some-text clear">
 			<div class="some-text-inner">
 				<div class="some-text-content">
@@ -33,16 +33,13 @@ permalink					: /featured/
 		</div>
 	</div>
 </div>
-<div class="divider_wrapper clear">
-	<div class="divider_divider">&nbsp;</div>
-</div>
 <!-- # Template 1 -->
 {% endif %}
 {% if thecycle == 'even' %}
 <!-- Template 2 -->
 <div class="page_wrapper">
 	<div class="sec_wrapper clear">
-		<div class="some-image some-image-option"><img src="{{ project.cover-image }}" /></div>
+		<div class="some-image some-image-option"><img src="{{ project.catalog-cover-image }}" /></div>
 		<div class="some-text some-text-option clear">
 			<div class="some-text-inner">
 				<div class="some-text-content">
@@ -54,10 +51,9 @@ permalink					: /featured/
 		</div>
 	</div>
 </div>
-<div class="divider_wrapper clear">
-	<div class="divider_divider divider_option">&nbsp;</div>
-</div>
 <!-- # Template 2 -->
 {% endif %}
 {% endfor %}
+
 </div>
+{% include upcoming_events.html %}

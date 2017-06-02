@@ -13,7 +13,7 @@ img-path							: /assets/images/philly1.png
 section1_img					: "/assets/images/philly1.png"
 
 
-cover-image						: /assets/images/ctos_cover.jpg
+catalog-cover-image						: /assets/images/ctos_cover.jpg
 subtitle							: "on a warm and cloudy day, one day before rain poured from the clouds"
 category							: "photo series"
 index-location				: "c1"
@@ -49,35 +49,9 @@ fin-slide_img: /assets/images/project_chasingtheorangesky/ctos-9.jpg
 
 slide8: "credits-slide"
 
-credit1: direction
-credit1-name1: chavon henderson
-
-credit2: model
-credit2-name1: chavon henderson
-
-credit3: photography
-credit3-name1: montier kess
-
 ---
 
-<ul class="slide-credits_list">
-	<li class="catalog_credits-group slide">
-	  creative direction
-	  <ul class="catalog_credits-artist video">
-	    <li>chavon henderson</li>
-	  </ul>
-	</li>
-	<li class="catalog_credits-group slide">
-	  model
-	  <ul class="catalog_credits-artist video">
-	    <li>chavon henderson</li>
-	  </ul>
-	</li>
-	<li class="catalog_credits-group slide">
-	  photography
-	  <ul class="catalog_credits-artist video">
-	    <li>montier kess</li>
-	  </ul>
-	</li>	
-</ul>
+<!-- Credits -->
+{% include slide-credits-list.html list-name='chasing-orange-sky-credits' %}
+<!-- #Credits -->
  

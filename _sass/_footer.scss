@@ -1,7 +1,12 @@
 .site-footer { 
-	position: relative; 
-	z-index: 4; 
 	background: white; 
+	padding-top: 150px;
+	@include tablet {
+		position: relative; 
+		/*z-index: 9002;*/ 
+		margin-top: 0;
+		padding-top: 50px;
+	}
 	/*padding-top: 2em;*/
 }
 /* Fonts */

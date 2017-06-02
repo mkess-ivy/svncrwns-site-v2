@@ -1,14 +1,15 @@
 ---
 layout            : default
 
-hero_img          : "yes"
-home_hero_img     : "background-image: url('/assets/images/hero_home.png"
+home_hero_img     : "/assets/images/hero_home.png"
 
 section1_img      : "/assets/images/philly1.png"
 section1_text     : "In a world of hyper-visibility where the invisible is also celebrated"
 
 video_url         : "https://player.vimeo.com/video/104641191?api=1"
 video_hero_img    : "/assets/images/hero_home3.png"
+
+section2_img      : "/assets/images/project_kennhall/kh-2-a.png"
 
 section3_img1     : "/assets/images/white.jpg"
 section3_img2     : "/assets/images/hands.jpeg"
@@ -20,6 +21,15 @@ section3_text     : "In a world of hyper-visibility where the invisible is also 
   <!-- Section Hero -->
   <section class="fullpage">
     {% include backtop_icon.html %}
+  </section>
+
+  <section class="svn-wrapper">
+    <div class="svn-big-logo-wrapper clear">
+      <img src="/assets/images/svn-logo-big.svg" class="svn-big-logo" />
+    </div>
+    <div class="svn-primary-hero" style="background-image: url('{{ page.home_hero_img }}');">
+      
+    </div>
   </section>
 
   <!-- Section 01 -->
@@ -46,40 +56,18 @@ section3_text     : "In a world of hyper-visibility where the invisible is also 
     </div> <!-- .svn-wrapper -->
   </section><!-- .section-bg -->
 
-  <!-- Section 00 ARTIST'S NOTE -->
+  <!-- Section - ARTIST'S NOTE -->
   <!-- Not including an artist note right now, removed code into a partial -->
 
-  <!-- Section 02-->
-  <section class="section-bg clear">
-    <div class="svn-wrapper clear">
-      <div class="svn-content foo">
-        <div class="svn-content_no right">02</div>
-        <div class="content_container">
-          <div class="html5videohere yellow-box" style="background-image: url('{{ page.video_hero_img }}');">
-            <div class="svn-video-overlay">
-              <div class="video-container">
+  <!-- Big Hero Image -->
+  <section class="svn-wrapper">
+    <div class="svn-primary-hero svn-primary-hero-margin" style="background-image: url( '{{ page.section2_img }}' );">
+    </div>
+  </section>
+  <!-- #Big Hero Image -->
 
-                <!-- SVG Close (X) Icon -->
-                <i class="fa fa-times html5-close" aria-hidden="true"></i>
-
-                <!-- Embedded video -->
-                <iframe id="video" src="{{ page.video_url }}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
-              </div>
-            </div>
-            <div class="svn-play-btn">
-              <span class="play" id="video-fullscreen"></span>
-            </div>
-          </div>
-          
-          {% include caption.html caption_title="02. Something Bold" caption_text="Type something of interest here, just some filler shxt, no one cares what this says anyway.  Just keep on typing, get it?!" %}
-        </div>
-      </div>
-    </div><!-- .svn-wrapper -->
-  </section><!-- .section-bg -->
-
-  <!-- Section 00 Featured Work -->
-  <!-- Not including the featured work section -->
+  <!-- Section - Featured Work -->
+  <!-- To use {% include featured-work.html %} -->
 
   <!-- Section 03 -->
   <section class="section-bg section01-bg-image clear">
@@ -87,7 +75,7 @@ section3_text     : "In a world of hyper-visibility where the invisible is also 
       <div class="svn-content foo">
         <div class="svn-content_no">03</div>
         <div class="content_container">
-          <div class="content_50 pull_right">
+          <div class="content_50">
             <div class="content_half_vertical">
               <div class="svn-content_img-no svn-content_img-no-txt">03</div>
               <img src="/assets/images/white.jpg" />
@@ -97,7 +85,7 @@ section3_text     : "In a world of hyper-visibility where the invisible is also 
               <img src="{{ page.section3_img2 }}" />
             </div>
           </div>
-          <div class="content_50 content_text">
+          <div class="content_50 content_text pull_right">
             {{ page.section3_text }}
           </div>
 
@@ -108,6 +96,16 @@ section3_text     : "In a world of hyper-visibility where the invisible is also 
       </div>
     </div> <!-- .svn-wrapper -->
   </section><!-- .section-bg -->
+
+  {% include testimonial.html %}
+
+  <section class="partner-wrapper" style="z-index: 9002;">
+    <div class="partner-slider clear">
+      {% for slide-item in site.data.data-partners %}
+      <div class="slide"><img src="{{ slide-item.image }}"></div>
+    {% endfor %}
+    </div>
+  </section>
   
 
   <!-- Beginning of Footer -->

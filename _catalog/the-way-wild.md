@@ -1,7 +1,7 @@
 ---
 layout 										: catalog-slide
-title 										: "Kenn Hall"
-date 											: 'Feb 27 2017'
+title 										: "The Way Wild"
+date 											: 'May 27 2017'
 year 											:	'2017'
 featured 									: "yes"
 featured-rank 						: "1"

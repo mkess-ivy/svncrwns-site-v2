@@ -1,0 +1,59 @@
+// Width of the content area
+$content-width:    1000px;
+
+$on-palm                : 400px; /* wrapper, featured */
+$on-mobile-mid          : 480px; /* catalog */
+$on-palm-mid            : 500px; /* wrapper, featured, home, footer */
+$on-tablet              : 700px; /* home, featured, this is another important breakpoint */
+$on-laptop              : 900px; /* featured, catalog, footer, home */
+$on-desktop             : 1024px; /* wrapper */
+$on-desktop-blah        : 1200px; /* catalog, home, header */
+$on-tv                  : 1440px; /* wrapper, featured, home */
+$on-bigscreen           : 1600px;
+
+// Media Query Mixins
+@mixin palm {
+  @media screen and (min-width: #{$on-palm}) {
+    @content;
+  }
+}
+@mixin mobile-mid {
+  @media screen and (min-width: #{$on-mobile-mid}) {
+    @content;
+  }
+}
+@mixin palm-mid {
+  @media screen and (min-width: #{$on-palm-mid}) {
+    @content;
+  }
+}
+@mixin tablet {
+  @media screen and (min-width: #{$on-tablet}) {
+    @content;
+  }
+}
+@mixin laptop {
+  @media screen and (min-width: #{$on-laptop}) {
+    @content;
+  }
+}
+@mixin desktop {
+  @media screen and (min-width: #{$on-desktop}) {
+    @content;
+  }
+}
+@mixin desktop-blah {
+  @media screen and (min-width: #{$on-desktop-blah}) {
+    @content;
+  }
+}
+@mixin tv {
+  @media screen and (min-width: #{$on-tv}) {
+    @content;
+  }
+}
+@mixin bigscreen {
+  @media screen and (min-width: #{$on-bigscreen}) {
+    @content;
+  }
+}

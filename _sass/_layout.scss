@@ -61,6 +61,9 @@ REUSABLE CODE
     max-width: 1200px;
     margin: 0 auto;
   }
+  @include bigscreen {
+    max-width: 1350px;
+  }
 }
 .spacer1x {padding: 1em 0;}
 .spacer2x { padding: 2em 0; }
@@ -135,20 +138,22 @@ FEATURED WORK
 .content_50 img {
   width: 100%;
 }
-/*.some-image img {
-  width: 100%;
-}*/
+
 .page_wrapper {
   width: 90%;
-  margin: 0 auto;
+  margin: 0 auto 150px;
   @include palm-mid {
     max-width: 450px;
   }
   @include tablet {
     max-width: 600px;
+    margin-bottom: 250px;
   }
   @include laptop {
     max-width: 885px;
+  }
+  @include desktop-blah {
+    max-width: 1100px;
   }
 }
 .some-text {
@@ -161,8 +166,10 @@ FEATURED WORK
   }
 }
 .some-text-inner {
-  width: 100%;
-  float: right;
+  @include palm {
+    width: 75%;
+    float: right;
+  }
   @include tablet {
     width: 100%;
     display: flex;
@@ -170,6 +177,9 @@ FEATURED WORK
   }
   @include laptop {
     min-height: 490px;
+  }
+  @include desktop-blah {
+    min-height: 630px;
   }
 }
 .some-text-content {
@@ -181,6 +191,9 @@ FEATURED WORK
     right: 0;
     top: 0;
     bottom: 0;
+  }
+  @include desktop-blah {
+    width: 350px;
   }
 }
 .some-image {
@@ -215,6 +228,7 @@ FEATURED WORK
   }
 }
 .outer_wrapper {
+  margin-top: 150px;
   @include tablet {
     margin-bottom: 100px;
   }
@@ -456,27 +470,57 @@ CATALOG
 .catalog_item {
   margin-bottom: 30px;
   float: right;
-  width: 90%;
+  width: 75%;
+  @include font_size_la;
+  text-align: right;
+  @include palm {
+    margin-bottom: 50px;
+  }
+  @include palm-mid {
+    width: 90%;
+    font-size: 26px;
+  }
+  @include tablet {
+    clear: both;
+    width: auto;
+  }
+}
+.catalog-url {
+  cursor: pointer;
 }
 .catalog_section_title {
-  margin-bottom: 50px;
+  margin-bottom: 70px !important;
   color: $color-brand5;
 }
 .catalog_wrapper_section {
   margin-bottom: 100px;
 }
 .js-background-receiver.hover {
-  height: 250px;
-  width: 85%;
-  background-color: blue;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  position: absolute;
-  z-index: 500;
-  display: block;
-  margin-top: -35px;
-  margin-right: 50px;
+  display: none;
+  @include tablet {
+    height: 350px;
+    width: 350px;
+    background-color: blue;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    z-index: 500;
+    display: block;
+    position: fixed;
+    left: 75px;
+    /*bottom: 350px;*/
+  }
+  @include laptop {
+    height: 500px;
+    width: 500px;
+    left: 150px;
+    top: 50px;
+  }
+  @include tv {
+    height: 650px;
+    width: 650px;
+    bottom: 100px;
+  }
 }
 .js-background-trigger a {
   z-index: 700;
@@ -795,26 +839,18 @@ CONTACT
 .sub-title {
   letter-spacing: 2px;
 }
-.contact_info,
-.contact_info a {
-  font-size: 12px;
-  color: $color-brand2;
-  letter-spacing: 2px;
-}
+
 
 /* ====================
 COMING SOON
 ======================= */
-.soon-layout p {
-  color: black;
-  @include font-size-med;
-  text-transform: uppercase;
-}
+
 
 /* ====================
 UPCOMING EVENTS
 ======================= */
 .event_wrapper {
+  margin-top: 150px;
   @include tablet {
     margin-top: 50px;
   }
@@ -842,33 +878,5 @@ UPCOMING EVENTS
   }
 }
 
-/* ====================
-404
-======================= */
-.four_row {
-  height: calc(100vh - 190px);
-  color: white;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-    -ms-flex-align: center;
-      align-items: center;
-  -webkit-box-pack: center;
-    -ms-flex-pack: center;
-      justify-content: center;
-  text-align: center;
-  width: 100%;
-  font-family: 'League Spartan',sans-serif;
-  letter-spacing: 0px;
-  line-height: 30px;
-}
-.four_row a {
-  margin: 0;
-  padding: 0;
-  color: $color-brand3;
-}
-.four_row a:hover {
-  color: $color-brand4;
-}
+
 
