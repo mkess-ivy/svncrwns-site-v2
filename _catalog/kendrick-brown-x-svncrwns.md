@@ -1,54 +1,22 @@
 ---
-layout 						: catalog-comingsoon
-title 						:  "Kendrick Brown x SVNCRWNS"
-date 							:   'Aug 23 2016'
-year 							:	'2014'
-featured 					: "yes"
-featured-rank			: "4"
+[//]: # (Meta Info)
+layout 											: catalog-comingsoon
+title 											: "Kendrick Brown x SVNCRWNS"
+date 												: 'Aug 23 2016'
+year 												:	'2014'
 
+[//]: # (Featured Info)
+featured 										: "yes"
+featured-rank								: "4"
+featured-subtitle						: "on a warm and cloudy day, one day before rain poured from the clouds"
+featured-category						: "photo series"
+featured-index-location			: "p1"
 
-catalog-cover-image						: /assets/images/kendrick_cover.jpg
-subtitle							: "on a warm and cloudy day, one day before rain poured from the clouds"
-category							: "art installation"
-index-location				: "a1"
+[//]: # (Catalog All)
+catalog-cover-image					: /assets/images/kendrick_cover.jpg
 
-
-photo1-group: "yes"
-img-path: /assets/images/drink.jpg
-caption1-title: "01. Something Bold"
-caption1-text: "Type something of interest here, just some filler shxt, no one cares what this says anyway.  Just keep on typing, get it?!"
-
-photo2-group: "yes"
-img-path2: /assets/images/shoes.jpg
-caption2-title: "02. Something Bold"
-caption2-text: "Type something of interest here, just some filler shxt, no one cares what this says anyway.  Just keep on typing, get it?!"
-
-photo3-group: "yes"
-photo3: https://dl.dropboxusercontent.com/u/12644668/blue.png
-caption3-title: "03. v i b e s"
-caption3-text: "Type something of interest here, just some filler shxt, no one cares what this says anyway.  Just keep on typing, get it?!"
-
-photo4-group: "no"
-
-photo5-group: "no"
-
-position1: "producer + director"
-artist1: "svncrwns"
-
-position2: "cinematography"
-artist2: "6 points"
-
-position3: "talent"
-artist3: "neptune"
-
-video-group: "yes"
-video-name: "nobody's living"
-video-excerpt: "a short film about learning to see with your own eyes, sounds trivial but be amazed at what you can see for yourself"
-
-testimonial-group: "yes"
-testimonial-category: "work"
-testimonial-text: "… this was by far one of the best experiences of the entire school year."
-testimonial-author: "some kid, sankofa pop up 2016"
+[//]: # (Credits List)
+data-credits-list: seat-at-the-table-credits
 ---
 
 
@@ -57,6 +25,4 @@ Through agentic action, people devise ways of adapting flexibly to remarkably di
 
 they figure out ways to circumvent physical and environmental constraints, redesign and construct environments to their liking… By these inventive means, people improve their odds in the fitness survival game.  
 
-Through agentic action, people devise ways of adapting flexibly to remarkably diverse geographic, climatic and social environments; they figure out ways to circumvent physical and environmental constraints, redesign and construct environments to their liking… By these inventive means, people improve their odds in the fitness survival game.  
-
-{% include video-credit-list.html list-name='seat-at-the-table-credits' %}
+Through agentic action, people devise ways of adapting flexibly to remarkably diverse geographic, climatic and social environments; they figure out ways to circumvent physical and environmental constraints, redesign and construct environments to their liking… By these inventive means, people improve their odds in the fitness survival game.

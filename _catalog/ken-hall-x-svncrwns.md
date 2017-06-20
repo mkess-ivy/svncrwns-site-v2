@@ -1,21 +1,18 @@
 ---
+[//] 											: # (Meta Info)
 layout 										: catalog-slide
 title 										: "Kenn Hall"
 date 											: 'Feb 27 2017'
 year 											:	'2017'
+
+[//] 											: # (Featured Info)
 featured 									: "yes"
 featured-rank 						: "1"
+featured-subtitle					: "on a warm and cloudy day, one day before rain poured from the clouds"
+featured-category					: "photo series"
+featured-index-location		: "p2"
 
-
-img-path 									: /assets/images/drink.jpg
-
-catalog-cover-image				: /assets/images/kh_cover.jpg
-subtitle									: "on a warm and cloudy day, one day before rain poured from the clouds"
-category									: "photo series"
-index-location						: "p2"
-
-catalog-image							: /assets/images/project_kennhall/KH-1.jpg
-
+[//]											: # (Slide Single)
 slide1 										: "intro-slide"
 intro-slide_img						: /assets/images/project_kennhall/kh-1.jpg
 intro-slide_title 				: introduction here
@@ -43,6 +40,10 @@ slide7	 									: "fin-slide"
 fin-slide_img 						: /assets/images/project_chasingtheorangesky/ctos-9.jpg
 
 slide8 										: "credits-slide"
+
+[//] 											: # (Catalog All)
+catalog-cover-image				: /assets/images/kh_cover.jpg
+
 ---
 
 
