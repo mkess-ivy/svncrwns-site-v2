@@ -15,7 +15,7 @@ home_hero_img: /assets/images/hypebeast.jpg
 </div>
 <div class="outer_wrapper">
 	<div class="svn-wrapper">
-		<div class="svn-primary-hero catalog-hero" style="background-image: url('{{ page.home_hero_img }}');">
+		<div id="home" class="svn-primary-hero catalog-hero" style="background-image: url('{{ page.home_hero_img }}');">
     </div>
 	</div>
 </div>
