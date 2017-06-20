@@ -6,8 +6,12 @@ permalink					: /featured/
 
 
 <div class="hero-wrapper">
-	<div class="title-container">
-		<div class="title" id="home">featured<br/>work.</div>
+	<div class="page_wrapper page-title_wrapper">
+		<div class="sec_wrapper clear">
+			<div class="title-container">
+				<div class="title" id="home">featured<br/>work.</div>
+			</div>
+		</div>
 	</div>
 	{% include backtop_icon.html %}
 </div>
@@ -26,8 +30,8 @@ permalink					: /featured/
 			<div class="some-text-inner">
 				<div class="some-text-content">
 					<div class="font_lz uppercase"><a href="{{ project.url }}" class="link">{{ project.title }}</a></div>
-					<div class="font_size_med uppercase">{{ project.subtitle }}</div>
-					<div class="font_size_micro brand_color uppercase">{{ project.category }} | {{ project.index-location }}</div>
+					<div class="font_size_med uppercase">{{ project.featured-subtitle }}</div>
+					<div class="font_size_micro brand_color uppercase">{{ project.featured-category }} | {{ project.featured-index-location }}</div>
 				</div>
 			</div>
 		</div>
@@ -44,8 +48,8 @@ permalink					: /featured/
 			<div class="some-text-inner">
 				<div class="some-text-content">
 					<div class="font_lz uppercase"><a href="{{ project.url }}" class="link">{{ project.title }}</a></div>
-					<div class="font_size_med uppercase">{{ project.subtitle }}</div>
-					<div class="font_size_micro brand_color uppercase">{{ project.category }} | {{ project.index-location }}</div>
+					<div class="font_size_med uppercase">{{ project.featured-subtitle }}</div>
+					<div class="font_size_micro brand_color uppercase">{{ project.featured-category }} | {{ project.featured-index-location }}</div>
 				</div>
 			</div>
 		</div>
