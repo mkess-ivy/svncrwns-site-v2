@@ -1,6 +1,6 @@
 <div class="catalog_title-credit video">credits</div>
 <ul class="credits-list video group">
-  {% for credit in site.data.[include.list-name]%}
+  {% for credit in site.data.[page.data-credits-list]%}
   <li class="catalog_credits-group">
     {{ credit.position }}
     <ul class="catalog_credits-artist video">

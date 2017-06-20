@@ -1,0 +1,13 @@
+<div class="catalog_title-credit">credits</div>
+<ul class="credits-list">
+	{% for credit in site.data.[page.data-credits-list] %}
+  <li class="catalog_credits-group">
+    {{ credit.position }}
+    <ul class="catalog_credits-artist">
+    	{% for people in credit.peoples %}
+      <li>{{ people.name }}</li>
+      {% endfor %}
+    </ul>
+  </li>
+  {% endfor %}
+</ul>
