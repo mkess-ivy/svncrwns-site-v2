@@ -11,7 +11,6 @@
 
 /* ----- TOC -----
 
-PreLoader
 Header & Overlay Menu
 Wrappers
 Hero
@@ -27,25 +26,7 @@ Section Testimonial
 
 ----- #TOC ----- */
 
-/* PreLoader */
 
-// This only works with JavaScript, if it's not present, don't show loader
-.no-js #loader { display: none;  }
-.js #loader { 
-  display: block; 
-  position: absolute; 
-  left: 100px; 
-  top: 0; 
-}
-.se-pre-con {
-  position: fixed;
-  left: 0px;
-  top: 0px;
-  width: 100%;
-  height: 100%;
-  z-index: 9999;
-  background: url(/assets/images/Preloader.gif) center no-repeat #fff;
-}
 
 /* No Scroll w/ Overlay Present */
 body.noScroll {
@@ -77,8 +58,6 @@ body.noScroll {
   }
 }
 .menuButton:hover { 
-  /*background: url("/assets/images/crown-logo-black.svg") no-repeat center center; */
-  /*background-size: contain; */
   -o-transition:.75s;
   -ms-transition:.75s; 
   -moz-transition:.75s; 
@@ -109,8 +88,6 @@ body.noScroll {
   height: 100%; 
   top: 0; 
   left: 0; 
-  /*background: rgba(198,168,141,0.8); */
-  
   background-size: cover;
   background-position: bottom left;
   z-index: 500; 
@@ -129,7 +106,6 @@ body.noScroll {
   position: relative; 
 }
 .overlay ul li { 
-  /*height: 25%;*/ 
   padding: 0; 
   margin:0; 
   width: 100%;
@@ -170,7 +146,6 @@ body.noScroll {
   @include tablet {
     right: 39px; 
     top: 23px; 
-    
   }
 }
 .overlay-close:hover {
@@ -187,79 +162,38 @@ body.noScroll {
   visibility: visible; 
   -webkit-transition: opacity 0.5s; 
   transition: opacity 0.5s; 
-}/*
-.navigation {
-  position: fixed;
-  z-index: 9000;
-  transform: rotate(0deg);
-  left: 15px;
-  bottom: 25px;
-  text-align: left !important;
-  @include tablet {
-    transform: rotate(-90deg);
-    left: -180px;
-    bottom: 240px;
-    list-style: none;
-  }
-  @include laptop {
-    left: -200px;
-  }
 }
-.navigation-horizontal {
-  transform: rotate(0deg);
-  left: 15px;
-  bottom: 25px;
-  text-align: left !important;
-  @include tablet {
-    left: 30px;
-    bottom: 10px;
-    text-align: right !important;
-  }
-}
-.navigation li {
-  font-family: $fontfamily-v1;
-  display: block;
-  height: 40px;
-  font-size: 17px;
-  @include tablet {
-    display: inline-block;
-    margin-right: 40px;
-    height: auto;
-  }
-}*/
-/*.navigation li a {
-  text-decoration: none;
-  cursor: pointer;
-  color: $color-brand5;
-}
-.navigation li a:hover::after {
-  content: '';
-  display: block;
-  width: 25px;
-  height: 1px;
-  background: $color-brand5;
-}*/
-
 
 .main-nav {
-  width:calc(100vh - 15px);    
-  height:45px;
+  width:calc(100vh - 15px);
+  height: 80px;
   position:fixed;
-  /*background:#4c4c4c;*/
-  -webkit-transform-origin: left top;
-  -webkit-transform:rotate(-90deg) translateX(-100%);
+  bottom: 100px;
   z-index: 9005;
   color: $color-brand5;
-  left: 5px;
-  top: -10px;
+  left: 15px;
+  line-height: 35px;
+  
+  @include tablet {
+    -webkit-transform-origin: left top;
+    -webkit-transform:rotate(-90deg) translateX(-100%);  
+    top: -10px;
+    height:45px;
+    left: 5px;
+    line-height: 20px;
+  }
 }
 ul.nav li {    
-  margin-right:20px;
-  float:left;
   height:100%;
-  line-height:20px;
   list-style: none;
   font-family: $fontfamily-v1;
+  font-size: 20px;
+  @include tablet {
+    margin-right:20px;
+    float:left;
+    line-height:20px;
+    font-size: 16px;
+  }
 }
 ul.nav li a {
   color: $color-brand5;
@@ -276,24 +210,6 @@ ul.nav li a:hover::after {
   background: $color-brand5;
 }
 
-.svn-primary-hero-margin {
-  margin-top: 75px;
-}
-.svn-primary-hero {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  margin-bottom: 75px;
-  height: calc(100vh - 80px);
-  position: relative;
-  z-index: 3;
-  @include tv {
-    height: calc(97vh - 126px);
-  }
-}
-.catalog-hero {
-  height: 45vh;
-}
 .svn-big-logo-wrapper {
   position: absolute;
   z-index: 1;
@@ -310,28 +226,32 @@ ul.nav li a:hover::after {
   width: 800px;
 }
 .logo-wrapper {
-  padding: 30px 10px;
+  // padding: 30px 10px;
+  z-index: 9999;
+  position: absolute;
   @include tablet {
-    padding: 5px 25px;
+    // padding: 5px 25px;
   }
 }
 .logo { 
-  width: 100%;
+  // width: 100%;
   text-align: right;
   padding: .5em;
   z-index: 999;
-  position: relative;
-
+  // position: relative;
+  cursor: pointer !important;
+  right: 10px;
+  position: fixed;
+  width: auto;
   @include palm-mid {
-    float: right;
-    width: auto;
+    
   }
   @include tablet { 
     display: block; 
   }
 }
 .logo-img {
-  width: 7em;
+  width: 5em;
 }
 .site-header {
   @include desktop-blah {
@@ -372,7 +292,6 @@ ul.nav li a:hover::after {
     position: absolute;
     right: 0;
   }
-  
 }
 .menu_small_container {
   @include menumenu_col(65%, right);
@@ -384,7 +303,6 @@ ul.nav li a:hover::after {
 .menu_section:first-child {
   margin-top: 0; 
 }
-
 
 /* Dividers */
 .divider {
@@ -469,6 +387,9 @@ ul.nav li a:hover::after {
 .brand_color {
   color: $color-brand5;
 }
+.no-padding {
+  padding: 0 !important;
+}
 
 /* Wrappers */
 .svn-wrapper { 
@@ -502,124 +423,7 @@ ul.nav li a:hover::after {
     width: 1500px;
   }
 }
-.hero-wrapper { 
-  /*margin: 0.5em 5em;*/
-  @include palm-mid { 
-    margin: 0 30px;
-    width: auto;
-  }
-}
 
-/* Hero */
-.fullpage { 
-  position: relative; 
-  width: 100%; 
-  @include desktop-blah { 
-    width: 1100px; 
-    margin: 0 auto; 
-  }
-  @include tv { 
-    width: 1300px; 
-  }
-}
-/*.hero-section { 
-  z-index: 3; 
-  position: relative; 
-}*/
-/*.hero-images {
-  position: relative;
-  @include tablet {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-    -ms-flex-align: center;
-      align-items: center;
-  -webkit-box-pack: center;
-    -ms-flex-pack: center;
-      justify-content: center;
-  }
-}*/
-/*.hero-prop { 
-  margin: 0.5em 2em 7em 2em;
-  @include tablet {
-    margin: 1em 3.5em 7em 3.5em;
-  }
-}*/
-/*.hero-icon { 
-  position: absolute; 
-  width: 100px; 
-  height: 77px; 
-  margin: auto; 
-  right: 0; 
-  left: 0;
-  top: 0;
-  bottom: 0;
-}*/
-/*.hero-right-image { 
-  background-image: url('/assets/images/drive.jpg'); 
-}
-.hero-left-image { 
-  background-image: url('/assets/images/person.jpg'); 
-}*/
-.hero-bg { 
-  background-size: cover; 
-  background-position: bottom right; 
-  background-repeat: no-repeat; 
-  width: 100%; 
-  height: calc(50vh - 85px); 
-  @include palm-mid { 
-    height: calc(55vh - 95px); 
-  }
-  @include tablet { 
-    width: 50%; 
-    float: left; 
-    height: calc(95vh - 70px); 
-  }
-  @include tv { 
-    height: 100vh; 
-  }
-}
-/*.huge-hero-logo { 
-  position: absolute; 
-  z-index: 2; 
-  bottom: -6em; 
-  right: 10px;
-  padding: .5em; 
-  text-align: right;
-}*/
-.hero-logo_img { 
-  width: 70%; 
-}
-.backtop-icon { 
-  position: fixed;
-  bottom: 2em; 
-  right: 10px;
-  z-index: 200;
-  margin-right: 0.3em;
-  cursor: pointer;
- }
- .backtop-icon:hover {
-  background-image: url('/assets/images/slide-up-hover.png');
- }
-
-/* CTAs */
-.return-cta {
-  text-align: left;
-  margin-top: 50px;
-  border: 2px solid;
-  width: 135px;
-  padding: 4px 7px 3px;
-  text-transform: uppercase;
-  font-size: 12px;
-}
-.slide_credits-wrapper a:hover {
-  text-decoration: none;
-  color: $color-brand5;
-}
-.return-cta:hover {
-  border-color: $color-brand5;
-}
 /* Background meta and images */
 .section-bg { 
   background-size: cover; 
@@ -685,7 +489,7 @@ ul.nav li a:hover::after {
     padding: .5em; 
   }
   @include laptop { 
-    padding: .5em 1.5em 1em; 
+    padding: .5em 1.5em 0; 
   }
 }
 .svn-content_no.right { 
@@ -743,62 +547,6 @@ ul.nav li a:hover::after {
     font-size: 2.3em; 
   }
 }
-.contain_caption_wrapper {
-  position: relative;
-  margin-top: 150px;
-  @include tablet {
-    margin-top: 50px;
-  }
-}
-.svn-content_contain-caption { 
-
-  @include palm-mid { 
-    float: right;
-  }
-  @include tablet { 
-    clear: both; 
-    padding: 125px 0 10px;
-    display: inline-block;
-  }
-}
-.caption {
-  float: right;
-  width: 65%;
-  margin-bottom: 15px;
-  @include tablet {
-    width: 35%;
-    margin-left: 15px;
-  }
-  @include desktop-blah {
-    width: 25%;
-  }
-  
-}
-.close-caption {
-  padding-top: 2em;
-}
-.svn-content_caption-sm { 
-  font-family: $font-brand2;
-  font-size: 12px;
-  text-align: right;
-  @include tablet {  
-    display: block;
-  }
-}
-.svn-content_caption-title { 
-  font-size: 12px; 
-  text-transform: uppercase; 
-  font-weight: bold; 
-  font-family: $font-brand2;
-  text-align: right;
-}
-.svn-caption_spacer { 
-  height: 20px; 
-  @include tablet { 
-    clear: both; 
-  }
-}
-
 
 /* Section 1 */
 .content_container {
@@ -815,7 +563,7 @@ ul.nav li a:hover::after {
     @include flex;
   }
   @include laptop {
-    min-height: 465px;
+    min-height: 560px;
   }
 }
 .mobile_align_right {
@@ -847,12 +595,13 @@ ul.nav li a:hover::after {
     line-height: 27px;
   }
   @include laptop {
-    font-size: 28px;
-    line-height: 40px;
-  }
-  @include tv {
-    font-size: 44px;
+    font-size: 40px;
     line-height: 60px;
+    width: 42%;
+    margin-top: 0;
+  }
+  @include desktop {
+    font-size: 44px;
   }
 }
 .content_half_vertical {
@@ -1161,112 +910,13 @@ ul.nav li a:hover::after {
   }
 }
 
-/* Section Testimonial */
-.testimonial-wrapper {
-  margin: 150px auto;
-  width: 75%;
-  @include tablet {
-    width: 50%;
-  }
-}
-.testimonial-text {
-  @include font_size_la;
-  font-family: $font-brand2;
-  text-align: center;
-  margin-bottom: 25px;
-}
-.testimonial-author {
-  @include font_standard;
-  font-family: $font-brand2;
-  text-align: center;
-  font-weight: bold;
-}
-/* #Section Testimonial */
-
-/* Section Partners */
-.partner-wrapper {
-  background-color: #fff;
-  padding: 75px 0 75px;
-  @include tablet {
-    /*padding: 50px 0;*/
-    /*position: relative;
-    z-index: 9002;*/
-  }
-}
-.partner-slider {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto;
-  height: 105px;
-  width: 100%;
-  @include laptop {
-    width: 800px;
-  }
-}
-.partner-slider .slide {
-  margin-right: 30px;
-}
-.slick-dots {
-  bottom: -75px !important;
-}
-.partner-slider .slick-dots li {
-  width: 10px !important;
-  height: 2px !important;
-  @include tablet {
-    width: 20px !important;
-    height: 20px !important;
-  }
-}
-.partner-slider .slick-next {
-  right: -75px !important;
-}
-.partner-slider .slick-prev {
-  left: -75px !important;
-}
-.partner-slider .slick-track {
-  height: auto;
-}
-.partner-logo {
-  margin-right: 75px;
-}
-.partner-logo:last-child {
-  margin-right: 0;
-}
-/* #Section Partners */
-
-/* Offerings */
-.offerings-group {
-  font-family: $font-brand2;
-  text-transform: uppercase;
-  text-align: right;
-  @include tablet {
-  width: 30%;
-  float: right;
-  
-  }
-}
-.offerings-item::before {
-  content: '+';
-  margin-right: 15px;
-}
-.offerings-item {
-  margin-bottom: 20px;
-  height: 50px;
-}
-.offerings-title {
-  font-size: 20px;
-  text-align: right;
-  text-transform: uppercase;
-  margin: 50px 0 75px;
-}
-/* #Offerings */
 
 /* Contact */
 .contact-title {
   text-align: right;
   padding: 0;
   margin-bottom: 25px;
+  text-transform: uppercase;
 }
 .contact_info,
 .contact_info a {
@@ -1274,14 +924,15 @@ ul.nav li a:hover::after {
   color: $color-brand5;
   letter-spacing: 2px;
 }
+/* #Contact */
+
+
 /* Coming Soon */
 .coming-btn-border {
   border:2px solid $color-brand3;
   padding: 1px;
 }
 .coming-btn {
-  /*background-color: $color-brand3;*/
-  
   padding: 0 5px;
   text-transform: uppercase;
   font-size: 12px;
@@ -1295,21 +946,13 @@ ul.nav li a:hover::after {
 .coming-btn-border a:hover {
   text-decoration: none;
 }
-.comingsoon-hero {
-  background-color: #eee;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  height: 100vh;
-}
+
 .soon-layout p {
   color: #fff;
   @include font-size-med;
   text-transform: uppercase;
 }
-.comingsoon-hero .slick-slide {
-  height: 100vh;
-}
+
 .a-slide {
   background-size: cover;
   background-position: center center;
@@ -1324,11 +967,9 @@ ul.nav li a:hover::after {
 }
 /* #Coming Soon */
 
-/* ====================
-404
-======================= */
+/* 404 */
 .four_row {
-  height: calc(100vh - 76px);
+  height: 100vh;
   color: white;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1353,4 +994,132 @@ ul.nav li a:hover::after {
 }
 .four_row a:hover {
   color: $color-brand4;
+}
+
+/* ====================
+FEATURED WORK
+======================= */
+
+.project_content_featured {
+  margin-bottom: 20px;
+  width: 100% !important;
+}
+.project_content_text {
+  @include font_lz;
+  color: $text-color;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+/* Testing this code */
+.project_wrapper {
+  width: 100%;
+  height: 100%;
+}
+.project_column_img {
+  width: 55%;
+}
+.project_column_text {
+  width: 45%;
+}
+.content_50 img {
+  width: 100%;
+}
+
+.page_wrapper {
+  width: 100%;
+  margin: 0 auto 100px;
+  @include palm-mid {
+    max-width: 450px;
+    
+  }
+  @include tablet {
+    max-width: 600px;
+    width: 90%;
+    // margin-bottom: 100px;
+  }
+  @include laptop {
+    max-width: 885px;
+  }
+  @include desktop-blah {
+    max-width: 1100px;
+  }
+}
+.some-text {
+  padding: 50px 20px 50px 50px;
+  @include palm-mid {
+    padding-right: 0;
+  }
+  @include tablet {
+    padding: 20px;
+    float: left;
+    width: 45%;
+  }
+}
+.some-text-inner {
+  @include palm {
+    width: 75%;
+    float: right;
+  }
+  @include tablet {
+    width: 100%;
+    display: flex;
+    min-height: 345px;
+  }
+  @include laptop {
+    min-height: 490px;
+  }
+  @include desktop-blah {
+    min-height: 630px;
+  }
+}
+.some-text-content {
+  @include tablet {
+    width: 240px;
+    height: auto;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+  @include desktop-blah {
+    width: 350px;
+  }
+}
+.some-image {
+  @include tablet {
+    width: 55%;
+    float: right;
+  }
+}
+.divider_wrapper {
+  position: relative;
+  margin: 75px 0;
+}
+.divider_wrapper:last-child {
+  display: none;
+}
+.divider_divider {
+  background: #000;
+  height: 10px;
+   width: 15%;
+}
+.divider_option {
+  float: right;
+}
+.some-text-option {
+  @include tablet {
+    float: right;
+  }
+}
+.some-image-option {
+  @include tablet {
+    float: left;
+  }
+}
+.outer_wrapper {
+  @include tablet {
+    margin-bottom: 100px;
+  }
 }

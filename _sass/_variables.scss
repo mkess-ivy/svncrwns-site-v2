@@ -7,6 +7,7 @@ $alt-font-2: "Maison Neue", sans-serif;
 // Font Families
 $font-brand1: 'League Spartan', 'Maison Neue', Arial Black, sans-serif;
 $font-brand2: Helvetica, Arial, sans-serif;
+$font-brand3: 'Libre Baskerville', Helvetica, serif;
 
 // Colors
 $color-brand1:      #040707;
@@ -25,7 +26,7 @@ $primary-color: #4a4a4a;
 $brand-color-2: #C9A443;
 
 // Slide Properties
-$slide-height: calc(100vh - 76px);
+$slide-height: 100vh;
 
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;

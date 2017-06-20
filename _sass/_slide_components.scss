@@ -8,16 +8,22 @@
 .slide {
 	position: relative;
 }
-.slick-track {
+.svn-slider .slick-track {
 	height: $slide-height;
 }
 .slick-prev {
-	left: 40px !important;
+	left: 10px !important;
 	z-index: 10;
+	@include laptop {
+		left: 40px !important;
+	}
 }
 .slick-next {
-	right: 40px !important;
+	right: 10px !important;
 	z-index: 10;
+	@include laptop {
+		right: 40px !important;
+	}
 }
 .slick-prev.slick-arrow {
 	background-image: url('/assets/images/slide-left.png');
@@ -65,33 +71,52 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
-	/*background-image: url("http://placehold.it/1400x933");*/
 	height: $slide-height;
-	width: 60%;
-	float: left;
+	width: 100%;
+	@include laptop {
+		width: 60%;
+		float: left;	
+	}
 }
 .slide-intro_text {
-	width: 39%;
-	float: left;
-	position: relative;
-	padding-top: 100px;
-	height: $slide-height;
-}
-.slide-intro_title {
-	font-size: 85px;
-	line-height: 80px;
-	/*word-break: break-all;*/
-	font-family: 'League Spartan', sans-serif;
-	text-transform: uppercase;
-	left: -200px;
 	position: absolute;
 	width: 100%;
+	bottom: 0;
+	text-align: right;
+	height: $slide-height;
+	margin-bottom: 25px;
+	@include flex;
+	justify-content: flex-end !important;
+	@include laptop {
+		width: 39%;
+		float: left;
+		position: relative;
+		padding-top: 100px;
+	}
+}
+.slide-intro_title {
+	font-family: 'League Spartan', sans-serif;
+	text-transform: uppercase;
+	width: 100%;
+	position: absolute;
+	font-size: 40px;
+	line-height: 45px;
+	opacity: 0.6;
+	@include laptop {
+		font-size: 85px;
+		line-height: 80px;
+		left: -200px;
+	}
 }
 .slide-intro_copy {
-	bottom: 0;
-	position: absolute;
-	padding: 30px;
-	font-size: 14px;
+	display: none;
+	@include laptop {
+		bottom: 0;
+		position: absolute;
+		padding: 30px;
+		font-size: 14px;	
+	}
+	
 }
 .slide1 {
 	background-image: url('/assets/images/test-hendrix.jpg');
@@ -99,15 +124,36 @@
 	background-repeat: no-repeat;
 	height: $slide-height;
 	width: 100%;
+	background-position: center center;
+	@include palm-mid {
+		background-position: initial;
+	}
 }
 
 /* Three-Fold Slide */
 .three-fold_slide {
-	width: 33.3%;
-	float: left;
+	width: 100%;
+	
 	height: $slide-height;
 	background-position: center center;
 	background-size: cover;
+	@include laptop {
+		float: left;
+		width: 33.3%;
+	}
+}
+/* mobile -only fix */
+.three-fold_slide:nth-child(2) {
+	display: none;
+	@include laptop {
+		display: block;
+	}
+}
+.three-fold_slide:nth-child(3) {
+	display: none;
+	@include laptop {
+		display: block;
+	}
 }
 
 /* One in One Slide */
@@ -121,12 +167,16 @@
 	justify-content: center;
 }
 .slide-inner {
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
-	height: 90%;
-	width: 40%;
-	margin: 30px 0 0 40px;
+	display: none;
+	@include laptop {
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+		height: 90%;
+		width: 40%;
+		margin: 30px 0 0 40px;
+	}
+	
 }
 
 /* Two Plus One Slide */
@@ -135,17 +185,30 @@
 	background-size: cover;
 	background-position: center center;
 	height: $slide-height;
-	width: 47%;
+	width: 100%;
 	margin-right: 10px;
 	float: left;
+	@include laptop {
+		width: 47%;	
+	}
+}
+.two-plus_slide:nth-child(2) {
+	display: none;
+	@include laptop {
+		display: block;
+	}
 }
 .one-plus_slide {
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
-	height: $slide-height;
-	width: 4%;
-	float: left;
+	display: none;
+	@include laptop {
+		display: block;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+		height: $slide-height;
+		width: 4%;
+		float: left;
+	}
 }
 
 /* Fin Slide */
@@ -161,23 +224,39 @@
 
 /* Credits Slide */
 .slide_credits-wrapper {
-	width: 75%;
-	margin: 7em auto;
+	width: 65%;
+	margin: 150px auto 0;
+	@include laptop {
+		width: 75%;
+		margin: 7em auto;	
+	}
+}
+.slide_credits-wrapper2 {
+	margin: 50px auto 0;
+	width: 65%;
 }
 .slide-credits_list {
 	list-style: none;
 	margin-top: 30px;
 	font-size: 14px;
 	text-transform: uppercase;
-	width: 80%;
+	@include laptop {
+		width: 80%;	
+	}
 }
 .catalog_credits-group.slide {
-	float: left;
-	width: 200px;
-	padding-bottom: 25px;
 	font-size: 14px;
+	@include laptop {
+		padding-bottom: 25px;
+		float: left;
+		width: 200px;
+	}
 }
 .catalog_title-credit.slide {
 	text-align: left;
-	font-size: 40px;
+	font-size: 26px;
+	@include laptop {
+		font-size: 40px;	
+	}
+	
 }
