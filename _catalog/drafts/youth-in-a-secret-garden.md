@@ -8,7 +8,6 @@ featured-rank 						: "7"
 
 img-path									: /assets/images/drink.jpg
 
-catalog-cover-image				: /assets/images/reclaimedyouth_cover.jpg
 subtitle									: "on a warm and cloudy day, one day before rain poured from the clouds"
 category									: "photo serie"
 index-location						: "p5"

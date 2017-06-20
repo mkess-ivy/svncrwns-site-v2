@@ -8,7 +8,7 @@ subtitle: "some random subtext that explains this two word title"
 
 img-path: /assets/images/drink.jpg
 
-catalog-image					: /assets/images/humble-catalog.jpg
+catalog-cover-image					: /assets/images/catalog-draft.png
 
 photogroup1: "yes"
 photo1: /assets/images/green.jpg
@@ -42,45 +42,6 @@ caption7-text: "Type something of interest here, just some filler shxt, no one c
 
 video-url: "https://player.vimeo.com/video/104641191?api=1"
 
-
-position1: "creative direction"
-artist1: "chavon henderson"
-add1b: "yes"
-artist1b: "montier kess"
-
-position2: "photography"
-artist2: "chavon henderson"
-add2b: "yes"
-artist2b: "kirby griffin"
-
-position3: "cinematography"
-artist3: "kirby griffin"
-add3b: "yes"
-artist3b: "nick diamante"
-
-addpos4: "yes"
-position4: "producer"
-artist4: "nick mitchel"
-add4b: "yes"
-artist4b: "chavon henderson"
-
-addpos5: "yes"
-position5: "special thanks"
-artist5: "sankofa"
-add5b: "yes"
-artist5b: "new secrets"
-add5c: "yes"
-artist5c: "fix baltimore studios"
-add5d: "yes"
-artist5d: "taste this"
-add5e: "yes"
-artist5e: "tneg studios"
-
-
-testimonial-group: "yes"
-testimonial-category: "work"
-testimonial-text: "… this was by far one of the best experiences of the entire school year."
-testimonial-author: "some kid, sankofa pop up 2016"
 ---
 
 
