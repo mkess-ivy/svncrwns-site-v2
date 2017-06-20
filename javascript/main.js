@@ -78,12 +78,34 @@ $(document).ready(function(){
     }
   });
 
+  // Reveal mobile menu after certain scroll height
+  $('#js-menu').hide();
+  $(window).scroll(function() {
+    if ($(window).scrollTop() > 100) {
+      $('#js-menu').fadeIn("slow");
+    }
+    else {
+      $('#js-menu').fadeOut("fast");
+    }
+  });
+
+  // Reveal mobile menu after certain scroll height
+  $('#js-home-top').hide();
+  $(window).scroll(function() {
+    if ($(window).scrollTop() > 700) {
+      $('#js-home-top').fadeIn("slow");
+    }
+    else {
+      $('#js-home-top').fadeOut("fast");
+    }
+  });
+
 
   // Scroll Reveal Class
   window.sr = ScrollReveal();
   sr.reveal('.foo', { duration: 500, opacity: 0.1 });
 
-
+  
   // Catalog Hover Feature
   $(".js-background-trigger").hover(function(){
    $(".js-background-receiver", this).addClass('hover');
@@ -93,4 +115,15 @@ $(document).ready(function(){
      $(".js-background-receiver", this).removeClass('hover');
   });
 
+  
+  // Clock
+  var clockElement = document.getElementById( "clock" );
+  function updateClock ( clock ) {
+    clock.innerHTML = new Date().toLocaleTimeString();
+  }
+  setInterval(function () {
+    updateClock( clockElement );
+  }, 1000);
+
+  
 });
