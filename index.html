@@ -20,15 +20,39 @@ section3_text     : "In a world of hyper-visibility where the invisible is also 
 
   <!-- Section Hero -->
   <section class="fullpage">
-    {% include backtop_icon.html %}
+    {% include backtop_icon.html %} 
   </section>
 
-  <section class="svn-wrapper">
+  <!-- Home Top Section -->
+  <!-- using .fade-in and .one through .three to tell elements when to appear on page -->
+  <section class="svn-wrapper home_top_wrapper no-padding">
+    <div class="home_top_section">
+      <div class="home_top_item">{{ site.time | date: "%-m.%-d.%-y" }}</div>
+      <div class="home_top_item"><span id="clock"></span> <span>EST</span></div>
+      <div class="home_top_item">Baltimore</div>
+    </div>
+    <div class="home_top_logo fade-in one">
+      <img src="assets/images/svn-logo-big.svg" class="home_top_logo_img" />
+    </div>
+    <div class="home_top_text fade-in two">a brand management &amp; production studio</div>
+    <ul class="home_top_list fade-in three">
+      <li>digital</li>
+      <li>visual</li>
+      <li>experiential</li>
+      <li>strategy</li>
+    </ul>
+    <div class="home_top_more fade-in three"><a href="#primary-hero" />
+      learn more<br/>
+      <img src="/assets/images/learn-more-icon.png" width="10" /></a>
+    </div>
+  </section>
+  <!-- Home Top Section -->
+
+  <section class="svn-wrapper svn-primary-hero-margin1">
     <div class="svn-big-logo-wrapper clear">
       <img src="/assets/images/svn-logo-big.svg" class="svn-big-logo" />
     </div>
-    <div class="svn-primary-hero" style="background-image: url('{{ page.home_hero_img }}');">
-      
+    <div class="svn-primary-hero" style="background-image: url('{{ page.home_hero_img }}');" id="primary-hero">
     </div>
   </section>
 
@@ -36,9 +60,7 @@ section3_text     : "In a world of hyper-visibility where the invisible is also 
   <section class="section-bg section01-bg-image clear">
     <div class="svn-wrapper">
       <div class="svn-content foo">
-        <div class="svn-content_no">
-          01
-        </div>
+        <div class="svn-content_no">01</div>
         <div class="content_container">
           <div class="content_50 pull_right">
             <div class="svn-content_img-no svn-content_img-no-txt">01</div>
@@ -48,7 +70,7 @@ section3_text     : "In a world of hyper-visibility where the invisible is also 
             {{ page.section1_text }}
           </div>
 
-          {% include caption.html caption_title="01. Something Bold" caption_text="Type something of interest here, just some filler shxt, no one cares what this says anyway.  Just keep on typing, get it?!" %}
+          {% include caption.html caption_title="03. Something Bold" caption_text="Type something of interest here, just some filler shxt, no one cares what this says anyway.  Just keep on typing, get it?!" %}
 
         </div>
         
@@ -61,6 +83,7 @@ section3_text     : "In a world of hyper-visibility where the invisible is also 
 
   <!-- Big Hero Image -->
   <section class="svn-wrapper">
+    <div class="big-text">featured</div>
     <div class="svn-primary-hero svn-primary-hero-margin" style="background-image: url( '{{ page.section2_img }}' );">
     </div>
   </section>
@@ -100,6 +123,7 @@ section3_text     : "In a world of hyper-visibility where the invisible is also 
   {% include testimonial.html %}
 
   <section class="partner-wrapper" style="z-index: 9002;">
+    <div class="partner-title">partners</div>
     <div class="partner-slider clear">
       {% for slide-item in site.data.data-partners %}
       <div class="slide"><img src="{{ slide-item.image }}"></div>

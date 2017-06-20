@@ -1,8 +1,8 @@
 <header class="site-header clear">
   <div class="logo-wrapper clear">
-    <div class="logo"><a href="/"><img src="{{ site.logo }}" class="logo-img" /></a></div>
+    <div class="logo" {% if page.layout == 'default' %}id="js-home-top"{% endif %}><a href="/"><img src="{{ site.logo }}" class="logo-img" /></a></div>
   </div>
-  <section class="svn-wrapper">
+  <section class="svn-wrapper no-padding">
     <!-- vertical menu? remove navigation-horizontal class -->
     <!-- <div class="main-nav">
       <ul class="navigation">
@@ -22,7 +22,7 @@
         <li><a href="#">CONTACT</a></li>
       </ul>
     </div> -->
-    <div class="main-nav">
+    <div class="main-nav" id="js-menu">
       <ul class="nav">
         <li><a href="/">home</a></li>
         <li><a href="{{ site.baseurl }}/featured">featured</a></li>
