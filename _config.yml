@@ -21,6 +21,7 @@ collections:
 
 # Site Variables 
 logo              : "/assets/images/svn-logo.svg"
+timezone          : 'America/New_York'
 
 # Menu Information
 
