@@ -2,15 +2,14 @@
 layout: white-bg
 ---
 
-<div class="spacer2x"></div>
+<!-- <div class="spacer2x"></div> -->
 
-<article class="catalog_photo-wrapper video">
+<article class="svn-wrapper video">
 	
   <section>
-    {% if page.visual-group == "yes" %}
+    {% if page.video-url %}
       <div class="pos-rel">
-        <div class="catalog_img-no svn-content_img-no-txt">01</div>
-        <div class="pos-rel catalog-html5-video" style="background-image: url('{{ page.photo1 }}');">
+        <div class="pos-rel svn-primary-hero film-hero" style="background-image: url('{{ page.film-hero }}');">
 
           <div class="svn-video-overlay">
             <div class="video-container">
@@ -32,27 +31,12 @@ layout: white-bg
     {% endif %} 
   </section>
 
-  <section class="clear">
-    <div class="svn-content_contain-caption catalog_caption-close video">
-      <div class="svn-content_caption-title">
-        {{ page.caption1-title }}
-      </div>
-      <div class="svn-content_caption-sm">
-        {{ page.caption1-text }}
-      </div>  
-      <div class="svn-caption_spacer"></div>
-    </div>
-  </section>
-
 	<section class="catalog_section video clear">
     <div class="catalog_credits-wrapper video">
       <div class="catalog_video-title">{{ page.title }}</div>
-      <div class="spacer1x"></div>
-      <div class="catalog_video-text">{{ page.content }}</div>
-      <div class="spacer1x"></div>
-      <div class="spacer1x"></div>
-      <div class="spacer1x"></div> 
+      {{ page.content }}
     </div>
+    {% include video-credits-list.html %}
   </section>
 
  
