@@ -3,8 +3,8 @@
 layout 												: catalog-comingsoon
 title 												: "City of Gods Shop x Baltimore Arabs"
 date 													: 'Mar 15 2016'
-year 													:	'2016'
 
+season: "1"
 [//]													: # (Featured Info)
 featured 											: "yes"
 featured-rank 								: "5"

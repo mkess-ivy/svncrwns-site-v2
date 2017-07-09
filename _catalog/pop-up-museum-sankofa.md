@@ -3,7 +3,8 @@
 layout 												: catalog-project
 title 												:  "Pop-Up Museum: Sankofa"
 date 													: "Feb 23 2016"
-year 													:	'2016'
+season: "2"
+excerpt: "an art installation produced with Sankofa x BCPS"
 
 
 [//]: # (Featured Info)
@@ -52,6 +53,8 @@ testimonial-category: "work"
 testimonial-text: "...this was definitely a great start for getting the kids involved with the culture, and knowing a little bit of history that they may not have learned in the class room."
 testimonial-author: "Ms. Miles, Leith Walk Elementary"
 
+data-captionlist: "pop-up-sankofa-captions"
+
 
 [//]: # (Catalog All)
 catalog-cover-image						: /assets/images/sankofa_cover.jpg
@@ -61,6 +64,6 @@ data-credits-list: pop-up-sankofa-credits
 
 ---
 
-SVNCRWNS partnered with <a href="http://sankofaafricanbazaar.com" target="_blank">Sankofa African and World Bazaar</a> to create a Pop-Up Museum for Black History Month, entitled, SANKOFA.  The word Sankofa means “to go back and get it”.  With that in mind, we created a field trip to invite the youth of a few Baltimore City Public Schools to visit and experience our Pop-Up Museum to learn about black history and art prior to the teachings of American history. 
+SVNCRWNS partnered with <a href="http://sankofaafricanbazaar.com" target="_blank" class="post-link">Sankofa African and World Bazaar</a> to create a Pop-Up Museum for Black History Month, entitled, SANKOFA.  The word Sankofa means “to go back and get it”.  With that in mind, we created a field trip to invite the youth of a few Baltimore City Public Schools to visit and experience our Pop-Up Museum to learn about black history and art prior to the teachings of American history. 
 
 At SANKOFA, we were able to have a hands-on experience with authentic African art, instruments, an installation of clouds, story time, clothing, and more.  

@@ -1,0 +1,24 @@
+<div class="catalog_hero-section image-wrapper clear">
+  <!-- <div class="catalog_photo-group" id="js-photo7">
+    <div class="catalog_img-no svn-content_img-no-txt">07</div>
+    <img src="{{ page.photo7 }}" />
+  </div> -->
+
+  {% if page.visual-group == "yes" %}
+  <div class="pos-rel">
+    <div class="catalog_img-no svn-content_img-no-txt">07</div>
+    <div class="pos-rel catalog-html5-video" style="background-image: url('{{ page.photo7 }}');">
+      <div class="svn-video-overlay">
+        <div class="video-container">
+          <i class="fa fa-times fa-2x html5-close" aria-hidden="true"></i>
+          <iframe id="video" src="{{ page.video-url }}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="svn-play-btn">
+        <span class="play catalog-play" id="video-fullscreen"></span>
+      </div>
+    </div>
+  </div>
+  {% endif %}
+</div>
+

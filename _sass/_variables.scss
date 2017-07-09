@@ -49,3 +49,86 @@ $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 
+// Fonts
+
+
+/* Fonts */
+.font_lz {
+  @include font_lz;
+  text-align: right;
+  line-height: 50px;
+  margin-bottom: 7px;
+  @include desktop {
+    font-size: 48px;
+    line-height: 65px;
+  }
+  @include tv {
+    margin-bottom: 30px;
+  }
+}
+.font_size_la {
+  @include font_size_la;
+  text-align: right;
+  @include desktop-blah {
+    font-size: 25px;
+  }
+}
+.font_size_lg {
+  @include font_size_lg;
+  text-align: right;
+  line-height: 30px;
+}
+.font_lg_lowercase {
+  @include font_lg_lowercase;
+}
+.font_size_micro {
+  @include font_size_micro;
+  text-align: right;
+  @include desktop {
+    font-size: 16px !important;
+  }
+}
+.font_size_small {
+  @include font_size_small;
+  text-align: right;
+}
+.font_size_med {
+  @include font_size_med;
+  text-align: right;
+  line-height: 20px;
+  margin-bottom: 7px;
+  @include tv {
+    margin-bottom: 30px;
+  }
+}
+.font_standard {
+  @include font_standard;
+  margin: 15px 0;
+  line-height: 18px;
+  text-align: right;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.font_text_area {
+  @include font_text_area;
+  text-align: right;
+  margin: 10px 0;
+}
+.small_links {
+  @include font_size_micro;
+  line-height: 14px !important;
+}
+.small_links_w {
+  line-height: 14px !important;
+}
+.link {
+  color: #000;
+  cursor: pointer;
+}
+.link:hover {
+  color: $color-brand5;
+  border-bottom: 1px solid;
+  
+}
+

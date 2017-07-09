@@ -3,7 +3,7 @@
 layout 										: catalog-slide
 title 										: "Kenn Hall"
 date 											: 'Feb 27 2017'
-year 											:	'2017'
+season: "3"
 
 [//] 											: # (Featured Info)
 featured 									: "yes"

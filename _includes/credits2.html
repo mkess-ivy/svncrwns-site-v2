@@ -1,0 +1,16 @@
+<div class="catalog_hero-section image-wrapper clear">
+	<div class="credits_title">credits</div>
+	<ul class="credits_list2 group">
+		{% for credit in site.data.[page.data-credits-list]%}
+		  	<li class="credits_list_item">
+		    	{{ credit.position }}
+		    	<ul class="credits_list_artist">
+		    		{% for people in credit.peoples %}
+		      		<li>{{ people.name }}</li>
+		    		{% endfor %}
+		    	</ul>
+		  	</li>
+		{% endfor %}
+	</ul>
+	
+</div>

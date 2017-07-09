@@ -1,0 +1,8 @@
+<section class="partner-wrapper" style="z-index: 9002;">
+	<div class="partner-title">partners</div>
+	<div class="partner-slider clear">
+  		{% for item in site.data.data-partners %}
+  		<div class="slide"><img src="{{ item.image }}"></div>
+		{% endfor %}
+	</div>
+</section>

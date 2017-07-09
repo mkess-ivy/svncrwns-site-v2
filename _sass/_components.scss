@@ -23,7 +23,7 @@
   position: fixed;
   bottom: 2em; 
   right: 10px;
-  z-index: 200;
+  z-index: 9006;
   margin-right: 0.3em;
   cursor: pointer;
  }
@@ -33,12 +33,15 @@
 
  /* CTAs */
 .return-cta {
-  text-align: left;
   border: 2px solid;
-  width: 135px;
+  width: auto;
   padding: 4px 7px 3px;
   text-transform: uppercase;
   font-size: 12px;
+  float: right;
+  margin-left: 25px;
+  margin-bottom: 10px;
+  font-family: $font-brand1;
 }
 .return-cta-link:hover {
   text-decoration: none;
@@ -47,34 +50,42 @@
 .return-cta:hover {
   border-color: $color-brand5;
 }
-.slide_credits-wrapper a:hover {
-  text-decoration: none;
-  color: $color-brand5;
-}
+
+
 
 /* Featured Text */
-.big-text {
-  display: none;
-  @include tablet {
-    position: absolute;
-    top: -94px;
-    font-size: 150px;
-    z-index: 0;
-    text-transform: uppercase;
-    color: rgba(0,0,0,0.5);
-    left: 0;
-    right: 0;
-    letter-spacing: 15.5px;
-    text-align: center;
-  }
-}
+// .big-text {
+//   display: none;
+//   @include tablet {
+//     position: absolute;
+//     top: -94px;
+//     font-size: 150px;
+//     z-index: 0;
+//     text-transform: uppercase;
+//     color: rgba(0,0,0,0.5);
+//     left: 0;
+//     right: 0;
+//     letter-spacing: 15.5px;
+//     text-align: center;
+//   }
+// }
 
 /* Big Heroes */
 .svn-primary-hero-margin {
+  margin-top: 75px !important;
+}
+.margintop75 {
+  margin-top: 75px !important; 
+}
+.svn_hero_margin {
   margin-top: 75px;
+  margin-bottom: 0px !important;
 }
 .svn-primary-hero-margin1 {
   padding-top: 125px !important;
+}
+.svn-primary-hero-margin2 {
+  padding-top: 90px !important;
 }
 .svn-primary-hero {
   background-repeat: no-repeat;
@@ -84,22 +95,36 @@
   position: relative;
   z-index: 3;
   @include tablet {
-    margin-bottom: 75px;  
+    margin-bottom: 75px; 
+    height: calc(100vh - 100px); 
   }
   @include tv {
     height: calc(97vh - 126px);
   }
 }
+.svn_hero {
+  @extend .svn-primary-hero;
+}
+.catalog_hero {
+  @extend .svn_hero;
+  height: calc(100vh - 230px);
+  padding: 0 !important;
+  @include tablet {
+    height: calc(100vh - 200px);
+  }
+}
 .film-hero {
   @include flex;
   margin-bottom: 0;
-}
-.catalog-hero {
-  height: calc(100vh - 230px);
+  width: 100%;
   @include tablet {
-    height: calc(100vh - 320px);
+    margin-bottom: 75px;
+    width: 95%;
+    float: right;
+    height: 65vh;
   }
 }
+
 .hero-bg { 
   background-size: cover; 
   background-position: bottom right; 
@@ -121,7 +146,7 @@
 .hero-logo_img { 
   width: 70%; 
 }
-.fullpage { 
+.backtop_wrapper { 
   position: relative; 
   width: 100%; 
   @include desktop-blah { 
@@ -150,28 +175,35 @@
   height: 100vh;
 }
 
-/* Caption */
+/* Caption - Home Page */
 .contain_caption_wrapper {
   position: relative;
-  margin-top: 150px;
+  // margin-top: 75px;
   @include tablet {
-    margin-top: 50px;
+    // margin-top: 50px;
+  }
+  @include laptop {
+    margin-top: 0px;
   }
 }
 .svn-content_contain-caption { 
+  
   @include palm-mid { 
     float: right;
   }
   @include tablet { 
     clear: both; 
-    padding: 125px 0 10px;
+    padding: 75px 0 10px;
     display: inline-block;
+  }
+  @include bigscreen {
+    padding: 100px 0 10px;
   }
 }
 .caption {
   float: right;
   width: 65%;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
   @include tablet {
     width: 35%;
     margin-left: 25px;
@@ -182,30 +214,71 @@
   @include desktop-blah {
     width: 25%;
   }
+  @include bigscreen {
+    width: 30%;
+  }
 }
 .close-caption {
   padding-top: 2em;
 }
 .svn-content_caption-sm { 
-  font-family: $font-brand2;
-  font-size: 12px;
+  font-family: $font-brand3;
+  font-size: 13px;
   text-align: right;
-  line-height: 14px;
+  line-height: 17px;
   @include tablet {  
     display: block;
+  }
+  @include bigscreen {
+    font-size: 18px;
+    line-height: 22px;
   }
 }
 .svn-content_caption-title { 
   font-size: 12px; 
   text-transform: uppercase; 
   font-weight: bold; 
-  font-family: $font-brand2;
+  font-family: $font-brand1;
   text-align: right;
+  @include desktop-blah {
+    font-size: 16px;
+  }
 }
 .svn-caption_spacer { 
   height: 20px; 
   @include tablet { 
     clear: both; 
+  }
+}
+
+/* New Caption for Caption2.html */
+.caption_wrapper {
+  float: right;
+  width: 70%;
+  margin-top: 20px;
+  @include tablet {
+    width: 48%;
+  }
+}
+.caption_item {
+  padding-bottom: 27px;
+}
+.caption_title {
+  text-align: right;
+  font-weight: 700;
+  font-size: 13px;
+  font-family: $font-brand1;
+  text-transform: uppercase;
+  @include desktop-blah {
+    font-size: 16px;
+  }
+}
+.caption_text {
+  text-align: right;
+  font-size: 13px;
+  @include desktop-blah {
+    font-size: 18px;
+    line-height: 22px;
   }
 }
 
@@ -219,31 +292,37 @@
 }
 .testimonial-text {
   @include font_size_la;
-  font-family: $font-brand2;
+  font-family: $font-brand3;
   text-align: center;
-  margin-bottom: 25px;
+  margin-bottom: 45px;
+  @include tablet {
+    margin-bottom: 25px;
+  }
 }
 .testimonial-author {
   @include font_standard;
-  font-family: $font-brand2;
+  font-family: $font-brand1;
   text-align: center;
   font-weight: bold;
 }
 /* #Testimonial */
 
-/* Partners */
+/* Partners Slider */
 .partner-wrapper {
   background-color: #fff;
-  padding: 20px 0 10px;
+  padding: 20px 0 75px;
+
   @include tablet {
+    padding-bottom: 10px;
   }
 }
 .partner-title {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-size: 10px;
+  font-size: 12px;
   margin: 10px 0 30px;
+  font-family: $font-brand1;
 }
 .partner-slider {
   display: flex;
@@ -252,8 +331,12 @@
   margin: 0 auto;
   height: 80px;
   width: 100%;
+  @include tablet {
+    height: 135px;
+  }
   @include laptop {
     width: 800px;
+    height: 80px;
   }
 }
 .partner-slider .slide {
@@ -294,6 +377,9 @@
   @include palm-mid {
     padding: 0;
   }
+  @include desktop {
+    margin-top: 75px;
+  }
 }
 .title-icon { 
   width: 3em; 
@@ -306,22 +392,22 @@
 .title { 
   text-transform: uppercase; 
   font-family: $font-brand1;
-  font-size: 18px;
+  font-size: 24px;
   text-align: right;
-  line-height: 20px;
+  line-height: 28px;
   @include laptop {
   	font-size: 34px;
   	line-height: 40px;
   }
 }
 .page-title_wrapper {
-	margin-bottom: 0;
+	margin-bottom: 0 !important;
 }
 
 /* Offerings */
 .offerings-group {
-  font-family: $font-brand2;
-  text-transform: uppercase;
+  font-family: $font-brand3;
+  // text-transform: uppercase;
   text-align: right;
   @include tablet {
   width: 30%;
@@ -341,108 +427,127 @@
   text-align: right;
   text-transform: uppercase;
   margin: 50px 0 75px;
+  font-family: $font-brand1;
 }
 /* #Offerings */
 
-/* Home Top Section */
-.home_top_wrapper {
+/* Masthead Section */
+.masthead_wrapper {
+  @extend .svn-wrapper;
   height: calc(100vh - 60px);
   @include flex;
   font-family: $font-brand3;
   @include tablet {
     height: 100vh;
+    padding: 0;
   }
-}
-.home_top_section {
-  display: inherit;
-  position: absolute;
-  top: -35px;
-  width: 100%;
-  @include tablet {
-    margin-bottom: 110px;  
-    top: 10px;
+
+  .masthead_section {
+    display: inherit;
+    position: absolute;
+    top: 15px;
+    width: 100%;
+    @include tablet {
+      margin-bottom: 110px;  
+      top: 10px;
+    }
+    .masthead_item {
+      font-size: 12px;
+      width: 33.3%;
+      font-weight: 700;
+      @include laptop {
+        font-size: 24px;
+        width: 33.3%;  
+        font-weight: 400;
+      }
+    }
+    .masthead_item:nth-child(2) {
+      text-align: center;
+      width: 40%;
+      @include laptop {
+        width: 33.3%;
+      }
+    }
+    .masthead_item:nth-child(3) {
+      text-align: right;  
+    }
   }
-}
-.home_top_item {
-  font-size: 12px;
-  width: 33.3%;
-  font-weight: 700;
-  @include laptop {
-    font-size: 24px;
-    width: 33.3%;  
-    font-weight: 400;
-  }
-}
-.home_top_item:nth-child(2) {
-  text-align: center;
-  width: 40%;
-  @include laptop {
-    width: 33.3%;
-  }
-}
-.home_top_item:nth-child(3) {
-  text-align: right;  
-}
-.home_top_logo {
-  margin-bottom: 25px;
-  @include laptop {
+  .masthead_logo {
+    margin-bottom: 25px;
     
+    .masthead_logo_img {
+      width: 300px;
+      @include laptop {
+        width: 500px;
+      }
+    }
   }
-}
-.home_top_logo_img {
-  width: 300px;
-  @include laptop {
-    width: 500px;
+  .masthead_text {
+    font-size: 24px;
+    width: 90%;
+    text-align: center;  
+    @include tablet {
+      font-size: 34px;
+      width: 75%;
+    }
+    @include laptop {
+      width: 50%;
+    }
+    @include desktop {
+      max-width: 500px;
+    }
   }
-}
-.home_top_text {
-  font-size: 24px;
-  width: 90%;
-  text-align: center;  
-  @include tablet {
-    font-size: 34px;
-    width: 75%;
+  .masthead_list {
+    margin: 30px 0 30px;
+    padding: 0;
+    list-style: none;
+    font-size: 12px;
+    @include laptop {
+      font-size: 14px;
+      margin: 10px 0 10px;
+    }
+    @include desktop {
+      font-size: 20px;
+      margin: 20px 0 10px;
+    }
   }
-  @include laptop {
-    width: 50%;
+  .masthead_list li {
+    display: inline-block;
   }
-}
-.home_top_list {
-  margin: 30px 0 30px;
-  padding: 0;
-  list-style: none;
-  font-size: 12px;
-  @include laptop {
-    font-size: 14px;
-    margin: 10px 0 10px;
+  .masthead_list li::after {
+    content:'|';
+    margin: 0 7px;
+    height: 10px;
+    @include laptop {
+      margin: 0 10px;
+    }
   }
-}
-.home_top_list li {
-  display: inline-block;
-}
-.home_top_list li::after {
-  content:'|';
-  margin: 0 7px;
-  height: 10px;
-  @include laptop {
-    margin: 0 10px;
+  .masthead_list li:last-child::after {
+    content: none;
   }
+  .masthead_more {
+    text-align: center;
+    font-style: italic;
+    font-size: 12px;
+    position: absolute;
+    bottom: 20px;
+
+    .masthead_more a:hover {
+      text-decoration: none;
+      cursor: pointer;
+    }
+  }
+
 }
-.home_top_list li:last-child::after {
-  content: none;
-}
-.home_top_more {
-  text-align: center;
-  font-style: italic;
-  font-size: 12px;
-  
-  position: absolute;
-  bottom: 20px;
-}
-.home_top_more a:hover {
-  text-decoration: none;
-  cursor: pointer;
-}
+
+
+
+
+
+
+
+
+
 
 /* Keyframes */
 /* make keyframes that tell the start state and the end state of our object */
@@ -485,3 +590,75 @@ animation-delay: 0.9s;
 }
 
 /* #Home Top Section */
+/* ====================
+UPCOMING EVENTS
+======================= */
+.event_wrapper {
+  // margin-top: 150px;
+  font-family: $font-brand1;
+  @include tablet {
+    margin-top: 50px;
+  }
+  @include desktop {
+    margin-top: 100px;
+  }
+}
+.event_wrapper_inner {
+  margin: 50px 0;
+  width: 60;
+  float: right;
+  max-width: 155px;
+  @include tablet {
+    width: 100%;
+    max-width: none;
+  }
+}
+.event_item {
+  margin-bottom: 40px;
+  @include tablet {
+    width: 20%;
+    float: right;
+    margin-left: 25px;
+    max-width: 140px;
+  }
+  @include laptop {
+    margin-left: 50px;
+    max-width: 170px;
+  }
+  @include desktop {
+    max-width: 225px;
+  }
+}
+.event_heading {
+  font-size: 11px;
+  text-align: right;
+  font-family: $font-brand3;
+  @include desktop {
+    font-size: 15px;
+  }
+}
+.event_title {
+  margin: 7px 0;
+  line-height: 36px;
+  text-align: right;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-family: $font-brand1;
+  @include tablet {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  @include desktop {
+    font-size: 26px;
+    line-height: 40px;
+  }
+
+}
+.event_item:last-child {
+  margin-left: 0 !important;
+}
+
+.season_number {
+  text-align: right;
+  font-size: 30px;
+}

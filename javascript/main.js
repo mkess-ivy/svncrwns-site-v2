@@ -78,7 +78,7 @@ $(document).ready(function(){
     }
   });
 
-  // Reveal mobile menu after certain scroll height
+  // Reveal logo after certain scroll height
   $('#js-menu').hide();
   $(window).scroll(function() {
     if ($(window).scrollTop() > 100) {
@@ -86,6 +86,17 @@ $(document).ready(function(){
     }
     else {
       $('#js-menu').fadeOut("fast");
+    }
+  });
+
+  // Reveal burger menu after certain scroll height
+  $('#menu-container').hide();
+  $(window).scroll(function() {
+    if ($(window).scrollTop() > 100) {
+      $('#menu-container').fadeIn("slow");
+    }
+    else {
+      $('#menu-container').fadeOut("fast");
     }
   });
 
@@ -101,9 +112,9 @@ $(document).ready(function(){
   });
 
 
-  // Scroll Reveal Class
-  window.sr = ScrollReveal();
-  sr.reveal('.foo', { duration: 500, opacity: 0.1 });
+  // Scroll Reveal Class - removed this functionality from front-end
+  // window.sr = ScrollReveal();
+  // sr.reveal('.foo', { duration: 500, opacity: 0.1 });
 
   
   // Catalog Hover Feature
@@ -124,6 +135,7 @@ $(document).ready(function(){
   setInterval(function () {
     updateClock( clockElement );
   }, 1000);
+
 
   
 });

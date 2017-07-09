@@ -2,7 +2,7 @@
 layout: catalog-comingsoon
 title:  "gullah vortex"
 date:   'Jul 01 2016'
-year:	'2016'
+season: "2"
 medium: art
 featured: "no"
 subtitle: "some random subtext that explains this two word title"

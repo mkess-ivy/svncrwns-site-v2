@@ -78,15 +78,23 @@
 		float: left;	
 	}
 }
+.intro_height {
+	height: 75vh !important;
+	@include laptop {
+		height: 100vh !important;
+	}
+}
 .slide-intro_text {
-	position: absolute;
-	width: 100%;
-	bottom: 0;
-	text-align: right;
+	display: block !important;
+	// position: absolute;
+	// width: 100%;
+	// bottom: 0;
+	// text-align: right;
 	height: $slide-height;
-	margin-bottom: 25px;
-	@include flex;
+	// margin-bottom: 25px;
+	// @include flex;
 	justify-content: flex-end !important;
+	position: relative;
 	@include laptop {
 		width: 39%;
 		float: left;
@@ -102,15 +110,28 @@
 	font-size: 40px;
 	line-height: 45px;
 	opacity: 0.6;
+	text-align: right;
+	top: 20px;
+	right: 20px;
+	@include palm-mid {
+		width: 72%;
+	}
+	@include tablet {
+		width: 62%;
+	}
 	@include laptop {
 		font-size: 85px;
 		line-height: 80px;
 		left: -200px;
+		top: auto;
+		right: auto;
+		width: 100%;
 	}
 }
 .slide-intro_copy {
 	display: none;
 	@include laptop {
+		display: block;
 		bottom: 0;
 		position: absolute;
 		padding: 30px;
@@ -125,7 +146,7 @@
 	height: $slide-height;
 	width: 100%;
 	background-position: center center;
-	@include palm-mid {
+	@include tablet {
 		background-position: initial;
 	}
 }
@@ -224,12 +245,66 @@
 
 /* Credits Slide */
 .slide_credits-wrapper {
-	width: 65%;
-	margin: 150px auto 0;
-	@include laptop {
-		width: 75%;
-		margin: 7em auto;	
+	width: 95%;
+	margin: 100px auto 0;
+	@extend %clearfix;
+	@include tablet {
+		width: 85%;
+		margin: 150px auto 0;
 	}
+	@include laptop {
+		width: 85%;
+		margin: 150px auto 0;
+	}
+}
+.slide_credits-wrapper a:hover {
+  text-decoration: none;
+  color: $color-brand5;
+}
+/* Credits */
+.credits_list2 {
+  text-align: right;
+  list-style: none;
+  @extend %clearfix;
+  
+}
+.credits_list_item {
+  font-family: $font-brand1;
+  text-transform: uppercase;
+  font-size: 12px;
+  width: 45%;
+  float: right;
+  margin-left: 12px;
+  height: 115px;
+  @include desktop {
+    font-size: 16px;
+  }
+}
+.credits_list_artist {
+  text-transform: capitalize;
+  font-family: $font-brand3;
+  list-style: none;
+  text-transform: capitalize;
+}
+.credits_title {
+  text-align: right;
+  text-transform: uppercase;
+  font-family: $font-brand1;
+  color: #111;
+  margin-bottom: 25px;
+}
+
+.slide_credits_nav {
+	@extend .slide_credits-wrapper;
+	margin: 0 auto;
+
+	@include tablet {
+		margin: 50px auto;	
+	}
+}
+.projects_credits_wrapper {
+	@extend .slide_credits_nav;
+	width: 100%;
 }
 .slide_credits-wrapper2 {
 	margin: 50px auto 0;
@@ -241,19 +316,21 @@
 	font-size: 14px;
 	text-transform: uppercase;
 	@include laptop {
-		width: 80%;	
+		width: 80%;
+		float: right;
 	}
 }
 .catalog_credits-group.slide {
 	font-size: 14px;
+	text-align: right;
 	@include laptop {
 		padding-bottom: 25px;
-		float: left;
+		float: right;
 		width: 200px;
 	}
 }
 .catalog_title-credit.slide {
-	text-align: left;
+	text-align: right;
 	font-size: 26px;
 	@include laptop {
 		font-size: 40px;	

@@ -1,0 +1,11 @@
+<div class="catalog_wrapper_section clear">
+	<div class="season_number">0{{ include.season }}</div>
+	<div class="font_size_med catalog_section_title">Season</div>
+
+	{% for project in site.catalog reversed %}
+		{% if include.season == project.season %}
+
+			{% include components/catalog_item.html %}
+		{% endif %}
+	{% endfor %}
+</div>

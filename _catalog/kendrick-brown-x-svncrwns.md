@@ -4,6 +4,7 @@ layout 											: catalog-comingsoon
 title 											: "Kendrick Brown x SVNCRWNS"
 date 												: 'Aug 23 2016'
 year 												:	'2014'
+season: "1"
 
 [//]: # (Featured Info)
 featured 										: "yes"

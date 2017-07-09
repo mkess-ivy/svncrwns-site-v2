@@ -1,8 +1,9 @@
 ---
 layout            : default
 
-home_hero_img     : "/assets/images/hero_home.png"
+primary_hero     : "/assets/images/hero_home.png"
 
+section1_bg: /assets/images/geostairs.jpg
 section1_img      : "/assets/images/philly1.png"
 section1_text     : "In a world of hyper-visibility where the invisible is also celebrated"
 
@@ -11,125 +12,28 @@ video_hero_img    : "/assets/images/hero_home3.png"
 
 section2_img      : "/assets/images/project_kennhall/kh-2-a.png"
 
+section3_bg: /assets/images/geostairs.jpg
 section3_img1     : "/assets/images/white.jpg"
 section3_img2     : "/assets/images/hands.jpeg"
 section3_text     : "In a world of hyper-visibility where the invisible is also celebrated"
+
+testimonial_bg: "$color-brand4"
 ---
 
-  <div class="clear"></div>
+<div class="clear" id="home"></div>
 
-  <!-- Section Hero -->
-  <section class="fullpage">
-    {% include backtop_icon.html %} 
-  </section>
+{% include components/backtop_icon.html %} 
 
-  <!-- Home Top Section -->
-  <!-- using .fade-in and .one through .three to tell elements when to appear on page -->
-  <section class="svn-wrapper home_top_wrapper no-padding">
-    <div class="home_top_section">
-      <div class="home_top_item">{{ site.time | date: "%-m.%-d.%-y" }}</div>
-      <div class="home_top_item"><span id="clock"></span> <span>EST</span></div>
-      <div class="home_top_item">Baltimore</div>
-    </div>
-    <div class="home_top_logo fade-in one">
-      <img src="assets/images/svn-logo-big.svg" class="home_top_logo_img" />
-    </div>
-    <div class="home_top_text fade-in two">a brand management &amp; production studio</div>
-    <ul class="home_top_list fade-in three">
-      <li>digital</li>
-      <li>visual</li>
-      <li>experiential</li>
-      <li>strategy</li>
-    </ul>
-    <div class="home_top_more fade-in three"><a href="#primary-hero" />
-      learn more<br/>
-      <img src="/assets/images/learn-more-icon.png" width="10" /></a>
-    </div>
-  </section>
-  <!-- Home Top Section -->
+{% include home/home_masthead.html %}
 
-  <section class="svn-wrapper svn-primary-hero-margin1">
-    <div class="svn-big-logo-wrapper clear">
-      <img src="/assets/images/svn-logo-big.svg" class="svn-big-logo" />
-    </div>
-    <div class="svn-primary-hero" style="background-image: url('{{ page.home_hero_img }}');" id="primary-hero">
-    </div>
-  </section>
+{% include home/primary_hero.html %}
 
-  <!-- Section 01 -->
-  <section class="section-bg section01-bg-image clear">
-    <div class="svn-wrapper">
-      <div class="svn-content foo">
-        <div class="svn-content_no">01</div>
-        <div class="content_container">
-          <div class="content_50 pull_right">
-            <div class="svn-content_img-no svn-content_img-no-txt">01</div>
-            <img src="{{ page.section1_img }}" />
-          </div>
-          <div class="content_50 content_text">
-            {{ page.section1_text }}
-          </div>
+{% include home/section_content.html %}
 
-          {% include caption.html caption_title="03. Something Bold" caption_text="Type something of interest here, just some filler shxt, no one cares what this says anyway.  Just keep on typing, get it?!" %}
+{% include home/section_hero.html %}
 
-        </div>
-        
-      </div>
-    </div> <!-- .svn-wrapper -->
-  </section><!-- .section-bg -->
+{% include home/section_content_2img.html %}
 
-  <!-- Section - ARTIST'S NOTE -->
-  <!-- Not including an artist note right now, removed code into a partial -->
+{% include home/testimonial-home.html %}
 
-  <!-- Big Hero Image -->
-  <section class="svn-wrapper">
-    <div class="big-text">featured</div>
-    <div class="svn-primary-hero svn-primary-hero-margin" style="background-image: url( '{{ page.section2_img }}' );">
-    </div>
-  </section>
-  <!-- #Big Hero Image -->
-
-  <!-- Section - Featured Work -->
-  <!-- To use {% include featured-work.html %} -->
-
-  <!-- Section 03 -->
-  <section class="section-bg section01-bg-image clear">
-    <div class="svn-wrapper">
-      <div class="svn-content foo">
-        <div class="svn-content_no">03</div>
-        <div class="content_container">
-          <div class="content_50">
-            <div class="content_half_vertical">
-              <div class="svn-content_img-no svn-content_img-no-txt">03</div>
-              <img src="/assets/images/white.jpg" />
-            </div>
-            <div class="content_half_vertical pull_up">
-              <div class="svn-content_img-no svn-content_img-no-txt">VIBES</div>
-              <img src="{{ page.section3_img2 }}" />
-            </div>
-          </div>
-          <div class="content_50 content_text pull_right">
-            {{ page.section3_text }}
-          </div>
-
-          {% include caption.html caption_title="03. Something Bold" caption_text="Type something of interest here, just some filler shxt, no one cares what this says anyway.  Just keep on typing, get it?!" caption_title_extra="03. VIBES. Bold" caption_text_extra="Type something of interest here, just some filler shxt, no one cares what this says anyway.  Just keep on typing, get it?!" %}
-
-        </div>
-        
-      </div>
-    </div> <!-- .svn-wrapper -->
-  </section><!-- .section-bg -->
-
-  {% include testimonial.html %}
-
-  <section class="partner-wrapper" style="z-index: 9002;">
-    <div class="partner-title">partners</div>
-    <div class="partner-slider clear">
-      {% for slide-item in site.data.data-partners %}
-      <div class="slide"><img src="{{ slide-item.image }}"></div>
-    {% endfor %}
-    </div>
-  </section>
-  
-
-  <!-- Beginning of Footer -->
+{% include slider/slider_partner.html %}

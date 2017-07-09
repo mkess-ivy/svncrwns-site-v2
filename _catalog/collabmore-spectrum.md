@@ -4,6 +4,7 @@ layout 											: catalog-comingsoon
 title 											: "Collabmore SPECTRUM"
 date 												: 'May 21 2016'
 year 												:	'2016'
+season: "2"
 
 [//]: # (Featured Info)
 featured 										: "yes"

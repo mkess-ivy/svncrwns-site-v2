@@ -1,0 +1,22 @@
+<!-- Section 01 -->
+<section class="section-bg" style="background-image: url('{{ page.section1_bg }}');">
+  <div class="svn-wrapper">
+    <!-- by adding .foo, the class will slowly reveal in after scrollpoints are reached -->
+    <div class="svn-content">
+      <div class="svn-content_no">01</div>
+      <div class="content_container clear">
+        <div class="content_50 pull_right">
+          <div class="svn-content_img-no svn-content_img-no-txt">01</div>
+          <img src="{{ page.section1_img }}" />
+        </div>
+        <div class="content_50 content_text">
+          {{ page.section1_text }}
+        </div>
+
+        {% include caption.html caption_title="01. Something Bold" caption_text="Type something of interest here, just some filler shxt, no one cares what this says anyway.  Just keep on typing, get it?!" %}
+
+      </div>
+      
+    </div>
+  </div> <!-- .svn-wrapper -->
+</section><!-- .section-bg -->

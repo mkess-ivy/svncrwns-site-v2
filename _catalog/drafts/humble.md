@@ -3,7 +3,7 @@
 layout											: catalog-comingsoon
 title												: "Humble"
 date												: 'May 04 2017'
-year 												:	'2017'
+season: "3"
 
 [//]												: # (Featured Info)
 featured 										: "no"

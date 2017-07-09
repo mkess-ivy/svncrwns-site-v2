@@ -4,6 +4,7 @@ layout 										: catalog-comingsoon
 title 										: "The Way Wild"
 date 											: 'May 27 2017'
 year 											:	'2017'
+season: "3"
 
 [//]											: # (Featured Info)
 featured 									: "yes"

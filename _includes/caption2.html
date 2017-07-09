@@ -1,0 +1,14 @@
+<div class="catalog_hero_section3 clear">
+	<div class="caption_wrapper">
+		{% for caption in site.data.[page.data-captionlist] limit: 2 offset: 4 %}
+			
+			<div class="caption_item">
+			  
+			    <div class="caption_title">{{ caption.caption-title }}</div>
+			    <div class="caption_text">{{ caption.caption-text }}</div>
+			  
+			</div>
+			
+		{% endfor %}
+	</div>
+</div>

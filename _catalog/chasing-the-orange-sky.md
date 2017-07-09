@@ -5,6 +5,7 @@ title 												: "Chasing the Orange Sky"
 date													: 'Apr 5 2016'
 year													:	'2016'
 
+season: "2"
 
 [//]													: # (Featured Info)
 featured 											: "yes"
@@ -49,9 +50,10 @@ slide8 												: "credits-slide"
 [//]													: # (Catalog All)
 catalog-cover-image						: /assets/images/ctos_cover.jpg
 
+data-credits-list: pop-up-sankofa-credits
 ---
 
 <!-- Credits -->
-{% include slide-credits-list.html list-name='chasing-orange-sky-credits' %}
+{% include credits2.html %}
 <!-- #Credits -->
  

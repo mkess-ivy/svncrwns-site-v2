@@ -6,7 +6,7 @@ layout: white-bg
 
 <article class="svn-wrapper video">
 	
-  <section>
+  <section class="clear_logo">
     {% if page.video-url %}
       <div class="pos-rel">
         <div class="pos-rel svn-primary-hero film-hero" style="background-image: url('{{ page.film-hero }}');">
@@ -35,8 +35,10 @@ layout: white-bg
     <div class="catalog_credits-wrapper video">
       <div class="catalog_video-title">{{ page.title }}</div>
       {{ page.content }}
+
+      {% include credits2.html %}
     </div>
-    {% include video-credits-list.html %}
+    
   </section>
 
  

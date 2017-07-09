@@ -2,72 +2,78 @@
 layout: white-bg
 ---
 
-<article>
-  <section class="site-wrapper clear">
-    <div class="catalog_title">{{ page.title }}</div>
-    <div class="catalog_hero-section">
-      <div class="catalog_hero-1 clear">
-        <div class="catalog_img-no svn-content_img-no-txt">01</div>
-        <img src="{{ page.photo1 }}" />
-      </div>
-      <div class="catalog_hero-2">
-        <div class="catalog_img-no svn-content_img-no-txt">02</div>
-        <img src="{{ page.photo2 }}" />
-      </div>
+<!-- Back to top icon -->
+<div class="backtop-icon" id="js-backtop"><a href="#home"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a></div>
+
+<article class="clear_logo svn-wrapper clear">
+  <section class="project_left_col clear">
+    <div class="title_anchor_wrapper">
+      <div class="project_title">{{ page.title }}</div>
+      <div class="project_excerpt">{{ page.excerpt }}</div>
     </div>
-    <div class="backtop-icon" id="js-backtop"><a href="#home"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a></div>
+    
   </section>
-  <div class="svn-wrapper clear"> 
-    <section class="catalog_section clear">
-      <div class="catalog_credits-wrapper">
-        {% include project-credits-list.html %}
+  <section class="project_right_col">
+   
+      {% include image_combo_1.html %}
+
+      <!-- Content -->
+      <div class="catalog_hero_section3 clear">
+        <div class="catalog_content-wrapper clear">
+          {{ page.content }}
+        </div>
       </div>
+
+      {% include image_combo_2.html %}
+
+      {% include caption1.html %}
+
+      {% include image_combo_3.html %}
+
+      {% include caption2.html %}
+
+      {% include image_video_combo.html %}
+
+      {% include caption3.html %}
+    
+      {% include testimonial2.html %}
+
+      {% include credits2.html %}
+    
+      {% include components/return-cta.html %}
+    
+  </section>
+
+  
+  <!-- <div class="svn-wrapper clear">  -->
+    
+    <!-- <section class="catalog_section clear">
+     
       <div class="catalog_content-wrapper">
         {{ page.content }}
       </div>
-    </section>
-    <section class="clear">
-      <div class="pos-rel clear">
-        <div class="catalog_photo-group">
+    </section> -->
+
+   <!--  <section class="clear">
+
+     
+      <div class="catalog_hero-section2 clear">
+       
+        <div class="catalog_hero-1 clear">
           <div class="catalog_img-no svn-content_img-no-txt">03</div>
           <img src="{{ page.photo3 }}" />
         </div>
-        <div class="catalog_photo-group catalog_photo-group-2">
+        
+        <div class="catalog_hero-3">
           <div class="catalog_img-no svn-content_img-no-txt">04</div>
           <img src="{{ page.photo4 }}" />
         </div>
       </div>
-      <div class="svn-content_contain-caption catalog_caption-close">
-        <div class="svn-content_caption-title">
-          {{ page.caption1-title }}
-        </div>
-        <div class="svn-content_caption-sm">
-          {{ page.caption1-text }}
-        </div>  
-        <div class="svn-caption_spacer"></div>
-        <div class="svn-content_caption-title">
-          {{ page.caption2-title }}
-        </div>
-        <div class="svn-content_caption-sm">
-          {{ page.caption2-text }}
-        </div>  
-        <div class="svn-caption_spacer"></div>
-        <div class="svn-content_caption-title">
-          {{ page.caption3-title }}
-        </div>
-        <div class="svn-content_caption-sm">
-          {{ page.caption3-text }}
-        </div>  
-        <div class="svn-caption_spacer"></div>
-        <div class="svn-content_caption-title">
-          {{ page.caption4-title }}
-        </div>
-        <div class="svn-content_caption-sm">
-          {{ page.caption4-text }}
-        </div>  
-      </div>
-    </section>
-    <section class="clear">
+
+      {% include caption2.html %}
+      
+    </section> -->
+    <!-- <section class="clear">
       <div class="clear">
         <div class="catalog_photo-group" id="js-photo5">
           <div class="catalog_img-no svn-content_img-no-txt">05</div>
@@ -93,9 +99,9 @@ layout: white-bg
           {{ page.caption6-text }}
         </div>  
       </div>
-    </section>
-    <section>
-      {% if page.photogroup4 == "yes" %}
+    </section> -->
+   <!--  <section> -->
+      <!-- {% if page.photogroup4 == "yes" %}
       <div class="catalog_photo-group" id="js-photo7">
         <div class="catalog_img-no svn-content_img-no-txt">07</div>
         <img src="{{ page.photo7 }}" />
@@ -108,27 +114,22 @@ layout: white-bg
           {{ page.caption7-text }}
         </div>
       </div>
-      {% endif %}
+      {% endif %} -->
 
-      {% if page.visual-group == "yes" %}
+      <!-- {% if page.visual-group == "yes" %}
       <div class="pos-rel">
         <div class="catalog_img-no svn-content_img-no-txt">07</div>
         <div class="pos-rel catalog-html5-video" style="background-image: url('{{ page.photo7 }}');">
 
-          <!-- using image src for image, makes the video play button NOT centered on all sides
-
-          <div class="catalog_photo-group" id="js-photo7">
-            <div class="catalog_img-no svn-content_img-no-txt">07</div>
-            <img src="{{ page.photo7 }}" class="catalog_img-filter" />
-          </div> -->
+         
 
           <div class="svn-video-overlay">
             <div class="video-container">
 
-              <!-- SVG Close (X) Icon -->
+              
               <i class="fa fa-times fa-2x html5-close" aria-hidden="true"></i>
 
-              <!-- Embedded video -->
+            
               <iframe id="video" src="{{ page.video-url }}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
             </div>
@@ -147,10 +148,11 @@ layout: white-bg
           {{ page.caption7-text }}
         </div>
       </div>
-      {% endif %}
-    </section>
-  </div>
-  {% if page.testimonial-group == "yes" %}
+      {% endif %} -->
+    <!-- </section> -->
+<!--   </div> -->
+
+  <!-- {% if page.testimonial-group == "yes" %}
   <section class="catalog_testimonial-group clear">
     <div class="svn-wrapper">
       <div>testimonial</div>
@@ -160,5 +162,5 @@ layout: white-bg
       </div>
     </div>
   </section>
-  {% endif %}
+  {% endif %} -->
 </article>

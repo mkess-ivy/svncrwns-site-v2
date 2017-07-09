@@ -3,13 +3,17 @@
 
   {% include head.html %}
 
+  {% if page.title == "contact" %}
+  <body>
+  {% else %}
   <body class="white">
+  {% endif %}
   <div class="se-pre-con"></div>
 
     {% include header.html %}
 
     <!-- <div class="page-content"> -->
-      <div class="clear">
+      <div class="clear" style="overflow-x: hidden;">
         {{ content }}
       </div>
     <!-- </div> -->

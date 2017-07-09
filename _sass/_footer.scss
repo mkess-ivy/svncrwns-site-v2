@@ -15,12 +15,14 @@
   color: $color-brand5;
   text-align: right;
   text-transform: uppercase;
+  font-family: $font-brand1;
 }
 .footer_signup_small {
   text-transform: uppercase;
   text-align: right;
   color: $color-brand5;
   @include font_size_micro;
+  font-family: $font-brand1;
 }
 .footer_section {
 	width: 100%;

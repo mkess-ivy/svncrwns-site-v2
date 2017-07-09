@@ -1,0 +1,50 @@
+---
+layout: white-bg
+---
+
+<!-- <div class="spacer2x"></div> -->
+
+<article class="clear_logo svn-wrapper clear">
+  <section class="project_left_col">
+    <div class="title_anchor_wrapper">
+      <div class="project_title">{{ page.title }}</div>
+      <div class="project_excerpt">{{ page.excerpt }}</div>
+    </div>
+    
+  </section>
+  <section class="project_right_col">
+   
+      {% if page.video-url %}
+      <div class="pos-rel">
+        <div class="pos-rel svn-primary-hero film-hero" style="background-image: url('{{ page.film-hero }}');">
+
+          <div class="svn-video-overlay">
+            <div class="video-container">
+
+              <!-- SVG Close (X) Icon -->
+              <i class="fa fa-times fa-2x html5-close" aria-hidden="true"></i>
+
+              <!-- Embedded video -->
+              <iframe id="video" src="{{ page.video-url }}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+            </div>
+          </div>
+          <div class="svn-play-btn">
+            <span class="play catalog-play" id="video-fullscreen"></span>
+          </div>
+
+        </div>
+      </div>
+    {% endif %} 
+
+    <div class="catalog_credits-wrapper video">
+      <!-- <div class="catalog_video-title">{{ page.title }}</div> -->
+      <div class="catalog_content-wrapper catalog_film_wrapper"><!-- catalog_video-text -->
+        {{ page.content }}
+      </div>
+      {% include credits2.html %}
+      
+      {% include components/return-cta.html %}
+    </div>
+
+  </section>

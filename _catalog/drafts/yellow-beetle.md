@@ -3,7 +3,7 @@
 layout 								: catalog-film
 title 								:  "Yellow Beetle"
 date 									:   'Apr 24 2016'
-year 									:	'2016'
+season: "2"
 
 [//]									: # (Featured Info)
 featured 							: "no"

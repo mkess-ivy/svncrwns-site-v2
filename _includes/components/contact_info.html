@@ -1,0 +1,12 @@
+{% for contact in site.data.data_contact_list %}
+<div class="contact-title">
+	<div class="sub-title">{{ contact.heading }}</div>
+	{% for item in contact.items %}
+	<div class="contact_info">
+		
+		<a href="{{ item.url }}">{{ item.name }}</a>
+		
+	</div>
+	{% endfor %}
+</div>
+{% endfor %}

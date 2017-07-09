@@ -2,7 +2,8 @@
 layout 										: catalog-slide
 title 										:  "Youth in a Secret Garden"
 date 											:   'Aug 23 2016'
-year 											:	'2015'
+
+season: "1"
 featured 									: "yes"
 featured-rank 						: "7"
 
