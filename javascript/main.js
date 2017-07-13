@@ -90,15 +90,15 @@ $(document).ready(function(){
   });
 
   // Reveal burger menu after certain scroll height
-  $('#menu-container').hide();
-  $(window).scroll(function() {
-    if ($(window).scrollTop() > 100) {
-      $('#menu-container').fadeIn("slow");
-    }
-    else {
-      $('#menu-container').fadeOut("fast");
-    }
-  });
+  // $('#menu-container').hide();
+  // $(window).scroll(function() {
+  //   if ($(window).scrollTop() > 100) {
+  //     $('#menu-container').fadeIn("slow");
+  //   }
+  //   else {
+  //     $('#menu-container').fadeOut("fast");
+  //   }
+  // });
 
   // Reveal mobile menu after certain scroll height
   $('#js-home-top').hide();
@@ -128,14 +128,22 @@ $(document).ready(function(){
 
   
   // Clock
-  var clockElement = document.getElementById( "clock" );
-  function updateClock ( clock ) {
-    clock.innerHTML = new Date().toLocaleTimeString();
-  }
-  setInterval(function () {
-    updateClock( clockElement );
-  }, 1000);
+  
+  // var clockElement = document.getElementById( "clock" );
+  // function updateClock ( clock ) {
+  //   clock.innerHTML = new Date().toLocaleTimeString();
+  // }
+  // setInterval(function () {
+  //   updateClock( clockElement );
+  // }, 1000);
 
-
+  function doDate()
+{
+    var str = "";
+    var now = new Date();
+    str = now.toLocaleTimeString() ;
+    document.getElementById("clock").innerHTML = str;
+}
+setInterval(doDate, 1000);
   
 });

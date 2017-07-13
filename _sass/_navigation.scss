@@ -2,7 +2,23 @@
 body.noScroll {
   overflow: hidden;
 }
+.menu-wrapper {
+  width: 100%;
+}
+.menu_list_container {
+  width: 100%;
+  margin: 200px auto 0;
+  @include palm-mid {
+    margin-top: 150px;
+  }
+  @include tablet {
+    margin: 0;
+    width: 65%;
+    position: absolute;
+    right: 0;
+  }
 
+}
 .svn-big-logo-wrapper {
   position: absolute;
   z-index: 1;
@@ -79,6 +95,8 @@ body.noScroll {
   text-align: center; 
   margin: 0 auto;
   z-index: 9007;
+  top: 10px;
+  left: -7px;
   @include tablet { 
     float: left; 
     text-align: none;
@@ -111,8 +129,8 @@ body.noScroll {
   width: 5%; 
 }
 .menu-txt {
-  color: #000;
-  font-size: 35px;
+  color: $color-brand3;
+  font-size: 55px;
   cursor: pointer;
 }
 .menu-txt:hover {
@@ -143,7 +161,8 @@ body.noScroll {
   margin: 0 auto; 
   display: inline-block;
   height: 100%; 
-  position: relative; 
+  position: relative;
+  width: 100%;
 }
 .overlay ul li { 
   padding: 0; 
@@ -156,15 +175,17 @@ body.noScroll {
   text-transform: lowercase;
   
   @include tablet {
-    line-height: 34px;
+    line-height: 97px;
+    font-size: 100px;
   }
 }
 .overlay ul li a { 
   text-decoration: none;
-  color: rgba(111, 87, 35, 0.37)
+  color: rgba(111, 87, 35, 0.37);
 }
 .overlay ul li a:hover {  
   color: $color-brand5;
+  border-bottom: 1px solid;
 }
 .overlay-close { 
   width: 35px; 
@@ -186,8 +207,8 @@ body.noScroll {
     margin: none;
   }
   @include tablet {
-    right: 39px; 
-    top: 23px; 
+    right: 14px; 
+    top: 60px; 
   }
 }
 .overlay-close:hover {
@@ -255,11 +276,12 @@ ul.nav li a {
 }
 ul.nav li a:hover {
   text-decoration: none;
+  border-bottom: 1px solid;
 }
-ul.nav li a:hover::after {
-  content: '';
-  display: block;
-  width: auto;
-  height: 1px;
-  background: $color-brand5;
-}
+// ul.nav li a:hover::after {
+//   content: '';
+//   display: block;
+//   width: auto;
+//   height: 1px;
+//   background: $color-brand5;
+// }

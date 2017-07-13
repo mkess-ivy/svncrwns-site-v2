@@ -116,11 +116,10 @@ $grey-color-dark:  darken($grey-color, 25%);
   margin: 10px 0;
 }
 .small_links {
-  @include font_size_micro;
-  line-height: 14px !important;
 }
 .small_links_w {
-  line-height: 14px !important;
+  line-height: 30px !important;
+  font-size: 30px !important;
 }
 .link {
   color: #000;
