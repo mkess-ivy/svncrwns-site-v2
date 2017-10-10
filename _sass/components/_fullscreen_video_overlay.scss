@@ -1,0 +1,90 @@
+.yellow-box {
+  height: 400px;
+  position: relative;
+  background-size: cover;
+  background-position: center center;
+  margin: 0 auto;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+    -ms-flex-align: center;
+      align-items: center;
+  -webkit-box-pack: center;
+    -ms-flex-pack: center;
+      justify-content: center;
+  @include palm-mid {
+    height: 550px;
+  }
+  @include tablet {
+    width: 90%;
+  }
+}
+.html5videohere {
+  position: relative;
+}
+/* Fullscreen Overlay */
+.svn-video-overlay {
+  width: 100%;
+  background: rgba(0,0,0,.5);
+  position: absolute;
+  z-index: 5;
+  opacity: 0;
+  left: -100%;
+  transition: opacity .5s;
+  -webkit-transition: opacity .5s;
+}
+.play {
+  width: 70px;
+  height: 70px;
+  background: #222;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 50%;
+}
+.play:hover {
+  background: #333;
+  cursor: pointer;
+}
+.play:after {
+  position: absolute;
+  content: "";
+  top: 50%;
+  margin-top: -15px;
+  left: 50%;
+  margin-left:  -8px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 15px 0 15px 20px;
+  border-color: transparent transparent transparent #ffffff;
+}
+.video-container {
+  width: 90%;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, 15%);
+  -webkit-transform: translate(-50%, 15%);
+  // top: 0;
+  // left: 0;
+  @include palm-mid {
+    width: 100%; /* was 110% */
+  }
+}
+.html5-close {
+  width: 20px;
+  position: absolute;
+  color: black;
+  right: -15px;
+  top: -30px;
+}
+.html5-close:hover {
+  fill: rgba(255,255,255,0.5);
+  cursor: pointer;
+}
+.html5-show {
+  opacity: 1;
+}

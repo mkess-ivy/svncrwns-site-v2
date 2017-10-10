@@ -1,0 +1,56 @@
+// Section Menu
+.section-menu-wrapper {
+  margin: 100px 0;
+
+  @include tablet-frow {
+    width: 75%;
+    margin: 100px auto;
+  }
+
+  @include laptop {
+    width: 50%;
+  }
+}
+.section-menu-title {
+  text-align: center;
+  font-size: 16px;
+  font-weight: lighter;
+  margin-bottom: 50px;
+  font-style: italic;
+  letter-spacing: 15px;
+
+  // @include tablet-frow {
+  //   text-align: center;
+  // }
+
+  @include desktop-blah {
+    font-size: 20px;
+  }
+}
+.section-menu-list {
+  list-style: none;
+}
+.section-menu-list li {
+  text-align: center;
+  margin-bottom: 28px;
+  font-size: 24px;
+
+  // @include tablet-frow {
+  //   text-align: center;
+  // }
+  @include desktop-blah {
+    font-size: 24px;
+  }
+}
+.section-menu-list li a:hover {
+  border-bottom: 1px solid;
+  padding-bottom: 4px;
+  text-decoration: none;
+}
+.section-menu-list li a {
+  color: #000;
+
+  &:visited {
+    color: #000;
+  }
+}

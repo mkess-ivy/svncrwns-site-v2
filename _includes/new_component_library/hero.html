@@ -1,0 +1,22 @@
+<section class="svn-wrapper" id="hero">
+	<div class="svn_hero svn_hero_margin" style="background-image: url( '{{ include.hero-img }}' );">
+		<div class="frow centered">
+			<div class="section_hero_content">
+				{{ include.content }}
+
+				{% if include.hero-list %}
+				<div class="frow centered">
+					<ul class="primary-list">
+						<li>film</li>
+						<li>fashion</li>
+						<li>lifestyle</li>
+					</ul>
+				</div>
+				{% endif %}
+			</div>
+		</div>
+	</div>
+
+	{% include new_component_library/captions.html %}
+
+</section>

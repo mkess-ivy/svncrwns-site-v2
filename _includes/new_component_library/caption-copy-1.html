@@ -1,0 +1,11 @@
+<div class="caption">
+  <div class="caption_title">
+    {{ include.caption_title }}
+  </div>
+  <div class="caption_text">
+    {{ include.caption_text }}
+  </div>
+  {% if include.url %}
+  <div class="caption_link"><a href="{{ include.url }}">view project</a></div>
+  {% endif %}
+</div>

@@ -1,6 +1,6 @@
-@import 'mixins';
-@import 'media_queries';
-@import 'variables';
+@import 'helper/mixins';
+@import 'helper/media_queries';
+@import 'helper/variables';
 
 *, *:before, *:after {
   box-sizing: border-box;
@@ -22,11 +22,11 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-    font-family: $font-brand1;
+    font-family: $font-brand3;
     font-size: $base-font-size;
     line-height: $base-line-height;
     font-weight: 300;
-    color: $text-color;
+    color: #000 !important;
     background-color: $brand-color3;
     -webkit-text-size-adjust: 100%;
 }
@@ -43,7 +43,9 @@ ul, ol, dl, figure,
     margin-bottom: $spacing-unit / 2;
 }
 
-
+ul, li {
+    list-style: none;
+}
 
 /**
  * Images
@@ -67,39 +69,18 @@ a {
 
     &:hover {
         color: $text-color;
-        text-decoration: underline;
+        border-bottom: 1px solid;
+        // padding-bottom: 2px;
+    }
+}
+a.no-line {
+    &:hover {
+        border-bottom: 0;
     }
 }
 
 .section-link:hover { color: $brand-color-2; }
 .section-link:visited { color: black; }
-
-
-
-
-
-
-/**
- * Wrapper
- */
-/*.wrapper {
-    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: $spacing-unit;
-    padding-left: $spacing-unit;
-    @extend %clearfix;
-
-    @include media-query($on-laptop) {
-        max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
-        max-width:         calc(#{$content-width} - (#{$spacing-unit}));
-        padding-right: $spacing-unit / 2;
-        padding-left: $spacing-unit / 2;
-    }
-}*/
-
-
 
 /**
  * Clearfix
@@ -125,10 +106,12 @@ a {
     clear: both;
 }
 
+// Misc classes for spacing
+
 .martop2 { margin-top: 2em; }
-.pad2 { margin-top: 2em; 
-    @include palm { margin-top: 4em; }
-}
+// .pad2 { margin-top: 2em; 
+//     @include palm { margin-top: 4em; }
+// }
 .padbot3 { padding-bottom: 3em; }
 .center-pos { text-align: center; }
 .nobr { white-space: nowrap;}

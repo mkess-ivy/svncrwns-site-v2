@@ -2,21 +2,32 @@
 <html>
 
   {% include head.html %}
-
+ 
   <body class="white">
-  <div class="se-pre-con"></div>
 
-    {% include header.html %}
+    <div class="se-pre-con"></div>
 
-    <!-- <div class="page-content"> -->
-      <div class="clear">
+    {% if page.featured-body-hero %}
+      <div class="body-hero" style="background-image:url({{ page.featured-body-hero }});"></div>
+    {% endif %}
+
+    <div>
+
+      {% include header.html %}
+
+      {% include new_component_library/backtop_icon.html %}
+    
+      <div class="clear" style="overflow-x: hidden;">
         {{ content }}
       </div>
-    <!-- </div> -->
 
-    
-    {% include footer2.html %}
-    {% include html5video.html %}
+      {% include new_component_library/section_menu.html %}
+      
+      {% include footer2.html %}
+
+      {% include html5video.html %}
+
+    </div>
 
   </body>
 

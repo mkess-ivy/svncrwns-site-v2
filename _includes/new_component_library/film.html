@@ -1,0 +1,29 @@
+<div class="film-wrapper">
+  
+  <div class="catalog_img-no svn-content_img-no-txt">{{ include.film-no }}</div>
+  <div class="frow column-end">
+    
+    <div class="film-project" style="background-image: url('{{ include.film-photo }}');">
+      
+      <div class="svn-video-overlay">
+        <div class="frow centered">
+          <div class="video-container">
+            <i class="fa fa-times fa-2x html5-close" aria-hidden="true"></i>
+            <iframe id="video" src="{{ include.film-url }}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+
+      <div class="frow centered">
+        <div class="svn-play-btn">
+          <span class="play catalog-play" id="video-fullscreen"></span>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+{% include new_component_library/captions.html %}

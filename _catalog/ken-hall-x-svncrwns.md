@@ -3,11 +3,11 @@
 layout 										: catalog-slide
 title 										: "Kenn Hall"
 date 											: 'Feb 27 2017'
-year 											:	'2017'
+season: "3"
 
 [//] 											: # (Featured Info)
 featured 									: "yes"
-featured-rank 						: "1"
+featured-rank 						: "6"
 featured-subtitle					: "on a warm and cloudy day, one day before rain poured from the clouds"
 featured-category					: "photo series"
 featured-index-location		: "p2"
@@ -48,5 +48,5 @@ catalog-cover-image				: /assets/images/kh_cover.jpg
 
 
 <!-- Credits -->
-{% include slide-credits-list.html list-name='kennhall-svncrwns-credits' %}
+{% include new_component_library/slide-credits-list.html list-name='kennhall-svncrwns-credits' %}
 <!-- #Credits -->

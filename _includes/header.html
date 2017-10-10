@@ -1,34 +1,10 @@
 <header class="site-header clear">
   <div class="logo-wrapper clear">
-    <div class="logo" {% if page.layout == 'default' %}id="js-home-top"{% endif %}><a href="/"><img src="{{ site.logo }}" class="logo-img" /></a></div>
+    <div class="logo" {% if page.layout == 'default' %}id="js-home-top"{% endif %}><a href="/" class="no-line"><img src="{{ site.logo }}" class="logo-img" /></a></div>
   </div>
   <section class="svn-wrapper no-padding">
-    <!-- vertical menu? remove navigation-horizontal class -->
-    <!-- <div class="main-nav">
-      <ul class="navigation">
-        <li><a href="/">home</a></li>
-        <li><a href="{{ site.baseurl }}/featured">featured</a></li>
-        <li><a href="{{ site.baseurl }}/catalog">work catalog</a></li>
-        <li><a href="{{ site.baseurl }}/contact">contact</a></li>
-      </ul>
-    </div> -->
-    <!-- <div class="main-nav">
-      <ul class="nav">
-        <li><a href="#">HOME</a></li>
-        <li><a href="#">METHODOLGY</a></li>
-        <li><a href="#">PORTFOLIO</a></li>
-        <li><a href="#">SERVICES</a></li>
-        <li><a href="#">TEAM</a></li>
-        <li><a href="#">CONTACT</a></li>
-      </ul>
-    </div> -->
-    <div class="main-nav" id="js-menu">
-      <ul class="nav">
-        <li><a href="/">home</a></li>
-        <li><a href="{{ site.baseurl }}/featured">featured</a></li>
-        <li><a href="{{ site.baseurl }}/catalog">work catalog</a></li>
-        <li><a href="{{ site.baseurl }}/contact">contact</a></li>
-      </ul>
-    </div>
+    
+    {% include overlay_menu.html %}
+    
   </section>
 </header>

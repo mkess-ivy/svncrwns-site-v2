@@ -2,11 +2,8 @@
 layout 										: catalog-slide
 title 										:  "Youth in a Secret Garden"
 date 											:   'Aug 23 2016'
-year 											:	'2015'
-featured 									: "yes"
-featured-rank 						: "7"
 
-img-path									: /assets/images/drink.jpg
+season: "1"
 
 subtitle									: "on a warm and cloudy day, one day before rain poured from the clouds"
 category									: "photo serie"

@@ -1,0 +1,27 @@
+<div class="svn-wrapper clear">
+	<div class="event_wrapper">
+		<div class="title">recent<br/>&amp; new<br/>events</div>
+		<div class="event_wrapper_inner uppercase clear">
+			<div class="frow custom_frow_end_to_justify_end">
+				{% for item in site.data.upcoming-events %}
+				<div class="event_heading event_item">
+					{{ item.event_type }}<br/>
+					<div class="event_title">
+						<a href="{{ site.baseurl }}/catalog{{ item.event_permalink }}">{{ item.project_name }}</a>
+					</div>
+					{% if item.event_name %}
+						{{ item.event_name }}<br/>
+					{% endif %}
+
+					{{ item.event_date_time }}<br>
+					
+					{% if item.event_url %}
+					<a href="{{ item.event_url }}">{{ item.event_url_name }}</a>
+					{% endif %}
+
+				</div>
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+</div>

@@ -4,17 +4,22 @@
   {% include head.html %}
 
   <body>
-  <div class="se-pre-con"></div>
-
+    <div class="se-pre-con"></div>
+    <div class="body-hero" style="background-image:url({{ page.featured-body-hero }});"></div>
+    
     {% include header.html %}
 
-    <!-- <div class="page-content"> -->
-      <div class="clear">
+    {% include new_component_library/backtop_icon.html %}
+
+      <div class="clear" style="overflow-x: hidden;">
         {{ content }}
       </div>
-    <!-- </div> -->
 
+    {% include new_component_library/section_menu.html %}
+    
     {% include footer2.html %}
+
+    <script type="text/javascript" src="/javascript/updateClock.js"></script>
     
 
   </body>

@@ -1,0 +1,31 @@
+// What We Do
+.wedo-header {
+  text-align: right;
+  margin-bottom: 20px;
+  font-size: 30px;
+  line-height: 30px;
+  border-bottom: 1px solid;
+  padding: 0 20px 10px 0;
+  font-family: $font-brand1;
+}
+.wedo-text {
+  text-align: right;
+  margin-bottom: 10px;
+  padding-right: 20px;
+
+  @include laptop {
+    padding-right: 0;
+  }
+}
+.wedo-item-wrapper {
+  width: 85%;
+  margin-bottom: 75px;
+
+  @include tablet {
+    max-width: 350px;
+  }
+
+  @include desktop {
+    margin-bottom: 0;
+  }
+}

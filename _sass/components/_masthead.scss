@@ -1,0 +1,151 @@
+/* Masthead Section */
+.masthead_wrapper {
+  @extend .svn-wrapper;
+  height: 100vh;
+  @include flex;
+  font-family: $font-brand3;
+  @include tablet {
+    height: 100vh;
+    padding: 0;
+  }
+}
+
+.masthead_section {
+  display: inherit;
+  position: absolute;
+  top: 15px;
+  width: 100%;
+
+  @include tablet {
+    margin-bottom: 110px;  
+    top: 10px;
+  }
+
+  .masthead_item {
+    font-size: 12px;
+    width: 33.3%;
+    font-weight: 700;
+    @include laptop {
+      font-size: 24px;
+      width: 33.3%;  
+      font-weight: 400;
+    }
+  }
+  .masthead_item:nth-child(2) {
+    text-align: center;
+    width: 40%;
+    @include laptop {
+      width: 33.3%;
+    }
+  }
+  .masthead_item:nth-child(3) {
+    text-align: right;  
+  }
+}
+
+
+
+
+
+
+
+.svn_masthead_wrapper {
+  @extend .svn-wrapper;
+  height: 100vh;
+  font-family: $font-brand3;
+}
+.svn_masthead_section {
+  
+  // padding-top: 15px;
+  // width: 100%;
+  display: none;
+  
+  @include tablet {
+    // margin-bottom: 110px;  
+    // top: 10px;
+    display: block;
+  }
+}
+.svn_masthead_item {
+  font-size: 20px;
+}
+.svn_masthead_content {
+  margin-top: 60px;
+  height: calc(100vh - 90px);
+}
+.masthead_logo {
+  margin-bottom: 50px;
+  
+  .masthead_logo_img {
+    width: 300px;
+    @include laptop {
+      width: 500px;
+    }
+  }
+}
+.masthead_text {
+  font-size: 32px;
+  width: 90%;
+  text-align: center;
+  // margin-bottom: 25px;
+
+  @include tablet {
+    font-size: 34px;
+    width: 75%;
+  }
+  @include laptop {
+    width: 50%;
+  }
+  @include desktop {
+    max-width: 500px;
+  }
+}
+.masthead_list {
+  margin: 20px 0;
+  padding: 0;
+  list-style: none;
+  // font-size: 12px;
+  @include tablet {
+    margin: 30px 0;
+  }
+  @include laptop {
+    font-size: 14px;
+    margin: 10px 0 10px;
+  }
+  @include desktop {
+    font-size: 20px;
+    margin: 20px 0 10px;
+  }
+}
+.masthead_list li {
+  display: inline-block;
+}
+.masthead_list li::after {
+  content:'|';
+  margin: 0 7px;
+  height: 10px;
+  @include laptop {
+    margin: 0 10px;
+  }
+}
+.masthead_list li:last-child::after {
+  content: none;
+}
+.masthead_more {
+  text-align: center;
+  font-style: italic;
+  // font-size: 12px;
+  padding-top: 50px;
+
+  .masthead_more a:hover {
+    text-decoration: none;
+    border-bottom: 0 !important;
+    cursor: pointer;
+  }
+
+  .masthead_more_link {
+    border-bottom: 0 !important;
+    cursor: pointer;
+    font-weight: bold;
+  }
+}

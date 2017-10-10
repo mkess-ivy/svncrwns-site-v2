@@ -1,0 +1,12 @@
+<section class="partner-wrapper" style="z-index: 9002;">
+	<div class="partner-wrapper-inner">
+		<!-- <div class="partner-title">partners&amp;<br/>clients</div> -->
+		
+		<ul class="partners-list">
+			{% for item in site.data.data-partners %}
+			<li><img src="{{ item.image }}" /></li>	
+			{% endfor %}
+		</ul>
+
+	</div>
+</section>

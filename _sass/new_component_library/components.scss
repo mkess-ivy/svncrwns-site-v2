@@ -1,0 +1,347 @@
+// 2col_left and 2col_right
+.catalog_featured_title {
+	font-family: $font-brand1;
+	text-transform: uppercase;
+	font-size: 35px;
+	line-height: $line-height;
+	padding-bottom: 30px;
+
+	@include tablet {
+		font-size: 55px;
+		line-height: 70px;
+	}
+
+	@include tv {
+		font-size: 80px;
+		line-height: 80px;
+	}
+
+}
+.home_featured_title {
+	color: $color-brand5;
+	text-transform: initial !important;
+	text-decoration: underline;
+
+	a {
+		color: inherit;
+
+		&:hover {
+			border-bottom: 0;
+			color: $black;
+		}
+	}
+
+}
+
+.featured_image {
+
+	// @include tablet {
+	// 	width: 50%;
+	// }
+
+	@include laptop {
+		width: 55%;
+	}
+	@include tv {
+		width: 65%;
+	}
+}
+.featured_copy {
+	padding: 50px 15px;
+	text-align: right;
+
+	@include palm {
+		padding: 50px 15px 50px 100px;
+	}
+
+	@include tablet {
+		// width: 350px;
+		padding: 50px 15px;
+	}
+
+	@include laptop {
+		width: 350px;
+		padding: 0;
+	}
+
+	@include desktop-blah {
+		width: 400px;
+	}
+}
+.featured_category {
+	text-transform: uppercase;
+	color: $color-brand5;
+	font-size: 12px;
+	font-family: $font-brand1;
+
+	@include tablet {
+		clear: both;
+		font-size: 18px;	
+	}
+}
+.project_copy {
+  font-family: $font-brand3;
+  text-transform: initial;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: right;
+  margin-bottom: 7px;
+  @include tablet {
+  	font-size: 28px;
+  	line-height: 1.4;
+  	width: 70%;
+  	float: right;
+  }
+  @include laptop {
+    font-size: 22px;
+    line-height: 34px;
+  }
+  @include desktop {
+    font-size: 26px;
+    line-height: 38px;
+  }
+  @include desktop-blah {
+    font-size: 30px;
+    line-height: 42px;
+  }
+}
+
+// Copy
+.copy_wrapper {
+	@extend .opps-wrapper;
+
+	@include laptop {
+		max-width: none !important;
+	}
+	@include desktop-blah {
+		max-width: 950px !important;
+	}
+}
+
+// 2layered vertical image
+.vertical_img_wrapper {
+	z-index: 1;
+	position: relative;
+
+	@include tablet {
+		width: 85%;
+	}
+	
+}
+.vertical_img_prime {
+	position: relative;
+	// z-index: -2;
+}
+.vertical_img_layer {
+	position: relative;
+
+	@include tablet {
+		margin: -13em 0 0 -6em;
+		width: 55%;
+	}
+}
+
+// 2layered horizontal image
+.horizontal_img_wrapper {
+	@extend .vertical_img_wrapper;
+	@extend %clearfix;
+
+	@include tablet {
+		width: 90%;	
+	}
+}
+.horizontal_img_prime {
+	@extend .vertical_img_prime;
+
+}
+.horizontal_img_layer {
+	position: relative;
+
+	@include tablet {
+		position: absolute;
+		top: 20%;
+		bottom: 20%;
+		width: 60%;
+		right: -100px;	
+	}
+}
+
+// 2layered center image
+.center_img_wrapper {
+	@extend %clearfix;
+
+
+	width: 100%;
+	height: 450px; 
+	margin: 0 auto; 
+	background-image: url('/assets/images/backstage-bw.jpg'); 
+	background-size: cover; 
+	background-repeat: no-repeat; 
+	background-position: center; 
+	position: relative;
+	@include palm {
+		height: 550px;
+	}
+	@include palm-mid {
+		height: 650px;
+	}
+	@include tablet {
+		height: 700px;
+	}
+	@include desktop-blah {
+		height: 900px;
+	}
+	@include tv {
+		height: 1050px;
+	}
+}
+.center_img_layer {
+	width: 80%;
+	position: relative;
+
+	@include tablet {
+		max-width: 500px;
+	}
+	@include tv {
+		max-width: 600px;
+	}
+}
+
+// 2layered_stacked
+.stacked_img_prime {
+	margin-bottom: 25px;
+	position: relative;
+}
+.stacked_img_stack {
+	position: relative;
+	width: 85%;	
+}
+
+// Single Image
+.single_img_wrapper {
+	position: relative;
+}
+
+// Film
+.film-wrapper {
+  position: relative;
+}
+.film-project {
+  	height: 200px;
+  	width: 320px;
+  	background-size: cover;
+  	background-repeat: no-repeat;
+  	position: relative;
+
+  	@include palm {
+  		height: 250px;
+  		width: 400px;
+  	}
+
+	@include tablet {
+		height: 450px;
+  		width: 700px;		
+	}
+	@include laptop {
+		height: 550px;
+		width: 850px;
+	}
+	@include desktop-blah {
+		height: 650px;
+		width: 1000px;
+	}
+}
+.catalog-play {
+  background: $color-brand2;
+}
+
+// Credits
+.credits_list2 {
+  text-align: right;
+  list-style: none;
+  padding-right: 15px;
+  @extend %clearfix;
+}
+.credits_title {
+  text-align: right;
+  text-transform: uppercase;
+  color: #111;
+  margin-bottom: 25px;
+  border-top: 1px solid;
+  padding: 20px 15px 50px;
+  font-size: 26px;
+  margin-top: 75px;
+}
+.credits_list_item {
+  font-family: $font-brand1;
+  text-transform: uppercase;
+  font-size: 12px;
+  width: 45%;
+  float: right;
+  margin-left: 12px;
+  height: 115px;
+
+  @include tablet {
+  	width: 31%;
+  }
+  @include desktop {
+    font-size: 14px;
+  }
+}
+.credits_list_artist {
+  text-transform: capitalize;
+  font-family: $font-brand3;
+  list-style: none;
+  text-transform: capitalize;
+}
+
+// Content Block
+.opps-wrapper {
+  
+  padding: 0 20px 175px;
+  text-align: right;
+
+  @include tablet {
+    padding: 0 0px 175px 
+  }
+
+  @include laptop {
+    max-width: 750px;
+  }
+}
+.opps-title {
+  @include boldfontuppercase(26px, 32px);
+  padding-bottom: 15px;
+
+  @include tablet {
+    @include boldfontuppercase(36px, 48px);
+  }
+  @include desktop {
+    @include boldfontuppercase(42px, 52px);
+  }
+}
+.opps-text {
+  font-size: 18px;
+  padding-bottom: 15px;
+
+  @include tablet {
+    font-size: 22px;
+  }
+
+  @include laptop {
+    font-size: 28px;
+  }
+}
+.content-block-wrapper {
+  margin-bottom: 75px !important;
+  margin-top: 0;
+
+  @include tablet {
+    margin: 50px auto 200px !important;
+  }
+}
+.content-block-wrapper-inner {
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+}
+

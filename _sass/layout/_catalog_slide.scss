@@ -1,0 +1,136 @@
+// Catalog_Slide_old.html
+.credits-list {
+  text-align: center;
+  text-transform: uppercase; 
+  margin: 1em 0 4em;
+}
+.catalog_title-credit {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: $brand-font;
+  color: $color-gray;
+}
+.catalog_credits-wrapper {
+  @include tablet {
+    float: left;
+    width: 35%;
+  }
+  @include desktop-blah {
+    margin-left: 2em;
+  }
+}
+.catalog_credits-group {
+  color: $color-brand1;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: $font-brand2;
+}
+.catalog_credits-artist { 
+  margin-bottom: 1.5em;
+}
+.catalog_credits-artist li {
+  color: $color-gray;
+  font-weight: lighter;
+}
+.catalog_credits-wrapper ul,
+.catalog_credits-wrapper li {
+  list-style: none;
+}
+.catalog_caption-close {
+  padding: 1em 0 5em;
+}
+.catalog_photo-wrapper {
+  width: 90%;
+  @include palm-mid {
+    margin: 0 auto;
+    width: 75%;
+  }
+}
+.catalog_photo-bottom {
+  margin-bottom: 4em;
+}
+.catalog_photo-title {
+  text-align: center;
+  font-size: 2em;
+  font-family: $font-brand1;
+  color: $color-brand3;
+  text-decoration: underline;
+}
+.svn-content_contain-caption.photo {
+  padding: 1em;
+  @include palm-mid {
+    width: 100%;
+  }
+}
+.svn-content_contain-caption.photo li {
+  list-style: none;
+  padding-bottom: 1.5em;
+  @include palm-mid {
+    width: 31%;
+    float: left;
+    margin-right: 8px;
+    margin-bottom: 1em;
+  }
+  @include tablet {
+    width: 24%;
+    margin-right: 20px;
+  }
+}
+.catalog_content-wrapper {
+  margin-bottom: 75px;
+  @include tablet {
+    float: right;
+    width: 80%;
+    margin-bottom: 0;
+  }
+  @include desktop-blah {
+    // width: 65%;
+    margin-right: 2em;
+  }
+}
+.catalog_content-wrapper p {
+  margin-bottom: 1.5em;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: right;
+  width: 70%;
+  float: right;
+  @include tablet {
+    float: none;
+    width: 100%;
+  }
+  @include desktop {
+    font-size: 22px;
+    line-height: 38px;
+  }
+}
+.catalog_section {
+  float: right;
+}
+.catalog_credits-artist.video li {
+  float: none;
+  display: block;
+  width: 100%;
+}
+.catalog_caption-close.video {
+  padding: 1em;
+  @include palm-mid {
+    padding: 2em;
+  }
+}
+.catalog_section.video {
+  margin-top: 0;
+}
+
+.catalog_photo-wrapper.video {
+  width: 100%;
+  @include tablet {
+    width: 75%;
+  }
+}
+.catalog_section.video {
+  padding: 1em;
+  @include palm-mid {
+    padding: 2em;
+  }
+}

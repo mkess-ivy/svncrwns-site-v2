@@ -1,0 +1,48 @@
+.title_wrapper {
+  height: 35vh;
+  padding-right: 20px;
+
+  @include tablet {
+    padding-right: 0px;
+  }
+  @include laptop {
+    height: auto;
+  }
+}
+.title-container { 
+  text-align: right;
+  
+  @include palm-mid {
+    padding: 0;
+  }
+  @include desktop {
+    margin-top: 75px;
+  }
+}
+.title-container-subtitle {
+  margin: 25px 0;
+  font-style: italic;
+  letter-spacing: 5px;
+  text-align: right;
+  line-height: 34px;
+
+  @include palm-mid {
+    letter-spacing: 7px;
+  }
+}
+
+.title { 
+  @include boldfontuppercase(36px, 44px);
+  text-align: right;
+  
+  @include laptop {
+  	@include boldfontuppercase(34px, 40px);
+  }
+  @include desktop-blah {
+    @include boldfontuppercase(60px,68px);
+  }
+}
+.cs-justify-content {
+  justify-content: center !important;
+  height: 100%;
+}

@@ -1,0 +1,146 @@
+// Primary Hero Content
+
+// - List
+.primary-list li {
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 15px;
+  color: $translucent-light;
+  line-height: 55px;
+
+  @include palm-mid {
+    font-size: 60px;
+  }
+
+  @include tablet {
+    font-size: 90px;
+    line-height: 55px;
+  }
+
+  @include laptop {
+    font-size: 125px;
+    line-height: 85px;
+  }
+}
+.svn-big-logo-wrapper {
+  position: absolute;
+  z-index: 1;
+  bottom: 0px;
+  @include palm-mid {
+    right: -40px;
+  }
+  @include tablet {
+    right: -75px;
+    bottom: -60px;
+  }
+  @include laptop {
+    right: -40px;
+  }
+}
+.svn-big-logo {
+  width: 800px;
+}
+
+// Section Hero Content
+.section_hero_content {
+  font-size: 50px;
+  letter-spacing: 15px;
+  color: $translucent-light;
+  line-height: 20px;
+
+  @include palm-mid {
+    font-size: 65px;
+  }
+
+  @include tablet {
+    font-size: 90px;
+  }
+
+  @include laptop {
+    font-size: 125px;
+  }
+}
+
+/* Big Heroes */
+.svn-primary-hero-margin {
+  margin-top: 75px !important;
+}
+.margintop75 {
+  margin-top: 75px !important; 
+}
+.svn_hero_margin {
+  margin-top: 25px;
+  margin-bottom: 0px !important;
+
+  @include tablet {
+    margin-top: 75px;
+  }
+}
+.svn-primary-hero-margin1 {
+  padding-top: 125px !important;
+}
+.svn-primary-hero-margin2 {
+  padding-top: 90px !important;
+}
+.svn-primary-hero {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  height: calc(100vh - 85px);
+  position: relative;
+  z-index: 3;
+  @include tablet {
+    margin-bottom: 75px; 
+    height: 100vh; 
+  }
+  @include tv {
+    height: calc(100vh - 126px);
+  }
+}
+.svn_hero {
+  @extend .svn-primary-hero;
+  @include tablet {
+    height: 90vh;  
+  }
+}
+.catalog_hero {
+  @extend .svn_hero;
+  height: calc(100vh - 230px);
+  padding: 0 !important;
+  @include tablet {
+    height: calc(100vh - 200px);
+  }
+}
+.film-hero {
+  @include flex;
+  margin-bottom: 0;
+  width: 100%;
+  @include tablet {
+    margin-bottom: 75px;
+    width: 95%;
+    float: right;
+    height: 65vh;
+  }
+}
+
+.hero-bg { 
+  background-size: cover; 
+  background-position: bottom right; 
+  background-repeat: no-repeat; 
+  width: 100%; 
+  height: calc(50vh - 85px); 
+  @include palm-mid { 
+    height: calc(55vh - 95px); 
+  }
+  @include tablet { 
+    width: 50%; 
+    float: left; 
+    height: calc(95vh - 70px); 
+  }
+  @include tv { 
+    height: 100vh; 
+  }
+}
+.hero-logo_img { 
+  width: 70%; 
+}

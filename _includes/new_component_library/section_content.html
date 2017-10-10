@@ -1,0 +1,34 @@
+<section class="section-bg" style="background-image: url('{{ include.section_bg }}');">
+
+  	<div class="svn-wrapper">
+    	<div class="svn-content">
+      		<div class="svn-content_no">{{ include.section-number }}</div>
+      		
+      		{% if include.layout == "right" %}
+      		<div class="content_container clear">
+        		
+        		{%  include 
+
+        			new_component_library/2col_right.html    
+
+        		%}
+
+      		</div>
+      		{% endif %}
+
+      		{% if include.layout == "left" %}
+      		<div class="content_container clear">
+        		
+        		{%  include 
+
+        			new_component_library/2col_left.html    
+
+        		%}
+
+      		</div>
+      		{% endif %}
+    	</div>
+  	</div>
+    
+</section><!-- .section-bg -->
+

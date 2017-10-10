@@ -1,0 +1,43 @@
+.subscribe-wrapper {
+	padding: 75px 0 125px;
+	width: 90%;
+	margin: 0 auto 100px;
+	border: 3px solid;
+
+	@include tablet {
+		width: 100%;
+		margin: 0 0 100px;
+	}
+
+	@include desktop {
+		max-width: 850px;
+	}
+}
+.subscribe-title {
+	text-align: right;
+	padding: 0 25px 0 7px;
+	color: black;
+	font-size: 40px;
+
+	@include tablet {
+		font-size: 60px;
+	}
+}
+.subscribe-text {
+	font-size: 18px;
+	padding: 30px 30px 45px;
+	text-align: right;
+
+	@include tablet {
+		font-size: 24px;
+	}
+}
+.subscribe-content {
+	
+	@include tablet {
+		width: 700px;
+	}
+}
+.subscribe-mailchimp-wrapper {
+	padding-right: 30px;
+}

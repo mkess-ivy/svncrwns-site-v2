@@ -1,0 +1,108 @@
+.site-footer { 
+	
+	@include tablet {
+		position: relative; 
+	
+		margin-top: 0;
+		padding-top: 50px;
+	}
+	
+}
+.footer_signup_big {
+
+	@include font_size_lg;
+	color: $color-brand5;
+	text-align: right;
+	text-transform: uppercase;
+	font-family: $font-brand1;
+
+}
+.footer_signup_small {
+	text-transform: uppercase;
+	text-align: right;
+	color: $color-brand5;
+	@include font_size_micro;
+	font-family: $font-brand1;
+}
+.footer_section {
+	width: 100%;
+	position: relative;
+	margin-top: 50px;
+
+	@include tablet {
+		width: 33%;
+		float: left;
+		margin-top: 0;
+		min-height: 170px;
+	}
+}
+.footer_section:first-child {
+	margin-top: 0;
+}
+.footer_copyright {
+	font-size: 8px;
+	margin-top: 5px;
+	color: $color-brand5;
+}
+.footer-section-wrapper { 
+	position: relative; 
+	width: 100%;
+}
+.footer_align_bottom {
+	
+	@include tablet {
+		position: absolute;
+		bottom: 0;
+	}
+}
+.footer_social {
+	
+	@include tablet {
+		width: 65%;
+		left: 0;
+		right: 0;
+		margin: auto;
+	}
+}
+ul.list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	text-align: right;
+	color: $color-brand5;
+	width: 100%;
+	font-size: 18px;
+	
+	@include tablet {
+		width: auto;
+		float: left;
+		margin-right: 20px;
+		text-align: initial;
+	}
+}
+ul.list li {
+	margin-bottom: 6px;
+}
+ul.list li a {
+	color: $color-brand5;
+}
+ul.list li a:hover {
+	border-bottom: 1px solid;
+}
+.footer_right {
+	right: 0 !important;
+}
+.footer-elements { 
+	padding: 0 0 10px;
+	
+	@include tablet { 
+		padding: 0 0 70px 0;
+	}
+}
+.footer-logo { 
+	padding-bottom: 2em;
+}
+.no_underline:hover {
+	text-decoration: none;
+	border-bottom: 0;
+}

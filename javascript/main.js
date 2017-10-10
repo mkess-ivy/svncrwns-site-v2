@@ -43,11 +43,7 @@ $(document).ready(function(){
   }
 
   // Catalog Page - remove classes to get desired desktop view
-  // Pseudocode
-
-  // if the screen size equals tablet
-  // find #photo5, remove .catalog_photo-group, add .catalog_photo-5
-  // find #photo6, remove .catalog_photo-group2, add .catalog_photo-6
+  // - if the screen size equals tablet
   if (window.matchMedia("(min-width: 700px)").matches) {
     $("#js-photo5").removeClass('catalog_photo-group');
     $("#js-photo5").addClass('catalog_photo-5');
@@ -78,7 +74,7 @@ $(document).ready(function(){
     }
   });
 
-  // Reveal mobile menu after certain scroll height
+  // Reveal logo after certain scroll height
   $('#js-menu').hide();
   $(window).scroll(function() {
     if ($(window).scrollTop() > 100) {
@@ -99,12 +95,6 @@ $(document).ready(function(){
       $('#js-home-top').fadeOut("fast");
     }
   });
-
-
-  // Scroll Reveal Class
-  window.sr = ScrollReveal();
-  sr.reveal('.foo', { duration: 500, opacity: 0.1 });
-
   
   // Catalog Hover Feature
   $(".js-background-trigger").hover(function(){
@@ -115,15 +105,13 @@ $(document).ready(function(){
      $(".js-background-receiver", this).removeClass('hover');
   });
 
-  
-  // Clock
-  var clockElement = document.getElementById( "clock" );
-  function updateClock ( clock ) {
-    clock.innerHTML = new Date().toLocaleTimeString();
-  }
-  setInterval(function () {
-    updateClock( clockElement );
-  }, 1000);
+  // Menu Close
+  $('#nav-icon1').click(function(){
+    $(this).toggleClass('open');
+    $('.overlay').toggleClass('overlay-open');
+    $('body').toggleClass('noScroll');
+  });
+    
 
   
 });

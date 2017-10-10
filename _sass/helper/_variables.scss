@@ -1,0 +1,137 @@
+// Our font families variables
+$brand-font: "League Spartan", "Maison Neue", "Arial Black", sans-serif;
+$fontfamily-v1: Helvetica, Arial, sans-serif;
+$alt-font-1: Arial Black, sans-serif;
+$alt-font-2: "Maison Neue", sans-serif;
+
+// Font Families
+$font-brand1                : "League Spartan", "Maison Neue", "Arial Black", sans-serif;
+$font-brand2                : Helvetica, Arial, sans-serif;
+$font-brand3                : 'Libre Baskerville', Helvetica, serif;
+$line-height                : 1.4;
+
+// Colors
+$color-brand1               : #040707;
+$color-brand2               : #794C08;
+$color-brand3               : #A58124;
+$color-brand4               : #C6A88D;
+$color-brand5               : #6F5723;
+$color-gray                 : #4A4A4A;
+$color-white                : #FFFFFF;
+$black                      : #000000;
+$translucent-light          : rgba(226, 207, 74, 0.6);
+
+// I don't need these
+$brown1: #745c1c;
+$brand-color: #6F5723;
+$section-number-font-size: 1.2em;
+$primary-color: #4a4a4a;
+$brand-color-2: #C9A443;
+
+// Slide Properties
+$slide-height: 100vh;
+
+$base-font-size:   16px;
+$small-font-size:  $base-font-size * 0.875;
+
+$section-hero-font-size: 20px;
+$size_img_id: 0.8em;
+$base-line-height: 1.5;
+$spacing-unit:     20px;
+$text-color: #000;
+
+$quote-color: #3b3b3b;
+
+$brand-color3: #C7A88D;
+$background-color: #fff;
+$white-bg: #fff;
+$image-number-color: #fff;
+$color_img_id: #ffffff;
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+
+// Fonts
+
+
+/* Fonts */
+.font_lz {
+  @include font_lz;
+  text-align: right;
+  line-height: 50px;
+  margin-bottom: 7px;
+  @include desktop {
+    font-size: 48px;
+    line-height: 65px;
+  }
+  @include tv {
+    margin-bottom: 30px;
+  }
+}
+.font_size_la {
+  @include font_size_la;
+  text-align: right;
+  @include desktop-blah {
+    font-size: 25px;
+  }
+}
+.font_size_lg {
+  @include font_size_lg;
+  text-align: right;
+  line-height: 30px;
+}
+.font_lg_lowercase {
+  @include font_lg_lowercase;
+}
+.font_size_micro {
+  @include font_size_micro;
+  text-align: right;
+  @include desktop {
+    font-size: 16px !important;
+  }
+}
+.font_size_small {
+  @include font_size_small;
+  text-align: right;
+}
+.font_size_med {
+  @include font_size_med;
+  text-align: right;
+  line-height: 20px;
+  margin-bottom: 7px;
+  @include tv {
+    margin-bottom: 30px;
+  }
+}
+.font_standard {
+  @include font_standard;
+  margin: 15px 0;
+  line-height: 18px;
+  text-align: right;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.font_text_area {
+  @include font_text_area;
+  text-align: right;
+  margin: 10px 0;
+}
+.small_links {
+  @include font_size_micro;
+  line-height: 14px !important;
+}
+.small_links_w {
+  line-height: 14px !important;
+}
+.link {
+  color: #000;
+  cursor: pointer;
+}
+.link:hover {
+  color: $color-brand5;
+  border-bottom: 1px solid;
+  
+}
+
