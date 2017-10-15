@@ -25,7 +25,9 @@
       
       {% include footer2.html %}
 
-      {% include html5video.html %}
+      {% unless layout == "catalog-slide" %}
+        {% include html5video.html %}
+      {% endunless %}
 
     </div>
 

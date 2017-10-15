@@ -121,6 +121,7 @@
 <script type="text/javascript" src="/javascript/main.js"></script>
 <script type="text/javascript" src="/javascript/slider.js"></script><!-- Slick calls -->
 
-
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+{% unless page.layout == "test-lookbook-layout" or page.layout == "test-lookbook-slider" %}
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+{% endunless %}
 <script type="text/javascript" src="/javascript/slidefilm.js"></script>

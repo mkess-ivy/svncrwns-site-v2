@@ -16,7 +16,7 @@ UPCOMING EVENTS
     margin-top: 50px;
   }
 
-  @include desktop {
+  @include desktop-blah {
     margin-top: 100px;
   }
 }
@@ -46,7 +46,7 @@ UPCOMING EVENTS
     margin-left: 50px;
     max-width: 170px;
   }
-  @include desktop {
+  @include desktop-blah {
     max-width: 225px;
   }
 }
@@ -54,7 +54,7 @@ UPCOMING EVENTS
   font-size: 14px;
   text-align: right;
   font-family: $font-brand3;
-  @include desktop {
+  @include desktop-blah {
     font-size: 15px;
   }
 }

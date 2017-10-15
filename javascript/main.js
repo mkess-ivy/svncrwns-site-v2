@@ -111,6 +111,19 @@ $(document).ready(function(){
     $('.overlay').toggleClass('overlay-open');
     $('body').toggleClass('noScroll');
   });
+
+  // Slider
+  $('.svn-slider').slick({
+    autoplay: true,
+    autoplaySpeed: 4000,
+    arrows: true,
+    infinite: true,
+    fade: true,
+    speed: 500,
+    cssEase: 'linear',
+    nextArrow: '<div class="slick-next"></div>',
+    prevArrow: '<div class="slick-prev"></div>'
+  });
     
 
   

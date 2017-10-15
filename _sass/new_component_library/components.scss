@@ -267,7 +267,7 @@
   text-transform: uppercase;
   color: #111;
   margin-bottom: 25px;
-  border-top: 1px solid;
+  // border-top: 1px solid;
   padding: 20px 15px 50px;
   font-size: 26px;
   margin-top: 75px;
@@ -333,11 +333,11 @@
   }
 }
 .content-block-wrapper {
-  margin-bottom: 75px !important;
+  margin-bottom: 0 !important;
   margin-top: 0;
 
   @include tablet {
-    margin: 50px auto 200px !important;
+    margin: 50px auto 25px !important;
   }
 }
 .content-block-wrapper-inner {

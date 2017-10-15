@@ -20,12 +20,17 @@
 
 // CTA Btn for Feeling INspired Component
 .cta-btn div {
-  width: 180px;
-  padding: 15px 0;
+  width: 140px;
+  padding: 8px 0;
   float: right;
   text-align: center;
   border: 2px solid;
   -webkit-font-smoothing: antialiased;
+
+  @include tablet {
+    width: 180px;
+    padding: 15px 0;
+  }
 }
 .cta-btn div:hover {
   color: white;

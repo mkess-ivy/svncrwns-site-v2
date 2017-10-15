@@ -7,6 +7,7 @@
 }
 .slide {
 	position: relative;
+	width: 100%;
 }
 .svn-slider .slick-track {
 	height: $slide-height;
@@ -190,6 +191,7 @@
 .slide-inner {
 	display: none;
 	@include laptop {
+		display: block;
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: center center;

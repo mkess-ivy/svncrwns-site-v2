@@ -6,13 +6,9 @@ permalink 					: /opportunities/
 featured-body-hero 			: "/assets/images/baltimore-studios.jpg"
 ---
 
-{% include 
-
-	new_component_library/page_title.html 
-
+{% include new_component_library/page_title.html 
 	page_title="Opportunities"
 	page_subtitle="Let's share ideas and<br/>make things happen"
-
 %}
 
 <section style="background-color: {{ include.bg }};">
@@ -38,11 +34,7 @@ featured-body-hero 			: "/assets/images/baltimore-studios.jpg"
 </div>
 </section>
 
-{% include 
-
-	new_component_library/subscribe.html 
-
+{% include new_component_library/subscribe.html 
 	title="Stay in the loop."
 	text="We'll be sharing opportunities that we're working on, which means more opps where we can work with you.  Stay tuned, and subscribe to our email&nbsp;list."
-
 %}

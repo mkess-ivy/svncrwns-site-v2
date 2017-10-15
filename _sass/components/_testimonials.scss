@@ -8,6 +8,7 @@
 }
 .testimonial-items-wrapper {
   padding-bottom: 100px;
+  width: 45%;
 }
 .testimonial-text {
   @include font_size_la;
@@ -18,9 +19,12 @@
 
   @include tablet {
     margin-bottom: 25px;
-    font-size: 22px;
+    font-size: 12px;
     line-height: 1.5;
   }
+}
+.big-testimonial-text {
+  font-size: 19px;
 }
 .testimonial-author {
   @include font_standard;
@@ -30,14 +34,14 @@
   font-weight: bold;
 
   @include tablet {
-    font-size: 16px;
+    font-size: 12px;
   }
 }
 .testimonial-title {
   text-align: center;
   font-weight: 700;
   font-size: 13px;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
   padding-top: 7px;
 
   @include palm {
