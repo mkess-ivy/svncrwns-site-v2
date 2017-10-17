@@ -1,5 +1,5 @@
 ---
-layout 								: catalog-slide
+layout 								: coming-soon
 title 								: "Kenn Hall"
 
 

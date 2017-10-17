@@ -3,6 +3,7 @@
 
   {% include head.html %}
  
+ 
   <body class="white">
 
     <div class="se-pre-con"></div>
@@ -13,13 +14,16 @@
 
       {% include header.html %}
 
-      {% include new_component_library/backtop_icon.html %}
+     <section class="backtop_wrapper">
+      <div class="backtop-icon" id="js-backtop"><a href="#framework" class="no-line"><img src="/assets/images/slide-up.png" width="35" /></a></div>
+    </section>
     
-      <div class="clear" style="overflow-x: hidden;">
+      <div class="clear">
         {{ content }}
       </div>
 
       {% include footer2.html %}
+     
     </div>
 
   </body>

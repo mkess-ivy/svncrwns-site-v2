@@ -1,6 +1,6 @@
 ---
 [//]													: # (Meta Info)
-layout												: catalog-slide
+layout												: coming-soon
 title 												: "Chasing the Orange Sky"
 date													: 'Apr 5 2016'
 year													:	'2016'

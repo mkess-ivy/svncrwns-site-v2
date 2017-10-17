@@ -1,5 +1,5 @@
 ---
-layout 										: catalog-slide
+layout 										: coming-soon
 title 										:  "Youth in a Secret Garden"
 date 											:   'Aug 23 2016'
 

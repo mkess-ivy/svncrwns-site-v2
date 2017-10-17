@@ -92,6 +92,9 @@ season 								: "2"
 			photo1= "/assets/images/neptune-final-9.jpg"
 			photo1-no= "6"
 
+			caption_title= "07. Pop-Up Museum Visual"
+			caption_text= "A recap of the setup and execution of SANKOFA. 6 min 28 sec."
+
 		%}
 
 		{%	include
