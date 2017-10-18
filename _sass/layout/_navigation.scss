@@ -48,9 +48,13 @@ body.noScroll {
   position: relative; 
   background-color: transparent;
   border: none;
+  width: 36px;
   @include palm-mid {
-    width: 32px;
+    
     float: right;
+  }
+  @include desktop-blah {
+    display: none;
   }
 }
 .menuButton:hover { 
@@ -62,7 +66,7 @@ body.noScroll {
 }
 .menuButton:active { 
   position: relative; 
-  top: 1px; 
+  // top: 1px; 
 }
 .menu-icons img { 
   width: 5%; 
@@ -148,6 +152,9 @@ body.noScroll {
     bottom: auto;
     top: 50%; 
   }
+  @include desktop-blah {
+    display: none;
+  }
 }
 .overlay-close:hover {
   color: $color-white;
@@ -230,26 +237,26 @@ ul.nav li a:hover::after {
 /* Icon 1 */
 
 #nav-icon1 {
-  width: 30px;
-  height: 16px;
-  position: fixed;
-  top: auto;
-  bottom: 25px;
-  left: 20px;
-  margin: 20px auto;
-  -webkit-transform: rotate(0deg);
-  -moz-transform: rotate(0deg);
-  -o-transform: rotate(0deg);
-  transform: rotate(0deg);
-  -webkit-transition: .5s ease-in-out;
-  -moz-transition: .5s ease-in-out;
-  -o-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
-  cursor: pointer;
-  z-index: 13000;
-
-  @include tablet {
+  display: none;
+  @include desktop-blah {
+    display: block;
+    width: 30px;
+    height: 16px;
+    position: fixed;
     top: 46%;
+    bottom: 25px;
+    left: 20px;
+    margin: 20px auto;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+    z-index: 13000;
   }
 }
 

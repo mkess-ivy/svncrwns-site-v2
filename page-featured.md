@@ -69,5 +69,3 @@ featured-body-hero 			: "/assets/images/studio-photographer.jpg"
 {% endfor %}
 
 </div>
-
-{% include new_component_library/upcoming_events.html %}

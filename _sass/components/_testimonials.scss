@@ -8,7 +8,10 @@
 }
 .testimonial-items-wrapper {
   padding-bottom: 100px;
-  width: 45%;
+  
+  @include tablet {
+    width: 45%;
+  }
 }
 .testimonial-text {
   @include font_size_la;

@@ -137,5 +137,3 @@ featured-body-hero 				: "/assets/images/studio-photographer.jpg"
 	link-text="Feeling Inspired"
 	link-url="/contact"
 %}
-
-{% include new_component_library/upcoming_events.html %}

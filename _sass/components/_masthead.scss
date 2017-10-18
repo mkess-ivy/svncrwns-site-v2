@@ -55,14 +55,9 @@
   font-family: $font-brand3;
 }
 .svn_masthead_section {
-  
-  // padding-top: 15px;
-  // width: 100%;
   display: none;
   
-  @include tablet {
-    // margin-bottom: 110px;  
-    // top: 10px;
+  @include desktop-blah {
     display: block;
   }
 }
@@ -74,17 +69,17 @@
   height: calc(100vh - 90px);
 }
 .masthead_logo {
-  margin-bottom: 50px;
+  margin-bottom: 25px;
   
   .masthead_logo_img {
-    width: 300px;
+    width: 225px;
     @include laptop {
       width: 500px;
     }
   }
 }
 .masthead_text {
-  font-size: 32px;
+  font-size: 22px;
   width: 90%;
   text-align: center;
   // margin-bottom: 25px;
@@ -101,7 +96,7 @@
   }
 }
 .masthead_list {
-  margin: 20px 0;
+  margin: 50px 0;
   padding: 0;
   list-style: none;
   // font-size: 12px;
