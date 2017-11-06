@@ -5,6 +5,9 @@ title							: "Humble"
 date							: 'May 04 2017'
 season 							: "3"
 
+[//]: # (Hidden Work)
+summary                         : "a visual look book of photo and video for client"
+
 [//]: # (Featured Info)
 featured 						: "yes"
 featured-rank 					: "5"

@@ -1,5 +1,5 @@
 ---
-layout            				: default
+layout            				: phase1
 
 video_url         				: "https://player.vimeo.com/video/104641191?api=1"
 video_hero_img    				: "/assets/images/hero_home3.png"
@@ -8,79 +8,34 @@ featured-body-hero 				: "/assets/images/contact_hero.jpg"
 
 ---
 
-<div class="clear" id="home"></div>
+<div id="home"></div>
+<div class="full_height">
+    <div class="covervid-wrapper">
+        <video class="covervid-video" autoplay loop poster="/img/hero_1.jpg">
+            <!-- <source src="videos/clouds.webm" type="video/webm"> -->
+            <source src="assets/video/short_video.mp4" type="video/mp4">
+        </video>
+        <div class="frow flex-centered">
+            <div class="phase1-masthead">
+                <div class="phase1-header">
+                    Strategy + Production
+                </div>
+                <div class="phase1-subheader">
+                    SVNCRWNS is a production company based in Baltimore, Maryland.  We work with companies to create and execute digital + visual marketing for campaigns and special projects.
+                </div>
+            </div>
 
-<!-- Section 1 -->
-{% include 
+        </div>
+    </div>
+</div>
 
-	new_component_library/masthead.html 
+<!-- <div class="phase1-slider">
+    <div class="phase1-slide-bg" style="background-image: url('/assets/images/kh-1.jpg')"></div>
+</div> -->
+<section class="work_section">
+    <a href="#" id="phase1-openDiv" class="phase1-btn">Work <span><img src="/assets/images/down_arrow.png" width="20" /></span></a>
 
-%}
-<!-- #Section 1 -->
-
-<!-- Section 2 -->
-{% include 
-
-	new_component_library/hero.html 
-
-	hero-img="/assets/images/black-tv.jpg"
-	hero-list="yes"
-
-	caption_title = "B-Roll from Nomad Yard, 2015" 
-	caption_text = "We're creating branded content. Film, Fashion and Art&mdash; are the industries that we pivot. We help our clients launch + sell consumer goods."
-
-%}
-<!-- #Section 2 -->
-
-<!-- Section 3 -->
-{% include 
-
-	new_component_library/section_content.html 
-
-	layout="right" 
-
-	section-number="01"
-	section_bg="/assets/images/home-bg-1.jpg" 
-
-	featured-image= "/assets/images/backstage-bw.jpg"
-	featured-title= "Strategy is at the crux of what our brand represents."
-
-	caption_title = "Backstage at Spectrum" 
-	caption_text = "Our love for strategy works well with our vision for produced projects. We believe if you can create a strong vision, you can create success"
-	url = "/catalog/collabmore-spectrum"
-
-%}
-<!-- #Section 3 -->
-
-<!-- Section 4 -->
-{% include 
-
-	new_component_library/hero.html 
-
-	hero-img="/assets/images/sankofa-bw.jpg"
-
-	caption_title = "Kids Exploring <br />@ Pop-Up Museum: Sankofa" 
-	caption_text = "A mix of brand strategy and activation are a great recipe for growth and exposure. Connecting with people in the community through common threads is a good start to building relationships around commerce"
-	url = "/catalog/pop-up-museum-sankofa"
-
-%}
-<!-- #Section 4 -->
-
-<!-- Section 5 -->
-{% include 
-
-	new_component_library/section_content.html 
-
-	layout="left" 
-
-	section-number="03"
-	section_bg="/assets/images/home-bg-1.jpg" 
-
-	featured-image= "/assets/images/team.jpg"
-	featured-title= "We are the team for executing the plan that's needed for the big idea"
-
-	caption_title = "BTS Thug Myth Documentary" 
-	caption_text = "We look at our company like having the tools to sow into the seeds that are around us.  We want to help other brands grow and provide the best products and services to our extended communities."
-
-%}
-<!-- #Section 5 -->
+    <div id="phase1-open" class="phase1-scrollbar phase1-open">
+        {% include new_component_library/szn.html season="3" %}
+    </div>
+</section>

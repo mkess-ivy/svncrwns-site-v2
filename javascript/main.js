@@ -1,28 +1,31 @@
 $(document).ready(function(){
-  
+
   // Smooth Scroll
-  $('a[href^="#"]').on('click',function (e) {
-      e.preventDefault();
+  // $('a[href^="#"]').on('click',function (e) {
+  //     e.preventDefault();
+  //
+  //     var target = this.hash;
+  //     var $target = $(target);
+  //
+  //     $('html, body').stop().animate({
+  //         'scrollTop': $target.offset().top
+  //     }, 900, 'swing', function () {
+  //         window.location.hash = target;
+  //     });
+  // });
 
-      var target = this.hash;
-      var $target = $(target);
-
-      $('html, body').stop().animate({
-          'scrollTop': $target.offset().top
-      }, 900, 'swing', function () {
-          window.location.hash = target;
-      });
-  });
-
-  // Overlay Menu
-  $("#overlay-menu").click(function() {
+  // Overlay Menu (#overlay-menu for r6 design)
+  $("#phase1-overlay-menu").click(function() {
     $(".overlay").addClass("overlay-open");
     $("body").addClass("noScroll");
+    $(".phase1-btn").hide();
   });
 
-  $(".overlay-close").click(function() {
+  // (#overlay-close for r6 design)
+  $(".phase1-overlay-close").click(function() {
     $(".overlay").removeClass("overlay-open");
     $("body").removeClass("noScroll");
+    $(".phase1-btn").show();
   });
 
   // Wait for window load
@@ -31,6 +34,16 @@ $(document).ready(function(){
     $(".se-pre-con").fadeOut("slow");;
   });
 
+  // Work Section for Home Page
+  $('#phase1-open').hide();
+	$('#phase1-openDiv').on('click', function(event) {
+        $('#phase1-open').toggle('show');
+    });
+
+    // CoverVid
+        $('.covervid-video').coverVid();
+
+        
   // Background Video
   var banner = document.querySelector('.banner');
   var bannerVideo = document.querySelector('.banner__video');
@@ -52,7 +65,7 @@ $(document).ready(function(){
     $("#js-photo6").addClass('catalog_photo-6');
     $("#js-photo7").removeClass('catalog_photo-group');
     $("#js-photo7").addClass('catalog_photo-7');
-  } 
+  }
   else {
     $("#js-photo5").removeClass('catalog_photo-5');
     $("#js-photo5").addClass('catalog_photo-group');
@@ -95,12 +108,21 @@ $(document).ready(function(){
       $('#js-home-top').fadeOut("fast");
     }
   });
-  
+
+  // Phase 1 Hidden Work Hover Feature
+  $(".js-background-trigger").hover(function(){
+   $(".phase1-js-background-receiver", this).addClass('hover');
+  }
+  ,
+  function(){
+     $(".phase1-js-background-receiver", this).removeClass('hover');
+  });
+
   // Catalog Hover Feature
   $(".js-background-trigger").hover(function(){
    $(".js-background-receiver", this).addClass('hover');
   }
-  , 
+  ,
   function(){
      $(".js-background-receiver", this).removeClass('hover');
   });
@@ -124,6 +146,18 @@ $(document).ready(function(){
     nextArrow: '<div class="slick-next"></div>',
     prevArrow: '<div class="slick-prev"></div>'
   });
+
+  // $('.phase1-slider').slick({
+  //     autoplay: false,
+  //     arrows: true,
+  //     fade: true,
+  //     speed: 500,
+  //     cssEase: 'linear',
+  //     nextArrow: '<img src="/img/right_arrow.png" class="slick-next" />',
+  //     prevArrow: '<img src="/img/left_arrow.png" class="slick-prev" />'
+  // });
+
+
 
 // Design System Menu
 var $side_menu_trigger = $('#nav-trigger'),
@@ -171,6 +205,10 @@ $('.corn').click( function () {
 $('.tomato').click( function () {
   $('#side-nav .tomato-sub').toggleClass('submenu-open');
 });
-    
-  
+
+// address bar for background jump mobile
+var screenHeight = $(window).height();
+   $('.body-hero').css('height', screenHeight + 'px');
+
+
 });

@@ -1,0 +1,29 @@
+<div id="menu-container">
+
+    <button id="phase1-overlay-menu" type="button" class="phase1_menu_btn">
+        <div class=""><img src="/assets/images/simple_menu.png" /></div>
+    </button>
+</div>
+
+<div class="overlay overlay-data">
+    <button type="button" class="phase1-overlay-close"><img src="/assets/images/close-icon.png"/></button>
+
+    <div class="overlay_container clear">
+
+        <div class="frow flex-centered">
+
+            <nav>
+                <div class="menu_title">featured work</div>
+                <ul>
+                    {% for work in site.catalog limit:8 %}
+                    <li><a href="{{ work.url }}">{{ work.title }}</a></li>
+                    {% endfor %}<br/>
+                    <li class="short_links"><a href="">about</a></li>
+                    <li class="short_links"><a href="">contact</a></li>
+                </ul>
+            </nav>
+
+            <!-- <div class="ds_link"><a href="/design-system">design system</a></div> -->
+        </div>
+    </div>
+</div>

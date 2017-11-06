@@ -1,12 +1,53 @@
-.site-footer { 
-	
+/* Phase 1 */
+.left_footer_copy {
+	display: inline;
+
+}
+.right_footer {
+	font-weight: 700;
+
+	ul
+		li {
+			display: inline;
+			text-transform: uppercase;
+			margin-right: 9px;
+
+			&:last-child {
+				margin-right: 0;
+			}
+
+			a {
+				color: $off-white;
+				font-weight: 700;
+			}
+		}
+}
+.phase1-site-footer {
+	font-family: $font-brand4;
+	font-weight: 500;
+	font-size: 14px;
+	color: $off-white;
+	background: $off-black;
+
 	@include tablet {
-		position: relative; 
-	
+		position: relative;
+
+		margin-top: 0;
+		padding: 10px 50px;
+	}
+
+}
+
+/* #Phase 1 Footer */
+.site-footer {
+
+	@include tablet {
+		position: relative;
+
 		margin-top: 0;
 		padding-top: 50px;
 	}
-	
+
 }
 .footer_signup_big {
 
@@ -44,19 +85,19 @@
 	margin-top: 5px;
 	color: $color-brand5;
 }
-.footer-section-wrapper { 
-	position: relative; 
+.footer-section-wrapper {
+	position: relative;
 	width: 100%;
 }
 .footer_align_bottom {
-	
+
 	@include tablet {
 		position: absolute;
 		bottom: 0;
 	}
 }
 .footer_social {
-	
+
 	@include tablet {
 		width: 65%;
 		left: 0;
@@ -72,7 +113,7 @@ ul.list {
 	color: $color-brand5;
 	width: 100%;
 	font-size: 18px;
-	
+
 	@include tablet {
 		width: auto;
 		float: left;
@@ -92,14 +133,14 @@ ul.list li a:hover {
 .footer_right {
 	right: 0 !important;
 }
-.footer-elements { 
+.footer-elements {
 	padding: 0 0 10px;
-	
-	@include tablet { 
+
+	@include tablet {
 		padding: 0 0 70px 0;
 	}
 }
-.footer-logo { 
+.footer-logo {
 	padding-bottom: 2em;
 }
 .no_underline:hover {

@@ -1,7 +1,9 @@
 ---
 layout 								: test-lookbook-layout
-title 								: "Test Look book"
+title 								: "Look book"
 
+[//]: # (Hidden Work)
+summary                         : "a visual look book of photo and video for client"
 
 [//]: # (Featured Info)
 featured 							: "yes"
@@ -14,21 +16,21 @@ catalog-cover-image					: /assets/images/kh_cover.jpg
 season								: "3"
 ---
 
-{%	include slide_library/partial-intro-slide.html 
+{%	include slide_library/partial-intro-slide.html
 	intro-slide_img= "/assets/images/kh-1.jpg"
 	intro-slide_copy= "On a warm and cloudy evening, before the rain poured out of the clouds, the sky was a bright, beautiful orange with shadows of green - a rainbow before the storm. Featuring Chavon and her kimono."
 %}
 
-{%	include slide_library/partial-full-width-slide.html 
+{%	include slide_library/partial-full-width-slide.html
 	full-width_img="/assets/images/kh-2.jpg"
 %}
 
-{%	include slide_library/partial-one-in-one-slide.html 
+{%	include slide_library/partial-one-in-one-slide.html
 	one-in-one_img-cover="/assets/images/kh-3.jpg"
 	one-in-one_img-inner="/assets/images/kh-4.jpg"
 %}
 
-{%	include slide_library/partial-full-width-slide.html 
+{%	include slide_library/partial-full-width-slide.html
 	full-width_img="/assets/images/kh-5.jpg"
 %}
 
@@ -38,7 +40,7 @@ season								: "3"
 	oneplus_img3="/assets/images/kh-6.jpg"
 %}
 
-{%	include slide_library/partial-full-width-slide.html 
+{%	include slide_library/partial-full-width-slide.html
 	full-width_img="/assets/images/kh-8.jpg"
 %}
 
@@ -46,6 +48,6 @@ season								: "3"
 	fin-slide_img="/assets/images/project_chasingtheorangesky/ctos-9.jpg"
 %}
 
-{%	include slide_library/partial-credits-slide.html 
+{%	include slide_library/partial-credits-slide.html
 	data-credits-list="pop-up-sankofa-credits"
 %}

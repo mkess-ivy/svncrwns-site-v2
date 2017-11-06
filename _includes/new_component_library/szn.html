@@ -1,0 +1,21 @@
+<div class="work_szn">
+    <div class="work_szn_header">
+        szn 03
+    </div>
+    <div class="work_szn_items">
+        {% for project in site.catalog reversed %}
+            {% if include.season == project.season %}
+            <div class="work_item_wrapper">
+                <div class="work_item_title js-background-trigger">
+                    <a href="{{ project.url }}">{{ project.title }}</a>
+                    {% if project.catalog-cover-image %}
+                    <div class="phase1-js-background-receiver" style="background-image: url({{ project.catalog-cover-image }});"></div>
+                    {% endif %}
+                </div>
+                <div class="work_item_summary">{{ project.summary }}</div>
+                <div class="work_item_link"><a href="{{ project.url }}">view more</a></div>
+            </div>
+        {% endif %}
+        {% endfor %}
+    </div>
+</div>

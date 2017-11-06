@@ -27,7 +27,7 @@ body {
     line-height: $base-line-height;
     font-weight: 300;
     color: #000 !important;
-    background-color: $brand-color3;
+    background-color: $off-white;
     -webkit-text-size-adjust: 100%;
 }
 
@@ -109,7 +109,7 @@ a.no-line {
 // Misc classes for spacing
 
 .martop2 { margin-top: 2em; }
-// .pad2 { margin-top: 2em; 
+// .pad2 { margin-top: 2em;
 //     @include palm { margin-top: 4em; }
 // }
 .padbot3 { padding-bottom: 3em; }

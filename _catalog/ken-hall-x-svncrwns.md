@@ -2,6 +2,8 @@
 layout 								: coming-soon
 title 								: "Kenn Hall"
 
+[//]: # (Hidden Work)
+summary                             : "a visual look book of photo and video for client"
 
 [//]: # (Featured Info)
 featured 							: "yes"

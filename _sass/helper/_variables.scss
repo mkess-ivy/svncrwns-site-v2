@@ -8,6 +8,7 @@ $alt-font-2: "Maison Neue", sans-serif;
 $font-brand1                : "League Spartan", "Maison Neue", "Arial Black", sans-serif;
 $font-brand2                : Helvetica, Arial, sans-serif;
 $font-brand3                : 'Libre Baskerville', Helvetica, serif;
+$font-brand4                : 'Montserrat', sans-serif;
 $line-height                : 1.4;
 
 // Colors
@@ -20,6 +21,10 @@ $color-gray                 : #4A4A4A;
 $color-white                : #FFFFFF;
 $black                      : #000000;
 $translucent-light          : rgba(226, 207, 74, 0.6);
+
+// Phase 1 Colors
+$off-white                  : #F7F7F7;
+$off-black                  : #070707;
 
 
 // I don't need these
@@ -133,6 +138,5 @@ $grey-color-dark:  darken($grey-color, 25%);
 .link:hover {
   color: $color-brand5;
   border-bottom: 1px solid;
-  
-}
 
+}
