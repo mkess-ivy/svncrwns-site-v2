@@ -7,11 +7,12 @@
         font-style: italic;
         font-size: 30px;
         margin-bottom: 30px;
+        color: $off-grey;
     }
 
     .work_szn_items {
         @extend %clearfix;
-        width: 900px;
+        // width: 900px;
 
         .work_item_wrapper {
             width: 250px;
@@ -31,12 +32,13 @@
                 margin-bottom: 15px;
 
                 a {
-                    color: $off-black;
+                    color: $off-grey;
                 }
             }
             .work_item_summary {
                 font-size: 18px;
                 line-height: 28px;
+                color: $off-grey;
             }
             .work_item_link {
                 margin: 10px 0;
@@ -45,7 +47,7 @@
                 font-family: $font-brand4;
 
                 a {
-                    color: $off-black;
+                    color: $off-grey;
                 }
             }
         }

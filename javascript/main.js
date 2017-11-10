@@ -35,15 +35,15 @@ $(document).ready(function(){
   });
 
   // Work Section for Home Page
-  $('#phase1-open').hide();
-	$('#phase1-openDiv').on('click', function(event) {
-        $('#phase1-open').toggle('show');
-    });
+  // $('#phase1-open').hide();
+	// $('#phase1-openDiv').on('click', function(event) {
+  //       $('#phase1-open').toggle('show');
+  //   });
 
     // CoverVid
         $('.covervid-video').coverVid();
 
-        
+
   // Background Video
   var banner = document.querySelector('.banner');
   var bannerVideo = document.querySelector('.banner__video');
@@ -110,13 +110,13 @@ $(document).ready(function(){
   });
 
   // Phase 1 Hidden Work Hover Feature
-  $(".js-background-trigger").hover(function(){
-   $(".phase1-js-background-receiver", this).addClass('hover');
-  }
-  ,
-  function(){
-     $(".phase1-js-background-receiver", this).removeClass('hover');
-  });
+  // $(".js-background-trigger").hover(function(){
+  //  $(".phase1-js-background-receiver", this).addClass('hover');
+  // }
+  // ,
+  // function(){
+  //    $(".phase1-js-background-receiver", this).removeClass('hover');
+  // });
 
   // Catalog Hover Feature
   $(".js-background-trigger").hover(function(){

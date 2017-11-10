@@ -17,7 +17,7 @@
 			}
 
 			a {
-				color: $off-white;
+				color: $off-black;
 				font-weight: 700;
 			}
 		}
@@ -26,8 +26,8 @@
 	font-family: $font-brand4;
 	font-weight: 500;
 	font-size: 14px;
-	color: $off-white;
-	background: $off-black;
+	color: $off-black;
+	// background: $off-black;
 
 	@include tablet {
 		position: relative;
