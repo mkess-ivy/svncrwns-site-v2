@@ -3,6 +3,7 @@
 layout 								: coming-soon
 title 								: "Colla-bmore Spectrum"
 featured-body-hero 					: "/assets/images/project_collabmore/collabmore-bg.png"
+summary                         : "a visual look book of photo and video for client"
 
 [//]: # (Featured Info)
 featured 							: "yes"
@@ -12,5 +13,5 @@ featured-category					: "event production"
 
 [//]: # (Catalog All)
 catalog-cover-image					: /assets/images/spectrum_cover.jpg
-season								: "2"
+season								: "3"
 ---

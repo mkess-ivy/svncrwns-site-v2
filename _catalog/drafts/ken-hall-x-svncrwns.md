@@ -13,7 +13,7 @@ featured-category					: "photo series"
 
 [//]: # (Catalog All)
 catalog-cover-image					: /assets/images/kh_cover.jpg
-season								: "3"
+season								: "2"
 
 [//]: # (Slide Single)
 slide1 								: "intro-slide"
