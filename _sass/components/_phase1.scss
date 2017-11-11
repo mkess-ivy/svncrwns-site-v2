@@ -1,8 +1,173 @@
 .hi_height {
-    background: #f7f7f7;
-    // height: 96vh;
+    background: $off-white;
 }
 .phase1_full_height {
 	height: 60vh;
     background: $off-white;
+}
+
+// Phase 1 Home
+.phase1-masthead {
+    width: 50%;
+    margin-left: 50px;
+    color: $off-white;
+    position: relative;
+    z-index: 1000;
+
+    .phase1-header {
+        font-family: $font-brand4;
+        font-size: 85px;
+        line-height: 75px;
+        margin-bottom: 30px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: $off-grey;
+    }
+    .phase1-subheader {
+        font-size: 28px;
+        line-height: 42px;
+        color: $off-grey;
+    }
+}
+.work_section {
+    position: relative;
+    // z-index: 1000;
+    background-color: $off-white;
+    @include tablet {
+        padding: 10px 50px;
+    }
+}
+
+// Test
+a.phase1-btn {
+    // width: 250px;
+    font-size: 22px;
+    font-weight: 100;
+    font-family: $font-brand4;
+    // letter-spacing: 3px;
+}
+a.phase1-btn:link,
+a.phase1-btn:visited {
+    position: relative;
+    z-index: 1;
+    display: block;
+    // padding: 14px 15px;
+    color: $off-black;
+    // font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    letter-spacing: 3;
+    border-radius: 0;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+a.phase1-btn:link:hover,
+a.phase1-btn:visited:hover {
+    color: $off-black;
+    text-shadow: none;
+    border-bottom: 0;
+}
+a.phase1-btn {
+    color: #FFF;
+}
+.phase1-open {
+    width: 100%;
+    background: $off-white;
+}
+.phase1-wrap {
+    width: 450px;
+    margin: 0 auto;
+}
+
+.work_szn {
+    margin: 0 auto;
+    position: relative;
+
+    .work_szn_header {
+        color: $off-grey;
+        font-size: 30px;
+        font-style: italic;
+        margin-bottom: 30px;
+        text-transform: uppercase;
+    }
+
+    .work_szn_items {
+        @extend %clearfix;
+
+        .work_item_wrapper {
+            float: left;
+            margin-bottom: 25px;
+            margin-right: 50px;
+            min-height: 175px;
+            position: relative;
+            width: 250px;
+            z-index: 600;
+
+            .work_item_title {
+                font-size: 30px;
+                font-weight: 700;
+                height: 75px;
+                line-height: 37px;
+                font-family: $font-brand4;
+                text-transform: uppercase;
+                margin-bottom: 15px;
+                position: relative;
+                z-index: 600;
+
+                a {
+                    color: $off-grey;
+                    z-index: 600;
+                }
+            }
+            .work_item_summary {
+                font-size: 18px;
+                line-height: 28px;
+                color: $off-grey;
+                position: relative;
+                z-index: 600;
+            }
+            .work_item_link {
+                margin: 10px 0;
+                text-transform: uppercase;
+                font-weight: 700;
+                font-family: $font-brand4;
+                position: relative;
+                z-index: 600;
+
+                a {
+                    color: $off-grey;
+                    z-index: 600;
+                }
+            }
+        }
+    }
+}
+.phase1-js-background-receiver.hover {
+  display: none;
+  @include tablet {
+    height: 99vh;
+    width: 55vw;
+    background-color: $off-black;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    z-index: -1;
+    display: block;
+    position: fixed;
+    right: 0;
+    left: auto;
+    top: 0;
+  }
+}
+.phase1-js-background-trigger a {
+  z-index: 1000;
+  position: relative;
+}
+.phase1-js-background-trigger {
+  position: relative;
+  z-index: 1000;
 }

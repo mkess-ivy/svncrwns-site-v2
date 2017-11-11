@@ -6,7 +6,7 @@
         {% for project in site.catalog reversed %}
             {% if include.season == project.season %}
             <div class="work_item_wrapper">
-                <div class="work_item_title js-background-trigger">
+                <div class="work_item_title phase1-js-background-trigger">
                     <a href="{{ project.url }}">{{ project.title }}</a>
                     {% if project.catalog-cover-image %}
                     <div class="phase1-js-background-receiver" style="background-image: url({{ project.catalog-cover-image }});"></div>

@@ -16,7 +16,7 @@ featured-category				: "film"
 featured-index-location			: "a1"
 
 [//]: # (Catalog All)
-catalog-cover-image				: /assets/images/humble1.jpg
+catalog-cover-image				: /assets/images/noisy-tenants.jpg
 
 [//]: # (Film Single)
 film-hero						: /assets/images/cog_cover.jpg

@@ -21,7 +21,7 @@ $(document).ready(function(){
     });
 
     // Phase 1 Hidden Work Hover Feature
-    $(".js-background-trigger").hover(function(){
+    $(".phase1-js-background-trigger").hover(function(){
         $(".phase1-js-background-receiver", this).addClass('hover');
     }
     ,
