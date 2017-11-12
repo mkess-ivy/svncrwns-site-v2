@@ -26,6 +26,9 @@
         height: 60vh;
         margin: 0;
     }
+    @include desktop-blah {
+        height: 52vh;
+    }
 }
 
 // Phase 1 Home
