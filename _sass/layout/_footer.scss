@@ -1,10 +1,23 @@
 /* Phase 1 */
+.left_footer {
+	width: 85%;
+	margin: 20px auto 10px;
+
+	@include tablet {
+		width: auto;
+		margin: 0;
+	}
+}
 .left_footer_copy {
 	display: inline;
-
 }
 .right_footer {
 	font-weight: 700;
+	display: none;
+
+	@include tablet {
+		display: block;
+	}
 
 	ul
 		li {

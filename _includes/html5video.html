@@ -370,10 +370,10 @@
 
 
   ////////////////////////////////////////
-  // Our Script 
+  // Our Script
   ////////////////////////////////////////
   $(document).ready(function(){
-    
+
     // Initiate FitVid.js
     $(".video-container").fitVids();
 
@@ -395,6 +395,13 @@
         $('.svn-video-overlay').css('left', '-100%')
       }, 300);
       player.api("pause");
+    })
+    $('.html5-close').click(function(){
+        $('.svn-video-overlay').removeClass('html5-show')
+        setTimeout(function() {
+          $('.svn-video-overlay').css('left', '-100%')
+        }, 300);
+        player.api("pause");
     })
 
   });

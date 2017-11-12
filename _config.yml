@@ -1,5 +1,5 @@
 # Site settings
-title: SVNCRWNS - A Creative Production House
+title: SVNCRWNS
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -19,7 +19,7 @@ collections:
     output: true
     permalink: /catalog/:title/
 
-# Site Variables 
+# Site Variables
 logo              : "/assets/images/svn-logo.svg"
 timezone          : 'America/New_York'
 
@@ -43,4 +43,3 @@ menu_s2_name      : "chasing the orange sky"
 menu_s2_detail1   : "photo exhibit"
 
 contact_menu_color : "#fff"
-

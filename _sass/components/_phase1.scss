@@ -1,40 +1,78 @@
 .hi_height {
     background: $off-white;
 }
+.phase1-site-wrapper {
+    margin: auto;
+    width: 90%;
+
+    @include palm {
+        max-width: 475px;
+    }
+    @include laptop {
+        max-width: 800px;
+    }
+    @include desktop {
+        max-width: 1050px;
+    }
+    @include tv {
+        max-width: 1600px;
+        width: 90%;
+    }
+}
 .phase1_full_height {
-	height: 60vh;
+	margin: 75px 0;
     background: $off-white;
+    @include tablet {
+        height: 60vh;
+        margin: 0;
+    }
 }
 
 // Phase 1 Home
 .phase1-masthead {
-    width: 50%;
-    margin-left: 50px;
     color: $off-white;
     position: relative;
     z-index: 1000;
 
+    @include desktop {
+        max-width: 700px;
+    }
+
+
     .phase1-header {
         font-family: $font-brand4;
-        font-size: 85px;
-        line-height: 75px;
+        font-size: 26px;
+        line-height: 1.4;
         margin-bottom: 30px;
         font-weight: 700;
         text-transform: uppercase;
         color: $off-grey;
+
+        @include laptop {
+            font-size: 85px;
+            line-height: 75px;
+        }
     }
     .phase1-subheader {
-        font-size: 28px;
-        line-height: 42px;
+        font-size: 22px;
+        line-height: 1.4;
         color: $off-grey;
+
+        @include laptop {
+            font-size: 28px;
+            // line-height: 42px;
+        }
     }
 }
 .work_section {
     position: relative;
     // z-index: 1000;
     background-color: $off-white;
+    // width: 90%;
+    // margin: auto;
+
     @include tablet {
-        padding: 10px 50px;
+        // padding: 10px 50px;
     }
 }
 
@@ -104,8 +142,18 @@ a.phase1-btn {
             margin-right: 50px;
             min-height: 175px;
             position: relative;
-            width: 250px;
+            width: 100%;
             z-index: 600;
+
+            @include palm {
+                width: 75%;
+                max-width: 375px;
+            }
+
+            @include tablet {
+                width: 250px;
+                min-height: 275px;
+            }
 
             .work_item_title {
                 font-size: 30px;
@@ -149,7 +197,7 @@ a.phase1-btn {
 .phase1-js-background-receiver.hover {
   display: none;
   @include tablet {
-    height: 99vh;
+    height: 100vh;
     width: 55vw;
     background-color: $off-black;
     background-size: cover;
@@ -170,4 +218,82 @@ a.phase1-btn {
 .phase1-js-background-trigger {
   position: relative;
   z-index: 1000;
+}
+.short_body {
+    min-height: 80vh;
+
+    @include laptop {
+        min-height: calc(100vh - 40px);
+    }
+}
+.short_body_wrapper {
+    width: 500px;
+    margin: 0 auto;
+}
+.short_body {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    // filter: saturate(7%) blur(0px);
+    opacity: 1;
+}
+.phase1-film-wrapper {
+    height: 90vh !important;
+
+    @include tablet {
+        height: 95vh !important;
+    }
+}
+.projectphase-title {
+    position: absolute;
+    bottom: 70px;
+    left: 20px;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: $font-brand4;
+
+    @include palm {
+        font-size: 26px;
+    }
+
+    @include tablet {
+        bottom: 150px;
+        left: 50px;
+        font-size: 40px;
+    }
+}
+.phase-subtitle {
+    text-transform: initial;
+    font-size: 16px;
+
+    @include palm {
+        font-size: 20px;
+    }
+    @include tablet {
+        width: 70%;
+    }
+}
+.returnwork {
+    padding-top: 25px;
+    font-size: 20px;
+    line-height: 1.2;
+    width: 120px;
+
+    a {
+        color: $off-white;
+    }
+}
+// film button
+.svn-play-btn {
+    position: absolute;
+    top: -35px;
+    left: 15px;
+
+    @include tablet {
+        position: inherit;
+        top:auto;
+        left: auto;
+    }
 }

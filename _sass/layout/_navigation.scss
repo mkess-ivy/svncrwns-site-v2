@@ -3,6 +3,7 @@
     position: fixed;
     z-index: 1005;
     width: 100%;
+    padding: 15px;
     @include tablet {
         padding: 10px 50px;
     }
@@ -48,6 +49,7 @@
   border: 0 !important;
   background-color: transparent !important;
   z-index: 7000;
+  right: 0;
   // bottom: 5%;
   // margin: 10px;
 
@@ -392,4 +394,12 @@ ul.nav li a:hover::after {
   font-family: $font-brand3;
   margin-bottom: 25px;
   font-style: italic;
+}
+
+// phase1_full_height
+.left_header a {
+    &:hover {
+        text-decoration: none;
+        border-bottom: 0;
+    }
 }

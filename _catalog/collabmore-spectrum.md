@@ -1,9 +1,10 @@
 ---
 [//]: # (Meta Info)
-layout 								: coming-soon
-title 								: "Colla-bmore Spectrum"
-featured-body-hero 					: "/assets/images/project_collabmore/collabmore-bg.png"
-summary                         : "a visual look book of photo and video for client"
+layout 					: phase1-project
+title 					: "Colla-bmore Spectrum"
+featured-body-hero 	    : "/assets/images/project_collabmore/collabmore-bg.png"
+summary                 : "a fashion show produced for a pilot event of collaboration amongst retailers + designers"
+phase1-hero                     : /assets/images/project_collabmore/spectrum-03.jpg
 
 [//]: # (Featured Info)
 featured 							: "yes"
@@ -15,3 +16,5 @@ featured-category					: "event production"
 catalog-cover-image					: /assets/images/spectrum_cover.jpg
 season								: "3"
 ---
+{% include new_component_library/film.html film-url="https://player.vimeo.com/video/211146089?api=1 " %}
+{% include new_component_library/phase-title.html %}
