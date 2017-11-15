@@ -27,5 +27,5 @@ video-url						: "https://player.vimeo.com/video/198145423?api=1"
 [//]: # (Credits List)
 data-credits-list 				: seat-at-the-table-credits
 ---
-{% include new_component_library/film.html film-url="https://player.vimeo.com/video/242409564?api=1" %}
-{% include new_component_library/phase-title.html %}
+{% include components/film.html film-url="https://player.vimeo.com/video/242409564?api=1" %}
+{% include components/phase-title.html %}

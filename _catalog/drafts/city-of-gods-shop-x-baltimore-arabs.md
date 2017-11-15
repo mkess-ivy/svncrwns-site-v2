@@ -1,6 +1,6 @@
 ---
 [//]: # (Meta Info)
-layout 					: coming-soon
+layout 					: phase1-project
 title 					: "City of Gods x Baltimore Arabs"
 date 					: 'Mar 15 2016'
 

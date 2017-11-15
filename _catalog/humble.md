@@ -23,5 +23,5 @@ catalog-cover-image				: /assets/images/humble1.jpg
 film-hero						: /assets/images/cog_cover.jpg
 video-url						: "https://player.vimeo.com/video/198145423?api=1"
 ---
-{% include new_component_library/film.html film-url="https://player.vimeo.com/video/242484745?api=1" %}
-{% include new_component_library/phase-title.html %}
+{% include components/film.html film-url="https://player.vimeo.com/video/242484745?api=1" %}
+{% include components/phase-title.html %}

@@ -16,5 +16,5 @@ featured-category					: "event production"
 catalog-cover-image					: /assets/images/spectrum_cover.jpg
 season								: "3"
 ---
-{% include new_component_library/film.html film-url="https://player.vimeo.com/video/211146089?api=1 " %}
-{% include new_component_library/phase-title.html %}
+{% include components/film.html film-url="https://player.vimeo.com/video/211146089?api=1 " %}
+{% include components/phase-title.html %}
