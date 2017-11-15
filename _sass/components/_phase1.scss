@@ -63,38 +63,26 @@
 
         @include laptop {
             font-size: 28px;
-            // line-height: 42px;
         }
     }
 }
 .work_section {
     position: relative;
-    // z-index: 1000;
     background-color: $off-white;
-    // width: 90%;
-    // margin: auto;
-
-    @include tablet {
-        // padding: 10px 50px;
-    }
 }
 
 // Test
 a.phase1-btn {
-    // width: 250px;
     font-size: 22px;
     font-weight: 100;
     font-family: $font-brand4;
-    // letter-spacing: 3px;
 }
 a.phase1-btn:link,
 a.phase1-btn:visited {
     position: relative;
     z-index: 1;
     display: block;
-    // padding: 14px 15px;
     color: $off-black;
-    // font-size: 14px;
     font-weight: bold;
     text-decoration: none;
     text-transform: uppercase;
@@ -237,7 +225,6 @@ a.phase1-btn {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    // filter: saturate(7%) blur(0px);
     opacity: 1;
 }
 .phase1-film-wrapper {
@@ -270,7 +257,7 @@ a.phase1-btn {
 .phase-subtitle {
     text-transform: initial;
     font-size: 16px;
-
+    
     @include palm {
         font-size: 20px;
     }
