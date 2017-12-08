@@ -1,7 +1,7 @@
 ---
 [//]: # (Meta Info)
 layout 					: phase1-project
-title 					: "Colla-bmore Spectrum"
+title 					: "Spectrum"
 featured-body-hero 	    : "/assets/images/project_collabmore/collabmore-bg.png"
 summary                 : "a fashion show produced for a pilot event of collaboration amongst retailers + designers"
 phase1-hero                     : /assets/images/project_collabmore/spectrum-03.jpg

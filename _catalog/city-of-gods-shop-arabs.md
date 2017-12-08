@@ -2,8 +2,6 @@
 [//]: # (Meta Info)
 layout 							: phase1-project
 title 							: "City of Gods"
-date 							: 'May 27 2017'
-year 							:	'2017'
 season: "3"
 
 [//]: # (Work on Home Page)

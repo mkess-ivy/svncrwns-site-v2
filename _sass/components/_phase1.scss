@@ -1,6 +1,4 @@
-.hi_height {
-    background: $off-white;
-}
+
 .phase1-site-wrapper {
     margin: auto;
     width: 90%;
@@ -23,11 +21,11 @@
 	margin: 75px 0;
     background: $off-white;
     @include tablet {
-        height: 60vh;
+        height: 70vh;
         margin: 0;
     }
-    @include desktop-blah {
-        height: 52vh;
+    @include desktop {
+        height: 65vh;
     }
 }
 
@@ -35,40 +33,53 @@
 .phase1-masthead {
     color: $off-white;
     position: relative;
-    z-index: 1000;
+    z-index: 100000;
 
     @include desktop {
-        max-width: 700px;
+        max-width: 900px;
     }
 
 
     .phase1-header {
         font-family: $font-brand4;
-        font-size: 26px;
+        font-size: 30px;
         line-height: 1.4;
         margin-bottom: 30px;
         font-weight: 700;
         text-transform: uppercase;
         color: $off-grey;
 
+        @include tablet {
+            font-size: 40px;
+            line-height: 1.1;
+        }
+
         @include laptop {
+            font-size: 65px;
+        }
+
+        @include desktop {
             font-size: 85px;
-            line-height: 75px;
         }
     }
     .phase1-subheader {
-        font-size: 22px;
-        line-height: 1.4;
+        font-size: 18px;
+        line-height: 1.6;
         color: $off-grey;
 
         @include laptop {
-            font-size: 28px;
+            font-size: 22px;
         }
     }
 }
 .work_section {
     position: relative;
     background-color: $off-white;
+    margin-bottom: 50px;
+
+    @include desktop {
+        margin-bottom: 0;
+    }
 }
 
 // Test
@@ -80,7 +91,7 @@ a.phase1-btn {
 a.phase1-btn:link,
 a.phase1-btn:visited {
     position: relative;
-    z-index: 1;
+    // z-index: 1;
     display: block;
     color: $off-black;
     font-weight: bold;
@@ -111,6 +122,24 @@ a.phase1-btn {
     width: 450px;
     margin: 0 auto;
 }
+// #Test
+
+// Test Hover
+.half_cover {
+    &:hover {
+        display: block;
+        height: 100%;
+        width: 55vw;
+        position: fixed;
+        z-index: 0;
+        top:0;
+        right: 0;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
+// #Test Hover
 
 .work_szn {
     margin: 0 auto;
@@ -131,10 +160,10 @@ a.phase1-btn {
             float: left;
             margin-bottom: 25px;
             margin-right: 50px;
-            min-height: 175px;
+            // min-height: 175px;
             position: relative;
             width: 100%;
-            z-index: 600;
+            z-index: 1000;
 
             @include palm {
                 width: 75%;
@@ -143,43 +172,44 @@ a.phase1-btn {
 
             @include tablet {
                 width: 250px;
-                min-height: 275px;
+                min-height: 210px;
             }
 
             .work_item_title {
-                font-size: 30px;
+                font-size: 22px;
                 font-weight: 700;
-                height: 75px;
-                line-height: 37px;
+                // height: 55px;
+                line-height: 1.2;
                 font-family: $font-brand4;
                 text-transform: uppercase;
-                margin-bottom: 15px;
+                margin-bottom: 10px;
                 position: relative;
-                z-index: 600;
+                // z-index: 600;
 
                 a {
                     color: $off-grey;
-                    z-index: 600;
+                    z-index: 1000;
                 }
             }
             .work_item_summary {
-                font-size: 18px;
-                line-height: 28px;
+                // font-size: 18px;
+                line-height: 1.8;
                 color: $off-grey;
                 position: relative;
-                z-index: 600;
+                z-index: 100002;
             }
             .work_item_link {
                 margin: 10px 0;
                 text-transform: uppercase;
                 font-weight: 700;
                 font-family: $font-brand4;
+                font-size: 14px;
                 position: relative;
-                z-index: 600;
+                // z-index: 600;
 
                 a {
                     color: $off-grey;
-                    z-index: 600;
+                    z-index: 100001;
                 }
             }
         }
@@ -187,14 +217,14 @@ a.phase1-btn {
 }
 .phase1-js-background-receiver.hover {
   display: none;
-  @include tablet {
+  @include laptop {
     height: 100vh;
     width: 55vw;
     background-color: $off-black;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    z-index: -1;
+    z-index: -5;
     display: block;
     position: fixed;
     right: 0;
@@ -203,19 +233,12 @@ a.phase1-btn {
   }
 }
 .phase1-js-background-trigger a {
-  z-index: 1000;
+  // z-index: 1000;
   position: relative;
 }
 .phase1-js-background-trigger {
   position: relative;
-  z-index: 1000;
-}
-.short_body {
-    min-height: 80vh;
-
-    @include laptop {
-        min-height: calc(100vh - 40px);
-    }
+  z-index: 9999;
 }
 .short_body_wrapper {
     width: 500px;
@@ -226,6 +249,11 @@ a.phase1-btn {
     background-position: center center;
     background-repeat: no-repeat;
     opacity: 1;
+    height: 100vh;
+
+    @include tablet {
+        height: calc(100vh - 40px);
+    }
 }
 .phase1-film-wrapper {
     height: 90vh !important;
@@ -236,9 +264,9 @@ a.phase1-btn {
 }
 .projectphase-title {
     position: absolute;
-    bottom: 70px;
+    bottom: 25px;
     left: 20px;
-    font-size: 20px;
+    font-size: 22px;
     color: white;
     text-transform: uppercase;
     font-weight: bold;
@@ -249,7 +277,7 @@ a.phase1-btn {
     }
 
     @include tablet {
-        bottom: 150px;
+        bottom: 75px;
         left: 50px;
         font-size: 40px;
     }
@@ -257,7 +285,8 @@ a.phase1-btn {
 .phase-subtitle {
     text-transform: initial;
     font-size: 16px;
-    
+    font-weight: normal;
+
     @include palm {
         font-size: 20px;
     }
@@ -267,9 +296,13 @@ a.phase1-btn {
 }
 .returnwork {
     padding-top: 25px;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 1.2;
     width: 120px;
+
+    @include tablet {
+        font-size: 20px;
+    }
 
     a {
         color: $off-white;
@@ -277,9 +310,9 @@ a.phase1-btn {
 }
 // film button
 .svn-play-btn {
-    position: absolute;
-    top: -35px;
-    left: 15px;
+    position: relative;
+    // top: -35px;
+    // left: -10px;
 
     @include tablet {
         position: inherit;

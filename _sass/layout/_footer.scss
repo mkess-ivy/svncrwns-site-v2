@@ -1,10 +1,11 @@
 /* Phase 1 */
 .left_footer {
-	width: 85%;
+	max-width: 275px;
 	margin: 20px auto 10px;
 
 	@include tablet {
 		width: auto;
+		max-width: none;
 		margin: 0;
 	}
 }
@@ -13,10 +14,13 @@
 }
 .right_footer {
 	font-weight: 700;
-	display: none;
+	width: 100%;
+	text-align: center;
 
 	@include tablet {
 		display: block;
+		width: auto;
+		text-align: inherit;
 	}
 
 	ul
@@ -43,10 +47,10 @@
 	// background: $off-black;
 
 	@include tablet {
-		position: relative;
-
-		margin-top: 0;
-		padding: 10px 50px;
+		position: fixed;
+		padding: 0px 50px;
+		bottom: 0;
+		width: 100%;
 	}
 
 }
