@@ -3,7 +3,8 @@
         work
     </div>
     <div class="work_szn_items">
-        {% for project in site.catalog %}
+        <!-- <div class="frow justify-between"> -->
+            {% for project in site.catalog %}
             {% if include.season == project.season %}
             <div class="work_item_wrapper">
                 <div class="work_item_title phase1-js-background-trigger">
@@ -13,9 +14,9 @@
                     {% endif %}
                 </div>
                 <div class="work_item_summary">{{ project.summary }}</div>
-                <!-- <div class="work_item_link"><a href="{{ project.url }}">view more</a></div> -->
             </div>
-        {% endif %}
-        {% endfor %}
+            {% endif %}
+            {% endfor %}
+        <!-- </div> -->
     </div>
 </div>

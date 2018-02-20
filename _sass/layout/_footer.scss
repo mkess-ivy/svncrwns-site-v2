@@ -47,11 +47,20 @@
 	// background: $off-black;
 
 	@include tablet {
-		position: fixed;
-		padding: 0px 50px;
-		bottom: 0;
-		width: 100%;
+		// position: fixed;
+		// padding: 0px 50px;
+		// bottom: 0;
+		// width: 100%;
+		// position: relative;
+		// bottom: auto;
+		// padding: 0;
 	}
+
+	// @include desktop-blah {
+	// 	position: relative;
+	// 	bottom: auto;
+	// 	padding: 0;
+	// }
 
 }
 

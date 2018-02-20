@@ -1,31 +1,47 @@
-
-.phase1-site-wrapper {
-    margin: auto;
-    width: 90%;
+.grid {
+    margin: 0 15px;
 
     @include palm {
-        max-width: 475px;
+        // max-width: 475px;
+        max-width: 450px;
+        margin: 20px auto;
+    }
+    @include tablet {
+        max-width: 650px;
     }
     @include laptop {
-        max-width: 800px;
+        // max-width: 800px;
+        max-width: none;
+        margin: 20px 50px 0;
     }
-    @include desktop {
-        max-width: 1050px;
+    @include desktop-blah {
+        // max-width: 1100px;
     }
     @include tv {
-        max-width: 1600px;
-        width: 90%;
+        // max-width: 1600px;
+        // width: 96%;
     }
+    @include bigscreen {
+        // width: 90%;
+    }
+}
+.phase1-site-wrapper {
+    // margin: auto;
+    // margin: 0 50px;
+    // margin: 0 15px;
+    // width: 90%;
+
 }
 .phase1_full_height {
 	margin: 75px 0;
     background: $off-white;
     @include tablet {
-        height: 70vh;
-        margin: 0;
+        // height: 70vh;
+        // margin: 75px 0;
     }
-    @include desktop {
-        height: 65vh;
+    @include desktop-blah {
+        height: 63vh;
+        margin: 0;
     }
 }
 
@@ -35,9 +51,9 @@
     position: relative;
     z-index: 100000;
 
-    @include desktop {
-        max-width: 900px;
-    }
+    // @include desktop {
+    //     max-width: 900px;
+    // }
 
 
     .phase1-header {
@@ -56,10 +72,12 @@
 
         @include laptop {
             font-size: 65px;
+            width: 700px;
         }
 
-        @include desktop {
+        @include desktop-blah {
             font-size: 85px;
+
         }
     }
     .phase1-subheader {
@@ -69,6 +87,10 @@
 
         @include laptop {
             font-size: 22px;
+            width: 760px;
+        }
+        @include desktop-blah {
+            width: 900px;
         }
     }
 }
@@ -77,7 +99,7 @@
     background-color: $off-white;
     margin-bottom: 50px;
 
-    @include desktop {
+    @include desktop-blah {
         margin-bottom: 0;
     }
 }
@@ -168,11 +190,20 @@ a.phase1-btn {
             @include palm {
                 width: 75%;
                 max-width: 375px;
+                margin-bottom: 50px;
             }
 
             @include tablet {
                 width: 250px;
-                min-height: 210px;
+            }
+            @include laptop {
+                margin-right: 50px;
+                min-height: 170px;
+            }
+            @include desktop-blah {
+
+                margin-right: 25px;
+                margin-bottom: 10px;
             }
 
             .work_item_title {
@@ -197,6 +228,13 @@ a.phase1-btn {
                 color: $off-grey;
                 position: relative;
                 z-index: 100002;
+
+                @include palm {
+                    width: 75%;
+                }
+                @include tablet {
+                    width: auto;
+                }
             }
             .work_item_link {
                 margin: 10px 0;

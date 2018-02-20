@@ -5,15 +5,13 @@
 
   <body>
     <div class="se-pre-con"></div>
+    <div class="grid">
+        {% include short_header.html %}
 
-    {% include short_header.html %}
+        {{ content }}
 
-    <div class="clear" style="overflow-x: hidden;">
-    {{ content }}
+        {%  include short_footer.html %}
     </div>
-
-    {%  include short_footer.html %}
-
   </body>
 
 </html>

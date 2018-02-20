@@ -1,11 +1,12 @@
 /* Phase 1 Header */
 .phase1-site-header {
-    position: fixed;
-    z-index: 1005;
-    width: 100%;
-    padding: 15px;
+    // position: fixed;
+    // z-index: 1005;
+    // width: 100%;
+    // padding: 15px;
+    // margin: 15px;
     @include tablet {
-        padding: 10px 50px;
+        // padding: 10px 50px;
     }
 }
 .phase1_menu_btn {
