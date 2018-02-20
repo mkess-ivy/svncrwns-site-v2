@@ -1,18 +1,18 @@
 ---
 [//]: # (Meta Info)
 layout 							: phase1-project
-title 							:  "Sankofa"
-date 							: "Feb 23 2016"
-season                          : "3"
+title 							: "Sankofa"
+season                          : "2"
+
+[//]: # (Work on Home Page)
 summary                         : "a pop-up museum produced to activate the youth community in Baltimore"
-excerpt: "an art installation produced with Sankofa x BCPS"
 phase1-hero                     : /assets/images/project_popupmuseum/popupmuseum-6.jpg
 
 [//]: # (Featured Info)
-featured 											: "yes"
-featured-rank									: "2"
-featured-subtitle							: "on a warm and cloudy day, one day before rain poured from the clouds"
-featured-category							: "art installation"
+featured 						: "yes"
+featured-rank					: "2"
+featured-subtitle				: "on a warm and cloudy day, one day before rain poured from the clouds"
+featured-category				: "art installation"
 
 [//]: # (Catalog All)
 catalog-cover-image						: /assets/images/sankofa-3.jpg

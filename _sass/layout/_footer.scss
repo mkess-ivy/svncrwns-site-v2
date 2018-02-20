@@ -23,7 +23,8 @@
 		text-align: inherit;
 	}
 
-	ul
+	ul {
+		margin:0;
 		li {
 			display: inline;
 			text-transform: uppercase;
@@ -38,6 +39,8 @@
 				font-weight: 700;
 			}
 		}
+	}
+
 }
 .phase1-site-footer {
 	font-family: $font-brand4;

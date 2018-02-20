@@ -6,17 +6,23 @@
   <body>
     <div class="se-pre-con"></div>
 
-    {% include short_header.html %}
 
-    <div class="clear" style="overflow-x: hidden;">
-        <div class="short_body" style="background-image: url('{{ page.phase1-hero }}');">
-            <div class="frow centered phase1-film-wrapper">
-                {{ content }}
-            </div>
+
+    <div class="short_body" style="background-image: url('{{ page.phase1-hero }}');">
+        <div class="grid_project">
+            {% include short_header.html %}
+        </div>
+
+
+        <div class="frow centered phase1-film-wrapper">
+            {{ content }}
         </div>
     </div>
 
-    {%  include short_footer.html %}
+    <div class="grid_project">
+        {%  include short_footer.html %}
+    </div>
+
 
   </body>
 

@@ -2,7 +2,7 @@
 [//]: # (Meta Info)
 layout 							: phase1-project
 title 							: "City of Gods"
-season: "3"
+season                          : "1"
 
 [//]: # (Work on Home Page)
 summary                         : "a short docufilm talking to Baltimore Arabbers, local produce providers"
@@ -13,7 +13,6 @@ featured 						: "yes"
 featured-rank 					: "4"
 featured-subtitle				: "some random subtext that explains this two word title"
 featured-category				: "film"
-featured-index-location			: "f1"
 
 [//]: # (Catalog All)
 catalog-cover-image				: /assets/images/cityofgods-1.jpg

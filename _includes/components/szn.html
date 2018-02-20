@@ -3,9 +3,10 @@
         work
     </div>
     <div class="work_szn_items">
-        <!-- <div class="frow justify-between"> -->
-            {% for project in site.catalog %}
-            {% if include.season == project.season %}
+        <!-- need to change this layout to ul > li to get the hover images to display correctly-->
+            {% assign featured_projects = site.catalog | where: "featured", "yes" | sort: "featured-rank" %}
+            {% for project in featured_projects %}
+
             <div class="work_item_wrapper">
                 <div class="work_item_title phase1-js-background-trigger">
                     <a href="{{ project.url }}">{{ project.title }}</a>
@@ -15,8 +16,8 @@
                 </div>
                 <div class="work_item_summary">{{ project.summary }}</div>
             </div>
-            {% endif %}
+
             {% endfor %}
-        <!-- </div> -->
+        <!--  -->
     </div>
 </div>

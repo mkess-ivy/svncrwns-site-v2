@@ -6,26 +6,63 @@
 </div>
 
 <div class="overlay overlay-data">
-    <button type="button" class="phase1-overlay-close" id="">
-        <img src="/assets/images/close-icon.png"/>
-    </button>
+    <div class="grid">
+        <button type="button" class="phase1-overlay-close" id="">
+            <img src="/assets/images/close-icon.png"/>
+        </button>
+    </div>
+
 
     <div class="overlay_container clear">
 
-        <div class="frow flex-centered">
+        <!-- <div class="frow flex-centered"> -->
 
             <nav>
-                <div class="menu_title">featured work</div>
-                <ul>
-                    {% for work in site.catalog limit:8 %}
-                    <li><a href="{{ work.url }}">{{ work.title }}</a></li>
-                    {% endfor %}<br/>
-                    <li class="short_links"><a href="">about</a></li>
-                    <li class="short_links"><a href="">contact</a></li>
-                </ul>
+                <div class="menu_group">
+                    <div class="menu_title">season i</div>
+                    <ul>
+                        {% assign season_1 = site.catalog | where: "season", "1" %}
+                        {% for work in season_1 %}
+                        <li><a href="{{ work.url }}">{{ work.title }}</a></li>
+                        {% endfor %}<br/>
+                    </ul>
+                </div>
+
+                <div class="menu_group">
+                    <div class="menu_title">season ii</div>
+                    <ul>
+                        {% assign season_2 = site.catalog | where: "season", "2" %}
+                        {% for work in season_2 %}
+                        <li><a href="{{ work.url }}">{{ work.title }}</a></li>
+                        {% endfor %}<br/>
+                        <!-- <li class="short_links"><a href="">about</a></li>
+                        <li class="short_links"><a href="">contact</a></li> -->
+                    </ul>
+                </div>
+
+                <div class="menu_group">
+                    <div class="menu_title">season iii</div>
+                    <ul>
+                        {% assign season_3 = site.catalog | where: "season", "3" %}
+                        {% for work in season_3 %}
+                        <li><a href="{{ work.url }}">{{ work.title }}</a></li>
+                        {% endfor %}<br/>
+                    </ul>
+                </div>
+
+                <!-- <div class="menu_group">
+                    <div class="menu_title">season iv</div>
+                    <ul>
+                        {% assign season_4 = site.catalog | where: "season", "4" %}
+                        {% for work in season_4 %}
+                        <li><a href="{{ work.url }}">{{ work.title }}</a></li>
+                        {% endfor %}<br/>
+                    </ul>
+                </div> -->
+
             </nav>
 
             <!-- <div class="ds_link"><a href="/design-system">design system</a></div> -->
-        </div>
+        <!-- </div> -->
     </div>
 </div>
