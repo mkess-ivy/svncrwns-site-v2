@@ -1,6 +1,6 @@
 ---
 [//]: # (Meta Info)
-layout                          : phase1-project
+layout                          : phase1-slide
 title 					        : "Kendrick Brown"
 season				            : "1"
 
@@ -10,6 +10,9 @@ phase1-hero                     : /assets/images/blackcotton_cover.jpg
 
 [//]: # (Catalog All)
 catalog-cover-image				: /assets/images/blackcotton_cover.jpg
+
+[//]: # (Slider)
+slider: kendrick_brown_slider
 ---
-{% include components/film.html film-url="https://player.vimeo.com/video/256622459?api=1 " %}
-{% include components/phase-title.html %}
+
+{% include components/phase-slide-title.html %}

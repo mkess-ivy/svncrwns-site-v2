@@ -5,25 +5,34 @@
     @include palm-mid {
         // max-width: 475px;
         max-width: 450px;
-        margin: 20px auto;
+        margin: 10px auto;
     }
     @include tablet {
         max-width: none;
-        margin: 20px 50px 0;
+        margin: 10px 50px 0;
     }
 }
 .grid_project {
     padding: 15px;
-    @include palm {
+    @include palm-mid {
         max-width: 450px;
         margin: auto;
-        padding: 15px 0;
+        padding: 10px 0;
     }
     @include tablet {
         max-width: none;
-        padding: 20px 50px 0;
+        padding: 10px 50px 0;
     }
 }
+.grid_slide {
+    background-color: $off-white;
+    @extend .grid_project;
+
+    @include tablet {
+        padding: 10px 50px;
+    }
+}
+
 .phase1-site-wrapper {
     // margin: auto;
     // margin: 0 50px;
@@ -307,6 +316,7 @@ a.phase1-btn {
     bottom: 25px;
     left: 20px;
     font-size: 22px;
+    line-height: 1;
     color: white;
     text-transform: uppercase;
     font-weight: bold;
@@ -326,8 +336,10 @@ a.phase1-btn {
     text-transform: initial;
     font-size: 16px;
     font-weight: normal;
+    line-height: 1.2;
+    padding-top: 7px;
 
-    @include palm {
+    @include palm-mid {
         font-size: 20px;
         padding-right: 30px;
     }
@@ -347,6 +359,14 @@ a.phase1-btn {
 
     a {
         color: $off-white;
+
+        &.slide_returnwork {
+            color: $black;
+
+            @include tablet {
+                color: $off-white;
+            }
+        }
     }
 }
 // film button
@@ -359,5 +379,132 @@ a.phase1-btn {
         position: inherit;
         top:auto;
         left: auto;
+    }
+}
+
+// Slide
+.phase1_cover_slide {
+    width: 100%;
+    background-size:cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 60vh !important;
+
+    @include tablet {
+        height: 90vh !important;
+    }
+
+
+}
+.caret_slide {
+    position: absolute;
+    z-index: 3;
+    width: 60px;
+    bottom: 25px;
+    @include tablet {
+
+        width: 100px;
+        top: 40vh;
+        bottom: auto;
+    }
+
+    &.left {
+        left: 15px;
+        @include tablet {
+            left: 2em;
+        }
+    }
+    &.right {
+        right: 15px;
+        @include tablet {
+            right: 2em;
+        }
+    }
+}
+.slidephase-title {
+    @extend .projectphase-title;
+    position: relative;
+    color: $black;
+    padding: 25px;
+    bottom: auto;
+    left: auto;
+
+    @include tablet {
+        position: absolute;
+        color: $off-white;
+        bottom: 65px;
+        padding:0;
+        left: 30px;
+    }
+}
+
+// Web Slider
+.slide_web_cover {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 60vh;
+
+    @include tablet {
+        height: 90vh;
+    }
+}
+.phase1_slider_web {
+    width: 100%;
+    // height: 30vh;
+}
+.phase1_cover_slide_web {
+    width: 100%;
+    background-size:cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 35vh !important;
+
+    @include palm-mid {
+        height: 50vh !important;
+    }
+
+    @include tablet {
+        height: 60vh !important;
+    }
+
+    @include tv {
+        background-size: contain;
+        height: 90vh !important;
+    }
+}
+.caret_slide_web {
+    position: absolute;
+    z-index: 3;
+    width: 60px;
+    bottom: -65px;
+
+    @include palm-mid {
+        bottom: -25px;
+    }
+
+    @include tablet {
+
+        width: 100px;
+        top: 30vh;
+        bottom: auto;
+    }
+    @include tv {
+        top: 40vh;
+    }
+
+    &.left {
+        left: 15px;
+        @include tablet {
+            left: 2em;
+        }
+    }
+    &.right {
+        right: 15px;
+        @include tablet {
+            right: 2em;
+        }
     }
 }

@@ -93,9 +93,17 @@ body.noScroll {
   }
 }
 .overlay_container {
-  height: 100vh;
+  // height: 100vh;
   position: relative;
-  padding: 100px 20px;
+  padding: 30px 20px 15px;
+
+  @include palm-mid {
+      padding-top: 50px;
+  }
+
+  // @include tablet {
+  //     padding: 50px 20px;
+  // }
 }
 
 /* Header & Overlay Menu */
@@ -160,6 +168,7 @@ body.noScroll {
   background-position: center center;
   background-color: $off-white;
   z-index: 9009;
+  overflow: scroll;
 }
 .overlay nav {
     width: 100%;
@@ -379,9 +388,29 @@ ul.nav li a:hover::after {
 }
 
 // phase1_full_height
-.left_header a {
-    &:hover {
+.left_header {
+    position: relative;
+
+
+    a {
+        &:hover {
+            text-decoration: none;
+            border-bottom: 0;
+        }
+    }
+}
+
+// Home Link
+.menu_crown {
+    width: 30px;
+    margin-bottom: 30px;
+
+    a {
         text-decoration: none;
-        border-bottom: 0;
+
+        &:hover {
+            text-decoration: none;
+            border: none;
+        }
     }
 }

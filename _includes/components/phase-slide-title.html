@@ -1,0 +1,8 @@
+<div class="slidephase-title">
+    {{ page.title }}
+    <div class="phase-subtitle">{{ page.summary }}</div>
+    <div class="returnwork">
+        {% unless page.layout == "phase1-slide-web" %}<a href="/" class="slide_returnwork">return to work</a>{% endunless %}
+        {% if page.layout == "phase1-slide-web" %}<a href="{{ page.website_link }}" class="slide_returnwork">view platform</a>{% endif %}
+    </div>
+</div>
