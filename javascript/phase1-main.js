@@ -20,7 +20,7 @@ $(document).ready(function(){
         $(".se-pre-con").fadeOut("slow");;
     });
 
-    // Phase 1 Hidden Work Hover Feature
+    // Phase 1 Background Hover
     $(".phase1-js-background-trigger").hover(function(){
         $(".phase1-js-background-receiver", this).addClass('hover');
     }

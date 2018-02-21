@@ -8,28 +8,21 @@
         margin: 20px auto;
     }
     @include tablet {
-        // max-width: 650px;
         max-width: none;
         margin: 20px 50px 0;
-    }
-    @include laptop {
-        // max-width: 800px;
-
-
-    }
-    @include desktop-blah {
-        // max-width: 1100px;
-    }
-    @include tv {
-        // max-width: 1600px;
-        // width: 96%;
-    }
-    @include bigscreen {
-        // width: 90%;
     }
 }
 .grid_project {
     padding: 15px;
+    @include palm {
+        max-width: 450px;
+        margin: auto;
+        padding: 15px 0;
+    }
+    @include tablet {
+        max-width: none;
+        padding: 20px 50px 0;
+    }
 }
 .phase1-site-wrapper {
     // margin: auto;
@@ -336,6 +329,7 @@ a.phase1-btn {
 
     @include palm {
         font-size: 20px;
+        padding-right: 30px;
     }
     @include tablet {
         width: 70%;
