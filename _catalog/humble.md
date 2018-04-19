@@ -15,7 +15,7 @@ featured-subtitle				: "on a warm and cloudy day, one day before rain poured fro
 featured-category				: "film"
 
 [//]: # (Catalog All)
-catalog-cover-image				: /assets/images/humble1.jpg
+catalog-cover-image				: /assets/images/humble.jpg
 ---
 {% include components/film.html film-url="https://player.vimeo.com/video/242484745?api=1" %}
 {% include components/phase-title.html %}
