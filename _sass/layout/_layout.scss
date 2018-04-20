@@ -27,22 +27,22 @@ body.white {
 }
 
 // Wrappers
-.svn-wrapper { 
+.svn-wrapper {
   position: relative;
-  width: 300px; 
-  padding: 2em 0; 
+  width: 300px;
+  padding: 2em 0;
   margin: 0 auto;
   @include palm {
     width: 375px;
   }
-  @include palm-mid { 
-    width: 450px; 
+  @include palm-mid {
+    width: 450px;
   }
-  @include tablet { 
-    width: 700px; 
+  @include tablet {
+    width: 700px;
     padding: 0;
   }
-  @include laptop { 
+  @include laptop {
     width: 885px; /* width was 800px */
   }
   @include desktop {
@@ -114,14 +114,14 @@ body.white {
 
 // PreLoader
 // This only works with JavaScript, if it's not present, doesn't show loader
-.no-js #loader { 
+.no-js #loader {
   display: none;
 }
-.js #loader { 
-  display: block; 
-  position: absolute; 
-  left: 100px; 
-  top: 0; 
+.js #loader {
+  display: block;
+  position: absolute;
+  left: 100px;
+  top: 0;
 }
 .se-pre-con {
   position: fixed;
@@ -134,9 +134,9 @@ body.white {
 }
 
 // Magazine Page Numbers
-.svn-content_img-no-txt { 
-  color: #fff; 
-  font-family: $brand-font; 
+.svn-content_img-no-txt {
+  color: #fff;
+  font-family: $brand-font;
   font-size: 14px;
   letter-spacing: 2px;
 
@@ -145,30 +145,30 @@ body.white {
   }
 }
 .svn-content_img-no.left {
-  text-align: left; 
+  text-align: left;
   left: 15px;
 }
-.svn-content_img-no { 
-  position: absolute; 
-  z-index: 5; 
-  padding: 5px; 
+.svn-content_img-no {
+  position: absolute;
+  z-index: 5;
+  padding: 5px;
   top: 0;
   right: 7px;
 }
-.svn-content_no.right { 
-  text-align: right; 
+.svn-content_no.right {
+  text-align: right;
 }
-.svn-content_no { 
-  position: relative; 
-  padding: 1em 0.5em; 
-  font-family: $alt-font-1; 
-  font-size: $section-number-font-size; 
-  color: $brand-color; 
-  @include palm-mid { 
-    padding: .5em; 
+.svn-content_no {
+  position: relative;
+  padding: 1em 0.5em;
+  font-family: $alt-font-1;
+  font-size: $section-number-font-size;
+  color: $brand-color;
+  @include palm-mid {
+    padding: .5em;
   }
-  @include laptop { 
-    padding: .5em 1.5em 0; 
+  @include laptop {
+    padding: .5em 1.5em 0;
   }
   @include bigscreen {
     font-size: 30px;
@@ -178,7 +178,7 @@ body.white {
   position: absolute;
   left: 0;
   z-index: 5;
-  padding: 1em; 
+  padding: 1em;
 }
 
 // Links
@@ -191,9 +191,9 @@ body.white {
 }
 
 // Back to top icon
-.backtop-icon { 
+.backtop-icon {
   position: fixed;
-  bottom: 1.3em; 
+  bottom: 1.3em;
   right: 10px;
   z-index: 9006;
   margin-right: 0.3em;
@@ -202,15 +202,15 @@ body.white {
  .backtop-icon:hover {
   background-image: url('/assets/images/slide-up-hover.png');
  }
-.backtop_wrapper { 
-  position: relative; 
-  width: 100%; 
-  @include desktop-blah { 
-    width: 1100px; 
-    margin: 0 auto; 
+.backtop_wrapper {
+  position: relative;
+  width: 100%;
+  @include desktop-blah {
+    width: 1100px;
+    margin: 0 auto;
   }
-  @include tv { 
-    width: 1300px; 
+  @include tv {
+    width: 1300px;
   }
 }
 
@@ -220,7 +220,7 @@ body.white {
 }
 .pull_right {
   @include tablet {
-    float: right !important;  
+    float: right !important;
   }
 }
 .pull_left {
@@ -259,4 +259,28 @@ body.white {
     align-items: flex-start;
     flex-direction: row-reverse;
   }
+}
+
+.form_title {
+    text-align: center;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: 'Montserrat',sans-serif;
+    position: absolute;
+    z-index: -1;
+    top: 45px;
+    left: 0;
+    right: 0;
+    font-size: 2.3em;
+
+    @include tablet {
+        top: 7px;
+        font-size: 5em;
+    }
+
+}
+.layout_height {
+    @include tablet {
+        height: calc(100vh - 80px);
+    }
 }
