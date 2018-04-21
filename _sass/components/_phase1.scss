@@ -508,3 +508,36 @@ a.phase1-btn {
         }
     }
 }
+
+
+// Brand identity
+
+.form_title_svn {
+    text-align: center;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: 'Montserrat',sans-serif;
+    position: absolute;
+    z-index: -1;
+    top: 45px;
+    left: 0;
+    right: 0;
+    font-size: 2.3em;
+
+    @include tablet {
+        top: 7px;
+        font-size: 5em;
+    }
+
+}
+.layout_height_svn {
+    @include tablet {
+        height: calc(100vh - 80px);
+    }
+}
+
+@media screen and (min-width: 1440px) and (min-height: 920px) {
+    .typeform-widget {
+        height: 750px !important;
+    }
+}

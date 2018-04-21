@@ -260,27 +260,3 @@ body.white {
     flex-direction: row-reverse;
   }
 }
-
-.form_title {
-    text-align: center;
-    font-weight: 900;
-    text-transform: uppercase;
-    font-family: 'Montserrat',sans-serif;
-    position: absolute;
-    z-index: -1;
-    top: 45px;
-    left: 0;
-    right: 0;
-    font-size: 2.3em;
-
-    @include tablet {
-        top: 7px;
-        font-size: 5em;
-    }
-
-}
-.layout_height {
-    @include tablet {
-        height: calc(100vh - 80px);
-    }
-}
