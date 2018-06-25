@@ -1,7 +1,7 @@
 ---
 [//]: # (Meta Info)
 layout 							: phase1-project
-title 							: "City of Gods"
+title 							: "City of Gods x Arabbers"
 season                          : "1"
 
 [//]: # (Work on Home Page)
