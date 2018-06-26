@@ -541,3 +541,21 @@ a.phase1-btn {
         height: 750px !important;
     }
 }
+
+
+// Newsletter page
+.newsletter_page {
+    background-image: url('/assets/images/newsletter_banner.png');
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover;
+    margin-top: 12px;
+
+    @include tablet {
+        background-position: center;
+    }
+}
+.newsletter_grid {
+    padding: 25px 0;
+}
