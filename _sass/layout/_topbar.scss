@@ -10,6 +10,17 @@
         letter-spacing: 0.5px;
         font-family: $font-brand4;
         font-weight: 700;
+
+        a {
+            color: $off-white;
+
+            &:hover {
+                color: $off-white;
+            }
+            &:visited {
+                color: $off-white;
+            }
+        }
     }
 }
 .topbar_link {
