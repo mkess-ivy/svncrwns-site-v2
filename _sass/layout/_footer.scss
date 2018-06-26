@@ -2,6 +2,11 @@
 .left_footer {
 	max-width: 275px;
 	margin: 20px auto 10px;
+	text-align: center;
+
+	@include palm {
+		text-align: initial;
+	}
 
 	@include tablet {
 		width: auto;
@@ -10,7 +15,11 @@
 	}
 }
 .left_footer_copy {
-	display: inline;
+	display: block;
+
+	@include palm {
+		display: inline;
+	}
 }
 .right_footer {
 	font-weight: 700;
