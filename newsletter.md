@@ -7,8 +7,9 @@ permalink: /newsletter/
     <!-- Begin MailChimp Signup Form -->
     <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
     <style type="text/css">
-    	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+    	#mc_embed_signup{ background: #f7f7f7 !important; clear:left; font:14px Helvetica,Arial,sans-serif; }
         #mc_embed_signup form {
+            background: #f7f7f7 !important;
             padding: 10px 10px 10px 3%;
             margin: 25px auto;
             text-align: center;
@@ -34,6 +35,7 @@ permalink: /newsletter/
             border: none;
             border-radius: 0px;
             border-bottom: 1px solid;
+            background: #f7f7f7;
         }
         #mc_embed_signup input.button {
             margin: 0 auto;

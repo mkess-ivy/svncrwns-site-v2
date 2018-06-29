@@ -13,13 +13,12 @@
 
         a {
             color: $off-white;
-
-            &:hover {
-                color: $off-white;
-            }
-            &:visited {
-                color: $off-white;
-            }
+        }
+        a:hover {
+            color: $off-white;
+        }
+        a:visited {
+            color: $off-white;
         }
     }
 }
@@ -32,6 +31,7 @@
     margin-top: 6px;
     display: inline-block;
     margin-right: 20px;
+    margin-left: 15px;
 
     @include tablet {
         float: right;
