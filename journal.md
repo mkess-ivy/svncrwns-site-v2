@@ -10,6 +10,7 @@ permalink: /journal/
     featured
 </div>
 
+<div class="grid_full">
 {% assign featured_post = site.posts | where: "featured", "true" %}
 {% for post in featured_post limit:1 %}
 <div class="featured_post">
@@ -23,14 +24,17 @@ permalink: /journal/
     </div>
 </div>
 {% endfor %}
+</div>
 
-<div class="grid">
+<div class="grid fixed_width_grid">
+    <div class="frow justify-start">
     {% for post in site.posts %}
-    <div class="general_post">
-        <div class="general_post_image" style="background-image:url('{{ post.featured_image }}');"></div>
-        <div class="general_post_title">
-            <a href="{{ post.url }}">{{ post.title }}</a>
+        <div class="general_post">
+            <div class="general_post_image" style="background-image:url('{{ post.featured_image }}');"></div>
+            <div class="general_post_title">
+                <a href="{{ post.url }}">{{ post.title }}</a>
+            </div>
         </div>
-    </div>
     {% endfor %}
+    </div>
 </div>

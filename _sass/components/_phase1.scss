@@ -11,6 +11,12 @@
         max-width: none;
         margin: 10px 50px 0;
     }
+    &.fixed_width_grid {
+        @include widescreen {
+            max-width: 1200px;
+            margin: 0 auto 25px;
+        }
+    }
 }
 .grid_project {
     padding: 15px;
@@ -32,6 +38,15 @@
         padding: 10px 50px;
     }
 }
+.grid_full {
+    @include laptop {
+        margin: 0 50px;
+    }
+    @include desktop-blah {
+        margin: 0 100px;
+    }
+}
+
 
 .phase1-site-wrapper {
     // margin: auto;

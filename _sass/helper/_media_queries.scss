@@ -9,6 +9,7 @@ $on-tablet-frow         : 767px;
 $on-laptop              : 900px; /* featured, catalog, footer, home */
 $on-desktop             : 1024px; /* wrapper */
 $on-desktop-blah        : 1200px; /* catalog, home, header */
+$on-widescreen          : 1320px;
 $on-tv                  : 1439px; /* wrapper, featured, home */
 $on-bigscreen           : 1600px;
 
@@ -55,6 +56,11 @@ $on-bigscreen           : 1600px;
 }
 @mixin desktop-blah {
   @media screen and (min-width: #{$on-desktop-blah}) {
+    @content;
+  }
+}
+@mixin widescreen {
+  @media screen and (min-width: #{$on-widescreen}) {
     @content;
   }
 }
