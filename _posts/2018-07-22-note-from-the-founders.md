@@ -1,6 +1,6 @@
 ---
 layout: phase1-fullpage
-title: Chavon Lee X Ken J
+title: Note from the Founders
 featured_image: /assets/images/feature_chavonleexkenj.jpg
 
 ---
