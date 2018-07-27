@@ -10,26 +10,27 @@ permalink: /journal/
     featured
 </div>
 
+{% assign featured_post = site.posts | where: "featured", "true" %}
+{% for post in featured_post limit:1 %}
 <div class="featured_post">
-    <div class="featured_image" style="background-image:url('/assets/images/feature_brandstarterkit.jpg');"></div>
+    <div class="featured_image" style="background-image:url('{{ post.featured_image }}');"></div>
 
     <div class="grid">
         <div class="featured_title">
-            For Artists + CEOs: The Brand Starter Kit
+            <a href="{{ post.url }}">{{ post.title }}</a>
         </div>
-        <div class="featured_copy">
-            Learn about the common marketing tools needed for startups.  What every artist and CEO needs when first getting to market.  Reach your customers with confidence.
-        </div>
+        <div class="featured_summary">{{ post.featured_summary }}</div>
     </div>
-
 </div>
+{% endfor %}
 
 <div class="grid">
+    {% for post in site.posts %}
     <div class="general_post">
-        <div class="general_post_image" style="background-image:url('/assets/images/feature_chavonleexkenj.jpg');"></div>
+        <div class="general_post_image" style="background-image:url('{{ post.featured_image }}');"></div>
         <div class="general_post_title">
-            005: Chavon Lee x Ken J
+            <a href="{{ post.url }}">{{ post.title }}</a>
         </div>
     </div>
-
+    {% endfor %}
 </div>
