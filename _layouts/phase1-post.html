@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+    <div class="se-pre-con"></div>
+    {% include newsletter_topbar.html %}
+    <div class="grid">
+        {% include short_header.html %}
+        <div class="post_meta_wrapper">
+            <div class="date">
+                {{ page.date | date: '%B %d %Y' }}
+            </div>
+            <div class="single_post_title">
+                {{ page.title }}
+            </div>
+            <div class="single_post_summary">
+                {{ page.featured_summary }}
+            </div>
+        </div>
+    </div>
+
+    <div class="grid_full">
+        <div class="featured_image" style="background-image:url('{{ page.featured_image }}');">
+        </div>
+    </div>
+
+    <div class="grid">
+        <div class="post_wrapper">
+            <div class="post_copy">
+                {{ content }}
+            </div>
+        </div>
+        <div class="post_pagination_wrapper">
+            <div class="post_pagination_header">
+                Next Article
+            </div>
+            <div class="post_pagination_title">
+                002: Event Recap: Her Sweet Release
+            </div>
+            <div class="post_pagination_arrows">
+                <div class="left_arrow"></div>
+                <div class="right_arrow"></div>
+            </div>
+        </div>
+    </div>
+
+    {%  include short_footer.html %}
+
+    </div>
+  </body>
+
+</html>
