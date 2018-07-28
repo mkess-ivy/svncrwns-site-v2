@@ -132,22 +132,61 @@
 .post_meta_wrapper {
     padding-top: 50px;
     font-family: $font-brand4;
-    padding-bottom: 75px;
+    margin-bottom: 75px;
+
+    @include tablet {
+        margin: 0 75px 75px;
+    }
+    @include desktop {
+        margin: 0 0 75px;
+    }
 }
 .date {
     padding-bottom: 75px;
-
     font-weight: $normal;
     text-align: right;
+    letter-spacing: 1px;
+    font-size: 13px;
+    width: 100%;
+
+    @include desktop {
+        width: 18%;
+        text-align: left;
+        margin-top: 15px;
+    }
+}
+.single_post_meta {
+    @include desktop {
+        width: 80%;
+        padding-right: 75px;
+    }
+
 }
 .single_post_title {
     font-weight: $medium;
     letter-spacing: 1.2px;
     font-size: 24px;
     padding-bottom: 25px;
+
+    @include tablet {
+        font-size: 40px;
+    }
+}
+.single_post_summary {
+    @include tablet {
+        font-size: 20px;
+    }
 }
 .post_wrapper {
     margin-bottom: 100px;
+
+    @include tablet {
+        margin: 0 75px 100px;
+    }
+    @include desktop {
+        width: 60%;
+        margin: 0 50px 100px;
+    }
 }
 
 // Pagination
@@ -155,10 +194,29 @@
     @extend %clearfix;
     margin-bottom: 50px;
 
+    @include desktop {
+        width: 27%;
+    }
+
+
     .post_pagination_content {
         width: 72%;
         float: right;
         font-family: $font-brand4;
+
+        @include palm-mid {
+            width: 55%;
+        }
+        @include tablet {
+            width: 40%;
+            max-width: 320px;
+        }
+        @include desktop {
+            float: none;
+            max-width: none;
+            width: 100%;
+            margin-top: 75px;
+        }
 
         .post_pagination_header {
             font-size: 14px;
@@ -170,6 +228,10 @@
             font-weight: 500;
             letter-spacing: 1.5px;
             padding-bottom: 30px;
+
+            @include tablet {
+                font-size: 24px;
+            }
         }
         .arrow_properties {
             width: 20px;

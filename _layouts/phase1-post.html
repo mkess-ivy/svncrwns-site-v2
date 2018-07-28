@@ -9,15 +9,20 @@
     <div class="grid">
         {% include short_header.html %}
         <div class="post_meta_wrapper">
-            <div class="date">
-                {{ page.date | date: '%B %d %Y' }}
+            <div class="frow justify-between">
+                <div class="date">
+                    {{ page.date | date: '%B %d %Y' }}
+                </div>
+                <div class="single_post_meta">
+                    <div class="single_post_title">
+                        {{ page.title }}
+                    </div>
+                    <div class="single_post_summary">
+                        {{ page.featured_summary }}
+                    </div>
+                </div>
             </div>
-            <div class="single_post_title">
-                {{ page.title }}
-            </div>
-            <div class="single_post_summary">
-                {{ page.featured_summary }}
-            </div>
+
         </div>
     </div>
 
@@ -27,13 +32,15 @@
     </div>
 
     <div class="grid">
-        <div class="post_wrapper">
-            <div class="post_copy">
-                {{ content }}
+        <div class="frow direction-reverse">
+            <div class="post_wrapper">
+                <div class="post_copy">
+                    {{ content }}
+                </div>
             </div>
+
+            {% include components/pagination.html %}
         </div>
-        
-        {% include components/pagination.html %}
     </div>
 
     {%  include short_footer.html %}
