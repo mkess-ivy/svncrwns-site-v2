@@ -1,0 +1,42 @@
+{% capture the_collection %}{{page.collection}}{% endcapture %}
+{% if page.collection %}
+    {% assign  document = site[the_collection]  %}
+{% endif %}
+
+{% for links in document  %}
+    {% if links.title == page.title %}
+        {% unless forloop.first %}
+            {% assign prevurl = prev.url %}
+        {% endunless %}
+
+        {% unless forloop.last %}
+            {% assign next = document[forloop.index] %}
+            {% assign nexturl = next.url %}
+        {% endunless %}
+    {% endif %}
+    {% assign prev = links %}
+{% endfor %}
+
+<script>
+document.body.onkeyup = function(e){
+if (e.keyCode == '37') { window.location = '{{prevurl}}'; }
+if (e.keyCode == '39') { window.location = '{{nexturl}}'; }
+};
+</script>
+<div class="post_pagination_wrapper">
+    <div class="post_pagination_content">
+
+    {% if nexturl %}
+        <div class="post_pagination_header">
+            Next Article
+        </div>
+        <div class="post_pagination_title">
+            {{ next.title }}
+        </div>
+
+        <a href="{{nexturl}}" class="nxt pagination_links">
+            <img src="/assets/images/icon_right_arrow_transparent.png" class="arrow_properties" />
+        </a>
+    {% endif %}
+    </div>
+</div>

@@ -16,9 +16,11 @@
 }
 .left_footer_copy {
 	display: block;
+	margin-top: 7px;
 
 	@include palm {
 		display: inline;
+		margin-top: 0;
 	}
 }
 .right_footer {

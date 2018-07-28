@@ -32,18 +32,8 @@
                 {{ content }}
             </div>
         </div>
-        <div class="post_pagination_wrapper">
-            <div class="post_pagination_header">
-                Next Article
-            </div>
-            <div class="post_pagination_title">
-                002: Event Recap: Her Sweet Release
-            </div>
-            <div class="post_pagination_arrows">
-                <div class="left_arrow"></div>
-                <div class="right_arrow"></div>
-            </div>
-        </div>
+        
+        {% include components/pagination.html %}
     </div>
 
     {%  include short_footer.html %}
