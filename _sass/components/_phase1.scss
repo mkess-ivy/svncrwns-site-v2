@@ -11,9 +11,17 @@
         max-width: none;
         margin: 10px 50px 0;
     }
+    @include desktop-blah {
+        margin: 10px 100px 0;
+    }
     &.fixed_width_grid {
         @include widescreen {
             max-width: 1200px;
+            margin: 0 auto 25px;
+            margin-right: 100px;
+            margin-left: 100px;
+        }
+        @include tv {
             margin: 0 auto 25px;
         }
     }
@@ -44,6 +52,17 @@
     }
     @include desktop-blah {
         margin: 0 100px;
+    }
+    &.fixed_width_grid {
+        @include widescreen {
+            max-width: 1200px;
+            margin: 0 auto 25px;
+            margin-right: 100px;
+            margin-left: 100px;
+        }
+        @include tv {
+            margin: 0 auto 25px;
+        }
     }
 }
 

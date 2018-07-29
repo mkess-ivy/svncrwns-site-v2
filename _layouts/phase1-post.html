@@ -6,10 +6,10 @@
   <body>
     <div class="se-pre-con"></div>
     {% include newsletter_topbar.html %}
-    <div class="grid">
+    <div class="grid fixed_width_grid">
         {% include short_header.html %}
         <div class="post_meta_wrapper">
-            <div class="frow justify-between">
+            <div class="frow justify-start">
                 <div class="date">
                     {{ page.date | date: '%B %d %Y' }}
                 </div>
@@ -26,12 +26,12 @@
         </div>
     </div>
 
-    <div class="grid_full">
-        <div class="featured_image" style="background-image:url('{{ page.featured_image }}');">
+    <div class="grid_full fixed_width_grid">
+        <div class="featured_image single_post_image" style="background-image:url('{{ page.featured_image }}');">
         </div>
     </div>
 
-    <div class="grid">
+    <div class="grid fixed_width_grid">
         <div class="frow direction-reverse">
             <div class="post_wrapper">
                 <div class="post_copy">
