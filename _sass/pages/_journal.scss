@@ -170,6 +170,7 @@
     }
     @include desktop-blah {
         width: 70%;
+        margin-top: 0;
     }
     @include widescreen {
         width: 65%;

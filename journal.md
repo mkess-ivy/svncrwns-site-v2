@@ -3,11 +3,13 @@ layout: phase1-fullpage
 title: journal
 permalink: /journal/
 ---
-<div class="masthead_title">
-    Studio happenings, insights, experiments + perspectives on branding
-</div>
-<div class="featured">
-    featured
+<div class="grid">
+    <div class="masthead_title">
+        Studio happenings, insights, experiments + perspectives on branding
+    </div>
+    <div class="featured">
+        featured
+    </div>
 </div>
 
 <div class="grid_full">

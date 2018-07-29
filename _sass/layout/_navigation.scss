@@ -27,16 +27,17 @@
 }
 .phase1-overlay-close {
   width: 40px;
-  height: 35px;
+  height: 60px;
+  margin-right: 5px;
   overflow: hidden;
   border: 0 !important;
   background-color: transparent !important;
   z-index: 7000;
-  right: 0;
+  // right: 0;
 
   @include tablet {
-    right: 50px;
-    top: 10px;
+    // right: 50px;
+    // top: 10px;
   }
 }
 .overlay-close:hover {
@@ -95,10 +96,10 @@ body.noScroll {
 .overlay_container {
   // height: 100vh;
   position: relative;
-  padding: 30px 20px 15px;
+  // padding: 30px 20px 15px;
 
   @include palm-mid {
-      padding-top: 50px;
+      // padding-top: 50px;
   }
 
   // @include tablet {
@@ -166,16 +167,13 @@ body.noScroll {
   left: 0;
   background-size: cover;
   background-position: center center;
-  background-color: $off-white;
+  background-color: $off-black;
   z-index: 9009;
   overflow: scroll;
 }
 .overlay nav {
     width: 100%;
 
-    @include tablet {
-        padding-left: 100px;
-    }
 }
 .overlay ul {
   list-style: none;
@@ -197,7 +195,7 @@ body.noScroll {
 }
 .overlay ul li a {
   text-decoration: none;
-  color: $off-black;
+  color: $off-white;
   font-weight: 700;
 }
 .overlay ul li a:hover {
@@ -385,6 +383,7 @@ ul.nav li a:hover::after {
   margin-bottom: 25px;
   font-style: italic;
   text-transform: uppercase;
+  color: $off-white;
 }
 
 // phase1_full_height
@@ -402,8 +401,9 @@ ul.nav li a:hover::after {
 
 // Home Link
 .menu_crown {
-    width: 30px;
+    width: 36px;
     margin-bottom: 30px;
+    margin-top: 12px;
 
     a {
         text-decoration: none;
