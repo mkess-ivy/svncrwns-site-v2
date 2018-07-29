@@ -3,9 +3,11 @@
     position: relative;
 
     @include palm-mid {
-        // max-width: 475px;
         max-width: 450px;
         margin: 10px auto;
+    }
+    @include tablet-small {
+        max-width: 500px;
     }
     @include tablet {
         max-width: none;
@@ -15,15 +17,40 @@
         margin: 10px 100px 0;
     }
     &.fixed_width_grid {
+        @include desktop {
+            margin: 10px 50px 0 20px;
+        }
         @include widescreen {
-            max-width: 1200px;
-            margin: 0 auto 25px;
-            margin-right: 100px;
-            margin-left: 100px;
+            // max-width: 1200px;
+            // margin: 0 auto 25px;
+            margin: 0 50px 0 20px;
         }
         @include tv {
-            margin: 0 auto 25px;
+            margin: 10px 100px;
         }
+    }
+}
+.pagination_grid {
+    margin: 15px;
+    position: relative;
+
+    @include palm-mid {
+        max-width: 450px;
+        margin: 10px auto;
+    }
+    @include tablet {
+        max-width: none;
+        margin: 10px 50px 0;
+    }
+    @include desktop {
+        width: 15%;
+        margin: 0;
+        position: fixed;
+        left: 25px;
+        top: 50vh;
+    }
+    @include desktop-blah {
+        left: 50px;
     }
 }
 .grid_project {
@@ -50,18 +77,20 @@
     @include laptop {
         margin: 0 50px;
     }
-    @include desktop-blah {
-        margin: 0 100px;
-    }
+    // @include desktop-blah {
+    //     margin: 0 50px auto 20px;
+    // }
     &.fixed_width_grid {
+        @include desktop {
+            margin: 10px 50px 0 20px;
+        }
         @include widescreen {
-            max-width: 1200px;
-            margin: 0 auto 25px;
-            margin-right: 100px;
-            margin-left: 100px;
+            // max-width: 1200px;
+            // margin: 0 auto 25px;
+            margin: 0 50px 0 20px;
         }
         @include tv {
-            margin: 0 auto 25px;
+            margin: 10px 100px;
         }
     }
 }

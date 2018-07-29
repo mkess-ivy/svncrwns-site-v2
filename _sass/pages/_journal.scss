@@ -141,7 +141,7 @@
     margin-bottom: 75px;
 
     @include tablet {
-        margin: 0 75px 75px;
+        // margin: 0 75px 75px;
     }
     @include desktop {
         margin: 75px 0 150px;
@@ -150,10 +150,10 @@
 .date {
     padding-bottom: 75px;
     font-weight: $normal;
-    text-align: right;
+    // text-align: right;
     letter-spacing: 1px;
     font-size: 13px;
-    width: 100%;
+    width: 25%;
 
     @include desktop {
         width: 25%;
@@ -163,9 +163,10 @@
     }
 }
 .single_post_meta {
-    @include desktop {
+    @include tablet {
         width: 75%;
-        padding-right: 15vw;
+        margin-top: 50px;
+        // padding-right: 15vw;
     }
     @include desktop-blah {
         width: 70%;
@@ -197,8 +198,8 @@
         margin: 0 75px 100px;
     }
     @include desktop {
-        width: 60%;
-        margin: 0 50px 100px;
+
+        margin: 0 0 100px;
     }
 }
 
@@ -207,14 +208,18 @@
     @extend %clearfix;
     margin-bottom: 50px;
 
+    @include tablet {
+        margin-bottom: 100px;
+    }
+
     @include desktop {
-        width: 27%;
+        // width: 27%;
     }
 
 
     .post_pagination_content {
         width: 72%;
-        float: right;
+        // float: right;
         font-family: $font-brand4;
 
         @include palm-mid {
@@ -223,12 +228,13 @@
         @include tablet {
             width: 40%;
             max-width: 320px;
+            margin-left: 20vw;
         }
         @include desktop {
             float: none;
             max-width: none;
             width: 100%;
-            margin-top: 75px;
+            margin-left: 0;
         }
 
         .post_pagination_header {
@@ -245,9 +251,11 @@
             @include tablet {
                 font-size: 24px;
             }
+
             @include desktop {
-                font-size: 32px;
+                font-size: 20px;
             }
+
         }
         .arrow_properties {
             width: 20px;
@@ -274,8 +282,21 @@ a.pagination_links {
     p img {
         display: block;
         margin: 50px auto;
+
+        @include desktop {
+            margin: 75px auto;
+        }
     }
-    @include desktop {
+    @include tablet {
         font-size: 20px;
+    }
+}
+.post_layout {
+    width: 100%;
+    @include desktop {
+        width: 80%;
+    }
+    @include desktop-blah {
+        width: 75%;
     }
 }
