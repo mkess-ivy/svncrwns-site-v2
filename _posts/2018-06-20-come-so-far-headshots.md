@@ -2,22 +2,11 @@
 layout: phase1-post
 title: Creating Content with Come So Far
 featured_image: /assets/images/feature_comesofar.jpg
-
+featured_summary: "Headshots for the Come So Far team, looking forward to the first event series coming later this year, 2018"
 ---
-![Delicate Event Recap 002]({{ site.url }}/assets/images/post_delicate_2.png)
 
-![Delicate Event Recap 003]({{ site.url }}/assets/images/post_delicate_3.png)
+![Come So Far 001]({{ site.url }}/assets/images/post_comesofar_1_v2.png)
 
-![Delicate Event Recap 004]({{ site.url }}/assets/images/post_delicate_4.jpg)
+![Come So Far 002]({{ site.url }}/assets/images/post_comesofar_2_v2.png)
 
-![Delicate Event Recap 005]({{ site.url }}/assets/images/post_delicate_5.jpg)
-
-![Delicate Event Recap 006]({{ site.url }}/assets/images/post_delicate_6.jpg)
-
-![Delicate Event Recap 007]({{ site.url }}/assets/images/post_delicate_7.jpg)
-
-![Delicate Event Recap 008]({{ site.url }}/assets/images/post_delicate_8.jpg)
-
-![Delicate Event Recap 009]({{ site.url }}/assets/images/post_delicate_9.jpg)
-
-![Delicate Event Recap 010]({{ site.url }}/assets/images/post_delicate_10.jpg)
+![Come So Far 003]({{ site.url }}/assets/images/post_comesofar_3_v2.png)
