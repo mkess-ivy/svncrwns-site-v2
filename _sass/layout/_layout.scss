@@ -12,6 +12,10 @@
 body.white {
   background-color: $color-white;
 }
+body.black_layout {
+    background-color: $off-black;
+    color: $off-white;
+}
 .body-hero {
   background-size: cover;
   background-repeat: no-repeat;

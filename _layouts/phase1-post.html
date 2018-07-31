@@ -13,11 +13,11 @@
 
     <div class="frow justify-end">
         <div class="post_layout">
-            <div class="grid fixed_width_grid">
+            <div class="grid fluid_width_grid">
                 <div class="post_meta_wrapper">
                     <div class="frow justify-start">
                         <div class="date">
-                            {{ page.date | date: '%B %d %Y' }}
+                            {{ page.date | date: '%b %d %Y' }}
                         </div>
                         <div class="single_post_meta">
                             <div class="single_post_title">
@@ -31,12 +31,12 @@
                 </div>
             </div>
 
-            <div class="grid_full fixed_width_grid">
+            <div class="grid_single_post fluid_width_grid">
                 <div class="featured_image single_post_image" style="background-image:url('{{ page.featured_image }}');">
                 </div>
             </div>
 
-            <div class="grid fixed_width_grid">
+            <div class="grid fluid_width_grid">
                 <div class="post_wrapper">
                     <div class="post_copy">
                         {{ content }}
@@ -47,6 +47,10 @@
     </div>
     <div class="pagination_grid">
         {% include components/pagination.html %}
+
+        <div class="all_posts_link">
+            <a href="/journal">all posts</a>
+        </div>
     </div>
 </div>
 

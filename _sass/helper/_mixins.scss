@@ -5,9 +5,26 @@
     margin: 10px;
 }
 
+// Active Mixins
+@mixin heavy_font($size) {
+    font-family: $font-brand4;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: $heavy;
+    font-size: $size;
+}
+@mixin medium_font($size) {
+    font-family: $font-brand4;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    font-weight: $medium;
+    font-size: $size;
+}
+@mixin bg_gradient($color1, $color2) {
+    background-image: linear-gradient(172deg, $color1, $color2);
+}
 
 // Mixins for Fonts
-
 @mixin font_huge {
     font-size: 55px;
 }

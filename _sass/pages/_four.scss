@@ -1,0 +1,24 @@
+.four_wrapper {
+    height: calc(100vh - 125px);
+}
+.four_title {
+    color: $off-white;
+    font-size: 125px;
+    text-align: center;
+    font-family: $font-brand4;
+    font-weight: $heavy;
+    letter-spacing: 3px;
+}
+.four_subtitle {
+    color: $off-white;
+    text-transform: uppercase;
+    font-family: $font-brand4;
+    font-weight: $heavy;
+    letter-spacing: 1px;
+    font-size: 20px;
+    padding-bottom: 45px;
+    text-align: center;
+}
+.four_cta {
+    text-align: center;
+}

@@ -20,18 +20,22 @@
         @include desktop {
             margin: 10px 50px 0 20px;
         }
+        @include desktop-blah {
+            margin: 10px 100px 20px;
+        }
         @include widescreen {
-            // max-width: 1200px;
-            // margin: 0 auto 25px;
-            margin: 0 50px 0 20px;
+            max-width: 1200px;
+            margin: 0 auto 25px;
+            // margin: 0 50px 0 20px;
         }
         @include tv {
-            margin: 0 100px 0 20px;
+            // margin: 0 100px 0 20px;
         }
     }
+
 }
 .pagination_grid {
-    margin: 15px;
+    margin: 15px 15px 75px;
     position: relative;
 
     @include palm-mid {
@@ -43,13 +47,18 @@
         margin: 10px 50px 0;
     }
     @include desktop {
-        width: 15%;
+        width: 25%;
         margin: 0;
         position: fixed;
         left: 25px;
-        bottom: 8vh;
+        bottom: 15vh;
     }
     @include desktop-blah {
+        left: 50px;
+        width: 20%;
+    }
+    @include tv {
+        max-width: 225px;
         left: 100px;
     }
 }
@@ -77,16 +86,28 @@
     @include laptop {
         margin: 0 50px;
     }
-    // @include desktop-blah {
-    //     margin: 0 50px auto 20px;
-    // }
+    @include desktop-blah {
+        margin: 0 100px;
+        // margin: 0 100px 0 20px;
+    }
+
     &.fixed_width_grid {
         @include desktop {
             margin: 10px 50px 0 20px;
         }
+        @include desktop-blah {
+            margin: 10px 100px 20px;
+        }
         @include widescreen {
-            // max-width: 1200px;
-            // margin: 0 auto 25px;
+            max-width: 1200px;
+            margin: 0 auto 25px;
+        }
+    }
+    &.fluid_width_grid {
+        @include desktop {
+            margin: 10px 50px 0 20px;
+        }
+        @include widescreen {
             margin: 0 50px 0 20px;
         }
         @include tv {
@@ -94,7 +115,34 @@
         }
     }
 }
-
+.grid_single_post {
+    @include laptop {
+        margin: 0 50px;
+    }
+    @include desktop-blah {
+        margin: 0 100px 0 40px;
+    }
+    &.fixed_width_grid {
+        @include desktop {
+            margin: 10px 50px 0 20px;
+        }
+        @include desktop-blah {
+            margin: 10px 100px 20px;
+        }
+        @include widescreen {
+            max-width: 1200px;
+            margin: 0 auto 25px;
+        }
+    }
+    &.fluid_width_grid {
+        @include desktop {
+            margin: 10px 50px 0 20px;
+        }
+        @include tv {
+            margin: 0 100px 0 50px;
+        }
+    }
+}
 
 .phase1-site-wrapper {
     // margin: auto;

@@ -1,0 +1,45 @@
+.archive_wrapper {
+    padding-bottom: 75px;
+    padding-top: 30px;
+    border-top: 1px solid;
+    margin-top: 50px;
+
+    @include laptop {
+        padding-top: 10px;
+        margin-left: 2vw;
+    }
+
+    .archive_header {
+        @include heavy_font(17px);
+        padding-bottom: 75px;
+
+        @include laptop {
+            font-size: 36px;
+        }
+    }
+    .archive_single {
+        border-bottom: 1px solid;
+        margin-bottom: 20px;
+        padding-bottom: 15px;
+        @include laptop {
+            width: 48%;
+        }
+    }
+    .archive_date {
+        @include medium_font(14px);
+        width: 125px;
+    }
+    .archive_meta {
+        width: 70%;
+    }
+    .archive_title {
+        @include heavy_font(14px);
+        // padding-bottom: 10px;
+    }
+    .archive_summary {
+        padding-bottom: 25px;
+        font-size: 14px;
+        width: 70%;
+        letter-spacing: 0.3px;
+    }
+}

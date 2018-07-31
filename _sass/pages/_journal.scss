@@ -2,21 +2,23 @@
     font-family: $font-brand4;
     font-weight: $medium;
     text-align: center;
-    padding: 75px 20px;
+    padding: 125px 0 30px;
     letter-spacing: 1px;
     font-size: 20px;
+    text-transform: uppercase;
+    line-height: 1.2;
+    font-weight: $heavy;
 
     @include tablet {
-        font-size: 26px;
+        font-size: 30px;
         letter-spacing: 1.3px;
     }
     @include laptop {
-        font-size: 32px;
-        padding: 75px;
+        font-size: 38px;
+        padding: 125px 75px 30px;
     }
     @include desktop-blah {
         width: 75%;
-        padding: 125px 20px;
         margin: auto;
         max-width: 950px;
         font-size: 40px;
@@ -29,7 +31,7 @@
     font-weight: $medium;
     font-size: 14px;
     letter-spacing: 2px;
-    padding-bottom: 50px;
+    padding-bottom: 125px;
 }
 .featured_image {
     background-repeat: no-repeat;
@@ -58,33 +60,35 @@
     font-family: $font-brand4;
     padding-bottom: 50px;
 
-    @include desktop-blah {
-        margin: 0 auto 30px;
-        width: 80%;
-        max-width: 1000px;
+    @include tablet {
+        padding-bottom: 100px;
     }
 
-
-
+    @include desktop-blah {
+        margin: 0 auto 30px;
+        width: 90%;
+        max-width: 1000px;
+    }
     .featured_title {
         font-weight: $medium;
         font-size: 20px;
-        padding-bottom: 25px;
+        padding-bottom: 5px;
+        text-transform: uppercase;
+        font-weight: $heavy;
 
         @include tablet {
-            font-size: 26px;
+            font-size: 24px;
             letter-spacing: 1.3px;
-        }
-        @include laptop {
-            font-size: 32px;
         }
     }
     .featured_summary {
         line-height: 24px;
+        font-family: $font-brand3;
+        letter-spacing: 0.5px;
 
         @include tablet {
-            font-size: 20px;
-            line-height: 30px;
+            font-size: 18px;
+            line-height: 26px;
         }
     }
 }
@@ -94,9 +98,12 @@
 
     @include tablet {
         width: 50%;
-        padding-right: 25px;
+        padding: 0 15px 50px;
     }
     @include laptop {
+        width: 50%;
+    }
+    @include desktop-blah {
         width: 33.3%;
     }
 
@@ -123,10 +130,11 @@
     }
     .general_post_title {
         font-family: $font-brand4;
-        font-weight: $medium;
+        font-weight: $heavy;
         font-size: 18px;
         letter-spacing: 1px;
         text-align: center;
+        text-transform: uppercase;
 
         // @include laptop {
         //     font-size: 24px;
@@ -148,12 +156,15 @@
     }
 }
 .date {
-    padding-bottom: 75px;
+    // padding-bottom: 75px;
+    padding-bottom: 35px;
     font-weight: $normal;
     // text-align: right;
     letter-spacing: 1px;
     font-size: 13px;
-    width: 25%;
+    width: 50%;
+    // width: 25%;
+    text-transform: uppercase;
 
     @include desktop {
         width: 25%;
@@ -165,7 +176,7 @@
 .single_post_meta {
     @include tablet {
         width: 75%;
-        margin-top: 50px;
+        // margin-top: 50px;
         // padding-right: 15vw;
     }
     @include desktop-blah {
@@ -178,16 +189,22 @@
 
 }
 .single_post_title {
-    font-weight: $medium;
+    font-weight: $heavy;
     letter-spacing: 1.2px;
+    line-height: 1.2;
     font-size: 24px;
     padding-bottom: 25px;
+    text-transform: uppercase;
+
 
     @include tablet {
         font-size: 40px;
     }
 }
 .single_post_summary {
+    font-family: $font-brand3;
+    letter-spacing: 0.5px;
+
     @include tablet {
         font-size: 20px;
     }
@@ -208,15 +225,6 @@
 .post_pagination_wrapper {
     @extend %clearfix;
     margin-bottom: 50px;
-
-    @include tablet {
-        margin-bottom: 100px;
-    }
-
-    @include desktop {
-        // width: 27%;
-    }
-
 
     .post_pagination_content {
         width: 72%;
@@ -242,12 +250,16 @@
             font-size: 14px;
             letter-spacing: 1px;
             padding-bottom: 20px;
+            text-transform: uppercase;
         }
         .post_pagination_title {
             font-size: 18px;
-            font-weight: 500;
+            font-weight: $heavy;
+            font-family: $font-brand4;
+            text-transform: uppercase;
             letter-spacing: 1.5px;
             padding-bottom: 30px;
+            line-height: 1.2;
 
             @include tablet {
                 font-size: 24px;
@@ -256,7 +268,6 @@
             @include desktop {
                 font-size: 20px;
             }
-
         }
         .arrow_properties {
             width: 20px;
@@ -274,8 +285,8 @@ a.pagination_links {
 
 .post_copy {
     margin-top: 75px;
-    font-family: $font-brand4;
-    letter-spacing: 1px;
+    font-family: $font-brand3;
+    letter-spacing: 0.5px;
 
     p {
         margin-bottom: 30px;
@@ -295,9 +306,114 @@ a.pagination_links {
 .post_layout {
     width: 100%;
     @include desktop {
-        width: 80%;
+        width: 70%;
     }
     @include desktop-blah {
         width: 75%;
     }
+}
+.all_posts_wrapper {
+    // margin-bottom: 150px;
+    @include laptop {
+        width: 75%;
+    }
+    @include desktop-blah {
+        // width: 82%;
+        width: 79%;
+    }
+}
+
+.special_wrapper {
+    @include laptop {
+        width: 23%;
+        // height: 300px;
+    }
+    @include desktop-blah {
+        // width: 16%;
+        width: 19%;
+    }
+
+}
+.special_single {
+    padding: 30px 30px 0;
+    // background-image: linear-gradient(172deg, #986016, #410b0b);
+    @include bg_gradient(#986016, #410b0b);
+    color: white;
+    margin-bottom: 3.5vh;
+
+    @include palm-mid {
+        width: 46%;
+    }
+
+    @include laptop {
+        width: 100%;
+        padding: 50px 30px 0;
+        margin-bottom: 5vh;
+    }
+    // @include desktop {
+    //     margin-bottom: 10vh;
+    // }
+    // @include desktop-blah {
+    //     margin-bottom: 11vh;
+    // }
+    // @include widescreen {
+    //     margin-bottom: 16vh;
+    // }
+
+    &.two {
+        @include bg_gradient(#98163f, #410b0b);
+    }
+
+
+}
+.special_title {
+    font-family: 'Montserrat',sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    // margin-left: 20px;
+}
+.special_subtitle {
+    font-family: $font-brand3;
+    text-transform: initial;
+    font-weight: $normal;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 20px 0 30px;
+}
+.special_cta {
+    padding-bottom: 50px;
+}
+a.brand_cta {
+    color: $off_white;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: $heavy;
+    font-family: $font-brand4;
+
+    &:hover {
+        border-bottom: 0;
+        color: $off-black;
+
+    }
+
+    div {
+        border: 1px solid;
+        padding: 6px 10px;
+        display: inline;
+
+        &:hover {
+            background: $off-white;
+            border-color: $off-white;
+            // padding: 6px 10px;
+        }
+    }
+}
+.all_posts_link {
+    text-transform: uppercase;
+    font-family: $font-brand4;
+    letter-spacing: 1px;
+    font-weight: $heavy;
 }
