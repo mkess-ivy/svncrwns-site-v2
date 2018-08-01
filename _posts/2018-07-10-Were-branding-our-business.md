@@ -11,7 +11,7 @@ We hate to admit it but we were too busy helping other brands tell their story, 
 
 Social Media is the biggest elephant in the room, so we tackled it first.  We started with sharing who we are and what we've been up to.  We missed this freebie when we first started in 2015.  Realizing how valuable it is to share your process and growth with your audience, we've started our [instagram](http://www.instagram.com/svncrwns) account and we're sharing our portfolio.  We have projects as far back as 2015 that we haven't really talked much about, it was a good time to revisit some of that content and share those stories.  Follow our instagram account, [@svncrwns](http://www.instagram.com/svncrwns).
 
-![Brand Company 001]({{ site.url }}/assets/images/post_brandcompany.jpg)
+![Brand Company 001](/assets/images/post_brandcompany.jpg)
 
 *Two &mdash; Logo*
 
