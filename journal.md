@@ -79,7 +79,7 @@ permalink: /journal/
 
         </div>
     </div>
-    <div class="archive_wrapper js_scroll_reveal">
+    <div class="archive_wrapper archive_wrapper_properties js_scroll_reveal">
         <div class="archive_header">
             The Archive
         </div>

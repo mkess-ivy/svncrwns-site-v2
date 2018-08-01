@@ -39,7 +39,7 @@ We are not that advanced that we don't need websites.  Never under estimate the 
 
 This is mandatory.  Having a portfolio to shop to clients is a great asset.  We live in a very instantaneous society, proof of concept is more important than ever.  Have your portfolio ready and accessible for any and every one to see.  To see our portfolio, click on the menu button, showing seasons one through four.
 
-### Resources
+{% include components/archive_section.html title="Resources" %}
 
 Check below for some online resources that we found to be helpful:
 

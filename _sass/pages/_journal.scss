@@ -261,6 +261,14 @@
 
     p {
         margin-bottom: 30px;
+
+        a {
+            border-bottom: 1px solid;
+
+            &:hover {
+                color: $color-brand3;
+            }
+        }
     }
     p img {
         display: block;
@@ -355,4 +363,11 @@ a.pagination_links {
     font-family: $font-brand4;
     letter-spacing: 1px;
     font-weight: $heavy;
+
+    a {
+        border-bottom: 1px solid;
+        &:hover {
+            color: $color-brand3;
+        }
+    }
 }

@@ -32,7 +32,6 @@
 .phase1-overlay-close {
   width: 40px;
   height: 37px;
-  margin-right: 5px;
   overflow: hidden;
   border: 0 !important;
   background-color: transparent !important;
@@ -203,7 +202,7 @@ body.noScroll {
   font-weight: 700;
 }
 .overlay ul li a:hover {
-  color: $color-brand5;
+  color: $color-brand3;
   border-bottom: 0;
 }
 .overlay-close {

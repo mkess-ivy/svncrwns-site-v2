@@ -26,13 +26,32 @@
         @include widescreen {
             max-width: 1200px;
             margin: 0 auto 25px;
-            // margin: 0 50px 0 20px;
-        }
-        @include tv {
-            // margin: 0 100px 0 20px;
         }
     }
 
+}
+.grid_project {
+    padding: 15px;
+    @include palm-mid {
+        max-width: 450px;
+        margin: auto;
+        padding: 10px 0;
+    }
+    @include tablet {
+        max-width: none;
+        padding: 10px 50px 0;
+    }
+    @include desktop-blah {
+        padding: 10px 100px 0;
+    }
+}
+.grid_slide {
+    background-color: $off-white;
+    @extend .grid_project;
+
+    @include tablet {
+        padding: 10px 50px;
+    }
 }
 .pagination_grid {
     margin: 15px 15px 75px;
@@ -62,26 +81,8 @@
         left: 100px;
     }
 }
-.grid_project {
-    padding: 15px;
-    @include palm-mid {
-        max-width: 450px;
-        margin: auto;
-        padding: 10px 0;
-    }
-    @include tablet {
-        max-width: none;
-        padding: 10px 50px 0;
-    }
-}
-.grid_slide {
-    background-color: $off-white;
-    @extend .grid_project;
 
-    @include tablet {
-        padding: 10px 50px;
-    }
-}
+
 .grid_full {
     @include laptop {
         margin: 0 50px;
