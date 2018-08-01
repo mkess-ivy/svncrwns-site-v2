@@ -381,13 +381,8 @@ ul.nav li a:hover::after {
   transform: rotate(-135deg);
 }
 .menu_title {
-  letter-spacing: 7px;
-  font-size: 15px;
-  font-family: $font-brand3;
+  @include third_level_heading(15px, $off-white);
   margin-bottom: 25px;
-  font-style: italic;
-  text-transform: uppercase;
-  color: $off-white;
 }
 
 // phase1_full_height
