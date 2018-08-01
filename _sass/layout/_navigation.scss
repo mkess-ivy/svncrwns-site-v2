@@ -1,6 +1,10 @@
 /* Phase 1 Header */
 .phase1-site-header {
     padding-top: 15px;
+
+    @include tablet {
+        padding-top: 0;
+    }
 }
 .phase1_menu_btn {
     text-indent: 0;
@@ -27,7 +31,7 @@
 }
 .phase1-overlay-close {
   width: 40px;
-  height: 60px;
+  height: 37px;
   margin-right: 5px;
   overflow: hidden;
   border: 0 !important;
@@ -403,7 +407,7 @@ ul.nav li a:hover::after {
 .menu_crown {
     width: 36px;
     margin-bottom: 30px;
-    margin-top: 12px;
+    // margin-top: 12px;
 
     a {
         text-decoration: none;

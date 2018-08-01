@@ -153,7 +153,7 @@
 }
 .phase1_full_height {
 	margin: 75px 0;
-    background: $off-white;
+    // background: $off-white;
     position: relative;
     z-index: 1;
     @include tablet {
@@ -168,7 +168,8 @@
 
 // Phase 1 Home
 .phase1-masthead {
-    color: $off-white;
+    // color: $off-white;
+    color: $off-black;
     position: relative;
     z-index: 100000;
 
@@ -184,7 +185,7 @@
         margin-bottom: 30px;
         font-weight: 700;
         text-transform: uppercase;
-        color: $off-grey;
+        // color: $off-grey;
 
         @include tablet {
             font-size: 40px;
@@ -204,7 +205,7 @@
     .phase1-subheader {
         font-size: 18px;
         line-height: 1.6;
-        color: $off-grey;
+        // color: $off-grey;
 
         @include laptop {
             font-size: 22px;
@@ -217,7 +218,7 @@
 }
 .work_section {
     position: relative;
-    background-color: $off-white;
+    // background-color: $off-white;
     margin-bottom: 50px;
 
     @include desktop-blah {
@@ -287,9 +288,10 @@ a.phase1-btn {
 .work_szn {
     margin: 0 auto;
     position: relative;
+    color: $off-black;
 
     .work_szn_header {
-        color: $off-grey;
+        // color: $off-grey;
         font-size: 30px;
         font-style: italic;
         margin-bottom: 30px;
@@ -339,14 +341,15 @@ a.phase1-btn {
                 // z-index: 600;
 
                 a {
-                    color: $off-grey;
+                    // color: $off-grey;
+                    color: $off-black;
                     z-index: 1000;
                 }
             }
             .work_item_summary {
                 // font-size: 18px;
                 line-height: 1.8;
-                color: $off-grey;
+                // color: $off-grey;
                 position: relative;
                 z-index: 100002;
 
