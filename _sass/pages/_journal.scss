@@ -1,3 +1,4 @@
+// Journal Page
 .masthead_title {
     font-family: $font-brand4;
     font-weight: $medium;
@@ -24,6 +25,7 @@
         font-size: 40px;
     }
 }
+// Featured Section
 .featured {
     text-align: center;
     padding-bottom: 125px;
@@ -88,6 +90,7 @@
         }
     }
 }
+// List of Posts
 .general_post {
     padding-bottom: 50px;
     width: 100%;
@@ -102,7 +105,6 @@
     @include desktop-blah {
         width: 33.3%;
     }
-
     .general_post_image {
         background-repeat: no-repeat;
         background-position: center center;
@@ -131,35 +133,73 @@
         letter-spacing: 1px;
         text-align: center;
         text-transform: uppercase;
-
-        // @include laptop {
-        //     font-size: 24px;
-        // }
     }
 }
 
-// Single Posts
+// Side Bar
+.special_wrapper {
+    @include laptop {
+        width: 23%;
+    }
+    @include desktop-blah {
+        width: 19%;
+    }
+
+}
+.special_single {
+    padding: 30px 30px 0;
+    @include bg_gradient(#986016, #410b0b);
+    color: white;
+    margin-bottom: 3.5vh;
+
+    @include palm-mid {
+        width: 46%;
+    }
+
+    @include laptop {
+        width: 100%;
+        padding: 50px 30px 0;
+        margin-bottom: 5vh;
+    }
+
+    &.two {
+        @include bg_gradient(#98163f, #410b0b);
+    }
+}
+.special_title {
+    font-family: 'Montserrat',sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+}
+.special_subtitle {
+    font-family: $font-brand3;
+    text-transform: initial;
+    font-weight: $normal;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 20px 0 30px;
+}
+.special_cta {
+    padding-bottom: 50px;
+}
+// Journal Single Page
 .post_meta_wrapper {
     padding-top: 50px;
     font-family: $font-brand4;
     margin-bottom: 75px;
 
-    @include tablet {
-        // margin: 0 75px 75px;
-    }
     @include desktop {
         margin: 75px 0 150px;
     }
 }
 .date {
-    // padding-bottom: 75px;
     padding-bottom: 35px;
     font-weight: $normal;
-    // text-align: right;
     letter-spacing: 1px;
     font-size: 13px;
     width: 50%;
-    // width: 25%;
     text-transform: uppercase;
 
     @include desktop {
@@ -172,8 +212,6 @@
 .single_post_meta {
     @include tablet {
         width: 75%;
-        // margin-top: 50px;
-        // padding-right: 15vw;
     }
     @include desktop-blah {
         width: 70%;
@@ -216,15 +254,50 @@
         margin: 0 0 100px;
     }
 }
+.post_copy {
+    margin-top: 75px;
+    font-family: $font-brand3;
+    letter-spacing: 0.5px;
 
-// Pagination
+    p {
+        margin-bottom: 30px;
+    }
+    p img {
+        display: block;
+        margin: 50px auto;
+
+        @include desktop {
+            margin: 75px auto;
+        }
+    }
+    @include tablet {
+        font-size: 20px;
+    }
+}
+.post_layout {
+    width: 100%;
+    @include desktop {
+        width: 70%;
+    }
+    @include desktop-blah {
+        width: 75%;
+    }
+}
+.all_posts_wrapper {
+    @include laptop {
+        width: 75%;
+    }
+    @include desktop-blah {
+        width: 79%;
+    }
+}
+// Journal Single Page Pagination
 .post_pagination_wrapper {
     @extend %clearfix;
     margin-bottom: 50px;
 
     .post_pagination_content {
         width: 72%;
-        // float: right;
         font-family: $font-brand4;
 
         @include palm-mid {
@@ -236,7 +309,6 @@
             margin-left: 20vw;
         }
         @include desktop {
-            float: none;
             max-width: none;
             width: 100%;
             margin-left: 0;
@@ -276,135 +348,6 @@
 a.pagination_links {
     &:hover {
         border-bottom: 0;
-    }
-}
-
-.post_copy {
-    margin-top: 75px;
-    font-family: $font-brand3;
-    letter-spacing: 0.5px;
-
-    p {
-        margin-bottom: 30px;
-    }
-    p img {
-        display: block;
-        margin: 50px auto;
-
-        @include desktop {
-            margin: 75px auto;
-        }
-    }
-    @include tablet {
-        font-size: 20px;
-    }
-}
-.post_layout {
-    width: 100%;
-    @include desktop {
-        width: 70%;
-    }
-    @include desktop-blah {
-        width: 75%;
-    }
-}
-.all_posts_wrapper {
-    // margin-bottom: 150px;
-    @include laptop {
-        width: 75%;
-    }
-    @include desktop-blah {
-        // width: 82%;
-        width: 79%;
-    }
-}
-
-.special_wrapper {
-    @include laptop {
-        width: 23%;
-        // height: 300px;
-    }
-    @include desktop-blah {
-        // width: 16%;
-        width: 19%;
-    }
-
-}
-.special_single {
-    padding: 30px 30px 0;
-    // background-image: linear-gradient(172deg, #986016, #410b0b);
-    @include bg_gradient(#986016, #410b0b);
-    color: white;
-    margin-bottom: 3.5vh;
-
-    @include palm-mid {
-        width: 46%;
-    }
-
-    @include laptop {
-        width: 100%;
-        padding: 50px 30px 0;
-        margin-bottom: 5vh;
-    }
-    // @include desktop {
-    //     margin-bottom: 10vh;
-    // }
-    // @include desktop-blah {
-    //     margin-bottom: 11vh;
-    // }
-    // @include widescreen {
-    //     margin-bottom: 16vh;
-    // }
-
-    &.two {
-        @include bg_gradient(#98163f, #410b0b);
-    }
-
-
-}
-.special_title {
-    font-family: 'Montserrat',sans-serif;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 20px;
-    // margin-left: 20px;
-}
-.special_subtitle {
-    font-family: $font-brand3;
-    text-transform: initial;
-    font-weight: $normal;
-    font-size: 12px;
-    line-height: 18px;
-    padding: 20px 0 30px;
-}
-.special_cta {
-    padding-bottom: 50px;
-}
-a.brand_cta {
-    color: $off_white;
-    font-size: 14px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    font-weight: $heavy;
-    font-family: $font-brand4;
-
-    &:hover {
-        border-bottom: 0;
-        color: $off-black;
-
-    }
-
-    div {
-        border: 1px solid;
-        padding: 6px 10px;
-        display: inline;
-
-        &:hover {
-            background: $off-white;
-            border-color: $off-white;
-            // padding: 6px 10px;
-        }
     }
 }
 .all_posts_link {
