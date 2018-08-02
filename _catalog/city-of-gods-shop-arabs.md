@@ -8,12 +8,6 @@ season                          : "1"
 summary                         : "a short docufilm talking to Baltimore Arabbers, local produce providers"
 phase1-hero                     : /assets/images/cityofgods-1.jpg
 
-[//]: # (Featured Info)
-featured 						: "yes"
-featured-rank 					: "4"
-featured-subtitle				: "some random subtext that explains this two word title"
-featured-category				: "film"
-
 [//]: # (Catalog All)
 catalog-cover-image				: /assets/images/cityofgods-1.jpg
 

@@ -10,12 +10,10 @@ phase1-hero                     : /assets/images/project_popupmuseum/popupmuseum
 
 [//]: # (Featured Info)
 featured 						: "yes"
-featured-rank					: "2"
+featured-rank					: "4"
 featured-subtitle				: "on a warm and cloudy day, one day before rain poured from the clouds"
 featured-category				: "art installation"
 
-[//]: # (Catalog All)
-catalog-cover-image						: /assets/images/sankofa-3.jpg
 ---
 
 <!-- SVNCRWNS partnered with <a href="http://sankofaafricanbazaar.com" target="_blank" class="post-link">Sankofa African and World Bazaar</a> to create a Pop-Up Museum for Black History Month, entitled, SANKOFA.  The word Sankofa means “to go back and get it”.  With that in mind, we created a field trip to invite the youth of a few Baltimore City Public Schools to visit and experience our Pop-Up Museum to learn about black history and art prior to the teachings of American history.

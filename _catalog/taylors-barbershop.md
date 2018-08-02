@@ -5,8 +5,12 @@ title 					        : "Taylor Barbershop"
 season				            : "3"
 
 [//]: # (Work on Home Page)
-summary                         : "platform created for a barbershop to share their services, book appointments and other news"
+summary                         : "created a barbershop site sharing services, booking appts + more"
 phase1-hero                     : /assets/images/taylorbarbershop_cover.jpg
+
+[//]: # (Featured Info)
+featured 						: "yes"
+featured-rank 					: "1"
 
 [//]: # (Slider)
 slider: taylorbarbershop_slider

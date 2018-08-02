@@ -5,11 +5,13 @@ title 					        : "AVAM Logan Conference"
 season				            : "4"
 
 [//]: # (Work on Home Page)
-summary                         : "American Visionary Art Museum hosts 2018 Logan Conference in Baltimore, MD highlighting the mystery between science and spirituality"
+summary                         : "media coverage for American Visionary Art Museum 2018 Visionary Conference"
 phase1-hero                     : /assets/images/avam_logan.jpg
 
-[//]: # (Catalog All)
-catalog-cover-image				: /assets/images/avam_logan.jpg
+[//]: # (Featured Info)
+featured 						: "yes"
+featured-rank 					: "3"
+
 ---
 {% include components/film.html film-url="https://player.vimeo.com/video/265172091?api=1 " %}
 {% include components/phase-title.html %}

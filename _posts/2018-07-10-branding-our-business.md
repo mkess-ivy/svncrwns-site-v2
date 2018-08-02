@@ -19,15 +19,15 @@ The second marketing tool we tackled was our logo.  We wanted it to have a fresh
 
 *Three &mdash; Brand Book*
 
-In order to refresh ourselves on our business vocabulary, we created a [brand book](#) to make sure we were accurately envisioning our goals, look and feel within our logo and within the entire brand.  We tackled our vision, target market, personas, brand colors, etc.  SVNCRWNS Brand Book will be available soon for download.
+In order to refresh ourselves on our business vocabulary, we started developing a [brand book](#) to make sure we are accurately envisioning our goals, look and feel within our logo and within the entire brand.  So far, we have tackled our vision, target market, personas, brand colors, similar companies that we align ourselves with and a few more details.  Stay tuned for the SVNCRWNS Brand Book, it will be available for download soon.  Make sure you are subscribed to the newsletter to receive updates.
 
 *Four &mdash; Strategy*
 
-We created a mind map to strategize our business for the next 5 years.  We thought of every possible idea that seemed innovative, necessary and effective to culture and figured out how to tie it in with our business model.  We also factored in play time.  We love working with our clients, but our production company is also a space to create our own art.
+We created a mind map to strategize our business for the next 5 years.  We thought of every possible idea that seemed innovative, necessary and effective to culture and figured out how to tie it in with our business model.  We also factored in play time.  We love working with our clients, but our production company is also a space to create our own art.  Some of the things we tied in - wanting a streetwear brand, wanting to open a studio/workspace, wanting to do collaborations with other agencies in the space of fashion, art and + culture.
 
 *Five &mdash; Pricing Model*
 
-At this point, we have the makings of a solid blueprint for our business. Our portfolio was also a major asset.  When we weren't sure what kind of work we actually wanted to do, it was hard convincing people to let us work with them on their businesses.  We started shopping our portfolio as proof of our capabilities.  Based on our portfolio, we looked at the services and products we loved working on the most, and created a pricing model to help with pitching to clients more efficiently.  The pricing model along with the other tools give a more complete look of our business.  When added to the brand book, it allows you to communicate the fine details of your company in the form of a magazine spread that covers who you are, why you exist, and how you make money.
+At this point, we have the makings of a solid blueprint for our business. Our portfolio was also a major asset.  When we weren't sure what kind of work we actually wanted to do, it was hard convincing people to let us work with them on their businesses.  We started shopping our portfolio as proof of our capabilities.  Based on our portfolio, we looked at the services and products we loved working on the most, and created a pricing model to help with pitching to clients more efficiently.  The pricing model along with the other tools give a more complete look of our business.  When added to the brand book, it allows us to communicate the fine details of our company in the form of a magazine spread that covers who we are, why we exist, and how we make money.
 
 ### Bonus
 
@@ -37,7 +37,7 @@ We are not that advanced that we don't need websites.  Never under estimate the 
 
 *Seven &mdash; Portfolio*
 
-This is mandatory.  Having a portfolio to shop to clients is a great asset.  We live in a very instantaneous society, proof of concept is more important than ever.  Have your portfolio ready and accessible for any and every one to see.  To see our portfolio, click on the menu button, showing seasons one through four.
+This is mandatory, this was also the first thing that we created as a company.  We knew that having a solid portfolio would birth our company and show the value we can add to any brand or space.  Having a portfolio to shop to clients is a great asset.  We live in a very instantaneous society, proof of concept is more important than ever.  Have your portfolio ready and accessible for any and every one to see.  To see our portfolio, click on the menu button, showing seasons one through four.
 
 {% include components/archive_section.html title="Resources" %}
 
