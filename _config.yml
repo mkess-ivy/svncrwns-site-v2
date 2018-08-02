@@ -10,7 +10,7 @@ port: 4000
 # Build settings
 markdown: kramdown
 
-permalink: none
+permalink: /journal/:title/
 
 collections:
   catalog:
