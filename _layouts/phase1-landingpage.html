@@ -10,12 +10,12 @@
             {% include short_header.html %}
         </div>
 
-        <div class="grid">
+        <div class="grid grid_lp">
             {% include components/landingpage/masthead_section.html %}
 
             {% for sellpoint in page.sellpoints limit:1 %}
             <div class="lp_sell_point">
-                <div class="frow direction-row">
+                <div class="frow justify-between">
                     {% include components/landingpage/sellpoints.html %}
                 </div>
             </div>
@@ -27,7 +27,7 @@
 
             {% for sellpoint in page.sellpoints limit:1 offset:1 %}
             <div class="lp_sell_point">
-                <div class="frow direction-reverse">
+                <div class="frow justify-between direction-reverse">
                     {% include components/landingpage/sellpoints.html %}
                 </div>
             </div>
@@ -39,7 +39,7 @@
 
             {% for sellpoint in page.sellpoints limit:1 offset:2 %}
             <div class="lp_sell_point">
-                <div class="frow direction-row">
+                <div class="frow justify-between">
                     {% include components/landingpage/sellpoints.html %}
                 </div>
             </div>

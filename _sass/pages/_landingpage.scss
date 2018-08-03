@@ -4,6 +4,14 @@
     padding: 100px 0 75px;
 
     @include tablet {
+        padding-bottom: 75px;
+    }
+    @include laptop {
+        width: 75%;
+        max-width: 615px;
+        margin: auto;
+    }
+    @include desktop-blah {
         padding-bottom: 125px;
     }
 }
@@ -40,7 +48,7 @@
 
     @include tablet {
         font-size: 100px;
-        padding-bottom: 125px;
+        padding-bottom: 250px;
     }
 }
 .lp_sp_img {
@@ -49,6 +57,12 @@
     @include tablet {
         width: 48%;
         padding-bottom: 0;
+    }
+    @include desktop {
+        width: 52%;
+    }
+    @include widescreen {
+        width: 50%;
     }
 }
 
@@ -67,12 +81,19 @@
 // Sell Points
 .lp_sell_point {
     padding-bottom: 125px;
+
+    @include tablet {
+        padding-bottom: 250px;
+    }
 }
 .lp_sp_content {
     text-align: center;
 
     @include tablet {
         width: 48%;
+    }
+    @include desktop {
+        width: 42%;
     }
 }
 .lp_sp_title {
@@ -85,6 +106,7 @@
         font-size: 30px;
         letter-spacing: 1.15px;
         display: block;
+        line-height: 1;
     }
 }
 .lp_sp_number {
@@ -103,8 +125,15 @@
     padding: 0 12px;
 }
 
+// Info Box
 .lp_info_box {
     padding-bottom: 125px;
+
+    @include tablet {
+        padding-bottom: 250px;
+        max-width: 475px;
+        margin: auto;
+    }
 
     .lp_ib_img {
         z-index: 1;
@@ -118,6 +147,10 @@
         padding: 15px;
         border-radius: 10px;
         box-shadow: 12px 18px 25px rgba(95,95,95,0.75);
+
+        @include tablet {
+            padding: 25px 35px 15px;
+        }
     }
     .lp_info_box_header {
         @include border_title;
@@ -138,6 +171,12 @@
 .lp_lastcall {
     text-align: center;
 
+    @include laptop {
+        width: 75%;
+        max-width: 615px;
+        margin: auto;
+    }
+
     .lp_logo {
         padding-bottom: 30px;
     }
@@ -146,10 +185,18 @@
         @include heavy_font(28px);
         line-height: 30px;
         padding-bottom: 25px;
+
+        @include desktop {
+            font-size: 36px;
+        }
     }
     .lp_lastcall_summary {
         letter-spacing: 0.4px;
         padding: 0 0 75px;
+
+        @include desktop {
+            font-size: 18px;
+        }
     }
     .lp_lastcall_price {
         text-transform: uppercase;

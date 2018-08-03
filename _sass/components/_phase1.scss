@@ -28,7 +28,12 @@
             margin: 0 auto 25px;
         }
     }
-
+}
+.grid_lp {
+    @include desktop-blah {
+        max-width: 1000px;
+        margin: auto;
+    }
 }
 .grid_project {
     padding: 15px;

@@ -29,6 +29,10 @@ a.brand_cta {
     display: inline-block;
     margin-bottom: 50px;
 
+    @include tablet {
+        margin-bottom: 150px;
+    }
+
     a {
         color: $off-white;
 
@@ -47,7 +51,7 @@ a.brand_cta {
 
             &:hover {
                 background: $off-white;
-                
+
             }
         }
     }
