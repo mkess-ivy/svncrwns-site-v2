@@ -23,3 +23,32 @@ a.brand_cta {
         }
     }
 }
+
+// Landing Page CTAs
+.lp_lastcall_cta {
+    display: inline-block;
+    margin-bottom: 50px;
+
+    a {
+        color: $off-white;
+
+        &:hover {
+            background: $off-white;
+            color: $off-black;
+            border: 1px solid $off-white;
+        }
+        div {
+            border: 1px solid;
+            width: auto;
+            display: inline;
+            padding: 14px 25px;
+            @include heavy_font(16px);
+            background: $off-black;
+
+            &:hover {
+                background: $off-white;
+                
+            }
+        }
+    }
+}

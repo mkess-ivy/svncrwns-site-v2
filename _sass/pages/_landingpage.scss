@@ -1,0 +1,128 @@
+// Masthead
+.lp_masthead {
+    text-align: center;
+    padding: 100px 0 75px;
+}
+.lp_masthead_subtitle {
+    @include third_level_heading(12px, $off-black);
+    letter-spacing: 1.15px;
+}
+.lp_masthead_title {
+    @include heavy_font(26px);
+    padding-bottom: 50px;
+}
+.lp_masthead_summary {
+    letter-spacing: 0.33px;
+    padding: 0 25px;
+}
+
+//Masthead Mini
+.lp_masthead_mini {
+    @include heavy_font(80px);
+    text-align: center;
+    padding-bottom: 50px;
+}
+.lp_sp_img {
+    padding-bottom: 75px;
+}
+
+// Project Link
+.lp_projectlink {
+    padding-top: 15px;
+    font-size: 10px;
+    letter-spacing: 1px;
+
+    a {
+        @include heavy_font(10px);
+        border-bottom: 1px solid;
+    }
+}
+
+// Sell Points
+.lp_sell_point {
+    padding-bottom: 125px;
+}
+.lp_sp_content {
+    text-align: center;
+}
+.lp_sp_title {
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    @include heavy_font(70px);
+
+    span {
+        font-size: 30px;
+        letter-spacing: 1.15px;
+        display: block;
+    }
+}
+.lp_sp_number {
+    @include heavy_font(90px);
+    color: #e0e0e0;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+.lp_sp_summary {
+    line-height: 26px;
+    letter-spacing: 0.44px;
+    padding: 0 12px;
+}
+
+.lp_info_box {
+    padding-bottom: 125px;
+
+    .lp_ib_img {
+        z-index: 1;
+        position: relative;
+    }
+    .lp_info_box_content {
+        margin: -78px 25px 15px;
+        background-color: $off-white;
+        z-index: 5;
+        position: relative;
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: 12px 18px 25px rgba(95,95,95,0.75);
+    }
+    .lp_info_box_header {
+        @include border_title;
+        @include medium_font(20px);
+    }
+    .lp_info_box_list {
+        padding-top: 25px;
+
+        ol li {
+            list-style: inherit;
+            padding-bottom: 10px;
+            margin: 0 0 0 20px;
+        }
+    }
+}
+
+// Last Call
+.lp_lastcall {
+    text-align: center;
+
+    .lp_logo {
+        padding-bottom: 30px;
+    }
+    .lp_lastcall_title {
+        padding-top: 15px;
+        @include heavy_font(28px);
+        line-height: 30px;
+        padding-bottom: 25px;
+    }
+    .lp_lastcall_summary {
+        letter-spacing: 0.4px;
+        padding: 0 0 75px;
+    }
+    .lp_lastcall_price {
+        text-transform: uppercase;
+        padding-bottom: 50px;
+    }
+}
