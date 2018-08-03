@@ -1,0 +1,20 @@
+<div class="lp_info_box">
+    <div class="lp_ib_img">
+        <img src="{{ infolist.image }}" />
+    </div>
+    <div class="lp_info_box_content">
+        <div class="lp_info_box_header">
+            {{ infolist.list_title }}
+        </div>
+        <div class="lp_info_box_list">
+            <ol>
+                {% for list_item in infolist.list_items %}
+                <li>{{ list_item.feature }}</li>
+                {% endfor %}
+            </ol>
+        </div>
+    </div>
+    <div class="lp_projectlink">
+        See this brand's {{ infolist.media }} &mdash; <a href="{{ infolist.link }}">{{ infolist.media_title }}</a>
+    </div>
+</div>

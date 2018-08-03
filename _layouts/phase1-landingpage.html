@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+        <div class="se-pre-con"></div>
+        {% include newsletter_topbar.html %}
+        <div class="grid">
+            {% include short_header.html %}
+        </div>
+
+        <div class="grid">
+            {% include components/landingpage/masthead_section.html %}
+
+            {% for sellpoint in page.sellpoints limit:1 %}
+            <div class="lp_sell_point">
+                <div class="frow direction-row">
+                    {% include components/landingpage/sellpoints.html %}
+                </div>
+            </div>
+            {% endfor %}
+
+            {% for infolist in page.info_lists limit:1 %}
+                {% include components/landingpage/info_box.html %}
+            {% endfor %}
+
+            {% for sellpoint in page.sellpoints limit:1 offset:1 %}
+            <div class="lp_sell_point">
+                <div class="frow direction-reverse">
+                    {% include components/landingpage/sellpoints.html %}
+                </div>
+            </div>
+            {% endfor %}
+
+            {% for infolist in page.info_lists limit:1 offset:1 %}
+                {% include components/landingpage/info_box.html %}
+            {% endfor %}
+
+            {% for sellpoint in page.sellpoints limit:1 offset:2 %}
+            <div class="lp_sell_point">
+                <div class="frow direction-row">
+                    {% include components/landingpage/sellpoints.html %}
+                </div>
+            </div>
+            {% endfor %}
+
+            {% include components/landingpage/last_call.html %}
+        </div>
+
+        <div class="grid">
+            {%  include short_footer.html %}
+        </div>
+
+    </body>
+
+</html>

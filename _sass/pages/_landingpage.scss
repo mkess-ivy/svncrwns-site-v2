@@ -2,18 +2,34 @@
 .lp_masthead {
     text-align: center;
     padding: 100px 0 75px;
+
+    @include tablet {
+        padding-bottom: 125px;
+    }
 }
 .lp_masthead_subtitle {
     @include third_level_heading(12px, $off-black);
     letter-spacing: 1.15px;
+
+    @include tablet {
+        font-size: 14px;
+    }
 }
 .lp_masthead_title {
     @include heavy_font(26px);
     padding-bottom: 50px;
+
+    @include tablet {
+        font-size: 40px;
+    }
 }
 .lp_masthead_summary {
-    letter-spacing: 0.33px;
+    letter-spacing: 0.5px;
     padding: 0 25px;
+
+    @include tablet {
+        font-size: 24px;
+    }
 }
 
 //Masthead Mini
@@ -21,9 +37,18 @@
     @include heavy_font(80px);
     text-align: center;
     padding-bottom: 50px;
+
+    @include tablet {
+        font-size: 100px;
+    }
 }
 .lp_sp_img {
     padding-bottom: 75px;
+
+    @include tablet {
+        width: 48%;
+        padding-bottom: 0;
+    }
 }
 
 // Project Link
@@ -44,6 +69,10 @@
 }
 .lp_sp_content {
     text-align: center;
+
+    @include tablet {
+        width: 48%;
+    }
 }
 .lp_sp_title {
     position: relative;
