@@ -37,7 +37,7 @@ $(document).ready(function(){
         cssEase:'linear',
         dots: false,
         infinite:true
-    })
+    });
     $('.phase1_slider_web').slick ({
         arrows:true,
         prevArrow: '<img src="/assets/images/left_arrow.png" class="caret_slide_web left" />',
@@ -46,7 +46,7 @@ $(document).ready(function(){
         cssEase:'linear',
         dots: false,
         infinite:true
-    })
+    });
 
     // $(".phase1-js-background-trigger").hover(function(){
     //     $(".half_cover", this).addClass('hover');

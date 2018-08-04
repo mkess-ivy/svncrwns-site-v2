@@ -11,41 +11,59 @@
         </div>
 
         <div class="grid grid_lp">
-            {% include components/landingpage/masthead_section.html %}
-
-            {% for sellpoint in page.sellpoints limit:1 %}
-            <div class="lp_sell_point">
-                <div class="frow justify-between">
-                    {% include components/landingpage/sellpoints.html %}
+            <div id="fullpage">
+                <div class="section">
+                    {% include components/landingpage/masthead_section.html %}
                 </div>
-            </div>
-            {% endfor %}
 
-            {% for infolist in page.info_lists limit:1 %}
-                {% include components/landingpage/info_box.html %}
-            {% endfor %}
-
-            {% for sellpoint in page.sellpoints limit:1 offset:1 %}
-            <div class="lp_sell_point">
-                <div class="frow justify-between direction-reverse">
-                    {% include components/landingpage/sellpoints.html %}
+                <div class="section">
+                    {% for sellpoint in page.sellpoints limit:1 %}
+                    <div class="lp_sell_point">
+                        <div class="frow justify-between">
+                            {% include components/landingpage/sellpoints.html %}
+                        </div>
+                    </div>
+                    {% endfor %}
                 </div>
-            </div>
-            {% endfor %}
 
-            {% for infolist in page.info_lists limit:1 offset:1 %}
-                {% include components/landingpage/info_box.html %}
-            {% endfor %}
-
-            {% for sellpoint in page.sellpoints limit:1 offset:2 %}
-            <div class="lp_sell_point">
-                <div class="frow justify-between">
-                    {% include components/landingpage/sellpoints.html %}
+                <div class="section">
+                    {% for infolist in page.info_lists limit:1 %}
+                        {% include components/landingpage/info_box.html %}
+                    {% endfor %}
                 </div>
-            </div>
-            {% endfor %}
 
-            {% include components/landingpage/last_call.html %}
+                <div class="section">
+                    {% for sellpoint in page.sellpoints limit:1 offset:1 %}
+                    <div class="lp_sell_point">
+                        <div class="frow justify-between direction-reverse">
+                            {% include components/landingpage/sellpoints.html %}
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+
+                <div class="section">
+                    {% for infolist in page.info_lists limit:1 offset:1 %}
+                        {% include components/landingpage/info_box.html %}
+                    {% endfor %}
+                </div>
+
+                <div class="section">
+                    {% for sellpoint in page.sellpoints limit:1 offset:2 %}
+                    <div class="lp_sell_point">
+                        <div class="frow justify-between">
+                            {% include components/landingpage/sellpoints.html %}
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+
+                <div class="section">
+                    {% include components/landingpage/last_call.html %}
+                </div>
+
+            </div>
+
         </div>
 
         <div class="grid">
