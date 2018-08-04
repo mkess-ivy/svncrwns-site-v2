@@ -1,0 +1,6 @@
+- menu_item: journal
+  menu_link: /journal/
+- menu_item: newsletter
+  menu_link: /newsletter/
+- menu_item: brand starter kit
+  menu_link: /brand-starter-kit/
