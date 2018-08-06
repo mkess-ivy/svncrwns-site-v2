@@ -1,23 +1,73 @@
+.contact_wrapper {
+    max-width: 500px;
+    margin: auto;
+
+    @include desktop {
+        max-width: 750px;
+        margin: 0 auto 75px;
+    }
+}
 .contact_content {
     text-align: center;
     padding: 75px 0;
 
+    @include tablet {
+        padding: 175px 0;
+    }
+    @include desktop {
+        width: 77%;
+        margin: auto;
+        // padding: 0;
+    }
+    @include widescreen {
+        width: 90%;
+    }
+
     .contact_title {
         font-size: 32px;
         line-height: 40px;
+
+        @include tablet {
+            font-size: 48px;
+            line-height: 58px;
+        }
+
+        @include desktop-blah {
+            font-size: 65px;
+            line-height: 80px;
+        }
     }
     .contact_summary {
         padding-top: 30px;
-        font-size: 20px;
+        font-size: 16px;
         padding-bottom: 30px;
+
+        @include tablet {
+            font-size:22px;
+        }
+        @include desktop-blah {
+            font-size: 26px;
+        }
     }
     .contact_disclaimer {
         font-size: 12px;
         letter-spacing: 0.45px;
+
+        @include desktop-blah {
+            font-size: 14px;
+        }
     }
 
 }
-form input.input_item {
+.contact_form {
+    text-align: center;
+    margin-bottom: 75px;
+
+    @include desktop {
+        // width: 47%;
+    }
+}
+.contact_form input.input_item {
     width: 100%;
     display: block;
     background-color: transparent;
@@ -25,7 +75,70 @@ form input.input_item {
     border-bottom: 2px solid #000;
     padding-bottom: 7px;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 35px;
+    outline: none;
+
+    @include desktop-blah {
+        margin-bottom: 50px;
+    }
 }
-form input placeholder {
+.contact_form input::placeholder {
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: rgba(0,0,0, 0.5);
+    text-transform: uppercase;
+}
+.contact_form input[type="submit"] {
+    border-radius: 0;
+    border-color: transparent;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    @include heavy_font(14px);
+    letter-spacing: 1px;
+    display: inline-block;
+    border: none;
+}
+.contact_group input {
+    @include tablet {
+        width: 47% !important;
+    }
+}
+.studio_info_box {
+    @include desktop-blah {
+        // position: fixed;
+        // top: 275px;
+        width: 750px;
+        margin: 250px auto;
+    }
+    .studio_info_title {
+        @include medium_font(16px);
+        margin-bottom: 15px;
+    }
+    .studio_info_details {
+        span {
+            display: block;
+            text-transform: lowercase;
+            letter-spacing: 0.5px;
+            font-size: 14px;
+            padding-bottom: 10px;
+
+            a {
+                border-bottom: 1px solid;
+                padding-bottom: 3px;
+
+                &:hover {
+                    border-bottom: 1px solid;
+                    padding-bottom: 3px;
+                    color: $color-brand3;
+                }
+            }
+        }
+    }
+}
+.studio_row {
+    margin-bottom: 30px;
+}
+.studio_info_content {
+    width: 200px;
 }

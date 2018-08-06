@@ -68,6 +68,6 @@ info_lists:
 
 last_call_summary: "The Brand Starter Kit consists of a (1) one minute visual that tells the story of your brand, works as an interactive piece of content and can be the difference between a customer visiting your platform to support your brand; (2) an online shop to feature ten or more products; and (3) a two-hour photoshoot to promote your brand, with high resolution editorial images"
 last_call_price: 2500
-last_call_link: #
+last_call_link: /contact/
 last_call_link_title: Let's get started
 ---

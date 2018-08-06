@@ -48,6 +48,8 @@ $(document).ready(function(){
         infinite:true
     });
 
+
+
     // $(".phase1-js-background-trigger").hover(function(){
     //     $(".half_cover", this).addClass('hover');
     // }
