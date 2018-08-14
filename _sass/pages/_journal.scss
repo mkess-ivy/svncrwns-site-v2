@@ -3,7 +3,7 @@
     font-family: $font-brand4;
     font-weight: $medium;
     text-align: center;
-    padding: 125px 0 30px;
+    padding: 30px 0;
     letter-spacing: 1px;
     font-size: 20px;
     text-transform: uppercase;
@@ -13,6 +13,7 @@
     @include tablet {
         font-size: 30px;
         letter-spacing: 1.3px;
+        padding: 125px 0 30px;
     }
     @include laptop {
         font-size: 38px;
@@ -28,8 +29,12 @@
 // Featured Section
 .featured {
     text-align: center;
-    padding-bottom: 125px;
+    padding-bottom: 50px;
     @include third_level_heading(14px, $off-black);
+
+    @include tablet {
+        padding-bottom: 125px;
+    }
 }
 .featured_image {
     background-repeat: no-repeat;
@@ -73,6 +78,7 @@
         padding-bottom: 15px;
         text-transform: uppercase;
         font-weight: $heavy;
+        line-height: 1.1;
 
         @include tablet {
             font-size: 24px;
@@ -130,6 +136,7 @@
         font-family: $font-brand4;
         font-weight: $heavy;
         font-size: 18px;
+        line-height: 1.1;
         letter-spacing: 1px;
         text-align: center;
         text-transform: uppercase;

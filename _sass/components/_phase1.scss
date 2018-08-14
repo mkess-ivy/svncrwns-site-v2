@@ -150,87 +150,9 @@
     }
 }
 
-.phase1-site-wrapper {
-    // margin: auto;
-    // margin: 0 50px;
-    // margin: 0 15px;
-    // width: 90%;
-
-}
-.phase1_full_height {
-	margin: 75px 0;
-    // background: $off-white;
-    position: relative;
-    z-index: 1;
-    @include tablet {
-        // height: 70vh;
-        // margin: 75px 0;
-    }
-    @include desktop-blah {
-        height: 58vh; //63vh;
-        margin: 0;
-    }
-}
-
-// Phase 1 Home
-.phase1-masthead {
-    // color: $off-white;
-    color: $off-black;
-    position: relative;
-    z-index: 100000;
-
-    // @include desktop {
-    //     max-width: 900px;
-    // }
 
 
-    .phase1-header {
-        font-family: $font-brand4;
-        font-size: 30px;
-        line-height: 1.4;
-        margin-bottom: 30px;
-        font-weight: 700;
-        text-transform: uppercase;
-        // color: $off-grey;
 
-        @include tablet {
-            font-size: 40px;
-            line-height: 1.1;
-        }
-
-        @include laptop {
-            font-size: 65px;
-            width: 700px;
-        }
-
-        @include desktop-blah {
-            font-size: 85px;
-
-        }
-    }
-    .phase1-subheader {
-        font-size: 18px;
-        line-height: 1.6;
-        // color: $off-grey;
-
-        @include laptop {
-            font-size: 22px;
-            width: 760px;
-        }
-        @include desktop-blah {
-            width: 900px;
-        }
-    }
-}
-.work_section {
-    position: relative;
-    // background-color: $off-white;
-    margin-bottom: 50px;
-
-    @include desktop-blah {
-        margin-bottom: 0;
-    }
-}
 
 // Test
 a.phase1-btn {
@@ -291,98 +213,7 @@ a.phase1-btn {
 }
 // #Test Hover
 
-.work_szn {
-    margin: 0 auto;
-    position: relative;
-    color: $off-black;
 
-    .work_szn_header {
-        // color: $off-grey;
-        font-size: 30px;
-        font-style: italic;
-        margin-bottom: 30px;
-        text-transform: uppercase;
-    }
-
-    .work_szn_items {
-        @extend %clearfix;
-
-        .work_item_wrapper {
-            float: left;
-            margin-bottom: 25px;
-            margin-right: 50px;
-            // min-height: 175px;
-            position: relative;
-            width: 100%;
-            z-index: 1000;
-
-            @include palm {
-                width: 75%;
-                max-width: 375px;
-                margin-bottom: 50px;
-            }
-
-            @include tablet {
-                width: 250px;
-            }
-            @include laptop {
-                margin-right: 50px;
-                min-height: 170px;
-            }
-            @include desktop-blah {
-
-                margin-right: 25px;
-                margin-bottom: 10px;
-            }
-
-            .work_item_title {
-                font-size: 22px;
-                font-weight: 700;
-                // height: 55px;
-                line-height: 1.2;
-                font-family: $font-brand4;
-                text-transform: uppercase;
-                margin-bottom: 10px;
-                position: relative;
-                // z-index: 600;
-
-                a {
-                    // color: $off-grey;
-                    color: $off-black;
-                    z-index: 1000;
-                }
-            }
-            .work_item_summary {
-                // font-size: 18px;
-                line-height: 1.8;
-                // color: $off-grey;
-                position: relative;
-                z-index: 100002;
-
-                @include palm-mid {
-                    width: 75%;
-                }
-                @include tablet {
-                    width: auto;
-                }
-            }
-            .work_item_link {
-                margin: 10px 0;
-                text-transform: uppercase;
-                font-weight: 700;
-                font-family: $font-brand4;
-                font-size: 14px;
-                position: relative;
-                // z-index: 600;
-
-                a {
-                    color: $off-grey;
-                    z-index: 100001;
-                }
-            }
-        }
-    }
-}
 .phase1-js-background-receiver.hover {
   display: none;
   @include laptop {
@@ -665,7 +496,7 @@ a.phase1-btn {
 
 // Newsletter page
 .newsletter_page {
-    background-image: url('/assets/images/newsletter_banner.png');
+    background-image: url('/assets/images/newsletter_banner.jpg');
     height: 70vh;
     background-repeat: no-repeat;
     background-position: top left;

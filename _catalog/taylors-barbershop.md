@@ -1,7 +1,7 @@
 ---
 [//]: # (Meta Info)
 layout                          : phase1-slide-web
-title 					        : "Taylor Barbershop"
+title 					        : "Taylor's Barbershop"
 season				            : "3"
 
 [//]: # (Work on Home Page)

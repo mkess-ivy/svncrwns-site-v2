@@ -1,6 +1,10 @@
 .archive_wrapper {
     margin-top: 75px;
-    margin-bottom: 150px;
+    
+
+    @include tablet {
+        margin-bottom: 150px;
+    }
     .archive_wrapper_properties {
         padding-bottom: 75px;
         @include laptop {
@@ -37,11 +41,15 @@
     }
 }
 .archive_header {
-    @include heavy_font(17px);
-    padding-bottom: 40px;
-    padding-top: 30px;
+    @include heavy_font(24px);
+    padding-bottom: 10px;
+    padding-top: 10px;
     border-top: 1px solid;
 
+    @include tablet {
+        padding-bottom: 40px;
+        padding-top: 30px;
+    }
     @include laptop {
         font-size: 36px;
     }

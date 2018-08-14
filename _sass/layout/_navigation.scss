@@ -1,6 +1,6 @@
 /* Phase 1 Header */
 .phase1-site-header {
-    padding-top: 15px;
+    // padding-top: 15px;
 
     @include tablet {
         padding-top: 0;
@@ -28,6 +28,7 @@
   background-color: transparent;
   border-color: transparent;
   z-index: 7000;
+  outline: transparent;
 }
 .phase1-overlay-close {
   width: 40px;
@@ -36,6 +37,7 @@
   border: 0 !important;
   background-color: transparent !important;
   z-index: 7000;
+  outline: transparent;
   // right: 0;
 
   @include tablet {
