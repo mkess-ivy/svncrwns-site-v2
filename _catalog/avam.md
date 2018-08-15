@@ -6,7 +6,7 @@ season				            : "4"
 
 [//]: # (Work on Home Page)
 summary                         : "media coverage for American Visionary Art Museum 2018 Visionary Conference"
-phase1-hero                     : /assets/images/avam_logan.jpg
+phase1-hero                     : /assets/images/catalog_avam_logan.jpg
 
 [//]: # (Featured Info)
 featured 						: "yes"
