@@ -382,14 +382,15 @@
             width: 55%;
         }
         @include tablet {
-            width: 40%;
-            max-width: 320px;
-            margin-left: 20vw;
+
         }
         @include desktop {
             max-width: none;
             width: 100%;
             margin-left: 0;
+            // width: 40%;
+            // max-width: 320px;
+            // margin-left: 20vw;
         }
 
         .post_pagination_header {
@@ -434,10 +435,55 @@ a.pagination_links {
     letter-spacing: 1px;
     font-weight: $heavy;
 
+    @include tablet {
+        margin-bottom: 75px;
+    }
+
+
     a {
         border-bottom: 1px solid;
         &:hover {
             color: $color-brand3;
         }
     }
+}
+
+.trigger_item {
+    display: none;
+    @include desktop {
+        display: block;
+        // width: 200px;
+        // height: 200px;
+        // margin: 50px auto;
+        // padding-top: 75px;
+        // background: #ccc;
+        // text-align: center;
+        color: $off-white;
+        background-color: $color-brand5;
+        padding: 25px 20px;
+        line-height: 20px;
+
+        @include heavy_font(16px);
+    }
+
+    span {
+        display: block;
+        font-size: 12px;
+        font-weight: 400;
+        padding-bottom: 10px;
+    }
+
+
+  &--secondary {
+      @include desktop {
+          // position: fixed;
+          // top: 0;
+          // bottom: 0;
+          // margin: auto;
+          // top: 8em;
+          // left: 20px;
+          // background: red;
+          margin-bottom: 75px;
+      }
+  }
 }

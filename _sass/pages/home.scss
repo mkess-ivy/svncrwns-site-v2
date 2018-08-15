@@ -2,6 +2,12 @@
 	margin: 40px 0 75px;
     position: relative;
     z-index: 1;
+	@include tablet {
+		margin: 75px 0;
+	}
+	@include desktop {
+		margin: 125px 0;
+	}
     @include desktop-blah {
         height: 58vh;
         margin: 0;
@@ -23,17 +29,18 @@
         text-transform: uppercase;
 
         @include tablet {
-            font-size: 40px;
+            // font-size: 40px;
+			font-size: 56px;
             line-height: 0.9;
         }
 
-        @include laptop {
-            font-size: 65px;
+        @include desktop {
+            font-size: 85px;
             width: 700px;
         }
 
         @include desktop-blah {
-            font-size: 85px;
+            // font-size: 85px;
 
         }
     }
@@ -91,13 +98,14 @@
 
             @include tablet {
                 width: 250px;
+				height: 155px;
             }
             @include laptop {
                 margin-right: 50px;
                 min-height: 170px;
             }
             @include desktop-blah {
-
+				height: inherit;
                 margin-right: 25px;
                 margin-bottom: 10px;
             }

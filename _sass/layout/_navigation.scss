@@ -38,6 +38,13 @@
   background-color: transparent !important;
   z-index: 7000;
   outline: transparent;
+
+  @include desktop-blah {
+      position: fixed;
+      top: 45px;
+      right: 100px;
+  }
+
   // right: 0;
 
   @include tablet {

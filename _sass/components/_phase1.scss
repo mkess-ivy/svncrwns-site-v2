@@ -152,7 +152,11 @@
         }
     }
 }
-
+.phase1-site-wrapper {
+    @include bigscreen {
+        height: calc(100vh - 110px);
+    }
+}
 
 
 

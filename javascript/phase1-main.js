@@ -20,6 +20,19 @@ $(document).ready(function(){
         $(".se-pre-con").fadeOut("slow");;
     });
 
+    $('a[href^="#top"]').on('click',function (e) {
+        e.preventDefault();
+
+        var target = this.hash;
+        var $target = $(target);
+
+        $('html, body').stop().animate({
+          'scrollTop': $target.offset().top
+        }, 900, 'swing', function () {
+          window.location.hash = target;
+        });
+    });
+
     // Phase 1 Background Hover
     $(".phase1-js-background-trigger").hover(function(){
         $(".phase1-js-background-receiver", this).addClass('hover');

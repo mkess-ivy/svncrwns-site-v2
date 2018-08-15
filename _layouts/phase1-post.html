@@ -38,7 +38,7 @@
 
             <div class="grid fluid_width_grid">
                 <div class="post_wrapper">
-                    <div class="post_copy">
+                    <div class="post_copy" id="trigger-left">
                         {{ content }}
                     </div>
                 </div>
@@ -46,6 +46,7 @@
         </div>
     </div>
     <div class="pagination_grid">
+        <div class="trigger_item trigger_item--secondary" data-aos="fade-in" data-aos-offset="400" data-aos-anchor="#trigger-left"><span>current article</span>{{page.title}}</div>
         {% include components/pagination.html %}
 
         <div class="all_posts_link">
@@ -55,6 +56,7 @@
     <div class="grid">
         {%  include short_footer.html %}
     </div>
+    {% include components/backtop_icon.html %}
 
     </div>
   </body>

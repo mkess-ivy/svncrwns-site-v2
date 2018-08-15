@@ -10,6 +10,7 @@
             <ul>
                 <li><a href="/">Home</a></li>
                 <li><a href="/contact/">Contact</a></li>
+                <li><a href="http://www.instagram.com/svncrwns">Social</a></li>
             </ul>
         </div>
     </div>
@@ -34,6 +35,7 @@
 <script type="text/javascript" src="/javascript/phase1-main.js"></script>
 <!-- Scroll Reveal -->
 <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
     window.sr = ScrollReveal();
     sr.reveal('.js_scroll_reveal', {
@@ -50,5 +52,9 @@
     //
 	// //methods
 	// $.fn.fullpage.setAllowScrolling(true);
+
+    AOS.init({
+        duration: 1200
+    });
 
 </script>
