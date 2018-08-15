@@ -18,7 +18,8 @@
     }
     &.fixed_width_grid {
         @include desktop {
-            margin: 10px 50px 0 20px;
+            // margin: 10px 50px 0 20px;
+            margin: 10px 50px 0;
         }
         @include desktop-blah {
             margin: 10px 100px 20px;
@@ -93,7 +94,9 @@
         margin: 0 50px;
     }
     @include desktop-blah {
-        margin: 0 100px;
+        // margin: 0 100px;
+        max-width: 1200px;
+        margin: auto;
         // margin: 0 100px 0 20px;
     }
 
@@ -248,7 +251,8 @@ a.phase1-btn {
     background-position: center center;
     background-repeat: no-repeat;
     opacity: 1;
-    height: 100vh;
+    // height: 100vh;
+    height: calc(100vh - 135px);
 
     @include tablet {
         height: calc(100vh - 120px);
@@ -496,18 +500,44 @@ a.phase1-btn {
 
 
 // Newsletter page
+.newsletter_wrapper {
+    @include tablet {
+        height: calc(100vh - 115px);
+    }
+    @include desktop {
+        height: inherit;
+    }
+
+}
 .newsletter_page {
-    background-image: url('/assets/images/newsletter_banner.jpg');
-    height: 70vh;
+    background-image: url('/assets/images/whatwedo-hero.jpg');
+
     background-repeat: no-repeat;
-    background-position: top left;
+    background-position: center left;
     background-size: cover;
-    margin-top: 12px;
+    // margin-top: 12px;
+    width: 100%;
+    height: 30vh;
 
     @include tablet {
-        background-position: center;
+        height: 60vh;
+    }
+    @include desktop {
+        height: 70vh;
+    }
+
+    @include desktop-blah {
+        background-position: center left;
+        width: 60%;
+        height: 87vh;
     }
 }
 .newsletter_grid {
-    padding: 25px 0;
+    // padding: 25px 0;
+    @include tablet {
+        width: 100%;
+    }
+    @include desktop-blah {
+        width: 39%;
+    }
 }

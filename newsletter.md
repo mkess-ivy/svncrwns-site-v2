@@ -4,6 +4,7 @@ title: newsletter
 permalink: /newsletter/
 ---
 <div class="newsletter_grid">
+<div class="frow centered">
     <!-- Begin MailChimp Signup Form -->
     <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
     <style type="text/css">
@@ -13,23 +14,27 @@ permalink: /newsletter/
             padding: 10px 10px 10px 3%;
             margin: 25px auto;
             text-align: center;
+            width: 375px;
         }
         #mc_embed_signup label {
             color: black;
             font-weight: 700;
             font-family: 'Montserrat',sans-serif;
-            font-size: 32px;
+
+            font-size: 24px;
             margin-bottom: 5px;
             padding-bottom: 5px;
         }
         .newsletter_description {
             font-family: 'Libre Baskerville', Helvetica, serif;
             font-size: 18px;
+            line-height: 28px;
         }
         #mc_embed_signup input.email {
             margin: 30px auto;
             border-radius: 0;
             text-align: center;
+            width: 75%;
         }
         #mc_embed_signup input {
             border: none;
@@ -40,6 +45,7 @@ permalink: /newsletter/
         #mc_embed_signup input.button {
             margin: 0 auto;
             min-height: 40px;
+            font-weight: bold;
         }
         #mc_embed_signup .button {
             background-color: transparent;
@@ -81,4 +87,5 @@ permalink: /newsletter/
 
     <!--End mc_embed_signup-->
 
+</div>
 </div>

@@ -1,7 +1,7 @@
 ---
 layout: phase1-post
 title: The Brand Company is Branding Itself
-featured_image: /assets/images/feature_brand_company.jpg
+featured_image: /assets/images/feature_brand_company.png
 ---
 5 Things We Considered to Brand Ourselves
 -----------------------------------------

@@ -19,10 +19,12 @@ permalink: /journal/
     <div class="featured_image" style="background-image:url('{{ post.featured_image }}');"></div>
 
     <div class="grid js_scroll_reveal">
-        <div class="featured_title">
-            <a href="{{ post.url }}">{{ post.title }}</a>
+        <div class="featured_meta">
+            <div class="featured_title">
+                <a href="{{ post.url }}">{{ post.title }}</a>
+            </div>
+            <div class="featured_summary">{{ post.featured_summary }}</div>
         </div>
-        <div class="featured_summary">{{ post.featured_summary }}</div>
     </div>
 </div>
 {% endfor %}
@@ -79,31 +81,33 @@ permalink: /journal/
 
         </div>
     </div>
-    <div class="archive_wrapper archive_wrapper_properties js_scroll_reveal">
-        <div class="archive_header">
-            The Archive
-        </div>
-        <div class="archive_content">
-            <div class="frow justify-between">
-                {% for post in site.posts offset:6 %}
-                <div class="archive_single">
-                    <div class="frow justify-start">
-                        <div class="archive_date">{{ post.date | date: "%b %d %Y" }}</div>
-                        <div class="archive_meta">
-                            <div class="archive_title">
-                                <a href="{{ post.url }}">{{ post.title }}</a>
-                            </div>
-                            <!-- <div class="archive_summary">
-                                {{ post.archive_summary }}
-                            </div> -->
-                        </div>
 
-                    </div>
-                </div>
-                {% endfor %}
+        <div class="archive_wrapper archive_wrapper_properties js_scroll_reveal">
+            <div class="archive_header">
+                The Archive
             </div>
+            <div class="archive_content">
+                <div class="frow justify-between">
+                    {% for post in site.posts offset:6 %}
+                    <div class="archive_single">
+                        <div class="frow justify-start">
+                            <div class="archive_date">{{ post.date | date: "%b %d %Y" }}</div>
+                            <div class="archive_meta">
+                                <div class="archive_title">
+                                    <a href="{{ post.url }}">{{ post.title }}</a>
+                                </div>
+                                <!-- <div class="archive_summary">
+                                    {{ post.archive_summary }}
+                                </div> -->
+                            </div>
 
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+
+            </div>
         </div>
-    </div>
+
 
 </div>

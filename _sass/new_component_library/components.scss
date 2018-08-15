@@ -6,6 +6,11 @@
 // Film
 .film-wrapper {
   position: relative;
+  margin-top: -125px;
+
+  @include palm {
+	  margin-top: -75px;
+  }
 }
 .film-project {
   	height: 200px;

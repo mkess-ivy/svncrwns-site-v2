@@ -2,7 +2,7 @@
 [//]: # (Meta Info)
 layout                          : phase1-slide
 title 					        : "Youth in a Secret Garden"
-season				            : "1"
+
 
 [//]: # (Work on Home Page)
 summary                         : "branded photography content, it's an abandoned blue couch in the middle of the jungle, Baltimore, MD"

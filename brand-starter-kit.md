@@ -18,7 +18,7 @@ sellpoints:
   big_number: 1
   small_text: minute visual
   number: "one"
-  summary: "Video is at the top of the chain when it comes to getting your customers attention.  Visually appealing, you get a story, you get the lifestyle.  Your customer is one step closer to being able to relate to your product, service or message."
+  summary: "Video is at the top of the chain when it comes to getting your customers attention.  Visually appealing, you get a story, you get the lifestyle.  Your customer is one step closer to being able to relate to your product, service or message.  Communicate your brand's message in 60 seconds."
 - top-level: Online Shop Product
   image: /assets/images/brandstarterkit_onlineshop.png
   media: website
@@ -28,7 +28,7 @@ sellpoints:
   big_number: 10+
   small_text: products in e-commerce store
   number: "two"
-  summary: "Extend your reach with your products and services.  Most importantly, convert your instagram followers into customers.  Send them to your online shop."
+  summary: "Extend your audience reach by providing a platform to purchase your products and services.  Most importantly, convert your instagram followers into customers.  Consult with us to start planning + developing your online shop with 10 products."
 - top-level: Editorial Photos Product
   image: /assets/images/brandstarterkit_editorial.png
   media: content
@@ -66,7 +66,7 @@ info_lists:
   - feature: Use high resolution images to display your products
   - feature: Have a social media presence, use content to drive traffic
 
-last_call_summary: "The Brand Starter Kit consists of a (1) one minute visual that tells the story of your brand, works as an interactive piece of content and can be the difference between a customer visiting your platform to support your brand; (2) an online shop to feature ten or more products; and (3) a two-hour photoshoot to promote your brand, with high resolution editorial images"
+last_call_summary: "The Brand Starter Kit consists of 3 distinct opportunities to win! (1) A one-minute visual that tells the story of your brand, works as an interactive piece of content and can be the driving force for customer conversions; (2) an online shop to feature 10 or more products; and (3) a two-hour photoshoot to promote your brand, with high resolution editorial images"
 last_call_price: 2500
 last_call_link: /contact/
 last_call_link_title: Let's get started

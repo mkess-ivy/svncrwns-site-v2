@@ -3,38 +3,51 @@
     font-family: $font-brand4;
     font-weight: $medium;
     text-align: center;
-    padding: 30px 0;
+    padding: 20px 0;
     letter-spacing: 1px;
     font-size: 20px;
     text-transform: uppercase;
     line-height: 1.2;
     font-weight: $heavy;
 
+    @include palm {
+        padding: 20px 25px;
+    }
     @include tablet {
         font-size: 30px;
         letter-spacing: 1.3px;
-        padding: 125px 0 30px;
+        padding: 75px 0 30px;
     }
-    @include laptop {
-        font-size: 38px;
-        padding: 125px 75px 30px;
+    @include desktop {
+        width: 85%;
+        max-width: 835px;
+        margin: auto;
+        font-size: 36px;
     }
     @include desktop-blah {
         width: 75%;
         margin: auto;
         max-width: 950px;
         font-size: 40px;
+        padding: 125px 75px 30px;
     }
 }
 // Featured Section
 .featured {
     text-align: center;
     padding-bottom: 50px;
-    @include third_level_heading(14px, $off-black);
+    @include third_level_heading(12px, $off-black);
 
     @include tablet {
+        padding-bottom: 75px;
+        font-size: 16px;
+    }
+    @include desktop-blah {
         padding-bottom: 125px;
     }
+    // @include desktop {
+    //     padding-bottom: 125px;
+    // }
 }
 .featured_image {
     background-repeat: no-repeat;
@@ -47,8 +60,11 @@
     @include tablet {
         height: 525px;
     }
+    @include desktop {
+        height: 700px;
+    }
     @include widescreen {
-        height: 575px;
+        // height: 575px;
     }
 
     &.single_post_image {
@@ -69,12 +85,19 @@
 
     @include desktop-blah {
         margin: 0 auto 30px;
-        width: 90%;
-        max-width: 1000px;
+        // width: 90%;
+        // max-width: 1000px;
+    }
+    .featured_meta {
+        @include desktop-blah {
+            width: 85%;
+            margin: auto;
+        }
     }
     .featured_title {
         font-weight: $medium;
-        font-size: 20px;
+        // font-size: 20px;
+        // font-size: 1px;
         padding-bottom: 15px;
         text-transform: uppercase;
         font-weight: $heavy;
@@ -84,16 +107,25 @@
             font-size: 24px;
             letter-spacing: 1.3px;
         }
+        @include desktop {
+            font-size: 28px;
+        }
     }
     .featured_summary {
-        line-height: 24px;
+        // line-height: 24px;
         font-family: $font-brand3;
         letter-spacing: 0.5px;
+        font-size: 14px;
 
         @include tablet {
-            font-size: 18px;
-            line-height: 26px;
+            font-size: 20px;
+            line-height: 30px;
+
         }
+        // @include desktop {
+        //     font-size: 24px;
+        //     line-height: 34px;
+        // }
     }
 }
 // List of Posts
@@ -125,7 +157,10 @@
         @include tablet {
             height: 350px;
         }
-        @include laptop {
+        // @include laptop {
+        //     height: 250px;
+        // }
+        @include desktop-blah {
             height: 250px;
         }
         @include widescreen {
@@ -140,14 +175,26 @@
         letter-spacing: 1px;
         text-align: center;
         text-transform: uppercase;
+        padding: 0 20px;
+
+        @include desktop {
+            font-size: 22px;
+        }
+        @include desktop-blah {
+            font-size: 18px;
+            padding: 0;
+        }
     }
 }
 
 // Side Bar
 .special_wrapper {
-    @include laptop {
-        width: 23%;
-    }
+    margin: 0 10px;
+    // @include laptop {
+    //     width: 23%;
+    // }
+    width: 100%;
+
     @include desktop-blah {
         width: 19%;
     }
@@ -158,15 +205,20 @@
     @include bg_gradient(#986016, #410b0b);
     color: white;
     margin-bottom: 3.5vh;
+    width: 100%;
 
     @include palm-mid {
-        width: 46%;
+        width: 48%;
     }
 
     @include laptop {
-        width: 100%;
-        padding: 50px 30px 0;
+        // width: 100%;
+        // padding: 50px 30px 0;
         margin-bottom: 5vh;
+    }
+    @include desktop-blah {
+        width: 100%;
+        padding: 30px 30px 75px;
     }
 
     &.two {
@@ -193,12 +245,15 @@
 }
 // Journal Single Page
 .post_meta_wrapper {
-    padding-top: 50px;
+    // padding-top: 50px;
+    padding: 75px 20px 0;
     font-family: $font-brand4;
     margin-bottom: 75px;
+    text-align: center;
 
     @include desktop {
         margin: 75px 0 150px;
+        text-align: inherit;
     }
 }
 .date {
@@ -206,7 +261,8 @@
     font-weight: $normal;
     letter-spacing: 1px;
     font-size: 13px;
-    width: 50%;
+    // width: 50%;
+    width: 100%;
     text-transform: uppercase;
 
     @include desktop {
@@ -219,6 +275,7 @@
 .single_post_meta {
     @include tablet {
         width: 75%;
+        margin: auto;
     }
     @include desktop-blah {
         width: 70%;
@@ -233,13 +290,13 @@
     font-weight: $heavy;
     letter-spacing: 1.2px;
     line-height: 1.2;
-    font-size: 24px;
+    font-size: 22px;
     padding-bottom: 25px;
     text-transform: uppercase;
 
-
     @include tablet {
-        font-size: 40px;
+        // font-size: 40px;
+        font-size: 34px;
     }
 }
 .single_post_summary {
@@ -254,7 +311,8 @@
     margin-bottom: 100px;
 
     @include tablet {
-        margin: 0 75px 100px;
+        // margin: 0 75px 100px;
+        margin: 0 0 100px;
     }
     @include desktop {
 
@@ -299,8 +357,13 @@
     }
 }
 .all_posts_wrapper {
-    @include laptop {
-        width: 75%;
+    margin: 0 10px;
+    // @include laptop {
+    //     width: 75%;
+    // }
+    @include desktop {
+        width: 100%;
+        margin: 0 auto;
     }
     @include desktop-blah {
         width: 79%;

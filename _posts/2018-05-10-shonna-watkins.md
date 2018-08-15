@@ -2,7 +2,7 @@
 layout: phase1-post
 title: Creating Content with Beauty Brand + Ambassador, @shonnawatkins
 featured_image: /assets/images/feature_shonnawatkins.jpg
-featured_summary: "We spent some time with with beauty brand entrepreneur, Shonna Watkins to create strategy and content to redefine how she wants to be established as a brand.  She's been working in the beauty industry for over 5 years and is now working to expand her reach."
+featured_summary: "We spent some time with beauty brand entrepreneur, Shonna Watkins to create strategy and content to redefine how she wants to be established as a brand.  She's been working in the beauty industry for over 5 years and is now working to expand her reach."
 featured: true
 ---
 ![Shonna Watkins 001](/assets/images/post_shonnawatkins_1.jpg)

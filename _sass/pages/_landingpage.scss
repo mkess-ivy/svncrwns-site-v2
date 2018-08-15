@@ -1,10 +1,12 @@
 // Masthead
 .lp_masthead {
     text-align: center;
-    padding: 100px 0 75px;
+    // padding: 100px 0 75px;
+    padding: 60px 0 35px;
 
     @include tablet {
-        padding-bottom: 75px;
+        // padding-bottom: 75px;
+        padding: 175px 0;
     }
     @include laptop {
         width: 75%;
@@ -44,7 +46,7 @@
 .lp_masthead_mini {
     @include heavy_font(80px);
     text-align: center;
-    padding-bottom: 50px;
+    padding-bottom: 75px;
 
     @include tablet {
         font-size: 100px;
@@ -107,10 +109,11 @@
         letter-spacing: 1.15px;
         display: block;
         line-height: 1;
+        margin-top: -10px;
     }
 }
 .lp_sp_number {
-    @include heavy_font(90px);
+    @include heavy_font(80px);
     color: #e0e0e0;
     letter-spacing: 2px;
     position: absolute;
@@ -192,7 +195,8 @@
     }
     .lp_lastcall_summary {
         letter-spacing: 0.4px;
-        padding: 0 0 75px;
+        // padding: 0 0 75px;
+        padding: 0  0 50px;
 
         @include desktop {
             font-size: 18px;

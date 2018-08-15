@@ -1,6 +1,7 @@
 ---
 layout: phase1-post
-title: Javoni + Stevie Engagement Photos
+title: Engagement Photos w/ our friends, javoni + stevie
+
 featured_image: /assets/images/feature_javoni_stevie.jpg
 
 ---

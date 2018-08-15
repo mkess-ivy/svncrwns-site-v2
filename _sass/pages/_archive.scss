@@ -1,9 +1,8 @@
 .archive_wrapper {
-    margin-top: 75px;
-    
+    margin: 75px 10px 0;
 
     @include tablet {
-        margin-bottom: 150px;
+        margin: 75px 10px;
     }
     .archive_wrapper_properties {
         padding-bottom: 75px;
