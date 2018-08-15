@@ -12,11 +12,11 @@
 
         <div class="grid grid_lp">
             <div id="fullpage">
-                <div class="section">
-                    {% include components/landingpage/masthead_section.html %}
-                </div>
 
-                <div class="section">
+                    {% include components/landingpage/masthead_section.html %}
+
+
+
                     {% for sellpoint in page.sellpoints limit:1 %}
                     <div class="lp_sell_point">
                         <div class="frow justify-between">
@@ -24,15 +24,15 @@
                         </div>
                     </div>
                     {% endfor %}
-                </div>
 
-                <div class="section">
+
+
                     {% for infolist in page.info_lists limit:1 %}
                         {% include components/landingpage/info_box.html %}
                     {% endfor %}
-                </div>
 
-                <div class="section">
+
+
                     {% for sellpoint in page.sellpoints limit:1 offset:1 %}
                     <div class="lp_sell_point">
                         <div class="frow justify-between direction-reverse">
@@ -40,15 +40,15 @@
                         </div>
                     </div>
                     {% endfor %}
-                </div>
 
-                <div class="section">
+
+
                     {% for infolist in page.info_lists limit:1 offset:1 %}
                         {% include components/landingpage/info_box.html %}
                     {% endfor %}
-                </div>
 
-                <div class="section">
+
+
                     {% for sellpoint in page.sellpoints limit:1 offset:2 %}
                     <div class="lp_sell_point">
                         <div class="frow justify-between">
@@ -56,11 +56,9 @@
                         </div>
                     </div>
                     {% endfor %}
-                </div>
 
-                <div class="section">
                     {% include components/landingpage/last_call.html %}
-                </div>
+                
 
             </div>
 
