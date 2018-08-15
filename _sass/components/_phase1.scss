@@ -251,7 +251,7 @@ a.phase1-btn {
     height: 100vh;
 
     @include tablet {
-        height: calc(100vh - 50px);
+        height: calc(100vh - 120px);
         margin-bottom: 5px;
     }
 }
@@ -259,7 +259,7 @@ a.phase1-btn {
     height: 75vh !important;
 
     @include tablet {
-        height: 95vh !important;
+        height: 90vh !important;
     }
 }
 .projectphase-title {
@@ -398,7 +398,7 @@ a.phase1-btn {
     height: 60vh;
 
     @include tablet {
-        height: 90vh;
+        height: calc(100vh - 120px);
     }
 }
 .phase1_slider_web {
@@ -423,7 +423,8 @@ a.phase1-btn {
 
     @include tv {
         background-size: contain;
-        height: 90vh !important;
+        // height: 90vh !important;
+        height: calc(100vh - 115px);
     }
 }
 .caret_slide_web {
