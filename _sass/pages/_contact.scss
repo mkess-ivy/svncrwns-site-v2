@@ -9,10 +9,14 @@
 }
 .contact_content {
     text-align: center;
-    padding: 75px 0;
+    padding: 25px 0;
+
+    @include palm {
+        padding: 75px 0;
+    }
 
     @include tablet {
-        padding: 175px 0;
+        // padding: 175px 0;
     }
     @include desktop {
         width: 77%;
@@ -33,7 +37,7 @@
         }
 
         @include desktop-blah {
-            font-size: 65px;
+            font-size: 55px;
             line-height: 80px;
         }
     }
@@ -109,7 +113,7 @@
         // position: fixed;
         // top: 275px;
         width: 750px;
-        margin: 250px auto;
+        margin: 125px auto;
     }
     .studio_info_title {
         @include medium_font(16px);
