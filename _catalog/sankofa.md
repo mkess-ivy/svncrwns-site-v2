@@ -6,7 +6,7 @@ season                          : "2"
 
 [//]: # (Work on Home Page)
 summary                         : "a pop-up museum produced to activate the youth community in Baltimore"
-phase1-hero                     : /assets/images/project_popupmuseum/popupmuseum-6.jpg
+phase1-hero                     : /assets/images/project_popupmuseum/popupmuseum-6_v2.jpg
 
 [//]: # (Featured Info)
 featured 						: "yes"
