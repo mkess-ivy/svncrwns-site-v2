@@ -215,7 +215,7 @@ body.black_layout {
   background-image: url('/assets/images/slide-up-hover.png');
  }
 .backtop_wrapper {
-    display: none;
+    // display: none;
     @include tablet {
         position: relative;
         width: 100%;

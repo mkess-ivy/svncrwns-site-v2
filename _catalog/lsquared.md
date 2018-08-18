@@ -6,7 +6,7 @@ season				            : "2"
 
 [//]: # (Work on Home Page)
 summary                         : "created a platform for Department of Commerce Contractor, L-Squared to share their services and portfolio of work"
-phase1-hero                     : /assets/images/office_bg2.jpg
+phase1-hero                     : /assets/images/lsquared_cover.jpg
 
 [//]: # (Slider)
 slider: lsquared_slider

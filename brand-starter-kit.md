@@ -34,7 +34,7 @@ sellpoints:
   media: content
   link: #
   media_title: "Photography for Shonna Watkins"
-  masthead_subtitle: "a platform to connect"
+  masthead_subtitle: "an editorial look"
   big_number: 20
   small_text: editorial images
   number: "three"
