@@ -10,4 +10,3 @@ phase1-hero                     : /assets/images/fixbaltimore_cover.jpg
 
 ---
 {% include components/film.html film-url="https://player.vimeo.com/video/256855739?api=1" %}
-{% include components/phase-title.html %}

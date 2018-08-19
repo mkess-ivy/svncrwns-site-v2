@@ -44,6 +44,7 @@ $(document).ready(function(){
 
     $('.phase1_slider').slick ({
         arrows:true,
+        autoplay: true,
         prevArrow: '<img src="/assets/images/left_arrow.png" class="caret_slide left" />',
         nextArrow: '<img src="/assets/images/right_arrow.png" class="caret_slide right" />',
         fade:true,
@@ -53,6 +54,7 @@ $(document).ready(function(){
     });
     $('.phase1_slider_web').slick ({
         arrows:true,
+        autoplay:true,
         prevArrow: '<img src="/assets/images/left_arrow.png" class="caret_slide_web left" />',
         nextArrow: '<img src="/assets/images/right_arrow.png" class="caret_slide_web right" />',
         fade:true,

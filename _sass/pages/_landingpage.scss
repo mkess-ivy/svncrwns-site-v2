@@ -20,6 +20,8 @@
 .lp_masthead_subtitle {
     @include third_level_heading(12px, $off-black);
     letter-spacing: 1.15px;
+    width: 100%;
+    text-align: center;
 
     @include tablet {
         font-size: 14px;
@@ -28,6 +30,8 @@
 .lp_masthead_title {
     @include heavy_font(26px);
     padding-bottom: 50px;
+    width: 100%;
+    text-align: center;
 
     @include tablet {
         font-size: 40px;

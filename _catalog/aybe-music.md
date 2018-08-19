@@ -5,7 +5,7 @@ title 					        : "Aybe Music"
 season				            : "4"
 
 [//]: # (Work on Home Page)
-summary                         : "branded photography content created for social media"
+summary                         : "branded photography content created for singer and songwriter, AYBE"
 
 [//]: # (Slider)
 slider: aybe_slider

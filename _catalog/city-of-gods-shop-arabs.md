@@ -15,4 +15,3 @@ catalog-cover-image				: /assets/images/cityofgods-1.jpg
 data-credits-list 				: seat-at-the-table-credits
 ---
 {% include components/film.html film-url="https://player.vimeo.com/video/208178444?api=1" %}
-{% include components/phase-title.html %}

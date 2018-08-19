@@ -256,10 +256,10 @@ a.phase1-btn {
     background-repeat: no-repeat;
     opacity: 1;
     // height: 100vh;
-    height: calc(100vh - 135px);
+    // height: calc(100vh - 135px);
 
     @include tablet {
-        height: calc(100vh - 120px);
+        // height: calc(100vh - 120px);
         margin-bottom: 5px;
     }
 }
@@ -267,16 +267,18 @@ a.phase1-btn {
     height: 75vh !important;
 
     @include tablet {
-        height: 90vh !important;
+        // height: 90vh !important;
+        height: 80vh !important;
     }
 }
 .projectphase-title {
-    position: absolute;
-    bottom: 25px;
-    left: 20px;
+    // position: absolute;
+    // bottom: 25px;
+    // left: 20px;
     font-size: 22px;
     line-height: 1;
-    color: white;
+    // color: white;
+    color: $off-black;
     text-transform: uppercase;
     font-weight: bold;
     font-family: $font-brand4;
@@ -286,9 +288,10 @@ a.phase1-btn {
     }
 
     @include tablet {
-        bottom: 75px;
-        left: 50px;
-        font-size: 40px;
+        // bottom: 75px;
+        // left: 50px;
+        padding-top: 15px;
+        font-size: 32px;
     }
 }
 .phase-subtitle {
@@ -305,26 +308,32 @@ a.phase1-btn {
     @include tablet {
         width: 70%;
     }
+    @include desktop {
+        width: 50%;
+    }
 }
 .returnwork {
-    padding-top: 25px;
+    padding: 15px 0 35px;
     font-size: 16px;
     line-height: 1.2;
     width: 120px;
 
     @include tablet {
-        font-size: 20px;
+        width: 170px;
+    }
+    @include desktop {
+        // font-size: 20px;
     }
 
     a {
-        color: $off-white;
+        // color: $off-white;
 
         &.slide_returnwork {
             color: $black;
 
-            @include tablet {
-                color: $off-white;
-            }
+            // @include tablet {
+            //     color: $off-white;
+            // }
         }
     }
 }
@@ -351,7 +360,14 @@ a.phase1-btn {
     height: 60vh !important;
 
     @include tablet {
-        height: 90vh !important;
+        // height: 90vh !important;
+        height: 70vh !important;
+    }
+    @include desktop {
+        height: 80vh !important;
+    }
+    @include tv {
+        height: 85vh !important;
     }
 
 
@@ -363,25 +379,34 @@ a.phase1-btn {
     width: 25px;
     // bottom: 25px;
     bottom: -38px;
-    @include tablet {
-
-        width: 100px;
-        top: 40vh;
-        bottom: auto;
-    }
+    // @extend .grid;
+    // @include tablet {
+    //
+    //     width: 100px;
+    //     top: 40vh;
+    //     bottom: auto;
+    // }
 
     &.left {
-        left: 15px;
+        // left: 15px;
+        right: 75px;
         @include tablet {
-            left: 2em;
+            right: 125px;
         }
+        // @include tablet {
+        //     left: 2em;
+        // }
     }
     &.right {
         // right: 15px;
-        left: 60px;
+        // left: 60px;
+        right: 30px;
         @include tablet {
-            right: 2em;
+            right: 75px;
         }
+        // @include tablet {
+        //     right: 2em;
+        // }
     }
 }
 .slidephase-title {
@@ -389,17 +414,21 @@ a.phase1-btn {
     position: relative;
     color: $black;
     // padding: 25px;
-    padding: 55px 25px 25px;
+    padding: 35px 25px 5px;
     bottom: auto;
     left: auto;
 
-    @include tablet {
-        position: absolute;
-        color: $off-white;
-        bottom: 65px;
-        padding:0;
-        left: 30px;
+    @include desktop {
+        padding: 35px 0 5px;
     }
+
+    // @include tablet {
+    //     position: absolute;
+    //     color: $off-white;
+    //     bottom: 65px;
+    //     padding:0;
+    //     left: 30px;
+    // }
 }
 
 // Web Slider
@@ -442,33 +471,47 @@ a.phase1-btn {
 .caret_slide_web {
     position: absolute;
     z-index: 3;
-    width: 60px;
-    bottom: -65px;
+    // width: 60px;
+    // bottom: -65px;
+    width: 25px;
+    // bottom: -38px;
+    bottom: -155px;
 
-    @include palm-mid {
-        bottom: -25px;
+    @include palm {
+        bottom: -85px;
     }
-
     @include tablet {
+        bottom: -155px;
+    }
 
-        width: 100px;
-        top: 30vh;
-        bottom: auto;
-    }
-    @include tv {
-        top: 40vh;
-    }
+    // @include palm-mid {
+    //     bottom: -25px;
+    // }
+    //
+    // @include tablet {
+    //
+    //     width: 100px;
+    //     top: 30vh;
+    //     bottom: auto;
+    // }
+    // @include tv {
+    //     top: 40vh;
+    // }
 
     &.left {
-        left: 15px;
+        // left: 15px;
+        // @include tablet {
+        //     left: 2em;
+        // }
+        right: 75px;
         @include tablet {
-            left: 2em;
+            right: 125px;
         }
     }
     &.right {
-        right: 15px;
+        right: 30px;
         @include tablet {
-            right: 2em;
+            right: 75px;
         }
     }
 }
@@ -542,10 +585,12 @@ a.phase1-btn {
 }
 .newsletter_grid {
     // padding: 25px 0;
+    margin-top: 50px;
     @include tablet {
         width: 100%;
     }
     @include desktop-blah {
+        margin-top: 0;
         width: 39%;
     }
 }

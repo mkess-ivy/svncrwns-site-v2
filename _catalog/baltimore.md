@@ -12,4 +12,3 @@ phase1-hero                     : /assets/images/catalog_baltimore_bw.jpg
 catalog-cover-image				: /assets/images/baltimore.jpg
 ---
 {% include components/film.html film-url="https://player.vimeo.com/video/263267871?api=1 " %}
-{% include components/phase-title.html %}

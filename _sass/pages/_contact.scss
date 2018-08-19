@@ -85,6 +85,7 @@
     text-align: center;
     margin-bottom: 35px;
     outline: none;
+    border-radius: 0;
 
     @include desktop-blah {
         margin-bottom: 50px;

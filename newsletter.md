@@ -5,6 +5,12 @@ permalink: /newsletter/
 ---
 <div class="newsletter_grid">
 <div class="frow centered">
+    <div class="lp_masthead_subtitle">
+        join our
+    </div>
+    <div class="lp_masthead_title">
+        subscription list
+    </div>
     <!-- Begin MailChimp Signup Form -->
     <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
     <style type="text/css">
@@ -75,7 +81,7 @@ permalink: /newsletter/
     <div id="mc_embed_signup">
     <form action="https://svncrwns.us11.list-manage.com/subscribe/post?u=ab04d0cabec9aa1f49ca3e65e&amp;id=2fe748f030" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
         <div id="mc_embed_signup_scroll">
-    	<label for="mce-EMAIL">Join our subscription list.</label>
+    	
         <div class="newsletter_description">Be an early adopter, you'll thank us later.</div>
     	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
         <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->

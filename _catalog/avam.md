@@ -14,4 +14,3 @@ featured-rank 					: "3"
 
 ---
 {% include components/film.html film-url="https://player.vimeo.com/video/265172091?api=1 " %}
-{% include components/phase-title.html %}

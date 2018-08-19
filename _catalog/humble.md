@@ -12,4 +12,3 @@ phase1-hero                     : /assets/images/catalog_humble.jpg
 catalog-cover-image				: /assets/images/humble.jpg
 ---
 {% include components/film.html film-url="https://player.vimeo.com/video/242484745?api=1" %}
-{% include components/phase-title.html %}

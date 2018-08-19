@@ -15,4 +15,3 @@ catalog-cover-image				: /assets/images/the-way-wild1.jpg
 data-credits-list 				: seat-at-the-table-credits
 ---
 {% include components/film.html film-url="https://player.vimeo.com/video/242409564?api=1" %}
-{% include components/phase-title.html %}
