@@ -2,7 +2,7 @@
 layout: phase1-post
 title: Behind-the-scenes with Aybe, Classically Trained Musician
 featured_image: /assets/images/feature_bts_aybe.jpg
-
+featured_summary: "Behind the Scenes with Singer and Songwriter, Aybe.  Meet the glam squad behind this 2-look photoshoot and also check out some of the photos that weren't included in our final selection"
 ---
 ![BTS Aybe 001](/assets/images/post_aybe_1.jpg)
 

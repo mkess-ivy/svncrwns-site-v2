@@ -2,6 +2,7 @@
 layout: phase1-post
 title: The Brand Company is Branding Itself
 featured_image: /assets/images/feature_brand_company.png
+featured_summary: "We had to take several looks at ourselves as a company positioning ourselves to help other companies grow.  It's time we start branding ourselves and showing our audience what it takes to begin this journey.  Check out the first 5 items we tackled below."
 ---
 5 Things We Considered to Brand Ourselves
 -----------------------------------------

@@ -107,6 +107,7 @@
     letter-spacing: 1px;
     display: inline-block;
     border: none;
+    -webkit-appearance: none;
 }
 .contact_group input {
     @include tablet {
@@ -114,6 +115,7 @@
     }
 }
 .studio_info_box {
+    margin: 100px 0 0 0;
     @include tablet {
         // margin: 75px auto;
         margin-bottom: 75px;
@@ -150,8 +152,9 @@
     }
 }
 .studio_row {
-    margin-bottom: 30px;
+    // margin-bottom: 30px;
 }
 .studio_info_content {
     width: 200px;
+    margin-bottom: 50px;
 }

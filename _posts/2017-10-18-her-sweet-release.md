@@ -2,6 +2,7 @@
 layout: phase1-post
 title: Event Recap &#58; Her Sweet Release Inaugural Event
 featured_image: /assets/images/feature_hersweetrelease.jpg
+featured_summary: "Our good friend and founder, Bakari Jones of Her Sweet Release had her inaugural event in Baltimore.  Her Sweet Release is a new event company that creates experiences targeting LGBTQ women.  Check out our event recap below."
 archive_summary: "A for-women only event series, event recap from their inaugural event"
 ---
 

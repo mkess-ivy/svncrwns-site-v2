@@ -24,6 +24,11 @@
         .archive_date {
             @include medium_font(14px);
             width: 125px;
+            margin-bottom: 15px;
+
+            @include palm {
+                margin-bottom: 0;
+            }
         }
         .archive_title {
             @include heavy_font(14px);
@@ -41,7 +46,7 @@
 }
 .archive_header {
     @include heavy_font(24px);
-    padding-bottom: 10px;
+    padding-bottom: 30px;
     padding-top: 10px;
     border-top: 1px solid;
 

@@ -14,7 +14,7 @@ bg_color:
                 Leave us some details about what you’re interested in below, or send us an <a href="mailto:hello@svncrwns.com">email</a>.  We typically respond within 72 hours.
             </div>
             <div class="contact_disclaimer">
-                [Example: I want a website, brand starter kit, brand book, photo, video or experience]
+                [Example: I want an online shop, brand starter kit, or visual branding]
             </div>
         </div>
 

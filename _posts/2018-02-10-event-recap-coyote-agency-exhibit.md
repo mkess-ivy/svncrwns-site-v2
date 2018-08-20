@@ -1,6 +1,7 @@
 ---
 layout: phase1-post
-title: "@coyoteagency's Our Brothers Keeper Exhibit"
+title: "Event Recap: @coyoteagency's Our Brothers Keeper Exhibit"
+featured_summary: "We had the opportunity to collaborate with the founder of NY-based Coyote Agency as they rolled out their brand with a gallery exhibit.  A few months prior to the event, Bria tapped us to make a short film documenting the barbering experience.  Check out the event recap that we documented during the gallery exhibit premiere in Brooklyn, NY."
 featured_image: /assets/images/post_obk_2.jpg
 
 ---

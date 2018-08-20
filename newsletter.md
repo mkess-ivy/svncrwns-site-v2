@@ -18,7 +18,7 @@ permalink: /newsletter/
         #mc_embed_signup form {
             background: #f7f7f7 !important;
             padding: 10px 10px 10px 3%;
-            margin: 25px auto;
+            margin: 0 auto;
             text-align: center;
             width: 375px;
         }
@@ -52,6 +52,7 @@ permalink: /newsletter/
             margin: 0 auto;
             min-height: 40px;
             font-weight: bold;
+            -webkit-appearance: none;
         }
         #mc_embed_signup .button {
             background-color: transparent;
@@ -60,6 +61,11 @@ permalink: /newsletter/
             border-radius: 0;
             text-transform: uppercase;
             padding: 3px 4px;
+            -webkit-appearance: none;
+        }
+        .contact_form input[type="submit"] {
+            -webkit-appearance: none;
+            color: red;
         }
         #mc_embed_signup .button:hover {
             background-color: black;
@@ -81,7 +87,7 @@ permalink: /newsletter/
     <div id="mc_embed_signup">
     <form action="https://svncrwns.us11.list-manage.com/subscribe/post?u=ab04d0cabec9aa1f49ca3e65e&amp;id=2fe748f030" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
         <div id="mc_embed_signup_scroll">
-    	
+
         <div class="newsletter_description">Be an early adopter, you'll thank us later.</div>
     	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
         <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->

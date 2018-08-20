@@ -2,6 +2,7 @@
 layout: phase1-post
 title: Chavon Lee X Stylist + Designer, @kenjgalaxy
 featured_image: /assets/images/feature_chavonleekenj.jpg
+featured_summary: "Our co-founder, Chavon is a multi-hyphenate artist.  We have the pleasure of having her as the head of Creative, while also doubling as a model.  We connected with our style team to create a quick visual exercise with two styled  looks."
 ---
 ![Chavon Lee x Ken J 002](/assets/images/post_chavonlee_kenj_v1.jpg)
 

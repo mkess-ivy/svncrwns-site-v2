@@ -12,7 +12,7 @@ sellpoints:
 - top-level: Visual Product
   image: /assets/images/brandstarterkit_visual.png
   media: film
-  link: #
+  link: /catalog/our-brothers-keeper/
   media_title: "Our Brother's Keeper for Coyote Agency"
   masthead_subtitle: "engaging content"
   big_number: 1
@@ -22,7 +22,7 @@ sellpoints:
 - top-level: Online Shop Product
   image: /assets/images/brandstarterkit_onlineshop.png
   media: website
-  link: #
+  link: http://www.cityofgodshop.com
   media_title: "Online Shop for City of Gods"
   masthead_subtitle: "a platform to connect"
   big_number: 10+
@@ -32,7 +32,7 @@ sellpoints:
 - top-level: Editorial Photos Product
   image: /assets/images/brandstarterkit_editorial.png
   media: content
-  link: #
+  link: /journal/shonna-watkins/
   media_title: "Photography for Shonna Watkins"
   masthead_subtitle: "an editorial look"
   big_number: 20
@@ -45,7 +45,7 @@ info_lists:
   image: /assets/images/brandstarterkit_thewaywild.jpg
   list_title: 5 ideas for video
   media: film
-  link: #
+  link: /catalog/the-way-wild/
   media_title: The Way Wild for Kenn Hall
   list_items:
    - feature: Share the history of your brand
@@ -57,7 +57,7 @@ info_lists:
   image: /assets/images/brandstarterkit_taylorbarbershop.jpg
   list_title: 5 Tips for Online Shops
   media: website
-  link: #
+  link: http://www.taylorbarbershop.com
   media_title: Booking for Barbers at Taylor's Barbershop
   list_items:
   - feature: Understand your brand identity

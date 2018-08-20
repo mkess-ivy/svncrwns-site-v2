@@ -553,7 +553,7 @@ a.phase1-btn {
 // Newsletter page
 .newsletter_wrapper {
     @include tablet {
-        height: calc(100vh - 115px);
+        // height: calc(100vh - 115px);
     }
     @include desktop {
         height: inherit;
