@@ -1,3 +1,5 @@
+- menu_item: home
+  menu_link: /
 - menu_item: journal
   menu_link: /journal/
 - menu_item: newsletter

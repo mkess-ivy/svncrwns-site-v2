@@ -6,14 +6,15 @@
 
   <body style="background-color: #{{ page.bg_color }};">
     <div class="se-pre-con"></div>
-    <!-- {% include newsletter_topbar.html %} -->
-    <div class="grid">
-        {% include short_header.html %}
-    </div>
 
-    {{ content }}
+    {% include short_header2.html %}
+
+
+
 
     <div class="grid">
+        {{ content }}
+
         {%  include short_footer.html %}
     </div>
     {% include components/backtop_icon.html %}

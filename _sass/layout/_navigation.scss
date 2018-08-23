@@ -388,6 +388,13 @@ ul.nav li a:hover::after {
   -o-transform: rotate(-135deg);
   transform: rotate(-135deg);
 }
+.menu_group {
+    margin-top: 60px;
+
+    @include tablet {
+        margin-top: 100px;
+    }
+}
 .menu_title {
   @include third_level_heading(15px, $off-white);
   margin-bottom: 25px;
@@ -396,6 +403,7 @@ ul.nav li a:hover::after {
 // phase1_full_height
 .left_header {
     position: relative;
+    // z-index: 11111;
 
 
     a {
