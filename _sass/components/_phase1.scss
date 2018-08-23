@@ -18,7 +18,6 @@
     }
     &.fixed_width_grid {
         @include desktop {
-            // margin: 10px 50px 0 20px;
             margin: 10px 50px 0;
         }
         @include desktop-blah {
@@ -45,10 +44,10 @@
     }
     @include tablet {
         max-width: none;
-        padding: 10px 50px 0;
+        padding: 10px 50px;
     }
     @include desktop-blah {
-        padding: 10px 100px 0;
+        padding: 10px 100px;
     }
 }
 .grid_slide {
