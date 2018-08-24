@@ -57,7 +57,7 @@ permalink: /journal/
                     </div>
                     <div class="special_cta">
                         {% include components/cta.html
-                            link="http://www.svncrwns.com/assets/PACKAGES_SUMMER2018.pdf"
+                            link="http://www.svncrwns.com/assets/summerpackages2018.pdf"
                             title="packages"
                         %}
                     </div>

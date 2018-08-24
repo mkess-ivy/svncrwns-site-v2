@@ -1,4 +1,5 @@
 $(document).ready(function(){
+
     var forEach=function(t,o,r){if("[object Object]"===Object.prototype.toString.call(t))for(var c in t)Object.prototype.hasOwnProperty.call(t,c)&&o.call(r,t[c],c,t);else for(var e=0,l=t.length;l>e;e++)o.call(r,t[e],e,t)};
     var hamburgers = document.querySelectorAll(".hamburger");
     if (hamburgers.length > 0) {
@@ -11,18 +12,18 @@ $(document).ready(function(){
     }
 
     // Overlay Menu (#overlay-menu for r6 design)
-    $("#phase1-overlay-menu").click(function() {
-        $(".overlay").addClass("overlay-open");
-        $("body").addClass("noScroll");
-        $(".phase1-btn").hide();
-    });
+    // $("#phase1-overlay-menu").click(function() {
+    //     $(".overlay").addClass("overlay-open");
+    //     $("body").addClass("noScroll");
+    //     $(".phase1-btn").hide();
+    // });
 
     // (#overlay-close for r6 design)
-    $(".phase1-overlay-close").click(function() {
-        $(".overlay").removeClass("overlay-open");
-        $("body").removeClass("noScroll");
-        $(".phase1-btn").show();
-    });
+    // $(".phase1-overlay-close").click(function() {
+    //     $(".overlay").removeClass("overlay-open");
+    //     $("body").removeClass("noScroll");
+    //     $(".phase1-btn").show();
+    // });
 
     // Wait for window load
     $(window).load(function() {

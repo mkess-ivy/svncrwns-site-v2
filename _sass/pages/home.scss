@@ -31,8 +31,9 @@
 
         @include tablet {
             // font-size: 40px;
-			font-size: 56px;
+			font-size: 60px;
             line-height: 0.9;
+			width: 70%;
         }
 
         @include desktop {
@@ -48,6 +49,10 @@
     .phase1-subheader {
         font-size: 18px;
         line-height: 1.6;
+
+		@include tablet {
+			font-size: 20px;
+		}
 
         @include laptop {
             font-size: 22px;

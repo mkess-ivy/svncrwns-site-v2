@@ -20,7 +20,7 @@ The second marketing tool we tackled was our logo.  We wanted it to have a fresh
 
 *Three &mdash; Brand Book*
 
-In order to refresh ourselves on our business vocabulary, we started developing a [brand book](#) to make sure we are accurately envisioning our goals, look and feel within our logo and within the entire brand.  So far, we have tackled our vision, target market, personas, brand colors, similar companies that we align ourselves with and a few more details.  Stay tuned for the SVNCRWNS Brand Book, it will be available for download soon.  Make sure you are subscribed to the newsletter to receive updates.
+In order to refresh ourselves on our business vocabulary, we started developing a brand book to make sure we are accurately envisioning our goals, look and feel within our logo and within the entire brand.  So far, we have tackled our vision, target market, personas, brand colors, similar companies that we align ourselves with and a few more details.  Stay tuned for the SVNCRWNS Brand Book, it will be available for download soon.  Make sure you are subscribed to the newsletter to receive updates.
 
 *Four &mdash; Strategy*
 

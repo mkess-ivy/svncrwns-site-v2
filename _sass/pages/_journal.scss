@@ -276,7 +276,9 @@
         margin: auto;
     @include tablet {
         width: 85%;
-
+    }
+    @include desktop {
+        margin: 30px 0 0 0;
     }
     @include desktop-blah {
         width: 70%;
@@ -382,8 +384,14 @@
         width: 72%;
         font-family: $font-brand4;
 
+        margin-bottom: 30px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
         @include palm-mid {
-            width: 55%;
+            width: 45%;
         }
         @include tablet {
 
@@ -397,27 +405,38 @@
             // margin-left: 20vw;
         }
 
+        a:hover {
+            color: $color-brand3;
+        }
+
         .post_pagination_header {
-            font-size: 14px;
+            font-size: 12px;
             letter-spacing: 1px;
-            padding-bottom: 20px;
+            padding-bottom: 10px;
             text-transform: uppercase;
+
         }
         .post_pagination_title {
-            font-size: 18px;
+            font-size: 14px;
             font-weight: $heavy;
             font-family: $font-brand4;
             text-transform: uppercase;
             letter-spacing: 1.5px;
-            padding-bottom: 30px;
+            padding-bottom: 15px;
             line-height: 1.2;
+
+            @include palm-mid {
+                min-height: 80px;
+            }
 
             @include tablet {
                 font-size: 24px;
+                min-height: 130px;
             }
 
             @include desktop {
-                font-size: 20px;
+                font-size: 18px;
+                min-height: inherit;
             }
         }
         .arrow_properties {
@@ -438,6 +457,7 @@ a.pagination_links {
     font-family: $font-brand4;
     letter-spacing: 1px;
     font-weight: $heavy;
+    font-size: 14px;
 
     @include tablet {
         margin-bottom: 75px;

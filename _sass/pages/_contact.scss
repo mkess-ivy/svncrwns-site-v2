@@ -127,8 +127,9 @@
         margin: 0 auto 75px;
     }
     .studio_info_title {
-        @include medium_font(16px);
+        @include heavy_font(16px);
         margin-bottom: 15px;
+
     }
     .studio_info_details {
         span {

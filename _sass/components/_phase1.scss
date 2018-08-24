@@ -44,10 +44,10 @@
     }
     @include tablet {
         max-width: none;
-        padding: 10px 50px;
+        padding: 10px 50px 25px;
     }
     @include desktop-blah {
-        padding: 10px 100px;
+        padding: 10px 100px 25px;
     }
 }
 .grid_slide {
@@ -75,7 +75,7 @@
         margin: 0;
         position: fixed;
         left: 25px;
-        bottom: 15vh;
+        bottom: 5vh;
     }
     @include desktop-blah {
         left: 50px;
@@ -474,13 +474,16 @@ a.phase1-btn {
     // bottom: -65px;
     width: 25px;
     // bottom: -38px;
-    bottom: -155px;
+    bottom: -115px;
 
     @include palm {
-        bottom: -85px;
+        // bottom: -85px;
     }
     @include tablet {
-        bottom: -155px;
+        bottom: -190px;
+    }
+    @include tv {
+        // bottom: -190px;
     }
 
     // @include palm-mid {
@@ -567,7 +570,7 @@ a.phase1-btn {
     background-size: cover;
     // margin-top: 12px;
     width: 100%;
-    height: 30vh;
+    height: 40vh;
 
     @include tablet {
         height: 60vh;
