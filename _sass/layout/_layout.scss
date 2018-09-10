@@ -10,7 +10,7 @@
 }
 
 body.white {
-  background-color: $color-white;
+  background-color: $off-white;
 }
 body.black_layout {
     background-color: $off-black;
@@ -144,7 +144,6 @@ body.black_layout {
 // Magazine Page Numbers
 .svn-content_img-no-txt {
   color: #fff;
-  font-family: $brand-font;
   font-size: 14px;
   letter-spacing: 2px;
 
@@ -166,22 +165,7 @@ body.black_layout {
 .svn-content_no.right {
   text-align: right;
 }
-.svn-content_no {
-  position: relative;
-  padding: 1em 0.5em;
-  font-family: $alt-font-1;
-  font-size: $section-number-font-size;
-  color: $brand-color;
-  @include palm-mid {
-    padding: .5em;
-  }
-  @include laptop {
-    padding: .5em 1.5em 0;
-  }
-  @include bigscreen {
-    font-size: 30px;
-  }
-}
+
 .catalog_img-no {
   position: absolute;
   left: 0;

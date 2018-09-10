@@ -50,13 +50,7 @@
 @mixin font_extra_big {
     font-size: 44px;
 }
-@mixin font_text_area {
-    font-size: 38px;
-    line-height: 38px;
-}
-@mixin font_lz {
-    font-size: 35px;
-}
+
 @mixin font_lowercase_offbeat {
     font-size: 28px;
     color: $color-brand5;
@@ -65,40 +59,18 @@
     text-decoration: underline;
     text-align: right;
 }
-@mixin font_lg_lowercase {
-    text-transform: initial;
-    font-size: 26px;
-}
 @mixin font_size_lg {
     font-size: 26px;
 }
-@mixin font_size_la {
-    font-size: 20px;
-}
-@mixin font_size_med_brand {
-    @extend font_size_med;
-    color: $color-brand5;
-}
-@mixin font_size_med {
-    font-size: 18px;
-    text-transform: uppercase;
-}
-@mixin font_standard {
-    font-size: 16px;
-}
-@mixin font_size_small {
-    font-size: 14px;
-}
+
 @mixin font_size_micro {
     font-size: 12px  !important;
 }
 @mixin font_size_micro_extra {
     font-size: 11px;
     font-weight: bold;
-    font-family: $font-brand2;
 }
 @mixin font_size_tiny {
-    font-family: $font-brand2;
     font-size: 9px;
     text-transform: initial;
 }
@@ -117,9 +89,6 @@
     font-weight: 900;
     text-decoration: underline;
 }
-@mixin brandcolortext {
-    color: $brand-color;
-}
 
 
 // Misc Mixins
@@ -131,7 +100,6 @@
 }
 
 @mixin boldfontuppercase($font-size, $line-height, $padding-bottom:15px) {
-    font-family: $font-brand1;
     text-transform: uppercase;
     font-size: $font-size;
     line-height: $line-height;

@@ -24,7 +24,7 @@ dl, dd, ol, ul, figure {
 body {
     font-family: $font-brand3;
     font-size: $base-font-size;
-    line-height: $base-line-height;
+    line-height: $line-height;
     font-weight: 300;
     color: #000 !important;
     background-color: $off-white;
@@ -60,15 +60,15 @@ img {
  * Links
  */
 a {
-    color: $text-color;
+    color: $off-black;
     text-decoration: none;
 
     &:visited {
-        color: darken($text-color, 15%);
+        color: darken($off-black, 15%);
     }
 
     &:hover {
-        color: $text-color;
+        color: $off-black;
         border-bottom: 1px solid;
         // padding-bottom: 2px;
     }
@@ -79,8 +79,6 @@ a.no-line {
     }
 }
 
-.section-link:hover { color: $brand-color-2; }
-.section-link:visited { color: black; }
 
 /**
  * Clearfix

@@ -328,7 +328,7 @@ a.phase1-btn {
         // color: $off-white;
 
         &.slide_returnwork {
-            color: $black;
+            color: $off-black;
 
             // @include tablet {
             //     color: $off-white;
@@ -411,7 +411,7 @@ a.phase1-btn {
 .slidephase-title {
     @extend .projectphase-title;
     position: relative;
-    color: $black;
+    color: $off-black;
     // padding: 25px;
     padding: 35px 25px 5px;
     bottom: auto;
