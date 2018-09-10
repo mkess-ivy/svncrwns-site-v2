@@ -1,11 +1,4 @@
-// Mixin Library
-%wwd-border {
-    border: 1px dotted black;
-    padding: 10px;
-    margin: 10px;
-}
-
-// Active Mixins
+// Font Mixins
 @mixin heavy_font($size) {
     font-family: $font-brand4;
     text-transform: uppercase;
@@ -20,9 +13,6 @@
     font-weight: $medium;
     font-size: $size;
 }
-@mixin bg_gradient($color1, $color2) {
-    background-image: linear-gradient(172deg, $color1, $color2);
-}
 @mixin third_level_heading($font-size, $color) {
     letter-spacing: 7px;
     font-size: $font-size;
@@ -36,72 +26,16 @@
     padding-top: 10px;
 }
 
-
-
-// Mixins for Fonts
-@mixin font_huge {
-    font-size: 55px;
-}
-@mixin font_extra_big_brand {
-    @extend font_extra_big;
-    color: $color-brand5;
-    text-transform: initial;
-}
-@mixin font_extra_big {
-    font-size: 44px;
-}
-
-@mixin font_lowercase_offbeat {
-    font-size: 28px;
-    color: $color-brand5;
-    text-transform: initial;
-    line-height: 40px;
-    text-decoration: underline;
-    text-align: right;
-}
 @mixin font_size_lg {
     font-size: 26px;
 }
-
 @mixin font_size_micro {
     font-size: 12px  !important;
 }
-@mixin font_size_micro_extra {
-    font-size: 11px;
-    font-weight: bold;
-}
-@mixin font_size_tiny {
-    font-size: 9px;
-    text-transform: initial;
-}
-@mixin align_right {
-    text-align: right;
-}
-// Mixins - One Off Elements
-
-@mixin hero-text {
-    text-align: right;
-    width: 80%;
-    padding-left: 1.4em;
-    font-size: 20px;
-    font-family: 'Maison Neue', Helvetica, sans-serif;
-    line-height: 24px;
-    font-weight: 900;
-    text-decoration: underline;
-}
 
 
-// Misc Mixins
-@mixin flex {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-@mixin boldfontuppercase($font-size, $line-height, $padding-bottom:15px) {
-    text-transform: uppercase;
-    font-size: $font-size;
-    line-height: $line-height;
-    padding-bottom: $padding-bottom;
+// Other Mixins
+// Mixin for the Journal Page - Background Gradient for two features on right sidebar
+@mixin bg_gradient($color1, $color2) {
+    background-image: linear-gradient(172deg, $color1, $color2);
 }
