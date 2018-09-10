@@ -1,11 +1,9 @@
 // Masthead
 .lp_masthead {
     text-align: center;
-    // padding: 100px 0 75px;
     padding: 60px 0 35px;
 
     @include tablet {
-        // padding-bottom: 75px;
         padding: 175px 0;
     }
     @include laptop {
@@ -204,7 +202,6 @@
     }
     .lp_lastcall_summary {
         letter-spacing: 0.4px;
-        // padding: 0 0 75px;
         padding: 0  0 50px;
 
         @include desktop {

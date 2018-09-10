@@ -1,13 +1,8 @@
 /* Phase 1 Header */
 .phase1-site-header {
-    // padding-top: 15px;
-
-    @include tablet {
-        padding-top: 0;
-    }
-}
-.fixednavbar {
-    // background-color: $off-black;
+  @include tablet {
+    padding-top: 0;
+  }
 }
 .phase1_menu_btn {
     text-indent: 0;
@@ -43,16 +38,9 @@
   outline: transparent;
 
   @include desktop-blah {
-      position: fixed;
-      top: 45px;
-      right: 100px;
-  }
-
-  // right: 0;
-
-  @include tablet {
-    // right: 50px;
-    // top: 10px;
+    position: fixed;
+    top: 45px;
+    right: 100px;
   }
 }
 .flex-centered {
@@ -60,18 +48,11 @@
 	justify-content: flex-start !important;
 	align-items: center;
 }
-.short_links {
-    margin-bottom: 0;
-    line-height: 24px !important;
-    font-size: 24px !important;
-}
-/* Phase 1 Header */
 
 /* No Scroll w/ Overlay Present */
 body.noScroll {
   overflow: hidden;
 }
-
 .logo-wrapper {
   z-index: 9999;
   position: absolute;
@@ -106,17 +87,7 @@ body.noScroll {
   }
 }
 .overlay_container {
-  // height: 100vh;
   position: relative;
-  // padding: 30px 20px 15px;
-
-  @include palm-mid {
-      // padding-top: 50px;
-  }
-
-  // @include tablet {
-  //     padding: 50px 20px;
-  // }
 }
 
 /* Header & Overlay Menu */
@@ -308,13 +279,8 @@ ul.nav li a:hover::after {
 }
 
 // Menu Close
-
 .menu_group {
-    margin-top: 60px;
-
-    @include tablet {
-        // margin-top: 100px;
-    }
+  margin-top: 60px;
 }
 .menu_title {
   @include third_level_heading(15px, $off-white);
@@ -323,35 +289,26 @@ ul.nav li a:hover::after {
 
 // phase1_full_height
 .left_header {
-    position: relative;
-    // z-index: 11111;
+  position: relative;
 
-
-    a {
-        &:hover {
-            text-decoration: none;
-            border-bottom: 0;
-        }
+  a {
+    &:hover {
+        text-decoration: none;
+        border-bottom: 0;
     }
+  }
 }
 
 // Home Link
 .menu_crown {
-    width: 36px;
-    margin-bottom: 30px;
-    // margin-top: 12px;
+  width: 36px;
+  margin-bottom: 30px;
+  a {
+    text-decoration: none;
 
-    a {
+    &:hover {
         text-decoration: none;
-
-        &:hover {
-            text-decoration: none;
-            border: none;
-        }
+        border: none;
     }
+  }
 }
-
-
-
-
-// For Hamburger styling, see vendor/hamburgers.css

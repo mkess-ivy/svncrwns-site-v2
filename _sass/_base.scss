@@ -12,26 +12,22 @@
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
-
-
 
 /**
  * Basic styling
  */
 body {
-    font-family: $font-brand3;
-    font-size: $base-font-size;
-    line-height: $line-height;
-    font-weight: 300;
-    color: #000 !important;
-    background-color: $off-white;
-    -webkit-text-size-adjust: 100%;
+  font-family: $font-brand3;
+  font-size: $base-font-size;
+  line-height: $line-height;
+  font-weight: 300;
+  color: $off-black !important;
+  background-color: $off-white;
+  -webkit-text-size-adjust: 100%;
 }
-
-
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
@@ -40,49 +36,46 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
-    margin-bottom: $spacing-unit / 2;
+  margin-bottom: $spacing-unit / 2;
 }
 
 ul, li {
-    list-style: none;
+  list-style: none;
 }
 
 /**
  * Images
  */
 img {
-    max-width: 100%;
-    vertical-align: middle;
+  max-width: 100%;
+  vertical-align: middle;
 }
-
 
 /**
- * Links
- */
+* Links
+**/
 a {
+  color: $off-black;
+  text-decoration: none;
+
+  &:visited {
+    color: darken($off-black, 15%);
+  }
+
+  &:hover {
     color: $off-black;
-    text-decoration: none;
-
-    &:visited {
-        color: darken($off-black, 15%);
-    }
-
-    &:hover {
-        color: $off-black;
-        border-bottom: 1px solid;
-        // padding-bottom: 2px;
-    }
+    border-bottom: 1px solid;
+  }
 }
 a.no-line {
-    &:hover {
-        border-bottom: 0;
-    }
+  &:hover {
+    border-bottom: 0;
+  }
 }
-
 
 /**
  * Clearfix
- */
+**/
 %clearfix {
   *zoom: 1;
   &:before, &:after {
@@ -93,23 +86,11 @@ a.no-line {
     clear: both;
   }
 }
-
 .clear:before,
 .clear:after {
     content: " ";
     display: table;
 }
-
 .clear:after {
     clear: both;
 }
-
-// Misc classes for spacing
-
-.martop2 { margin-top: 2em; }
-// .pad2 { margin-top: 2em;
-//     @include palm { margin-top: 4em; }
-// }
-.padbot3 { padding-bottom: 3em; }
-.center-pos { text-align: center; }
-.nobr { white-space: nowrap;}

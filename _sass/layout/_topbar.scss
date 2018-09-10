@@ -1,28 +1,28 @@
 .topbar_section {
-    background: $off-black;
-    padding: 1px 0 5px;
-    width: 100%;
-    position: relative;
-    z-index: 500;
+  background: $off-black;
+  padding: 1px 0 5px;
+  width: 100%;
+  position: relative;
+  z-index: 500;
 
-    .topbar_title {
-        text-transform: uppercase;
-        color: $off-white;
-        font-size: 12px;
-        letter-spacing: 0.5px;
-        font-family: $font-brand4;
-        font-weight: 700;
+  .topbar_title {
+    text-transform: uppercase;
+    color: $off-white;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    font-family: $font-brand4;
+    font-weight: 700;
 
-        a {
-            color: $off-white;
-        }
-        a:hover {
-            color: $off-white;
-        }
-        a:visited {
-            color: $off-white;
-        }
+    a {
+      color: $off-white;
     }
+    a:hover {
+      color: $off-white;
+    }
+    a:visited {
+      color: $off-white;
+    }
+  }
 }
 .topbar_link {
     color: $off-white;
@@ -32,38 +32,36 @@
     font-size: 11px;
     margin-top: 6px;
     display: inline-block;
-    // margin-right: 20px;
-    // margin-left: 15px;
 
     @include tablet {
-        float: right;
-        margin-top: 0px;
+      float: right;
+      margin-top: 0px;
     }
 
     &:hover {
-        border-bottom: 1px solid;
-        color: $off-white;
+      border-bottom: 1px solid;
+      color: $off-white;
     }
 
     &:visited {
-        color: $off-white;
+      color: $off-white;
     }
 }
 .topbar_mobile {
-    margin: 0 auto;
-    text-align: center;
-    width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
 
-    @include tablet {
-        width: auto;
-        text-align: inherit;
-        margin: inherit;
-    }
+  @include tablet {
+    width: auto;
+    text-align: inherit;
+    margin: inherit;
+  }
 }
 .book_cta {
-    display: block !important;
+  display: block !important;
 
-    @include tablet {
-        display: table-cell !important;
-    }
+  @include tablet {
+      display: table-cell !important;
+  }
 }

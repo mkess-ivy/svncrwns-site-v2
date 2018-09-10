@@ -27,23 +27,17 @@
         margin-bottom: 30px;
         font-weight: 700;
         text-transform: uppercase;
-		margin-top: 15px;
+				margin-top: 15px;
 
         @include tablet {
-            // font-size: 40px;
-			font-size: 60px;
-            line-height: 0.9;
-			width: 70%;
+					font-size: 60px;
+          line-height: 0.9;
+					width: 70%;
         }
 
         @include desktop {
             font-size: 85px;
             width: 700px;
-        }
-
-        @include desktop-blah {
-            // font-size: 85px;
-
         }
     }
     .phase1-subheader {
@@ -65,89 +59,80 @@
 }
 .work_section {
     position: relative;
-    // margin-bottom: 50px;
 
     @include desktop-blah {
         margin-bottom: 0;
-        // height: calc(100vh - 58vh - 110px);
     }
 }
 .work_szn {
-    margin: 0 auto;
-    position: relative;
-    color: $off-black;
+  margin: 0 auto;
+  position: relative;
+  color: $off-black;
 
-    .work_szn_header {
+  .work_szn_header {
+    font-size: 30px;
+    font-style: italic;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+  }
 
-        font-size: 30px;
-        font-style: italic;
-        margin-bottom: 30px;
-        text-transform: uppercase;
-    }
+  .work_szn_items {
+    @extend %clearfix;
 
-    .work_szn_items {
-        @extend %clearfix;
+    .work_item_wrapper {
+      float: left;
+      margin-bottom: 40px;
+      margin-right: 50px;
+      position: relative;
+      width: 100%;
+      z-index: 1000;
 
-        .work_item_wrapper {
-            float: left;
-            margin-bottom: 40px;
-            margin-right: 50px;
-            position: relative;
-            width: 100%;
-            z-index: 1000;
+      @include palm {
+        width: 75%;
+        max-width: 375px;
+        margin-bottom: 50px;
+      }
 
-            @include palm {
-                width: 75%;
-                max-width: 375px;
-                margin-bottom: 50px;
-            }
-
-            @include tablet {
-                width: 250px;
+      @include tablet {
+        width: 250px;
 				height: 155px;
-            }
-            @include laptop {
-                margin-right: 50px;
-                min-height: 170px;
-            }
-            @include desktop-blah {
+      }
+      @include laptop {
+        margin-right: 50px;
+        min-height: 170px;
+      }
+      @include desktop-blah {
 				height: inherit;
-                margin-right: 25px;
-                margin-bottom: 10px;
-            }
+        margin-right: 25px;
+        margin-bottom: 10px;
+      }
 
-            .work_item_title {
-                font-size: 22px;
-                font-weight: 700;
-                // height: 55px;
-                line-height: 1.2;
-                font-family: $font-brand4;
-                text-transform: uppercase;
-                margin-bottom: 10px;
-                position: relative;
-                // z-index: 600;
+      .work_item_title {
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 1.2;
+        font-family: $font-brand4;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        position: relative;
 
-                a {
-
-                    color: $off-black;
-                    z-index: 1000;
-                }
-            }
-            .work_item_summary {
-                // font-size: 18px;
-                line-height: 1.8;
-
-                position: relative;
-                z-index: 100002;
-
-                @include palm-mid {
-                    width: 75%;
-                }
-                @include tablet {
-                    width: auto;
-                }
-            }
-            
+        a {
+            color: $off-black;
+            z-index: 1000;
         }
+      }
+      .work_item_summary {
+        line-height: 1.8;
+        position: relative;
+        z-index: 100002;
+
+        @include palm-mid {
+            width: 75%;
+        }
+        @include tablet {
+            width: auto;
+        }
+      }
     }
+  }
 }

@@ -8,7 +8,6 @@
     @include desktop {
         max-width: 750px;
         margin: 75px auto 150px;
-        // margin: 0 auto 75px;
     }
 }
 .contact_content {
@@ -19,13 +18,9 @@
         padding: 50px 0;
     }
 
-    @include tablet {
-        // padding: 175px 0;
-    }
     @include desktop {
         width: 77%;
         margin: auto;
-        // padding: 0;
     }
     @include widescreen {
         width: 90%;
@@ -69,11 +64,6 @@
 }
 .contact_form {
     text-align: center;
-    // margin-bottom: 75px;
-
-    @include desktop {
-        // width: 47%;
-    }
 }
 .contact_form input.input_item {
     width: 100%;
@@ -115,46 +105,40 @@
     }
 }
 .studio_info_box {
-    margin: 100px 0 0 0;
-    @include tablet {
-        // margin: 75px auto;
-        margin-bottom: 75px;
-    }
-    @include desktop {
-        // position: fixed;
-        // top: 275px;
-        max-width: 750px;
-        margin: 0 auto 75px;
-    }
-    .studio_info_title {
-        @include heavy_font(16px);
-        margin-bottom: 15px;
+  margin: 100px 0 0 0;
+  @include tablet {
+      margin-bottom: 75px;
+  }
+  @include desktop {
+      max-width: 750px;
+      margin: 0 auto 75px;
+  }
+  .studio_info_title {
+      @include heavy_font(16px);
+      margin-bottom: 15px;
+  }
+  .studio_info_details {
+    span {
+      display: block;
+      text-transform: lowercase;
+      letter-spacing: 0.5px;
+      font-size: 14px;
+      padding-bottom: 10px;
 
-    }
-    .studio_info_details {
-        span {
-            display: block;
-            text-transform: lowercase;
-            letter-spacing: 0.5px;
-            font-size: 14px;
-            padding-bottom: 10px;
+      a {
+        border-bottom: 1px solid;
+        padding-bottom: 3px;
 
-            a {
-                border-bottom: 1px solid;
-                padding-bottom: 3px;
-
-                &:hover {
-                    border-bottom: 1px solid;
-                    padding-bottom: 3px;
-                    color: $color-brand3;
-                }
-            }
+        &:hover {
+          border-bottom: 1px solid;
+          padding-bottom: 3px;
+          color: $color-brand3;
         }
+      }
     }
+  }
 }
-.studio_row {
-    // margin-bottom: 30px;
-}
+
 .studio_info_content {
     width: 200px;
     margin-bottom: 50px;
