@@ -1,25 +1,8 @@
-<!DOCTYPE html>
-<html>
-
-  {% include head.html %}
-
-  <body>
-    <div class="se-pre-con"></div>
-
-    {% include short_header2.html %}
-
-    <div class="newsletter_wrapper">
-        <div class="frow justify-between">
-            <div class="newsletter_page">
-
-            </div>
-            {{ content }}
-        </div>
+{% include grid/head_header_color.html%}
+  <div class="newsletter_wrapper">
+    <div class="frow justify-between">
+      <div class="newsletter_page"></div>
+      {{ content }}
     </div>
-
-    <div class="grid">
-        {%  include short_footer.html %}
-    </div>
-  </body>
-
-</html>
+  </div>
+{% include grid/end_footer.html %}

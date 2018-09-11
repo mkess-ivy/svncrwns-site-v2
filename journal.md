@@ -1,5 +1,5 @@
 ---
-layout: phase1-fullpage
+layout: grid
 title: journal
 permalink: /journal/
 ---
@@ -96,9 +96,6 @@ permalink: /journal/
                                 <div class="archive_title">
                                     <a href="{{ post.url }}">{{ post.title }}</a>
                                 </div>
-                                <!-- <div class="archive_summary">
-                                    {{ post.archive_summary }}
-                                </div> -->
                             </div>
 
                         </div>

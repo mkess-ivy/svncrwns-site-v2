@@ -1,8 +1,8 @@
 ---
-layout: phase1-fullpage
+layout: grid
 title: contact
 permalink: /contact/
-bg_color:
+bg_color: EFC1AE
 ---
 
 <div class="contact_wrapper">

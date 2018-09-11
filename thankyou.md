@@ -1,5 +1,5 @@
 ---
-layout: phase1-fullpage
+layout: grid
 title: thank you
 permalink: /thank-you/
 bg_color: EFC1AE

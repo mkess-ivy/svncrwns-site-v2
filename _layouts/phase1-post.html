@@ -1,63 +1,51 @@
-<!DOCTYPE html>
-<html>
+{% include grid/head_header_color.html %}
+  <div class="frow justify-end">
 
-  {% include head.html %}
-
-  <body>
-    <div class="se-pre-con"></div>
-
-    {% include short_header2.html %}
-
-
-
-    <div class="frow justify-end">
-        <div class="post_layout">
-            <div class="grid_single_post fluid_width_grid">
-                <div class="post_meta_wrapper">
-                    <div class="frow justify-start">
-                        <div class="date">
-                            {{ page.date | date: '%b %d %Y' }}
-                        </div>
-                        <div class="single_post_meta">
-                            <div class="single_post_title">
-                                {{ page.title }}
-                            </div>
-                            <div class="single_post_summary">
-                                {{ page.featured_summary }}
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <div class="post_layout">
+      <div class="grid_single_post fluid_width_grid">
+        <div class="post_meta_wrapper">
+          <div class="frow justify-start">
+            <div class="date">
+              {{ page.date | date: '%b %d %Y' }}
             </div>
-
-            <div class="grid_single_post fluid_width_grid">
-                <div class="featured_image single_post_image" style="background-image:url('{{ page.featured_image }}');">
-                </div>
+            <div class="single_post_meta">
+              <div class="single_post_title">
+                {{ page.title }}
+              </div>
+              <div class="single_post_summary">
+                {{ page.featured_summary }}
+              </div>
             </div>
-
-            <div class="grid fluid_width_grid">
-                <div class="post_wrapper">
-                    <div class="post_copy" id="trigger-left">
-                        {{ content }}
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
-    </div>
-    <div class="pagination_grid">
-        <div class="trigger_item trigger_item--secondary" data-aos="fade-in" data-aos-offset="400" data-aos-anchor="#trigger-left"><span>current article</span>{{page.title}}</div>
-        {% include components/pagination.html %}
+      </div>
 
-        <div class="all_posts_link">
-            <a href="/journal">all posts</a>
+      <div class="grid_single_post fluid_width_grid">
+        <div class="featured_image single_post_image" style="background-image:url('{{ page.featured_image }}');">
         </div>
-    </div>
-    <div class="grid">
-        {%  include short_footer.html %}
+      </div>
+
+      <div class="grid fluid_width_grid">
+        <div class="post_wrapper">
+          <div class="post_copy" id="trigger-left">
+            {{ content }}
+          </div>
+        </div>
+      </div>
     </div>
     
+  </div>
 
+  <div class="pagination_grid">
+
+    <div class="trigger_item trigger_item--secondary" data-aos="fade-in" data-aos-offset="400" data-aos-anchor="#trigger-left"><span>current article</span>{{page.title}}</div>
+
+    {% include components/pagination.html %}
+
+    <div class="all_posts_link">
+      <a href="/journal">all posts</a>
     </div>
-  </body>
 
-</html>
+  </div>
+
+{% include grid/end_footer.html %}

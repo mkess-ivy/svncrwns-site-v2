@@ -1,29 +1,12 @@
-<!DOCTYPE html>
-<html>
+{% include grid/head_header_color.html %}
 
-  {% include head.html %}
-
-  <body>
-    <div class="se-pre-con"></div>
-
-    {% include short_header2.html %}
-
-    <div class="short_body" style="background-image: url('{{ page.phase1-hero }}');">
-
-
-
-        <div class="frow centered phase1-film-wrapper">
-            {{ content }}
-        </div>
+  <div class="short_body" style="background-image: url('{{ page.phase1-hero }}');">
+    <div class="frow centered phase1-film-wrapper">
+      {{ content }}
     </div>
+  </div>
 
-    <div class="grid">
-        {% include components/phase-title.html %}
-        {%  include short_footer.html %}
-    </div>
-    {% include html5video.html %}
-
-
-  </body>
-
-</html>
+  <div class="grid">
+      {% include components/phase-title.html %}
+  </div>
+{% include grid/end_footer.html %}

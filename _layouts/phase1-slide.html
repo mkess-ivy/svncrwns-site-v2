@@ -1,29 +1,11 @@
-<!DOCTYPE html>
-<html>
+{% include grid/head_header_color.html %}
 
-  {% include head.html %}
+  <div class="phase1_slider">
+    {% for item in site.data[page.slider] %}
+      <div class="phase1_cover_slide" style="background-image:url('{{ item.slide }}')"></div>
+    {% endfor %}
+  </div>
 
-  <body>
-    <div class="se-pre-con"></div>
+  {% include components/phase-slide-title.html %}
 
-        {% include short_header2.html %}
-
-
-        <div class="phase1_slider">
-            {% for item in site.data[page.slider] %}
-            <div class="phase1_cover_slide" style="background-image:url('{{ item.slide }}')"></div>
-            {% endfor %}
-
-        </div>
-
-        {% include components/phase-slide-title.html %}
-
-
-    <div class="grid">
-        {%  include short_footer.html %}
-    </div>
-
-
-  </body>
-
-</html>
+{% include grid/end_footer.html %}
