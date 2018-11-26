@@ -11,7 +11,7 @@
 		                    Strategy + Production
 		                </div>
 		                <div class="phase1-subheader">
-		                    SVNCRWNS is a strategy company that prides itself on building stronger businesses and creating amazing user experiences for its clients in the retail, arts and media + entertainment spaces.  Our portfolio sits at the epicenter of art + culture.
+		                    SVNCRWNS is a strategy and production company that started with the single mission of bridging the gap between community and commerce through creative engineering.  We focus on strategic growth for change-oriented entrepreneurs and institutions to help them make better decisions, turn those decisions into action and deliver the sustainable success they desire.  We advise on their most critical issues: business strategy, marketing, operations and digital transformation. <div>[Pronounced: seven crowns]</div>
 		                </div>
 		            </div>
 		        </div>
@@ -46,21 +46,25 @@
 				</div>
 				<div class="portfolio_grid_home">
 					<div class="frow justify-between">
+
 						<div class="single_col_portfolio_alpha">
-							{% assign season_4 = site.catalog | where: "season", "4" %}
-							{% for items in season_4 limit: 2 %}
+
+							{% assign season_4 = site.catalog | where: "season", "4" | sort: "order" %}
+							{% for items in season_4 limit: 3 %}
+								
 								{% include components/single_portfolio_home.html %}
+								
 							{% endfor %}
 						</div>
 						<div class="single_col_portfolio_beta">
 							{% assign season_4 = site.catalog | where: "season", "4" %}
-							{% for items in season_4 limit: 1 offset:2 %}
+							{% for items in season_4 limit: 3 offset:3 %}
 								{% include components/single_portfolio_home.html %}
 							{% endfor %}
 						</div>
 						<div class="single_col_portfolio_alpha">
 							{% assign season_4 = site.catalog | where: "season", "4" %}
-							{% for items in season_4 limit: 2 offset:3 %}
+							{% for items in season_4 limit: 3 offset:6 %}
 								{% include components/single_portfolio_home.html %}
 							{% endfor %}
 						</div>

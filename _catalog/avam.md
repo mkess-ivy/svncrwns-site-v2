@@ -3,6 +3,8 @@
 layout                          : phase1-project
 title 					        : "AVAM Logan Conference"
 season				            : "4"
+category 						: film
+order							: 1
 
 [//]: # (Work on Home Page)
 summary                         : "media coverage for American Visionary Art Museum 2018 Visionary Conference"
