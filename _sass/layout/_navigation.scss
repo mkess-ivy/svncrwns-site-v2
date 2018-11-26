@@ -290,6 +290,15 @@ ul.nav li a:hover::after {
 // phase1_full_height
 .left_header {
   position: relative;
+  width:100%;
+
+  @include tablet-small {
+    width: auto;
+  }
+
+  @include tablet-frow {
+    width: auto;
+  }
 
   a {
     &:hover {
@@ -316,14 +325,23 @@ ul.nav li a:hover::after {
 
 // Collapsed Menu
 .collapsed_menu_wrapper {
+  padding-top: 25px;
+
+  @include tablet-small {
+    padding-top: 0;
+  }
   ul {
 
     padding-top: 5px;
 
     li {
-      display: inline-block;
       padding-right: 10px;
       @include medium_font(16px);
+
+      @include tablet-small {
+        display: inline-block;  
+      }
+      
     }
   }
 }

@@ -40,10 +40,12 @@
   padding: 15px;
   @include tablet {
       max-width: none;
-      padding: 10px 50px 25px;
+      // padding: 10px 50px 25px;
+      padding: 10px 50px 0px;
   }
   @include desktop-blah {
-      padding: 10px 100px 25px;
+      // padding: 10px 100px 25px;
+      padding: 10px 100px 0px;
   }
 }
 .grid_slide {
@@ -146,12 +148,37 @@
   }
 }
 .phase1-site-wrapper {
-  @include bigscreen {
-      height: calc(100vh - 110px);
-  }
+  // @include bigscreen {
+  //     height: calc(100vh - 110px);
+  // }
 }
 
+.grid-bg {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  // filter: grayscale(70%)contrast(100%);
+}
+.grid-smash {
+  margin: auto;
+  position: relative;
+  padding: 15px;
 
+  @include palm-mid {
+    max-width: 450px;
+    // margin: 10px auto;
+  }
+  @include tablet-small {
+    max-width: 500px;
+  }
+  @include tablet {
+    max-width: none;
+    margin: 0px 50px 0;
+  }
+  @include desktop-blah {
+    margin: 0px 100px 0;
+  }
+}
 
 
 // Test
