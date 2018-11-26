@@ -3,6 +3,7 @@
 layout 							: phase1-project
 title 							: "Sankofa"
 season                          : "2"
+category 						: strategy + events
 
 [//]: # (Work on Home Page)
 summary                         : "a pop-up museum produced to activate the youth community in Baltimore"

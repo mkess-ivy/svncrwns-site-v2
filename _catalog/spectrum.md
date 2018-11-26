@@ -3,6 +3,7 @@
 layout                          : phase1-project
 title 					        : "Spectrum"
 season				            : "2"
+category 						: event + film
 
 [//]: # (Work on Home Page)
 summary                         : "a fashion show produced for a pilot event of collaboration amongst retailers + designers"

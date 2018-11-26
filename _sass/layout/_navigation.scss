@@ -328,7 +328,8 @@ ul.nav li a:hover::after {
   padding-top: 25px;
 
   @include tablet-small {
-    padding-top: 0;
+    padding-top: 20px;
+    width: 100%;
   }
   ul {
 
@@ -338,7 +339,7 @@ ul.nav li a:hover::after {
       padding-right: 10px;
       @include medium_font(16px);
 
-      @include tablet-small {
+      @include laptop {
         display: inline-block;  
       }
       

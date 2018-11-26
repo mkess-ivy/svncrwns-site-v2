@@ -3,6 +3,7 @@
 layout                          : phase1-slide
 title 					        : "KIMONO"
 season				            : "2"
+category						: photo
 
 [//]: # (Work on Home Page)
 summary                         : "a photo series.  Cloudy orange skies with an oversaturated Kimono"

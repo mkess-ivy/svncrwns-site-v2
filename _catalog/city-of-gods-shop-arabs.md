@@ -3,6 +3,7 @@
 layout 							: phase1-project
 title 							: "City of Gods x Arabbers"
 season                          : "1"
+category 						: film
 
 [//]: # (Work on Home Page)
 summary                         : "a short docufilm talking to Baltimore Arabbers, local produce providers"

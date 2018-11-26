@@ -3,6 +3,7 @@
 layout							: phase1-project
 title							: "Humble"
 season 							: "3"
+category						: film
 
 [//]: # (Work on Home Page)
 summary                         : "a short film chronicling a weekend in Brooklyn with friends and discussions around black pop culture"

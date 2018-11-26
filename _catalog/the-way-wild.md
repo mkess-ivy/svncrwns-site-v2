@@ -3,6 +3,7 @@
 layout 							: phase1-project
 title 							: "The Way Wild"
 season: "3"
+category						: photo + film
 
 [//]: # (Work on Home Page)
 phase1-hero                     : /assets/images/thewaywild.jpg

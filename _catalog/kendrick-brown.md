@@ -3,6 +3,7 @@
 layout                          : phase1-slide
 title 					        : "Kendrick Brown"
 season				            : "1"
+category						: strategy + website + photo
 
 [//]: # (Work on Home Page)
 summary                         : "branded photography content created for website"

@@ -3,6 +3,7 @@
 layout                          : phase1-slide-web
 title 					        : "Ingram Family Foundation"
 season				            : "3"
+category						: website
 
 [//]: # (Work on Home Page)
 summary                         : "platform created for a non-profit organization that invests in community activist entities that support people of color"

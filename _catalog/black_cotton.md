@@ -3,6 +3,7 @@
 layout                          : phase1-project
 title 					        : "Black Cotton"
 season				            : "1"
+category 						: event
 
 [//]: # (Work on Home Page)
 summary                         : "an art installation curated in conjunction with Noisy Tenants' play production, Black Cotton"

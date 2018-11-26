@@ -3,6 +3,7 @@
 layout                          : phase1-slide-web
 title 					        : "Time"
 season				            : "2"
+category 						: website
 
 [//]: # (Work on Home Page)
 summary                         : "created a platform for Behavioral Health organization, Time, to share their services within the healthcare space"

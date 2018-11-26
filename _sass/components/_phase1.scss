@@ -341,14 +341,15 @@ a.phase1-btn {
   height: 60vh !important;
 
   @include tablet {
-      height: 70vh !important;
+      // height: 70vh !important;
+      height: 100vh !important;
   }
-  @include desktop {
-      height: 80vh !important;
-  }
-  @include tv {
-      height: 85vh !important;
-  }
+  // @include desktop {
+  //     height: 80vh !important;
+  // }
+  // @include tv {
+  //     height: 85vh !important;
+  // }
 }
 .caret_slide {
   position: absolute;

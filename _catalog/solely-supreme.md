@@ -3,6 +3,7 @@
 layout                          : phase1-slide-web
 title 					        : "Solely Supreme"
 season				            : "1"
+category 						: website
 
 [//]: # (Work on Home Page)
 summary                         : "platform created for artist, Solely Supreme, to market him as an artist &mdash; a place to showcase his art, take orders for commission and advertise his product shop"

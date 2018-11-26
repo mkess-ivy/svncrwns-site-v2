@@ -3,6 +3,7 @@
 layout                          : phase1-slide-web
 title 					        : "Taylor's Barbershop"
 season				            : "3"
+category						: website
 
 [//]: # (Work on Home Page)
 summary                         : "created a barbershop site sharing services, booking appts + more"
