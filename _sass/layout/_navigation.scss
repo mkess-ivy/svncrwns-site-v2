@@ -312,3 +312,18 @@ ul.nav li a:hover::after {
     }
   }
 }
+
+
+// Collapsed Menu
+.collapsed_menu_wrapper {
+  ul {
+
+    padding-top: 5px;
+
+    li {
+      display: inline-block;
+      padding-right: 10px;
+      @include medium_font(16px);
+    }
+  }
+}
