@@ -16,7 +16,7 @@ bg_color: D6C4B2
           <div class="small_title_text">Strategy</div>
         </div>
         <div class="small_title_description">
-          Our mission isn’t to churn out websites and design assets — we’re apart of your team and our main priority is helping our clients grow their organizations
+          We work with organizations to identify opportunities of growth + efficiency in their operations.  We help our clients set goals and expectations — then creating a strategic plan that is both actionable + measurable.  Our insights are backed by data, industry trends + strategic analysis.
         </div>
       </div>
       <div class="small_alpha">
@@ -25,14 +25,14 @@ bg_color: D6C4B2
           <div class="small_title_text">Production</div>
         </div>
         <div class="small_title_description">
-          Our mission isn’t to churn out websites and design assets — we’re apart of your team and our main priority is helping our clients grow their organizations
+          Our strategic aim is to work with our clients to create better approaches to connecting with their consumer market.  Our work is not a one package fits all idea - though it falls in the bounds of managing e-commerce + digital platforms, photo, film and branded activations.  <a href="/contact/" style="color: #7A5F1A;">Reach out today</a> to learn how we can join your team.
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<section class="main_season">
+<section class="main_season js_scroll_reveal">
   <div class="season_title">
     2018 season
     <div class="season_roman">iv</div>
@@ -47,7 +47,7 @@ bg_color: D6C4B2
   </div>
 </section>
 
-<section class="archive_work">
+<section class="archive_work js_scroll_reveal">
   <div class="archive_header">
     Archive
   </div>

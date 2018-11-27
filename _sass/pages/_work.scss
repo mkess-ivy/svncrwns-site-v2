@@ -1,9 +1,27 @@
 .beta_page_title {
 	@include heavy_font(24px);
 	padding: 75px 0 50px;
+	@include laptop {
+		padding: 75px 0;
+		font-size: 32px;
+	}
+}
+.discipline_section {
+	@include desktop {
+		width: 85%;
+	}
+	// @include bigscreen {
+	// 	width: 75%;
+	// }
 }
 .small_alpha {
 	padding-bottom: 50px;
+	@include laptop {
+		width: 48%;
+	}
+	@include desktop {
+		width: 44%;
+	}
 }
 .main_season {
 	padding-top: 100px;
@@ -19,11 +37,23 @@
 	@include palm-mid {
 		width: 48%;
 	}
+	@include laptop {
+		width: 31%;
+	}
+	@include desktop {
+		width: 24%;
+	}
 
 	.portfolio_single_img {
 		height: 200px;
 		background: black;
 		margin-bottom: 10px;
+		background-size: cover;
+		background-position: center;
+
+		@include laptop {
+			height: 250px;
+		}
 	}
 	.portfolio_single_title {
 		@include medium_font(16px);
@@ -38,9 +68,19 @@
 .archive_work {
 	padding-top: 100px;
 	padding-bottom: 50px;
+
+	@include desktop {
+		width: 85%;
+	}
+	// @include bigscreen {
+	// 	width: 75%;
+	// }
 }
 .archive_season {
 	padding-top: 25px;
+	@include laptop {
+		width: 31%;
+	}
 }
 .archive_season_title {
 	padding-bottom: 20px;

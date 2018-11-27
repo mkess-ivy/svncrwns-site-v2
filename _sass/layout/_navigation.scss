@@ -331,6 +331,10 @@ ul.nav li a:hover::after {
     padding-top: 20px;
     width: 100%;
   }
+  @include laptop {
+    padding-top: 0;
+    width: auto;
+  }
   ul {
 
     padding-top: 5px;

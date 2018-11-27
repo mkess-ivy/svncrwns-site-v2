@@ -79,7 +79,7 @@ bg_color: D6C4B2
             <div class="studio_info_title">Office Hours
             </div>
             <div class="studio_info_details">
-                <span>mon - fri 7 AM - 9 PM</span><span>saturday 7 am - 5pm</span>
+                <span>mon - fri 7 AM - 7 PM</span><span>saturday 9 am - 5pm</span>
             </div>
         </div>
 
