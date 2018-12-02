@@ -69,9 +69,14 @@
 .archive_work {
 	padding-top: 100px;
 	padding-bottom: 50px;
+	background-color: #99703E;
+	background-image:url('/assets/images/home-slide-1.png');
+	background-size:cover;
+	background-repeat: no-repeat;
+	margin-top: 115px;
 
 	@include desktop {
-		width: 85%;
+		// width: 85%;
 	}
 	// @include bigscreen {
 	// 	width: 75%;
@@ -79,19 +84,30 @@
 }
 .archive_season {
 	padding-top: 25px;
+	@include tablet {
+		margin-bottom: 50px;
+	}
 	@include laptop {
-		width: 31%;
+		// width: 31%;
+		width: 100%;
 	}
 }
 .archive_season_title {
 	padding-bottom: 20px;
+	// color: $off-white;
 	@include heavy_font(14px);
 	div {
 		font-size: 24px;
 	}
 }
 .archive_single_item {
-	padding-bottom: 25px;
+	padding: 10px;
+	margin: 0 20px 20px 0;
+	// background-color: $off-white;
+	@include tablet {
+		width: 31%;
+		
+	}
 }
 .archive_single_title {
 	text-transform: uppercase;
@@ -109,4 +125,14 @@
 	padding-top: 7px;
 	font-family: $font-brand4;
 	font-size: 14px;
+}
+.archive_grid {
+	background: rgba(255,255,255,0.9); 
+	padding: 75px;
+
+	@include tablet {
+		padding: 125px;
+		margin: auto;
+		width: 75%;
+	}
 }
