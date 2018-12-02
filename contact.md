@@ -2,7 +2,7 @@
 layout: grid
 title: contact
 permalink: /contact/
-bg_color: D6C4B2
+bg_color: D6C4B2 
 ---
 
 <div class="contact_wrapper">
