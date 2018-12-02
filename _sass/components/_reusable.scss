@@ -21,11 +21,11 @@
 .small_title_description {
   padding-left: 45px;
   font-family: $font-brand4;
-  font-weight: $medium;
+  font-weight: $normal;
   font-size: 16px;
 
   @include tablet {
-    font-size: 22px;
+    font-size: 18px;
   }
 }
 
@@ -83,7 +83,7 @@
   background-position: top center;
   background-repeat: no-repeat;
   position: relative;
-  height: 60vh !important;
+  height: 75vh !important;
   margin: 0 2px;
 
   @include tablet {
@@ -108,9 +108,18 @@
 }
 .home-meta-title {
   font-size: 24px;
+
+  a {
+    color: $off-white;
+  }
 }
 .home-meta-description {
   padding-top: 7px;
+  display: none;
+
+  @include laptop {
+    display: block;
+  }
 }
 .home-meta-category {
   width: fit-content;

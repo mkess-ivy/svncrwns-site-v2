@@ -326,33 +326,40 @@
 
 
 
-// Theme Alpha -- Home
+// Theme Alpha -- Home-2 Theme
 .themealpha-phase1-masthead {
-  // color: $off-white;
   color: $off-black;
   position: relative;
-  padding: 75px 90px 100px;
+  padding: 75px 20px 100px;
+
+  @include tablet {
+    padding: 50px 50px 100px;
+  }
+
+  @include laptop {
+    padding: 75px 90px 100px;  
+  }
 }
 .themealpha-phase1-header {
   font-family: $font-brand4;
   color: $off-white;
   font-size: 34px;
   line-height: 1.1;
-  // margin-bottom: 30px;
   margin-bottom: 10px;
-  // font-weight: 700;
   text-transform: uppercase;
-  // margin-top: 15px;
   margin-top: 15px;
-  animation-duration: 1.3s;
-  -webkit-animation-duration: 1.3s;
-  animation-delay: .5s;
-  -webkit-animation-delay: .3s;
+  animation-duration: .7s;
+  -webkit-animation-duration: .7s;
+  animation-delay: .7s;
+  -webkit-animation-delay: .7s;
   animation-name: fadeInLeft;
   -webkit-animation-name: fadeInLeft;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 
+  @include palm-mid {
+    font-size: 44px;
+  }
   @include tablet {
     font-size: 60px;
     line-height: 0.9;
@@ -361,6 +368,7 @@
 
   @include desktop {
       width: 600px;
+      font-size: 70px;
   }
 
   @-webkit-keyframes fadeInLeft {
@@ -392,24 +400,24 @@
   
 }
 .themealpha-phase1-subheader {
-  // @include medium_font(20px);
-  font-size: 20px;
-  width: 85%;
+  font-size: 18px;
+  width: 100%;
   max-width: 775px;
   line-height: 1.6;
   text-transform: initial;
   font-family: $font-brand4;
   color: $off-white;
   padding-top: 25px;
-
+  @include tablet {
+    padding: 25px 0 0;
+  }
   @include laptop {
-      // width: 600px;
-      // font-size: 24px;
-      // font-size: 14px;
+    width: 85%;
+    font-size: 20px;
   }
 
   @include desktop-blah {
-      // width: 900px;
+      
   }
 }
 .themealpha-home-section-title {
@@ -417,9 +425,78 @@
   position: relative;
   margin-bottom: -24px;
   z-index: 999;
-  padding: 25px 90px 0;
+  // padding: 25px 20px 0;
+  text-align: center;
   color: $off-white;
   font-family: $font-brand4;
   font-weight: 700;
   text-transform: uppercase;
+  @include palm-mid {
+    text-align: initial;
+    padding: 25px 20px 0;
+  }
+  @include tablet {
+    padding: 25px 50px 0;
+  }
+  @include laptop {
+    padding: 25px 90px 0;
+  }
+}
+.home-lastrow-bigtitle {
+  color: $off-white;
+  font-size: 32px;
+  font-family: 'Montserrat',sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 100%;
+  padding: 75px 135px 75px 0;
+  line-height: 1;
+  animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+  animation-duration: .7s;
+  -webkit-animation-duration: .7s;
+  animation-fill-mode: both;
+  -webkit-animation-fill-mode: both;
+  animation-name: fadeInLeft;
+  -webkit-animation-name: fadeInLeft;
+
+  @include palm-mid {
+
+  }
+  @include tablet {
+    width: 50%;
+    font-size: 38px;
+    padding: 100px 125px 75px 0;
+  }
+  @include laptop {
+    font-size: 44px;
+    padding: 100px 200px 75px 0;
+    // width: 50%;
+  }
+
+  a {
+    color: $off-white;
+    max-width: 320px;
+    display: block;
+
+    &:hover {
+      border: 0;
+      color: $off-black;
+    }
+  }
+}
+.home-lastrow-newsletter {
+  width: 100%;
+  padding: 0px 0 75px;
+
+  @include tablet {
+    // width: 28%;
+    width: 40%;
+    padding: 100px 0;
+    color: $off-white;
+  }
+  @include laptop {
+    width: 28%;
+  }
+  
 }

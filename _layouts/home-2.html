@@ -12,62 +12,93 @@
 
 <div class="themealpha-home-section-title">Our Work</div>
 <div class="myslide2">
-	<div class="home-slide" style="background-image: url('/assets/images/home-slide-1.png');">
+	{% for items in site.data.featured_work %}
+	<div class="home-slide" style="background-image: url('{{ items.image }}');">
 		<div class="home-slide-meta">
-			<div class="home-meta-title">FAM @ Walters Gallery</div>
+			<div class="home-meta-title"><a href="{{ items.url }}">{{ items.title }}</a></div>
 			
-			<div class="home-meta-description">Jade is a writer, producer + director and she's launching a brand, Thursday Night Service, and reached out for video and photography content, social media curation.
+			<div class="home-meta-description">{{ items.description }}
 			</div>
-			<div class="home-meta-category">Photography</div>
+			<div class="home-meta-category">{{ items.category }}</div>
 		</div>
 	</div>
-	<div class="home-slide" style="background-image: url('/assets/images/home-slide-2.png');">
-		<div class="home-slide-meta">
-			<div class="home-meta-title">Aybe, Singer + Songwriter</div>
-			
-			<div class="home-meta-description">Jade is a writer, producer + director and she's launching a brand, Thursday Night Service, and reached out for video and photography content, social media curation.
-			</div>
-			<div class="home-meta-category">Photography</div>
-		</div>
-	</div>
-	<div class="home-slide" style="background-image: url('/assets/images/home-slide-3.png');">
-		<div class="home-slide-meta">
-			<div class="home-meta-title">Believing takes Time</div>
-			
-			<div class="home-meta-description">Jade is a writer, producer + director and she's launching a brand, Thursday Night Service, and reached out for video and photography content, social media curation.
-			</div>
-			<div class="home-meta-category">Event</div>
-		</div>
-	</div>
-	<div class="home-slide" style="background-image: url('/assets/images/home-slide-4.png');">
-		<div class="home-slide-meta">
-			<div class="home-meta-title">Engagement: Love on Display</div>
-			
-			<div class="home-meta-description">Jade is a writer, producer + director and she's launching a brand, Thursday Night Service, and reached out for video and photography content, social media curation.
-			</div>
-			<div class="home-meta-category">Event</div>
-		</div>
-	</div>
-	<div class="home-slide" style="background-image: url('/assets/images/home-slide-5.png');">
-		<div class="home-slide-meta">
-			<div class="home-meta-title">Editorial: Renegade Bride</div>
-			
-			<div class="home-meta-description">Jade is a writer, producer + director and she's launching a brand, Thursday Night Service, and reached out for video and photography content, social media curation.
-			</div>
-			<div class="home-meta-category">Photography</div>
-		</div>
-	</div>
-	<div class="home-slide" style="background-image: url('/assets/images/home-slide-6.jpg');">
-		<div class="home-slide-meta">
-			<div class="home-meta-title">Thursday Night Service</div>
-			
-			<div class="home-meta-description">Jade is a writer, producer + director and she's launching a brand, Thursday Night Service, and reached out for video and photography content, social media curation.
-			</div>
-			<div class="home-meta-category">Photography</div>
-		</div>
-
-	</div>
+	{% endfor %}
 </div>
+
+<section class="home-lastrow">
+	<div class="grid">
+		<div class="frow justify-start">
+			<div class="home-lastrow-bigtitle">
+				<a href="/work/">View Our Portfolio &#8594;</a>
+			</div>
+			<div class="home-lastrow-newsletter">
+				<!-- Begin Mailchimp Signup Form -->
+				<link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
+				<style type="text/css">
+					#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+					/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+					   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+					   #mc_embed_signup {
+					   	background: transparent;
+					   }
+					   #mc_embed_signup label {
+					   	color: #f7f7f7;
+					   	text-transform: uppercase;
+					   	margin-bottom: 0;
+					   	padding-bottom: 12px;
+					   }
+					   #mc_embed_signup #label-description {
+					   	font-family: 'Libre Baskerville',sans-serif;
+					   	font-size: 13px;
+					   	text-transform: initial;
+					   	font-weight: normal;
+					   	/*width: 50%;*/
+					   	/*margin-bottom: 20px;*/
+					   }
+					   #mc_embed_signup input.email {
+					   	background: transparent;
+					   	color: #f7f7f7;
+					   	border: 0;
+					   	border-bottom: 1px solid;
+					   	border-radius: 0;
+					   	width: 70%;
+					   	margin: 0 4% 20px 0;
+					   }
+					   #mc_embed_signup input.email::placeholder {
+					   	color: #f7f7f7;
+					   }
+					   #mc_embed_signup .button {
+					   	border-radius: 0;
+					   	background-color: #f7f7f7;
+					   	color: #070707;
+					   	text-transform: uppercase;
+					   	font-size: 14px;
+					   	font-weight: bold;
+					   	margin-top: 15px;
+					   }
+					   #mc_embed_signup .button:hover {
+					   	background: #000;
+					   	color: #fff;
+					   }
+				</style>
+				<div id="mc_embed_signup">
+				<form action="https://svncrwns.us11.list-manage.com/subscribe/post?u=ab04d0cabec9aa1f49ca3e65e&amp;id=2fe748f030" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+				    <div id="mc_embed_signup_scroll">
+					<label for="mce-EMAIL">Sign up to the newsletter</label>
+					<label id="label-description" for="mce-EMAIL2">Sharing our projects, new insights + exclusive content</label>
+					<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+				    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+				    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_ab04d0cabec9aa1f49ca3e65e_2fe748f030" tabindex="-1" value=""></div>
+				    <div class="clear"><input type="submit" value="Sign Up" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+				    </div>
+				</form>
+				</div>
+
+				<!--End mc_embed_signup-->
+			</div>
+		</div>
+	</div>
+</section>
 
 
 {% include grid/end_footer.html %}
