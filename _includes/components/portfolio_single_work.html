@@ -1,7 +1,7 @@
 <div class="portfolio_single_work">
-    <div class="portfolio_single_img" style="background-image: url('{{ items.portfolio-cover  }}');"></div>
+    <a href="{{ items.url }}"><div class="portfolio_single_img" style="background-image: url('{{ items.portfolio-cover  }}');"></div></a>
     <div class="portfolio_single_title">
-    	{{ items.title }}
-      <div>{{ items.category }}</div>
+    	<a href="{{ items.url }}">{{ items.title }}</a>
+      <div class="portfolio-category">{{ items.category }}</div>
     </div>
 </div>

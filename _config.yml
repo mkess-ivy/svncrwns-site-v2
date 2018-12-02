@@ -15,7 +15,7 @@ permalink: /journal/:title/
 collections:
   catalog:
     output: true
-    permalink: /catalog/:title/
+    permalink: /work/:title/
 
 # Site Variables
 logo              : "/assets/images/svn-logo.svg"

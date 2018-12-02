@@ -1,10 +1,16 @@
 <div class="grid_project fixednavbar">
 <header class="phase1-site-header">
     <div class="frow justify-between">
+    	{% unless page.title == "SVNCRWNS - Home" %}
         <div class="left_header">
             <a href="/"><img src="/assets/images/2018logo.png" width="140" style="margin: 5px 0;" /></a>
         </div>
-
+        {% endunless %}
+        {% if page.title == "SVNCRWNS - Home" %}
+        <div class="left_header">
+            <a href="/"><img src="/assets/images/svncrwns-white-logo.png" width="140" style="margin: 5px 0;" /></a>
+        </div>
+        {% endif %}
         {% include grid/collapsed_menu.html %}
     </div>
 </header>

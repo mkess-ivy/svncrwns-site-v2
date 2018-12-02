@@ -2,7 +2,7 @@
 layout: grid
 title: work
 permalink: /work/
-bg_color: D6C4B2
+
 ---
 
 <div class="beta_page_title">Our Work</div>
@@ -16,7 +16,7 @@ bg_color: D6C4B2
           <div class="small_title_text">Strategy</div>
         </div>
         <div class="small_title_description">
-          We work with organizations to identify opportunities of growth + efficiency in their operations.  We help our clients set goals and expectations — then creating a strategic plan that is both actionable + measurable.  Our insights are backed by data, industry trends + strategic analysis.
+          We work with organizations to identify opportunities of growth + efficiency in their operations.  We help our clients set goals and expectations — then create a strategic plan that is both actionable + measurable.  Our insights are backed by data, industry trends + strategic analysis.
         </div>
       </div>
       <div class="small_alpha">

@@ -5,7 +5,7 @@ permalink: /journal/
 ---
 <div class="grid">
     <div class="masthead_title js_scroll_reveal">
-        Studio happenings, insights, experiments + perspectives on branding
+        Studio happenings, insights + perspectives on branding
     </div>
     <div class="featured">
         journal

@@ -13,6 +13,7 @@
 		max-width: none;
 		margin: 0;
 	}
+
 }
 .left_footer_copy {
 	display: block;
@@ -22,12 +23,19 @@
 		display: inline;
 		margin-top: 0;
 	}
+	&.themealpha-nav {
+		color: $off-white;
+	}
 }
 .right_footer {
 	font-weight: 700;
 	width: 100%;
 	text-align: center;
+	font-size: 12px;
 
+	@include palm-mid {
+		font-size: 14px;
+	}
 	@include tablet {
 		display: block;
 		width: auto;
@@ -49,6 +57,9 @@
 				color: $off-black;
 				font-weight: 700;
 			}
+			&.themealpha-nav a {
+		        color: $off-white !important;
+		      }
 		}
 	}
 

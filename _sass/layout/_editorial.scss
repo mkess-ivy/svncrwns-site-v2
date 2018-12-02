@@ -1,0 +1,37 @@
+.editorial_title {
+	@extend .beta_page_title;
+	padding-bottom: 0 !important;
+}
+.editorial_meta_section {
+	padding: 50px 0 75px;
+}
+.editorial_caption {
+	font-size: 10px;
+	padding-bottom: 75px;
+}
+.view_website {
+	text-align: center;
+	@include heavy_font(16px);
+	padding: 25px 0;
+
+	@include tablet {
+		padding: 25px 0 75px;
+	}
+}
+
+.small_beta {
+	border-bottom: 1px solid #eee;
+	padding-bottom: 35px;
+	margin-bottom: 35px;
+
+	.beta_title_description {
+		padding-left: 35px;
+		letter-spacing: 0.3px;
+		line-height: 1.6;
+	}
+}
+.editorial_masthead {
+	background-position: top center;
+	background-size: cover;
+	height: 60vh;
+}

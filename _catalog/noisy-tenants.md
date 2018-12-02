@@ -8,8 +8,8 @@ key 							: key-yes
 
 [//]: # (Work on Home Page)
 summary                         : "created a website for creative agency that creates local + communal micro-businesses"
-phase1-hero                     : /assets/images/project_noisytenants.jpg
-portfolio-cover					: /assets/images/noisytenants_cover_img.jpg
+phase1-hero                     : /assets/images/noisytenants_masthead.jpg
+portfolio-cover					: /assets/images/noisytenants-cover.jpg
 
 [//]: # (Featured Info)
 featured 						: "yes"

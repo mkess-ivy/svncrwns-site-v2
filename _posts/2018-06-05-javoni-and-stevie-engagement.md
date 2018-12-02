@@ -4,6 +4,7 @@ title: Engagement Photos w/ our friends, javoni + stevie
 
 featured_image: /assets/images/feature_javoni_stevie.jpg
 featured_summary: "Our first engagement shoot with our newly married friends! It's truly a blessing that our friends and peers allow us to strengthen our skillset and create art with such short notice.  This concept was pulled together during a visit to Dallas.  We knew our friends were preparing for their nuptials and we gifted them with an experience to put their love on display."
+featured: true
 ---
 
 ![Javoni + Stevie Engagement 004](/assets/images/post_javoni_stevie_4.jpg)

@@ -341,12 +341,17 @@ ul.nav li a:hover::after {
 
     li {
       padding-right: 10px;
-      @include medium_font(16px);
+      @include medium_font(12px);
+      letter-spacing: 1px;
 
       @include laptop {
         display: inline-block;  
       }
+      &.themealpha-nav a {
+        color: $off-white !important;
+      }
       
     }
+
   }
 }

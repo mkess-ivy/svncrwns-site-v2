@@ -1,0 +1,44 @@
+{% include grid/head_header_color.html %}
+
+<section class="editorial_masthead" style="background-image: url('{{ page.phase1-hero }}');">
+	<div class="grid">
+		<div class="editorial_title">Noisy Tenants</div>
+		<div class="portfolio-category">{{ page.category }}</div>	
+	</div>
+	
+</section>
+
+<div class="grid">
+	<section class="editorial_meta_section">
+		<div class="frow justify-between">
+			<div class="small_beta">
+			    <div class="small_title_wrapper">
+					<!-- <div class="small_title_line"></div> -->
+					<div class="small_title_text">01. About this Project</div>
+			    </div>
+			    <div class="beta_title_description">
+					{{ page.summary }}
+			    </div>
+			</div>
+			<div class="small_beta">
+			    <div class="small_title_wrapper">
+					<!-- <div class="small_title_line"></div> -->
+					<div class="small_title_text">02. Opportunity</div>
+			    </div>
+			    <div class="beta_title_description">
+					{{ page.opportunity }}
+			    </div>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		{{ content }}
+	</section>
+
+	<section class="view_website">
+		<a href="{{ page.website-link }}"> View Website</a>
+	</section>
+</div>
+
+{% include grid/end_footer.html %}
