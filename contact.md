@@ -1,6 +1,6 @@
 ---
 layout: themealpha-contact
-title: contact
+title: work with us
 permalink: /contact/
 
 ---

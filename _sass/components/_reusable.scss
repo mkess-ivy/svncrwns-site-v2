@@ -1,20 +1,19 @@
 // Subheader
 .small_title_wrapper {
   padding-bottom: 25px;
-
-  .small_title_line {
-    display: inline-block;
-    width: 32px;
-    height: 2px;
-    background: black;
-    margin-bottom: 5px;
-  }
-  .small_title_text {
-    display: inline-block;
-    padding-top: 0px;
-    padding-left: 10px;
-    @include heavy_font(14px);
-  }
+}
+.small_title_line {
+  display: inline-block;
+  width: 32px;
+  height: 2px;
+  background: black;
+  margin-bottom: 5px;
+}
+.small_title_text {
+  display: inline-block;
+  padding-top: 0px;
+  padding-left: 10px;
+  @include heavy_font(14px);
 }
 .small_title_description {
   padding-left: 45px;

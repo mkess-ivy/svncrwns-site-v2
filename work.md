@@ -26,7 +26,7 @@ archive_image: /assets/images/home-slide-1.png
             <div class="small_title_text">Production</div>
           </div>
           <div class="small_title_description">
-            Our strategic aim is to work with our clients to create better approaches to connecting with their consumer market.  Our work is not a one package fits all idea - though it falls in the bounds of managing e-commerce + digital platforms, photo, film and branded activations.  <a href="/contact/" style="color: #7A5F1A;">Reach out today</a> to learn how we can join your team.
+            Our strategic aim is to work with our clients to create better approaches to connecting with their consumer market.  We manage + create e-commerce + digital platforms; we create content by photo + film; and we produce branded activations.  <a href="/contact/" style="color: #7A5F1A;">Reach out today</a> to learn how we can join your team.
           </div>
         </div>
       </div>
@@ -52,7 +52,7 @@ archive_image: /assets/images/home-slide-1.png
 <section class="archive_work js_scroll_reveal" style="background-image:url('{{ page.archive_image }}');">
   <div class="grid archive_grid" >
   <div class="archive_header">
-    Archive
+    All Work
   </div>
 
   <div class="frow justify-between">
