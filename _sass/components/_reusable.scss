@@ -1,3 +1,4 @@
+// Subheader
 .small_title_wrapper {
   padding-bottom: 25px;
 
@@ -12,24 +13,15 @@
     display: inline-block;
     padding-top: 0px;
     padding-left: 10px;
-    // text-transform: uppercase;
-    // font-family: $font-brand4;
-    // font-weight: $heavy;
     @include heavy_font(14px);
   }
 }
 .small_title_description {
   padding-left: 45px;
-  font-family: $font-brand4;
   font-weight: $normal;
   font-size: 16px;
   line-height: 1.6;
-
-  @include tablet {
-    // font-size: 18px;
-  }
 }
-
 
 // Buttons
 .sc-cta {
@@ -65,19 +57,13 @@
 }
 
 
+// T H E M E A L P H A  C O M P O N E N T S
 
-// Slide
+// Home - Slider
 .myslide2 {
   width: 100%;
   position: relative;
 }
-// .home-slide {
-//   // background-size: cover;
-//   // background-position: center;
-//   // background-repeat: no-repeat;
-//   // height: 85vh !important; 
-//   // width: 85% !important;
-// }
 .home-slide {
   width: 100%;
   background-size:cover;
@@ -92,7 +78,6 @@
   }
 
   &:hover {
-    // background-color: black;
     filter:sepia(50%);
     -webkit-filter: sepia(50%);
   }
@@ -101,8 +86,6 @@
   color: #fff;
   width: 57%;
   font-size: 12px;
-  // transform: rotate(-90deg);
-  // -webkit-transform: rotate(-90deg);
   position: absolute;
   left: 40px;
   bottom: 40px;
@@ -131,4 +114,29 @@
   margin-top: 10px;
   font-size: 10px;
   font-family: $font-brand4;
+}
+
+
+// Journal Featured Slider
+.journal-featured-slider {
+  width: 100%;
+  position: relative;
+}
+.journal-slide {
+  width: 100%;
+  background-size:cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 75vh !important;
+  margin: 0 2px;
+
+  @include tablet {
+      height: 90vh !important;
+  }
+
+  &:hover {
+    filter:sepia(50%);
+    -webkit-filter: sepia(50%);
+  }
 }

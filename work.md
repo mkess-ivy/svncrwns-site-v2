@@ -2,7 +2,7 @@
 layout: full-grid
 title: work
 permalink: /work/
-
+archive_image: /assets/images/home-slide-1.png
 ---
 
 <div class="grid">
@@ -49,8 +49,8 @@ permalink: /work/
   </section>
 </div>
 
-<section class="archive_work js_scroll_reveal">
-  <div class="grid archive_grid" style="">
+<section class="archive_work js_scroll_reveal" style="background-image:url('{{ page.archive_image }}');">
+  <div class="grid archive_grid" >
   <div class="archive_header">
     Archive
   </div>
@@ -63,11 +63,9 @@ permalink: /work/
       </div>
       <div class="frow justify-start">
         {% assign season_3 = site.catalog | where: "season", "3" %}
-        
         {% for items in season_3 %}
           {% include components/archive_single_item.html %}
         {% endfor %}
-        
       </div>
     </div>
     <div class="archive_season js_scroll_reveal">

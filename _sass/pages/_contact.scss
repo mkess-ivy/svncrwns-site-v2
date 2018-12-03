@@ -63,7 +63,7 @@
 
 }
 .contact_form {
-    text-align: center;
+    // text-align: center;
 }
 .contact_form input.input_item {
     width: 100%;
@@ -105,17 +105,18 @@
     }
 }
 .studio_info_box {
-  margin: 100px 0 0 0;
+  margin: 0px 0 0 0;
   @include tablet {
-      margin-bottom: 75px;
+      // margin-bottom: 75px;
   }
   @include desktop {
       max-width: 750px;
-      margin: 0 auto 75px;
+      margin: 0 auto;
   }
   .studio_info_title {
       @include heavy_font(16px);
       margin-bottom: 15px;
+
   }
   .studio_info_details {
     span {
@@ -128,6 +129,7 @@
       a {
         border-bottom: 1px solid;
         padding-bottom: 3px;
+        color: $off-white;
 
         &:hover {
           border-bottom: 1px solid;

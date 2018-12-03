@@ -4,44 +4,49 @@
     @include tablet {
         margin: 75px 10px;
     }
-    .archive_wrapper_properties {
-        padding-bottom: 75px;
-        @include laptop {
-            padding-top: 10px;
-            margin-left: 2vw;
-        }
+    
+}
+.archive_wrapper_properties {
+    padding-bottom: 75px;
+    @include laptop {
+        padding-top: 10px;
+        margin-left: 2vw;
     }
-    .archive_content {
-        margin-top: 25px;
+}
+.archive_content {
+    margin-top: 25px;
+}
+.archive_single {
+    border-bottom: 1px solid;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    @include laptop {
+        width: 48%;
     }
-    .archive_single {
-        border-bottom: 1px solid;
-        margin-bottom: 20px;
-        padding-bottom: 15px;
-        @include laptop {
-            width: 48%;
-        }
-        .archive_date {
-            @include medium_font(14px);
-            width: 125px;
-            margin-bottom: 15px;
+    .archive_date {
+        @include medium_font(14px);
+        width: 125px;
+        margin-bottom: 15px;
 
-            @include palm {
-                margin-bottom: 0;
-            }
-        }
-        .archive_title {
-            @include heavy_font(14px);
-        }
-        .archive_summary {
-            padding-bottom: 25px;
-            font-size: 14px;
-            width: 70%;
-            letter-spacing: 0.3px;
+        @include palm {
+            margin-bottom: 0;
         }
     }
-    .archive_meta {
+    .archive_title {
+        @include heavy_font(14px);
+    }
+    .archive_summary {
+        padding-bottom: 25px;
+        font-size: 14px;
         width: 70%;
+        letter-spacing: 0.3px;
+    }
+}
+.archive_meta {
+    width: 100%;
+
+    @include palm-mid {
+        width: 70%;        
     }
 }
 .archive_header {
@@ -65,7 +70,7 @@
     padding-top: 100px;
     padding-bottom: 50px;
     background-color: #99703E;
-    background-image:url('/assets/images/home-slide-1.png');
+    // background-image:url('/assets/images/home-slide-1.png');
     background-size:cover;
     background-repeat: no-repeat;
     margin-top: 115px;
@@ -120,12 +125,14 @@
 }
 .archive_single_snippet {
     padding-top: 7px;
-    font-family: $font-brand4;
+    // font-family: $font-brand4;
     font-size: 14px;
 }
 .archive_grid {
     background: rgba(255,255,255,0.93); 
     padding: 25px;
+    width: 80%;
+    margin: auto;
 
     @include palm-mid {
         padding: 50px;
@@ -135,5 +142,12 @@
         // padding: 125px;
         margin: auto;
         width: 85%;
+        padding: 75px;
+    }
+    @include desktop {
+        padding: 100px;
+    }
+    @include widescreen {
+        padding: 75px 100px;
     }
 }

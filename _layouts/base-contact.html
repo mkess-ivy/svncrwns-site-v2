@@ -1,0 +1,106 @@
+---
+layout: grid
+---
+<div class="contact_wrapper">
+    <div class="contact_content">
+        <div class="contact_title">
+            Ready to start a new project? Let’s talk.
+        </div>
+        <div class="contact_summary">
+            Leave us some details about what you’re interested in below, or send us an <a href="mailto:hello@svncrwns.com">email</a>.  We typically respond within 72 hours.
+        </div>
+        <div class="contact_disclaimer">
+            [Example: I want an online shop, brand starter kit, or visual branding]
+        </div>
+    </div>
+
+    <form action="https://getsimpleform.com/messages?form_api_token=9d66432a901371a7a80c41db053ead2c" method="post" class="contact_form">
+
+      <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+      <input type='hidden' name='redirect_to' value='localhost:4000/thank-you/' />
+
+      <!-- all your input fields here.... -->
+      <div class="contact_group">
+          <div class="frow justify-between">
+              <input type='text' name='full name' placeholder="name" required class="input_item" />
+              <input type='email' name='email address' placeholder="email address" class="input_item" />
+          </div>
+
+      </div>
+      <div class="contact_group">
+          <div class="frow justify-between">
+              <input type='tel' name='telephone' placeholder="phone" required class="input_item" />
+              <input type='text' name='company' placeholder="company" required class="input_item" />
+          </div>
+
+      </div>
+      <div class="contact_group">
+          <div class="frow justify-between">
+              <input type='text' name='timeline' placeholder="timeline" required class="input_item" />
+              <input type='text' name='budget' placeholder="budget" required class="input_item" />
+          </div>
+
+      </div>
+
+      <input type='text' name='subject' placeholder="subject" required class="input_item" />
+      <input type='text' name='message' placeholder="message" required class="input_item" />
+
+      <input type='submit' value='Send' />
+    </form>
+</div>
+<div class="studio_info_box js_scroll_reveal">
+    {% include components/archive_section.html title="Studio" %}
+    <div class="studio_row frow justify-between">
+        <div class="studio_info_content">
+            <div class="studio_info_title">
+                Contact
+            </div>
+            <div class="studio_info_details">
+                <span><a href="mailto:hello@svncrwns.com">Email</a></span><span><a href="http://www.instagram.com/svncrwns">@svncrwns</a></span>
+                <span><a href="/newsletter">newsletter</a></span>
+            </div>
+        </div>
+
+        <div class="studio_info_content">
+            <div class="studio_info_title">Specialties
+            </div>
+            <div class="studio_info_details">
+                <span>short films</span>
+                <span>editorial lookbooks</span>
+                <span>online shops</span>
+                <span>pop-up retail/art spaces</span>
+            </div>
+        </div>
+        <div class="studio_info_content">
+            <div class="studio_info_title">Office Hours
+            </div>
+            <div class="studio_info_details">
+                <span>mon - fri 7 AM - 7 PM</span><span>saturday 9 am - 5pm</span>
+            </div>
+        </div>
+
+    </div>
+    <div class="studio_row frow justify-between">
+
+        <div class="studio_info_content">
+            <div class="studio_info_title">Location
+            </div>
+            <div class="studio_info_details">
+                <span>Baltimore, MD</span>
+            </div>
+        </div>
+        <div class="studio_info_content">
+            <div class="studio_info_title">Time zone
+            </div>
+            <div class="studio_info_details">
+                <span>eastern / pacific</span>
+            </div>
+        </div>
+
+        <div class="studio_info_content">
+
+        </div>
+    </div>
+
+
+</div>

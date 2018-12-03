@@ -1,0 +1,96 @@
+{% include grid/head_header_color.html %}
+
+<div class="grid">
+    <div class="beta_page_title">{{ page.title }}</div>
+    <div class="small_alpha">
+        <div class="small_title_wrapper">
+            <div class="small_title_line"></div>
+            <div class="small_title_text">Featured</div>
+        </div>
+        <div class="small_title_description">
+            Studio happenings, insights + perspectives on branding.  Catch behind-the-scenes footage from studio photoshoots + more.
+        </div>
+    </div>
+</div>
+
+<div class="grid js_scroll_reveal">
+{% assign featured_post = site.posts | where: "featured", "true" %}
+{% for post in featured_post limit:1 %}
+<div class="featured_post">
+    <div class="journal-featured-slider">
+        
+        {% for featured_slide in post.featured_slide %}
+        <div class="journal-slide" style="background-image: url('{{ featured_slide.image }}');"></div>
+        {% endfor %}
+
+    </div>
+
+    <div class="js_scroll_reveal">
+        <div class="themealpha_featured_meta">
+            <div class="themealpha_featured_title">
+                <a href="{{ post.url }}">{{ post.title }}</a>
+            </div>
+            <div class="journal_tags">
+                <div class="frow justify-start">
+                    <div class="journal_tag_item">Photography</div>
+                    <div class="journal_tag_item">Engagement</div>
+                </div>
+            </div>
+            <div class="themealpha_featured_summary">{{ post.featured_summary }}</div>
+        </div>
+    </div>
+</div>
+{% endfor %}
+</div>
+
+<div class="grid">
+    <div class="frow justify-between">
+        <div class="themealpha_all_posts_wrapper">
+            <div class="small_alpha">
+                <div class="small_title_wrapper">
+                    <div class="small_title_line"></div>
+                    <div class="small_title_text">The Rest</div>
+                </div>
+            </div>
+            <div class="frow wrap">
+                {% for post in site.posts limit:6 %}
+                    <div class="general_post js_scroll_reveal">
+                        <div class="themealpha_general_post_image" style="background-image:url('{{ post.featured_image }}');"></div>
+                        <div class="themealpha_general_post_title">
+                            <a href="{{ post.url }}">{{ post.title }}</a>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+
+
+        </div>
+    </div>
+</div>
+<section class="archive_work js_scroll_reveal" style="background-image:url('{{ page.archive_image }}');">
+  <div class="grid archive_grid">
+        <div class="archive_header">
+            Archive
+        </div>
+        <div class="archive_content">
+            <div class="frow justify-between">
+                {% for post in site.posts offset:6 %}
+                <div class="archive_single">
+                    <div class="frow justify-start">
+                        <div class="archive_date">{{ post.date | date: "%b %d %Y" }}</div>
+                        <div class="archive_meta">
+                            <div class="archive_title">
+                                <a href="{{ post.url }}">{{ post.title }}</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+
+        </div>
+    </div>
+</section>
+
+{% include grid/end_footer.html %}

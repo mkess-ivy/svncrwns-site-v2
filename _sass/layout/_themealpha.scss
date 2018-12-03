@@ -1,0 +1,319 @@
+// Theme Alpha -- Home
+.themealpha-phase1-masthead {
+  color: $off-black;
+  position: relative;
+  padding: 75px 20px 100px;
+
+  @include tablet {
+    padding: 50px 50px 100px;
+  }
+
+  @include laptop {
+    padding: 75px 90px 100px;  
+  }
+}
+.themealpha-phase1-header {
+  font-family: $font-brand4;
+  color: $off-white;
+  font-size: 34px;
+  line-height: 1.1;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  margin-top: 15px;
+  animation-duration: .7s;
+  -webkit-animation-duration: .7s;
+  animation-delay: .7s;
+  -webkit-animation-delay: .7s;
+  animation-name: fadeInLeft;
+  -webkit-animation-name: fadeInLeft;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+
+  @include palm-mid {
+    font-size: 44px;
+  }
+  @include tablet {
+    font-size: 60px;
+    line-height: 0.9;
+    width: 70%;
+  }
+
+  @include desktop {
+      width: 600px;
+      font-size: 70px;
+  }
+
+  @-webkit-keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+  
+}
+.themealpha-phase1-subheader {
+  font-size: 18px;
+  width: 100%;
+  max-width: 775px;
+  line-height: 1.6;
+  text-transform: initial;
+  // font-family: $font-brand4;
+  color: $off-white;
+  padding-top: 25px;
+  @include tablet {
+    padding: 25px 0 0;
+  }
+  @include laptop {
+    width: 85%;
+    font-size: 20px;
+  }
+
+  @include desktop-blah {
+      
+  }
+}
+.themealpha-home-section-title {
+  font-size: 38px;
+  position: relative;
+  margin-bottom: -24px;
+  z-index: 999;
+  // padding: 25px 20px 0;
+  text-align: center;
+  color: $off-white;
+  font-family: $font-brand4;
+  font-weight: 700;
+  text-transform: uppercase;
+  @include palm-mid {
+    text-align: initial;
+    padding: 25px 20px 0;
+  }
+  @include tablet {
+    padding: 25px 50px 0;
+  }
+  @include laptop {
+    padding: 25px 90px 0;
+  }
+}
+.home-lastrow-bigtitle {
+  color: $off-white;
+  font-size: 32px;
+  font-family: 'Montserrat',sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 100%;
+  padding: 75px 135px 75px 0;
+  line-height: 1;
+  animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+  animation-duration: .7s;
+  -webkit-animation-duration: .7s;
+  animation-fill-mode: both;
+  -webkit-animation-fill-mode: both;
+  animation-name: fadeInLeft;
+  -webkit-animation-name: fadeInLeft;
+
+  @include palm-mid {
+
+  }
+  @include tablet {
+    width: 50%;
+    font-size: 38px;
+    padding: 100px 125px 75px 0;
+  }
+  @include laptop {
+    font-size: 44px;
+    // padding: 100px 200px 75px 0;
+    padding: 50px 200px 25px 0; 
+    // width: 50%;
+  }
+
+  a {
+    color: $off-white;
+    max-width: 320px;
+    display: block;
+
+    &:hover {
+      border: 0;
+      color: $off-black;
+    }
+  }
+}
+.home-lastrow-newsletter {
+  width: 100%;
+  padding: 0px 0 75px;
+
+  @include tablet {
+    // width: 28%;
+    width: 40%;
+    padding: 100px 0;
+    color: $off-white;
+  }
+  @include laptop {
+    width: 28%;
+    padding: 50px 0 25px;
+  }
+  
+}
+
+// JOURNAL
+
+.themealpha_featured_meta {
+  padding-top: 25px;
+  text-align: left;
+  position: relative;
+  margin-top: -14vh;
+  padding: 25px 15px 0;
+
+  @include palm-mid {
+    margin-top: -20vh;
+  }
+  @include tablet {
+    width: 75%;  
+    margin-top: -27vh;
+  }
+  @include desktop {
+    margin-top: -30vh;
+  }
+  @include desktop-blah {
+    // margin-top: -22vh;
+    max-width: 775px;
+  }
+}
+.themealpha_featured_title {
+  @include heavy_font(30px);
+  line-height: 0.9;
+  width: 70%;
+  padding-bottom: 30px;
+
+  @include palm-mid {
+    font-size: 50px;
+  }
+  @include tablet {
+    font-size: 70px;
+    width: 100%;
+  }
+  @include desktop {
+    font-size: 80px;
+  }
+
+  a {
+    color: $off-white;
+
+    &:hover {
+      border-bottom: 0;
+      color: $color-brand1;
+    }
+  }
+}
+.journal_tag_item {
+  background: $color-brand1;
+  @include heavy_font(12px);
+  margin-right: 15px;
+  padding: 3px 8px;
+  color: $off-white;
+  margin-bottom: 7px;
+
+  @include palm-mid {
+
+  }
+}
+.themealpha_featured_summary {
+  padding-top: 25px;
+  font-family: $font-brand3;
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: 0.3px;
+
+  @include palm-mid {
+    font-size: 18px;
+  }
+}
+.themealpha_all_posts_wrapper {
+  margin: 0 10px;
+  
+  @include tablet {
+    width: 100%;
+    // margin: 0 auto;
+  }
+  @include desktop-blah {
+    // width: 85%;
+  }
+}
+.themealpha_general_post_title {
+  padding-top: 15px !important;
+  @extend .general_post_title;
+  border-top: 1px solid;
+  font-size: 14px;
+  text-align: left !important;
+  line-height: 1.2;
+}
+.themealpha_general_post_image {
+  @extend .general_post_image;
+  
+  @include desktop {
+      height: 375px !important;
+  }
+}
+
+// Contact
+.themealpha_contact_wrapper {
+  @include desktop-blah {
+    padding-bottom: 30px;
+  }
+}
+.themealpha_contact_primary {
+  width: 100%;
+  padding-bottom: 75px;
+  @include desktop-blah {
+    width: 50%;
+  }
+  @include tv {
+    width: 55%;
+  }
+}
+.themealpha_contact_form {
+  padding-top: 50px;
+}
+.themealpha_contact_information {
+  background: $color-brand1;
+  padding: 60px 30px;
+  color: $off-white;
+  width: 100%;
+
+  @include tablet {
+    padding: 60px;
+    margin-bottom: 75px;
+  }
+  @include desktop-blah {
+    width: 45%;
+    padding: 40px;
+  }
+  @include tv {
+    width: 40%;
+  }
+}
+.themealpha_studio_item {
+  @include palm-mid {
+    width: 40%;
+  }
+}
