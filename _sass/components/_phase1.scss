@@ -72,16 +72,17 @@
         width: 25%;
         margin: 0;
         position: fixed;
-        left: 25px;
-        bottom: 5vh;
+        // left: 25px;
+        right: 45px;
+        bottom: 3vh;
     }
     @include desktop-blah {
-        left: 50px;
+        // left: 50px;
         width: 20%;
     }
     @include tv {
         max-width: 225px;
-        left: 100px;
+        // left: 100px;
     }
 }
 

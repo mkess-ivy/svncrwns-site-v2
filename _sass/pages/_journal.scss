@@ -104,6 +104,7 @@
       font-family: $font-brand3;
       letter-spacing: 0.5px;
       font-size: 14px;
+      
 
       @include tablet {
           font-size: 20px;
@@ -111,6 +112,7 @@
 
       }
     }
+    
 }
 // List of Posts
 .general_post {
@@ -125,7 +127,7 @@
         width: 50%;
     }
     @include desktop-blah {
-        width: 33.3%;
+        width: 25%;
     }
     .general_post_image {
         background-repeat: no-repeat;
@@ -227,7 +229,7 @@
     text-align: center;
 
     @include desktop {
-        margin: 75px 0 150px;
+        margin: 0px 0 150px;
         text-align: inherit;
     }
 }
@@ -240,10 +242,10 @@
     text-transform: uppercase;
 
     @include desktop {
-        width: 25%;
+        // width: 25%;
         text-align: left;
         margin-top: 15px;
-        padding-bottom: 0;
+        padding-bottom: 10px;
     }
 }
 .single_post_meta {
@@ -276,6 +278,9 @@
     }
     @include tablet {
         font-size: 34px;
+    }
+    @include desktop-blah {
+        font-size: 44px;
     }
 }
 .single_post_summary {

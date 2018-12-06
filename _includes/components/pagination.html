@@ -1,20 +1,17 @@
-{% capture the_collection %}{{page.collection}}{% endcapture %}
 {% if page.collection %}
-    {% assign  document = site[the_collection]  %}
+    {% assign links = site[page.collection]  %}
 {% endif %}
 
-{% for links in document  %}
-    {% if links.title == page.title %}
+{% for link in links %}
+    {% if link.title == page.title %}
         {% unless forloop.first %}
-            {% assign prevurl = prev.url %}
+            {% assign prev = tmpprev %}
         {% endunless %}
-
         {% unless forloop.last %}
-            {% assign next = document[forloop.index] %}
-            {% assign nexturl = next.url %}
+            {% assign next = links[forloop.index] %}
         {% endunless %}
     {% endif %}
-    {% assign prev = links %}
+    {% assign tmpprev = link %}
 {% endfor %}
 
 <script>
@@ -26,7 +23,7 @@ if (e.keyCode == '39') { window.location = '{{nexturl}}'; }
 <div class="post_pagination_wrapper">
     <div class="frow justify-between">
         <div class="post_pagination_content">
-        {% if prevurl %}
+        {% if prev %}
             <div class="post_pagination_header">
                 Previous Article
             </div>
@@ -41,11 +38,11 @@ if (e.keyCode == '39') { window.location = '{{nexturl}}'; }
         {% endif %}
         </div>
         <div class="post_pagination_content">
-        {% if nexturl %}
+        {% if next %}
             <div class="post_pagination_header">
                 Next Article
             </div>
-            <a href="{{ nexturl }}"><div class="post_pagination_title">
+            <a href="{{ next.url }}"><div class="post_pagination_title">
                 {{ next.title }}
 
             </div>
