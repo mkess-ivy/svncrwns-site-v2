@@ -25,6 +25,10 @@
 }
 .main_season {
 	padding-top: 100px;
+
+	@include tablet {
+		padding-bottom: 75px;
+	}
 }
 .season_title {
 	padding-bottom: 50px;

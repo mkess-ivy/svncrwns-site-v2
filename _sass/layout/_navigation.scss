@@ -357,3 +357,14 @@ ul.nav li a:hover::after {
 
   }
 }
+
+.menu_description {
+  color: $off-white;
+  font-size: 18px;
+  padding: 25px 0 50px;
+  line-height: 1.6;
+
+  @include tablet {
+    width: 50%;
+  }
+}
