@@ -228,9 +228,24 @@
     margin-bottom: 75px;
     text-align: center;
 
+    @include palm-mid {
+        text-align: left;
+        width: 85%;
+    }
+    @include tablet {
+        // width: auto;
+        padding: 75px 50px 0;
+    }
+    @include laptop {
+        padding: 75px 0 0;
+        width: 60%;
+    }
     @include desktop {
         margin: 0px 0 150px;
         text-align: inherit;
+    }
+    @include desktop-blah {
+        width: 100%;
     }
 }
 .date {
@@ -251,7 +266,7 @@
 .single_post_meta {
         margin: auto;
     @include tablet {
-        width: 85%;
+        // width: 85%;
     }
     @include desktop {
         margin: 30px 0 0 0;
@@ -297,9 +312,12 @@
     @include tablet {
         margin: 0 0 100px;
     }
+    @include laptop {
+        margin: 0 0 50px;
+    }
     @include desktop {
 
-        margin: 0 0 100px;
+        // margin: 0 0 100px;
     }
 }
 .post_copy {
@@ -333,7 +351,7 @@
 .post_layout {
     width: 100%;
     @include desktop {
-        width: 70%;
+        // width: 70%;
     }
     @include desktop-blah {
         width: 75%;
@@ -354,6 +372,12 @@
     @extend %clearfix;
     margin-bottom: 50px;
 
+    @include palm-mid {
+        border-top: 1px solid #eee;
+        border-bottom: 1px solid #eee;
+        padding: 50px 0;
+    }
+
     .post_pagination_content {
         width: 72%;
         font-family: $font-brand4;
@@ -370,7 +394,7 @@
         @include tablet {
 
         }
-        @include desktop {
+        @include desktop-blah {
             max-width: none;
             width: 100%;
             margin-left: 0;
@@ -429,9 +453,13 @@ a.pagination_links {
     letter-spacing: 1px;
     font-weight: $heavy;
     font-size: 14px;
+    display: none;
 
     @include tablet {
         margin-bottom: 75px;
+    }
+    @include desktop-blah {
+        display: block;
     }
 
 
@@ -445,7 +473,7 @@ a.pagination_links {
 
 .trigger_item {
     display: none;
-    @include desktop {
+    @include desktop-blah {
         display: block;
         color: $off-white;
         background-color: $color-brand5;
