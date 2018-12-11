@@ -1,7 +1,7 @@
 ---
 [//]: # (Meta Info)
 layout                          : phase1-slide
-title 					        : "Wayne"
+title 					        : "Wayne Wilson"
 season				            : "4"
 category						: photo
 key 							: key-yes
@@ -12,6 +12,10 @@ portfolio-cover					: /assets/images/wayne_cover.jpg
 
 [//]: # (Slider)
 slider: wayne_slider
+
+[//]: # (Overlay Menu Info)
+work-tags 							: "art direction, photography"
+work-cover							:
 ---
 
 {% include components/phase-slide-title.html %}

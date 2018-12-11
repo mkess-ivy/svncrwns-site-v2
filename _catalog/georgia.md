@@ -7,12 +7,14 @@ category						: photo
 
 [//]: # (Work on Home Page)
 summary                         : "a photo series.  Georgia was inspired during a visit to the state of Georgia, remembering the history of the South and standing still in it."
-
-[//]: # (Catalog All)
-catalog-cover-image				: /assets/images/akoben_cover.jpg
+portfolio-cover					: /assets/images/georgia_slide1.jpg
 
 [//]: # (Slider)
 slider: georgia_slider
+
+[//]: # (Overlay Menu Info)
+work-tags 							: "photography, art direction, creative direction, talent"
+work-cover							:
 ---
 
 {% include components/phase-slide-title.html %}

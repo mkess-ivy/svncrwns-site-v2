@@ -13,6 +13,10 @@ portfolio-cover					: /assets/images/renegade_bride_cover.jpg
 
 [//]: # (Slider)
 slider: renegade_bride_slider
+
+[//]: # (Overlay Menu Info)
+work-tags 							: "talent, production, creative direction, photography, film"
+work-cover							:
 ---
 
 {% include components/phase-slide-title.html %}

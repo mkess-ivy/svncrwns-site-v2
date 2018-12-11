@@ -8,6 +8,7 @@ category 						: website
 [//]: # (Work on Home Page)
 summary                         : "platform created for artist, Solely Supreme, to market him as an artist &mdash; a place to showcase his art, take orders for commission and advertise his product shop"
 phase1-hero                     : /assets/images/solelysupreme-cover5.jpg
+portfolio-cover 				: /assets/images/solelysupreme-cover5.jpg
 
 [//]: # (Catalog All)
 catalog-cover-image				: /assets/images/blackcotton_cover.jpg
@@ -17,4 +18,8 @@ slider: solelysupreme_slider
 
 [//]: # (Website)
 website_link: http://www.solelysupreme.com
+
+[//]: # (Overlay Menu Info)
+work-tags 							: "website design + development"
+work-cover							:
 ---

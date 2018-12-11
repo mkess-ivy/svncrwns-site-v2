@@ -15,5 +15,8 @@ portfolio-cover					: /assets/images/catalog_avam_logan.jpg
 featured 						: "yes"
 featured-rank 					: "3"
 
+[//]: # (Overlay Menu Info)
+work-tags 							: "film, media coverage, photography"
+
 ---
 {% include components/film.html film-url="https://player.vimeo.com/video/265172091?api=1 " %}

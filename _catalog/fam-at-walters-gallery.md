@@ -16,6 +16,10 @@ catalog-cover-image				: /assets/images/blackcotton_cover.jpg
 
 [//]: # (Slider)
 slider: fam_at_walters_slider
+
+[//]: # (Overlay Menu Info)
+work-tags 							: "photography, art direction, creative direction, producing"
+work-cover							:
 ---
 
 {% include components/phase-slide-title.html %}

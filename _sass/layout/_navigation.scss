@@ -162,15 +162,15 @@ body.noScroll {
   list-style: none;
 }
 .overlay ul li {
-  margin-bottom: 15px;
-  font-family: $font-brand4;
-  font-size: 24px;
-  line-height: 1;
-  text-transform: uppercase;
+  // margin-bottom: 15px;
+  // font-family: $font-brand4;
+  // font-size: 24px;
+  // line-height: 1;
+  // text-transform: uppercase;
 
   @include laptop {
-    font-size: 50px;
-    line-height: 50px;
+    // font-size: 50px;
+    // line-height: 50px;
   }
 }
 .overlay ul li:last-child {
@@ -365,6 +365,9 @@ ul.nav li a:hover::after {
   line-height: 1.6;
 
   @include tablet {
+    width: 85%;
+  }
+  @include laptop {
     width: 45%;
   }
 
@@ -380,23 +383,59 @@ ul.nav li a:hover::after {
 
 // New Hover for Menu
 .js_bg_receiver_work.hover {
-    height: calc(100vh - 50px);
-    width: 100%;
-    background-color: rgba(228,77,78,0.6);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    z-index: -100;
-    display: block;
-    position: absolute;
-    left: 0;
-    bottom: 0;
+  height: calc(100vh - 50px);
+  width: 50%;
+  background-color: rgba(228,77,78,0.6);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  z-index: -100;
+  display: block;
+  position: fixed;
+  right: 0;
+  top: 6vh;
   filter: contrast(100%) grayscale(125%);
 }
 .js_hover_trigger a {
   position: relative;
 
   &:hover {
-    // color: $red;
+    color: $color-brand3;
   }
+}
+
+// New Overlay Layout
+.overlay_section {
+  margin-bottom: 75px;
+  max-width: 1150px;
+}
+.overlay_section_title {
+  color: $color-brand3;
+  @include heavy_font(20px);
+  line-height: 1;
+  padding-bottom: 50px;
+}
+.overlay_project_single {
+  width: 90%;
+  line-height: 1.2;
+  max-width: 250px;
+  @include heavy_font(20px);
+  margin: 0 35px 30px 0;
+
+  @include palm-mid {
+    width: 42%;
+  }
+
+  @include laptop {
+    width: 28%;
+  }
+}
+.overlay_project_tags {
+  font-family: $font-brand3;
+  text-transform: initial;
+  font-size: 14px;
+  font-weight: 400;
+  padding-top: 10px;
+  letter-spacing: 0.5px;
+  line-height: 1.4;
 }

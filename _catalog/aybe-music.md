@@ -13,6 +13,10 @@ portfolio-cover					:  /assets/images/aybe-slide-1.jpg
 
 [//]: # (Slider)
 slider: aybe_slider
+
+[//]: # (Overlay Menu Info)
+work-tags 							: "photography, artist development, brand management, brand strategy"
+work-cover							:
 ---
 
 {% include components/phase-slide-title.html %}

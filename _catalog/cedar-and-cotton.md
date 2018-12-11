@@ -16,6 +16,10 @@ catalog-cover-image				: /assets/images/blackcotton_cover.jpg
 
 [//]: # (Slider)
 slider: cedar_cotton_slider
+
+[//]: # (Overlay Menu Info)
+work-tags 							: "photography, art direction"
+work-cover							:
 ---
 
 {% include components/phase-slide-title.html %}

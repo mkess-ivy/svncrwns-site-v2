@@ -13,6 +13,10 @@ portfolio-cover					: /assets/images/the_war_is_over_cover.jpg
 
 [//]: # (Slider)
 slider: the_war_is_over_slider
+
+[//]: # (Overlay Menu Info)
+work-tags 							: "talent, production, art direction, creative direction, photography, film"
+work-cover							:
 ---
 
 {% include components/phase-slide-title.html %}

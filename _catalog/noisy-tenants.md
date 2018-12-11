@@ -21,6 +21,10 @@ slider: noisytenants_slider
 website-link: http://www.noisytenants.com
 code-link: https://github.com/nickmtchl/nickmtchl.github.io
 
+[//]: # (Overlay Menu Info)
+work-tags 							: "web development, brand identity, site architecture"
+work-cover							:
+
 [//]: # (Case Study)
 brand-statement 				: "Establishing a brand and community partner with a fresh approach to entrepreneurship and youth development."
 project-details-cover 			: /assets/images/noisytenants-project-cover.jpg

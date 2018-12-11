@@ -15,5 +15,9 @@ portfolio-cover					: /assets/images/obk_cover.jpg
 featured 						: "yes"
 featured-rank 					: "2"
 
+[//]: # (Overlay Menu Info)
+work-tags 							: "docu-narrative, short film"
+work-cover							:
+
 ---
 {% include components/film.html film-url="https://player.vimeo.com/video/255387616?api=1 " %}

@@ -8,14 +8,19 @@ category						: website
 [//]: # (Work on Home Page)
 summary                         : "created a barbershop site sharing services, booking appts + more"
 phase1-hero                     : /assets/images/taylorbarbershop_cover.jpg
+portfolio-cover 				: /assets/images/taylorsbarbershop-website-mockup.jpg
 
 [//]: # (Featured Info)
 featured 						: "yes"
 featured-rank 					: "1"
 
 [//]: # (Slider)
-slider: taylorbarbershop_slider
+slider 							: taylorbarbershop_slider
 
 [//]: # (Website)
 website_link: http://www.taylorbarbershop.com
+
+[//]: # (Overlay Menu Info)
+work-tags 						: "website design + development, site architecture, brand identity"
+work-cover						:
 ---

@@ -13,6 +13,10 @@ portfolio-cover					: /assets/images/jadeflowerfoster_slide_3.jpg
 
 [//]: # (Slider)
 slider: jade_flower_foster_slider
+
+[//]: # (Overlay Menu Info)
+work-tags 							: "brand strategy, brand identity, photography, film, social media curation"
+work-cover							:
 ---
 
 {% include components/phase-slide-title.html %}
