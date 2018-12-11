@@ -380,6 +380,21 @@ ul.nav li a:hover::after {
     }
   }
 }
+.all_work_title {
+  position: fixed;
+  top: 29vh;
+  right: 15px;
+  width: 3px;
+  word-break: break-word;
+  font-size: 10px;
+  z-index: 9999;
+
+  @include tablet {
+    right: 40px;
+  bottom: 14vh;
+  top: auto;  
+  }
+}
 
 // New Hover for Menu
 .js_bg_receiver_work.hover {
@@ -438,4 +453,13 @@ ul.nav li a:hover::after {
   padding-top: 10px;
   letter-spacing: 0.5px;
   line-height: 1.4;
+}
+.overlay_alternate_text a {
+  color: $color-brand3 !important;
+  
+
+  &:hover {
+    color: $off-black !important;
+    // border-bottom: 1px solid !important;
+  }
 }
