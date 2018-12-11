@@ -40,11 +40,9 @@
   padding: 15px;
   @include tablet {
       max-width: none;
-      // padding: 10px 50px 25px;
       padding: 10px 50px 0px;
   }
   @include desktop-blah {
-      // padding: 10px 100px 25px;
       padding: 10px 100px 0px;
   }
 }
@@ -68,25 +66,17 @@
         max-width: none;
         margin: 10px 50px 0;
     }
-    @include desktop {
-        // width: 25%;
-        
-    }
     @include desktop-blah {
-        // left: 50px;
         width: 20%;
         margin: 0;
         position: fixed;
-        // left: 25px;
         right: 45px;
         bottom: 3vh;
     }
     @include tv {
         max-width: 225px;
-        // left: 100px;
     }
 }
-
 
 .grid_full {
     @include laptop {
@@ -149,18 +139,12 @@
     }
   }
 }
-.phase1-site-wrapper {
-  // @include bigscreen {
-  //     height: calc(100vh - 110px);
-  // }
-}
 
 .grid-bg {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 85vh;
-  // filter: grayscale(70%)contrast(100%);
 }
 .grid-smash {
   margin: auto;
@@ -169,7 +153,6 @@
 
   @include palm-mid {
     max-width: 450px;
-    // margin: 10px auto;
   }
   @include tablet-small {
     max-width: 500px;
@@ -182,7 +165,6 @@
     margin: 0px 100px 0;
   }
 }
-
 
 // Test
 a.phase1-btn {
@@ -226,30 +208,6 @@ a.phase1-btn {
 // #Test
 
 
-.phase1-js-background-receiver.hover {
-  display: none;
-  @include laptop {
-    height: 100vh;
-    width: 55vw;
-    background-color: $off-black;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    z-index: -5;
-    display: block;
-    position: fixed;
-    right: 0;
-    left: auto;
-    top: 0;
-  }
-}
-.phase1-js-background-trigger a {
-  position: relative;
-}
-.phase1-js-background-trigger {
-  position: relative;
-  z-index: 9999;
-}
 .short_body_wrapper {
     width: 500px;
     margin: 0 auto;
@@ -344,15 +302,8 @@ a.phase1-btn {
   height: 60vh !important;
 
   @include tablet {
-      // height: 70vh !important;
       height: 100vh !important;
   }
-  // @include desktop {
-  //     height: 80vh !important;
-  // }
-  // @include tv {
-  //     height: 85vh !important;
-  // }
 }
 .caret_slide {
   position: absolute;
@@ -443,7 +394,6 @@ a.phase1-btn {
     }
   }
 }
-
 
 // Brand identity Form
 .form_title_svn {

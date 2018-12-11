@@ -77,7 +77,6 @@
   max-width: 775px;
   line-height: 1.6;
   text-transform: initial;
-  // font-family: $font-brand4;
   color: $off-white;
   padding-top: 25px;
   @include tablet {
@@ -87,17 +86,12 @@
     width: 85%;
     font-size: 20px;
   }
-
-  @include desktop-blah {
-      
-  }
 }
 .themealpha-home-section-title {
   font-size: 38px;
   position: relative;
   margin-bottom: -24px;
   z-index: 999;
-  // padding: 25px 20px 0;
   text-align: center;
   color: $off-white;
   font-family: $font-brand4;
@@ -142,9 +136,7 @@
   }
   @include laptop {
     font-size: 44px;
-    // padding: 100px 200px 75px 0;
     padding: 50px 200px 25px 0; 
-    // width: 50%;
   }
 
   a {
@@ -163,7 +155,6 @@
   padding: 0px 0 75px;
 
   @include tablet {
-    // width: 28%;
     width: 40%;
     padding: 100px 0;
     color: $off-white;
@@ -188,15 +179,10 @@
     margin-top: -20vh;
   }
   @include tablet {
-    // width: 75%;  
     margin-top: -27vh;
   }
   @include desktop {
     margin-top: -30vh;
-  }
-  @include desktop-blah {
-    // margin-top: -22vh;
-    
   }
 }
 .themealpha_featured_title {
@@ -237,10 +223,6 @@
   padding: 3px 8px;
   color: $off-white;
   margin-bottom: 7px;
-
-  @include palm-mid {
-
-  }
 }
 .themealpha_featured_summary {
   padding-top: 25px;
@@ -262,7 +244,6 @@
 }
 .featured_post_link {
   @include heavy_font(26px);
-  // line-height: 1;
   max-width: 250px;
   margin: 25px 0;
 
@@ -279,10 +260,6 @@
   
   @include tablet {
     width: 100%;
-    // margin: 0 auto;
-  }
-  @include desktop-blah {
-    // width: 85%;
   }
 }
 .themealpha_general_post_title {

@@ -233,7 +233,6 @@
         width: 85%;
     }
     @include tablet {
-        // width: auto;
         padding: 75px 50px 0;
     }
     @include laptop {
@@ -257,17 +256,14 @@
     text-transform: uppercase;
 
     @include desktop {
-        // width: 25%;
         text-align: left;
         margin-top: 15px;
         padding-bottom: 10px;
     }
 }
 .single_post_meta {
-        margin: auto;
-    @include tablet {
-        // width: 85%;
-    }
+    margin: auto;
+
     @include desktop {
         margin: 30px 0 0 0;
     }
@@ -278,7 +274,6 @@
     @include widescreen {
         width: 65%;
     }
-
 }
 .single_post_title {
     font-weight: $heavy;
@@ -315,10 +310,6 @@
     @include laptop {
         margin: 0 0 50px;
     }
-    @include desktop {
-
-        // margin: 0 0 100px;
-    }
 }
 .post_copy {
     margin-top: 75px;
@@ -350,9 +341,6 @@
 }
 .post_layout {
     width: 100%;
-    @include desktop {
-        // width: 70%;
-    }
     @include desktop-blah {
         width: 75%;
     }

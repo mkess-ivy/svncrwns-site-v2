@@ -62,9 +62,6 @@
     }
 
 }
-.contact_form {
-    // text-align: center;
-}
 .contact_form input.input_item {
     width: 100%;
     display: block;
@@ -106,9 +103,6 @@
 }
 .studio_info_box {
   margin: 0px 0 0 0;
-  @include tablet {
-      // margin-bottom: 75px;
-  }
   @include desktop {
       max-width: 750px;
       margin: 0 auto;

@@ -59,6 +59,66 @@
   }
 }
 
+// CTAs
+a.brand_cta {
+    color: $off_white;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: $heavy;
+    font-family: $font-brand4;
+
+    &:hover {
+        border-bottom: 0;
+        color: $off-black;
+    }
+
+    div {
+        border: 1px solid;
+        padding: 6px 10px;
+        display: inline;
+
+        &:hover {
+            background: $off-white;
+            border-color: $off-white;
+        }
+    }
+}
+
+// Landing Page CTAs
+.lp_lastcall_cta {
+    display: inline-block;
+    margin-bottom: 50px;
+
+    @include tablet {
+        margin-bottom: 150px;
+    }
+
+    a {
+        color: $off-white;
+
+        &:hover {
+            background: $off-white;
+            color: $off-black;
+            border: 1px solid $off-white;
+        }
+        div {
+            border: 1px solid;
+            width: auto;
+            display: inline;
+            padding: 14px 25px;
+            @include heavy_font(16px);
+            background: $off-black;
+
+            &:hover {
+                background: $off-white;
+
+            }
+        }
+    }
+}
+
+
 
 // T H E M E A L P H A  C O M P O N E N T S
 
@@ -87,7 +147,6 @@
 }
 .home-slide-meta {
   color: #fff;
-  // width: 57%;
   font-size: 12px;
   position: absolute;
   left: 20px;
@@ -158,4 +217,67 @@
     filter:sepia(50%);
     -webkit-filter: sepia(50%);
   }
+}
+
+
+
+// Film
+.full_height {
+  height: calc(100vh - 94px);
+}
+.film-wrapper {
+  position: relative;
+}
+.film-project {
+    height: 200px;
+    width: 320px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+    @include palm {
+      height: 250px;
+      width: 400px;
+    }
+
+  @include tablet {
+    height: 450px;
+      width: 700px;
+  }
+  @include laptop {
+    height: 550px;
+    width: 850px;
+  }
+  @include desktop-blah {
+    height: 650px;
+    width: 1000px;
+  }
+}
+.catalog-play {
+  background: $color-brand3;
+}
+
+.four_wrapper {
+    height: calc(100vh - 125px);
+}
+.four_title {
+    color: $off-white;
+    font-size: 125px;
+    text-align: center;
+    font-family: $font-brand4;
+    font-weight: $heavy;
+    letter-spacing: 3px;
+}
+.four_subtitle {
+    color: $off-white;
+    text-transform: uppercase;
+    font-family: $font-brand4;
+    font-weight: $heavy;
+    letter-spacing: 1px;
+    font-size: 20px;
+    padding-bottom: 45px;
+    text-align: center;
+}
+.four_cta {
+    text-align: center;
 }

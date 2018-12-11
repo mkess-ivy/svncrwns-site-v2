@@ -161,18 +161,6 @@ body.noScroll {
 .overlay ul {
   list-style: none;
 }
-.overlay ul li {
-  // margin-bottom: 15px;
-  // font-family: $font-brand4;
-  // font-size: 24px;
-  // line-height: 1;
-  // text-transform: uppercase;
-
-  @include laptop {
-    // font-size: 50px;
-    // line-height: 50px;
-  }
-}
 .overlay ul li:last-child {
   margin-bottom: 0;
 }
@@ -180,10 +168,6 @@ body.noScroll {
   text-decoration: none;
   color: $off-black;
   font-weight: 700;
-}
-.overlay ul li a:hover {
-  // color: $color-brand3;
-  // border-bottom: 0;
 }
 .overlay-close {
   width: 40px;
@@ -204,7 +188,6 @@ body.noScroll {
     display: none;
   }
 }
-
 .overlay-data {
   opacity: 0;
   visibility: hidden;
@@ -217,7 +200,6 @@ body.noScroll {
   -webkit-transition: opacity 0.5s;
   transition: opacity 0.5s;
 }
-
 .main-nav {
   width:calc(100vh - 15px);
   height: 80px;
@@ -372,9 +354,6 @@ ul.nav li a:hover::after {
   }
 
   a {
-    // color: $off-white;
-    // border-bottom: 1px solid;
-
     &:hover {
       color: $color-brand3;
     }
@@ -460,6 +439,5 @@ ul.nav li a:hover::after {
 
   &:hover {
     color: $off-black !important;
-    // border-bottom: 1px solid !important;
   }
 }
