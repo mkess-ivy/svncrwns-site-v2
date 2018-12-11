@@ -11,6 +11,13 @@ $(document).ready(function(){
       });
     }
 
+    // Hover Feature
+    $('.js_hover_trigger').hover(function(){
+        $('.js_bg_receiver_work', this).addClass('hover');
+    },function(){
+        $('.js_bg_receiver_work', this).removeClass('hover');
+    });
+
 
     // Wait for window load
     $(window).load(function() {
@@ -31,7 +38,7 @@ $(document).ready(function(){
     });
 
     
-
+    // Sliders
     $('.phase1_slider').slick ({
         arrows:true,
         autoplay: true,

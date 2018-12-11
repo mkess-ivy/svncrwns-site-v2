@@ -150,7 +150,7 @@ body.noScroll {
   left: 0;
   background-size: cover;
   background-position: center center;
-  background-color: $off-black;
+  background-color: #ffffff;
   z-index: 9009;
   overflow: scroll;
 }
@@ -178,12 +178,12 @@ body.noScroll {
 }
 .overlay ul li a {
   text-decoration: none;
-  color: $off-white;
+  color: $off-black;
   font-weight: 700;
 }
 .overlay ul li a:hover {
-  color: $color-brand3;
-  border-bottom: 0;
+  // color: $color-brand3;
+  // border-bottom: 0;
 }
 .overlay-close {
   width: 40px;
@@ -283,7 +283,7 @@ ul.nav li a:hover::after {
   margin-top: 60px;
 }
 .menu_title {
-  @include third_level_heading(15px, $off-white);
+  @include third_level_heading(15px, $off-black);
   margin-bottom: 25px;
 }
 
@@ -359,12 +359,44 @@ ul.nav li a:hover::after {
 }
 
 .menu_description {
-  color: $off-white;
-  font-size: 18px;
-  padding: 25px 0 50px;
+  color: $off-black;
+  font-size: 16px;
+  padding: 0 0 100px;
   line-height: 1.6;
 
   @include tablet {
-    width: 50%;
+    width: 45%;
+  }
+
+  a {
+    // color: $off-white;
+    // border-bottom: 1px solid;
+
+    &:hover {
+      color: $color-brand3;
+    }
+  }
+}
+
+// New Hover for Menu
+.js_bg_receiver_work.hover {
+    height: calc(100vh - 50px);
+    width: 100%;
+    background-color: rgba(228,77,78,0.6);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    z-index: -100;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  filter: contrast(100%) grayscale(125%);
+}
+.js_hover_trigger a {
+  position: relative;
+
+  &:hover {
+    // color: $red;
   }
 }

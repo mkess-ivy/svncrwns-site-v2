@@ -1,40 +1,27 @@
-<!-- <div id="menu-container"> -->
-  <button class="hamburger hamburger--squeeze" type="button">
-    <span class="hamburger-box">
-      <span class="hamburger-inner"></span>
-    </span>
-  </button>
-<!-- </div> -->
+<button class="hamburger hamburger--squeeze" type="button">
+  <span class="hamburger-box">
+    <span class="hamburger-inner"></span>
+  </span>
+</button>
 
 <div class="overlay overlay-data">
 
   <div class="overlay_container clear">
     <nav>
       <div class="grid">
+        <div class="overlay_header_logo"><img src="/assets/images/svncrwns_black_logo.png" width="140" style="margin: 5px 0;" /></div>
         <div class="menu_group">
-          <!-- <div class="menu_title">site menu</div>
-          <ul>
-            {% for item in site.data.menu_list %}
-              <li><a href="{{ item.menu_link }}">{{ item.menu_item }}</a></li>
-            {% endfor %}
-            <li><a href="/assets/summerpackages2018.pdf">Packages</a></li>
-            <li><a href="/contact/">Contact</a></li>
-          </ul> -->
-        </div>
-
-        <div class="menu_group">
-          <div class="menu_title">work archive</div>
-          <div class="menu_description">View all of SVNCRWNS work since beginning in 2015.  Our portfolio consists of case studies and production work.  Learn more about what we do.  Schedule your session to begin talks of your business and brand strategy.</div>
-          <div class="menu_title">season iv  <span>(2018)</span></div>
+          <div class="menu_description">Our portfolio consists of our case studies — sharing our business + brand strategy, and production work — sharing our photography, short films + events.  Learn more about <a href="/work/">what we do</a>.  <a href="/contact">Schedule your session</a>, let's learn how we can bring value to your work.</div>
+          <!-- <div class="menu_title">season iv  <span>(2018)</span></div>
           <ul>
             {% assign season_4 = site.catalog | where: "season", "4" %}
             {% for work in season_4 %}
             <li><a href="{{ work.url }}">{{ work.title }}</a></li>
             {% endfor %} <br  />
-          </ul>
+          </ul> -->
         </div>
 
-        <div class="menu_group">
+        <!-- <div class="menu_group">
           <div class="menu_title">season iii  <span>(2017)</span></div>
           <ul>
             {% assign season_3 = site.catalog | where: "season", "3" %}
@@ -60,7 +47,17 @@
               <li><a href="{{ work.url }}">{{ work.title }}</a></li>
             {% endfor %}<br/>
           </ul>
-        </div>
+        </div> -->
+        
+        <!-- <div class="menu_group">
+          <ul>
+            <li class="js_hover_trigger">
+              <a href="">title here</a>
+              <div class="js_bg_receiver_work" style="background-image:url('/assets/images/akoben_7.jpg');"></div>
+            </li>
+          </ul>
+        </div> -->
+
       </div>
     </nav>
   </div>
