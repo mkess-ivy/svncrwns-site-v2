@@ -99,6 +99,10 @@
 .project_details_section {
 	position: relative;
 	margin-bottom: 125px;
+
+	@include widescreen {
+		margin-top: -8vh;
+	}
 }
 .project_details {
 	padding: 30px;
@@ -148,7 +152,9 @@
 	}
 	@include widescreen {
 		top: -30vh;
-		height: 400px;
+		height: 450px;
+		width: 50%;
+		right: 3vh;
 	}
 }
 
@@ -160,6 +166,7 @@
 
 	@include tablet {
 		width: 75%;
+		margin: 75px 0 200px;
 	}
 	@include desktop-blah {
 		width: 60%;

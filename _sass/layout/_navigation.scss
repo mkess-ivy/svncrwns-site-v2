@@ -377,18 +377,21 @@ ul.nav li a:hover::after {
 
 // New Hover for Menu
 .js_bg_receiver_work.hover {
-  height: calc(100vh - 50px);
-  width: 50%;
-  background-color: rgba(228,77,78,0.6);
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  z-index: -100;
-  display: block;
-  position: fixed;
-  right: 0;
-  top: 6vh;
-  filter: contrast(100%) grayscale(125%);
+  @include tablet {
+    height: calc(100vh - 50px);
+    width: 50%;
+    background-color: rgba(228,77,78,0.6);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    z-index: -100;
+    display: block;
+    position: fixed;
+    right: 0;
+    top: 6vh;
+    filter: contrast(100%) grayscale(125%);
+  }
+  
 }
 .js_hover_trigger a {
   position: relative;

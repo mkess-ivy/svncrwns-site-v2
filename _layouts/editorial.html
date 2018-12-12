@@ -4,7 +4,7 @@
 <div class="grid">
 	<div class="editorial_meta">
 		<div class="portfolio-category">{{ page.category }}</div>
-		<div class="editorial_title">Noisy Tenants</div>
+		<div class="editorial_title">{{ page.title }}</div>
 		<div class="themealpha_small_alpha">
 	        <div class="small_title_wrapper">
 	            <div class="themealpha_small_title_line"></div>
@@ -18,41 +18,40 @@
 		<div class="project_details_cover" style="background-image:url('{{ page.project-details-cover }}');"></div>
 		<div class="project_details">
 			
-				<div class="project_details_title">Project Details</div>
-				<div class="frow justify-between">
-					
-					<div class="themealpha_small_beta">
-					    <div class="themealpha_project_info_wrapper">
-							<div class="themealpha_project_header_text">01. Opportunity</div>
-					    </div>
-					    <div class="themebeta_title_description">
-							{{ page.opportunity }}
-					    </div>
-					</div>
-					<div class="themealpha_small_beta">
-					    <div class="themealpha_project_info_wrapper">
-							<div class="themealpha_project_header_text">02. Insights</div>
-					    </div>
-					    <div class="themebeta_title_description">
-							{{ page.insights }}
-					    </div>
-					</div>
-					<div class="themealpha_small_beta">
-					    <div class="themealpha_project_info_wrapper">
-							<div class="themealpha_project_header_text">03. Solution</div>
-					    </div>
-					    <div class="themebeta_title_description">
-							{{ page.solution }}
-					    </div>
-					</div>
-					<div class="themealpha_small_beta">
-					    <div class="themealpha_project_info_wrapper">
-							<div class="themealpha_project_header_text">04. About this Project</div>
-					    </div>
-					    <div class="themebeta_title_description">
-							{{ page.summary }}
-					    </div>
-					</div>
+			<div class="project_details_title">Project Details</div>
+			<div class="frow justify-between">
+				<div class="themealpha_small_beta">
+				    <div class="themealpha_project_info_wrapper">
+						<div class="themealpha_project_header_text">01. About this Project</div>
+				    </div>
+				    <div class="themebeta_title_description">
+						{{ page.summary }}
+				    </div>
+				</div>
+				<div class="themealpha_small_beta">
+				    <div class="themealpha_project_info_wrapper">
+						<div class="themealpha_project_header_text">02. Opportunity</div>
+				    </div>
+				    <div class="themebeta_title_description">
+						{{ page.opportunity }}
+				    </div>
+				</div>
+				<div class="themealpha_small_beta">
+				    <div class="themealpha_project_info_wrapper">
+						<div class="themealpha_project_header_text">03. Insights</div>
+				    </div>
+				    <div class="themebeta_title_description">
+						{{ page.insights }}
+				    </div>
+				</div>
+				<div class="themealpha_small_beta">
+				    <div class="themealpha_project_info_wrapper">
+						<div class="themealpha_project_header_text">04. Solution</div>
+				    </div>
+				    <div class="themebeta_title_description">
+						{{ page.solution }}
+				    </div>
+				</div>		
 			</div>
 		</div>
 	</section>
@@ -63,7 +62,8 @@
 
 			<section class="editorial_links">
 				<div class="view_website"><a href="{{ page.website-link }}"> View Website <span>&#8594;</span></a></div>
-				<div class="view_website"><a href="{{ page.code-link }}"> View Code <span>&#8594;</span></a></div>
+				{% if page.code-link %}
+				<div class="view_website"><a href="{{ page.code-link }}"> View Code <span>&#8594;</span></a></div>{% endif %}
 			</section>
 		</div>
 	</section>
