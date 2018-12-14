@@ -13,7 +13,7 @@
 	    </div>
 	</div>	
 
-
+	{% if page.project-details-cover %}
 	<section class="project_details_section">
 		<div class="project_details_cover" style="background-image:url('{{ page.project-details-cover }}');"></div>
 		<div class="project_details">
@@ -55,13 +55,16 @@
 			</div>
 		</div>
 	</section>
+	{% endif %}
 
 	<section class="editorial_images js_scroll_reveal">
 		<div class="grid">
 			{{ content }}
 
 			<section class="editorial_links">
+				{% if page.website-link %}
 				<div class="view_website"><a href="{{ page.website-link }}"> View Website <span>&#8594;</span></a></div>
+				{% endif %}
 				{% if page.code-link %}
 				<div class="view_website"><a href="{{ page.code-link }}"> View Code <span>&#8594;</span></a></div>{% endif %}
 			</section>
