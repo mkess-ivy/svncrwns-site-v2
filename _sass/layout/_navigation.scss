@@ -2,6 +2,9 @@
 .phase1-site-header {
   @include tablet {
     padding-top: 0;
+    position: fixed;
+    width: 90%;
+    z-index: 3000;
   }
 }
 .phase1_menu_btn {
@@ -443,4 +446,7 @@ ul.nav li a:hover::after {
   &:hover {
     color: $off-black !important;
   }
+}
+.overlay_header_logo a:hover {
+  border-bottom: 0;
 }

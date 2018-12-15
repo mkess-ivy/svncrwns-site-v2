@@ -5,12 +5,14 @@
 	<div class="editorial_meta">
 		<div class="portfolio-category">{{ page.category }}</div>
 		<div class="editorial_title">{{ page.title }}</div>
+		{% if page.brand-statement %}
 		<div class="themealpha_small_alpha">
 	        <div class="small_title_wrapper">
 	            <div class="themealpha_small_title_line"></div>
 	            <div class="themealpha_small_title_text">{{ page.brand-statement }}</div>
 	        </div>
 	    </div>
+	    {% endif %}
 	</div>	
 
 	{% if page.project-details-cover %}
@@ -57,7 +59,7 @@
 	</section>
 	{% endif %}
 
-	<section class="editorial_images js_scroll_reveal">
+	<section class="editorial_images">
 		<div class="grid">
 			{{ content }}
 

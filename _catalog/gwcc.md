@@ -3,7 +3,7 @@
 layout                          : editorial
 title 					        : "Greenmount West CC"
 season				            : "4"
-category						: website design + development, brand identity + strategy
+category						: strategy + website
 
 [//]: # (Work on Home Page)
 phase1-hero                     : /assets/images/braneu-cover.jpg

@@ -1,9 +1,9 @@
 ---
 [//]: # (Meta Info)
 layout                          : editorial
-title 					        : "Crust by Mack's Campaign Video"
+title 					        : "Crust by Mack"
 season				            : "4"
-category						: photo
+category						: film
 key 							: key-yes
 
 [//]: # (Work on Home Page)
@@ -27,4 +27,4 @@ solution 						: "The team settled on using Squarespace for its e-commerce suppo
 
 <br/>
 
-Photography: found on @crustbymack's instagram account <br/> Videography: Chavon Henderson
+{% include components/editorial-image.html image-caption-title="Crust By Mack Credits" image-caption="Photography: found on @crustbymack's instagram account <br/> Videography: Chavon Henderson" %}
