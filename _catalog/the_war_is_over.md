@@ -17,6 +17,7 @@ slider: the_war_is_over_slider
 [//]: # (Overlay Menu Info)
 work-tags 							: "talent, art direction, creative direction, photography, film"
 work-cover							:
+work-space 							: "in-house"
 ---
 
 {% include components/phase-slide-title.html %}

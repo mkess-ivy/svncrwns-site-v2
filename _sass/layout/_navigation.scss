@@ -427,7 +427,7 @@ ul.nav li a:hover::after {
   }
 
   @include laptop {
-    width: 28%;
+    width: 45%;
   }
 }
 .overlay_project_tags {
@@ -449,4 +449,21 @@ ul.nav li a:hover::after {
 }
 .overlay_header_logo a:hover {
   border-bottom: 0;
+}
+.overlay-projects {
+  @include desktop-blah {
+    width: 47%;
+    border-right: 1px solid;
+  }
+  &:last-child {
+    border-right: 0;
+  }
+}
+.overlay-projects-title {
+  @include heavy_font(34px);
+  width: 7%;
+  line-height: 1;
+  margin-bottom: 50px;
+  padding-bottom: 7px;
+  border-bottom: 1px solid;
 }

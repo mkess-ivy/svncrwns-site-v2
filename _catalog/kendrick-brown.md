@@ -19,6 +19,7 @@ slider: kendrick_brown_slider
 [//]: # (Overlay Menu Info)
 work-tags 							: "website design + development, photography, art direction, creative direction"
 work-cover							:
+work-space 							: "client"
 ---
 
 {% include components/phase-slide-title.html %}

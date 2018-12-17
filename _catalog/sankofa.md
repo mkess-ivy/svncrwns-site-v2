@@ -3,7 +3,7 @@
 layout 							: phase1-project
 title 							: "Sankofa"
 season                          : "2"
-category 						: strategy + events
+category 						: event
 
 [//]: # (Work on Home Page)
 summary                         : "a pop-up museum produced to activate the youth community in Baltimore"
@@ -19,6 +19,7 @@ featured-category				: "art installation"
 [//]: # (Overlay Menu Info)
 work-tags 							: "business strategy, brand strategy, brand activation, social media management, photography, short film, art installation"
 work-cover							:
+work-space 							: "client"
 ---
 
 {% include components/film.html film-url="https://player.vimeo.com/video/198145423?api=1" %}

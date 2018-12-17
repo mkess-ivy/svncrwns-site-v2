@@ -12,6 +12,7 @@ portfolio-cover					: /assets/images/btt-project-1.jpg
 [//]: # (Overlay Menu Info)
 work-tags 							: "curriculum + event"
 work-cover							:
+work-space 							: "in-house"
 
 [//]: # (Case Study)
 brand-statement 				: "Working with youth in Greenmount West Community Center, bonding with young women, sharing art skills + how to make money"

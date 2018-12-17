@@ -19,4 +19,5 @@ website_link: http://www.lsquarellc.com
 [//]: # (Overlay Menu Info)
 work-tags 							: "website development, website management"
 work-cover							:
+work-space 							: "client"
 ---

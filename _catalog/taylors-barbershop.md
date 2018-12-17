@@ -23,4 +23,5 @@ website_link: http://www.taylorbarbershop.com
 [//]: # (Overlay Menu Info)
 work-tags 						: "website design + development, site architecture, brand identity"
 work-cover						:
+work-space 							: "client"
 ---

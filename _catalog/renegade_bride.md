@@ -17,6 +17,7 @@ slider: renegade_bride_slider
 [//]: # (Overlay Menu Info)
 work-tags 							: "talent, creative direction, photography, film"
 work-cover							:
+work-space 							: "in-house"
 ---
 
 {% include components/phase-slide-title.html %}

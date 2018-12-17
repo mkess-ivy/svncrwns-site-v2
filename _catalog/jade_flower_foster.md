@@ -17,6 +17,7 @@ slider: jade_flower_foster_slider
 [//]: # (Overlay Menu Info)
 work-tags 							: "brand strategy, brand identity, photography, film, social media curation"
 work-cover							:
+work-space 							: "client"
 ---
 
 {% include components/phase-slide-title.html %}

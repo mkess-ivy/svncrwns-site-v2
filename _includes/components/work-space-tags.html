@@ -1,0 +1,22 @@
+
+<div class="frow justify-start">
+	{% case items.category %}
+		{% when 'photo' %}
+		<div class="work-space-tag photo">{{ items.category }}</div>
+		{% when 'film' %}
+		<div class="work-space-tag film">{{ items.category }}</div>
+		{% when 'website' %}
+		<div class="work-space-tag website">{{ items.category }}</div>
+		{% when 'event' %}
+		<div class="work-space-tag event">{{ items.category }}</div>
+		{% when 'special project' %}
+		<div class="work-space-tag special-projects">{{ items.category }}</div>
+	{% endcase %}
+
+	{% if items.work-space == "in-house" %}
+	     <div class="work-space-tag in-house">{{ items.work-space }}</div>
+	{% endif %}
+	{% if items.work-space == "client" %}
+	     <div class="work-space-tag client">{{ items.work-space }}</div>
+	{% endif %}
+</div>

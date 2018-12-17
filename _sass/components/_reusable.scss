@@ -177,22 +177,23 @@ a.brand_cta {
 .home-meta-description {
   padding-top: 7px;
   display: none;
+  padding-bottom: 7px;
 
   @include laptop {
     display: block;
     font-size: 20px;
   }
 }
-.home-meta-category {
-  width: fit-content;
-  background: $color-brand2;
-  text-transform: uppercase;
-  font-weight: bold;
-  padding: 3px 5px;
-  margin-top: 10px;
-  font-size: 10px;
-  font-family: $font-brand4;
-}
+// .home-meta-category {
+//   width: fit-content;
+//   background: $color-brand2;
+//   text-transform: uppercase;
+//   font-weight: bold;
+//   padding: 3px 5px;
+//   margin-top: 10px;
+//   font-size: 10px;
+//   font-family: $font-brand4;
+// }
 
 
 // Journal Featured Slider
@@ -280,4 +281,43 @@ a.brand_cta {
 }
 .four_cta {
     text-align: center;
+}
+
+a.general_link {
+  color: $off-white;
+  border-bottom: 1px solid;
+
+  &:hover {
+    color: $off-black;
+  }
+}
+.work-space-tag {
+  background: black;
+  color: $off-white;
+  padding: 3px 5px;
+  // font-size: 7px;
+  margin-right: 8px;
+  border-radius: 4px;
+  @include heavy_font(7px);
+
+  &.in-house {
+    background: $color-brand3;
+  }
+  &.photo {
+    background: $blue1;
+    color: $off-black;
+  }
+  &.film {
+    background: $blue2;
+    color: $off-black;
+  }
+  &.website {
+    background: $blue3;
+  }
+  &.event {
+    background: $blue4;
+  }
+  &.special-projects {
+    background: $blue5;
+  }
 }

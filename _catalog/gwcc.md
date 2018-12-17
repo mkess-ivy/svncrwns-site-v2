@@ -3,7 +3,7 @@
 layout                          : editorial
 title 					        : "Greenmount West CC"
 season				            : "4"
-category						: strategy + website
+category						: website
 
 [//]: # (Work on Home Page)
 phase1-hero                     : /assets/images/braneu-cover.jpg
@@ -16,6 +16,7 @@ website-link: http://www.greenmountwestcc.org
 [//]: # (Overlay Menu Info)
 work-tags 							: "web design + development"
 work-cover							:
+work-space 							: "client"
 
 [//]: # (Case Study)
 brand-statement 				: "Helping local institution springboard its iniatitives and resources for community youth in arts + entrepreneurship"

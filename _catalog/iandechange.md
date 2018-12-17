@@ -16,6 +16,7 @@ website-link: http://www.iandechange.com
 [//]: # (Overlay Menu Info)
 work-tags 							: "web design + development"
 work-cover							:
+work-space 							: "client"
 
 [//]: # (Case Study)
 brand-statement 				: "Boosting brand’s professionalism and appeal by adding fresh content and a consistent user experience"

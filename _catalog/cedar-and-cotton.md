@@ -20,6 +20,7 @@ slider: cedar_cotton_slider
 [//]: # (Overlay Menu Info)
 work-tags 							: "photography, art direction"
 work-cover							:
+work-space 							: "in-house"
 ---
 
 {% include components/phase-slide-title.html %}

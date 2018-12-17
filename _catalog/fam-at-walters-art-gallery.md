@@ -1,7 +1,7 @@
 ---
 [//]: # (Meta Info)
 layout                          : phase1-slide
-title 					        : "FAM @ Walters Gallery"
+title 					        : "FAM @ Walters Art Gallery"
 season				            : "4"
 category						: photo
 key 							: key-yes
@@ -20,6 +20,7 @@ slider: fam_at_walters_slider
 [//]: # (Overlay Menu Info)
 work-tags 							: "photography, art direction, creative direction, producing"
 work-cover							:
+work-space 							: "in-house"
 ---
 
 {% include components/phase-slide-title.html %}

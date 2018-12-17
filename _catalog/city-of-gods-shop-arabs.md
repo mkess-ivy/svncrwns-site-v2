@@ -19,5 +19,6 @@ data-credits-list 				: seat-at-the-table-credits
 [//]: # (Overlay Menu Info)
 work-tags 							: "documentary, short film, brand lifestyle content"
 work-cover							:
+work-space 							: "client"
 ---
 {% include components/film.html film-url="https://player.vimeo.com/video/208178444?api=1" %}

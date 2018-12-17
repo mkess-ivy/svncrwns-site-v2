@@ -20,6 +20,7 @@ website-link: http://www.braneu.com
 [//]: # (Overlay Menu Info)
 work-tags 							: "web design + development"
 work-cover							:
+work-space 							: "client"
 
 [//]: # (Case Study)
 brand-statement 				: "Establishing brand presence with an online shop to showcase monthly releases from new fashion line."

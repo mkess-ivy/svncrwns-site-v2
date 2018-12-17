@@ -13,6 +13,7 @@ portfolio-cover					: /assets/images/catalog_avam_logan.jpg
 
 [//]: # (Overlay Menu Info)
 work-tags 							: "film, media coverage, photography"
+work-space 							: "client"
 
 [//]: # (Case Study)
 brand-statement 				: "media coverage for American Visionary Art Museum 2018 Visionary Conference"

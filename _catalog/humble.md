@@ -16,5 +16,6 @@ catalog-cover-image				: /assets/images/humble.jpg
 [//]: # (Overlay Menu Info)
 work-tags 							: "docu-narrative, short film, experimental"
 work-cover							:
+work-space 							: "in-house"
 ---
 {% include components/film.html film-url="https://player.vimeo.com/video/242484745?api=1" %}

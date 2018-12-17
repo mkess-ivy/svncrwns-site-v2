@@ -3,7 +3,7 @@
 layout                          : editorial
 title 					        : "Our Brother's Keeper"
 season				            : "4"
-category						: docu-narrative, short film
+category						: film
 
 [//]: # (Work on Home Page)
 phase1-hero                     : /assets/images/braneu-cover.jpg
@@ -16,6 +16,7 @@ website-link: http://www.greenmountwestcc.org
 [//]: # (Overlay Menu Info)
 work-tags 							: "web design + development"
 work-cover							:
+work-space 							: "in-house"
 
 [//]: # (Case Study)
 brand-statement 				: "Gaining perspective on queer women barbers in the male landscape of cosmetics and grooming"

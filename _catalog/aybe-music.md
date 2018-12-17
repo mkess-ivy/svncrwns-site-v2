@@ -17,6 +17,7 @@ slider: aybe_slider
 [//]: # (Overlay Menu Info)
 work-tags 							: "photography, artist development, brand management, brand strategy"
 work-cover							:
+work-space 							: "client"
 ---
 
 {% include components/phase-slide-title.html %}

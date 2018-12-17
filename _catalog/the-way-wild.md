@@ -3,7 +3,7 @@
 layout 							: phase1-project
 title 							: "The Way Wild"
 season: "3"
-category						: photo + film
+category						: film
 
 [//]: # (Work on Home Page)
 phase1-hero                     : /assets/images/thewaywild.jpg
@@ -19,5 +19,6 @@ data-credits-list 				: seat-at-the-table-credits
 [//]: # (Overlay Menu Info)
 work-tags 							: "photography, short film, producing, creative direction"
 work-cover							:
+work-space 							: "client"
 ---
 {% include components/film.html film-url="https://player.vimeo.com/video/242409564?api=1" %}

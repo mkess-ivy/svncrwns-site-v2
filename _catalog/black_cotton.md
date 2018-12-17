@@ -16,5 +16,6 @@ catalog-cover-image				: /assets/images/blackcotton_cover.jpg
 [//]: # (Overlay Menu Info)
 work-tags 							: "art installation"
 work-cover							:
+work-space 							: "in-house"
 ---
 {% include components/film.html film-url="https://player.vimeo.com/video/256622459?api=1 " %}

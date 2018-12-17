@@ -17,6 +17,7 @@ catalog-cover-image				: /assets/images/baltimore.jpg
 [//]: # (Overlay Menu Info)
 work-tags 							: "experimental, short film"
 work-cover							:
+work-space 							: "in-house"
 
 ---
 {% include components/film.html film-url="https://player.vimeo.com/video/263267871?api=1 " %}

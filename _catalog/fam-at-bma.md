@@ -14,4 +14,5 @@ slider: fam_slider
 
 [//]: # (Overlay Menu Info)
 work-tags 							: "photography, art direction, creative direction, producing"
+work-space 							: "in-house"
 ---

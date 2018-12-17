@@ -15,6 +15,7 @@ slider: georgia_slider
 [//]: # (Overlay Menu Info)
 work-tags 							: "photography, art direction, creative direction, talent"
 work-cover							:
+work-space 							: "in-house"
 ---
 
 {% include components/phase-slide-title.html %}

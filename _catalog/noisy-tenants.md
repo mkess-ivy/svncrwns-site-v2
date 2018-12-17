@@ -3,7 +3,7 @@
 layout                          : editorial
 title 					        : "Noisy Tenants"
 season				            : "4"
-category						: strategy + website
+category						: website
 key 							: key-yes
 
 [//]: # (Work on Home Page)
@@ -24,6 +24,7 @@ code-link: https://github.com/nickmtchl/nickmtchl.github.io
 [//]: # (Overlay Menu Info)
 work-tags 							: "web development, brand identity, site architecture"
 work-cover							:
+work-space 							: "client"
 
 [//]: # (Case Study)
 brand-statement 				: "Establishing a brand and community partner with a fresh approach to entrepreneurship and youth development."

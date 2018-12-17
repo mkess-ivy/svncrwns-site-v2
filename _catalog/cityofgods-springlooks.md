@@ -18,6 +18,7 @@ slider: cityofgods_springlooks_slider
 [//]: # (Overlay Menu Info)
 work-tags 							: "photography, creative direction"
 work-cover							:
+work-space 							: "client"
 ---
 
 {% include components/phase-slide-title.html %}

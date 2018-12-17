@@ -13,6 +13,7 @@ portfolio-cover					: /assets/images/crustbymack-1.jpg
 [//]: # (Overlay Menu Info)
 work-tags 							: "art direction, photography"
 work-cover							:
+work-space 							: "client"
 
 [//]: # (Case Study)
 brand-statement 				: "Shot an interview for the founder of Crust by Mack to share new goals for the brand"
