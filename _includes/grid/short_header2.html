@@ -1,5 +1,5 @@
 <div class="grid_project fixednavbar">
-<header class="phase1-site-header">
+<header class="phase1-site-header {% if page.layout == "phase1-project" or page.layout == "phase1-slide" %}project-layout{% endif %}">
     <div class="frow justify-between">
     	{% unless page.title == "SVNCRWNS - Home" %}
         <div class="left_header">

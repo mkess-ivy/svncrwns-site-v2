@@ -40,10 +40,10 @@
   padding: 15px;
   @include tablet {
       max-width: none;
-      padding: 10px 50px 0px;
+      padding: 0px 50px 0px;
   }
   @include desktop-blah {
-      padding: 10px 100px 0px;
+      padding: 0px 100px 0px;
   }
 }
 .grid_slide {
@@ -132,10 +132,10 @@
   }
   &.fluid_width_grid {
     @include desktop {
-      margin: 10px 50px 0 50px;
+      margin: 10px 50px 0 100px;
     }
     @include tv {
-      margin: 0 100px 0 50px;
+      margin: 0 100px 0 100px;
     }
   }
 }

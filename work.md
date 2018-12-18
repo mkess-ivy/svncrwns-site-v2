@@ -14,19 +14,19 @@ archive_image: /assets/images/home-slide-1.png
         <div class="small_alpha">
           <div class="small_title_wrapper">
             <div class="small_title_line"></div>
-            <div class="small_title_text">Strategy</div>
+            <div class="small_title_text">Client Work</div>
           </div>
           <div class="small_title_description">
-            We work with organizations to identify opportunities of growth + efficiency in their operations.  We help our clients set goals and expectations — then create a strategic plan that is both actionable + measurable.  Our insights are backed by data, industry trends + strategic analysis.
+            Our strategic aim is to work with our clients to create better approaches to connecting with their consumer market. We manage + create e-commerce + digital platforms; we create content by photo + film; and we produce branded activations.  We work with organizations to identify opportunities of growth + efficiency in their operations. 
           </div>
         </div>
         <div class="small_alpha">
           <div class="small_title_wrapper">
             <div class="small_title_line"></div>
-            <div class="small_title_text">Production</div>
+            <div class="small_title_text">In-House Projects</div>
           </div>
           <div class="small_title_description">
-            Our strategic aim is to work with our clients to create better approaches to connecting with their consumer market.  We manage + create e-commerce + digital platforms; we create content by photo + film; and we produce branded activations.  <a href="/contact/" style="color: #7A5F1A;">Reach out today</a> to learn how we can join your team.
+            Our in-house work looks like short films, feature films, fashion lookbooks and visuals, working with music artists, developing events + partnerships, creating original content and platforms to share new perspectives.
           </div>
         </div>
       </div>

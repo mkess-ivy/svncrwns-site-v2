@@ -343,6 +343,7 @@
     width: 100%;
     @include desktop-blah {
         width: 75%;
+        margin-bottom: 75px;
     }
 }
 .all_posts_wrapper {
@@ -452,7 +453,8 @@ a.pagination_links {
 
 
     a {
-        border-bottom: 1px solid;
+        border: 2px solid;
+        padding: 3px 6px;
         &:hover {
             color: $color-brand3;
         }
@@ -464,10 +466,9 @@ a.pagination_links {
     @include desktop-blah {
         display: block;
         color: $off-white;
-        background-color: $color-brand5;
+        background-color: $color-brand1;
         padding: 25px 20px;
         line-height: 20px;
-
         @include heavy_font(16px);
     }
 
@@ -481,7 +482,7 @@ a.pagination_links {
 
   &--secondary {
       @include desktop {
-          margin-bottom: 75px;
+          margin-bottom: 30px;
       }
   }
 }

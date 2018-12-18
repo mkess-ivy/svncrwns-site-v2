@@ -3,7 +3,28 @@
 
 <div class="grid">
 	<div class="editorial_meta">
-		<div class="portfolio-category">{{ page.category }}</div>
+		
+		<div class="frow justify-start">
+		{% case page.category %}
+			{% when 'photo' %}
+			<div class="work-space-tag photo">{{ page.category }}</div>
+			{% when 'film' %}
+			<div class="work-space-tag film">{{ page.category }}</div>
+			{% when 'website' %}
+			<div class="work-space-tag website">{{ page.category }}</div>
+			{% when 'event' %}
+			<div class="work-space-tag event">{{ page.category }}</div>
+			{% when 'special project' %}
+			<div class="work-space-tag special-projects">{{ page.category }}</div>
+		{% endcase %}
+
+		{% if page.work-space == "in-house" %}
+		     <div class="work-space-tag in-house">{{ page.work-space }}</div>
+		{% endif %}
+		{% if page.work-space == "client" %}
+		     <div class="work-space-tag client">{{ page.work-space }}</div>
+		{% endif %}
+		</div>
 		<div class="editorial_title">{{ page.title }}</div>
 		{% if page.brand-statement %}
 		<div class="themealpha_small_alpha">
