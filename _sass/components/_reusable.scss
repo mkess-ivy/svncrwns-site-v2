@@ -171,30 +171,20 @@ a.brand_cta {
   }
 
   a {
-    color: $off-white;
+    @include first-page-color;
   }
 }
 .home-meta-description {
   padding-top: 7px;
   display: none;
   padding-bottom: 7px;
+  @include first-page-color;
 
   @include laptop {
     display: block;
     font-size: 20px;
   }
 }
-// .home-meta-category {
-//   width: fit-content;
-//   background: $color-brand2;
-//   text-transform: uppercase;
-//   font-weight: bold;
-//   padding: 3px 5px;
-//   margin-top: 10px;
-//   font-size: 10px;
-//   font-family: $font-brand4;
-// }
-
 
 // Journal Featured Slider
 .journal-featured-slider {
@@ -319,5 +309,60 @@ a.general_link {
   }
   &.special-projects {
     background: $blue5;
+  }
+}
+
+// One-off Catalog Projects
+.avam-videos {
+  @include desktop-blah {
+    width: 31%;
+    height: 300px !important;
+    padding-bottom: 0 !important;
+    margin-right: 1.3vw;
+    margin-bottom: 2vh;  
+  }
+  
+}
+.fixed-project-group {
+  display: none;
+  @include desktop-blah {
+    position: fixed;
+    display: block;
+    bottom: 8vh;
+    left: 6vw;  
+  }
+  
+  .image {
+    @include desktop-blah {
+      background-image: url('/assets/images/wayne_cover.jpg');
+      height: 125px;
+      width: 175px;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  }
+  .image-title {
+    @include heavy_font(12px);
+    margin-top: 3px;
+    margin-bottom: 15px;
+  }
+  .fixed-project-title {
+    @include desktop-blah {
+      transform: rotate(270);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(270deg);
+    position: fixed;
+    left: -40px;
+    bottom: 190px;
+    font-size: 18px;
+    border-bottom: 1px solid;
+    letter-spacing: 1.5px;
+    }
+  }
+  a.image-title:hover {
+    border-bottom: 1px solid;
   }
 }

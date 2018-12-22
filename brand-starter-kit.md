@@ -2,6 +2,19 @@
 layout: phase1-landingpage
 title: Brand Starter Kit
 permalink: /brand-starter-kit/
+bg_color: fff474
+
+fixed-project-image1: /assets/images/wayne_cover.jpg
+fixed-project-title1: Wayne Wilson
+fixed-project-url1: /work/wayne-wilson
+
+fixed-project-image2: /assets/images/noisytenants-cover.jpg
+fixed-project-title2: Noisy Tenants
+fixed-project-url2: /work/noisy-tenants
+
+fixed-project-image3: /assets/images/btt-project-details.png
+fixed-project-title3: Believing takes Time
+fixed-project-url3: /work/believing-takes-time
 
 masthead_summary: "Take the guess work out of launching and connecting with your audience.  We've got a three-point strategy for your brand."
 

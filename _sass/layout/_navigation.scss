@@ -1,6 +1,6 @@
 /* Phase 1 Header */
 .phase1-site-header {
-  @include tablet {
+  @include laptop {
     padding-top: 0;
     position: fixed;
     width: 90%;
@@ -334,7 +334,7 @@ ul.nav li a:hover::after {
 
     li {
       padding-right: 10px;
-      @include medium_font(14px);
+      @include heavy_font(14px);
       letter-spacing: 2px;
       padding-bottom: 10px;
 
@@ -344,7 +344,8 @@ ul.nav li a:hover::after {
         padding-bottom: 0;
       }
       &.themealpha-nav a {
-        color: $off-white !important;
+        // color: $off-white !important;
+        @include first_page_color;
       }
       
     }

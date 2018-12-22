@@ -55,6 +55,14 @@
 		@include laptop {
 			height: 250px;
 		}
+		&:hover {
+			filter: blur(1.5px)sepia(50%);
+			transition: 1.5s;
+			-webkit-filter: blur(1.5px)sepia(50%);
+			-webkit-transition: 1.5s;
+			-moz-filter: blur(1.5px)sepia(50%);
+			-moz-transition: 1.5s;
+		}
 	}
 	.portfolio_single_title {
 		@include medium_font(16px);

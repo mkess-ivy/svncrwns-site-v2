@@ -121,7 +121,7 @@
 }
 .lp_sp_number {
     @include heavy_font(80px);
-    color: #e0e0e0;
+    color: $color-brand1;
     letter-spacing: 2px;
     position: absolute;
     top: 40px;

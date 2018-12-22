@@ -32,6 +32,9 @@
 @mixin font_size_micro {
     font-size: 12px  !important;
 }
+@mixin first-page-color {
+    color: $yellow;
+}
 
 
 // Other Mixins

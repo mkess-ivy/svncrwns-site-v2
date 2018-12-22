@@ -30,7 +30,8 @@
 		margin-top: 0;
 	}
 	&.themealpha-nav {
-		color: $off-white;
+		// color: $;
+		@include first-page-color;
 	}
 }
 .right_footer {
@@ -64,7 +65,7 @@
 				font-weight: 700;
 			}
 			&.themealpha-nav a {
-		        color: $off-white !important;
+		        color: $yellow !important;
 		      }
 		}
 	}
