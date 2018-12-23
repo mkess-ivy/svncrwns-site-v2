@@ -22,8 +22,4 @@ work-space 							: "client"
 
 {% include components/editorial-image.html image-name="jadeflowerfoster_3.png" %}
 
-{% include components/editorial-image.html image-name="jadeflowerfoster_4.png" %}
-
-Talent: Jade Flower Foster
-
-Photography + Creative Direction: Chavon Henderson
+{% include components/editorial-image.html image-caption-title="Credits" image-caption="Talent: Jade Flower Foster<br/>Photography & Creative Direction: Chavon Henderson" %}

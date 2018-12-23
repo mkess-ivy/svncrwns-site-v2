@@ -1,7 +1,7 @@
 ---
 [//]: # (Meta Info)
 layout                          : phase1-slide
-title 					        : "FAM @ Walters Art Gallery"
+title 					        : "FAM @ Walters Art Museum"
 season				            : "4"
 category						: photo
 key 							: key-yes

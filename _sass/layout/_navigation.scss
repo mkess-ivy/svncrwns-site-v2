@@ -380,12 +380,21 @@ ul.nav li a:hover::after {
   word-break: break-word;
   font-size: 10px;
   z-index: 9999;
+  font-family: $font-brand4;
+  font-weight: $heavy;
+  text-transform: uppercase;
+
 
   @include tablet {
     right: 40px;
   bottom: 14vh;
   top: auto;  
   }
+   @include desktop-blah {
+    font-size: 14px;
+    bottom: 12vh;
+  }
+
 }
 
 // New Hover for Menu

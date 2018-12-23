@@ -77,7 +77,8 @@
   max-width: 775px;
   line-height: 1.6;
   text-transform: initial;
-  @include first_page_color;
+  // @include first_page_color;
+  color: $off-white;
   padding-top: 25px;
   @include tablet {
     padding: 25px 0 0;
@@ -141,7 +142,8 @@
   }
 
   a {
-    @include first_page_color;
+    // @include first_page_color;
+    color: $off-white;
     max-width: 320px;
     display: block;
 

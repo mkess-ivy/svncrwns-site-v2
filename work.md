@@ -33,7 +33,7 @@ archive_image: /assets/images/home-slide-1.png
     </div>
   </section>
 
-  <section class="main_season js_scroll_reveal">
+  <section class="main_season">
     <div class="season_title">
       2018 season
       <div class="season_roman">iv</div>

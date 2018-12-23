@@ -15,6 +15,17 @@
 }
 .editorial_links {
 	margin-bottom: 75px;
+	background: $yellow;
+	padding: 15px 25px 0;
+	width: 75%;
+
+	@include tablet {
+		width: 50%;
+	}
+	@include desktop {
+		width: 26%;	
+	}
+	
 }
 .view_website {
 	@include heavy_font(20px);
@@ -173,10 +184,13 @@
 
 	@include tablet {
 		width: 75%;
-		margin: 75px 0 200px;
+		margin: 75px 0 100px;
 	}
 	@include desktop-blah {
 		width: 60%;
+	}
+	&:last-child {
+		margin-bottom: 50px;
 	}
 }
 .editorial-caption-title {

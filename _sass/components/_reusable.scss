@@ -171,7 +171,8 @@ a.brand_cta {
   }
 
   a {
-    @include first-page-color;
+    // @include first-page-color;
+    color: $off-white;
   }
 }
 .home-meta-description {
@@ -274,7 +275,7 @@ a.brand_cta {
 }
 
 a.general_link {
-  color: $off-white;
+  @include first-page-color;
   border-bottom: 1px solid;
 
   &:hover {
