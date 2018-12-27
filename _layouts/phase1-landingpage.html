@@ -1,6 +1,6 @@
 {% include grid/head_header_color.html %}
   <div class="grid grid_lp">
-    <div class="fixed-project-group">
+    <div class="fixed-project-group" id="followwidget">
       <div class="fixed-project-title">featured projects</div>
       {% include components/fixed-feature-project.html %}
       
@@ -44,4 +44,14 @@
 
     </div>
   </div>
+  <div class="grid">
+    {% include components/read-more-bar.html 
+      image="assets/images/read-more-bsk.jpg"
+      prev-link="/journal/"
+      prev-title="read journal"
+      next-link="/contact/"
+      next-title="work with us"
+      position="77%" %}
+  </div>
+
 {% include grid/end_footer.html %}

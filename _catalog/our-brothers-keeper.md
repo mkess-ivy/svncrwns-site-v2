@@ -9,13 +9,8 @@ category						: film
 phase1-hero                     : /assets/images/braneu-cover.jpg
 portfolio-cover					: /assets/images/obk_cover.jpg
 
-
-[//]: # (Website)
-website-link: http://www.greenmountwestcc.org
-
 [//]: # (Overlay Menu Info)
 work-tags 							: "web design + development"
-work-cover							:
 work-space 							: "in-house"
 
 [//]: # (Case Study)
@@ -33,7 +28,5 @@ solution 						: "Our solution, two queer barbers, two different cities.  Our co
 {% include components/editorial-image.html image-name="obk-project-3.png" %}
 
 {% include components/editorial-image.html image-name="obk-project-4.png" %}
-
-
 
 {% include components/editorial-image.html image-caption-title="Our Brother's Keeper Short Film Credits" image-caption="Production & Direction: Chavon Henderson<br/>Cinematography: Montier Kess<br/>Content Design: SVNCRWNS" %}

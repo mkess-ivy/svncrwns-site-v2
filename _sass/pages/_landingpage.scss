@@ -195,6 +195,7 @@
         @include heavy_font(28px);
         line-height: 30px;
         padding-bottom: 25px;
+        color: $color-brand1;
 
         @include desktop {
             font-size: 36px;

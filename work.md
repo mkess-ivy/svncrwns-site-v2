@@ -47,4 +47,12 @@ archive_image: /assets/images/home-slide-1.png
       </div>
     </div>
   </section>
+  {% include components/read-more-bar.html 
+      image="assets/images/read-more-work.jpg"
+      prev-link="/"
+      prev-title="go home"
+      next-link="/journal/"
+      next-title="read journal"
+      position="42%"
+  %}
 </div>

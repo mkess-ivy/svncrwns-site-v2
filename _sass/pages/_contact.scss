@@ -87,7 +87,7 @@
 .contact_form input[type="submit"] {
     border-radius: 0;
     border-color: transparent;
-    background-color: black;
+    background-color: $color-brand1;
     color: white;
     padding: 10px 20px;
     @include heavy_font(14px);
@@ -95,6 +95,10 @@
     display: inline-block;
     border: none;
     -webkit-appearance: none;
+}
+.contact_form input[type="submit"]:hover {
+    background-color: $off-black;
+
 }
 .contact_group input {
     @include tablet {

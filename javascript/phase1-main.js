@@ -37,6 +37,14 @@ $(document).ready(function(){
         });
     });
 
+    $(window).scroll(function() {
+        if (jQuery('body').height() <= (jQuery(window).height() + jQuery(window).scrollTop())) {
+            $('#followwidget').fadeOut("slow");
+        }else{
+            $("#followwidget").fadeIn("slow");
+        }
+    });
+
     
     // Sliders
     $('.phase1_slider').slick ({
@@ -113,5 +121,7 @@ $(document).ready(function(){
             }
         ]
     });
+
+    
 
 });

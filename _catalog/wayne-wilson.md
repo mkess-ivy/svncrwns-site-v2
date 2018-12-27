@@ -26,6 +26,4 @@ brand-statement 				:
 
 {% include components/editorial-image.html image-name="waynewilson_4.png" %}
 
-Talent: Wayne Wilson
-
-Photography + Creative Direction: Chavon Henderson
+{% include components/editorial-image.html image-caption-title="Credits" image-caption="Talent: Wayne Wilson<br/>Photography + Creative Direction: Chavon Henderson" %}

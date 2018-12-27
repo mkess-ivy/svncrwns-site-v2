@@ -95,20 +95,20 @@ a.brand_cta {
     }
 
     a {
-        color: $off-white;
+        color: $yellow;
 
         &:hover {
             background: $off-white;
             color: $off-black;
-            border: 1px solid $off-white;
+            // border: 1px solid $off-white;
         }
         div {
-            border: 1px solid;
+            // border: 1px solid;
             width: auto;
             display: inline;
             padding: 14px 25px;
             @include heavy_font(16px);
-            background: $off-black;
+            background: $color-brand1;
 
             &:hover {
                 background: $off-white;
@@ -365,5 +365,86 @@ a.general_link {
   }
   a.image-title:hover {
     border-bottom: 1px solid;
+  }
+}
+
+// Read More Bar
+.read_more_section {
+  margin: 75px 0 30px;
+
+  @include tablet {
+    margin: 75px 0;
+  }
+
+  .read_more_bar {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    // background-image: url('/assets/images/read-more-work.jpg');
+    height: 350px;
+    padding: 25px 20px 20px;
+
+    @include tablet {
+      height: auto;
+      padding: 55px 20px;
+    }
+    @include desktop-blah {
+      padding: 55px 50px;
+      // background-position: 10% 42%;
+    }
+
+  }
+  .read_more_pagination {
+    width: 60%;
+
+    @include tablet-small {
+      width: 35%;
+    }
+    @include desktop {
+      width: 25%;
+    }
+    @include desktop-blah {
+      width: 205px;
+    }
+
+    &.prev {
+      padding-top: 25px;
+
+      @include tablet {
+        padding-top: 0;
+      }
+    }
+    &.next {
+      padding-top: 125px;
+
+      @include tablet-small {
+        padding-top: 200px;
+      }
+      @include tablet {
+        padding-top: 0;
+      }
+    }
+  }
+  .read_more_arrow {
+    color: $off-white;
+    @include heavy_font(16px);
+  }
+  .read_more_title {
+    @include heavy_font(28px);
+    line-height: 1;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+
+    a {
+      color: $yellow; 
+
+      &:hover {
+        color: $off-white;
+        border-bottom: 0;
+      } 
+    }
   }
 }

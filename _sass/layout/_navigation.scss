@@ -374,25 +374,27 @@ ul.nav li a:hover::after {
 }
 .all_work_title {
   position: fixed;
-  top: 29vh;
-  right: 15px;
-  width: 3px;
+  top: 22vh;
+  right: -5px;
+  // width: 50px;
   word-break: break-word;
   font-size: 10px;
   z-index: 9999;
   font-family: $font-brand4;
   font-weight: $heavy;
   text-transform: uppercase;
+  transform: rotate(90deg);
 
 
   @include tablet {
-    right: 40px;
-  bottom: 14vh;
+    right: 25px;
+  bottom: 25vh;
   top: auto;  
   }
    @include desktop-blah {
     font-size: 14px;
-    bottom: 12vh;
+    bottom: 28vh;
+    right: 10px;
   }
 
 }
