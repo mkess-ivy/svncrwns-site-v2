@@ -6,6 +6,10 @@ season				            : "4"
 category						: film
 key 							: key-yes
 
+description: SVNCRWNS worked with Crust by Mack to produce an interview to launch her campaign for raising funds to open their bakery.
+
+keywords: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects
+
 [//]: # (Work on Home Page)
 summary                         : "Shot an interview for the founder of Crust by Mack to share new goals for the brand"
 portfolio-cover					: /assets/images/crustbymack-1.jpg

@@ -2,6 +2,11 @@
 layout: phase1-newsletter
 title: newsletter
 permalink: /newsletter/
+
+description: SVNCRWNS is a production company that works to launch and manage brands.  Join our newsletter to learn how we focus on brand styling, e-commerce website design, content production + special projects.  We are sharing insights and resources for the artist/entrepreneur.  Subscribe today!
+
+keywords: production company, svncrwns, newsletter, insights, portfolio, resources, subscribe to svncrwns
+
 ---
 <div class="newsletter_grid">
 <div class="frow centered">

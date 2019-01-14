@@ -3,6 +3,11 @@ layout: phase1-post
 title: The Production Company is Branding Itself
 featured_image: /assets/images/feature_brand_company.png
 featured_summary: "We had to take several looks at ourselves as a company positioning ourselves to help other companies grow.  It's time we start branding ourselves and showing our audience what it takes to begin this journey.  Check out the first 5 items we tackled below."
+
+description: SVNCRWNS shares their experience working inside brands while not having branding itself.  This is a common experience for many different industries where startups are ramping up and solidifying their positions.  We love transparency, in order for our clients to grow, we have to grow.  Let's grow together.
+
+keywords: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects
+
 ---
 5 Things We Considered to Brand Ourselves
 -----------------------------------------
@@ -20,7 +25,7 @@ The second marketing tool we tackled was our logo.  We wanted it to have a fresh
 
 *Three &mdash; Brand Book*
 
-In order to refresh ourselves on our business vocabulary, we started developing a brand book to make sure we are accurately envisioning our goals, look and feel within our logo and within the entire brand.  So far, we have tackled our vision, target market, personas, brand colors, similar companies that we align ourselves with and a few more details.  Stay tuned for the SVNCRWNS Brand Book, it will be available for download soon.  Make sure you are subscribed to the newsletter to receive updates.
+In order to refresh ourselves on our business vocabulary, we started developing a brand book to make sure we are accurately envisioning our goals, look and feel within our logo and within the entire brand.  So far, we have tackled our vision, target market, personas, brand colors, similar companies that we align ourselves with and a few more details.  Stay tuned for the SVNCRWNS Brand Book, it will be available for download soon.  Make sure you are subscribed to the [newsletter](http://www.svncrwns.com/newsletter) to receive updates.
 
 *Four &mdash; Strategy*
 

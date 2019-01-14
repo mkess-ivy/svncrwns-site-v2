@@ -5,6 +5,11 @@ title 					        : "Spectrum"
 season				            : "2"
 category 						: event
 
+description: SVNCRWNS partnered with a set of collaborators to create the pilot event, Spectrum.  A fashion show highlighting local designers and stylists and creating an environment for buyers to learn about new talent.
+
+keywords: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects
+
+
 [//]: # (Work on Home Page)
 summary                         : "a fashion show produced for a pilot event of collaboration amongst retailers + designers"
 phase1-hero                     : /assets/images/project_collabmore/spectrum-03.jpg

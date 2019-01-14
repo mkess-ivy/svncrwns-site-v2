@@ -70,11 +70,12 @@
         width: 20%;
         margin: 0;
         position: fixed;
-        right: 45px;
+        right: 70px;
         bottom: 3vh;
     }
     @include tv {
         max-width: 225px;
+        right: 120px;
     }
 }
 

@@ -3,6 +3,10 @@ layout: phase1-post
 title: SVNCRWNS.com - We've changed things up a bit
 featured_image: /assets/images/post-svncrwns-changed-cover.jpg
 featured_summary: "In our latest update, we’ve organized our work better, and defined which works were our own in-house projects and which were client projects.  We’ve also added new features for better user experience."
+
+description: SVNCRWNS shares their process as they are improving their company and preparing to approach their clients with better services and better marketing.
+
+keywords: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects
 ---
 
 The Home Page
@@ -45,9 +49,9 @@ We removed the main menu and made it a fixed menu to be visible anywhere on the 
 The Work Page
 -----------------------------------------
 
-Welcome to the Work page.  We added this page to highlight all work that has been completed this year, 2018.  Seeing the activity our company has on this page, along with category tags such as photo and film, and work-space tags that let you know if the project is client or in-house - this information really shares an aerial view of how we’ve evolved in this third year of business.  Many people choose their companies, our company chose us.  During interesting times, it was birthed.  Our very first production, which still isn’t complete yet, is a documentary feature that was inspired due to real events happening in our home city, Baltimore, during the April 2015 Uprising in lieu of the death of Freddie Gray and the all-time high rate of police violence against black citizens.
+Welcome to the Work page.  We added this page to highlight all work that has been completed this year, 2018.  Seeing the activity our company has on this page, along with category tags such as photo and film, and work-space tags that let you know if the project is client or in-house - this information really shares an aerial view of how we’ve evolved in this third year of business.  Many people choose their companies, our company chose us.  During interesting times, it was birthed.  Our very first production, which is in post-production, is a documentary feature that was inspired due to real events happening in our home city, Baltimore, during the April 2015 Uprising in lieu of the death of Freddie Gray and the all-time high rate of police violence against black citizens.
 
-After completing the initial production, to setup our story and interview our contributors, we took action in our city, looking for opportunities to help businesses using a skillset that’s both creative and driven by results.  Through lots of trial and error over the last two years, we’ve learned how to be valuable assets to businesses that were interested in growing and tackling unseen opportunities.  As we go into this next year, with a more refined approach, we’re turning our skills inward and will be focusing more on our ideas to move our company forward.  We have lots of ideas for unseen opportunities that we can tackle for ourselves.  We have projects in post-production that we’re finalizing, and we are learning how to use our business skills to launch and grow brands under our own domain.
+After completing the initial production, to setup our story and interview our contributors, we took action in our city, looking for opportunities to help businesses using a skillset that’s both creative and driven by results.  Through lots of trial and error over the last two years, we’ve learned how to be valuable assets to businesses that were interested in growing and tackling unseen opportunities.  As we go into this next year, with a more refined approach, we’re turning our skills inward and will be focusing more on our in-house projects to move our company forward.  We have lots of ideas for unseen opportunities that we can tackle for ourselves.  We have projects in post-production that we’re finalizing, and we are learning how to use our business skills to launch and grow brands under our own domain.
 
 ![The Work Page](/assets/images/post-svncrwns-changed-006.jpg)
 
@@ -72,3 +76,15 @@ Before, we just had an email address, now we have more context here, plus contac
 ![The Contact Page](/assets/images/post-svncrwns-changed-008.jpg)
 
 Keep checking in to SVNCRWNS as we add more projects to our portfolio and define our story as a production company creating riveting content and making a voice for ourselves.
+
+
+----------------------------------------------------------
+<br/>
+
+Call to Action on Every Page
+-----------------------------------------
+
+We added a call to action section at the bottom of each page to let our users know what else should be explored.  Users stumble across our site from SEO, social media, client referrals and more.  After finding our website, we want to make sure we highlight the important areas of exploration.
+
+![Call to Action](/assets/images/call-to-action.png)
+

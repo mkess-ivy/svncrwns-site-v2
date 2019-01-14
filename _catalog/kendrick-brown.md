@@ -5,6 +5,11 @@ title 					        : "Kendrick Brown"
 season				            : "1"
 category						: strategy + website + photo
 
+description: SVNCRWNS has worked with Kendrick Brown to establish his personal brand working in education, philosophy and consulting.
+
+keywords: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects
+
+
 [//]: # (Work on Home Page)
 summary                         : "branded photography content created for website"
 phase1-hero                     : /assets/images/blackcotton_cover.jpg

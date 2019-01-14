@@ -2,7 +2,11 @@
 layout: phase1-post
 title: Chavon Lee X Stylist + Designer, @kenjgalaxy
 featured_image: /assets/images/feature_chavonleekenj.jpg
-featured_summary: "Our co-founder, Chavon is a multi-hyphenate artist.  We have the pleasure of having her as the head of Creative, while also doubling as a model.  We connected with our style team to create a quick visual exercise with two styled  looks."
+featured_summary: "Our co-founder, Von Lee is a multi-hyphenate artist.  We have the pleasure of having her as the head of Creative, while also doubling as a model.  We connected with our style team to create a quick visual exercise with two styled  looks."
+
+description: A photo series with our muse, Von Lee working with a designer and stylist, @kenjgalaxy.
+
+keywords: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects
 ---
 ![Chavon Lee x Ken J 002](/assets/images/post_chavonlee_kenj_v1.jpg)
 
@@ -33,3 +37,5 @@ featured_summary: "Our co-founder, Chavon is a multi-hyphenate artist.  We have 
 ![Chavon Lee x Ken J 008](/assets/images/post_chavonlee_kenj_v14.jpg)
 
 ![Chavon Lee x Ken J 008](/assets/images/post_chavonlee_kenj_v15.jpg)
+
+{% include components/editorial-image.html image-caption-title="Von Lee x @kenjgalaxy Credits" image-caption="Photography: Montier Kess<br/>Stylist: @kenjgalaxy<br/>Muse: Von Lee<br/><br/>" %}

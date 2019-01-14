@@ -5,6 +5,10 @@ title 					        : "Greenmount West CC"
 season				            : "4"
 category						: website
 
+description: SVNCRWNS has worked with Greenmount West Community Center to launch its digital platform, sharing the work and events being held at the center.
+
+keywords: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects
+
 [//]: # (Work on Home Page)
 phase1-hero                     : /assets/images/braneu-cover.jpg
 portfolio-cover					: /assets/images/gwcc-cover.jpg
@@ -19,7 +23,7 @@ work-cover							:
 work-space 							: "client"
 
 [//]: # (Case Study)
-brand-statement 				: "Helping local institution springboard its iniatitives and resources for community youth in arts + entrepreneurship"
+brand-statement 				: "Helping local institution springboard its initiatives and resources for community youth in arts + entrepreneurship"
 project-details-cover 			: /assets/images/gwcc-project-details.jpg
 summary							: "Greenmount West Community Center is a neighborhood institution in the Greenmount West neighborhood of Baltimore City.  Starting in 2016, the founders of the space saw an opportunity to bring programming, snacks, materials and equipment to service the youth 5 - 18 years of age in the neighborhood during evening, weekend and summer hours."
 opportunity                     : "This opportunity was connected to a bigger partnership with Mark Bradford and the Baltimore Museum of Art as he prepared for his exhibit opening of Tomorrow’s Another Day in September 2018.  As part of the rollout, Mr. Bradford created a partnership with local community initiatives to sponsor equipment and resources to promote sustainability.  To highlight this work in the center, we began outlining the GWCC story for the new website."
@@ -36,4 +40,4 @@ solution 						: "This website was built on the Jekyll framework which gave us a
 
 {% include components/editorial-image.html image-name="gwcc-project-4.png" image-caption-title="20+ Page Website" image-caption="Hi-resolution photography, HTML5 fullscreen videos, menu overlays, a custom map of the Greenmount West Community with map markers by way of the MapBox API, and more features." %}
 
-{% include components/editorial-image.html image-caption-title="Greenmount West CC Website" image-caption="Design + Development: SVNCRWNS<br/>Content Design: SVNCRWNS" %}
+{% include components/editorial-image.html image-caption-title="Greenmount West CC Website" image-caption="Site Design + Development: Montier Kess<br/>Photography: Von Lee<br/>Photography Workshop Facilitator: Von Lee" %}

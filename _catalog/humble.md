@@ -5,6 +5,10 @@ title							: "Humble"
 season 							: "3"
 category						: film
 
+description: SVNCRWNS created a short film Humble, a conversation about culture, women + community.
+
+keywords: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects
+
 [//]: # (Work on Home Page)
 summary                         : "a short film chronicling a weekend in Brooklyn with friends and discussions around black pop culture"
 phase1-hero                     : /assets/images/catalog_humble.jpg

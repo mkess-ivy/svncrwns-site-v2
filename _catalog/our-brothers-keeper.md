@@ -5,6 +5,11 @@ title 					        : "Our Brother's Keeper"
 season				            : "4"
 category						: film
 
+description: SVNCRWNS created a short docu-film, Our Brother's Keeper, to premiere at Coyote Agency's launch event.  This film highlights queer women that work in the barbershop space.
+
+keywords: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects
+
+
 [//]: # (Work on Home Page)
 phase1-hero                     : /assets/images/braneu-cover.jpg
 portfolio-cover					: /assets/images/obk_cover.jpg
@@ -29,4 +34,4 @@ solution 						: "Our solution, two queer barbers, two different cities.  Our co
 
 {% include components/editorial-image.html image-name="obk-project-4.png" %}
 
-{% include components/editorial-image.html image-caption-title="Our Brother's Keeper Short Film Credits" image-caption="Production & Direction: Chavon Henderson<br/>Cinematography: Montier Kess<br/>Content Design: SVNCRWNS" %}
+{% include components/editorial-image.html image-caption-title="Our Brother's Keeper Short Film Credits" image-caption="Production & Direction: Chavon Henderson<br/>Cinematography: Montier Kess<br/>Content Design: SVNCRWNS<br/>Video Editing: Von Lee" %}

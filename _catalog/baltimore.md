@@ -5,6 +5,9 @@ title 					        : "B A L T I M O R E"
 season				            : "4"
 category						: film
 
+description: SVNCRWNS created this experimental short film as an in-house project.  Baltimore started as video clips from sourcing locations for a music video.  This story became a metaphor of exploitation, very similar to pimp culture.
+
+keywords: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects
 
 [//]: # (Work on Home Page)
 summary                         : "A short summary of Baltimore with audio from the 1974 film, Willie Dynamite, talking about pimp culture and exploitation of women"

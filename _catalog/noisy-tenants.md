@@ -6,6 +6,11 @@ season				            : "4"
 category						: website
 key 							: key-yes
 
+description: SVNCRWNS has worked with Noisy Tenants to create a brand identity, partner on in-house projects, and launch its platform to share their company's work + mission.
+
+keywords: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects
+
+
 [//]: # (Work on Home Page)
 phase1-hero                     : /assets/images/noisytenants_masthead.jpg
 portfolio-cover					: /assets/images/noisytenants-cover.jpg

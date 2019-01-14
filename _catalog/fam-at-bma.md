@@ -5,6 +5,10 @@ title 					        : "Fam @ BMA"
 season				            : "3"
 category						: photo
 
+description: SVNCRWNS has worked with Fashion at Morgan, a modeling organization at Morgan State University, for several years as an advisor for their fall and spring fashion shows.
+
+keywords: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects
+
 [//]: # (Work on Home Page)
 summary                         : "photographed the 2017-2018 MSU Fashion at Morgan Executive Board"
 portfolio-cover					: /assets/images/fam_slider_2.jpg

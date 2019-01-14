@@ -5,6 +5,11 @@ title 					        : "Believing Takes Time Youth Exhibit"
 season				            : "4"
 category						: event
 
+description: SVNCRWNS curated and produced a photography exhibit, Believing takes Time, inviting youth artists from their photography workshop series to showcase and sell their work.
+
+keywords: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects
+
+
 [//]: # (Work on Home Page)
 phase1-hero                     : /assets/images/braneu-cover.jpg
 portfolio-cover					: /assets/images/btt-project-1.jpg
@@ -26,8 +31,8 @@ solution 						: "SVNCRWNS created a 12-week curriculum (Jan 2017 - Mar 2017) an
 
 {% include components/editorial-image.html image-name="btt-project-1.jpg" image-caption-title="SVNCRWNS teaches artrepreneurship to youth" image-caption="" %}
 
-{% include components/editorial-image.html image-name="btt-project-3.png" image-caption-title="May 7 2018 - Opening Day for Believing Takes Time, Youth Photography" image-caption="SVNCRWNS was hands on for every detail of exhibit layout and installation, finding local printer companies to assist with large format printing, and even helping our kids come up with price points for their work.<br/>Opening Day was May 3 2017, there were kids, their families, local vendors selling snacks and beverages and 5+ walls filled with youth photography based on the theme of Believing Takes Time. We even created a photography backdrop wall to take photos with our friends that came to visit our work." %}
+{% include components/editorial-image.html image-name="btt-project-3.png" image-caption-title="May 3 2018 - Opening Day for Believing Takes Time, Youth Photography" image-caption="SVNCRWNS was hands on for every detail of exhibit layout and installation, finding local printer companies to assist with large format printing, and even helping our kids come up with price points for their work.<br/>Opening Day was May 3 2017, there were kids, their families, local vendors selling snacks and beverages and 5+ walls filled with youth photography based on the theme of Believing Takes Time. We even created a photography backdrop wall to take photos with our friends that came to visit our work." %}
 
 {% include components/editorial-image.html image-name="btt-project-4.png" image-caption-title="Art for sale - Youth Artists Make Sales from local exhibit" image-caption="100+ black and white and color photos were printed ranging from sizes 4x6 to 20x24. We sold about 35% of our inventory after the show closed, and the kids made $350+ collectively." %}
 
-{% include components/editorial-image.html image-caption-title="Believing Takes Time Credits" image-caption="Special Thanks to:<br/>Shann Wallace<br/>Devin Allen<br/>Neptune<br/>Crust By Mack<br/>Jessica Clark<br/>GWCC<br/>All our friends and family that were able to support this project<br/><br/>Production + Direction: SVNCRWNS" %}
+{% include components/editorial-image.html image-caption-title="Believing Takes Time Credits" image-caption="Special Thanks to:<br/>Workshop Facilitator: Von Lee<br/>Workshop Speaker: Shann Wallace<br/>Workshop Speaker: Neptune<br/>Camera Donation: Devin Allen<br/>Food Sponsors: Crust By Mack<br/>Food Sponsors: Jessica Clark<br/>Curation: Von Lee<br/>Partner: GWCC<br/><br/>All our friends and family that were able to support this project<br/><br/>Production, Installation + Direction: SVNCRWNS" %}

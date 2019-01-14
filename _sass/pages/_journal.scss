@@ -379,9 +379,10 @@
 
         @include palm-mid {
             width: 45%;
+            
         }
         @include tablet {
-
+            margin-right: 50px;
         }
         @include desktop-blah {
             max-width: none;

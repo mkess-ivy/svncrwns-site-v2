@@ -5,6 +5,11 @@ title 							: "Sankofa"
 season                          : "2"
 category 						: event
 
+description: SVNCRWNS has worked with Sankofa to complete a catalog of work.  We offered brand styling, consulting, event activation, and content production.
+
+keywords: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects
+
+
 [//]: # (Work on Home Page)
 summary                         : "a pop-up museum produced to activate the youth community in Baltimore"
 phase1-hero                     : /assets/images/project_popupmuseum/popupmuseum-6_v2.jpg
