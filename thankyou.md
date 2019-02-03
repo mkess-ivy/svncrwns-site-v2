@@ -1,6 +1,6 @@
 ---
 layout: grid
-title: thank you
+title: Thank you
 permalink: /thank-you/
 bg_color: EFC1AE
 ---

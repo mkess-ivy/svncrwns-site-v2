@@ -34,5 +34,5 @@ work-space 							: "client"
 
 {% include components/editorial-image.html image-name="aybemusic_6.png" %}
 
-{% include components/editorial-image.html image-caption-title="Credits" image-caption="Talent: Aybe<br/>Photography & Creative Direction: Chavon Henderson" %}
+{% include components/editorial-image.html image-caption-title="Credits" image-caption="Talent: Aybe<br/>Photography & Creative Direction: SVNCRWNS" %}
 

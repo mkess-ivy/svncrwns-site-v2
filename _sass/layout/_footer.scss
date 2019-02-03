@@ -31,14 +31,15 @@
 	}
 	&.themealpha-nav {
 		// color: $;
-		@include first-page-color;
+		// @include first-page-color;
+		color: $menu-link-color;
 	}
 }
 .right_footer {
 	font-weight: 700;
 	width: 100%;
 	text-align: center;
-	font-size: 12px;
+	font-size: 10px;
 
 	@include palm-mid {
 		font-size: 14px;
@@ -63,9 +64,13 @@
 			a {
 				color: $off-black;
 				font-weight: 700;
+
+				&:hover {
+					border-bottom: 2px solid $menu-link-hover;
+				}
 			}
 			&.themealpha-nav a {
-		        color: $yellow !important;
+		        color: $menu-link-color !important;
 		      }
 		}
 	}
@@ -74,7 +79,7 @@
 .phase1-site-footer {
 	font-family: $font-brand4;
 	font-weight: 500;
-	font-size: 14px;
+	font-size: 10px;
 	color: $off-black;
 	margin: 0 20px 10px;
 

@@ -1,3 +1,5 @@
+
+
 // Subheader
 .small_title_wrapper {
   padding-bottom: 25px;
@@ -95,7 +97,7 @@ a.brand_cta {
     }
 
     a {
-        color: $yellow;
+        color: $neon-green;
 
         &:hover {
             background: $off-white;
@@ -179,7 +181,7 @@ a.brand_cta {
   padding-top: 7px;
   display: none;
   padding-bottom: 7px;
-  @include first-page-color;
+  color: $slideshow-text-color  ;
 
   @include laptop {
     display: block;
@@ -275,11 +277,11 @@ a.brand_cta {
 }
 
 a.general_link {
-  @include first-page-color;
+  color: $homepage-links-color;
   border-bottom: 1px solid;
 
   &:hover {
-    color: $off-black;
+    color: $homepage-links-hover;
   }
 }
 .work-space-tag {
@@ -325,7 +327,7 @@ a.general_link {
   
 }
 .fixed-project-group {
-  display: none;
+  display: none !important;
   @include desktop-blah {
     position: fixed;
     display: block;
@@ -408,14 +410,15 @@ a.general_link {
     }
 
     &.prev {
-      padding-top: 25px;
+      // padding-top: 25px;
 
       @include tablet {
         padding-top: 0;
       }
     }
     &.next {
-      padding-top: 125px;
+      // padding-top: 125px;
+      padding-top: 85px;
 
       @include tablet-small {
         padding-top: 200px;
@@ -439,7 +442,7 @@ a.general_link {
     1px 1px 0 #000;
 
     a {
-      color: $yellow; 
+      color: $neon-green; 
 
       &:hover {
         color: $off-white;

@@ -4,7 +4,7 @@ email: hello@svncrwns.com
 description: > # this means to ignore newlines until "baseurl:"
   SVNCRWNS is a strategy and production company based in Baltimore, MD. We use our skills and resources to work with clients to push their missions forward.  Services include Creative Direction, Strategy, Image Making and Web Design + Development
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+url: "http://www.svncrwns.com" # the base hostname & protocol for your site
 port: 4000
 
 # Build settings
@@ -19,3 +19,7 @@ collections:
 
 # Site Variables
 logo              : "/assets/images/svn-logo.svg"
+
+# Brand Colors
+homepage-bg-color: '#f7f7f7'
+

@@ -84,13 +84,15 @@
 		<div class="grid">
 			{{ content }}
 
+			{% if page.website-link %}
 			<section class="editorial_links">
-				{% if page.website-link %}
+				
 				<div class="view_website"><a href="{{ page.website-link }}"> View Website <span>&#8594;</span></a></div>
-				{% endif %}
+				
 				{% if page.code-link %}
 				<div class="view_website"><a href="{{ page.code-link }}"> View Code <span>&#8594;</span></a></div>{% endif %}
 			</section>
+			{% endif %}
 		</div>
 	</section>
 

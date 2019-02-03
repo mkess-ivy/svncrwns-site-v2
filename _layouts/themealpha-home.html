@@ -2,15 +2,15 @@
 
 <div class="themealpha-phase1-masthead">
     <div class="themealpha-phase1-header">
-        We're a Production Company \\
+        {{ page.tagline }}
     </div>
     <div class="themealpha-phase1-subheader">
-        SVNCRWNS is a production company that’s still figuring out its story.  Some of our time is spent working with clients to create platforms and content to grow their brands, and the rest of our time is spent working on original content that tells stories from unique perspectives.  We’re artists, we’re visionaries, and we’re learning everyday.  We love new ideas, we love creating opportunity, and we absolutely love creating experiences.  <a href="/work/" class="general_link">Check out our work</a>. Feel moved? <a href="/contact/" class="general_link">let’s partner on something amazing.</a> <div class="phase1-caption">[Pronounced: seven crowns]</div>
+        SVNCRWNS has been a production company since 2015.  We work with our clients to grow + manage their brands by way of creating platforms and content.  We also create original content for women sharing stories about women.  We’re artists, we’re visionaries, and we’re brand consultants.  We love new ideas + creating opportunity, and we absolutely love creating experiences.  <a href="/work/" class="general_link">Check out our work</a>, and <a href="/contact/" class="general_link">let's partner on something</a> for the culture. <div class="phase1-caption">[Pronounced: seven crowns]</div>
     </div>
 </div>
 
 
-<div class="themealpha-home-section-title">Our Work</div>
+<div class="themealpha-home-section-title">Selected Work</div>
 <div class="myslide2">
 	{% for items in site.data.featured_work %}
 	<div class="home-slide" style="background-image: url('{{ items.image }}');">
@@ -34,6 +34,8 @@
 			<div class="home-lastrow-newsletter">
 				<!-- Begin Mailchimp Signup Form -->
 				<link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
+				<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+				<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700,900" rel="stylesheet">
 				<style type="text/css">
 					#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
 					/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
@@ -42,24 +44,28 @@
 					   	background: transparent;
 					   }
 					   #mc_embed_signup label {
-					   	color: #f7f7f7;
+					   	color: #070707;
 					   	text-transform: uppercase;
 					   	margin-bottom: 0;
 					   	padding-bottom: 12px;
+					   }
+					   #mc_embed_signup label#newsletter-title {
+					   	font-family: 'Montserrat', sans-serif;
+					   	letter-spacing: 1.2px;
 					   }
 					   #mc_embed_signup #label-description {
 					   	font-family: 'Libre Baskerville',sans-serif;
 					   	font-size: 13px;
 					   	text-transform: initial;
 					   	font-weight: normal;
-					   	color: #f7f7f7;
+					   	color: #070707;
 					   	/*width: 50%;*/
 					   	/*margin-bottom: 20px;*/
 					   }
 					   #mc_embed_signup input.email {
 					   	background: transparent;
 					   	/*color: #f7f7f7;*/
-					   	color: #f7f7f7;
+					   	color: #070707;
 					   	border: 0;
 					   	border-bottom: 1px solid;
 					   	border-radius: 0;
@@ -68,27 +74,33 @@
 					   }
 					   #mc_embed_signup input.email::placeholder {
 					   	/*color: #f7f7f7;*/
-					   	color: #f7f7f7;
+					   	color: #070707;
+					   	font-family: 'Libre Baskerville', sans-serif;
+					   	font-size: 12px;
 					   }
 					   #mc_embed_signup .button {
 					   	border-radius: 0;
-					   	background-color: #fff474;;
+					   	background-color: transparent;
+					   	border: 1px solid;
 					   	color: #070707;
 					   	text-transform: uppercase;
 					   	font-size: 14px;
 					   	font-weight: bold;
+					   	font-family: 'Montserrat', sans-serif;
 					   	margin-top: 15px;
+					   	letter-spacing: 1.2px;
 					   }
 					   #mc_embed_signup .button:hover {
-					   	background: #000;
+					   	background: #99703E;
 					   	/*color: #fff;*/
-					   	color: #fff474;
+					   	color: #f7f7f7;
+					   	border: 1px solid #99703E;
 					   }
 				</style>
 				<div id="mc_embed_signup">
 				<form action="https://svncrwns.us11.list-manage.com/subscribe/post?u=ab04d0cabec9aa1f49ca3e65e&amp;id=2fe748f030" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 				    <div id="mc_embed_signup_scroll">
-					<label for="mce-EMAIL">Sign up to the newsletter</label>
+					<label id="newsletter-title" for="mce-EMAIL">Sign up to the newsletter</label>
 					<label id="label-description" for="mce-EMAIL2">Sharing our projects, new insights + exclusive content</label>
 					<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
 				    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->

@@ -1,6 +1,6 @@
 ---
 layout: themealpha-journal
-title: journal
+title: Journal
 permalink: /journal/
 archive_image: /assets/images/home-slide-2.png
 

@@ -2,7 +2,7 @@
 layout: phase1-landingpage
 title: Brand Starter Kit
 permalink: /brand-starter-kit/
-bg_color: fff474
+bg_color: d8ff01
 
 description: Introducing the brand starter kit, SVNCRWNS presents a product that can launch a business or brand from idea to a money-making venture.  The Brand Starter kit is the perfect product for the artist or entrepreneur to get started, gain a production team, and create goals as they find more opportunities to grow.
 

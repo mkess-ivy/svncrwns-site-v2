@@ -430,6 +430,8 @@ a.phase1-btn {
 .newsletter_wrapper {
   @include desktop {
       height: inherit;
+      top: 6vh;
+      position: relative;
   }
 }
 .newsletter_page {

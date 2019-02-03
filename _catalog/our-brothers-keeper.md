@@ -34,4 +34,4 @@ solution 						: "Our solution, two queer barbers, two different cities.  Our co
 
 {% include components/editorial-image.html image-name="obk-project-4.png" %}
 
-{% include components/editorial-image.html image-caption-title="Our Brother's Keeper Short Film Credits" image-caption="Production & Direction: Chavon Henderson<br/>Cinematography: Montier Kess<br/>Content Design: SVNCRWNS<br/>Video Editing: Von Lee" %}
+{% include components/editorial-image.html image-caption-title="Our Brother's Keeper Short Film Credits" image-caption="Production & Direction: SVNCRWNS<br/>Cinematography: SVNCRWNS<br/>Content Design: SVNCRWNS<br/>Video Editing: SVNCRWNS" %}

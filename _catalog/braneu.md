@@ -42,4 +42,4 @@ solution 						: "The team settled on using Squarespace for its e-commerce suppo
 
 {% include components/editorial-image.html image-name="braneu-project-3.png" image-caption-title="Responsive Design is not optional!" image-caption="Browsing on mobile devices is the leader for how users are consuming information.  Having our platforms accessible on all devices with simple user experiences is always our main goal.  Don't lose sales because the user experience for mobile browsing is inadequate." %}
 
-{% include components/editorial-image.html image-name="braneu-project-4.png" image-caption-title="Braneu Website Credits" image-caption="Design + Development: Montier Kess<br/>Photography: Client<br/><br/>Website: www.braneu.com" %}
+{% include components/editorial-image.html image-name="braneu-project-4.png" image-caption-title="Braneu Website Credits" image-caption="Design + Development: SVNCRWNS<br/>Photography: Client<br/><br/>Website: www.braneu.com" %}

@@ -40,4 +40,4 @@ solution 						: "This website was built on the Jekyll framework which gave us a
 
 {% include components/editorial-image.html image-name="gwcc-project-4.png" image-caption-title="20+ Page Website" image-caption="Hi-resolution photography, HTML5 fullscreen videos, menu overlays, a custom map of the Greenmount West Community with map markers by way of the MapBox API, and more features." %}
 
-{% include components/editorial-image.html image-caption-title="Greenmount West CC Website" image-caption="Site Design + Development: Montier Kess<br/>Photography: Von Lee<br/>Photography Workshop Facilitator: Von Lee" %}
+{% include components/editorial-image.html image-caption-title="Greenmount West CC Website" image-caption="Site Design + Development: SVNCRWNS<br/>Photography: SVNCRWNS<br/>Photography Workshop Facilitator: SVNCRWNS" %}

@@ -23,4 +23,4 @@ keywords: production company, svncrwns, e-commerce, women-owned businesses, crea
 
 ![Shonna Watkins 007](/assets/images/post_shonnawatkins_7.jpg)
 
-{% include components/editorial-image.html image-caption-title="Shonna Watkins Credits" image-caption="Photography: SVNCRWNS<br/>Concept: Von Lee<br/><br/>" %}
+{% include components/editorial-image.html image-caption-title="Shonna Watkins Credits" image-caption="Photography: SVNCRWNS<br/>Concept: SVNCRWNS<br/><br/>" %}

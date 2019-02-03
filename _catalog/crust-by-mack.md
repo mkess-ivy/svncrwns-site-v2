@@ -32,4 +32,4 @@ solution 						: "In the interview below, Amanda shares some of her recipes, ins
 
 <br/>
 
-{% include components/editorial-image.html image-caption-title="Crust By Mack Credits" image-caption="Photography: found on @crustbymack's instagram account <br/> Videography: Chavon Henderson" %}
+{% include components/editorial-image.html image-caption-title="Crust By Mack Credits" image-caption="Photography: found on @crustbymack's instagram account <br/> Videography: SVNCRWNS" %}

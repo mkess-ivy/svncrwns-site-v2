@@ -17,7 +17,7 @@
   color: inherit;
   text-transform: none;
   /* background-color: transparent; */
-  background-color: #fff474;
+  /*background-color: #d8ff01;*/
   border-radius: 50%;
   border: 0;
   margin: 0;
@@ -26,13 +26,13 @@
   z-index: 11111;
   outline: transparent;
   right: 20px;
-  top: 30vh;
+  bottom: 30vh;
   box-shadow: 0.5px 0.6px 12px rgba(0,0,0,0.5);
+  border: 1px solid;
 }
 @media screen and (min-width:750px) {
     .hamburger {
         right: 50px;
-        top: auto;
         bottom: 15vh;
     }
 }

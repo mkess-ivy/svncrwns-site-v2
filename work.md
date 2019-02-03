@@ -1,6 +1,6 @@
 ---
 layout: full-grid
-title: work
+title: Work
 permalink: /work/
 archive_image: /assets/images/home-slide-1.png
 

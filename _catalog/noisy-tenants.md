@@ -47,4 +47,4 @@ solution 						: "A completely custom website with CMS powers.  We created a dyn
 
 {% include components/editorial-image.html image-name="noisytenants-editorial-4.png" image-caption-title="100% Responsive" image-caption="Because users will mostly experience your website from their phones, the mobile phone deserves a unique experience of its own.  All pages designed for best viewing pleasure on mobile, tablet and desktop devices." %}
 
-{% include components/editorial-image.html image-name="noisytenants-editorial-5.jpg" image-caption-title="Noisy Tenants Website" image-caption="Design: SVNCRWNS x Noisy Tenants<br/>Code: Montier Kess<br/><br/>Website: www.noisytenants.com" %}
+{% include components/editorial-image.html image-name="noisytenants-editorial-5.jpg" image-caption-title="Noisy Tenants Website" image-caption="Design: SVNCRWNS x Noisy Tenants<br/>Code: SVNCRWNS<br/><br/>Website: www.noisytenants.com" %}

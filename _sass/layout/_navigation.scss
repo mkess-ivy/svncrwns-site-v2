@@ -1,3 +1,7 @@
+.hamburger {
+  background: $menu-btn-color;
+}
+
 /* Phase 1 Header */
 .phase1-site-header {
   @include laptop {
@@ -161,7 +165,7 @@ body.noScroll {
   left: 0;
   background-size: cover;
   background-position: center center;
-  background-color: #ffffff;
+  background-color: $neon-green;
   z-index: 9009;
   overflow: scroll;
 }
@@ -343,9 +347,18 @@ ul.nav li a:hover::after {
         font-size: 16px;
         padding-bottom: 0;
       }
+      a {
+        &:hover {
+          border-bottom: 2px solid $menu-link-hover;
+        }
+      }
       &.themealpha-nav a {
-        // color: $off-white !important;
-        @include first_page_color;
+        
+        color: $menu-link-color;
+
+        &:hover {
+          border-bottom: 2px solid $menu-link-hover;
+        }
       }
       
     }
@@ -384,17 +397,23 @@ ul.nav li a:hover::after {
   font-weight: $heavy;
   text-transform: uppercase;
   transform: rotate(90deg);
+  background: $see-all-work-color;
+  border-radius: 20px;
+  padding: 3px 10px;
+  border: 1px solid;
+  display: none;
 
 
   @include tablet {
     right: 25px;
-  bottom: 25vh;
-  top: auto;  
+    bottom: 25vh;
+    top: auto; 
+    // display: block; 
   }
    @include desktop-blah {
     font-size: 14px;
     bottom: 28vh;
-    right: -10px;
+    right: -20px;
   }
 
 }

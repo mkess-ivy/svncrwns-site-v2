@@ -3,7 +3,13 @@
 
   {% include grid/head.html %}
 
+{% if page.title == "SVNCRWNS - Home" %}
+<body style="background-color: {{ site.homepage-bg-color }};">
+{% endif %}
+{% unless page.title == "SVNCRWNS - Home" %}
   <body style="background-color: #{{ page.bg_color }}; color: #{{ page.text_color }};">
+{% endunless %}
+
     <div class="se-pre-con"></div>
 
     {% include grid/short_header2.html %}

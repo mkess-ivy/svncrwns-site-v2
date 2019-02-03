@@ -1,7 +1,7 @@
 ---
 layout: phase1-post
 title: The Production Company is Branding Itself
-featured_image: /assets/images/feature_brand_company.png
+featured_image: /assets/images/post_brand_company.jpg
 featured_summary: "We had to take several looks at ourselves as a company positioning ourselves to help other companies grow.  It's time we start branding ourselves and showing our audience what it takes to begin this journey.  Check out the first 5 items we tackled below."
 
 description: SVNCRWNS shares their experience working inside brands while not having branding itself.  This is a common experience for many different industries where startups are ramping up and solidifying their positions.  We love transparency, in order for our clients to grow, we have to grow.  Let's grow together.
