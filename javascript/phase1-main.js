@@ -45,6 +45,10 @@ $(document).ready(function(){
         }
     });
 
+    // Accordion
+    $(".accordion").on("click", ".accordion-header", function() {
+        $(this).toggleClass("active").next().slideToggle();
+    });
     
     // Sliders
     $('.phase1_slider').slick ({
