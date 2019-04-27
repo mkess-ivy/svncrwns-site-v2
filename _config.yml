@@ -7,6 +7,8 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.svncrwns.com" # the base hostname & protocol for your site
 port: 4000
 
+include: ["_pages"]
+
 # Build settings
 markdown: kramdown
 

@@ -19,9 +19,6 @@ portfolio-cover					: /assets/images/noisytenants-cover.jpg
 featured 						: "yes"
 featured-rank 					: "5"
 
-[//]: # (Slider)
-slider: noisytenants_slider
-
 [//]: # (Website)
 website-link: http://www.noisytenants.com
 code-link: https://github.com/nickmtchl/nickmtchl.github.io
