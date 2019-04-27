@@ -12,11 +12,11 @@ keywords: production company, svncrwns, e-commerce, women-owned businesses, crea
 
 [//]: # (Work on Home Page)
 summary                         : "an art installation curated in conjunction with Noisy Tenants' play production, Black Cotton"
-phase1-hero                     : /assets/images/blackcotton_cover.jpg
-portfolio-cover 				: /assets/images/blackcotton_cover.jpg
+phase1-hero                     : /dist/images/blackcotton_cover.jpg
+portfolio-cover 				: /dist/images/blackcotton_cover.jpg
 
 [//]: # (Catalog All)
-catalog-cover-image				: /assets/images/blackcotton_cover.jpg
+catalog-cover-image				: /dist/images/blackcotton_cover.jpg
 
 [//]: # (Overlay Menu Info)
 work-tags 							: "art installation"

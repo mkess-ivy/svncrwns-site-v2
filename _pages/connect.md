@@ -1,7 +1,7 @@
 ---
 layout: themealpha-contact
 title: Connect
-permalink: /contact/
+permalink: /connect/
 
 description: SVNCRWNS is a production company.  We're here for our clients, we're here to make art, and we're here to be apart of your team.  Interested in working with us, contact us today.
 

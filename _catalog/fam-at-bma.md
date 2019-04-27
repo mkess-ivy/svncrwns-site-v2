@@ -11,7 +11,7 @@ keywords: production company, svncrwns, e-commerce, women-owned businesses, crea
 
 [//]: # (Work on Home Page)
 summary                         : "photographed the 2017-2018 MSU Fashion at Morgan Executive Board"
-portfolio-cover					: /assets/images/fam_slider_2.jpg
+portfolio-cover					: /dist/images/fam_slider_2.jpg
 
 [//]: # (Slider)
 slider: fam_slider

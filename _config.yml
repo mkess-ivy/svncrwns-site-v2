@@ -20,7 +20,7 @@ collections:
     permalink: /work/:title/
 
 # Site Variables
-logo              : "/assets/images/svn-logo.svg"
+logo              : "/dist/images/svn-logo.svg"
 
 # Brand Colors
 homepage-bg-color: '#f7f7f7'

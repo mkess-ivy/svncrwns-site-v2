@@ -9,15 +9,15 @@ description: Introducing the brand starter kit, SVNCRWNS presents a product that
 keywords: production company, svncrwns, launch my brand, e-commerce, marketing, lookbooks, visuals, hire my team, brand starter kit
 
 
-fixed-project-image1: /assets/images/wayne_cover.jpg
+fixed-project-image1: /dist/images/wayne_cover.jpg
 fixed-project-title1: Wayne Wilson
 fixed-project-url1: /work/wayne-wilson
 
-fixed-project-image2: /assets/images/noisytenants-cover.jpg
+fixed-project-image2: /dist/images/noisytenants-cover.jpg
 fixed-project-title2: Noisy Tenants
 fixed-project-url2: /work/noisy-tenants
 
-fixed-project-image3: /assets/images/btt-project-details.png
+fixed-project-image3: /dist/images/btt-project-details.png
 fixed-project-title3: Believing takes Time
 fixed-project-url3: /work/believing-takes-time
 
@@ -28,7 +28,7 @@ masthead_mini_subtitle: "the # of opportunities to win"
 
 sellpoints:
 - top-level: Visual Product
-  image: /assets/images/brandstarterkit_visual.png
+  image: /dist/images/brandstarterkit_visual.png
   media: film
   link: /catalog/our-brothers-keeper/
   media_title: "Our Brother's Keeper for Coyote Agency"
@@ -38,7 +38,7 @@ sellpoints:
   number: "one"
   summary: "Video is at the top of the chain when it comes to getting your customers attention.  Visually appealing, you get a story, you get the lifestyle.  Your customer is one step closer to being able to relate to your product, service or message.  Communicate your brand's message in 60 seconds."
 - top-level: Online Shop Product
-  image: /assets/images/brandstarterkit_onlineshop.png
+  image: /dist/images/brandstarterkit_onlineshop.png
   media: website
   link: http://www.cityofgodshop.com
   media_title: "Online Shop for City of Gods"
@@ -48,7 +48,7 @@ sellpoints:
   number: "two"
   summary: "Extend your audience reach by providing a platform to purchase your products and services.  Most importantly, convert your instagram followers into customers.  Consult with us to start planning + developing your online shop with 10 products."
 - top-level: Editorial Photos Product
-  image: /assets/images/brandstarterkit_editorial.png
+  image: /dist/images/brandstarterkit_editorial.png
   media: content
   link: /journal/shonna-watkins/
   media_title: "Photography for Shonna Watkins"
@@ -60,7 +60,7 @@ sellpoints:
 
 info_lists:
 - top-level: Info Box 1
-  image: /assets/images/brandstarterkit_thewaywild.jpg
+  image: /dist/images/brandstarterkit_thewaywild.jpg
   list_title: 5 ideas for video
   media: film
   link: /catalog/the-way-wild/
@@ -72,7 +72,7 @@ info_lists:
    - feature: Highlight your customer's experiences
    - feature: Teach your customers something useful
 - top-level: Info Box 2
-  image: /assets/images/brandstarterkit_taylorbarbershop.jpg
+  image: /dist/images/brandstarterkit_taylorbarbershop.jpg
   list_title: 5 Tips for Online Shops
   media: website
   link: http://www.taylorbarbershop.com

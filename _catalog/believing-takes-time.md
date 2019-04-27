@@ -11,8 +11,8 @@ keywords: production company, svncrwns, e-commerce, women-owned businesses, crea
 
 
 [//]: # (Work on Home Page)
-phase1-hero                     : /assets/images/braneu-cover.jpg
-portfolio-cover					: /assets/images/btt-project-1.jpg
+phase1-hero                     : /dist/images/braneu-cover.jpg
+portfolio-cover					: /dist/images/btt-project-1.jpg
 
 [//]: # (Overlay Menu Info)
 work-tags 							: "curriculum + event"
@@ -21,7 +21,7 @@ work-space 							: "in-house"
 
 [//]: # (Case Study)
 brand-statement 				: "Working with youth in Greenmount West Community Center, bonding with young women, sharing art skills + how to make money"
-project-details-cover 			: /assets/images/btt-project-details.png
+project-details-cover 			: /dist/images/btt-project-details.png
 summary							: "Believing Takes Time is a youth photography exhibit that was presented to share the photography work of several young girls (ages 7 - 13) that participated in the 12-week Youth Photography Workshop hosted by SVNCRWNS + Greenmount West Community Center (GWCC). The work was on display at Gallery CA May 3 - May 25 2018."
 opportunity                     : "Before the exhibit and workshop, SVNCRWNS had been spending time at the community center using the space as an office to complete our work. We learned about their summer camp and upcoming fall/winter programming that would be kicking off soon.<br/>
 After meeting many of the kids in the space, we thought of ways we could impact them. It was important to not just share fun activities with the kids, but to also introduce them to new hobbies and share entrepreneurial skills. Of all the instructors in the space, 90% were entrepreneurs extending themselves as resources to the community center."

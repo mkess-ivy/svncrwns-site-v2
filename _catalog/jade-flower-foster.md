@@ -12,8 +12,8 @@ keywords: production company, svncrwns, e-commerce, women-owned businesses, crea
 
 [//]: # (Work on Home Page)
 summary                         : "branded photography content for writer and filmmaker, Jade Flower Foster"
-phase1-hero                     : /assets/images/jadeflowerfoster_slide_3.jpg
-portfolio-cover					: /assets/images/jadeflowerfoster_slide_3.jpg
+phase1-hero                     : /dist/images/jadeflowerfoster_slide_3.jpg
+portfolio-cover					: /dist/images/jadeflowerfoster_slide_3.jpg
 
 [//]: # (Overlay Menu Info)
 work-tags 							: "brand strategy, brand identity, photography, film, social media curation"

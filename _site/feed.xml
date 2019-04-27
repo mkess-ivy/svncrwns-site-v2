@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 27 Apr 2019 11:35:21 -0400</pubDate>
-    <lastBuildDate>Sat, 27 Apr 2019 11:35:21 -0400</lastBuildDate>
+    <pubDate>Sat, 27 Apr 2019 12:11:57 -0400</pubDate>
+    <lastBuildDate>Sat, 27 Apr 2019 12:11:57 -0400</lastBuildDate>
     <generator>Jekyll v3.6.3</generator>
     
       <item>
@@ -17,11 +17,11 @@
 
 &lt;p&gt;&lt;em&gt;The Original&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/post-svncrwns-changed-002.jpg&quot; alt=&quot;The Original Home Page&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/dist/images/post-svncrwns-changed-002.jpg&quot; alt=&quot;The Original Home Page&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;The New Home page&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/post-svncrwns-changed-003.jpg&quot; alt=&quot;The New Home Page&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/dist/images/post-svncrwns-changed-003.jpg&quot; alt=&quot;The New Home Page&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Another important point, we removed “strategy + production” and updated it to “We’re a production space”.  That’s still a working title, but the most important idea here is that we’re streamlining things and we’re making our brand easier to understand, easier to digest.  We took the “Featured Projects” section, and added images.  Seems like a small detail, but imagery gave our projects more life, and to the end user, they’re more likely to view our work, see our skills and be interested in supporting more of what we’re doing in the future.&lt;/p&gt;
 
@@ -36,11 +36,11 @@
 
 &lt;p&gt;&lt;em&gt;The Original&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/post-svncrwns-changed-004.jpg&quot; alt=&quot;The Original Home Page&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/dist/images/post-svncrwns-changed-004.jpg&quot; alt=&quot;The Original Home Page&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;The New Overlay menu&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/post-svncrwns-changed-005.jpg&quot; alt=&quot;The Original Home Page&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/dist/images/post-svncrwns-changed-005.jpg&quot; alt=&quot;The Original Home Page&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;We removed the main menu and made it a fixed menu to be visible anywhere on the site.  We organized our portfolio work into two categories, client work and in-house projects.  We added tags to our work so users can have an idea of what kind of work they are about to view.  The overlay menu is visible on all pages, positioned in the lower right hand corner.  We also made the overlay button animated. Before, there were two images, that never really lined up as perfectly as we wanted.  The animations and organization here, should drastically improve our bounce rates.&lt;/p&gt;
 
@@ -53,7 +53,7 @@
 
 &lt;p&gt;After completing the initial production, to setup our story and interview our contributors, we took action in our city, looking for opportunities to help businesses using a skillset that’s both creative and driven by results.  Through lots of trial and error over the last two years, we’ve learned how to be valuable assets to businesses that were interested in growing and tackling unseen opportunities.  As we go into this next year, with a more refined approach, we’re turning our skills inward and will be focusing more on our in-house projects to move our company forward.  We have lots of ideas for unseen opportunities that we can tackle for ourselves.  We have projects in post-production that we’re finalizing, and we are learning how to use our business skills to launch and grow brands under our own domain.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/post-svncrwns-changed-006.jpg&quot; alt=&quot;The Work Page&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/dist/images/post-svncrwns-changed-006.jpg&quot; alt=&quot;The Work Page&quot; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
@@ -62,7 +62,7 @@
 
 &lt;p&gt;The Journal page is where we share ideas, we share things we make in the studio and we evoke conversations based on our insights.  Because of our experience, we have lots of information to share about branding, about producing content, and using your  identity as a company to grow and reach new markets.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/post-svncrwns-changed-007.jpg&quot; alt=&quot;The Journal Page&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/dist/images/post-svncrwns-changed-007.jpg&quot; alt=&quot;The Journal Page&quot; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
@@ -71,7 +71,7 @@
 
 &lt;p&gt;Before, we just had an email address, now we have more context here, plus contact information.  All of pages are following a design system.  We’re making all the pieces more cohesive, through and through the entire brand.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/post-svncrwns-changed-008.jpg&quot; alt=&quot;The Contact Page&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/dist/images/post-svncrwns-changed-008.jpg&quot; alt=&quot;The Contact Page&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Keep checking in to SVNCRWNS as we add more projects to our portfolio and define our story as a production company creating riveting content and making a voice for ourselves.&lt;/p&gt;
 
@@ -82,7 +82,7 @@
 
 &lt;p&gt;We added a call to action section at the bottom of each page to let our users know what else should be explored.  Users stumble across our site from SEO, social media, client referrals and more.  After finding our website, we want to make sure we highlight the important areas of exploration.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/call-to-action.png&quot; alt=&quot;Call to Action&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/dist/images/call-to-action.png&quot; alt=&quot;Call to Action&quot; /&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Mon, 17 Dec 2018 00:00:00 -0500</pubDate>
@@ -94,35 +94,35 @@
     
       <item>
         <title>Co-founder, Von Lee X Stylist + Designer, @kenjgalaxy</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/post_chavonlee_kenj_v1.jpg&quot; alt=&quot;Chavon Lee x Ken J 002&quot; /&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;/dist/images/post_chavonlee_kenj_v1.jpg&quot; alt=&quot;Chavon Lee x Ken J 002&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/post_chavonlee_kenj_v2.jpg&quot; alt=&quot;Chavon Lee x Ken J 002&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/dist/images/post_chavonlee_kenj_v2.jpg&quot; alt=&quot;Chavon Lee x Ken J 002&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/post_chavonlee_kenj_v3.jpg&quot; alt=&quot;Chavon Lee x Ken J 003&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/dist/images/post_chavonlee_kenj_v3.jpg&quot; alt=&quot;Chavon Lee x Ken J 003&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/post_chavonlee_kenj_v4.jpg&quot; alt=&quot;Chavon Lee x Ken J 004&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/dist/images/post_chavonlee_kenj_v4.jpg&quot; alt=&quot;Chavon Lee x Ken J 004&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/post_chavonlee_kenj_v5.jpg&quot; alt=&quot;Chavon Lee x Ken J 005&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/dist/images/post_chavonlee_kenj_v5.jpg&quot; alt=&quot;Chavon Lee x Ken J 005&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/post_chavonlee_kenj_v6.jpg&quot; alt=&quot;Chavon Lee x Ken J 006&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/dist/images/post_chavonlee_kenj_v6.jpg&quot; alt=&quot;Chavon Lee x Ken J 006&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/post_chavonlee_kenj_v7.jpg&quot; alt=&quot;Chavon Lee x Ken J 007&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/dist/images/post_chavonlee_kenj_v7.jpg&quot; alt=&quot;Chavon Lee x Ken J 007&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/post_chavonlee_kenj_v8.jpg&quot; alt=&quot;Chavon Lee x Ken J 008&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/dist/images/post_chavonlee_kenj_v8.jpg&quot; alt=&quot;Chavon Lee x Ken J 008&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/post_chavonlee_kenj_v9.jpg&quot; alt=&quot;Chavon Lee x Ken J 008&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/dist/images/post_chavonlee_kenj_v9.jpg&quot; alt=&quot;Chavon Lee x Ken J 008&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/post_chavonlee_kenj_v10.jpg&quot; alt=&quot;Chavon Lee x Ken J 008&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/dist/images/post_chavonlee_kenj_v10.jpg&quot; alt=&quot;Chavon Lee x Ken J 008&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/post_chavonlee_kenj_v11.jpg&quot; alt=&quot;Chavon Lee x Ken J 008&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/dist/images/post_chavonlee_kenj_v11.jpg&quot; alt=&quot;Chavon Lee x Ken J 008&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/post_chavonlee_kenj_v12.jpg&quot; alt=&quot;Chavon Lee x Ken J 008&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/dist/images/post_chavonlee_kenj_v12.jpg&quot; alt=&quot;Chavon Lee x Ken J 008&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/post_chavonlee_kenj_v13.jpg&quot; alt=&quot;Chavon Lee x Ken J 008&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/dist/images/post_chavonlee_kenj_v13.jpg&quot; alt=&quot;Chavon Lee x Ken J 008&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/post_chavonlee_kenj_v14.jpg&quot; alt=&quot;Chavon Lee x Ken J 008&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/dist/images/post_chavonlee_kenj_v14.jpg&quot; alt=&quot;Chavon Lee x Ken J 008&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/post_chavonlee_kenj_v15.jpg&quot; alt=&quot;Chavon Lee x Ken J 008&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/dist/images/post_chavonlee_kenj_v15.jpg&quot; alt=&quot;Chavon Lee x Ken J 008&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;caption_wrapper&quot;&gt;
 	&lt;div class=&quot;editorial-caption-title&quot;&gt;Von Lee x @kenjgalaxy Credits&lt;/div&gt;
@@ -138,46 +138,46 @@
     
       <item>
         <title>SVNCRWNS does Brooklyn Museum</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/post_bk_museum_1.jpg&quot; alt=&quot;SVNCRWNS Does BK Museum 001&quot; /&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;/dist/images/post_bk_museum_1.jpg&quot; alt=&quot;SVNCRWNS Does BK Museum 001&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/post_bk_museum_2.jpg&quot; alt=&quot;SVNCRWNS Does BK Museum 002&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/dist/images/post_bk_museum_2.jpg&quot; alt=&quot;SVNCRWNS Does BK Museum 002&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;My favorite pieces of art are photo-journalism pieces.  I wish there was more photography on display at more contemporary art spaces.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/post_bk_museum_3.jpg&quot; alt=&quot;SVNCRWNS Does BK Museum 003&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/dist/images/post_bk_museum_3.jpg&quot; alt=&quot;SVNCRWNS Does BK Museum 003&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/post_bk_museum_4.jpg&quot; alt=&quot;SVNCRWNS Does BK Museum 004&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/dist/images/post_bk_museum_4.jpg&quot; alt=&quot;SVNCRWNS Does BK Museum 004&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/post_bk_museum_5.jpg&quot; alt=&quot;SVNCRWNS Does BK Museum 005&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/dist/images/post_bk_museum_5.jpg&quot; alt=&quot;SVNCRWNS Does BK Museum 005&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/post_bk_museum_6.jpg&quot; alt=&quot;SVNCRWNS Does BK Museum 006&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/dist/images/post_bk_museum_6.jpg&quot; alt=&quot;SVNCRWNS Does BK Museum 006&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/post_bk_museum_7.jpg&quot; alt=&quot;SVNCRWNS Does BK Museum 007&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/dist/images/post_bk_museum_7.jpg&quot; alt=&quot;SVNCRWNS Does BK Museum 007&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/post_bk_museum_8.jpg&quot; alt=&quot;SVNCRWNS Does BK Museum 008&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/dist/images/post_bk_museum_8.jpg&quot; alt=&quot;SVNCRWNS Does BK Museum 008&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/post_bk_museum_9.jpg&quot; alt=&quot;SVNCRWNS Does BK Museum 009&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/dist/images/post_bk_museum_9.jpg&quot; alt=&quot;SVNCRWNS Does BK Museum 009&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/post_bk_museum_10.jpg&quot; alt=&quot;SVNCRWNS Does BK Museum 010&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/dist/images/post_bk_museum_10.jpg&quot; alt=&quot;SVNCRWNS Does BK Museum 010&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I see paintings like these all the time.  Initially, I didn’t quite get how solid colors on canvas were considered art, but as I’ve gotten more educated in the art space,  I do understand that this expands on the genres of art culture and criticism.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/post_bk_museum_11.jpg&quot; alt=&quot;SVNCRWNS Does BK Museum 011&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/dist/images/post_bk_museum_11.jpg&quot; alt=&quot;SVNCRWNS Does BK Museum 011&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/post_bk_museum_12.jpg&quot; alt=&quot;SVNCRWNS Does BK Museum 012&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/dist/images/post_bk_museum_12.jpg&quot; alt=&quot;SVNCRWNS Does BK Museum 012&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/post_bk_museum_15.jpg&quot; alt=&quot;SVNCRWNS Does BK Museum 015&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/dist/images/post_bk_museum_15.jpg&quot; alt=&quot;SVNCRWNS Does BK Museum 015&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Infinite Blue: One of my favorite collections&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/post_bk_museum_13.jpg&quot; alt=&quot;SVNCRWNS Does BK Museum 013&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/dist/images/post_bk_museum_13.jpg&quot; alt=&quot;SVNCRWNS Does BK Museum 013&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/post_bk_museum_14.jpg&quot; alt=&quot;SVNCRWNS Does BK Museum 014&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/dist/images/post_bk_museum_14.jpg&quot; alt=&quot;SVNCRWNS Does BK Museum 014&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/post_bk_museum_16.jpg&quot; alt=&quot;SVNCRWNS Does BK Museum 016&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;/dist/images/post_bk_museum_16.jpg&quot; alt=&quot;SVNCRWNS Does BK Museum 016&quot; /&gt;
 Artist statements are considered art too!  This statement resonated so deeply, also watched the Matrix Trilogy right after visiting this exhibit&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/post_bk_museum_17.jpg&quot; alt=&quot;SVNCRWNS Does BK Museum 017&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/dist/images/post_bk_museum_17.jpg&quot; alt=&quot;SVNCRWNS Does BK Museum 017&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 17 Jul 2018 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/journal/svncrwns-visits-bk-museum/</link>
@@ -195,7 +195,7 @@ Artist statements are considered art too!  This statement resonated so deeply, a
 
 &lt;p&gt;Social Media is the biggest elephant in the room, so we tackled it first.  We started with sharing who we are and what we’ve been up to.  We missed this freebie when we first started in 2015.  Realizing how valuable it is to share your process and growth with your audience, we’ve started our &lt;a href=&quot;http://www.instagram.com/svncrwns&quot;&gt;instagram&lt;/a&gt; account and we’re sharing our portfolio.  We have projects as far back as 2015 that we haven’t really talked much about, it was a good time to revisit some of that content and share those stories.  Follow our instagram account, &lt;a href=&quot;http://www.instagram.com/svncrwns&quot;&gt;@svncrwns&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/post_brandcompany.jpg&quot; alt=&quot;Brand Company 001&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/dist/images/post_brandcompany.jpg&quot; alt=&quot;Brand Company 001&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Two — Logo&lt;/em&gt;&lt;/p&gt;
 
@@ -247,23 +247,23 @@ Artist statements are considered art too!  This statement resonated so deeply, a
     
       <item>
         <title>Event Recap &amp;#58; Delicate</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/post_delicate_2.jpg&quot; alt=&quot;Delicate Event Recap 002&quot; /&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;/dist/images/post_delicate_2.jpg&quot; alt=&quot;Delicate Event Recap 002&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/post_delicate_3.png&quot; alt=&quot;Delicate Event Recap 003&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/dist/images/post_delicate_3.png&quot; alt=&quot;Delicate Event Recap 003&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/post_delicate_4.jpg&quot; alt=&quot;Delicate Event Recap 004&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/dist/images/post_delicate_4.jpg&quot; alt=&quot;Delicate Event Recap 004&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/post_delicate_5.jpg&quot; alt=&quot;Delicate Event Recap 005&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/dist/images/post_delicate_5.jpg&quot; alt=&quot;Delicate Event Recap 005&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/post_delicate_6.jpg&quot; alt=&quot;Delicate Event Recap 006&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/dist/images/post_delicate_6.jpg&quot; alt=&quot;Delicate Event Recap 006&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/post_delicate_7.jpg&quot; alt=&quot;Delicate Event Recap 007&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/dist/images/post_delicate_7.jpg&quot; alt=&quot;Delicate Event Recap 007&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/post_delicate_8.jpg&quot; alt=&quot;Delicate Event Recap 008&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/dist/images/post_delicate_8.jpg&quot; alt=&quot;Delicate Event Recap 008&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/post_delicate_9.jpg&quot; alt=&quot;Delicate Event Recap 009&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/dist/images/post_delicate_9.jpg&quot; alt=&quot;Delicate Event Recap 009&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/post_delicate_10.jpg&quot; alt=&quot;Delicate Event Recap 010&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/dist/images/post_delicate_10.jpg&quot; alt=&quot;Delicate Event Recap 010&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 15 Jun 2018 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/journal/delicate/</link>
@@ -274,23 +274,23 @@ Artist statements are considered art too!  This statement resonated so deeply, a
     
       <item>
         <title>Engagement: Love on Display</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/post_javoni_stevie_4.jpg&quot; alt=&quot;Javoni + Stevie Engagement 004&quot; /&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;/dist/images/post_javoni_stevie_4.jpg&quot; alt=&quot;Javoni + Stevie Engagement 004&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/post_javoni_stevie_5.jpg&quot; alt=&quot;Javoni + Stevie Engagement 005&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/dist/images/post_javoni_stevie_5.jpg&quot; alt=&quot;Javoni + Stevie Engagement 005&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/post_javoni_stevie_6.jpg&quot; alt=&quot;Javoni + Stevie Engagement 006&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/dist/images/post_javoni_stevie_6.jpg&quot; alt=&quot;Javoni + Stevie Engagement 006&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/post_javoni_stevie_7.jpg&quot; alt=&quot;Javoni + Stevie Engagement 007&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/dist/images/post_javoni_stevie_7.jpg&quot; alt=&quot;Javoni + Stevie Engagement 007&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/post_javoni_stevie_8.jpg&quot; alt=&quot;Javoni + Stevie Engagement 008&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/dist/images/post_javoni_stevie_8.jpg&quot; alt=&quot;Javoni + Stevie Engagement 008&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/post_javoni_stevie_9.jpg&quot; alt=&quot;Javoni + Stevie Engagement 009&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/dist/images/post_javoni_stevie_9.jpg&quot; alt=&quot;Javoni + Stevie Engagement 009&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/post_javoni_stevie_10.jpg&quot; alt=&quot;Javoni + Stevie Engagement 010&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/dist/images/post_javoni_stevie_10.jpg&quot; alt=&quot;Javoni + Stevie Engagement 010&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/post_javoni_stevie_11.jpg&quot; alt=&quot;Javoni + Stevie Engagement 011&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/dist/images/post_javoni_stevie_11.jpg&quot; alt=&quot;Javoni + Stevie Engagement 011&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/post_javoni_stevie_12.jpg&quot; alt=&quot;Javoni + Stevie Engagement 012&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/dist/images/post_javoni_stevie_12.jpg&quot; alt=&quot;Javoni + Stevie Engagement 012&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 05 Jun 2018 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/journal/javoni-and-stevie-engagement/</link>
@@ -301,19 +301,19 @@ Artist statements are considered art too!  This statement resonated so deeply, a
     
       <item>
         <title>Creating Content with Beauty Brand + Ambassador, @shonnawatkins</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/post_shonnawatkins_1.jpg&quot; alt=&quot;Shonna Watkins 001&quot; /&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;/dist/images/post_shonnawatkins_1.jpg&quot; alt=&quot;Shonna Watkins 001&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/post_shonnawatkins_2.jpg&quot; alt=&quot;Shonna Watkins 002&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/dist/images/post_shonnawatkins_2.jpg&quot; alt=&quot;Shonna Watkins 002&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/post_shonnawatkins_3.jpg&quot; alt=&quot;Shonna Watkins 003&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/dist/images/post_shonnawatkins_3.jpg&quot; alt=&quot;Shonna Watkins 003&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/post_shonnawatkins_4.jpg&quot; alt=&quot;Shonna Watkins 004&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/dist/images/post_shonnawatkins_4.jpg&quot; alt=&quot;Shonna Watkins 004&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/post_shonnawatkins_5.jpg&quot; alt=&quot;Shonna Watkins 005&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/dist/images/post_shonnawatkins_5.jpg&quot; alt=&quot;Shonna Watkins 005&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/post_shonnawatkins_6.jpg&quot; alt=&quot;Shonna Watkins 006&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/dist/images/post_shonnawatkins_6.jpg&quot; alt=&quot;Shonna Watkins 006&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/post_shonnawatkins_7.jpg&quot; alt=&quot;Shonna Watkins 007&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/dist/images/post_shonnawatkins_7.jpg&quot; alt=&quot;Shonna Watkins 007&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;caption_wrapper&quot;&gt;
 	&lt;div class=&quot;editorial-caption-title&quot;&gt;Shonna Watkins Credits&lt;/div&gt;
@@ -346,7 +346,7 @@ Photography + Videography: SVNCRWNS&lt;/p&gt;
         <title>SVNCRWNS X Creative Mornings Baltimore</title>
         <description>&lt;p&gt;We were invited to talk at Creative Mornings in Baltimore, MD about the theme of “Context”.  We touched on our recent trip to Los Angeles to visit abstract artist, Mark Bradford, and talked about what our work means to us and what inspires us to continue to focus on building and expanding on community resources.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/post_creative_mornings.jpg&quot; alt=&quot;SVNCRWNS X Creative Mornings &amp;quot;Context&amp;quot; Keynote&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/dist/images/post_creative_mornings.jpg&quot; alt=&quot;SVNCRWNS X Creative Mornings &amp;quot;Context&amp;quot; Keynote&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Check out our talk by way of &lt;a href=&quot;http://www.localcolorpodcast.com/2018/01/26/episode-51-creative-mornings-panel/&quot;&gt;Local Color Podcast&lt;/a&gt;.&lt;/p&gt;
 </description>
@@ -359,11 +359,11 @@ Photography + Videography: SVNCRWNS&lt;/p&gt;
     
       <item>
         <title>Creating Content with Come So Far</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/post_comesofar_1_v2.png&quot; alt=&quot;Come So Far 001&quot; /&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;/dist/images/post_comesofar_1_v2.png&quot; alt=&quot;Come So Far 001&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/post_comesofar_2_v2.png&quot; alt=&quot;Come So Far 002&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/dist/images/post_comesofar_2_v2.png&quot; alt=&quot;Come So Far 002&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/post_comesofar_3_v2.png&quot; alt=&quot;Come So Far 003&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/dist/images/post_comesofar_3_v2.png&quot; alt=&quot;Come So Far 003&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 20 Jun 2016 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/journal/come-so-far/</link>

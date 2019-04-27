@@ -12,11 +12,11 @@ keywords: production company, svncrwns, e-commerce, women-owned businesses, crea
 
 [//]: # (Work on Home Page)
 summary                         : "a short docufilm talking to Baltimore Arabbers, local produce providers"
-phase1-hero                     : /assets/images/cityofgods-1.jpg
-portfolio-cover 				: /assets/images/cityofgods-1.jpg
+phase1-hero                     : /dist/images/cityofgods-1.jpg
+portfolio-cover 				: /dist/images/cityofgods-1.jpg
 
 [//]: # (Catalog All)
-catalog-cover-image				: /assets/images/cityofgods-1.jpg
+catalog-cover-image				: /dist/images/cityofgods-1.jpg
 
 [//]: # (Credits List)
 data-credits-list 				: seat-at-the-table-credits

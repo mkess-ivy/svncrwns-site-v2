@@ -12,8 +12,8 @@ keywords: production company, svncrwns, e-commerce, women-owned businesses, crea
 
 
 [//]: # (Work on Home Page)
-phase1-hero                     : /assets/images/noisytenants_masthead.jpg
-portfolio-cover					: /assets/images/noisytenants-cover.jpg
+phase1-hero                     : /dist/images/noisytenants_masthead.jpg
+portfolio-cover					: /dist/images/noisytenants-cover.jpg
 
 [//]: # (Featured Info)
 featured 						: "yes"
@@ -30,7 +30,7 @@ work-space 							: "client"
 
 [//]: # (Case Study)
 brand-statement 				: "Establishing a brand and community partner with a fresh approach to entrepreneurship and youth development."
-project-details-cover 			: /assets/images/noisytenants-project-cover.jpg
+project-details-cover 			: /dist/images/noisytenants-project-cover.jpg
 summary							: "Noisy Tenants is a social agency that works with youth to create microbusinesses teaching entrepreneurship and business acumen skills."
 opportunity                     : "SVNCRWNS had the opportunity of working with this agency to help them with strategy to create their brand identity, identify their audience, develop their website with custom functionality and partner with them on several projects that positively impacted youth throughout Baltimore, MD."
 insights 						: "Since we've been working with the brand, we have observed the unique opportunities they have created &mdash; taking theater into classrooms, and on stage, to working with youth to create microbusinesses.  We knew their identity + their website would need to rely heavily on storytelling.  We knew early - sharing this portfolio of work, had to be dynamic and able to reach various audiences."

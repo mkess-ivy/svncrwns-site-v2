@@ -11,12 +11,12 @@ keywords: production company, svncrwns, e-commerce, women-owned businesses, crea
 
 
 [//]: # (Work on Home Page)
-phase1-hero                     : /assets/images/thewaywild.jpg
+phase1-hero                     : /dist/images/thewaywild.jpg
 summary                         : "a visual look book of photo and video for client"
-portfolio-cover 				: /assets/images/thewaywild.jpg
+portfolio-cover 				: /dist/images/thewaywild.jpg
 
 [//]: # (Catalog All)
-catalog-cover-image				: /assets/images/the-way-wild1.jpg
+catalog-cover-image				: /dist/images/the-way-wild1.jpg
 
 [//]: # (Credits List)
 data-credits-list 				: seat-at-the-table-credits

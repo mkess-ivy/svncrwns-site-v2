@@ -1,7 +1,7 @@
-- slide: /assets/images/fam_slider_1.jpg
-- slide: /assets/images/fam_slider_2.jpg
-- slide: /assets/images/fam_slider_3.jpg
-- slide: /assets/images/fam_slider_4.jpg
-- slide: /assets/images/fam_slider_5.jpg
-- slide: /assets/images/fam_slider_6.jpg
-- slide: /assets/images/fam_slider_7.jpg
+- slide: /dist/images/fam_slider_1.jpg
+- slide: /dist/images/fam_slider_2.jpg
+- slide: /dist/images/fam_slider_3.jpg
+- slide: /dist/images/fam_slider_4.jpg
+- slide: /dist/images/fam_slider_5.jpg
+- slide: /dist/images/fam_slider_6.jpg
+- slide: /dist/images/fam_slider_7.jpg

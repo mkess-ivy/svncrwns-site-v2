@@ -13,8 +13,8 @@ keywords: production company, svncrwns, e-commerce, women-owned businesses, crea
 
 [//]: # (Work on Home Page)
 summary                         : "collaboration with fashion designer, Ken J Galaxy featuring our co-founder + muse, Chavon Lee"
-phase1-hero                     : /assets/images/renegade_bride_cover.jpg
-portfolio-cover					: /assets/images/renegade_bride_cover.jpg
+phase1-hero                     : /dist/images/renegade_bride_cover.jpg
+portfolio-cover					: /dist/images/renegade_bride_cover.jpg
 
 [//]: # (Slider)
 slider: renegade_bride_slider

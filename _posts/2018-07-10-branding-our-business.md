@@ -1,7 +1,7 @@
 ---
 layout: phase1-post
 title: The Production Company is Branding Itself
-featured_image: /assets/images/post_brand_company.jpg
+featured_image: /dist/images/post_brand_company.jpg
 featured_summary: "We had to take several looks at ourselves as a company positioning ourselves to help other companies grow.  It's time we start branding ourselves and showing our audience what it takes to begin this journey.  Check out the first 5 items we tackled below."
 
 description: SVNCRWNS shares their experience working inside brands while not having branding itself.  This is a common experience for many different industries where startups are ramping up and solidifying their positions.  We love transparency, in order for our clients to grow, we have to grow.  Let's grow together.
@@ -17,7 +17,7 @@ We hate to admit it but we were too busy helping other brands tell their story, 
 
 Social Media is the biggest elephant in the room, so we tackled it first.  We started with sharing who we are and what we've been up to.  We missed this freebie when we first started in 2015.  Realizing how valuable it is to share your process and growth with your audience, we've started our [instagram](http://www.instagram.com/svncrwns) account and we're sharing our portfolio.  We have projects as far back as 2015 that we haven't really talked much about, it was a good time to revisit some of that content and share those stories.  Follow our instagram account, [@svncrwns](http://www.instagram.com/svncrwns).
 
-![Brand Company 001](/assets/images/post_brandcompany.jpg)
+![Brand Company 001](/dist/images/post_brandcompany.jpg)
 
 *Two &mdash; Logo*
 

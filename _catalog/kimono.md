@@ -12,7 +12,7 @@ keywords: production company, svncrwns, e-commerce, women-owned businesses, crea
 
 [//]: # (Work on Home Page)
 summary                         : "a photo series.  Cloudy orange skies with an oversaturated Kimono"
-portfolio-cover					: /assets/images/kimono-slide4.jpg
+portfolio-cover					: /dist/images/kimono-slide4.jpg
 
 
 [//]: # (Slider)

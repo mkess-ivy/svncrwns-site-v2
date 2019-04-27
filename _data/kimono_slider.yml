@@ -1,5 +1,5 @@
-- slide: /assets/images/kimono-slide1.jpg
-- slide: /assets/images/kimono-slide2.jpg
-- slide: /assets/images/kimono-slide3.jpg
-- slide: /assets/images/kimono-slide4.jpg
-- slide: /assets/images/kimono-slide5.jpg
+- slide: /dist/images/kimono-slide1.jpg
+- slide: /dist/images/kimono-slide2.jpg
+- slide: /dist/images/kimono-slide3.jpg
+- slide: /dist/images/kimono-slide4.jpg
+- slide: /dist/images/kimono-slide5.jpg

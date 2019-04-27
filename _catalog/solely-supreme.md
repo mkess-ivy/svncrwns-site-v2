@@ -11,11 +11,11 @@ keywords: production company, svncrwns, e-commerce, women-owned businesses, crea
 
 [//]: # (Work on Home Page)
 summary                         : "platform created for artist, Solely Supreme, to market him as an artist &mdash; a place to showcase his art, take orders for commission and advertise his product shop"
-phase1-hero                     : /assets/images/solelysupreme-cover5.jpg
-portfolio-cover 				: /assets/images/solelysupreme-cover5.jpg
+phase1-hero                     : /dist/images/solelysupreme-cover5.jpg
+portfolio-cover 				: /dist/images/solelysupreme-cover5.jpg
 
 [//]: # (Catalog All)
-catalog-cover-image				: /assets/images/blackcotton_cover.jpg
+catalog-cover-image				: /dist/images/blackcotton_cover.jpg
 
 [//]: # (Slider)
 slider: solelysupreme_slider

@@ -1,8 +1,8 @@
-- slide: /assets/images/akoben_cover.jpg
-- slide: /assets/images/akoben_2.jpg
-- slide: /assets/images/akoben_3.jpg
-- slide: /assets/images/akoben_4.jpg
-- slide: /assets/images/akoben_5.jpg
-- slide: /assets/images/akoben_6.jpg
-- slide: /assets/images/akoben_7.jpg
-- slide: /assets/images/akoben_8.jpg
+- slide: /dist/images/akoben_cover.jpg
+- slide: /dist/images/akoben_2.jpg
+- slide: /dist/images/akoben_3.jpg
+- slide: /dist/images/akoben_4.jpg
+- slide: /dist/images/akoben_5.jpg
+- slide: /dist/images/akoben_6.jpg
+- slide: /dist/images/akoben_7.jpg
+- slide: /dist/images/akoben_8.jpg

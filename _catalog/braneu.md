@@ -11,8 +11,8 @@ description: SVNCRWNS worked with Braneu to take their idea to an e-commerce pla
 keywords: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects
 
 [//]: # (Work on Home Page)
-phase1-hero                     : /assets/images/braneu-cover.jpg
-portfolio-cover					: /assets/images/braneu-cover.jpg
+phase1-hero                     : /dist/images/braneu-cover.jpg
+portfolio-cover					: /dist/images/braneu-cover.jpg
 
 [//]: # (Featured Info)
 featured 						: "yes"
@@ -28,7 +28,7 @@ work-space 							: "client"
 
 [//]: # (Case Study)
 brand-statement 				: "Establishing brand presence with an online shop to showcase monthly releases from new fashion line."
-project-details-cover 			: /assets/images/braneu-project-details.jpg
+project-details-cover 			: /dist/images/braneu-project-details.jpg
 summary							: "Branëu is a fashion line for the overachievers and early adopters.  The concept originally came in 2015.  After careful detail and planning, Branëu releases it’s first collection F/W 2018."
 opportunity                     : "SVNCRWNS has been working with the founder for Branëu on several other ventures.  When this concept was on the table, we jumped on it.  We saw an opportunity to design a simple user experience that we could build on in time as the brand starts to see growth."
 insights 						: "The cheapest way to market is heavy marketing of original content and navigating your potential users to an e-commerce platform to convert.  Digital is the main channel to connect with audience, the e-commerce option was an easier entry to market, providing analytics to help drive decision making."

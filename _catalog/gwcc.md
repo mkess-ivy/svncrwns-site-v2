@@ -10,8 +10,8 @@ description: SVNCRWNS has worked with Greenmount West Community Center to launch
 keywords: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects
 
 [//]: # (Work on Home Page)
-phase1-hero                     : /assets/images/braneu-cover.jpg
-portfolio-cover					: /assets/images/gwcc-cover.jpg
+phase1-hero                     : /dist/images/braneu-cover.jpg
+portfolio-cover					: /dist/images/gwcc-cover.jpg
 
 
 [//]: # (Website)
@@ -24,7 +24,7 @@ work-space 							: "client"
 
 [//]: # (Case Study)
 brand-statement 				: "Helping local institution springboard its initiatives and resources for community youth in arts + entrepreneurship"
-project-details-cover 			: /assets/images/gwcc-project-details.jpg
+project-details-cover 			: /dist/images/gwcc-project-details.jpg
 summary							: "Greenmount West Community Center is a neighborhood institution in the Greenmount West neighborhood of Baltimore City.  Starting in 2016, the founders of the space saw an opportunity to bring programming, snacks, materials and equipment to service the youth 5 - 18 years of age in the neighborhood during evening, weekend and summer hours."
 opportunity                     : "This opportunity was connected to a bigger partnership with Mark Bradford and the Baltimore Museum of Art as he prepared for his exhibit opening of Tomorrow’s Another Day in September 2018.  As part of the rollout, Mr. Bradford created a partnership with local community initiatives to sponsor equipment and resources to promote sustainability.  To highlight this work in the center, we began outlining the GWCC story for the new website."
 insights 						: "Starting on the ground floor, we were able to pitch in with creating the brand identity, story and tone for how the center would communicate going forward.  We saw opportunities to share past wins, share the schedule of updates with community members, and be a hub of information and access in one of Baltimore’s newly renovated residential spaces."

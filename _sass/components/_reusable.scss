@@ -337,7 +337,7 @@ a.general_link {
   
   .image {
     @include desktop-blah {
-      background-image: url('/assets/images/wayne_cover.jpg');
+      background-image: url('/dist/images/wayne_cover.jpg');
       height: 125px;
       width: 175px;
       background-size: cover;
@@ -382,7 +382,7 @@ a.general_link {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    // background-image: url('/assets/images/read-more-work.jpg');
+    // background-image: url('/dist/images/read-more-work.jpg');
     height: 350px;
     padding: 25px 20px 20px;
 

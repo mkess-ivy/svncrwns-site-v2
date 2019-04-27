@@ -2,7 +2,7 @@
 layout: full-grid
 title: Careers
 permalink: /careers/
-archive_image: /assets/images/home-slide-1.png
+archive_image: /dist/images/home-slide-1.png
 
 description: SVNCRWNS has a list of opening positions. Check out our Careers page. Apply today.
 
@@ -27,7 +27,7 @@ keywords: production company, svncrwns, e-commerce, women-owned businesses, phot
   <div class="overlap-image-section">
     <div class="frow justify-end">
       <div class="overlap-image">
-        <img src="/assets/images/careers-image-main.png" />
+        <img src="/dist/images/careers-image-main.png" />
       </div>
     </div>
     <div class="color-block-section">
@@ -37,10 +37,10 @@ keywords: production company, svncrwns, e-commerce, women-owned businesses, phot
         <div class="line"></div>
         <div class="color-block-arrow">
           <div class="color-block-inner-arrow-true">
-            <img src="/assets/images/arrow-true.png" />
+            <img src="/dist/images/arrow-true.png" />
           </div>
           <div class="color-block-inner-arrow-circle">
-            <img src="/assets/images/arrow-circle.png" />
+            <img src="/dist/images/arrow-circle.png" />
           </div>
         </div>
       </div>

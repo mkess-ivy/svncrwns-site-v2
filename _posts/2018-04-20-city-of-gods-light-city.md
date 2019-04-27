@@ -1,7 +1,7 @@
 ---
 layout: phase1-post
 title: City of Gods x Light City Baltimore
-featured_image: /assets/images/cog-lightcity-1.jpg
+featured_image: /dist/images/cog-lightcity-1.jpg
 featured_summary: "Media coverage for City of Gods collaboration with Light City, April 2018"
 
 description: SVNCRWNS completes media coverage for City of Gods collaboration with Baltimore's festival, Light City.

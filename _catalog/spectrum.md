@@ -12,11 +12,11 @@ keywords: production company, svncrwns, e-commerce, women-owned businesses, crea
 
 [//]: # (Work on Home Page)
 summary                         : "a fashion show produced for a pilot event of collaboration amongst retailers + designers"
-phase1-hero                     : /assets/images/project_collabmore/spectrum-03.jpg
-portfolio-cover 				: /assets/images/project_collabmore/spectrum-03.jpg
+phase1-hero                     : /dist/images/project_collabmore/spectrum-03.jpg
+portfolio-cover 				: /dist/images/project_collabmore/spectrum-03.jpg
 
 [//]: # (Catalog All)
-catalog-cover-image				: /assets/images/spectrum_cover.jpg
+catalog-cover-image				: /dist/images/spectrum_cover.jpg
 
 [//]: # (Overlay Menu Info)
 work-tags 							: "partnership, event production, event team management, set design"
