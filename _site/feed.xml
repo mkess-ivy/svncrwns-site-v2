@@ -4,10 +4,10 @@
     <title>SVNCRWNS</title>
     <description>SVNCRWNS is a strategy and production company based in Baltimore, MD. We use our skills and resources to work with clients to push their missions forward.  Services include Creative Direction, Strategy, Image Making and Web Design + Development
 </description>
-    <link>http://www.svncrwns.com/</link>
-    <atom:link href="http://www.svncrwns.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 27 Apr 2019 10:34:36 -0400</pubDate>
-    <lastBuildDate>Sat, 27 Apr 2019 10:34:36 -0400</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 27 Apr 2019 11:35:21 -0400</pubDate>
+    <lastBuildDate>Sat, 27 Apr 2019 11:35:21 -0400</lastBuildDate>
     <generator>Jekyll v3.6.3</generator>
     
       <item>
@@ -86,8 +86,8 @@
 
 </description>
         <pubDate>Mon, 17 Dec 2018 00:00:00 -0500</pubDate>
-        <link>http://www.svncrwns.com/journal/svncrwns-we-changed-things-up/</link>
-        <guid isPermaLink="true">http://www.svncrwns.com/journal/svncrwns-we-changed-things-up/</guid>
+        <link>http://localhost:4000/journal/svncrwns-we-changed-things-up/</link>
+        <guid isPermaLink="true">http://localhost:4000/journal/svncrwns-we-changed-things-up/</guid>
         
         
       </item>
@@ -130,8 +130,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Fri, 27 Jul 2018 00:00:00 -0400</pubDate>
-        <link>http://www.svncrwns.com/journal/chavon-lee-x-ken-j/</link>
-        <guid isPermaLink="true">http://www.svncrwns.com/journal/chavon-lee-x-ken-j/</guid>
+        <link>http://localhost:4000/journal/chavon-lee-x-ken-j/</link>
+        <guid isPermaLink="true">http://localhost:4000/journal/chavon-lee-x-ken-j/</guid>
         
         
       </item>
@@ -180,8 +180,8 @@ Artist statements are considered art too!  This statement resonated so deeply, a
 &lt;p&gt;&lt;img src=&quot;/assets/images/post_bk_museum_17.jpg&quot; alt=&quot;SVNCRWNS Does BK Museum 017&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 17 Jul 2018 00:00:00 -0400</pubDate>
-        <link>http://www.svncrwns.com/journal/svncrwns-visits-bk-museum/</link>
-        <guid isPermaLink="true">http://www.svncrwns.com/journal/svncrwns-visits-bk-museum/</guid>
+        <link>http://localhost:4000/journal/svncrwns-visits-bk-museum/</link>
+        <guid isPermaLink="true">http://localhost:4000/journal/svncrwns-visits-bk-museum/</guid>
         
         
       </item>
@@ -239,8 +239,8 @@ Artist statements are considered art too!  This statement resonated so deeply, a
 &lt;p&gt;D. &lt;a href=&quot;https://www.forbes.com/sites/jerrymclaughlin/2011/12/14/a-simple-blueprint-for-a-successful-brand/#2d4767b05484&quot;&gt;A Simple Blueprint for Successful Brands&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 10 Jul 2018 00:00:00 -0400</pubDate>
-        <link>http://www.svncrwns.com/journal/branding-our-business/</link>
-        <guid isPermaLink="true">http://www.svncrwns.com/journal/branding-our-business/</guid>
+        <link>http://localhost:4000/journal/branding-our-business/</link>
+        <guid isPermaLink="true">http://localhost:4000/journal/branding-our-business/</guid>
         
         
       </item>
@@ -266,8 +266,8 @@ Artist statements are considered art too!  This statement resonated so deeply, a
 &lt;p&gt;&lt;img src=&quot;/assets/images/post_delicate_10.jpg&quot; alt=&quot;Delicate Event Recap 010&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 15 Jun 2018 00:00:00 -0400</pubDate>
-        <link>http://www.svncrwns.com/journal/delicate/</link>
-        <guid isPermaLink="true">http://www.svncrwns.com/journal/delicate/</guid>
+        <link>http://localhost:4000/journal/delicate/</link>
+        <guid isPermaLink="true">http://localhost:4000/journal/delicate/</guid>
         
         
       </item>
@@ -293,8 +293,8 @@ Artist statements are considered art too!  This statement resonated so deeply, a
 &lt;p&gt;&lt;img src=&quot;/assets/images/post_javoni_stevie_12.jpg&quot; alt=&quot;Javoni + Stevie Engagement 012&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 05 Jun 2018 00:00:00 -0400</pubDate>
-        <link>http://www.svncrwns.com/journal/javoni-and-stevie-engagement/</link>
-        <guid isPermaLink="true">http://www.svncrwns.com/journal/javoni-and-stevie-engagement/</guid>
+        <link>http://localhost:4000/journal/javoni-and-stevie-engagement/</link>
+        <guid isPermaLink="true">http://localhost:4000/journal/javoni-and-stevie-engagement/</guid>
         
         
       </item>
@@ -321,8 +321,8 @@ Artist statements are considered art too!  This statement resonated so deeply, a
 &lt;/div&gt;
 </description>
         <pubDate>Thu, 10 May 2018 00:00:00 -0400</pubDate>
-        <link>http://www.svncrwns.com/journal/shonna-watkins/</link>
-        <guid isPermaLink="true">http://www.svncrwns.com/journal/shonna-watkins/</guid>
+        <link>http://localhost:4000/journal/shonna-watkins/</link>
+        <guid isPermaLink="true">http://localhost:4000/journal/shonna-watkins/</guid>
         
         
       </item>
@@ -336,8 +336,8 @@ Artist statements are considered art too!  This statement resonated so deeply, a
 Photography + Videography: SVNCRWNS&lt;/p&gt;
 </description>
         <pubDate>Fri, 20 Apr 2018 00:00:00 -0400</pubDate>
-        <link>http://www.svncrwns.com/journal/city-of-gods-light-city/</link>
-        <guid isPermaLink="true">http://www.svncrwns.com/journal/city-of-gods-light-city/</guid>
+        <link>http://localhost:4000/journal/city-of-gods-light-city/</link>
+        <guid isPermaLink="true">http://localhost:4000/journal/city-of-gods-light-city/</guid>
         
         
       </item>
@@ -351,8 +351,8 @@ Photography + Videography: SVNCRWNS&lt;/p&gt;
 &lt;p&gt;Check out our talk by way of &lt;a href=&quot;http://www.localcolorpodcast.com/2018/01/26/episode-51-creative-mornings-panel/&quot;&gt;Local Color Podcast&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Sun, 17 Dec 2017 00:00:00 -0500</pubDate>
-        <link>http://www.svncrwns.com/journal/creative-mornings/</link>
-        <guid isPermaLink="true">http://www.svncrwns.com/journal/creative-mornings/</guid>
+        <link>http://localhost:4000/journal/creative-mornings/</link>
+        <guid isPermaLink="true">http://localhost:4000/journal/creative-mornings/</guid>
         
         
       </item>
@@ -366,8 +366,8 @@ Photography + Videography: SVNCRWNS&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/assets/images/post_comesofar_3_v2.png&quot; alt=&quot;Come So Far 003&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 20 Jun 2016 00:00:00 -0400</pubDate>
-        <link>http://www.svncrwns.com/journal/come-so-far/</link>
-        <guid isPermaLink="true">http://www.svncrwns.com/journal/come-so-far/</guid>
+        <link>http://localhost:4000/journal/come-so-far/</link>
+        <guid isPermaLink="true">http://localhost:4000/journal/come-so-far/</guid>
         
         
       </item>
