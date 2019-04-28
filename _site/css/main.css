@@ -568,7 +568,6 @@ a.phase1-btn {
     position: relative; } }
 
 .newsletter_page {
-  background-image: url("/dist/images/whatwedo-hero.jpg");
   background-repeat: no-repeat;
   background-position: center left;
   background-size: cover;
