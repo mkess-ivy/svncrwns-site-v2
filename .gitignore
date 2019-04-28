@@ -4,5 +4,5 @@ node_modules
 package.json
 npm-debug.log
 gulpfile.js
-/src/images
+src/images
 _glynn.yml
