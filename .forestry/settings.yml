@@ -21,7 +21,7 @@ sections:
   label: Other
 - type: document
   path: _data/featured_work.yml
-  label: Featured Project Home Slider
+  label: Home Featured Projects
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
