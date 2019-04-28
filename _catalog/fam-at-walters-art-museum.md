@@ -4,11 +4,11 @@ layout                          : phase1-slide
 title 					        : "FAM @ Walters Art Museum"
 season				            : "4"
 category						: photo
-key 							: key-yes
 
-description: SVNCRWNS has worked with Fashion at Morgan, a modeling organization at Morgan State University, for several years as an advisor for their fall and spring fashion shows.
+[//]: # (SEO Information)
+seo-description: SVNCRWNS has worked with Fashion at Morgan, a modeling organization at Morgan State University, for several years as an advisor for their fall and spring fashion shows.
 
-keywords: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects
+seo-keywords: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects
 
 
 [//]: # (Work on Home Page)

@@ -5,9 +5,10 @@ title 					        : "Taylor's Barbershop"
 season				            : "3"
 category						: website
 
-description: SVNCRWNS has worked with serial entrepreneur, Dawayne Taylor, to launch three of his latest ventures.  Taylors Barbershop is an upscale barbershop space serving the Richmond, Virginia area.
+[//]: # (SEO Information)
+seo-description: SVNCRWNS has worked with serial entrepreneur, Dawayne Taylor, to launch three of his latest ventures.  Taylors Barbershop is an upscale barbershop space serving the Richmond, Virginia area.
 
-keywords: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects
+seo-keywords: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects
 
 
 [//]: # (Work on Home Page)

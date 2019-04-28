@@ -5,9 +5,10 @@ title 					        : "Black Cotton"
 season				            : "1"
 category 						: event
 
-description: SVNCRWNS curated and produced this art installation, Where We Begin, as an activation alongside a play, Black Cotton, that premiered at Single Carrot Theater in Baltimore, MD.
+[//]: # (SEO Information)
+seo-description: SVNCRWNS curated and produced this art installation, Where We Begin, as an activation alongside a play, Black Cotton, that premiered at Single Carrot Theater in Baltimore, MD.
 
-keywords: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects
+seo-keywords: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects
 
 
 [//]: # (Work on Home Page)

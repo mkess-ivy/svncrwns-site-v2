@@ -5,9 +5,10 @@ title 					        : "Our Brother's Keeper"
 season				            : "4"
 category						: film
 
-description: SVNCRWNS created a short docu-film, Our Brother's Keeper, to premiere at Coyote Agency's launch event.  This film highlights queer women that work in the barbershop space.
+[//]: # (SEO Information)
+seo-description: SVNCRWNS created a short docu-film, Our Brother's Keeper, to premiere at Coyote Agency's launch event.  This film highlights queer women that work in the barbershop space.
 
-keywords: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects
+seo-keywords: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects
 
 
 [//]: # (Work on Home Page)

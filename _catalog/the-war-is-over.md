@@ -6,9 +6,9 @@ season				            : "4"
 category						: photo
 key 							: key-yes
 
-description: SVNCRWNS created a photo series and fashion film for our muse, Von Lee and friend, Shonna Watkins.  Shares two women having a day in flashback time-period, 1970s.
+seo-description: SVNCRWNS created a photo series and fashion film for our muse, Von Lee and friend, Shonna Watkins.  Shares two women having a day in flashback time-period, 1970s.
 
-keywords: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects
+seo-keywords: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects
 
 
 [//]: # (Work on Home Page)

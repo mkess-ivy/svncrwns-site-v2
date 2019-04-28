@@ -5,9 +5,10 @@ title 					        : "Wayne Wilson"
 season				            : "4"
 category						: photo
 
-description: SVNCRWNS has worked with Wayne Wilson to create photography as this artist prepares to bloom and share more of themselves with their audience.
+[//]: # (SEO Information)
+seo-description: SVNCRWNS has worked with Wayne Wilson to create photography as this artist prepares to bloom and share more of themselves with their audience.
 
-keywords: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects
+seo-keywords: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects
 
 
 [//]: # (Work on Home Page)

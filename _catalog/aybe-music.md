@@ -5,9 +5,10 @@ title 					        : "Aybe Music"
 season				            : "4"
 category						: photo
 
-description: SVNCRWNS worked with Aybe to complete photography shoots for the artist's brand.  Check out the photography used a single cover for Aybe's latest single, Distance.
+[//]: # (SEO Information)
+seo-description: SVNCRWNS worked with Aybe to complete photography shoots for the artist's brand.  Check out the photography used a single cover for Aybe's latest single, Distance.
 
-keywords: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects
+seo-keywords: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects
 
 
 [//]: # (Work on Home Page)

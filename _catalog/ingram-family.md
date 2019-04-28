@@ -5,9 +5,10 @@ title 					        : "Ingram Family Foundation"
 season				            : "3"
 category						: website
 
-description: SVNCRWNS has worked with Ingram Family Foundation to launch its non-profit organization whose mission is to raise capital and invest in communities of interest to promote sustainability and shared resources.
+[//]: # (SEO Information)
+seo-description: SVNCRWNS has worked with Ingram Family Foundation to launch its non-profit organization whose mission is to raise capital and invest in communities of interest to promote sustainability and shared resources.
 
-keywords: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects
+seo-keywords: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects
 
 [//]: # (Work on Home Page)
 summary                         : "platform created for a non-profit organization that invests in community activist entities that support people of color"

@@ -5,9 +5,10 @@ title 							: "The Way Wild"
 season: "3"
 category						: film
 
-description: SVNCRWNS has worked with designer, Kenn Hall, to create a lookbook and fashion film for new collection.
+[//]: # (SEO Information)
+seo-description: SVNCRWNS has worked with designer, Kenn Hall, to create a lookbook and fashion film for new collection.
 
-keywords: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects
+seo-keywords: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects
 
 
 [//]: # (Work on Home Page)

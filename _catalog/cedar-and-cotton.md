@@ -6,9 +6,10 @@ season				            : "4"
 category						: photo
 key 							: key-yes
 
-description: SVNCRWNS has partnered with Cedar and Cotton, a boutique furniture design space, to create content to help the team market their product + space.
+[//]: # (SEO Information)
+seo-description: SVNCRWNS has partnered with Cedar and Cotton, a boutique furniture design space, to create content to help the team market their product + space.
 
-keywords: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects
+seo-keywords: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects
 
 [//]: # (Work on Home Page)
 summary                         : "branded photography content created for home decor company"

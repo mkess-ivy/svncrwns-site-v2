@@ -5,9 +5,10 @@ title 					        : "Solely Supreme"
 season				            : "1"
 category 						: website
 
-description: SVNCRWNS has worked with Solely Supreme to launch the artist platform sharing their story, their products, and their work as a visual artist.
+[//]: # (SEO Information)
+seo-description: SVNCRWNS has worked with Solely Supreme to launch the artist platform sharing their story, their products, and their work as a visual artist.
 
-keywords: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects
+seo-keywords: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects
 
 [//]: # (Work on Home Page)
 summary                         : "platform created for artist, Solely Supreme, to market him as an artist &mdash; a place to showcase his art, take orders for commission and advertise his product shop"

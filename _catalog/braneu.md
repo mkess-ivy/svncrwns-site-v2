@@ -6,9 +6,10 @@ season				            : "4"
 category						: website
 key 							: key-yes
 
-description: SVNCRWNS worked with Braneu to take their idea to an e-commerce platform featuring their collection of mens, womens and childrens clothing.
+[//]: # (SEO Information)
+seo-description: SVNCRWNS worked with Braneu to take their idea to an e-commerce platform featuring their collection of mens, womens and childrens clothing.
 
-keywords: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects
+seo-keywords: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects
 
 [//]: # (Work on Home Page)
 phase1-hero                     : braneu-cover.jpg

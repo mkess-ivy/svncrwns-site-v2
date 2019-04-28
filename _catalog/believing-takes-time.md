@@ -5,9 +5,10 @@ title 					        : "Believing Takes Time Youth Exhibit"
 season				            : "4"
 category						: event
 
-description: SVNCRWNS curated and produced a photography exhibit, Believing takes Time, inviting youth artists from their photography workshop series to showcase and sell their work.
+[//]: # (SEO Information)
+seo-description: SVNCRWNS curated and produced a photography exhibit, Believing takes Time, inviting youth artists from their photography workshop series to showcase and sell their work.
 
-keywords: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects
+seo-keywords: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects
 
 
 [//]: # (Work on Home Page)

@@ -5,9 +5,10 @@ title 					        : "L-Squared"
 season				            : "2"
 category						: website
 
-description: SVNCRWNS has worked with L-Squared, a government contractor serving clients in Boulder, Colorado, creating a website to meet their marketing goals.
+[//]: # (SEO Information)
+seo-description: SVNCRWNS has worked with L-Squared, a government contractor serving clients in Boulder, Colorado, creating a website to meet their marketing goals.
 
-keywords: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects
+seo-keywords: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects
 
 
 [//]: # (Work on Home Page)

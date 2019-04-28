@@ -5,9 +5,10 @@ title 					        : "I&E Change"
 season				            : "4"
 category						: website
 
-description: SVNCRWNS has worked I&E Change to refine their brand identity and update their website.
+[//]: # (SEO Information)
+seo-description: SVNCRWNS has worked I&E Change to refine their brand identity and update their website.
 
-keywords: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects
+seo-keywords: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects
 
 [//]: # (Work on Home Page)
 portfolio-cover					: iandechange-cover.jpg

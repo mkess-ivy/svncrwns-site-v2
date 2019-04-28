@@ -5,9 +5,10 @@ title 					        : "Greenmount West CC"
 season				            : "4"
 category						: website
 
-description: SVNCRWNS has worked with Greenmount West Community Center to launch its digital platform, sharing the work and events being held at the center.
+[//]: # (SEO Information)
+seo-description: SVNCRWNS has worked with Greenmount West Community Center to launch its digital platform, sharing the work and events being held at the center.
 
-keywords: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects
+seo-keywords: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects
 
 [//]: # (Work on Home Page)
 portfolio-cover					: gwcc-cover.jpg

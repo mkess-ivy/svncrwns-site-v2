@@ -5,9 +5,10 @@ title 							: "Sankofa"
 season                          : "2"
 category 						: event
 
-description: SVNCRWNS has worked with Sankofa to complete a catalog of work.  We offered brand styling, consulting, event activation, and content production.
+[//]: # (SEO Information)
+seo-description: SVNCRWNS has worked with Sankofa to complete a catalog of work.  We offered brand styling, consulting, event activation, and content production.
 
-keywords: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects
+seo-keywords: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects
 
 
 [//]: # (Work on Home Page)
