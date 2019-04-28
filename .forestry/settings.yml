@@ -6,10 +6,11 @@ webhook_url:
 sections:
 - type: heading
   label: Folders
-- type: jekyll-pages
-  label: Pages
+- type: directory
+  path: _pages
+  label: Site Pages
   create: documents
-  new_doc_ext: ".md"
+  match: "**/*"
 - type: jekyll-posts
   label: Posts
   create: all
@@ -23,6 +24,10 @@ sections:
 - type: document
   path: _data/featured_work.yml
   label: Featured Projects
+- type: document
+  path: _data/career_positions.yml
+  label: Careers
+  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
