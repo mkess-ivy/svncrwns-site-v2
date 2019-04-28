@@ -4,6 +4,8 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: heading
+  label: Folders
 - type: jekyll-pages
   label: Pages
   create: all
@@ -14,6 +16,12 @@ sections:
   path: _catalog
   label: Catalog
   create: all
+  match: "**/*"
+- type: heading
+  label: Other
+- type: document
+  path: _data/featured_work.yml
+  label: Featured Project Home Slider
   match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
