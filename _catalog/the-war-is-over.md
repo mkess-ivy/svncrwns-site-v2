@@ -13,8 +13,8 @@ keywords: production company, svncrwns, e-commerce, women-owned businesses, crea
 
 [//]: # (Work on Home Page)
 summary                         : "directed, produced and featuring our muse, Chavon Lee along with makeup artist, Shonna Watkins; our spin on 1970s foxy queens"
-phase1-hero                     : /dist/images/the_war_is_over_cover.jpg
-portfolio-cover					: /dist/images/the_war_is_over_cover.jpg
+phase1-hero                     : the_war_is_over_cover.jpg
+portfolio-cover					: the_war_is_over_cover.jpg
 
 [//]: # (Slider)
 slider: the_war_is_over_slider

@@ -12,7 +12,7 @@ keywords: production company, svncrwns, e-commerce, women-owned businesses, crea
 
 [//]: # (Work on Home Page)
 summary                         : "Shot an interview for the founder of Crust by Mack to share new goals for the brand"
-portfolio-cover					: /dist/images/crustbymack-1.jpg
+portfolio-cover					: crustbymack-1.jpg
 
 [//]: # (Overlay Menu Info)
 work-tags 							: "art direction, photography"
@@ -21,7 +21,7 @@ work-space 							: "client"
 
 [//]: # (Case Study)
 brand-statement 				: "Shot an interview for the founder of Crust by Mack to share new goals for the brand"
-project-details-cover 			: /dist/images/crustbymack-1.jpg
+project-details-cover 			: crustbymack-1.jpg
 summary							: "Crust by Mack is a baker's brand for homemade sweet and savory hand pies by chef + baker, Amanda Mack. The brand has been very present in the local marketplaces for Baltimore's chefs and restaurant space. Established in 2015, Crust by Mack has received many accolades for its unique recipes and combination of flavors. We're excited for what the brand has in store for this upcoming year."
 opportunity                     : "Crust by Mack is fundraising to establish and design a bakery space. In efforts to share the history and concept, we saw an opportunity to tell Amanda's story."
 insights 						: "We've worked with Amanda on other projects that have been amazing. After learning about Crust by Mack and what Amanda's plans are for setting up and creating a beautiful space filled with art programming and savory treats for the community, we were ready to offer support with creating some branded content to promote the effort."

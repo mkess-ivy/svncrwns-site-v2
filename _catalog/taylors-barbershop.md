@@ -12,8 +12,8 @@ keywords: production company, svncrwns, e-commerce, women-owned businesses, crea
 
 [//]: # (Work on Home Page)
 summary                         : "created a barbershop site sharing services, booking appts + more"
-phase1-hero                     : /dist/images/taylorbarbershop_cover.jpg
-portfolio-cover 				: /dist/images/taylorsbarbershop-website-mockup.jpg
+phase1-hero                     : taylorbarbershop_cover.jpg
+portfolio-cover 				: taylorsbarbershop-website-mockup.jpg
 
 [//]: # (Featured Info)
 featured 						: "yes"

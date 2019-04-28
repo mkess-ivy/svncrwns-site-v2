@@ -12,11 +12,6 @@ keywords: production company, svncrwns, e-commerce, women-owned businesses, crea
 
 [//]: # (Work on Home Page)
 summary                         : "branded photography content created for website"
-phase1-hero                     : /dist/images/blackcotton_cover.jpg
-portfolio-cover                 : /dist/images/blackcotton_cover.jpg
-
-[//]: # (Catalog All)
-catalog-cover-image				: /dist/images/blackcotton_cover.jpg
 
 [//]: # (Slider)
 slider: kendrick_brown_slider

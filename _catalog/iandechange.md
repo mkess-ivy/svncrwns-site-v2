@@ -10,8 +10,7 @@ description: SVNCRWNS has worked I&E Change to refine their brand identity and u
 keywords: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects
 
 [//]: # (Work on Home Page)
-phase1-hero                     : /dist/images/braneu-cover.jpg
-portfolio-cover					: /dist/images/iandechange-cover.jpg
+portfolio-cover					: iandechange-cover.jpg
 
 
 [//]: # (Website)
@@ -24,7 +23,7 @@ work-space 							: "client"
 
 [//]: # (Case Study)
 brand-statement 				: "Boosting brand’s professionalism and appeal by adding fresh content and a consistent user experience"
-project-details-cover 			: /dist/images/iandechange-project-details.jpg
+project-details-cover 			: iandechange-project-details.jpg
 summary							: "I&E Change is a behavorial and mental health agency for youth and adults specializing in counseling and outpatient services. Inspiring & Empowering Change is based in Baltimore and has experience totaling 15+ years."
 opportunity                     : "SVNCRWNS was referred to this client after learning how we’ve helped past clients.  After setting an appointment, and reviewing the brand’s digital assets, we knew we could accommodate the level of detail & professionalism that was being requested."
 insights 						: "Before beginning our work, we surveyed the website with our team and made a list of all possible updates and fixes to make the brand identity clearer and easily digestible.  The first area we explored was user experience."

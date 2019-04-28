@@ -11,8 +11,8 @@ keywords: production company, svncrwns, e-commerce, women-owned businesses, crea
 
 [//]: # (Work on Home Page)
 summary                         : "media coverage for American Visionary Art Museum 2018 Visionary Conference"
-phase1-hero                     : /dist/images/catalog_avam_logan.jpg
-portfolio-cover					: /dist/images/catalog_avam_logan.jpg
+phase1-hero                     : catalog_avam_logan.jpg
+portfolio-cover					: catalog_avam_logan.jpg
 
 
 [//]: # (Overlay Menu Info)
@@ -21,7 +21,7 @@ work-space 							: "client"
 
 [//]: # (Case Study)
 brand-statement 				: "media coverage for American Visionary Art Museum 2018 Visionary Conference"
-project-details-cover 			: /dist/images/avam-project-1.jpg
+project-details-cover 			: avam-project-1.jpg
 summary							: "American Visionary Art Museum has been a pillar in Baltimore, Maryland for over 20+ years. The museum's donors sponsor the Logan Visionary Conference every year inviting speakers to come and share insight on a particular theme that impacts art and community. This year's conference focused on the Two Worlds of Heaven: Science and Religion."
 opportunity                     : "After meeting a representative from AVAM, we brainstormed ways that we could impact the museum and its upcoming annual conference. We reviewed all digital assets from the previous conference and were tasked with completing media coverage."
 insights 						: "We love working with art institutions. We love providing impact on a large scale for big audiences to digest and enjoy. Although we were tasked with media coverage, we did an assessment of the museum's website presence and platform, communication channels and presence in the community. We were able to identify several opportunities to continue building our relationship with AVAM as well as some key opportunities to enhance the foundation that they've built and established in their 20+ years of existence."

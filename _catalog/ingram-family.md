@@ -11,8 +11,8 @@ keywords: production company, svncrwns, e-commerce, women-owned businesses, crea
 
 [//]: # (Work on Home Page)
 summary                         : "platform created for a non-profit organization that invests in community activist entities that support people of color"
-phase1-hero                     : /dist/images/ingramfamily_cover.jpg
-portfolio-cover 				: /dist/images/ingramfamilyfoundation-website-mockup.jpg
+phase1-hero                     : ingramfamily_cover.jpg
+portfolio-cover 				: ingramfamilyfoundation-website-mockup.jpg
 
 [//]: # (Slider)
 slider: ingramfamily_slider

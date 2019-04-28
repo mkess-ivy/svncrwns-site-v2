@@ -11,8 +11,7 @@ keywords: production company, svncrwns, e-commerce, women-owned businesses, crea
 
 
 [//]: # (Work on Home Page)
-phase1-hero                     : /dist/images/braneu-cover.jpg
-portfolio-cover					: /dist/images/obk_cover.jpg
+portfolio-cover					: obk_cover.jpg
 
 [//]: # (Overlay Menu Info)
 work-tags 							: "web design + development"
@@ -20,7 +19,7 @@ work-space 							: "in-house"
 
 [//]: # (Case Study)
 brand-statement 				: "Gaining perspective on queer women barbers in the male landscape of cosmetics and grooming"
-project-details-cover 			: /dist/images/obk-project-details.jpg
+project-details-cover 			: obk-project-details.jpg
 summary							: "Coyote Agency is a full-service advertising agency based in Brooklyn, NY.  As the agency prepared for its launch and opening exhibit, SVNCRWNS was tasked with the opportunity to screen a short film highlighting an interesting perspective in the male barbering industry at the event."
 opportunity                     : "This opportunity came at perfect timing.  This project originally was pitched at the idea of highlighting men in the male barbering industry, however, SVNCRWNS is a team of creative women.  After finding an inch to pivot, the creators saw space to highlight women that are operating in predominantly male spaces."
 insights 						: "Chavon, one of our co-founders, had several recent visits to two different barbers.   After going to her appointments, she started working out the question of queer women and men that share workspace, considering what it’s like for sharing space, what’s discussed, what’s felt, and more.  Highlighting this demographic in such a huge predominant market of adult men, we saw an area to learn ourselves while also providing a nice topic for our short film."

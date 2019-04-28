@@ -12,7 +12,7 @@ keywords: production company, svncrwns, e-commerce, women-owned businesses, crea
 
 [//]: # (Work on Home Page)
 summary                         : "We worked with this multi-faceted artist to create content for social media.  This included a 1 hour shoot and retouching."
-portfolio-cover					: /dist/images/wayne_cover.jpg
+portfolio-cover					: wayne_cover.jpg
 
 [//]: # (Overlay Menu Info)
 work-tags 							: "art direction, photography"

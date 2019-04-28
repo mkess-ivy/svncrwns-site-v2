@@ -13,8 +13,8 @@ keywords: production company, svncrwns, e-commerce, women-owned businesses, crea
 
 [//]: # (Work on Home Page)
 summary                         : "branded photography content created for modeling + runway university organization"
-phase1-hero                     : /dist/images/fam_at_walters_cover.jpg
-portfolio-cover					: /dist/images/fam_at_walters_cover.jpg
+phase1-hero                     : fam_at_walters_cover.jpg
+portfolio-cover					: fam_at_walters_cover.jpg
 
 [//]: # (Catalog All)
 catalog-cover-image				: /dist/images/blackcotton_cover.jpg

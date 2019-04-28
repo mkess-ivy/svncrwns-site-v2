@@ -11,8 +11,8 @@ keywords: production company, svncrwns, e-commerce, women-owned businesses, crea
 
 [//]: # (Work on Home Page)
 summary                         : "a short film chronicling a weekend in Brooklyn with friends and discussions around black pop culture"
-phase1-hero                     : /dist/images/catalog_humble.jpg
-portfolio-cover					: /dist/images/catalog_humble.jpg
+phase1-hero                     : catalog_humble.jpg
+portfolio-cover					: catalog_humble.jpg
 
 [//]: # (Catalog All)
 catalog-cover-image				: /dist/images/humble.jpg
