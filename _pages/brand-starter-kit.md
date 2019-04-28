@@ -4,9 +4,9 @@ title: Brand Starter Kit
 permalink: /brand-starter-kit/
 bg_color: d8ff01
 
-description: Introducing the brand starter kit, SVNCRWNS presents a product that can launch a business or brand from idea to a money-making venture.  The Brand Starter kit is the perfect product for the artist or entrepreneur to get started, gain a production team, and create goals as they find more opportunities to grow.
+seo-description: Introducing the brand starter kit, SVNCRWNS presents a product that can launch a business or brand from idea to a money-making venture.  The Brand Starter kit is the perfect product for the artist or entrepreneur to get started, gain a production team, and create goals as they find more opportunities to grow.
 
-keywords: production company, svncrwns, launch my brand, e-commerce, marketing, lookbooks, visuals, hire my team, brand starter kit
+seo-keywords: production company, svncrwns, launch my brand, e-commerce, marketing, lookbooks, visuals, hire my team, brand starter kit
 
 
 fixed-project-image1: /dist/images/wayne_cover.jpg

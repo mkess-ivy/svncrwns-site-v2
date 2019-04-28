@@ -4,14 +4,14 @@ title: Careers
 permalink: /careers/
 archive_image: /dist/images/home-slide-1.png
 
-description: SVNCRWNS has a list of opening positions. Check out our Careers page. Apply today.
+seo-description: SVNCRWNS has a list of opening positions. Check out our Careers page. Apply today.
 
 tagline: Careers! - We're Growing
 tagline-description: "The time has come and we couldn’t be more excited to expand on our talent and company.  We’re looking for women artists in tech, design and media who are passionate about supporting other women artists and entrepreneurs.  Join our team, check out the open positions below."
 
 apply-now-link: "https://forms.gle/tefdBTyMr76JG74E6"
 
-keywords: production company, svncrwns, e-commerce, women-owned businesses, photography, consulting, business operations, videography, pop-up installation, pop-up shop, exhibitions, films, documentaries, special projects, black women artists, black women in business
+seo-keywords: production company, svncrwns, e-commerce, women-owned businesses, photography, consulting, business operations, videography, pop-up installation, pop-up shop, exhibitions, films, documentaries, special projects, black women artists, black women in business
 ---
 
 <div class="grid">
