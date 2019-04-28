@@ -1,0 +1,55 @@
+---
+layout: full-grid
+---
+
+<div class="grid">
+  <div class="themealpha-phase1-masthead">
+    <div class="themealpha-phase1-header">
+        {{ page.tagline }}
+    </div>
+    <div class="themealpha-phase1-subheader">
+        {{ page.tagline-description }}
+    </div>
+  </div>
+
+  <div class="overlap-image-section">
+    <div class="frow justify-end">
+      <div class="overlap-image">
+        <img src="/dist/images/careers-image-main.png" />
+      </div>
+    </div>
+    <div class="color-block-section">
+      <div class="color-block-inner">
+        <div class="color-block-inner-small-text">Open</div>
+        <div class="color-block-inner-big-text">Positions</div>
+        <div class="line"></div>
+        <div class="color-block-arrow">
+          <div class="color-block-inner-arrow-true">
+            <img src="/dist/images/arrow-true.png" />
+          </div>
+          <div class="color-block-inner-arrow-circle">
+            <img src="/dist/images/arrow-circle.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-wrapper js_scroll_reveal">
+    <div class="accordion">
+      {% for item in site.data.career_positions %}
+      <div class="accordion-header">{{ item.accordion-header }}</div>
+      <div class="accordion-content">
+        {{ item.accordion-content }}
+        <div class="apply-wrapper">
+          Join our Team<br/>
+          <a href="{{ page.apply-now-link }}" class="apply-link">Apply Now</a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
