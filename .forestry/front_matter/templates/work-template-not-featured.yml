@@ -3,9 +3,6 @@ label: Work Template - Not Featured
 hide_body: false
 fields:
 - type: text
-  name: '["//"]'
-  label: '["//"]'
-- type: text
   name: layout
   label: layout
 - type: text
@@ -17,9 +14,6 @@ fields:
 - type: text
   name: category
   label: category
-- type: text
-  name: key
-  label: key
 - type: textarea
   name: seo-description
   label: seo-description
