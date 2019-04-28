@@ -3,6 +3,8 @@ layout: phase1-newsletter
 title: Newsletter
 permalink: /newsletter/
 
+newsletter-description: Be an early adopter, you'll thank us later.
+
 seo-description: SVNCRWNS is a production company that works to launch and manage brands.  Join our newsletter to learn how we focus on brand styling, e-commerce website design, content production + special projects.  We are sharing insights and resources for the artist/entrepreneur.  Subscribe today!
 
 seo-keywords: production company, svncrwns, newsletter, insights, portfolio, resources, subscribe to svncrwns
@@ -92,8 +94,7 @@ seo-keywords: production company, svncrwns, newsletter, insights, portfolio, res
     <div id="mc_embed_signup">
     <form action="https://svncrwns.us11.list-manage.com/subscribe/post?u=ab04d0cabec9aa1f49ca3e65e&amp;id=2fe748f030" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
         <div id="mc_embed_signup_scroll">
-
-        <div class="newsletter_description">Be an early adopter, you'll thank us later.</div>
+        <div class="newsletter_description">{{ page.newsletter-description }}</div>
     	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
         <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
         <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_ab04d0cabec9aa1f49ca3e65e_2fe748f030" tabindex="-1" value=""></div>
