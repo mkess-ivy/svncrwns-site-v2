@@ -1,0 +1,14 @@
+<div class="themealpha-home-section-title">Selected Work</div>
+<div class="myslide2">
+	{% for items in site.data.featured_work %}
+	<div class="home-slide" style="background-image: url('{{ items.image }}');">
+		<div class="home-slide-meta">
+			<div class="home-meta-title"><a href="{{ items.url }}">{{ items.title }}</a></div>
+			
+			<div class="home-meta-description">{{ items.description }}
+			</div>
+			{% include components/work-space-tags.html %}
+		</div>
+	</div>
+	{% endfor %}
+</div>
