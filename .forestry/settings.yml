@@ -12,11 +12,11 @@ sections:
   create: documents
   match: "**/*"
 - type: jekyll-posts
-  label: Posts
+  label: Journal
   create: all
 - type: directory
   path: _catalog
-  label: Catalog
+  label: Work
   create: all
   match: "**/*"
 - type: heading
@@ -27,7 +27,6 @@ sections:
 - type: document
   path: _data/career_positions.yml
   label: Careers
-  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
