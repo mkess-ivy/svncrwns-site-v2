@@ -1,0 +1,80 @@
+---
+label: Featured Work Template
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+  config:
+    required: true
+  default: editorial
+- type: text
+  name: title
+  label: title
+  config:
+    required: true
+- type: text
+  name: season
+  label: season
+  default: '4'
+- type: text
+  name: category
+  label: category
+- type: textarea
+  name: seo-description
+  label: seo-description
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+    required: true
+- type: textarea
+  name: seo-keywords
+  label: seo-keywords
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+    required: true
+- type: file
+  name: phase1-hero
+  label: phase1-hero
+- type: file
+  name: portfolio-cover
+  label: portfolio-cover
+- type: text
+  name: featured
+  label: featured
+- type: text
+  name: featured-rank
+  label: featured-rank
+- type: text
+  name: work-tags
+  label: work-tags
+- type: text
+  name: work-space
+  label: work-space
+- type: textarea
+  name: brand-statement
+  label: brand-statement
+- type: file
+  name: project-details-cover
+  label: project-details-cover
+- type: textarea
+  name: summary
+  label: summary
+- type: textarea
+  name: opportunity
+  label: opportunity
+- type: textarea
+  name: insights
+  label: insights
+- type: textarea
+  name: solution
+  label: solution
+- type: text
+  name: website-link
+  label: website-link
+- type: text
+  name: code-link
+  label: code-link
