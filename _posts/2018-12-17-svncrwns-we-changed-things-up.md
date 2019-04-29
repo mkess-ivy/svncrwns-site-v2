@@ -1,12 +1,12 @@
 ---
 layout: phase1-post
 title: SVNCRWNS.com - We've changed things up a bit
-featured_image: /dist/images/post-svncrwns-changed-cover.jpg
+featured_image: post-svncrwns-changed-cover.jpg
 featured_summary: "In our latest update, we’ve organized our work better, and defined which works were our own in-house projects and which were client projects.  We’ve also added new features for better user experience."
 
-description: SVNCRWNS shares their process as they are improving their company and preparing to approach their clients with better services and better marketing.
+seo-description: SVNCRWNS shares their process as they are improving their company and preparing to approach their clients with better services and better marketing.
 
-keywords: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects
+seo-keywords: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects
 ---
 
 The Home Page

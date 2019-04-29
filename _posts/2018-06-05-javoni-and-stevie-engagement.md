@@ -2,11 +2,11 @@
 layout: phase1-post
 title: "Engagement: Love on Display"
 
-description: SVNCRWNS created a photo series for an engagement photography shoot with friends as they prepared for their nuptials.
+seo-description: SVNCRWNS created a photo series for an engagement photography shoot with friends as they prepared for their nuptials.
 
-keywords: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects
+seo-keywords: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects
 
-featured_image: /dist/images/feature_javoni_stevie.jpg
+featured_image: feature_javoni_stevie.jpg
 featured_summary: "Our first engagement shoot with our newly married friends! This concept was pulled together during a visit to Dallas. We knew our friends were preparing for their nuptials and we put their love on display."
 featured: true
 

@@ -1,12 +1,12 @@
 ---
 layout: phase1-post
 title: Co-founder, Von Lee X Stylist + Designer, @kenjgalaxy
-featured_image: /dist/images/feature_chavonleekenj.jpg
+featured_image: feature_chavonleekenj.jpg
 featured_summary: "Our co-founder, Von Lee is a multi-hyphenate artist.  We have the pleasure of having her as the head of Creative, while also doubling as a model.  We connected with our style team to create a quick visual exercise with two styled  looks."
 
-description: A photo series with our muse, Von Lee working with a designer and stylist, @kenjgalaxy.
+seo-description: A photo series with our muse, Von Lee working with a designer and stylist, @kenjgalaxy.
 
-keywords: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects
+seo-keywords: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects
 ---
 ![Chavon Lee x Ken J 002](/dist/images/post_chavonlee_kenj_v1.jpg)
 

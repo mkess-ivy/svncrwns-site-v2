@@ -1,7 +1,7 @@
 ---
 layout: phase1-post
 title: Creating Content with Come So Far
-featured_image: /dist/images/feature_comesofar.jpg
+featured_image: feature_comesofar.jpg
 featured_summary: "Headshots for the Come So Far team, looking forward to the first event series coming later this year, 2018"
 ---
 
