@@ -1,4 +1,12 @@
 ---
 label: SAMPLE BLOCK FMT
 hide_body: true
-fields: []
+fields:
+- name: block-project-details
+  type: blocks
+  label: Project Details Block
+  template_types:
+  - project-details
+  config:
+    min: 
+    max: 
