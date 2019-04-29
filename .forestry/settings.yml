@@ -6,24 +6,22 @@ webhook_url:
 sections:
 - type: heading
   label: Content
+- type: document
+  path: _data/featured_work.yml
+  label: Featured Projects
 - type: directory
   path: _pages
-  label: Site Pages
+  label: Pages
   create: documents
   match: "**/*"
-- type: jekyll-posts
-  label: Journal
-  create: all
 - type: directory
   path: _catalog
   label: Work
   create: all
   match: "**/*"
-- type: heading
-  label: Other
-- type: document
-  path: _data/featured_work.yml
-  label: Featured Projects
+- type: jekyll-posts
+  label: Journal
+  create: all
 - type: document
   path: _data/career_positions.yml
   label: Careers
