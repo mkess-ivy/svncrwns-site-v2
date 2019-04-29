@@ -1,6 +1,7 @@
 ---
 label: Project Details
 hide_body: true
+display_field: summary
 fields:
 - name: brand-statement
   type: textarea
