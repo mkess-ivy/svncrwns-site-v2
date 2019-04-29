@@ -3,16 +3,6 @@ label: Project Details
 hide_body: true
 display_field: summary
 fields:
-- name: brand-statement
-  type: textarea
-  default: ''
-  config:
-    required: true
-    wysiwyg: true
-    schema:
-      format: markdown
-  label: Brand Statement
-  description: The client's brand statement
 - name: project-details-cover
   type: file
   config:
@@ -27,7 +17,7 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
-  label: Project Summary
+  label: About this Project
   description: Provide a description of the project
 - name: opportunity
   type: textarea
