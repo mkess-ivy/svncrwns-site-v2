@@ -1,0 +1,58 @@
+---
+label: Project Details
+hide_body: true
+display_field: summary
+fields:
+- name: brand-statement
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Brand Statement
+  description: The client's brand statement
+- name: project-details-cover
+  type: file
+  config:
+    maxSize: 250
+  label: Cover Image
+  description: Please add a cover image for the project
+- name: summary
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Project Summary
+  description: Provide a description of the project
+- name: opportunity
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Project Opportunity
+- name: insights
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Project Insights
+- name: solution
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Project Solution
