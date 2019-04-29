@@ -1,6 +1,6 @@
 ---
 label: Editorial Image
-hide_body: false
+hide_body: true
 fields:
 - name: image-name
   type: text
