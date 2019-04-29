@@ -5,7 +5,7 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: heading
-  label: Folders
+  label: Content
 - type: directory
   path: _pages
   label: Site Pages
