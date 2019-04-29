@@ -1,4 +1,52 @@
 ---
 label: Journal Entry
 hide_body: false
-fields: []
+fields:
+- name: layout
+  type: text
+  config:
+    required: true
+  description: The name of the layout for this journal entry
+  default: phase1-post
+  label: layout
+- name: title
+  type: text
+  config:
+    required: true
+  label: title
+  description: Journal Entry Title
+- name: featured
+  type: boolean
+  label: is featured
+  description: Is this a featured journal entry?
+- name: featured-image
+  type: file
+  config:
+    maxSize: 250
+  label: featured image
+  description: Featured Image URL
+- name: featured_summary
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: featured summary
+  description: Featured Summary Text
+- name: seo-description
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: seo description
+  description: Provide a journal entry description for SEO purposes
+- name: seo-keywords
+  type: tag_list
+  default: []
+  label: seo keywords
+  description: List all SEO keywords
