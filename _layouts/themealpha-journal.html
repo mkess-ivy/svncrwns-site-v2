@@ -63,7 +63,7 @@
                 {% for post in site.posts limit:9 %}
                 {% unless post.featured == true %}
                     <div class="general_post js_scroll_reveal">
-                        <div class="themealpha_general_post_image" style="background-image:url('{{ post.featured_image }}');"></div>
+                        <a href="{{ post.url }}"><div class="themealpha_general_post_image" style="background-image:url('/dist/images/{{ post.featured_image }}');"></div></a>
                         <div class="themealpha_general_post_title">
                             <a href="{{ post.url }}">{{ post.title }}</a>
                         </div>

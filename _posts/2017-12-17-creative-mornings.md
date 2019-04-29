@@ -9,8 +9,6 @@ archive_summary: "Listen as we talk with CM + Local Color Podcast about context"
 seo-description: SVNCRWNS is invited to talk with Creative Mornings Baltimore on the theme of 'Context', their work in the community and what they are planning with the Baltimore Museum of Art x Mark Bradford partnership
 
 seo-keywords: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects
-
-
 ---
 We were invited to talk at Creative Mornings in Baltimore, MD about the theme of "Context".  We touched on our recent trip to Los Angeles to visit abstract artist, Mark Bradford, and talked about what our work means to us and what inspires us to continue to focus on building and expanding on community resources.
 
