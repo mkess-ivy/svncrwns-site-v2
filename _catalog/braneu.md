@@ -4,7 +4,6 @@ layout                          : editorial
 title 					        : "Branëu"
 season				            : "4"
 category						: website
-key 							: key-yes
 
 [//]: # (SEO Information)
 seo-description: SVNCRWNS worked with Braneu to take their idea to an e-commerce platform featuring their collection of mens, womens and childrens clothing.
