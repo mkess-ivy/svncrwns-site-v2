@@ -1,4 +1,23 @@
 ---
 label: Editorial Image
 hide_body: false
-fields: []
+fields:
+- name: image-name
+  type: text
+  config:
+    required: true
+  label: Editorial Image
+- name: image-caption-title
+  type: text
+  config:
+    required: false
+  label: Image Caption Title
+- name: image-caption
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Image Caption
