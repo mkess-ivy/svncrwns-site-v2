@@ -45,5 +45,6 @@ fields:
     max: 
   description: Add sections to this work project.
 pages:
+- _catalog/this-is-a-test3.md
 - _catalog/TESTING MY BLOCKS.md
 - _catalog/this-is-a-test2.md
