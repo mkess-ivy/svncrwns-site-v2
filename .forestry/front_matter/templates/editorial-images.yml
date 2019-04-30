@@ -2,6 +2,14 @@
 label: EDITORIAL IMAGES
 hide_body: true
 fields:
+- name: block
+  type: text
+  config:
+    required: false
+  description: Please visit www.svncrwns.com/site-docs for a list of UI Block Components.  Choose
+    one of the blocks from the list.
+  label: What's the name of the UI Component?
+  default: editorial-image
 - name: editorial-images
   type: field_group_list
   fields:
