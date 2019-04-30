@@ -32,6 +32,11 @@ fields:
   config:
     required: false
   label: seo keywords
+- name: season
+  type: text
+  config:
+    required: false
+  label: season
 - name: page_sections
   type: blocks
   label: PAGE SECTIONS
@@ -44,11 +49,6 @@ fields:
     min: '2'
     max: 
   description: Add sections to this work project.
-- name: season
-  type: text
-  config:
-    required: false
-  label: season
 pages:
 - _catalog/this-is-a-test4.md
 - _catalog/this-is-a-test3.md
