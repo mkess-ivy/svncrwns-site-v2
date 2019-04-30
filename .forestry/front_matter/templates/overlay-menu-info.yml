@@ -1,0 +1,19 @@
+---
+label: OVERLAY MENU INFO
+hide_body: true
+fields:
+- name: work-tags
+  type: text
+  config:
+    required: false
+  label: What kind of project (web, content, event)?
+- name: work-space
+  type: tag_list
+  default:
+  - client
+  label: Client or In-House Project?
+- name: portfolio-cover
+  type: text
+  config:
+    required: false
+  label: Overlay Image Location

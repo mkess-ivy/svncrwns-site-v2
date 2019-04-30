@@ -1,0 +1,31 @@
+---
+label: EDITORIAL IMAGE - OK
+hide_body: true
+fields:
+- name: image-name
+  type: field_group_list
+  fields:
+  - name: image-name
+    type: text
+    config:
+      required: false
+    label: Editorial Image Location
+  - name: image-caption-title
+    type: text
+    config:
+      required: false
+    label: Caption Title
+  - name: image-caption
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Caption Description
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Editorial Image Component
