@@ -10,21 +10,10 @@ seo-description: SVNCRWNS worked with Braneu to take their idea to an e-commerce
 
 seo-keywords: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects
 
-[//]: # (Work on Home Page)
-phase1-hero                     : braneu-cover.jpg
-portfolio-cover					: braneu-cover.jpg
-
-[//]: # (Featured Info)
-featured 						: "yes"
-featured-rank 					: "5"
-
-[//]: # (Website)
-website-link: http://www.braneu.com
-
 [//]: # (Overlay Menu Info)
 work-tags 							: "web design + development"
-work-cover							:
 work-space 							: "client"
+portfolio-cover						: braneu-cover.jpg
 
 [//]: # (Case Study)
 brand-statement 				: "Establishing brand presence with an online shop to showcase monthly releases from new fashion line."
@@ -33,6 +22,9 @@ summary							: "Branëu is a fashion line for the overachievers and early adopt
 opportunity                     : "SVNCRWNS has been working with the founder for Branëu on several other ventures.  When this concept was on the table, we jumped on it.  We saw an opportunity to design a simple user experience that we could build on in time as the brand starts to see growth."
 insights 						: "The cheapest way to market is heavy marketing of original content and navigating your potential users to an e-commerce platform to convert.  Digital is the main channel to connect with audience, the e-commerce option was an easier entry to market, providing analytics to help drive decision making."
 solution 						: "The team settled on using Squarespace for its e-commerce support and ease of admin backend.  Our goal is to setup our clients with great tools that they can manage.  We design the tools, we manage the use, and then we leverage the tools to drive to market better, faster and more often."
+
+[//]: # (Credits)
+website-link: http://www.braneu.com
 ---
 
 {% include components/editorial-image.html image-name="braneu-project-1.png" image-caption-title="Started w/ wireframe + design mockups" image-caption="At the beginning of new web projects, our process goes like this - we have a discovery session, we learn about the project, if it’s a good fit, we move forward.  We start designing the user experience using tools like Adobe Design, Marvel and Sketch.  Our favorite tool is Sketch.  We source stock photography to move quickly in our Agile process, and fill in the gaps as we get closer to a final design.  Once we finalize the design, we start developing the mockups into a live, clickable product that can be shared with a userbase." %}
