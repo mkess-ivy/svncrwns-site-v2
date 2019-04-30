@@ -1,4 +1,16 @@
 ---
 label: SINGLE WORK ITEM
 hide_body: true
-fields: []
+fields:
+- name: single-work-item
+  type: blocks
+  label: SINGLE WORK ITEM
+  template_types:
+  - meta
+  - overlay-menu-info
+  - project-details
+  - editorial-image-ok
+  - project-links
+  config:
+    min: 
+    max: 
