@@ -22,11 +22,6 @@ fields:
     min: 
     max: 
     step: 
-- name: category
-  type: text
-  config:
-    required: false
-  label: category
 - name: seo-description
   type: text
   config:
@@ -37,22 +32,18 @@ fields:
   config:
     required: false
   label: seo keywords
-- name: brand-statement
-  type: text
-  config:
-    required: false
-  label: What's the Project Statement
-- name: project-information
+- name: page_sections
   type: blocks
-  label: PROJECT INFORMATION
+  label: PAGE SECTIONS
   template_types:
   - overlay-menu-info
   - project-details
   - editorial-image-ok
   - project-links
   config:
-    min: 
+    min: '2'
     max: 
+  description: Add sections to this work project.
 pages:
 - _catalog/TESTING MY BLOCKS.md
 - _catalog/this-is-a-test2.md
