@@ -3,7 +3,7 @@ label: PROJECT DETAILS
 hide_body: true
 display_field: summary
 fields:
-- name: project-details-cover
+- name: portfolio-cover
   type: file
   config:
     maxSize: 250
