@@ -39,4 +39,5 @@ fields:
     min: 
     max: 
 pages:
+- _catalog/this-is-a-test2.md
 - _catalog/TESTING MY BLOCKS.md
