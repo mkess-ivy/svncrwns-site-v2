@@ -10,6 +10,9 @@ single-work-item:
   - production work
   - business strategy
   season: '4'
+  title: Testing My Block
+  layout: editorial
+  seo-description: testing this out
 - template: overlay-menu-info
   work-space:
   - client
