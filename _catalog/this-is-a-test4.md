@@ -20,6 +20,5 @@ page_sections:
   insights: Love, Clarity.  I still love photo series
   solution: We prevailed at the end.
 season: 4
-published: false
 
 ---
