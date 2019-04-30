@@ -1,18 +1,5 @@
 ---
 single-work-item:
-- template: meta
-  category:
-  - website
-  - " content"
-  seo-keywords:
-  - manage my brand
-  - brand consulting
-  - production work
-  - business strategy
-  season: '4'
-  title: Testing My Block
-  layout: editorial
-  seo-description: testing this out
 - template: overlay-menu-info
   work-space:
   - client
@@ -25,9 +12,21 @@ single-work-item:
   solution: YES INDEED
   project-details-cover: "/uploads/read-more-contact.jpg"
 - template: editorial-image-ok
+  image-name:
+  - image-name: braneu-project-1.png
+    image-caption-title: Started w/ wireframe + design mockups
+    image-caption: Browsing on mobile devices is the leader for how users are consuming
+      information.  Having our platforms accessible on all devices with simple user
+      experiences is always our main goal.  Don't lose sales because the user experience
+      for mobile browsing is inadequate.
 - template: project-links
   website-link: hello.com
   code-link: goodbye.com
 layout: editorial
+title: hello
+season: 4
+category: ''
+overlay-menu-info: []
+project-details: []
 
 ---
