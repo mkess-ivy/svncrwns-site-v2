@@ -3,28 +3,28 @@ label: PROJECT DETAILS
 hide_body: true
 display_field: summary
 fields:
-- name: portfolio-cover
+- name: project-details-cover
   type: file
   config:
     maxSize: 250
-  label: Cover Image
+  label: Project Details Cover Image
   description: Please add a cover image for the project
 - name: summary
   type: textarea
   default: ''
   config:
     required: false
-    wysiwyg: true
+    wysiwyg: false
     schema:
       format: markdown
-  label: About this Project
+  label: Summary of Opportunity and Solution
   description: Provide a description of the project
 - name: opportunity
   type: textarea
   default: ''
   config:
     required: false
-    wysiwyg: true
+    wysiwyg: false
     schema:
       format: markdown
   label: Project Opportunity
@@ -42,7 +42,8 @@ fields:
   default: ''
   config:
     required: false
-    wysiwyg: true
+    wysiwyg: false
     schema:
       format: markdown
   label: Project Solution
+  description: Detailed description of solution
