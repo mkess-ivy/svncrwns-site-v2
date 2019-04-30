@@ -27,11 +27,10 @@ fields:
   config:
     required: false
   label: category
-- name: single-work-item
+- name: project-information
   type: blocks
-  label: SINGLE WORK ITEM
+  label: PROJECT INFORMATION
   template_types:
-  - meta
   - overlay-menu-info
   - project-details
   - editorial-image-ok
