@@ -1,19 +1,38 @@
 ---
-label: OVERLAY MENU INFO
+label: PROJECT-META
 hide_body: true
+display_field: work-tags
 fields:
-- name: work-tags
+- name: category
   type: text
   config:
     required: false
-  label: What kind of project (web, content, event)?
+  label: What kind of project?
+  description: Is this a web, content, event or special project?
 - name: work-space
   type: text
   config:
     required: false
-  label: Client or In-House Project
-- name: portfolio-cover
+  label: Client or In-House Project?
+  default: client
+- name: work-tags
   type: text
   config:
     required: false
-  label: Overlay Image Location
+  label: List the tags for this project.
+  default: web
+- name: portfolio-cover
+  type: file
+  config:
+    maxSize: 250
+  label: Overlay Menu Hover Image
+- name: brand-statement
+  type: textarea
+  default: Establishing brand presence with an online shop to showcase monthly releases
+    from new fashion line
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Tell me about this project
