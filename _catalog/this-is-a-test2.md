@@ -15,7 +15,8 @@ page_sections:
 - template: project-details
   block: project-details
   project-details-cover: "/uploads/read-more-contact-2.jpg"
-  summary: This project is a test to see how I need to re-organize my front matter so that this CMS works perfect.
+  summary: This project is a test to see how I need to re-organize my front matter
+    so that this CMS works perfect.
   opportunity: hello
   insights: hello
   solution: hello
@@ -53,4 +54,8 @@ page_sections:
   block: project-links
   website-link: google.com
   code-link: google.com
+category: ''
+brand-statement: the project statement is legendary
+project-information: []
+
 ---
