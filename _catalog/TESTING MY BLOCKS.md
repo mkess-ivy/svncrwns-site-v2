@@ -16,6 +16,8 @@ single-work-item:
 - template: overlay-menu-info
   work-space:
   - client
+  work-tags: client
+  portfolio-cover: cityofgods-1.jpg
 - template: project-details
   summary: YES INDEED
   opportunity: YES INDEED
@@ -24,5 +26,7 @@ single-work-item:
   project-details-cover: "/uploads/read-more-contact.jpg"
 - template: editorial-image-ok
 - template: project-links
+  website-link: hello.com
+  code-link: goodbye.com
 
 ---
