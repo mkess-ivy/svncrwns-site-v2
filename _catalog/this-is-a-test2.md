@@ -5,7 +5,7 @@ season: 4
 seo-description: this is a seo description
 seo-keywords: one, two, three
 page_sections:
-- template: overlay-menu-info
+- template: project-meta
   block: project-meta
   work-tags: web
   portfolio-cover: braneu-cover.jpg
