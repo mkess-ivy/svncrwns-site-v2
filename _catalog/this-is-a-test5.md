@@ -34,6 +34,5 @@ page_sections:
   block: project-links
   website-link: google.com
   code-link: google.com
-published: false
 
 ---
