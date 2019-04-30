@@ -23,7 +23,7 @@ single-work-item:
   website-link: hello.com
   code-link: goodbye.com
 layout: editorial
-title: hello
+title: This is a test
 season: 4
 category: website
 overlay-menu-info: []
