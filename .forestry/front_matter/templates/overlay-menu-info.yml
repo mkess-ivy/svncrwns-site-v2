@@ -7,13 +7,13 @@ fields:
   config:
     required: false
   label: What kind of project (web, content, event)?
-- name: portfolio-cover
-  type: text
-  config:
-    required: false
-  label: Overlay Image Location
 - name: work-space
   type: text
   config:
     required: false
   label: Client or In-House Project
+- name: portfolio-cover
+  type: text
+  config:
+    required: false
+  label: Overlay Image Location
