@@ -1,6 +1,7 @@
 ---
 label: PROJECT LINKS
 hide_body: true
+display_field: website-link
 fields:
 - name: website-link
   type: text
