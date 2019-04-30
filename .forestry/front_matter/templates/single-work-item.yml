@@ -12,7 +12,7 @@ fields:
   config:
     required: false
   label: layout
-- name: season
+- name: season2
   type: number
   label: season
   description: ''
@@ -44,6 +44,11 @@ fields:
     min: '2'
     max: 
   description: Add sections to this work project.
+- name: season
+  type: text
+  config:
+    required: false
+  label: season
 pages:
 - _catalog/this-is-a-test3.md
 - _catalog/TESTING MY BLOCKS.md
