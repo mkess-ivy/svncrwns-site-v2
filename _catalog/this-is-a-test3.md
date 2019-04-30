@@ -20,7 +20,17 @@ page_sections:
   insights: Love, Clarity.  I still love photo series
   solution: We prevailed at the end.
 - template: editorial-image-ok
+  editorial-images:
+  - image-name: "/uploads/braneu-project-1.png"
+    image-caption-title: Bad Ass Image Appears Above Now
+    image-caption: 'I''d like to take this time to thank Forestry for allowing me
+      to next level my business.  '
+  - image-name: "/uploads/braneu-project-2.png"
+    image-caption-title: Just Next leveled this shit
+    image-caption: What you think bout that
 - template: project-links
+  website-link: www.doesheavenhaveaghetto.com
+  code-link: github.com/mkess-ivy
 published: false
 
 ---
