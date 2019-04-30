@@ -17,6 +17,7 @@ single-work-item:
   opportunity: YES INDEED
   insights: YES INDEED
   solution: YES INDEED
+  project-details-cover: "/uploads/read-more-contact.jpg"
 - template: editorial-image-ok
 - template: project-links
 published: false
