@@ -28,5 +28,6 @@ single-work-item:
 - template: project-links
   website-link: hello.com
   code-link: goodbye.com
+layout: editorial
 
 ---
