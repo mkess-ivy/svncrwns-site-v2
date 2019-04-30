@@ -27,22 +27,6 @@ fields:
   config:
     required: false
   label: category
-- name: overlay-menu-info
-  type: blocks
-  label: Overlay Menu Info
-  template_types:
-  - overlay-menu-info
-  config:
-    min: 
-    max: 
-- name: project-details
-  type: blocks
-  label: Project Details
-  template_types:
-  - project-details
-  config:
-    min: 
-    max: 
 - name: single-work-item
   type: blocks
   label: SINGLE WORK ITEM
