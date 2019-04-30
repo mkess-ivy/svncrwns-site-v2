@@ -2,19 +2,21 @@
 label: EDITORIAL IMAGE(s)
 hide_body: true
 fields:
-- name: image-name
+- name: editorial-images
   type: field_group_list
   fields:
   - name: image-name
     type: text
     config:
       required: false
-    label: Editorial Image Location
+    label: Editorial Image
+    description: Add the editorial image here
   - name: image-caption-title
     type: text
     config:
       required: false
-    label: Caption Title
+    label: Title
+    description: Add the title for this image and caption
   - name: image-caption
     type: textarea
     default: ''
@@ -23,9 +25,11 @@ fields:
       wysiwyg: false
       schema:
         format: markdown
-    label: Caption Description
+    label: Caption
+    description: Add the caption here
   config:
     min: 
     max: 
-    labelField: 
-  label: Editorial Image Component
+    labelField: image-caption-title
+  label: Editorial Images
+  description: Add all the editorial images below.  Please provide a caption and title
