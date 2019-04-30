@@ -20,6 +20,5 @@ single-work-item:
   project-details-cover: "/uploads/read-more-contact.jpg"
 - template: editorial-image-ok
 - template: project-links
-published: false
 
 ---
