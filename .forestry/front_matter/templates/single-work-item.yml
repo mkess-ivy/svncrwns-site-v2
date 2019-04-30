@@ -27,6 +27,16 @@ fields:
   config:
     required: false
   label: category
+- name: seo-description
+  type: text
+  config:
+    required: false
+  label: seo description
+- name: seo-keywords
+  type: text
+  config:
+    required: false
+  label: seo keywords
 - name: project-information
   type: blocks
   label: PROJECT INFORMATION
