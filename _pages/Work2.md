@@ -23,7 +23,7 @@ page_sections:
   prev-title: Careers
   next-link: "/connect/"
   next-title: Connect
-  position: 27%
+  position: 24%
 title: Work
 layout: blocks-layout
 permalink: "/work/"
