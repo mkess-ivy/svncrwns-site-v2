@@ -1,34 +1,45 @@
 ---
 label: Work Template - Not Featured
 hide_body: false
+display_field: title
 fields:
 - type: text
   name: layout
   label: layout
+  description: Provide the layout for this project
+  default: phase1-project
 - type: text
   name: title
   label: title
+  description: Provide the title of this project
 - type: text
   name: season
   label: season
+  description: 'When was this project completed? (Ex: 2018 - Season 4)'
 - type: text
   name: category
   label: category
+  description: What kind of project is this? (website, content, etc.)
 - type: textarea
   name: seo-description
   label: seo-description
+  description: Provide a description of this project for SEO purposes
 - type: textarea
   name: seo-keywords
   label: seo-keywords
 - type: textarea
   name: summary
   label: summary
+  description: Provide the summary of this project. This will be at the top of the
+    page.
 - type: file
   name: portfolio-cover
   label: portfolio-cover
+  description: Add the image.
 - type: text
   name: work-tags
   label: work-tags
+  description: Provide the tags to describe this project
 - type: text
   name: work-cover
   label: work-cover
@@ -38,15 +49,19 @@ fields:
 - type: text
   name: brand-statement
   label: brand-statement
+  description: Provide a statement about what was completed for this project
 - type: file
   name: project-details-cover
   label: project-details-cover
 - type: textarea
   name: opportunity
   label: opportunity
+  description: Provide a statement about the project opportunity
 - type: textarea
   name: insights
   label: insights
+  description: Provide a statement about some important factors from this project.
 - type: textarea
   name: solution
   label: solution
+  description: Provide a statement about the solution
