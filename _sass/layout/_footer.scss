@@ -82,12 +82,16 @@
 	font-size: 10px;
 	color: $off-black;
 	margin: 0 20px 10px;
+	border-top: 1px solid;
 
 	@include tablet {
-		margin: 0 0px 10px;
+		// margin: 0 0px 10px;
 		position: fixed;
 		bottom: 0;
-		width: 90%;
+		width: 100%;
+		margin: auto;
+		background: $off-white;
+		padding: 8px 0px;
 	}
 }
 

@@ -1,37 +1,41 @@
 <footer class="phase1-site-footer">
-    <div class="frow justify-between">
-        <div class="left_footer">
-            
-            {% unless page.title == "SVNCRWNS - Home" %}
-            {% for item in site.data.site-settings %}
-            <a href="/"><img src = "{{ item.footer-logo }}" width="25" /></a>&nbsp;&nbsp;
-            <div class="left_footer_copy">
-                {{ item.footer-copyright }}
-            </div>
-            {% endfor %}
-            {% endunless %}
-            {% if page.title == "SVNCRWNS - Home" %}
-            <a href="/"><img src = "/dist/images/simple_crown_blk.png" width="25" /></a>&nbsp;&nbsp;
-            <div class="left_footer_copy themealpha-nav">
-                &copy;2015 &mdash; 2019. All Rights Reserved
-            </div>
-            {% endif %}
-        </div>
-        <div class="right_footer">
-            {% unless page.title=="SVNCRWNS - Home" %}
-            <ul>
-                {% for menu-item in site.data.menus.footer %}
-                    <li><a href="{{ menu-item.url }}">{{ menu-item.title }}</a></li>
+    <div class="grid_project">
+        <div class="frow justify-between">
+            <div class="left_footer">
+                
+                {% unless page.title == "SVNCRWNS - Home" %}
+                {% for item in site.data.site-settings %}
+                <a href="/"><img src = "{{ item.footer-logo }}" width="25" /></a>&nbsp;&nbsp;
+                <div class="left_footer_copy">
+                    {{ item.footer-copyright }}
+                </div>
                 {% endfor %}
-            </ul>
-            {% endunless %}
-            {% if page.title == "SVNCRWNS - Home" %}
-            <ul>
-                {% for menu-item in site.data.menus.footer %}
-                    <li><a href="{{ menu-item.url }}">{{ menu-item.title }}</a></li>
+                {% endunless %}
+                {% if page.title == "SVNCRWNS - Home" %}
+                {% for item in site.data.site-settings %}
+                <a href="/"><img src = "{{ item.footer-logo}}" width="25" /></a>&nbsp;&nbsp;
+                <div class="left_footer_copy themealpha-nav">
+                    {{ item.footer-copyright }}
+                </div>
                 {% endfor %}
-            </ul>
-            {% endif %}
+                {% endif %}
+            </div>
+            <div class="right_footer">
+                {% unless page.title=="SVNCRWNS - Home" %}
+                <ul>
+                    {% for menu-item in site.data.menus.footer %}
+                        <li><a href="{{ menu-item.url }}">{{ menu-item.title }}</a></li>
+                    {% endfor %}
+                </ul>
+                {% endunless %}
+                {% if page.title == "SVNCRWNS - Home" %}
+                <ul>
+                    {% for menu-item in site.data.menus.footer %}
+                        <li><a href="{{ menu-item.url }}">{{ menu-item.title }}</a></li>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+            </div>
         </div>
     </div>
 </footer>

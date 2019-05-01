@@ -908,7 +908,7 @@ a.general_link {
   margin: 75px 0 30px; }
   @media screen and (min-width: 750px) {
     .read_more_section {
-      margin: 75px 0; } }
+      margin: 75px 0 95px; } }
   .read_more_section .read_more_bar {
     background-size: cover;
     background-position: center;
@@ -1235,13 +1235,16 @@ a.general_link {
   font-weight: 500;
   font-size: 10px;
   color: #070707;
-  margin: 0 20px 10px; }
+  margin: 0 20px 10px;
+  border-top: 1px solid; }
   @media screen and (min-width: 750px) {
     .phase1-site-footer {
-      margin: 0 0px 10px;
       position: fixed;
       bottom: 0;
-      width: 90%; } }
+      width: 100%;
+      margin: auto;
+      background: #F7F7F7;
+      padding: 8px 0px; } }
 
 /* #Phase 1 Footer */
 @media screen and (min-width: 750px) {
@@ -1952,6 +1955,9 @@ ul.nav li a:hover::after {
   @media screen and (min-width: 900px) {
     .themealpha-home-section-title {
       padding: 25px 90px 0; } }
+
+.home-lastrow {
+  margin-bottom: 45px; }
 
 .home-lastrow-bigtitle {
   font-size: 32px;
