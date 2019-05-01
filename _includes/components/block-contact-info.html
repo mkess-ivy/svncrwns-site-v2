@@ -1,0 +1,45 @@
+<div class="themealpha_contact_information">
+      <div class="studio_info_box js_scroll_reveal">
+        {% include components/archive_section.html title="Studio" %}
+        <div class="studio_row frow justify-start">
+          <div class="themealpha_studio_item">
+            <div class="studio_info_content">
+              <div class="studio_info_title">
+                  Contact
+              </div>
+              <div class="studio_info_details">
+                  <span><a href="mailto:{{ page.studio-email }}">Email</a></span><span><a href="https://www.instagram.com/{{page.instagram}}">@svncrwns</a></span>
+                  <span><a href="{{page.newsletter}}">newsletter</a></span>
+              </div>
+            </div>
+            <div class="studio_info_content">
+              <div class="studio_info_title">Location</div>
+              <div class="studio_info_details"><span>{{ page.studio-location }}</span></div>
+            </div>
+          </div>
+          <div class="themealpha_studio_item">
+            <div class="studio_info_content">
+              <div class="studio_info_title">Time zone</div>
+              <div class="studio_info_details"><span>{{ page.studio-timezone }}</span></div>
+            </div>
+            <div class="studio_info_content">
+              <div class="studio_info_title">Office Hours
+              </div>
+              <div class="studio_info_details">
+                  <span>{{page.office-hours1}}</span><span>{{ page.office-hours2}}</span>
+              </div>
+            </div>
+            <div class="studio_info_content">
+              <div class="studio_info_title">Production Work
+              </div>
+              <div class="studio_info_details">
+                {% for item in page.production-work %}
+                  <span>{{ item.service }}</span>
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
