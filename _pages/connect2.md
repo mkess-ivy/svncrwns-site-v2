@@ -19,7 +19,12 @@ page_sections:
   block: contact-info
 - template: block-read-more
   block: read-more
-published: false
+  image: "/uploads/read-more-contact-3.jpg"
+  prev-link: "/journal"
+  prev-title: View the Journal
+  next-link: "/"
+  next-title: end. go home
+  position: 58%
 
 ---
 Leave us some details about what you’re interested in below, or send us an \[email\](mailto:hello@svncrwns.com).  We typically respond within 72 hours.
