@@ -1,6 +1,7 @@
 ---
 label: BLOCK READ MORE
 hide_body: true
+display_field: block
 fields:
 - name: block
   type: text
