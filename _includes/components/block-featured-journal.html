@@ -1,0 +1,30 @@
+{% assign featured_post = site.posts | where: "featured", "true" %}
+{% for post in featured_post limit:1 %}
+<div class="featured_post">
+    <div class="journal-featured-slider">
+        
+        {% for featured_slide in post.featured_slide %}
+        <div class="journal-slide" style="background-image: url('{{ featured_slide.image }}');"></div>
+        {% endfor %}
+
+    </div>
+
+    <div class="js_scroll_reveal">
+        <div class="themealpha_featured_meta">
+            <div class="themealpha_featured_title">
+                <a href="{{ post.url }}">{{ post.title }}</a>
+            </div>
+            <div class="journal_tags">
+                <div class="frow justify-start">
+                    <div class="journal_tag_item">Photography</div>
+                    <div class="journal_tag_item">Engagement</div>
+                </div>
+            </div>
+            <div class="frow justify-start">
+                <div class="themealpha_featured_summary">{{ post.featured_summary }}</div>
+                <div class="featured_post_link"><a href="{{ post.url }}">view all photos &#8594;</a></div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endfor %}

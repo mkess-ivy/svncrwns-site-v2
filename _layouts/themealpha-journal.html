@@ -1,87 +1,9 @@
 {% include grid/head_header_color.html %}
 
 <div class="grid">
-    <div class="beta_page_title">{{ page.title }}</div>
-    <div class="small_alpha">
-        <div class="small_title_wrapper">
-            <div class="small_title_line"></div>
-            <div class="small_title_text">{{ page.panel-title }}</div>
-        </div>
-        <div class="small_title_description">
-            {{ page.panel-description }}
-        </div>
-    </div>
+    {% for section in page.page_sections %}
+        {% include components/block-{{ section.block }}.html %}
+    {% endfor %}
 </div>
-
-<div class="grid js_scroll_reveal">
-{% assign featured_post = site.posts | where: "featured", "true" %}
-{% for post in featured_post limit:1 %}
-<div class="featured_post">
-    <div class="journal-featured-slider">
-        
-        {% for featured_slide in post.featured_slide %}
-        <div class="journal-slide" style="background-image: url('{{ featured_slide.image }}');"></div>
-        {% endfor %}
-
-    </div>
-
-    <div class="js_scroll_reveal">
-        <div class="themealpha_featured_meta">
-            <div class="themealpha_featured_title">
-                <a href="{{ post.url }}">{{ post.title }}</a>
-            </div>
-            <div class="journal_tags">
-                <div class="frow justify-start">
-                    <div class="journal_tag_item">Photography</div>
-                    <div class="journal_tag_item">Engagement</div>
-                </div>
-            </div>
-            <div class="frow justify-start">
-                <div class="themealpha_featured_summary">{{ post.featured_summary }}</div>
-                <div class="featured_post_link"><a href="{{ post.url }}">view all photos &#8594;</a></div>
-            </div>
-        </div>
-    </div>
-</div>
-{% endfor %}
-</div>
-
-<!-- <div class="neon-text">Journal</div> -->
-
-<div class="grid">
-    <div class="frow justify-between">
-        <div class="themealpha_all_posts_wrapper">
-            <div class="small_alpha">
-                <div class="small_title_wrapper">
-                    <div class="small_title_line"></div>
-                    <div class="small_title_text">The Rest</div>
-                </div>
-            </div>
-            <div class="frow wrap">
-                
-                
-                {% for post in site.posts limit:9 %}
-                {% unless post.featured == true %}
-                    <div class="general_post js_scroll_reveal">
-                        <a href="{{ post.url }}"><div class="themealpha_general_post_image" style="background-image:url('/dist/images/{{ post.featured_image }}');"></div></a>
-                        <div class="themealpha_general_post_title">
-                            <a href="{{ post.url }}">{{ post.title }}</a>
-                        </div>
-                    </div>
-                {% endunless %}
-                {% endfor %}
-                
-            </div>
-        </div>
-    </div>
-    {% include components/read-more-bar.html 
-      image="dist/images/read-more-journal.jpg"
-      prev-link="/work/"
-      prev-title="view work"
-      next-link="/contact/"
-      next-title="connect with us"
-      position="25%" %}
-</div>
-<!-- removed journal-archive.html component -->
 
 {% include grid/end_footer.html %}

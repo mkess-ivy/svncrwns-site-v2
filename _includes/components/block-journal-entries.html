@@ -1,0 +1,25 @@
+<div class="frow justify-between">
+    <div class="themealpha_all_posts_wrapper">
+        <div class="small_alpha">
+            <div class="small_title_wrapper">
+                <div class="small_title_line"></div>
+                <div class="small_title_text">The Rest</div>
+            </div>
+        </div>
+        <div class="frow wrap">
+            
+            
+            {% for post in site.posts limit:9 %}
+            {% unless post.featured == true %}
+                <div class="general_post js_scroll_reveal">
+                    <a href="{{ post.url }}"><div class="themealpha_general_post_image" style="background-image:url('/dist/images/{{ post.featured_image }}');"></div></a>
+                    <div class="themealpha_general_post_title">
+                        <a href="{{ post.url }}">{{ post.title }}</a>
+                    </div>
+                </div>
+            {% endunless %}
+            {% endfor %}
+            
+        </div>
+    </div>
+</div>
