@@ -3,29 +3,29 @@ footer:
 - url: https://www.vimeo.com/svncrwns
   title: Vimeo
   identifier: vimeo
-  weight: 1
-- url: http://www.instagram.com/svncrwns
-  title: Instagram
-  identifier: instagram
-  weight: 2
-- url: "/careers"
-  title: Careers
-  identifier: careers
-  weight: 3
+  weight: 4
 - url: "/newsletter"
   title: Newsletter
   identifier: newsletter
-  weight: 4
+  weight: 1
+- url: "/careers"
+  title: Careers
+  identifier: careers
+  weight: 2
+- url: http://www.instagram.com/svncrwns
+  title: Instagram
+  identifier: instagram
+  weight: 3
 header:
-- url: "/connect2"
-  title: Connect
-  identifier: connect
+- url: "/work"
+  title: Work
+  identifier: work
   weight: 1
 - url: "/journal"
   title: Journal
   identifier: journal
   weight: 2
-- url: "/work"
-  title: Work
-  identifier: work
+- url: "/connect2"
+  title: Connect
+  identifier: connect
   weight: 3
