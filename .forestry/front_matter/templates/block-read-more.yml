@@ -1,0 +1,48 @@
+---
+label: BLOCK READ MORE
+hide_body: true
+fields:
+- name: block
+  type: text
+  config:
+    required: false
+  label: What's the name of the UI Component?
+  description: Please visit www.svncrwns.com/site-docs for a list of UI Block Components.  Choose
+    one of the blocks from the list.
+  default: read-more
+- name: image
+  type: file
+  config:
+    maxSize: '2'
+  label: Image
+  description: Add the image for the read more bar
+- name: prev-link
+  type: text
+  config:
+    required: false
+  label: Previous Link
+  description: Provide the link for the previous page
+- name: prev-title
+  type: text
+  config:
+    required: false
+  label: Previous Link Title
+  description: Provide the name of the Previous Page
+- name: next-link
+  type: text
+  config:
+    required: false
+  label: Next Page Link
+  description: Provide the link for the next page
+- name: next-title
+  type: text
+  config:
+    required: false
+  label: Next Page Title
+  description: Provide the name of the Next Page
+- name: position
+  type: text
+  config:
+    required: false
+  label: Background Position
+  description: Please provide the background position (%)

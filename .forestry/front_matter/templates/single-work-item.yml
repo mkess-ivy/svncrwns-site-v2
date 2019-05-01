@@ -1,5 +1,5 @@
 ---
-label: SINGLE WORK ITEM
+label: TEMPLATE - SINGLE WORK
 hide_body: true
 fields:
 - name: title
@@ -51,7 +51,7 @@ fields:
   description: Add sections to this work project.
 pages:
 - _catalog/this-is-a-test5.md
-- _catalog/this-is-a-test4.md
 - _catalog/this-is-a-test3.md
+- _catalog/this-is-a-test4.md
 - _catalog/TESTING MY BLOCKS.md
 - _catalog/this-is-a-test2.md

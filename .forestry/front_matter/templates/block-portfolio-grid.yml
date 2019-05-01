@@ -1,7 +1,6 @@
 ---
-label: BLOCK PROJECT LINKS
+label: BLOCK PORTFOLIO GRID
 hide_body: true
-display_field: website-link
 fields:
 - name: block
   type: text
@@ -10,13 +9,4 @@ fields:
   label: What's the name of the UI Component?
   description: Please visit www.svncrwns.com/site-docs for a list of UI Block Components.  Choose
     one of the blocks from the list.
-- name: website-link
-  type: text
-  config:
-    required: false
-  label: Website
-- name: code-link
-  type: text
-  config:
-    required: false
-  label: Github
+  default: portfolio-grid

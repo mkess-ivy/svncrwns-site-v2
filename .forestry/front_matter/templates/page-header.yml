@@ -1,0 +1,36 @@
+---
+label: BLOCK PAGE HEADER
+hide_body: true
+fields:
+- name: block
+  type: text
+  config:
+    required: false
+  label: What's the name of the UI Component?
+  description: Please visit www.svncrwns.com/site-docs for a list of UI Block Components.  Choose
+    one of the blocks from the list.
+  default: page-header
+- name: page-title
+  type: text
+  config:
+    required: false
+  label: Page Title
+  description: What's the name of this page?
+- name: panels
+  type: field_group_list
+  fields:
+  - name: panel-title
+    type: text
+    config:
+      required: false
+    label: Panel Title
+  - name: panel-description
+    type: text
+    config:
+      required: false
+    label: panel description
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Panels
