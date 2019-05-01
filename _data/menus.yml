@@ -1,26 +1,31 @@
-header:
-  - url: /
-    title: Home
-    identifier: Home
-  - url: /work
-    title: Work
-    identifier: work
-  - url: /journal
-    title: Journal
-    identifier: journal
-  - url: /connect
-    title: Connect
-    identifier: connect
+---
 footer:
-  - url: /newsletter
-    title: Newsletter
-    identifier: newsletter
-  - url: /careers
-    title: Careers
-    identifier: careers
-  - url: http://www.instagram.com/svncrwns
-    title: Instagram
-    identifier: instagram
-  - url: https://www.vimeo.com/svncrwns
-    title: Vimeo
-    identifier: vimeo
+- url: https://www.vimeo.com/svncrwns
+  title: Vimeo
+  identifier: vimeo
+  weight: 1
+- url: http://www.instagram.com/svncrwns
+  title: Instagram
+  identifier: instagram
+  weight: 2
+- url: "/careers"
+  title: Careers
+  identifier: careers
+  weight: 3
+- url: "/newsletter"
+  title: Newsletter
+  identifier: newsletter
+  weight: 4
+header:
+- url: "/connect2"
+  title: Connect
+  identifier: connect
+  weight: 1
+- url: "/journal"
+  title: Journal
+  identifier: journal
+  weight: 2
+- url: "/work"
+  title: Work
+  identifier: work
+  weight: 3
