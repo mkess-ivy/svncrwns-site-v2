@@ -24,9 +24,9 @@ page_sections:
   next-link: "/connect/"
   next-title: Connect
   position: 42%
-title: Work2
+title: Work
 layout: blocks-layout
-permalink: "/work2/"
+permalink: "/work/"
 seo-description: SVNCRWNS has a portfolio of work that includes client work and in-house
   projects.  Our company started with the founders working as artists to fund their
   creative projects.  The team began consulting with other creatives and small business
