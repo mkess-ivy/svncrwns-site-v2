@@ -8,11 +8,13 @@ fields:
   config:
     required: true
   default: editorial
+  description: Provide the layout for this page
 - type: text
   name: title
   label: title
   config:
     required: true
+  description: Provide the title for this project
 - type: text
   name: season
   label: season
