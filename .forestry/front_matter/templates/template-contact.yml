@@ -102,3 +102,5 @@ fields:
     min: 
     max: 
   description: Add sections to this page
+pages:
+- _pages/connect.md
