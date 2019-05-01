@@ -14,7 +14,7 @@ seo-keywords: production company, svncrwns, e-commerce, women-owned businesses, 
 [//]: # (Work on Home Page)
 summary                         : "created a platform for Department of Commerce Contractor, L-Squared to share their services and portfolio of work"
 phase1-hero                     : lsquared_cover.jpg
-portfolio-cover					: lsquared-website-mockup.jpg
+portfolio-cover					: /dist/images/lsquared-website-mockup.jpg
 
 [//]: # (Slider)
 slider: lsquared_slider

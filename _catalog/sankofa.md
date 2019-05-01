@@ -14,7 +14,7 @@ seo-keywords: production company, svncrwns, e-commerce, women-owned businesses, 
 [//]: # (Work on Home Page)
 summary                         : "a pop-up museum produced to activate the youth community in Baltimore"
 phase1-hero                     : project_popupmuseum/popupmuseum-6_v2.jpg
-portfolio-cover					: project_popupmuseum/popupmuseum-6_v2.jpg
+portfolio-cover					: /dist/images/project_popupmuseum/popupmuseum-6_v2.jpg
 
 [//]: # (Featured Info)
 featured 						: "yes"

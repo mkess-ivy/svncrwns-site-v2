@@ -21,6 +21,7 @@ slider: kendrick_brown_slider
 work-tags 							: "website design + development, photography, art direction, creative direction"
 work-cover							:
 work-space 							: "client"
+portfolio-cover						: /dist/images/kendrick_brown_slide7.jpg
 ---
 
 {% include components/phase-slide-title.html %}

@@ -14,7 +14,7 @@ seo-keywords: production company, svncrwns, e-commerce, women-owned businesses, 
 [//]: # (Work on Home Page)
 summary                         : "created a platform for Behavioral Health organization, Time, to share their services within the healthcare space"
 phase1-hero                     : time_cover.jpg
-portfolio-cover 				: timeorg-website-mockup.jpg
+portfolio-cover 				: /dist/images/timeorg-website-mockup.jpg
 
 [//]: # (Slider)
 slider: time_slider

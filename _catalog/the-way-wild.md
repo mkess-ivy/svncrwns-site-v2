@@ -14,7 +14,7 @@ seo-keywords: production company, svncrwns, e-commerce, women-owned businesses, 
 [//]: # (Work on Home Page)
 summary                         : "a visual look book of photo and video for client"
 phase1-hero                     : thewaywild.jpg
-portfolio-cover 				: thewaywild.jpg
+portfolio-cover 				: /dist/images/thewaywild.jpg
 
 [//]: # (Catalog All)
 catalog-cover-image				: /dist/images/the-way-wild1.jpg

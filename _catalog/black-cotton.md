@@ -14,7 +14,7 @@ seo-keywords: production company, svncrwns, e-commerce, women-owned businesses, 
 [//]: # (Work on Home Page)
 summary                         : "an art installation curated in conjunction with Noisy Tenants' play production, Black Cotton"
 phase1-hero                     : blackcotton_cover.jpg
-portfolio-cover 				: blackcotton_cover.jpg
+portfolio-cover 				: /dist/images/blackcotton_cover.jpg
 
 [//]: # (Catalog All)
 catalog-cover-image				: /dist/images/blackcotton_cover.jpg

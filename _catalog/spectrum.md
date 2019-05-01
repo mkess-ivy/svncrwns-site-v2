@@ -14,7 +14,7 @@ seo-keywords: production company, svncrwns, e-commerce, women-owned businesses, 
 [//]: # (Work on Home Page)
 summary                         : "a fashion show produced for a pilot event of collaboration amongst retailers + designers"
 phase1-hero                     : project_collabmore/spectrum-03.jpg
-portfolio-cover 				: project_collabmore/spectrum-03.jpg
+portfolio-cover 				: /dist/images/project_collabmore/spectrum-03.jpg
 
 [//]: # (Catalog All)
 catalog-cover-image				: /dist/images/spectrum_cover.jpg

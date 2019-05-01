@@ -13,7 +13,7 @@ seo-keywords: production company, svncrwns, e-commerce, women-owned businesses, 
 
 [//]: # (Work on Home Page)
 summary                         : "a photo series.  Georgia was inspired during a visit to the state of Georgia, remembering the history of the South and standing still in it."
-portfolio-cover					: georgia_slide1.jpg
+portfolio-cover					: /dist/images/georgia_slide1.jpg
 
 [//]: # (Slider)
 slider: georgia_slider

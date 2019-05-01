@@ -14,7 +14,7 @@ seo-keywords: production company, svncrwns, e-commerce, women-owned businesses, 
 [//]: # (Work on Home Page)
 summary                         : "a short docufilm talking to Baltimore Arabbers, local produce providers"
 phase1-hero                     : cityofgods-1.jpg
-portfolio-cover 				: cityofgods-1.jpg
+portfolio-cover 				: /dist/images/cityofgods-1.jpg
 
 [//]: # (Catalog All)
 catalog-cover-image				: /dist/images/cityofgods-1.jpg
