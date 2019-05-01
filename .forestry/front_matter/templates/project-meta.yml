@@ -1,7 +1,7 @@
 ---
 label: BLOCK-PROJECT-META
 hide_body: true
-display_field: work-tags
+display_field: block
 fields:
 - name: block
   type: text
@@ -16,24 +16,29 @@ fields:
   config:
     required: false
   label: What kind of project?
-  description: Is this a web, content, event or special project?
+  description: Is this a website, content, event or special project?
+  default: website
 - name: work-space
   type: text
   config:
     required: false
   label: Client or In-House Project?
   default: client
+  description: In-house projects are ideas or collaborations that SVNCRWNS completes
+    and funds.
 - name: work-tags
   type: text
   config:
     required: false
   label: List the tags for this project.
-  default: web
+  default: website, luxury, custom cms & design
+  description: Provide the tags to describe this project
 - name: portfolio-cover
   type: file
   config:
     maxSize: 250
   label: Overlay Menu Hover Image
+  description: Add the image for the Overlay Menu
 - name: brand-statement
   type: textarea
   default: Establishing brand presence with an online shop to showcase monthly releases
@@ -44,3 +49,4 @@ fields:
     schema:
       format: markdown
   label: Tell me about this project
+  description: Provide a short statement explaining what work was completed
