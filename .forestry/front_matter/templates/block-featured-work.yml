@@ -1,4 +1,12 @@
 ---
 label: BLOCK FEATURED WORK
 hide_body: true
-fields: []
+fields:
+- name: block
+  type: text
+  config:
+    required: false
+  label: What's the name of the UI Component?
+  description: Please visit www.svncrwns.com/site-docs for a list of UI Block Components.  Choose
+    one of the blocks from the list.
+  default: featured-work
