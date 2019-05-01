@@ -1,4 +1,93 @@
 ---
 label: TEMPLATE - CONTACT
 hide_body: false
-fields: []
+fields:
+- name: layout
+  type: text
+  config:
+    required: false
+  label: layout
+  description: Provide a layout for this page
+  default: connect
+- name: title
+  type: text
+  config:
+    required: false
+  label: title
+  description: Provide a title for this page
+  default: Connect
+- name: permalink
+  type: text
+  config:
+    required: false
+  label: permalink
+  description: What's the URL for this page
+  default: "/connect/"
+- name: panel-title
+  type: text
+  config:
+    required: false
+  label: panel-title
+  description: Provide the title of this page (to display on page)
+  default: Connect
+- name: seo-description
+  type: text
+  config:
+    required: false
+  label: seo-description
+  description: Provide a description of this page for SEO purposes
+- name: seo-keywords
+  type: text
+  config:
+    required: false
+  label: seo keywords
+  description: Provide keywords for this page for SEO purposes
+- name: studio-email
+  type: text
+  config:
+    required: false
+  label: studio email
+  description: Provide the email for SVNCRWNS Studio
+  default: hello@svncrwns.com
+- name: instagram
+  type: text
+  config:
+    required: false
+  label: instagram
+  description: Provide the link to SVNCRWNS Instagram
+  default: svncrwns
+- name: newsletter
+  type: text
+  config:
+    required: false
+  label: newsletter
+  description: Provide the link to SVNCRWNS Newsletter Signup
+  default: "/newsletter"
+- name: studio-location
+  type: text
+  config:
+    required: false
+  label: studio location
+  description: Provide the location of SVNCRWNS Studio
+  default: Baltimore, MD
+- name: studio-timezone
+  type: text
+  config:
+    required: false
+  label: Our Timezone
+  description: Provide the timezones that our team can service
+  default: eastern / pacific
+- name: office-hours1
+  type: text
+  config:
+    required: false
+  label: Office Hours (line 1)
+  description: Provide the hours of operation
+  default: 9 am - 7 pm
+- name: office-hours2
+  type: text
+  config:
+    required: false
+  label: Any days the studio is closed?
+  description: No days off?
+  default: no work on sundays
