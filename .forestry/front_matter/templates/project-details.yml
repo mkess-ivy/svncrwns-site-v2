@@ -1,7 +1,7 @@
 ---
 label: BLOCK PROJECT DETAILS
 hide_body: true
-display_field: summary
+display_field: block
 fields:
 - name: block
   type: text
@@ -36,15 +36,17 @@ fields:
     schema:
       format: markdown
   label: Project Opportunity
+  description: Provide a statement about the project opportunity
 - name: insights
   type: textarea
   default: ''
   config:
     required: false
-    wysiwyg: true
+    wysiwyg: false
     schema:
       format: markdown
   label: Project Insights
+  description: Provide a statement about the some important factors for this project
 - name: solution
   type: textarea
   default: ''
@@ -54,4 +56,4 @@ fields:
     schema:
       format: markdown
   label: Project Solution
-  description: Detailed description of solution
+  description: What was the solution? How did you get to that idea?
