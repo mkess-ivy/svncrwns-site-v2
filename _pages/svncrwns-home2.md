@@ -1,7 +1,7 @@
 ---
 layout: themealpha-home
-title: SVNCRWNS - Home2
-permalink: "/home2/"
+title: SVNCRWNS - Home
+permalink: "/"
 seo-description: SVNCRWNS is a production company that works to launch and manage
   brands.  We're a modern partner to retail, media and health & wellness brands that
   need support developing their identity and connecting with their audience.  We focus
