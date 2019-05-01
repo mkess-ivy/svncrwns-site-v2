@@ -2,7 +2,7 @@
 layout: post
 title: SVNCRWNS X Creative Mornings Baltimore
 featured: false
-featured_image: feature_creative_mornings.jpg
+featured_image: /dist/images/feature_creative_mornings.jpg
 featured_summary: "SVNCRWNS is invited to talk with Creative Mornings Baltimore on the theme of 'Context', their work in the community and what they are planning with the Baltimore Museum of Art x Mark Bradford partnership"
 archive_summary: "Listen as we talk with CM + Local Color Podcast about context"
 

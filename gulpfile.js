@@ -6,3 +6,9 @@ gulp.task('images', () =>
         .pipe(imagemin())
         .pipe(gulp.dest('dist/images'))
 );
+
+gulp.task('images-uploads', () =>
+    gulp.src('uploads/*')
+        .pipe(imagemin())
+        .pipe(gulp.dest('uploads'))
+);

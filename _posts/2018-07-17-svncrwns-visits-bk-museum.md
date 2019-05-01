@@ -1,7 +1,7 @@
 ---
 layout: post
 title: SVNCRWNS does Brooklyn Museum
-featured_image: feature_bk_museum.jpg
+featured_image: /dist/images/feature_bk_museum.jpg
 featured_summary: "We took a recent trip to visit NYC.  Whenever we visit other cities, one of our favorite stops is to check out the galleries, museums or new exhibitions.  We really love meeting new artists and checking out their work.  The Brooklyn Museum is high on our list for things to do when in NYC.  Check out some of our documented experience in the recap below."
 
 ---
