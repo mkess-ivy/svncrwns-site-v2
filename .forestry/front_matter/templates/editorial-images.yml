@@ -1,6 +1,7 @@
 ---
 label: BLOCK EDITORIAL IMAGES
 hide_body: true
+display_field: block
 fields:
 - name: block
   type: text
@@ -24,7 +25,7 @@ fields:
     config:
       required: false
     label: Title
-    description: Add the title for this image and caption
+    description: Add the title
   - name: image-caption
     type: textarea
     default: ''
