@@ -6,8 +6,9 @@ seo-description: seo description
 seo-keywords: some keywords
 season: 4
 portfolio-cover: "/uploads/cover_braneu_m_003-1.JPG"
+work-space: client
 page_sections:
-- template: overlay-menu-info
+- template: project-meta
   block: project-meta
   work-space: client
   work-tags: website, commercial sector, fashion, luxury
