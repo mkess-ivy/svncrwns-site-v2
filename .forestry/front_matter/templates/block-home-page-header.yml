@@ -1,4 +1,18 @@
 ---
 label: BLOCK HOME PAGE HEADER
 hide_body: false
-fields: []
+fields:
+- name: block
+  type: text
+  config:
+    required: false
+  label: What's the name of the UI Component?
+  description: Please visit www.svncrwns.com/site-docs for a list of UI Block Components.  Choose
+    one of the blocks from the list.
+  default: home-page-header
+- name: tagline
+  type: text
+  config:
+    required: false
+  label: tagline
+  default: Strategy & Production
