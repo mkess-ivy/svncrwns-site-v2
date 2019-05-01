@@ -1,22 +1,26 @@
 ---
 label: BLOCK-META
 hide_body: true
+display_field: layout
 fields:
 - name: layout
   type: text
   config:
     required: false
   label: layout
+  description: Provide a layout for this page
+  default: blocks-layout
 - name: title
   type: text
   config:
     required: false
   label: title
+  description: Provide a title for this page
 - name: season
   type: number
   label: season
-  description: ''
-  default: 0
+  description: 'When was this project completed? (Ex: 2018 - Season 4)'
+  default: '4'
   required: true
   config:
     min: '1'
@@ -37,6 +41,7 @@ fields:
     schema:
       format: markdown
   label: seo description
+  description: Provide the description of the page for SEO purposes
 - name: seo-keywords
   type: tag_list
   default:
@@ -45,3 +50,4 @@ fields:
   - production work
   - business strategy
   label: seo keywords
+  description: Provide keywords for this page for SEO purposes.
