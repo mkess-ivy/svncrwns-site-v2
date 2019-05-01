@@ -39,6 +39,8 @@ fields:
   template_types:
   - page-header
   - block-home-page-header
+  - featured-journal
+  - block-journal-entries
   - block-portfolio-grid
   - block-featured-work
   - block-link-newsletter
