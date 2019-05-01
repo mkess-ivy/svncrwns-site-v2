@@ -1,5 +1,5 @@
 ---
-label: META
+label: BLOCK-META
 hide_body: true
 fields:
 - name: layout
