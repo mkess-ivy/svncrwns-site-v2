@@ -1,5 +1,5 @@
 ---
-layout: phase1-post
+layout: post
 title: SVNCRWNS.com - We've changed things up a bit
 featured_image: post-svncrwns-changed-cover.jpg
 featured_summary: "In our latest update, we’ve organized our work better, and defined which works were our own in-house projects and which were client projects.  We’ve also added new features for better user experience."

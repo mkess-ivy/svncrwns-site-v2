@@ -1,5 +1,5 @@
 ---
-layout: phase1-post
+layout: post
 title: City of Gods x Light City Baltimore
 featured_image: cog-lightcity-1.jpg
 featured_summary: "Media coverage for City of Gods collaboration with Light City, April 2018"

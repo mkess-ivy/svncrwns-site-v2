@@ -1,5 +1,5 @@
 ---
-layout: phase1-post
+layout: post
 title: SVNCRWNS X Creative Mornings Baltimore
 featured: false
 featured_image: feature_creative_mornings.jpg
