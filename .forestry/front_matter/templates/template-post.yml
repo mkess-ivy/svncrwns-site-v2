@@ -1,0 +1,36 @@
+---
+label: TEMPLATE - POST
+hide_body: false
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: title
+  description: Provide the title for this post
+- name: layout
+  type: text
+  config:
+    required: false
+  label: layout
+  description: Provide the layout for this post
+  default: post
+- name: featured
+  type: boolean
+  label: is featured?
+  description: Will this be the first post on the Journal page?
+- name: featured_image
+  type: file
+  config:
+    maxSize: '3'
+  label: featured image
+  description: Provide a cover image for this post.  This will show on the Journal
+    page, and will also be the first image on the post
+- name: featured_summary
+  type: text
+  config:
+    required: false
+  label: featured summary
+  description: Provide a summary for this post.  It will show at the top of the post.
+pages:
+- _posts/2019-05-01-custom-web-sites-w-cms.md
