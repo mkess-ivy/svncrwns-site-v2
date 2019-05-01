@@ -13,11 +13,11 @@
 		<div class="work-space-tag special-projects">{{ section.category }}</div>
 	{% endcase %}
 
-	{% if section.work-space == "in-house" %}
-	     <div class="work-space-tag in-house">{{ section.work-space }}</div>
+	{% if page.work-space == "in-house" %}
+	     <div class="work-space-tag in-house">{{ page.work-space }}</div>
 	{% endif %}
-	{% if section.work-space == "client" %}
-	     <div class="work-space-tag client">{{ section.work-space }}</div>
+	{% if page.work-space == "client" %}
+	     <div class="work-space-tag client">{{ page.work-space }}</div>
 	{% endif %}
 	</div>
 	<div class="editorial_title">{{ page.title }}</div>

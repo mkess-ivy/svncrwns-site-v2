@@ -10,7 +10,6 @@ work-space: client
 page_sections:
 - template: project-meta
   block: project-meta
-  work-space: client
   work-tags: website, commercial sector, fashion, luxury
   brand-statement: Establishing brand presence with an online shop to showcase monthly
     releases from new fashion line
