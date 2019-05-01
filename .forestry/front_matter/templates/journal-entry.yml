@@ -1,6 +1,7 @@
 ---
 label: Journal Entry
 hide_body: false
+display_field: layout
 fields:
 - name: layout
   type: text
@@ -22,7 +23,7 @@ fields:
 - name: featured-image
   type: file
   config:
-    maxSize: 250
+    maxSize: '3'
   label: featured image
   description: Featured Image URL
 - name: featured_summary
@@ -34,7 +35,7 @@ fields:
     schema:
       format: markdown
   label: featured summary
-  description: Featured Summary Text
+  description: Provide the summary of the post.  This will be at the top of the post.
 - name: seo-description
   type: textarea
   default: ''
