@@ -16,3 +16,13 @@ fields:
     required: false
   label: tagline
   default: Strategy & Production
+- name: business_statement
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Business Statement
+  description: Please provide your value proposition here.
