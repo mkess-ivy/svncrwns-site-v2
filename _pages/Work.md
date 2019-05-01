@@ -19,11 +19,11 @@ page_sections:
 - template: block-read-more
   block: read-more
   image: "/uploads/read-more-bsk.jpg"
-  prev-link: "/careers/"
-  prev-title: Careers
-  next-link: "/connect/"
-  next-title: Connect
-  position: 24%
+  prev-link: "/"
+  prev-title: Go Home
+  next-link: "/journal"
+  next-title: View the Journal
+  position: 21%
 title: Work
 layout: blocks-layout
 permalink: "/work/"
