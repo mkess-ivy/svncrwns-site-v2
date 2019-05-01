@@ -91,3 +91,14 @@ fields:
   label: Any days the studio is closed?
   description: No days off?
   default: no work on sundays
+- name: page_sections
+  type: blocks
+  label: Page Sections
+  template_types:
+  - block-contact-primary
+  - block-contact-info
+  - block-read-more
+  config:
+    min: 
+    max: 
+  description: Add sections to this page
