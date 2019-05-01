@@ -1,18 +1,18 @@
 <div class="collapsed_menu_wrapper">
 	{% unless page.title == "SVNCRWNS - Home" %}
 	<ul>
-		<li class=""><a href="/work/">work</a></li>
-		<li class=""><a href="/journal/">journal</a></li>
-		<!-- <li class=""><a href="/brand-starter-kit/">brand starter kit</a></li> -->
-		<li class=""><a href="/connect/">connect</a></li>
+		{% for menu-item in site.data.menus.header %}
+		<li class=""><a href="{{ menu-item.url }}">{{ menu-item.title }}</a></li>
+		{% endfor %}
 	</ul>
+	
 	{% endunless %}
+
 	{% if page.title == "SVNCRWNS - Home" %}
 	<ul>
-		<li class="themealpha-nav"><a href="/work/">work</a></li>
-		<li class="themealpha-nav"><a href="/journal/">journal</a></li>
-		<!-- <li class="themealpha-nav"><a href="/brand-starter-kit/">brand starter kit</a></li> -->
-		<li class="themealpha-nav"><a href="/connect/">connect</a></li>
+		{% for menu-item in site.data.menus.header %}
+		<li class="themealpha-nav"><a href="{{ menu-item.url }}">{{ menu-item.title }}</a></li>
+		{% endfor%}
 	</ul>
 	{% endif %}
 </div>

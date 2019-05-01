@@ -1,0 +1,26 @@
+header:
+  - url: /
+    title: Home
+    identifier: Home
+  - url: /work
+    title: Work
+    identifier: work
+  - url: /journal
+    title: Journal
+    identifier: journal
+  - url: /connect
+    title: Connect
+    identifier: connect
+footer:
+  - url: /newsletter
+    title: Newsletter
+    identifier: newsletter
+  - url: /careers
+    title: Careers
+    identifier: careers
+  - url: http://www.instagram.com/svncrwns
+    title: Instagram
+    identifier: instagram
+  - url: https://www.vimeo.com/svncrwns
+    title: Vimeo
+    identifier: vimeo

@@ -25,3 +25,6 @@ logo              : "/dist/images/svn-logo.svg"
 # Brand Colors
 homepage-bg-color: '#f7f7f7'
 
+plugins:
+- jekyll-menus
+
