@@ -14,7 +14,7 @@
 }
 .themealpha-phase1-header {
   font-family: $font-brand4;
-  color: $homepage-title-color;
+  color: $brown;
   font-size: 40px;
   line-height: 1.1;
   margin-bottom: 10px;
@@ -86,6 +86,14 @@
   @include laptop {
     width: 85%;
     font-size: 20px;
+  }
+
+  a {
+    border-bottom: 1px solid;
+
+    &:hover {
+      color: $brown;
+    }
   }
 }
 .themealpha-home-section-title {

@@ -1868,7 +1868,7 @@ ul.nav li a:hover::after {
 
 .themealpha-phase1-header {
   font-family: "Montserrat", sans-serif;
-  color: #99703E;
+  color: #A16414;
   font-size: 40px;
   line-height: 1.1;
   margin-bottom: 10px;
@@ -1927,6 +1927,10 @@ ul.nav li a:hover::after {
     .themealpha-phase1-subheader {
       width: 85%;
       font-size: 20px; } }
+  .themealpha-phase1-subheader a {
+    border-bottom: 1px solid; }
+    .themealpha-phase1-subheader a:hover {
+      color: #A16414; }
 
 .themealpha-home-section-title {
   font-size: 38px;
