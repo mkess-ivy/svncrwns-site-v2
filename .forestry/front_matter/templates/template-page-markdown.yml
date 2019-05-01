@@ -1,4 +1,48 @@
 ---
 label: TEMPLATE - PAGE + MARKDOWN
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: title
+  description: Provide the title of this page
+- name: layout
+  type: text
+  config:
+    required: false
+  label: layout
+  description: Please provide the layout for this page
+  default: blocks-layout-wide
+- name: permalink
+  type: text
+  config:
+    required: false
+  label: permalink
+  description: 'Please provide the URL for this page (Example: /work)'
+- name: seo-description
+  type: text
+  config:
+    required: false
+  label: seo description
+  description: Provide the description of this page for SEO purposes
+- name: seo-keywords
+  type: text
+  config:
+    required: false
+  label: seo keywords
+  description: Provide the keywords for this page for SEO purposes
+- name: page_sections
+  type: blocks
+  label: page sections
+  template_types:
+  - block-home-page-header
+  - block-featured-work
+  - block-portfolio-grid
+  - block-link-newsletter
+  - block-read-more
+  config:
+    min: 
+    max: 
+  description: Add or remove page sections
