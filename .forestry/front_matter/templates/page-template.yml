@@ -1,6 +1,7 @@
 ---
 label: TEMPLATE - PAGE
 hide_body: true
+display_field: title
 fields:
 - name: title
   type: text
@@ -20,7 +21,8 @@ fields:
   config:
     required: false
   label: permalink
-  description: 'What''s the link for this new page (Example: /work/ )'
+  description: What's the link for this new page?
+  default: "/work"
 - name: seo-description
   type: text
   config:
