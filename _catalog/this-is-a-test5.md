@@ -5,6 +5,7 @@ season2: 4
 seo-description: seo description
 seo-keywords: some keywords
 season: 4
+portfolio-cover: "/uploads/cover_braneu_m_003-1.JPG"
 page_sections:
 - template: overlay-menu-info
   block: project-meta
@@ -34,5 +35,4 @@ page_sections:
   block: project-links
   website-link: google.com
   code-link: google.com
-
 ---

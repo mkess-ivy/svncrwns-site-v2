@@ -13,7 +13,7 @@ seo-keywords: production company, svncrwns, e-commerce, women-owned businesses, 
 
 [//]: # (Work on Home Page)
 summary                         : "Shot an interview for the founder of Crust by Mack to share new goals for the brand"
-portfolio-cover					: crustbymack-1.jpg
+portfolio-cover					: /dist/images/crustbymack-1.jpg
 
 [//]: # (Overlay Menu Info)
 work-tags 							: "art direction, photography"

@@ -14,7 +14,7 @@ seo-keywords: production company, svncrwns, e-commerce, women-owned businesses, 
 [//]: # (Work on Home Page)
 summary                         : "branded photography content created for home decor company"
 phase1-hero                     : cedar_cotton_cover.jpg
-portfolio-cover					: cedar_cotton_cover.jpg
+portfolio-cover					: /dist/images/cedar_cotton_cover.jpg
 
 [//]: # (Catalog All)
 catalog-cover-image				: /dist/images/blackcotton_cover.jpg

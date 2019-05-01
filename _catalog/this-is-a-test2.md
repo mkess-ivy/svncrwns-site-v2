@@ -4,6 +4,7 @@ layout: blocks-layout
 season: 4
 seo-description: this is a seo description
 seo-keywords: one, two, three
+portfolio-cover: /dist/images/braneu-cover.jpg 
 page_sections:
 - template: project-meta
   block: project-meta

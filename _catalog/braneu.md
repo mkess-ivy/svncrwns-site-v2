@@ -13,7 +13,7 @@ seo-keywords: production company, svncrwns, e-commerce, women-owned businesses, 
 [//]: # (Overlay Menu Info)
 work-tags 							: "web design + development"
 work-space 							: "client"
-portfolio-cover						: braneu-cover.jpg
+portfolio-cover						: /dist/images/braneu-cover.jpg
 
 [//]: # (Case Study)
 brand-statement 				: "Establishing brand presence with an online shop to showcase monthly releases from new fashion line."

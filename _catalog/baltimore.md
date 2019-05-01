@@ -13,7 +13,7 @@ seo-keywords: production company, svncrwns, e-commerce, women-owned businesses, 
 [//]: # (Work on Home Page)
 summary                         : "A short summary of Baltimore with audio from the 1974 film, Willie Dynamite, talking about pimp culture and exploitation of women"
 phase1-hero                     : catalog_baltimore_bw.jpg
-portfolio-cover					: catalog_baltimore_bw.jpg
+portfolio-cover					: /dist/images/catalog_baltimore_bw.jpg
 
 [//]: # (Catalog All)
 catalog-cover-image				: /dist/images/baltimore.jpg

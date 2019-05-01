@@ -1,0 +1,19 @@
+<section class="read_more_section">
+	<div class="small_title_wrapper">
+		<div class="small_title_line"></div>
+		<div class="small_title_text">More Reads</div>
+	</div>
+	
+	<div class="read_more_bar" style="background-image:url('{{ section.image }}'); background-position: 10% {{ section.position }};">
+		<div class="frow justify-between">
+			<div class="read_more_pagination prev">
+				<div class="read_more_arrow">&#8592; previous</div>
+				<div class="read_more_title"><a href="{{ section.prev-link }}">{{ section.prev-title }}</a></div>
+			</div>
+			<div class="read_more_pagination next">
+				<div class="read_more_arrow">&#8594; next</div>
+				<div class="read_more_title"><a href="{{ section.next-link }}">{{ section.next-title }}</a></div>
+			</div>
+		</div>
+	</div>
+</section>

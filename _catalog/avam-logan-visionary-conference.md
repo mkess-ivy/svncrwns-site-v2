@@ -13,7 +13,7 @@ seo-keywords: production company, svncrwns, e-commerce, women-owned businesses, 
 [//]: # (Work on Home Page)
 summary                         : "media coverage for American Visionary Art Museum 2018 Visionary Conference"
 phase1-hero                     : catalog_avam_logan.jpg
-portfolio-cover					: catalog_avam_logan.jpg
+portfolio-cover					: /dist/images/catalog_avam_logan.jpg
 
 
 [//]: # (Overlay Menu Info)

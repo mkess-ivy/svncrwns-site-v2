@@ -14,7 +14,7 @@ seo-keywords: production company, svncrwns, e-commerce, women-owned businesses, 
 [//]: # (Work on Home Page)
 summary                         : "branded photography content created for singer and songwriter, AYBE"
 phase1-hero                     : aybe-slide-1.jpg
-portfolio-cover					: home-slide-2.jpg
+portfolio-cover					: /dist/images/home-slide-2.jpg
 
 
 [//]: # (Overlay Menu Info)

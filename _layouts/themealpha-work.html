@@ -1,55 +1,9 @@
 ---
 layout: full-grid
 ---
-
 <div class="grid">
-  <div class="beta_page_title">{{ page.page-title }}</div>
+  {% include components/block-page-header.html %}
+  {% include components/block-portfolio-grid.html %}
+  {% include components/read-more-bar.html %}
 
-  <section class="beta_masthead_section">
-    <div class="discipline_section">
-      <div class="frow justify-between">
-        <div class="small_alpha">
-          <div class="small_title_wrapper">
-            <div class="small_title_line"></div>
-            <div class="small_title_text">{{ page.panel1-title }}</div>
-          </div>
-          <div class="small_title_description">
-            {{ page.panel1-description }}
-          </div>
-        </div>
-        <div class="small_alpha">
-          <div class="small_title_wrapper">
-            <div class="small_title_line"></div>
-            <div class="small_title_text">{{ page.panel2-title }}</div>
-          </div>
-          <div class="small_title_description">
-            {{ page.panel2-description }}
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="main_season">
-    <div class="season_title">
-      2018 season
-      <div class="season_roman">iv</div>
-    </div>
-    <div class="portfolio_grid_work">
-      <div class="frow justify-between">
-        {% assign season_4 = site.catalog | where: "season", "4" %}
-        {% for items in season_4 %}
-          {% include components/portfolio_single_work.html %}
-        {% endfor %}
-      </div>
-    </div>
-  </section>
-  {% include components/read-more-bar.html 
-      image="dist/images/read-more-work.jpg"
-      prev-link="/"
-      prev-title="go home"
-      next-link="/journal/"
-      next-title="read journal"
-      position="42%"
-  %}
 </div>

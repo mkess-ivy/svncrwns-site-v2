@@ -12,7 +12,7 @@ seo-keywords: production company, svncrwns, e-commerce, women-owned businesses, 
 
 
 [//]: # (Work on Home Page)
-portfolio-cover					: obk_cover.jpg
+portfolio-cover					: /dist/images/obk_cover.jpg
 
 [//]: # (Overlay Menu Info)
 work-tags 							: "web design + development"
