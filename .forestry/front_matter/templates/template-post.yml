@@ -32,3 +32,5 @@ fields:
     required: false
   label: featured summary
   description: Provide a summary for this post.  It will show at the top of the post.
+pages:
+- _posts/2019-05-01-custom-web-sites-w-cms.md
