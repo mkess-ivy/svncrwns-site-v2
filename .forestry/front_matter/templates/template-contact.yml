@@ -54,7 +54,7 @@ fields:
   config:
     required: false
   label: instagram
-  description: Provide the link to SVNCRWNS Instagram
+  description: Provide the handle to SVNCRWNS Instagram
   default: svncrwns
 - name: newsletter
   type: text
@@ -81,7 +81,7 @@ fields:
   type: text
   config:
     required: false
-  label: Office Hours (line 1)
+  label: Office Hours
   description: Provide the hours of operation
   default: 9 am - 7 pm
 - name: office-hours2
@@ -101,7 +101,7 @@ fields:
   config:
     min: 
     max: 
-  description: Add sections to this page
+  description: Add sections to the Contact page
 pages:
 - _pages/connect2.md
 - _pages/connect.md
