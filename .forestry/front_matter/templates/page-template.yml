@@ -44,5 +44,3 @@ fields:
     min: 
     max: 
   description: Add all the sections to the page
-pages:
-- _pages/Work2.md
