@@ -1,42 +1,43 @@
 ---
 label: TEMPLATE - SINGLE WORK
 hide_body: true
+display_field: title
 fields:
 - name: title
   type: text
   config:
     required: false
   label: title
+  description: Provide a title for this project
 - name: layout
   type: text
   config:
     required: false
   label: layout
-- name: season2
+  description: Provide the layout for this project
+  default: blocks-layout
+- name: season
   type: number
   label: season
-  description: ''
-  default: 0
+  default: '4'
   required: true
   config:
     min: 
-    max: 
-    step: 
+    max: '4'
+    step: '1'
+  description: 'This project falls in what season? (Ex: 2018 - Season 4)'
 - name: seo-description
   type: text
   config:
     required: false
   label: seo description
+  description: Provide the description of this project for SEO purposes
 - name: seo-keywords
   type: text
   config:
     required: false
   label: seo keywords
-- name: season
-  type: text
-  config:
-    required: false
-  label: season
+  description: Provide keywords for this project for SEO purposes
 - name: page_sections
   type: blocks
   label: PAGE SECTIONS
