@@ -1,5 +1,5 @@
 ---
-label: PAGE HEADER
+label: BLOCK PAGE HEADER
 hide_body: true
 fields:
 - name: block
