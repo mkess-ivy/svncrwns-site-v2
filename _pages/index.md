@@ -20,6 +20,6 @@ page_sections:
   newsletter_description: Sharing our projects, new insights + exclusive content
 
 ---
-SVNCRWNS is a strategy and production company.  We want to empower artists and entrepreneurs with strategy, information and marketing tools.  We work with our clients to grow + manage their brands by way of creating platforms, events and content.  We're a modern partner to retail, media and health & wellness brands that need support developing their identity and connecting with their audience.  \[Check out our work\] ({% link work/index.html %}), and \[let's partner on something\](/connect/) interesting. 
+SVNCRWNS is a strategy and production company.  We want to empower artists and entrepreneurs with strategy, information and marketing tools.  We work with our clients to grow + manage their brands by way of creating platforms, events and content.  We're a modern partner to retail, media and health & wellness brands that need support developing their identity and connecting with their audience.  \[Check out our work\] ({% link pages/work.md %}), and \[let's partner on something\](/connect/) interesting. 
 
 ###### \[Pronounced: seven crowns\]
