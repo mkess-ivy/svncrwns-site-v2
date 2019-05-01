@@ -26,6 +26,10 @@ page_sections:
   block: contact-primary
 - template: contact-info
   block: contact-info
+- template: block-contact-primary
+  block: contact-primary
+- template: block-contact-info
+  block: contact-info
 - template: block-read-more
   block: read-more
   image: "/dist/images/read-more-contact.jpg"
