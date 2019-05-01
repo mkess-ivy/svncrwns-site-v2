@@ -50,5 +50,4 @@ fields:
     max: 
   description: Add all the sections to the page
 pages:
-- _pages/journal2.md
 - _pages/Work.md
