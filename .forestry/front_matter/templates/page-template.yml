@@ -38,7 +38,10 @@ fields:
   label: PAGE SECTIONS
   template_types:
   - page-header
+  - block-home-page-header
   - block-portfolio-grid
+  - block-featured-work
+  - block-link-newsletter
   - block-read-more
   config:
     min: 
