@@ -1,4 +1,15 @@
 ---
-label: PAGE TEMPLATE
+label: TEMPLATE - PAGE
 hide_body: true
-fields: []
+fields:
+- name: page_sections
+  type: blocks
+  label: PAGE SECTIONS
+  template_types:
+  - page-header
+  - block-portfolio-grid
+  - block-read-more
+  config:
+    min: 
+    max: 
+  description: Add all the sections to the page
