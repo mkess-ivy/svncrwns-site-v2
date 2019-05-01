@@ -2,6 +2,37 @@
 label: TEMPLATE - PAGE
 hide_body: true
 fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: title
+  description: What's the name of this page?
+- name: layout
+  type: text
+  config:
+    required: false
+  label: layout
+  description: Please provide the layout of this page
+  default: blocks-layout
+- name: permalink
+  type: text
+  config:
+    required: false
+  label: permalink
+  description: 'What''s the link for this new page (Example: /work/ )'
+- name: seo-description
+  type: text
+  config:
+    required: false
+  label: seo description
+  description: Provide a description of this page for SEO purposes.
+- name: seo-keywords
+  type: text
+  config:
+    required: false
+  label: seo keywords
+  description: Provide keywords for this page for SEO purposes
 - name: page_sections
   type: blocks
   label: PAGE SECTIONS
