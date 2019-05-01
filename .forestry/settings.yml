@@ -7,6 +7,10 @@ sections:
 - type: heading
   label: Content
 - type: document
+  path: _data/site-settings.yml
+  label: Site Settings
+  match: "**/*"
+- type: document
   path: _data/featured_work.yml
   label: Featured Projects
 - type: directory
