@@ -1,5 +1,5 @@
 ---
-layout: themealpha-home
+layout: blocks-layout-wide
 title: SVNCRWNS - Home
 permalink: "/"
 seo-description: SVNCRWNS is a production company that works to launch and manage

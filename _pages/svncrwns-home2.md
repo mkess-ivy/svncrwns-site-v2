@@ -1,8 +1,8 @@
 ---
 layout: blocks-layout-wide
-title: SVNCRWNS - Home2
+title: SVNCRWNS - Home
 permalink: "/home2/"
-seo-description: this is a description
+seo-description: this is a description, not the correct page
 seo-keywords: some, keywords, here
 page_sections:
 - template: block-home-page-header
