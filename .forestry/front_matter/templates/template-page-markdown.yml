@@ -1,6 +1,7 @@
 ---
 label: TEMPLATE - PAGE + MARKDOWN
 hide_body: false
+display_field: title
 fields:
 - name: title
   type: text
@@ -20,7 +21,8 @@ fields:
   config:
     required: false
   label: permalink
-  description: 'Please provide the URL for this page (Example: /work)'
+  description: Please provide the URL for this page
+  default: "/work"
 - name: seo-description
   type: text
   config:
@@ -45,4 +47,4 @@ fields:
   config:
     min: 
     max: 
-  description: Add or remove page sections
+  description: Add sections to this page
