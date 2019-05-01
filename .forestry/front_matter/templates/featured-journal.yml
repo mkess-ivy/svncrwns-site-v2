@@ -1,6 +1,7 @@
 ---
-label: Featured Journal
+label: BLOCK FEATURED JOURNAL
 hide_body: true
+display_field: block
 fields:
 - name: block
   type: text
