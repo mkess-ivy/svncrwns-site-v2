@@ -2,7 +2,7 @@
 page_sections:
 - template: page-header
   block: page-header
-  page-title: Work22 Baby
+  page-title: Our Work
   panels:
   - panel-description: Our strategic aim is to work with our clients to create better
       approaches to connecting with their consumer market. We manage + create e-commerce
