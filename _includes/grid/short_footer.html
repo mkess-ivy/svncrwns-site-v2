@@ -3,10 +3,12 @@
         <div class="left_footer">
             
             {% unless page.title == "SVNCRWNS - Home" %}
-            <a href="/"><img src = "/dist/images/simple_crown_blk.png" width="25" /></a>&nbsp;&nbsp;
+            {% for item in site.data.site-settings %}
+            <a href="/"><img src = "{{ item.footer-logo }}" width="25" /></a>&nbsp;&nbsp;
             <div class="left_footer_copy">
-                &copy;2015 &mdash; 2019. All Rights Reserved
+                {{ item.footer-copyright }}
             </div>
+            {% endfor %}
             {% endunless %}
             {% if page.title == "SVNCRWNS - Home" %}
             <a href="/"><img src = "/dist/images/simple_crown_blk.png" width="25" /></a>&nbsp;&nbsp;

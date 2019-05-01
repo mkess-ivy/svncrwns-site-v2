@@ -2,16 +2,11 @@
 <div class="grid_project fixednavbar">
 <header class="phase1-site-header {% if page.layout == "phase1-project" or page.layout == "phase1-slide" %}project-layout{% endif %}">
     <div class="frow justify-between">
-    	{% unless page.title == "SVNCRWNS - Home" %}
         <div class="left_header">
-            <a href="/"><img src="/dist/images/logo_graphic_black.png" width="25" style="margin: 5px 0;" /></a>
+            {% for item in site.data.site-settings %}
+            <a href="/"><img src="{{ item.global-logo }}" width="25" style="margin: 5px 0;" /></a>
+            {% endfor %}
         </div>
-        {% endunless %}
-        {% if page.title == "SVNCRWNS - Home" %}
-        <div class="left_header">
-            <a href="/"><img src="/dist/images/logo_graphic_black.png" width="25" style="margin: 5px 0;" /></a>
-        </div>
-        {% endif %}
         {% include grid/collapsed_menu.html %}
         {% include phase1_overlay_menu2.html %}
     </div>
