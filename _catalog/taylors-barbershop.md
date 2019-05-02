@@ -59,6 +59,31 @@ page_sections:
       and the brand colors are black, white, and brown.  This combination creates
       a clean, minimal design that allows the lifestyle of the barbershop imagery
       to make you feel connected.
+  - image-name: "/uploads/taylors-barbershop02.png"
+    image-caption-title: SIMPLE LAYOUT , EASY MANAGEMENT
+    image-caption: 'This website has about 6 pages that are built using components.  The
+      Squarespace platform is very simple and allows our client to run their store
+      at a small-scale, confidently.   One of our client’s concerns was: will I be
+      able to change the content with my team? Our team was able to create simple
+      templates and an instruction manual to operate the website filled with screenshots
+      and details.  '
+  - image-name: "/uploads/taylors-barbershop03.png"
+    image-caption-title: INCREASE SALES WITH APPOINTMENT SCHEDULING INTEGRATION
+    image-caption: 'This website has about 6 pages that are built using components.  The
+      Squarespace platform is very simple and allows our client to run their store
+      at a small-scale, confidently.   One of our client’s concerns was: will I be
+      able to change the content with my team? Our team was able to create simple
+      templates and an instruction manual to operate the website filled with screenshots
+      and details.  '
+  - image-name: "/uploads/taylors-barbershop04.png"
+    image-caption-title: E-COMMERCE SHOP FEATURING POMADES & BEARD BUTTERS FOR MENS
+      GROOMING
+    image-caption: 'This website has about 6 pages that are built using components.  The
+      Squarespace platform is very simple and allows our client to run their store
+      at a small-scale, confidently.   One of our client’s concerns was: will I be
+      able to change the content with my team? Our team was able to create simple
+      templates and an instruction manual to operate the website filled with screenshots
+      and details.  '
 - template: project-links
   block: project-links
 
