@@ -46,6 +46,7 @@ fields:
   - project-details
   - editorial-image-ok
   - project-links
+  - block-credits
   config:
     min: '2'
     max: 
