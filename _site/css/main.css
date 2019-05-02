@@ -995,15 +995,17 @@ a.general_link {
 
 .editorial_links {
   margin-bottom: 75px;
-  background: #99703E;
   padding: 15px 25px 0;
   width: 75%; }
   @media screen and (min-width: 750px) {
     .editorial_links {
-      width: 50%; } }
+      width: 50%;
+      padding: 15px 0 0; } }
   @media screen and (min-width: 1024px) {
     .editorial_links {
-      width: 26%; } }
+      width: 30%;
+      margin-left: 90px;
+      margin-bottom: 125px; } }
 
 .view_website {
   font-family: "Montserrat", sans-serif;
@@ -1015,7 +1017,7 @@ a.general_link {
   @media screen and (min-width: 750px) {
     .view_website {
       padding: 0 0 15px;
-      font-size: 28px !important; } }
+      font-size: 24px !important; } }
 
 .small_beta, .themealpha_small_beta {
   border-bottom: 1px solid #eee;
@@ -1179,7 +1181,11 @@ a.general_link {
   padding: 5em 0 3em; }
   @media screen and (min-width: 750px) {
     .block.caption_wrapper {
-      padding: 0 0 8em 6em !important; } }
+      padding: 0 0 2em 6em !important; } }
+
+@media screen and (min-width: 750px) {
+  .project_links {
+    margin-top: -3em; } }
 
 /* Phase 1 */
 .left_footer {
