@@ -16,7 +16,6 @@ portfolio-cover: "/dist/images/taylorsbarbershop-website-mockup.jpg"
 featured: 'yes'
 featured-rank: 1
 slider: taylorbarbershop_slider
-website_link: http://www.taylorbarbershop.com
 work-tags: website design + development, site architecture, brand identity
 work-cover: 
 work-space: client
@@ -94,5 +93,6 @@ page_sections:
     person: Taylor's Barbershop
 - template: project-links
   block: project-links
+  website-link: https://www.taylorbarbershop.com
 
 ---
