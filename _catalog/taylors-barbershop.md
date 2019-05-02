@@ -86,6 +86,11 @@ page_sections:
 - template: block-credits
   block: credits
   credits-title: Taylor's Barbershop Website
+  contributions:
+  - position: Website Design
+    person: SVNCRWNS
+  - position: Photography
+    person: Taylor's Barbershop
 - template: project-links
   block: project-links
   website-link: https://www.taylorbarbershop.com
