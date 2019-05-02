@@ -83,14 +83,9 @@ page_sections:
       able to change the content with my team? Our team was able to create simple
       templates and an instruction manual to operate the website filled with screenshots
       and details.  '
-- template: credits
+- template: block-credits
   block: credits
   credits-title: Taylor's Barbershop Website
-  contributions:
-  - position: Web Design
-    person: SVNCRWNS
-  - position: Photography
-    person: Taylor's Barbershop
 - template: project-links
   block: project-links
   website-link: https://www.taylorbarbershop.com
