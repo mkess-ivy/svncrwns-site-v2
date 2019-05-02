@@ -50,3 +50,5 @@ fields:
     min: '2'
     max: 
   description: Add sections to this work project.
+pages:
+- _catalog/taylors-barbershop.md

@@ -1,33 +1,65 @@
 ---
-[//]: # (Meta Info)
-layout                          : phase1-slide-web
-title 					        : "Taylor's Barbershop"
-season				            : "3"
-category						: website
-
-[//]: # (SEO Information)
-seo-description: SVNCRWNS has worked with serial entrepreneur, Dawayne Taylor, to launch three of his latest ventures.  Taylors Barbershop is an upscale barbershop space serving the Richmond, Virginia area.
-
-seo-keywords: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects
-
-
-[//]: # (Work on Home Page)
-summary                         : "created a barbershop site sharing services, booking appts + more"
-phase1-hero                     : taylorbarbershop_cover.jpg
-portfolio-cover 				: /dist/images/taylorsbarbershop-website-mockup.jpg
-
-[//]: # (Featured Info)
-featured 						: "yes"
-featured-rank 					: "1"
-
-[//]: # (Slider)
-slider 							: taylorbarbershop_slider
-
-[//]: # (Website)
+'["//"]': 
+layout: blocks-layout
+title: Taylor's Barbershop
+season: 4
+category: website
+seo-description: SVNCRWNS has worked with serial entrepreneur, Dawayne Taylor, to
+  launch three of his latest ventures.  Taylors Barbershop is an upscale barbershop
+  space serving the Richmond, Virginia area.
+seo-keywords: production company, svncrwns, e-commerce, women-owned businesses, creative
+  team, consulting, business operations, launch my brand, manage my brand, photography,
+  videography, special projects
+summary: created a barbershop site sharing services, booking appts + more
+phase1-hero: taylorbarbershop_cover.jpg
+portfolio-cover: "/dist/images/taylorsbarbershop-website-mockup.jpg"
+featured: 'yes'
+featured-rank: 1
+slider: taylorbarbershop_slider
 website_link: http://www.taylorbarbershop.com
+work-tags: website design + development, site architecture, brand identity
+work-cover: 
+work-space: client
+page_sections:
+- template: overlay-menu-info
+  block: project-meta
+  work-space: client
+  work-tags: web design + development, e-commerce, health & wellness
+  brand-statement: Working with Richmond-based barbershop to share their barbershop
+    culture and platform to schedule appointments online
+  category: website
+  portfolio-cover: "/uploads/taylors-home-1-v2.jpg"
+- template: project-details
+  block: project-details
+  project-details-cover: "/uploads/taylors-home-1-v2-1.jpg"
+  summary: Taylor’s Barbershop is a franchised establishment based in Richmond, Virginia.  The
+    founder of this barbershop has a legacy of cutting hair in his family, and founded
+    the barbershop in 2009.  The founder expressed wanting to create a culture of
+    diversity and luxury in the barbershop space.  We transformed that idea into the
+    digital space.
+  opportunity: 'This opportunity has been developing for some time.  Our team worked
+    with the client on their first website that listed their services and pricing
+    but didn’t allow for scheduling appointments or purchasing products.  After optimizing
+    the business operations, it was time to bring some automation into the workflow
+    by delivering a new website with e-commerce capabilities.  '
+  insights: The team at Taylor’s Barbershop has been growing quickly.  We knew it
+    would be important for our client to be able to update team, service and product
+    information on the go.  With managing several schedules, there is a great opportunity
+    to make sure customers are able to read reviews and make appointments easily.
+  solution: This website was built on the Squarespace platform, allowing for easy
+    management of products, shipping and payment tools.  We designed our website using
+    Sketch, and then developed our custom pages using the e-commerce platform.
+- template: editorial-image-ok
+  block: editorial-image
+  editorial-images:
+  - image-name: "/uploads/taylors-barbershop01.png"
+    image-caption-title: CREATING THE BARBERSHOP CULTURE THROUGH LIFESTYLE PHOTOGRAPHY
+    image-caption: Using photography and messaging to create the tone and experience
+      of a hair cut experience at this barbershop.  The images are black and white,
+      and the brand colors are black, white, and brown.  This combination creates
+      a clean, minimal design that allows the lifestyle of the barbershop imagery
+      to make you feel connected.
+- template: project-links
+  block: project-links
 
-[//]: # (Overlay Menu Info)
-work-tags 						: "website design + development, site architecture, brand identity"
-work-cover						:
-work-space 							: "client"
 ---
