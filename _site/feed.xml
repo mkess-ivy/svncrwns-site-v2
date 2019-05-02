@@ -6,30 +6,9 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 02 May 2019 18:17:53 -0400</pubDate>
-    <lastBuildDate>Thu, 02 May 2019 18:17:53 -0400</lastBuildDate>
+    <pubDate>Thu, 02 May 2019 19:05:31 -0400</pubDate>
+    <lastBuildDate>Thu, 02 May 2019 19:05:31 -0400</lastBuildDate>
     <generator>Jekyll v3.6.3</generator>
-    
-      <item>
-        <title>Custom Web Sites w/ CMS</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/dist/images/post_bk_museum_1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/dist/images/post_bk_museum_2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;My favorite pieces of art are photo-journalism pieces.  I wish there was more photography on display at more contemporary art spaces.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/dist/images/post_bk_museum_3.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/dist/images/post_bk_museum_4.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I see paintings like these all the time.  Initially, I didn’t quite get how solid colors on canvas were considered art, but as I’ve gotten more educated in the art space,  I do understand that this expands on the genres of art culture and criticism.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 01 May 2019 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/journal/custom-web-sites-w-cms/</link>
-        <guid isPermaLink="true">http://localhost:4000/journal/custom-web-sites-w-cms/</guid>
-        
-        
-      </item>
     
       <item>
         <title>SVNCRWNS.com - We've changed things up a bit</title>
@@ -374,6 +353,21 @@ Photography + Videography: SVNCRWNS&lt;/p&gt;
         <pubDate>Sun, 17 Dec 2017 00:00:00 -0500</pubDate>
         <link>http://localhost:4000/journal/creative-mornings/</link>
         <guid isPermaLink="true">http://localhost:4000/journal/creative-mornings/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Creating Content with Come So Far</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/dist/images/post_comesofar_1_v2.png&quot; alt=&quot;Come So Far 001&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/dist/images/post_comesofar_2_v2.png&quot; alt=&quot;Come So Far 002&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/dist/images/post_comesofar_3_v2.png&quot; alt=&quot;Come So Far 003&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 20 Jun 2016 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/journal/come-so-far/</link>
+        <guid isPermaLink="true">http://localhost:4000/journal/come-so-far/</guid>
         
         
       </item>

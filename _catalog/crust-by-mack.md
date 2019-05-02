@@ -4,7 +4,6 @@ layout                          : editorial
 title 					        : "Crust by Mack"
 season				            : "4"
 category						: film
-key 							: key-yes
 
 [//]: # (SEO Information)
 seo-description: SVNCRWNS worked with Crust by Mack to produce an interview to launch her campaign for raising funds to open their bakery.

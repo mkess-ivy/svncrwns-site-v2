@@ -184,7 +184,7 @@
 
 	@include tablet {
 		width: 75%;
-		margin: 75px 0 100px;
+		margin: 75px 0 250px;
 	}
 	@include desktop-blah {
 		width: 60%;
@@ -202,7 +202,7 @@
 
 	}
 	@include desktop {
-		width: 55%;
+		width: 75%;
 	}
 }
 .editorial_caption {
@@ -218,4 +218,13 @@
 }
 .editorial-video {
 	margin-bottom: 150px;
+}
+
+// Credits
+.block.caption_wrapper {
+  padding: 5em 0 3em;  
+  @include tablet {
+    padding: 0 0 8em 6em !important;  
+  }
+  
 }

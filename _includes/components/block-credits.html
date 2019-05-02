@@ -1,0 +1,10 @@
+<section class="editorial_images">
+	<div class="grid">
+		<div class="block caption_wrapper">
+			<div class="editorial-caption-title">{{ section.credits-title }} credits</div>
+			{% for item in section.contributions %}
+			<div class="editorial_caption">{{ item.position }}: {{ item.person }}</div>
+			{% endfor %}
+		</div>
+	</div>
+</section>
