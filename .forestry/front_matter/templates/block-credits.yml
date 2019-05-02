@@ -17,3 +17,25 @@ fields:
   label: Credits Title
   description: Provide the title of the credits section
   default: Taylor's Barbershop Website
+- name: contributions
+  type: field_group_list
+  fields:
+  - name: position
+    type: text
+    config:
+      required: false
+    label: position
+    description: Provide the position or contribution
+    default: Photography
+  - name: person
+    type: text
+    config:
+      required: false
+    label: Person
+    description: Provide the name of the person or brand that completed this contribution
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Contributions
+  description: Add the positions that contributed to this project
