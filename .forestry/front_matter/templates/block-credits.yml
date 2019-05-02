@@ -1,0 +1,19 @@
+---
+label: BLOCK CREDITS
+hide_body: true
+fields:
+- name: block
+  type: text
+  config:
+    required: false
+  label: What's the name of the UI Component?
+  description: Please visit www.svncrwns.com/site-docs for a list of UI Block Components.  Choose
+    one of the blocks from the list.
+  default: credits
+- name: credits-title
+  type: text
+  config:
+    required: false
+  label: Credits Title
+  description: Provide the title of the credits section
+  default: Taylor's Barbershop Website
