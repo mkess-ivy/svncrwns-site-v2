@@ -33,12 +33,6 @@ fields:
   label: List the tags for this project.
   default: website, luxury, custom cms & design
   description: Provide the tags to describe this project
-- name: portfolio-cover
-  type: file
-  config:
-    maxSize: 250
-  label: Overlay Menu Hover Image
-  description: Add the image for the Overlay Menu
 - name: brand-statement
   type: textarea
   default: Establishing brand presence with an online shop to showcase monthly releases
