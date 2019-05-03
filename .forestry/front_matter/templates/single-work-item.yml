@@ -26,6 +26,12 @@ fields:
     max: '4'
     step: '1'
   description: 'This project falls in what season? (Ex: 2018 - Season 4)'
+- name: portfolio-cover
+  type: file
+  config:
+    maxSize: '3'
+  label: Overlay Image
+  description: Add the image for the Overlay Menu & Work Page
 - name: seo-description
   type: text
   config:
