@@ -1,10 +1,23 @@
 ---
+- title: Taylor's Barbershop
+  image: ''
+  description: ''
+  category: ''
+  url: ''
+  work-space: ''
 - title: Aybe Music
   image: "/dist/images/home-slide-2.jpg"
   description: photography sessions with Aybe, developing her brand identity
   category: photo
   url: "/work/aybe-music/"
   work-space: client
+- title: Believing Takes Time
+  image: "/dist/images/btt-project-1.jpg"
+  description: A youth photography exhibit created to share artrepreneurship skills
+    with youth
+  category: event
+  url: "/work/believing-takes-time/"
+  work-space: in-house
 - title: Our Brother's Keeper
   image: "/dist/images/obk_cover.jpg"
   description: a short film about the intimate space of barbershops told through the
@@ -32,13 +45,6 @@
   category: film
   url: "/work/avam-logan-visionary-conference/"
   work-space: client
-- title: Believing Takes Time
-  image: "/dist/images/btt-project-1.jpg"
-  description: A youth photography exhibit created to share artrepreneurship skills
-    with youth
-  category: event
-  url: "/work/believing-takes-time/"
-  work-space: in-house
 - title: Noisy Tenants
   image: "/dist/images/noisytenants-cover.jpg"
   description: Worked with agency to develop brand identity and digital platform

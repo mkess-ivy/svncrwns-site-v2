@@ -35,3 +35,5 @@ fields:
     description: What type of project is this?
   config:
     labelField: title
+pages:
+- _data/featured_work.yml
