@@ -53,36 +53,38 @@ page_sections:
   editorial-images:
   - image-name: "/uploads/taylors-barbershop01-2.png"
     image-caption-title: CREATING THE BARBERSHOP CULTURE THROUGH LIFESTYLE PHOTOGRAPHY
-    image-caption: Using photography and messaging to create the tone and experience
-      of a hair cut experience at this barbershop.  The images are black and white,
-      and the brand colors are black, white, and brown.  This combination creates
-      a clean, minimal design that allows the lifestyle of the barbershop imagery
-      to make you feel connected.
+    image-caption: 'Using photography and messaging to create the tone and experience
+      of a hair cut experience at Taylor''s.  The images are black and white, and
+      the brand colors are black, white, and brown.  This combination creates a clean,
+      minimal design that allows the lifestyle of the barbershop imagery to make you
+      feel at home in the space.  '
   - image-name: "/uploads/taylors-barbershop02-1.png"
     image-caption-title: SIMPLE LAYOUT , EASY MANAGEMENT
-    image-caption: 'This website has about 6 pages that are built using components.  The
-      Squarespace platform is very simple and allows our client to run their store
-      at a small-scale, confidently.   One of our client’s concerns was: will I be
-      able to change the content with my team? Our team was able to create simple
-      templates and an instruction manual to operate the website filled with screenshots
-      and details.  '
+    image-caption: 'This website has about 6 pages that are built using a component
+      system.  The Squarespace platform is very simple and allows our client to run
+      their store at a small-scale, confidently.   One of our client’s concerns was:
+      will I be able to change the content with my team? Our team was able to create
+      simple templates and an instruction manual to operate the website filled with
+      screenshots and details.   A simple layout with minimal design gives a brand
+      the space to grow as it matures and begins to understand the details that it
+      wants to incorporate into its identity.'
   - image-name: "/uploads/taylors-barbershop03-1.png"
     image-caption-title: INCREASE SALES WITH APPOINTMENT SCHEDULING INTEGRATION
-    image-caption: 'This website has about 6 pages that are built using components.  The
-      Squarespace platform is very simple and allows our client to run their store
-      at a small-scale, confidently.   One of our client’s concerns was: will I be
-      able to change the content with my team? Our team was able to create simple
-      templates and an instruction manual to operate the website filled with screenshots
-      and details.  '
+    image-caption: Adding appointment scheduling to this barbershop's platform has
+      allowed them to increase their bookings online.  By having access to the Barbershop's
+      appointment calendar & image gallery, a potential client can have a user experience
+      that includes scheduling their grooming starting from the home page.  If you're
+      new to the area, check out the home page and find out what past clients are
+      saying.  The convenience of appointment notifications for your hair cut on Friday's
+      @ 3pm are now seamless @ Taylor's Barbershop.
   - image-name: "/uploads/taylors-barbershop04-1.png"
     image-caption-title: E-COMMERCE SHOP FEATURING POMADES & BEARD BUTTERS FOR MENS
       GROOMING
-    image-caption: 'This website has about 6 pages that are built using components.  The
-      Squarespace platform is very simple and allows our client to run their store
-      at a small-scale, confidently.   One of our client’s concerns was: will I be
-      able to change the content with my team? Our team was able to create simple
-      templates and an instruction manual to operate the website filled with screenshots
-      and details.  '
+    image-caption: Along with scheduling your appointment, a client can now go to
+      Taylor's new platform to order their favorite grooming products.  This product
+      line that is sourced nationally, is also used in the barbershop.  Products include
+      oils, beard butters, and an assortment of pomades to get your finished look
+      while on-the-go.
 - template: block-credits
   block: credits
   credits-title: Taylor's Barbershop Website
