@@ -53,11 +53,11 @@ page_sections:
   editorial-images:
   - image-name: "/uploads/taylors-barbershop01-2.png"
     image-caption-title: CREATING THE BARBERSHOP CULTURE THROUGH LIFESTYLE PHOTOGRAPHY
-    image-caption: 'Using photography and messaging to create the tone and experience
-      of a hair cut experience at Taylor''s.  The images are black and white, and
-      the brand colors are black, white, and brown.  This combination creates a clean,
-      minimal design that allows the lifestyle of the barbershop imagery to make you
-      feel at home in the space.  '
+    image-caption: 'Photography, messaging, and iconography was used to develop the
+      brand identity and feel of a hair cut experience at Taylors.  The imagery is
+      black and white, and the brand colors are black, white, and brown.  This combination
+      of images and colors creates a clean, timeless and minimal design that allows
+      the lifestyle of the barbershop imagery to make you feel at home in the space.  '
   - image-name: "/uploads/taylors-barbershop02-1.png"
     image-caption-title: SIMPLE LAYOUT , EASY MANAGEMENT
     image-caption: 'This website has about 6 pages that are built using a component
