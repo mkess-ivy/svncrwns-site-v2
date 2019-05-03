@@ -80,12 +80,11 @@ page_sections:
   - image-name: "/uploads/taylors-barbershop04-1.png"
     image-caption-title: E-COMMERCE SHOP FEATURING POMADES & BEARD BUTTERS FOR MENS
       GROOMING
-    image-caption: 'This website has about 6 pages that are built using components.  The
-      Squarespace platform is very simple and allows our client to run their store
-      at a small-scale, confidently.   One of our client’s concerns was: will I be
-      able to change the content with my team? Our team was able to create simple
-      templates and an instruction manual to operate the website filled with screenshots
-      and details.  '
+    image-caption: Along with scheduling your appointment, a client can now go to
+      Taylor's new platform to order their favorite grooming products.  This product
+      line that is sourced nationally, is also used in the barbershop.  Products include
+      oils, beard butters, and an assortment of pomades to get your finished look
+      while on-the-go.
 - template: block-credits
   block: credits
   credits-title: Taylor's Barbershop Website
