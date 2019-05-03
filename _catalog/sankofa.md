@@ -4,6 +4,7 @@ layout 							: phase1-project
 title 							: "Sankofa"
 season                          : "2"
 category 						: event
+portfolio-grid					: need
 
 [//]: # (SEO Information)
 seo-description: SVNCRWNS has worked with Sankofa to complete a catalog of work.  We offered brand styling, consulting, event activation, and content production.

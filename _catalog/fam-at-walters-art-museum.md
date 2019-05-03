@@ -4,6 +4,7 @@ layout                          : phase1-slide
 title 					        : "FAM @ Walters Art Museum"
 season				            : "4"
 category						: photo
+portfolio-grid					: need
 
 [//]: # (SEO Information)
 seo-description: SVNCRWNS has worked with Fashion at Morgan, a modeling organization at Morgan State University, for several years as an advisor for their fall and spring fashion shows.

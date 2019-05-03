@@ -3,7 +3,8 @@
 layout                          : phase1-slide
 title 					        : "Kendrick Brown"
 season				            : "1"
-category						: strategy + website + photo
+category						: special project
+portfolio-grid					: need
 
 [//]: # (SEO Information)
 seo-description: SVNCRWNS has worked with Kendrick Brown to establish his personal brand working in education, philosophy and consulting.

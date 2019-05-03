@@ -4,6 +4,7 @@ layout                          : editorial
 title 					        : "Wayne Wilson"
 season				            : "4"
 category						: photo
+portfolio-grid					: need
 
 [//]: # (SEO Information)
 seo-description: SVNCRWNS has worked with Wayne Wilson to create photography as this artist prepares to bloom and share more of themselves with their audience.

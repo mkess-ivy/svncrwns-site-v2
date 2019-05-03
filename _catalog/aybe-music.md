@@ -4,6 +4,7 @@ layout                          : editorial
 title 					        : "Aybe Music"
 season				            : "4"
 category						: photo
+portfolio-grid					: need
 
 [//]: # (SEO Information)
 seo-description: SVNCRWNS worked with Aybe to complete photography shoots for the artist's brand.  Check out the photography used a single cover for Aybe's latest single, Distance.

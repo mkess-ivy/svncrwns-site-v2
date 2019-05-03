@@ -4,6 +4,7 @@ layout 							: phase1-project
 title 							: "The Way Wild"
 season: "3"
 category						: film
+portfolio-grid					: need
 
 [//]: # (SEO Information)
 seo-description: SVNCRWNS has worked with designer, Kenn Hall, to create a lookbook and fashion film for new collection.

@@ -19,6 +19,7 @@ slider: taylorbarbershop_slider
 work-tags: website design + development, site architecture, brand identity
 work-cover: 
 work-space: client
+portfolio-grid: need
 page_sections:
 - template: overlay-menu-info
   block: project-meta

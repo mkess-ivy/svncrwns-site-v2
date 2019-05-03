@@ -4,6 +4,7 @@ layout                          : phase1-project
 title 					        : "Spectrum"
 season				            : "2"
 category 						: event
+portfolio-grid					: need
 
 [//]: # (SEO Information)
 seo-description: SVNCRWNS partnered with a set of collaborators to create the pilot event, Spectrum.  A fashion show highlighting local designers and stylists and creating an environment for buyers to learn about new talent.

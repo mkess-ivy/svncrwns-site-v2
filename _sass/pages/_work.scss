@@ -37,12 +37,13 @@
 
 	@include palm-mid {
 		width: 48%;
+		padding-bottom: 50px;
 	}
 	@include laptop {
 		width: 31%;
 	}
 	@include desktop {
-		width: 24%;
+		width: 32%;
 	}
 
 	.portfolio_single_img {
@@ -53,7 +54,7 @@
 		background-position: center;
 
 		@include laptop {
-			height: 250px;
+			height: 350px;
 		}
 		&:hover {
 			filter: blur(1.5px)sepia(50%);

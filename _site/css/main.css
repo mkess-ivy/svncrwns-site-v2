@@ -3586,13 +3586,14 @@ a.pagination_links:hover {
   padding-bottom: 30px; }
   @media screen and (min-width: 500px) {
     .portfolio_single_work {
-      width: 48%; } }
+      width: 48%;
+      padding-bottom: 50px; } }
   @media screen and (min-width: 900px) {
     .portfolio_single_work {
       width: 31%; } }
   @media screen and (min-width: 1024px) {
     .portfolio_single_work {
-      width: 24%; } }
+      width: 32%; } }
   .portfolio_single_work .portfolio_single_img {
     height: 200px;
     background: black;
@@ -3601,7 +3602,7 @@ a.pagination_links:hover {
     background-position: center; }
     @media screen and (min-width: 900px) {
       .portfolio_single_work .portfolio_single_img {
-        height: 250px; } }
+        height: 350px; } }
     .portfolio_single_work .portfolio_single_img:hover {
       filter: blur(1.5px) sepia(50%);
       transition: 1.5s;

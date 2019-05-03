@@ -4,6 +4,7 @@ layout                          : editorial
 title 					        : "AVAM Logan Conference"
 season				            : "4"
 category 						: film
+portfolio-grid					: need
 
 [//]: # (SEO Information)
 seo-description: SVNCRWNS worked with American Visionary Art Museum to produce media coverage for its annual Logan Visionary Conference.
