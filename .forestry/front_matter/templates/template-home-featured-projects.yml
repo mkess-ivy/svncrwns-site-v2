@@ -3,24 +3,35 @@ label: TEMPLATE - HOME FEATURED PROJECTS
 hide_body: true
 fields:
 - type: field_group_list
-  name: Featured work
-  label: Featured work
+  name: selected_work
+  label: Selected Work
   fields:
   - type: text
     name: title
     label: title
+    description: Provide the title of this selected work
   - type: file
     name: image
     label: image
+    description: Add the image to show on the Home Page
+    config:
+      maxSize: '3'
   - type: text
     name: description
     label: description
+    description: Add the description of this selected work
   - type: text
     name: category
     label: category
+    description: Provide the category of this work (web, photo, film, etc.)
+    default: web
   - type: text
     name: url
     label: url
+    description: Provide the url of this selected work
   - type: text
     name: work-space
-    label: work-space
+    label: Client or In-House project?
+    description: What type of project is this?
+  config:
+    labelField: title
