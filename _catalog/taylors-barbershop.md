@@ -51,14 +51,14 @@ page_sections:
 - template: editorial-image-ok
   block: editorial-image
   editorial-images:
-  - image-name: "/uploads/taylors-barbershop01.png"
+  - image-name: "/uploads/taylors-barbershop01-2.png"
     image-caption-title: CREATING THE BARBERSHOP CULTURE THROUGH LIFESTYLE PHOTOGRAPHY
     image-caption: Using photography and messaging to create the tone and experience
       of a hair cut experience at this barbershop.  The images are black and white,
       and the brand colors are black, white, and brown.  This combination creates
       a clean, minimal design that allows the lifestyle of the barbershop imagery
       to make you feel connected.
-  - image-name: "/uploads/taylors-barbershop02.png"
+  - image-name: "/uploads/taylors-barbershop02-1.png"
     image-caption-title: SIMPLE LAYOUT , EASY MANAGEMENT
     image-caption: 'This website has about 6 pages that are built using components.  The
       Squarespace platform is very simple and allows our client to run their store
@@ -66,7 +66,7 @@ page_sections:
       able to change the content with my team? Our team was able to create simple
       templates and an instruction manual to operate the website filled with screenshots
       and details.  '
-  - image-name: "/uploads/taylors-barbershop03.png"
+  - image-name: "/uploads/taylors-barbershop03-1.png"
     image-caption-title: INCREASE SALES WITH APPOINTMENT SCHEDULING INTEGRATION
     image-caption: 'This website has about 6 pages that are built using components.  The
       Squarespace platform is very simple and allows our client to run their store
@@ -74,7 +74,7 @@ page_sections:
       able to change the content with my team? Our team was able to create simple
       templates and an instruction manual to operate the website filled with screenshots
       and details.  '
-  - image-name: "/uploads/taylors-barbershop04.png"
+  - image-name: "/uploads/taylors-barbershop04-1.png"
     image-caption-title: E-COMMERCE SHOP FEATURING POMADES & BEARD BUTTERS FOR MENS
       GROOMING
     image-caption: 'This website has about 6 pages that are built using components.  The
