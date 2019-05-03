@@ -1,9 +1,6 @@
 ---
 footer:
-- url: https://www.vimeo.com/svncrwns
-  title: Vimeo
-  identifier: vimeo
-  weight: 4
+
 - url: "/newsletter"
   title: Newsletter
   identifier: newsletter
@@ -16,6 +13,10 @@ footer:
   title: Instagram
   identifier: instagram
   weight: 3
+- url: https://www.vimeo.com/svncrwns
+  title: Vimeo
+  identifier: vimeo
+  weight: 4
 header:
 - url: "/work"
   title: Work
@@ -25,7 +26,7 @@ header:
   title: Journal
   identifier: journal
   weight: 2
-- url: "/connect2"
+- url: "/connect"
   title: Connect
   identifier: connect
   weight: 3

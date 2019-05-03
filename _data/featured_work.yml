@@ -1,7 +1,7 @@
 ---
 - title: Aybe Music
   image: "/dist/images/home-slide-2.jpg"
-  description: photography sessions with Aybe, developing brand identity
+  description: We've been working with singer + songwriter, Aybe on developing her brand identity.  View images from our recent photography sessions
   category: photo
   url: "/work/aybe-music/"
   work-space: client
@@ -14,7 +14,7 @@
 - title: FAM @ Walters Art Museum
   image: "/dist/images/fam_at_walters_cover.jpg"
   description: Produced and directed an editorial shoot for the induction of FAM's
-    2018-2019 Electoral Board @ MSU.
+    2018-2019 Electoral Board @ Morgan State University.
   category: photo
   url: "/work/fam-at-walters-art-museum/"
   work-space: in-house
@@ -42,7 +42,7 @@
   work-space: client
 - title: AVAM Logan Visionary Conference
   image: "/dist/images/catalog_avam_logan.jpg"
-  description: Media coverage for 2018 Logan Visionary Conference
+  description: Completed media coverage for 2018 Logan Visionary Conference hosted by American Visionary Art Museum in Baltimore, MD.
   category: film
   url: "/work/avam-logan-visionary-conference/"
   work-space: client

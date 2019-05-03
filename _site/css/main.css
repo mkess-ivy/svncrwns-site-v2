@@ -705,7 +705,7 @@ a.brand_cta {
   margin: 0 2px; }
   @media screen and (min-width: 750px) {
     .home-slide {
-      height: 90vh !important; } }
+      height: 85vh !important; } }
   .home-slide:hover {
     filter: sepia(50%);
     -webkit-filter: sepia(50%); }
