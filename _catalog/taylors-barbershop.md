@@ -70,12 +70,13 @@ page_sections:
       wants to incorporate into its identity.'
   - image-name: "/uploads/taylors-barbershop03-1.png"
     image-caption-title: INCREASE SALES WITH APPOINTMENT SCHEDULING INTEGRATION
-    image-caption: 'This website has about 6 pages that are built using components.  The
-      Squarespace platform is very simple and allows our client to run their store
-      at a small-scale, confidently.   One of our client’s concerns was: will I be
-      able to change the content with my team? Our team was able to create simple
-      templates and an instruction manual to operate the website filled with screenshots
-      and details.  '
+    image-caption: Adding appointment scheduling to this barbershop's platform has
+      allowed them to increase their bookings online.  By having access to the Barbershop's
+      appointment calendar & image gallery, a potential client can have a user experience
+      that includes scheduling their grooming starting from the home page.  If you're
+      new to the area, check out the home page and find out what past clients are
+      saying.  The convenience of appointment notifications for your hair cut on Friday's
+      @ 3pm are now seamless @ Taylor's Barbershop.
   - image-name: "/uploads/taylors-barbershop04-1.png"
     image-caption-title: E-COMMERCE SHOP FEATURING POMADES & BEARD BUTTERS FOR MENS
       GROOMING
