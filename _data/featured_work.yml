@@ -1,17 +1,23 @@
 ---
 - title: Aybe Music
   image: "/dist/images/home-slide-2.jpg"
-  description: photography sessions with Aybe, developing her brand identity
+  description: photography sessions with Aybe, developing brand identity
   category: photo
   url: "/work/aybe-music/"
   work-space: client
 - title: Taylor's Barbershop
-  image: "/dist/images/taylorbarbershop_cover"
-  description: Developed a web platform for mens & womens grooming shop
-  category:
-  - website
+  image: "/dist/images/taylorbarbershop_cover.jpg"
+  description: Developed a web platform for mens & womens grooming shop. Includes appointment scheduling and a catalog of products
+  category: website
   url: "/work/taylors-barbershop"
   work-space: client
+- title: FAM @ Walters Art Museum
+  image: "/dist/images/fam_at_walters_cover.jpg"
+  description: Produced and directed an editorial shoot for the induction of FAM's
+    2018-2019 Electoral Board @ MSU.
+  category: photo
+  url: "/work/fam-at-walters-art-museum/"
+  work-space: in-house
 - title: Our Brother's Keeper
   image: "/dist/images/obk_cover.jpg"
   description: a short film about the intimate space of barbershops told through the
@@ -26,13 +32,7 @@
   category: event
   url: "/work/believing-takes-time/"
   work-space: in-house
-- title: FAM @ Walters Art Museum
-  image: "/dist/images/home-slide-1.png"
-  description: Produced and directed this editorial shoot for the induction of FAM's
-    2018-2019 Electoral Board @ MSU.
-  category: photo
-  url: "/work/fam-at-walters-art-museum/"
-  work-space: in-house
+
 - title: Greenmount West CC
   image: "/dist/images/gwcc-cover.jpg"
   description: Worked with institution to develop programming, branding and digital
