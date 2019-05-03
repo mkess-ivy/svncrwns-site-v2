@@ -1,48 +1,54 @@
-- title: "AVAM Logan Visionary Conference"
-  image: /dist/images/catalog_avam_logan.jpg
-  description: "Media coverage for 2018 Logan Visionary Conference"
-  category: "film"
-  url: "/work/avam-logan-visionary-conference/"
-  work-space: "client"
-- title: "Greenmount West CC"
-  image: "/dist/images/gwcc-cover.jpg"
-  description: "Worked with institution to develop programming, branding and digital platform."
-  category: "website"
-  url: "/work/gwcc/"
-  work-space: "client"
-- title: "FAM @ Walters Art Museum"
-  image: "/dist/images/home-slide-1.png"
-  description: "Produced and directed this editorial shoot for the induction of FAM's 2018-2019 Electoral Board @ MSU."
-  category: "photo"
-  url: "/work/fam-at-walters-art-museum/"
-  work-space: "in-house"
-- title: "Believing Takes Time"
-  image: "/dist/images/btt-project-1.jpg"
-  description: "A youth photography exhibit created to share artrepreneurship skills with youth"
-  category: "event"
-  url: "/work/believing-takes-time/"
-  work-space: "in-house"
-- title: "Noisy Tenants"
-  image: "/dist/images/noisytenants-cover.jpg"
-  description: "Worked with agency to develop brand identity and digital platform"
-  category: 'website'
-  url: /work/noisy-tenants
-  work-space: "client"
-- title: "Engagement: Love on Display"
-  image: "/dist/images/home-slide-4.png"
-  description: "We had an engagement photo shoot with our friends as they prepared for their summer nuptials."
-  category: "photo"
-  url: "/journal/javoni-and-stevie-engagement/"
-  work-space: "in-house"
-- title: "Our Brother's Keeper"
-  image: "/dist/images/obk_cover.jpg"
-  description: "a short film about the intimate space of barbershops told through the lens of women."
-  category: "film"
-  url: "/work/our-brothers-keeper/"
-  work-space: "in-house"
-- title: "Aybe Music"
+---
+- title: Aybe Music
   image: "/dist/images/home-slide-2.jpg"
-  description: "photography sessions with Aybe, developing her brand identity"
-  category: "photo"
+  description: photography sessions with Aybe, developing her brand identity
+  category: photo
   url: "/work/aybe-music/"
-  work-space: "client"
+  work-space: client
+- title: Our Brother's Keeper
+  image: "/dist/images/obk_cover.jpg"
+  description: a short film about the intimate space of barbershops told through the
+    lens of women.
+  category: film
+  url: "/work/our-brothers-keeper/"
+  work-space: in-house
+- title: FAM @ Walters Art Museum
+  image: "/dist/images/home-slide-1.png"
+  description: Produced and directed this editorial shoot for the induction of FAM's
+    2018-2019 Electoral Board @ MSU.
+  category: photo
+  url: "/work/fam-at-walters-art-museum/"
+  work-space: in-house
+- title: Greenmount West CC
+  image: "/dist/images/gwcc-cover.jpg"
+  description: Worked with institution to develop programming, branding and digital
+    platform.
+  category: website
+  url: "/work/gwcc/"
+  work-space: client
+- title: AVAM Logan Visionary Conference
+  image: "/dist/images/catalog_avam_logan.jpg"
+  description: Media coverage for 2018 Logan Visionary Conference
+  category: film
+  url: "/work/avam-logan-visionary-conference/"
+  work-space: client
+- title: Believing Takes Time
+  image: "/dist/images/btt-project-1.jpg"
+  description: A youth photography exhibit created to share artrepreneurship skills
+    with youth
+  category: event
+  url: "/work/believing-takes-time/"
+  work-space: in-house
+- title: Noisy Tenants
+  image: "/dist/images/noisytenants-cover.jpg"
+  description: Worked with agency to develop brand identity and digital platform
+  category: website
+  url: "/work/noisy-tenants"
+  work-space: client
+- title: 'Engagement: Love on Display'
+  image: "/dist/images/home-slide-4.png"
+  description: We had an engagement photo shoot with our friends as they prepared
+    for their summer nuptials.
+  category: photo
+  url: "/journal/javoni-and-stevie-engagement/"
+  work-space: in-house

@@ -11,7 +11,7 @@ sections:
   label: Site Settings
 - type: document
   path: _data/featured_work.yml
-  label: Featured Projects
+  label: Selected Work
 - type: directory
   path: _pages
   label: Pages
