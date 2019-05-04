@@ -2,10 +2,13 @@
 <section class="editorial_images">
 	<div class="grid">
 		{% for item in section.editorial-images %}
-			<img src="{{ item.image-name }}" />
+			<img src="{{ item.image-name }}" class="block-editorial-img"/>
 			<div class="caption_wrapper">
 				<div class="editorial-caption-title">{{ item.image-caption-title }}</div>
 				<div class="editorial_caption">{{item.image-caption}}</div>
+				{% for thing in item.lists %}
+				<div class="editorial_caption">{{ thing.list }}
+				{% endfor %}
 			</div>
 		{% endfor %}
 	</div>

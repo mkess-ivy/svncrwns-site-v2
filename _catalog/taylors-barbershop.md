@@ -1,6 +1,5 @@
 ---
-'["//"]': 
-layout: blocks-layout
+layout: work-blocks-layout
 title: Taylor's Barbershop
 season: 4
 category: website

@@ -17,6 +17,10 @@
   @include desktop-blah {
     margin: 10px 100px 0;
   }
+  @include tv {
+    max-width: 1350px;
+    margin: 10px auto;
+  }
   &.fixed_width_grid {
     @include desktop {
         margin: 10px 50px 0;
@@ -44,6 +48,11 @@
   }
   @include desktop-blah {
       padding: 0px 100px 0px;
+  }
+  @include tv {
+    max-width: 1350px;
+    margin: 0 auto;
+    padding: 0;
   }
 }
 .grid_slide {

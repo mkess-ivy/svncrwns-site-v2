@@ -1,0 +1,45 @@
+<div class="wn-bg">
+	<div class="grid">
+		<div class="frow justify-between">
+			<div>
+				<div class="wn-text">&#8592;</div><div class="wn-text"><a href="/work">Back<br/>to Work</a></div>
+			</div>
+			<div class="work-nav-next">
+				{% if page.collection %}
+				    {% assign links = site[page.collection] | where: "portfolio-grid", "need" %}
+				{% endif %}
+
+				{% for link in links %}
+				    {% if link.title == page.title %}
+				        {% unless forloop.first %}
+				            {% assign prev = tmpprev %}
+				        {% endunless %}
+				        {% unless forloop.last %}
+				            {% assign next = links[forloop.index] %}
+				        {% endunless %}
+				    {% endif %}
+				    {% assign tmpprev = link %}
+				{% endfor %}
+
+				<script>
+				document.body.onkeyup = function(e){
+				if (e.keyCode == '37') { window.location = '{{prevurl}}'; }
+				if (e.keyCode == '39') { window.location = '{{nexturl}}'; }
+				};
+				</script>
+				    
+		        <div class="post_pagination_content">
+		        {% if next %}
+		            <div class="wn-text-small">
+		                Next Project &#8594;
+		            </div>
+		            <a class="wn-text" href="{{ next.url }}">
+		            	<div >{{ next.title }}</div>
+		            	
+		        	</a>
+		        {% endif %}
+		        </div>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,16 +1,16 @@
 ---
-layout                          : blocks-layout
-title 					        : "Aybe Music"
-season				            : "4"
-category						: photo
-seo-description 				: SVNCRWNS worked with Aybe to complete photography shoots for the artist's brand.  Check out the photography used a single cover for Aybe's latest single, Distance.
-seo-keywords 					: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects
-summary                         : "branded photography content created for singer and songwriter, AYBE"
-phase1-hero                     : aybe-slide-1.jpg
-portfolio-cover					: /dist/images/home-slide-2.jpg
-work-tags 						: "photography, artist development, brand management, brand strategy"
-work-space 						: "client"
-portfolio-grid					: need
+layout: work-blocks-layout
+title: "Aybe Music"
+season: "4"
+category: photo
+seo-description: SVNCRWNS worked with Aybe to complete photography shoots for the artist's brand.  Check out the photography used a single cover for Aybe's latest single, Distance.
+seo-keywords: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects
+summary: "branded photography content created for singer and songwriter, AYBE"
+phase1-hero: aybe-slide-1.jpg
+portfolio-cover: /dist/images/home-slide-2.jpg
+work-tags: "photography, artist development, brand management, brand strategy"
+work-space: "client"
+portfolio-grid: need
 
 page_sections:
 - template: overlay-menu-info

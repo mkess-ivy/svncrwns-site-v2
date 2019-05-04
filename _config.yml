@@ -18,6 +18,9 @@ collections:
   catalog:
     output: true
     permalink: /work/:title/
+  backstage:
+    output: true
+    permalink: /backstage/:title/
 
 # Site Variables
 logo              : "/dist/images/svn-logo.svg"

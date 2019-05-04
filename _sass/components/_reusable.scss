@@ -456,3 +456,33 @@ a.general_link {
     }
   }
 }
+
+.block-editorial-img {
+  padding-bottom: 50px;
+}
+
+// Back to Work Bar
+.wn-bg {
+  background-color: $soft-red;
+  margin-bottom: 40px;
+  padding: 50px 0;
+  text-transform: uppercase;
+
+  .wn-text {
+    font-family: $font-brand4;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 1.2;
+    display:inline-block; vertical-align: top; padding-right: 7px;
+  }
+  .wn-text-small {
+    font-family: $font-brand4;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  .work-nav-next {
+    @include tablet {
+      max-width: 350px;
+    }
+  }
+}

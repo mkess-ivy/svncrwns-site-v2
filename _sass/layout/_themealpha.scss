@@ -5,11 +5,11 @@
   padding: 75px 20px 100px;
 
   @include tablet {
-    padding: 50px 50px 50px;
+    padding: 50px 0 50px;
   }
 
   @include laptop {
-    padding: 75px 90px 50px;  
+    padding: 75px 0 50px;  
   }
 }
 .themealpha-phase1-header {
@@ -117,10 +117,11 @@
     padding: 25px 20px 0;
   }
   @include tablet {
-    padding: 25px 50px 0;
+    padding: 25px 0 0;
+    margin-bottom: -35px;
   }
   @include laptop {
-    padding: 25px 90px 0;
+    padding: 25px 0 0;
   }
 }
 .home-lastrow {
