@@ -1,0 +1,10 @@
+{% include grid/head_header_color.html %}
+<div class="grid grid_lp">
+  {% include components/fixed-feature-project.html %}
+  <div id="fullpage">
+    {% for section in page.page_sections %}
+      {% include components/block-{{ section.block }}.html %}
+    {% endfor %}
+  </div>
+</div>
+{% include grid/end_footer.html %}

@@ -1,5 +1,5 @@
 ---
-layout: phase1-landingpage
+layout: landing-page
 title: Brand Starter Kit
 permalink: /brand-starter-kit/
 bg_color: f7f7f7
@@ -9,31 +9,6 @@ seo-description: Introducing the brand starter kit, SVNCRWNS presents a product 
 seo-keywords: production company, svncrwns, launch my brand, e-commerce, marketing, lookbooks, visuals, hire my team, brand starter kit
 
 bold-number-color: a16414
-
-fixed-project-image1: /dist/images/wayne_cover.jpg
-fixed-project-title1: Wayne Wilson
-fixed-project-url1: /work/wayne-wilson
-
-fixed-project-image2: /dist/images/noisytenants-cover.jpg
-fixed-project-title2: Noisy Tenants
-fixed-project-url2: /work/noisy-tenants
-
-fixed-project-image3: /dist/images/btt-project-details.png
-fixed-project-title3: Believing takes Time
-fixed-project-url3: /work/believing-takes-time
-
-
-
-
-
-
-
-
-
-last_call_summary: "The Brand Starter Kit consists of 3 distinct opportunities to win! (1) A one-minute visual that tells the story of your brand, works as an interactive piece of content and can be the driving force for customer conversions; (2) an online shop to feature 10 or more products; and (3) a two-hour photoshoot to promote your brand, with high resolution editorial images"
-last_call_price: 2500
-last_call_link: /contact/
-last_call_link_title: Let's get started
 
 page_sections:
 - template: lp-masthead-section

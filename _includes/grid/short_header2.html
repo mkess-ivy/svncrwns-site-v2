@@ -1,15 +1,15 @@
-
-<div class="grid_project fixednavbar">
 <header class="phase1-site-header {% if page.layout == "phase1-project" or page.layout == "phase1-slide" %}project-layout{% endif %}">
-    <div class="frow justify-between">
-        <div class="left_header">
-            {% for item in site.data.site-settings %}
-            <a href="/"><img src="{{ item.global-logo }}" width="25" style="margin: 5px 0;" /></a>
-            {% endfor %}
-        </div>
-        {% include grid/collapsed_menu.html %}
-        {% include phase1_overlay_menu2.html %}
-    </div>
+	<div class="grid_project">
+	    <div class="frow justify-between">
+	        <div class="left_header">
+	            {% for item in site.data.site-settings %}
+	            <a href="/"><img src="{{ item.global-logo }}" width="{{ item.width }}" style="margin: 5px 0;" /></a>
+	            {% endfor %}
+	        </div>
+	        {% include grid/collapsed_menu.html %}
+	        {% include phase1_overlay_menu2.html %}
+	    </div>
+	</div>
 </header>
-</div>
+
 <script type="text/javascript" src="http://downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us11.list-manage.com","uuid":"ab04d0cabec9aa1f49ca3e65e","lid":"2fe748f030","uniqueMethods":true}) })</script>
