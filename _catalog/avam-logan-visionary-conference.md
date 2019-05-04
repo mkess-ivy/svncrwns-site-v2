@@ -33,24 +33,22 @@ solution 						: "We're learning to pace ourselves, honestly. Although we presen
 <br/><br/>
 {% include components/editorial-image.html image-caption-title="Recap for American Visionary Art Museum's 2018 Logan Visionary Conference" image-caption="See videos below for the keynote speakers:<br/>1. Father James Kurzynski<br/>2. Nancy du Tertre<br/>3. Michelle Thaller<br/>4. Alex Chionetti<br/>5. Q&A with Panels" %}
 
-<div class="frow justify-start">
-	<div class="avam-videos" style="position: relative; padding-bottom: 56.25%;">
-	<iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"  src="https://www.youtube.com/embed/5B4A0s2SmQY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-	<br/><br/>
-	<div class="avam-videos" style="position: relative; padding-bottom: 56.25%;">
-		<iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/O4JaylCYS3I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="editorial-video">
+	<div class="frow justify-start">
+		<div class="avam-videos" style="position: relative; padding-bottom: 56.25%;">
+		<iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"  src="https://www.youtube.com/embed/5B4A0s2SmQY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+		<br/><br/>
+		<div class="avam-videos" style="position: relative; padding-bottom: 56.25%;">
+			<iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/O4JaylCYS3I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+		<br/><br/>
+		<div class="avam-videos" style="position: relative; padding-bottom: 56.25%;">
+		<iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/_ORQmCIGJoY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+		<br/><br/>
+		<div class="avam-videos" style="position: relative; padding-bottom: 56.25%;">
+		<iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/gwAg78MmeI0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+		<br/><br/>
+		<div class="avam-videos" style="position: relative; padding-bottom: 56.25%;">
+		<iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/TbZVlzNkBsE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 	</div>
-	<br/><br/>
-	<div class="avam-videos" style="position: relative; padding-bottom: 56.25%;">
-	<iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/_ORQmCIGJoY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-	<br/><br/>
-	<div class="avam-videos" style="position: relative; padding-bottom: 56.25%;">
-	<iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/gwAg78MmeI0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-	<br/><br/>
-	<div class="avam-videos" style="position: relative; padding-bottom: 56.25%;">
-	<iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/TbZVlzNkBsE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 </div>
-
-
-
-

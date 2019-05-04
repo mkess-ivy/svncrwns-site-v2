@@ -325,8 +325,12 @@ a.general_link {
     margin-right: 1.3vw;
     margin-bottom: 2vh;  
   }
-  
 }
+.editorial-video {
+  margin-bottom: 75px;
+}
+
+
 .fixed-project-group {
   display: none !important;
   @include desktop-blah {
