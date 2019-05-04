@@ -16,7 +16,7 @@ page_sections:
   block: featured-journal
 - template: block-journal-entries
   block: journal-entries
-- template: block-read-more
+- template: read-more
   block: read-more
   image: "/uploads/read-more-journal.jpg"
   prev-link: "/work/"

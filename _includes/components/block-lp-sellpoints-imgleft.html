@@ -1,0 +1,30 @@
+{% for sellpoint in section.sellpoints limit:1 %}
+    <div class="lp_sell_point js_scroll_reveal">
+        <div class="frow justify-between">
+            <div class="lp_sp_img">
+                <div class="frow centered-column">
+                    <img src="{{ sellpoint.image }}" />
+                    <div class="lp_projectlink">
+                        See this brand's {{ sellpoint.media }} &mdash; <a href="{{ sellpoint.link }}">{{ sellpoint.media_title }}</a>
+                    </div>
+                </div>
+            </div>
+            <div class="lp_sp_content">
+                <div class="frow centered-column">
+                    <div class="lp_masthead_subtitle">
+                        {{ sellpoint.masthead_subtitle }}
+                    </div>
+                    <div class="lp_sp_title">
+                        {{ sellpoint.big_number }}<span>{{ sellpoint.small_text }}</span>
+                        <div class="lp_sp_number" style="color: #{{ page.bold-number-color }};">
+                            {{ sellpoint.number}}
+                        </div>
+                    </div>
+                    <div class="lp_sp_summary">
+                        {{ sellpoint.summary }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endfor %}

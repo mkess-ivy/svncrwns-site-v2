@@ -686,10 +686,10 @@ a.brand_cta {
       text-transform: uppercase;
       letter-spacing: 1px;
       font-weight: 700;
-      font-size: 16px;
-      background: #99703E; }
+      font-size: 16px; }
       .lp_lastcall_cta a div:hover {
-        background: #F7F7F7; }
+        background-color: #401515;
+        color: #F7F7F7; }
 
 .myslide2 {
   width: 100%;
@@ -702,7 +702,7 @@ a.brand_cta {
   background-repeat: no-repeat;
   position: relative;
   height: 75vh !important;
-  margin: 0 2px; }
+  margin: 0 4px; }
   @media screen and (min-width: 750px) {
     .home-slide {
       height: 85vh !important; } }
@@ -3469,7 +3469,6 @@ a.pagination_links:hover {
   letter-spacing: 1px;
   font-weight: 700;
   font-size: 80px;
-  color: #99703E;
   letter-spacing: 2px;
   position: absolute;
   top: 40px;

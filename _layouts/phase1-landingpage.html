@@ -1,57 +1,14 @@
 {% include grid/head_header_color.html %}
   <div class="grid grid_lp">
-    <div class="fixed-project-group" id="followwidget">
-      <div class="fixed-project-title">featured projects</div>
-      {% include components/fixed-feature-project.html %}
-      
-    </div>
+    
+    {% include components/fixed-feature-project.html %}
+    
     <div id="fullpage">
-      {% include components/lp_masthead_section.html %}
-
-      {% for sellpoint in page.sellpoints limit:1 %}
-      <div class="lp_sell_point js_scroll_reveal">
-        <div class="frow justify-between">
-          {% include components/lp_sellpoints.html %}
-        </div>
-      </div>
+      {% for section in page.page_sections %}
+        {% include components/block-{{ section.block }}.html %}
       {% endfor %}
-
-      {% for infolist in page.info_lists limit:1 %}
-        {% include components/lp_info_box.html %}
-      {% endfor %}
-
-      {% for sellpoint in page.sellpoints limit:1 offset:1 %}
-      <div class="lp_sell_point js_scroll_reveal">
-        <div class="frow justify-between direction-reverse">
-          {% include components/lp_sellpoints.html %}
-        </div>
-      </div>
-      {% endfor %}
-
-      {% for infolist in page.info_lists limit:1 offset:1 %}
-        {% include components/lp_info_box.html %}
-      {% endfor %}
-
-      {% for sellpoint in page.sellpoints limit:1 offset:2 %}
-      <div class="lp_sell_point">
-        <div class="frow justify-between">
-          {% include components/lp_sellpoints.html %}
-        </div>
-      </div>
-      {% endfor %}
-
-      {% include components/lp_last_call.html %}
-
     </div>
-  </div>
-  <div class="grid">
-    {% include components/read-more-bar.html 
-      image="dist/images/read-more-bsk.jpg"
-      prev-link="/journal/"
-      prev-title="read journal"
-      next-link="/contact/"
-      next-title="work with us"
-      position="77%" %}
+    
   </div>
 
 {% include grid/end_footer.html %}

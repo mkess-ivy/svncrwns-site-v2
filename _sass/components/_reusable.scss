@@ -110,10 +110,11 @@ a.brand_cta {
             display: inline;
             padding: 14px 25px;
             @include heavy_font(16px);
-            background: $color-brand1;
+            
 
             &:hover {
-                background: $off-white;
+                background-color: $burgundy;
+                color: $off-white;
 
             }
         }
@@ -136,7 +137,7 @@ a.brand_cta {
   background-repeat: no-repeat;
   position: relative;
   height: 75vh !important;
-  margin: 0 2px;
+  margin: 0 4px;
 
   @include tablet {
       height: 85vh !important;

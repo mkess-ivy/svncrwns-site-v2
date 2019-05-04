@@ -1,3 +1,4 @@
+{% for infolist in section.info_lists limit:1 %}
 <div class="lp_info_box js_scroll_reveal">
     <div class="lp_ib_img">
         <img src="{{ infolist.image }}" />
@@ -18,3 +19,4 @@
         See this brand's {{ infolist.media }} &mdash; <a href="{{ infolist.link }}">{{ infolist.media_title }}</a>
     </div>
 </div>
+{% endfor %}

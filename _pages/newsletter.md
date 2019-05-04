@@ -25,7 +25,7 @@ seo-keywords: production company, svncrwns, newsletter, insights, portfolio, res
     	#mc_embed_signup{ background: #f7f7f7 !important; clear:left; font:14px Helvetica,Arial,sans-serif; }
         #mc_embed_signup form {
             background: #f7f7f7 !important;
-            padding: 10px 10px 10px 3%;
+            padding: 0 10px 10px 3%;
             margin: 0 auto;
             text-align: center;
             width: 375px;

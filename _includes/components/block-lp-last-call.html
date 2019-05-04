@@ -3,19 +3,19 @@
     <div class="lp_masthead_subtitle">
         introducing
     </div>
-    <div class="lp_lastcall_title">
+    <div class="lp_lastcall_title" style="color: #{{ page.bold-number-color }};">
         The {{ page.title }}
     </div>
     <div class="lp_lastcall_summary">
-        {{ page.last_call_summary }}
+        {{ section.last_call_summary }}
     </div>
     <div class="lp_lastcall_price">
-        starting at ${{ page.last_call_price }}
+        starting at ${{ section.last_call_price }}
     </div>
     <div class="lp_lastcall_cta">
-        <a href="{{ page.last_call_link }}" class="">
-            <div>
-                {{ page.last_call_link_title }}
+        <a href="{{ section.last_call_link }}" class="">
+            <div style="background-color: #{{ page.bold-number-color }};">
+                {{ section.last_call_link_title }}
             </div>
         </a>
 
