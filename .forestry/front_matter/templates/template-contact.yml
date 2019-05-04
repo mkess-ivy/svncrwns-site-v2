@@ -103,5 +103,4 @@ fields:
     max: 
   description: Add sections to the Contact page
 pages:
-- _pages/connect2.md
 - _pages/connect.md
