@@ -1001,6 +1001,32 @@ a.general_link {
     .wn-bg .work-nav-next {
       max-width: 350px; } }
 
+.page-header-02 {
+  margin: 4em 0;
+  text-align: center; }
+  @media screen and (min-width: 750px) {
+    .page-header-02 {
+      margin: 10em auto 6em;
+      max-width: 750px;
+      width: 75%; } }
+  .page-header-02 .header-02-title {
+    padding-bottom: 25px;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 30px; }
+    @media screen and (min-width: 750px) {
+      .page-header-02 .header-02-title {
+        padding-bottom: 50px;
+        font-size: 36px; } }
+  .page-header-02 .header-02-text {
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 400; }
+    @media screen and (min-width: 750px) {
+      .page-header-02 .header-02-text {
+        font-size: 22px; } }
+
 .font_size_lg {
   font-size: 26px;
   text-align: right;

@@ -1,19 +1,9 @@
 ---
 page_sections:
-- template: page-header
-  block: page-header
-  page-title: Our Work
-  panels:
-  - panel-description: Our strategic aim is to work with our clients to create better
-      approaches to connecting with their consumer market. We manage + create e-commerce
-      + digital platforms; we create content by photo + film; and we produce branded
-      activations.  We work with organizations to identify opportunities of growth
-      + efficiency in their operations.
-    panel-title: Client Work
-  - panel-title: In-House Projects
-    panel-description: Our in-house work looks like short films, feature films, fashion
-      lookbooks and visuals, working with music artists, developing events + partnerships,
-      creating original content and platforms to share new perspectives.
+- template: page-header-02
+  block: page-header-02
+  page-intro-title: Our Work
+  page-intro-text: We’re a modern partner to fashion, media & wellness brands.  We use our skills to solve problems for organizations and personal brands by way of producing content (photo + film), websites and events.  We’re a strategy & production company that creates cinematic stories for brands + products and we offer consulting to identify opportunities of growth + efficiency in business operations. View our work&nbsp;below.
 - template: block-portfolio-grid
   block: portfolio-grid
 - template: block-read-more

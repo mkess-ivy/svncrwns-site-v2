@@ -486,3 +486,37 @@ a.general_link {
     }
   }
 }
+
+// Page Header 02 Component
+.page-header-02 {
+  margin: 4em 0; 
+  text-align: center;
+  @include tablet {
+    margin: 10em auto 6em;
+    max-width: 750px;
+    width: 75%;  
+  }
+  
+
+  .header-02-title {
+    padding-bottom: 25px;
+    text-transform: uppercase;
+    font-family: $font-brand4;
+    font-weight: 500;
+    font-size: 30px;
+
+    @include tablet {
+      padding-bottom: 50px;
+      font-size: 36px;
+    }
+  }
+  .header-02-text {
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 400;
+
+    @include tablet {
+      font-size: 22px;  
+    }
+  }
+}
