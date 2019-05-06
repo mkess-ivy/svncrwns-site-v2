@@ -5,13 +5,10 @@ permalink: "/journal/"
 seo-description: We are excited about being in business, making art, and being able to join the two to create a platform and resource to assist our clients with their goals.  We share insights, resources, and our perspectives on industry, product, operations and finding opportunity. Subscribe to our newsletter.
 seo-keywords: production company, svncrwns, art making money, resources, insights, perspectives, business operations, finding opportunity, sharing insights
 page_sections:
-- template: page-header
-  block: page-header
-  page-title: Journal
-  panels:
-  - panel-title: Featured
-    panel-description: Studio happenings, insights + perspectives on branding. Catch
-      behind-the-scenes footage from studio photoshoots + more.
+- template: page-header-02
+  block: page-header-02
+  page-intro-title: Our Journal
+  page-intro-text: We share information, experiences and new things we’re experimenting with or learning in our studio.  We talk about branding, business operations, entrepreneurial lessons and perspectives.   Catch our behind-the-scenes footage and learn about our views on community, business and&nbsp;culture.
 - template: featured-journal
   block: featured-journal
 - template: block-journal-entries
