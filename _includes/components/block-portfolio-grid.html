@@ -1,15 +1,9 @@
-<section class="main_season">
-  <!-- <div class="season_title">
-    2018 season
-    <div class="season_roman">iv</div>
-  </div> -->
-</section>
 <div class="portfolio_grid_work">
   <div class="frow justify-between">
     {% assign project_season = site.catalog | where: "portfolio-grid", "need" %}
     {% for section in project_season %}
     <div class="portfolio_single_work">
-      <a href="{{ section.url }}"><div class="portfolio_single_img" style="background-image: url('{{section.portfolio-cover}}');"></div></a>
+      <a href="{{ section.url }}"><div class="portfolio_single_img js_scroll_reveal" style="background-image: url('{{section.portfolio-cover}}');"></div></a>
       <div class="portfolio_single_title">
       	<a href="{{ section.url }}">{{ section.title }}</a>
         <div class="frow justify-start">
