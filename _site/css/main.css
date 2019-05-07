@@ -3631,14 +3631,9 @@ a.pagination_links:hover {
 .portfolio_single_work {
   width: 100%;
   padding-bottom: 30px;
-  animation-duration: 1s;
-  -webkit-animation-duration: 1s;
-  animation-delay: 1.5s;
-  -webkit-animation-delay: 1.5s;
-  animation-name: fadeInTop;
-  -webkit-animation-name: fadeInTop;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both; }
+  padding: 0 10px 50px 0;
+  animation: fadeInTop 1s 0.5s linear both;
+  -webkit-animation: fadeInTop 1s 0.5s linear both; }
   @media screen and (min-width: 500px) {
     .portfolio_single_work {
       width: 48%;
@@ -3670,33 +3665,64 @@ a.pagination_links:hover {
     text-transform: uppercase;
     letter-spacing: 0.6px;
     font-weight: 500;
-    font-size: 16px; }
+    font-size: 16px;
+    text-align: center; }
 
-@-webkit-keyframes fadeInTop {
-  0% {
-    opacity: 0;
-    -webkit-transform: translate3d(0, 58%, 0);
-    transform: translate3d(0, 58%, 0); }
-  100% {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none; } }
-@keyframes fadeInTop {
-  0% {
-    opacity: 0;
-    -webkit-transform: translate3d(0, 58%, 0);
-    transform: translate3d(0, 58%, 0); }
-  100% {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none; } }
+.filter-container {
+  overflow: hidden; }
+
+.filterDiv {
+  display: none; }
+
+.show {
+  display: block; }
+
+#myBtnContainer {
+  margin: 0 auto 7em;
+  text-align: center; }
+
+.filterProjects {
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  animation: fadeInTop 1s 0.7s linear both;
+  -webkit-animation: fadeInTop 1s 0.7s linear both; }
+
+.filter-title {
+  margin-bottom: 1.5em;
+  letter-spacing: 2px; }
+
+.btn {
+  border: none;
+  outline: none;
+  padding: 6px 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 2px solid;
+  cursor: pointer;
+  margin: 0 8px;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1.3px; }
+
+.btn:hover {
+  background-color: #d3b7ac; }
+
+.btn.active {
+  background-color: #070707;
+  color: white; }
+
 .page-header-02 {
   margin: 4em 0;
   text-align: center;
   animation-duration: 0.7s;
   -webkit-animation-duration: 0.7s;
-  animation-delay: 0.5s;
-  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.3s;
+  -webkit-animation-delay: 0.3s;
   animation-name: fadeAppear;
   -webkit-animation-name: fadeAppear;
   -webkit-animation-fill-mode: both;
@@ -3724,6 +3750,27 @@ a.pagination_links:hover {
       .page-header-02 .header-02-text {
         font-size: 22px; } }
 
+.portfolio_grid_work {
+  margin-bottom: 12em; }
+
+@-webkit-keyframes fadeInTop {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 12%, 0);
+    transform: translate3d(0, 12%, 0); }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none; } }
+@keyframes fadeInTop {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 12%, 0);
+    transform: translate3d(0, 12%, 0); }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none; } }
 @-webkit-keyframes fadeAppear {
   0% {
     opacity: 0;
@@ -3742,9 +3789,6 @@ a.pagination_links:hover {
     opacity: 1;
     -webkit-transform: none;
     transform: none; } }
-.portfolio_grid_work {
-  margin-bottom: 12em; }
-
 /**
  * Syntax highlighting styles
  */

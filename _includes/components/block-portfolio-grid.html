@@ -1,12 +1,24 @@
+<!-- Control buttons -->
+<section class="filterProjects">
+    <div class="filter-title">Filter by Project Category</div>
+    <div id="myBtnContainer">
+      <button class="btn active" onclick="filterSelection('all')"> All </button>
+      <button class="btn" onclick="filterSelection('photo')"> Photography </button>
+      <button class="btn" onclick="filterSelection('film')"> Films </button>
+      <button class="btn" onclick="filterSelection('website')"> Websites </button>
+      <button class="btn" onclick="filterSelection('special-project')"> Special Projects </button>
+    </div>
+</section>
+<div class="filter-container">
 <div class="portfolio_grid_work">
-  <div class="frow justify-between">
+  <div class="frow justify-start">
     {% assign project_season = site.catalog | where: "portfolio-grid", "need" %}
     {% for section in project_season %}
-    <div class="portfolio_single_work">
-      <a href="{{ section.url }}"><div class="portfolio_single_img js_scroll_reveal" style="background-image: url('{{section.portfolio-cover}}');"></div></a>
+    <div class="portfolio_single_work filterDiv {{ section.category }}">
+      <a href="{{ section.url }}"><div class="portfolio_single_img" style="background-image: url('{{section.portfolio-cover}}');"></div></a>
       <div class="portfolio_single_title">
       	<a href="{{ section.url }}">{{ section.title }}</a>
-        <div class="frow justify-start">
+        <!-- <div class="frow justify-start">
         	{% case section.category %}
         		{% when 'photo' %}
         		<div class="work-space-tag photo">{{ section.category }}</div>
@@ -16,7 +28,7 @@
         		<div class="work-space-tag website">{{ section.category }}</div>
         		{% when 'event' %}
         		<div class="work-space-tag event">{{ section.category }}</div>
-        		{% when 'special project' %}
+        		{% when 'special-project' %}
         		<div class="work-space-tag special-projects">{{ section.category }}</div>
         	{% endcase %}
         	{% if section.work-space == "in-house" %}
@@ -25,9 +37,10 @@
         	{% if section.work-space == "client" %}
         	<div class="work-space-tag client">{{ section.work-space }}</div>
         	{% endif %}
-        </div>
+        </div> -->
       </div>
     </div>
     {% endfor %}
   </div>
+</div>
 </div>

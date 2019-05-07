@@ -3,7 +3,7 @@
 layout                          : phase1-slide
 title 					        : "Kendrick Brown"
 season				            : "1"
-category						: special project
+category: special-project
 portfolio-grid					: need
 
 [//]: # (SEO Information)
