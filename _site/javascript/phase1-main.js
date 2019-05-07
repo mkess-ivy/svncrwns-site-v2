@@ -77,6 +77,8 @@ $(document).ready(function(){
         centerPadding: '60px',
         arrows: false,
         slidesToShow: 2,
+        autoplaySpeed: 1,
+        speed: 8000,
         responsive: [
             {
                 breakpoint: 768,
