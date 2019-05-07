@@ -1,0 +1,15 @@
+<section class="featured_post_002">
+	<div class="frow justify-between">
+		{% assign featured_journal = site.posts | where: "featured", "true" %}
+		{% for post in featured_journal limit: 2%}
+		<div class="featured_post_single">
+			<div class="featured_post_image" style="background-image: url('{{ post.featured_image  }}');"></div>
+			<a class="general_post_title">{{ post.title }}</a>
+		</div>
+		{% endfor %}
+	</div>
+</section>
+<section class="journal_omega_section">
+	<div class="omega_title">#communityiscurren$y</div>
+	Business, Culture & Community
+</section>

@@ -275,7 +275,7 @@
   }
 }
 .themealpha_all_posts_wrapper {
-  margin: 0 10px;
+  // margin: 0 10px;
   
   @include tablet {
     width: 100%;
@@ -285,9 +285,9 @@
 .themealpha_general_post_title {
   padding-top: 15px !important;
   @extend .general_post_title;
-  border-top: 1px solid;
-  font-size: 14px;
-  text-align: left !important;
+  // border-top: 1px solid;
+  // font-size: 14px;
+  // text-align: left !important;
   line-height: 1.2;
 }
 .themealpha_general_post_image {

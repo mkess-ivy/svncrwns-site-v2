@@ -9,8 +9,9 @@ page_sections:
   block: page-header-02
   page-intro-title: Our Journal
   page-intro-text: We share information, experiences and new things we’re experimenting with or learning in our studio.  We talk about branding, business operations, entrepreneurial lessons and perspectives.   Catch our behind-the-scenes footage and learn about our views on community, business and&nbsp;culture.
-- template: featured-journal
-  block: featured-journal
+- template: featured-journal-02
+  block: featured-journal-02
+
 - template: block-journal-entries
   block: journal-entries
 - template: read-more

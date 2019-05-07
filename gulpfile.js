@@ -2,7 +2,7 @@ const gulp = require('gulp');
 const imagemin = require('gulp-imagemin');
  
 gulp.task('images', () =>
-    gulp.src('src/images/*')
+    gulp.src('dist/images/*')
         .pipe(imagemin())
         .pipe(gulp.dest('dist/images'))
 );

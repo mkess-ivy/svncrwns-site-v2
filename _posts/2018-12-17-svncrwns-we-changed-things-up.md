@@ -1,7 +1,8 @@
 ---
 layout: post
-title: SVNCRWNS.com - We've changed things up a bit
-featured_image: /dist/images/post-svncrwns-changed-cover.jpg
+title: SVNCRWNS.com - Website Updates for Better Optimization & Conversions
+featured: true
+featured_image: /dist/images/post-svncrwns-website-updates.jpg
 featured_summary: "In our latest update, we’ve organized our work better, and defined which works were our own in-house projects and which were client projects.  We’ve also added new features for better user experience."
 
 seo-description: SVNCRWNS shares their process as they are improving their company and preparing to approach their clients with better services and better marketing.
