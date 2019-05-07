@@ -163,62 +163,7 @@
     }
   }
 }
-.portfolio_grid_work {
-	margin-bottom: 12em;
-}
+// .portfolio_grid_work {
+// 	margin-bottom: 12em;
+// }
 
-
-// Animations
-@-webkit-keyframes fadeInTop {
-    0% {
-        opacity: 0;
-        -webkit-transform: translate3d(0, 12%, 0);
-        transform: translate3d(0, 12%, 0);
-    }
-
-    100% {
-        opacity: 1;
-        -webkit-transform: none;
-        transform: none;
-    }
-}
-
-@keyframes fadeInTop {
-    0% {
-        opacity: 0;
-        -webkit-transform: translate3d(0, 12%, 0);
-        transform: translate3d(0, 12%, 0);
-    }
-
-    100% {
-        opacity: 1;
-        -webkit-transform: none;
-        transform: none;
-    }
-}
-
-@-webkit-keyframes fadeAppear {
-    0% {
-        opacity: 0;
-        -webkit-transform: translate3d(0, 7%, 0);
-        transform: translate3d(0, 7%, 0);
-    }
-    100% {
-        opacity: 1;
-        -webkit-transform: none;
-        transform: none;
-    }
-}
-
-@keyframes fadeAppear {
-    0% {
-        opacity: 0;
-        -webkit-transform: translate3d(0, 7%, 0);
-        transform: translate3d(0, 7%, 0);
-    }
-    100% {
-        opacity: 1;
-        -webkit-transform: none;
-        transform: none;
-    }
-}
