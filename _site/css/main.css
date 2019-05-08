@@ -1001,6 +1001,11 @@ a.general_link {
     .wn-bg .work-nav-next {
       max-width: 350px; } }
 
+.no-underline div:hover {
+  border-bottom: none;
+  padding-bottom: 0;
+  text-decoration: none; }
+
 @-webkit-keyframes fadeInTop {
   0% {
     opacity: 0;
@@ -3127,7 +3132,9 @@ ul.nav li a:hover::after {
   text-align: center;
   text-transform: uppercase;
   padding: 0 20px;
-  display: block; }
+  display: block;
+  width: 75%;
+  margin: auto; }
   @media screen and (min-width: 1200px) {
     .general_post_title, .themealpha_general_post_title {
       padding: 0; } }
@@ -3408,6 +3415,10 @@ a.pagination_links:hover {
       background-size: cover;
       background-position-x: 65%;
       margin-bottom: 20px; }
+      .featured_post_002 .featured_post_single .featured_post_image:hover {
+        filter: blur(3px);
+        transition: 0.3s linear;
+        transform: scale(0.999); }
     .featured_post_002 .featured_post_single .featured_post_title {
       text-transform: uppercase;
       font-size: 16px;

@@ -3,8 +3,8 @@
 		{% assign featured_journal = site.posts | where: "featured", "true" %}
 		{% for post in featured_journal limit: 2%}
 		<div class="featured_post_single">
-			<div class="featured_post_image" style="background-image: url('{{ post.featured_image  }}');"></div>
-			<a class="general_post_title">{{ post.title }}</a>
+			<a href="{{ post.url }}" class="no-underline"><div class="featured_post_image" style="background-image: url('{{ post.featured_image  }}');"></div></a>
+			<a class="general_post_title" href="{{ post.url }}">{{ post.title }}</a>
 		</div>
 		{% endfor %}
 	</div>

@@ -6,9 +6,20 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 07 May 2019 15:02:53 -0400</pubDate>
-    <lastBuildDate>Tue, 07 May 2019 15:02:53 -0400</lastBuildDate>
+    <pubDate>Wed, 08 May 2019 15:17:27 -0400</pubDate>
+    <lastBuildDate>Wed, 08 May 2019 15:17:27 -0400</lastBuildDate>
     <generator>Jekyll v3.6.3</generator>
+    
+      <item>
+        <title>New Journal Layout</title>
+        <description>
+</description>
+        <pubDate>Wed, 08 May 2019 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/journal/new-journal-layout/</link>
+        <guid isPermaLink="true">http://localhost:4000/journal/new-journal-layout/</guid>
+        
+        
+      </item>
     
       <item>
         <title>SVNCRWNS visits Art &amp; Practice, Studio Visit w/ Mark Bradford</title>
@@ -375,21 +386,6 @@ Artist statements are considered art too!  This statement resonated so deeply, a
         <pubDate>Tue, 10 Jul 2018 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/journal/branding-our-business/</link>
         <guid isPermaLink="true">http://localhost:4000/journal/branding-our-business/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>SVNCRWNS X Creative Mornings Baltimore</title>
-        <description>&lt;p&gt;We were invited to talk at Creative Mornings in Baltimore, MD about the theme of “Context”.  We touched on our recent trip to Los Angeles to visit abstract artist, Mark Bradford, and talked about what our work means to us and what inspires us to continue to focus on building and expanding on community resources.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/dist/images/post_creative_mornings.jpg&quot; alt=&quot;SVNCRWNS X Creative Mornings &amp;quot;Context&amp;quot; Keynote&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Check out our talk by way of &lt;a href=&quot;http://www.localcolorpodcast.com/2018/01/26/episode-51-creative-mornings-panel/&quot;&gt;Local Color Podcast&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 17 Dec 2017 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/journal/creative-mornings/</link>
-        <guid isPermaLink="true">http://localhost:4000/journal/creative-mornings/</guid>
         
         
       </item>

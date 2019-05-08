@@ -161,6 +161,8 @@
     text-transform: uppercase;
     padding: 0 20px;
     display: block;
+    width: 75%;
+    margin: auto;
 
     @include desktop {
         // font-size: 16px;
@@ -224,6 +226,16 @@
 }
 
 // Journal Single Page
+
+// - New Layout 050819
+
+
+
+
+
+
+
+// Old Layout
 .post_meta_wrapper {
     padding: 75px 20px 0;
     font-family: $font-brand4;
@@ -497,11 +509,21 @@ a.pagination_links {
 
   .featured_post_single {
     width: 49%;
+
+
+
     .featured_post_image {
       height: 65vh;
       background-size: cover;
       background-position-x: 65%;
       margin-bottom: 20px;
+
+      &:hover {
+            filter: blur(3px);
+            transition: 0.3s linear;
+            transform: scale(0.999);
+          
+        }
     }
     .featured_post_title {
       text-transform: uppercase;
@@ -526,3 +548,6 @@ a.pagination_links {
     font-size: 40px;
   }
 }
+
+
+
