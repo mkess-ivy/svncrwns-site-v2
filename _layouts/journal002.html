@@ -1,98 +1,25 @@
 {% include grid/head_header_color.html %}
 <div class="grid">
+	
 	<div class="frow direction-reverse justify-between">
+		
 		<section class="block-journal-meta">
-			<div class="journal-meta-title">SVNCRWNS.COM - We've Changed Things Up a Bit</div>
-			<div class="journal-meta-summary">In our latest update, we’ve organized our work better, and defined which works were our own in-house projects and which were client projects.  We’ve also added new features for better user experience.</div>
+			<div class="journal-meta-title">{{ page.title }}</div>
+			<div class="journal-meta-summary">{{ page.summary}}</div>
 		</section>
+		
+
+
 		<section class="block-journal-content">
-			<div class="journal-masthead" style="background-image:url('/dist/images/001journal-test-image-cover.jpg');"></div>
+			<div class="journal-masthead" style="background-image:url('{{ page.masthead-image }}');"></div>
 			
-			<div class="journal-text-block">
-				<div class="text-block-title">The Home Page</div>
-				<div class="text-block-text">This was the first place we started.  We knew as a creative company, as problem solvers that looking at our website wasn’t very informative, there wasn’t a story.  There was cool work, but how did these things tie together to make up a company?  How does the company work?  How can I work with this company?   These were questions that we were getting from our peers.  It was too abstract.  So we added some color and images, and more transparency.</div>
-			</div>
+			{% for section in page.page_sections %}
+				{% include components/block-{{section.block}}.html %}
 
-			<div class="journal-image"><img src="/dist/images/001journal-test-image001.png" /></div>
-
-			<div class="journal-text-block">
-				<div class="text-block-title">The Home Page</div>
-				<div class="text-block-text">This was the first place we started.  We knew as a creative company, as problem solvers that looking at our website wasn’t very informative, there wasn’t a story.  There was cool work, but how did these things tie together to make up a company?  How does the company work?  How can I work with this company?   These were questions that we were getting from our peers.  It was too abstract.  So we added some color and images, and more&nbsp;transparency.</div>
-			</div>
-
-			<div class="journal-image"><img src="/dist/images/001journal-test-image002.png" /></div>
-
-			<div class="journal-image"><img src="/dist/images/001journal-test-image003.jpg" /></div>
-
-			<section class="block-credits002">
-				<div class="credits002-title">Credits</div>
-
-				<div class="credits002-content">
-					<div class="single-credit">
-						<div class="single-position">
-							Creative Direction
-						</div>
-						<div class="single-name">
-							svncrwns
-						</div>
-					</div>
-					<div class="single-credit">
-						<div class="single-position">
-							Photography
-						</div>
-						<div class="single-name">
-							svncrwns
-						</div>
-					</div>
-					<div class="single-credit">
-						<div class="single-position">
-							Stylist
-						</div>
-						<div class="single-name">
-							Kreator Styles
-						</div>
-					</div>
-					<div class="single-credit">
-						<div class="single-position">
-							Creative Direction
-						</div>
-						<div class="single-name">
-							svncrwns
-						</div>
-					</div>
-					<div class="single-credit">
-						<div class="single-position">
-							Photography
-						</div>
-						<div class="single-name">
-							svncrwns
-						</div>
-					</div>
-					<div class="single-credit">
-						<div class="single-position">
-							Stylist
-						</div>
-						<div class="single-name">
-							Somebody Really Dope
-						</div>
-					</div>
-				</div>
-			</section>
+			{% endfor %}
 		</section>
 	</div>
-	<section class="pagination002">
-		<div class="single-pagination">
-			<div class="pagination002-title">Previous Journal</div>
-			<a href="#"><div class="pagination002-project">
-				SVNCRWNS visits Brooklyn Museum
-			</div></a>
-		</div>
-		<div class="single-pagination">
-			<div class="pagination002-title">Next Journal</div>
-			<a href="#"><div class="pagination002-project">
-				BMA Cocktail Art Party w/ Mark Bradford & GWCC
-			</div></a>
-		</div>
-	</section>
+{% include components/block-pagination002.html %}
+
 </div>
 {% include grid/end_footer.html %}
