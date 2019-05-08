@@ -242,7 +242,7 @@
     }
     .journal-meta-summary {
         padding-bottom: 7em;
-        font-family: $font-brand3;
+        // font-family: $font-brand3;
         font-size: 20px;
     }
 }
@@ -252,6 +252,25 @@
         height: 50vh;
         width: 100%;
         background-position: left top;
+        margin-bottom: 10em;
+    }
+    .journal-text-block {
+        padding-bottom: 10em;
+        text-align: center;
+
+        .text-block-title {
+            text-transform: uppercase;
+            font-weight: $heavy;
+            font-family: $font-brand4;
+            font-size: 24px;
+            padding-bottom: 1.5em;
+        }
+        .text-block-text {
+            line-height: 28px;
+        }
+    }
+    .journal-image {
+        padding-bottom: 10em;
     }
 }
 

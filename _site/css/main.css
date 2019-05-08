@@ -604,6 +604,48 @@ a.phase1-btn {
       margin-top: 0;
       width: 39%; } }
 
+.block-credits002 {
+  background-color: #d3b7ac;
+  margin-bottom: 10em;
+  padding: 30px;
+  position: relative; }
+  .block-credits002 .credits002-title {
+    letter-spacing: 2.67px;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    position: absolute;
+    top: -30px; }
+  .block-credits002 .credits002-content {
+    padding-top: 25px; }
+    .block-credits002 .credits002-content .single-credit {
+      padding-bottom: 35px;
+      text-transform: uppercase;
+      font-family: "Montserrat", sans-serif;
+      line-height: 1.2;
+      letter-spacing: 2.5px;
+      font-size: 20px; }
+      .block-credits002 .credits002-content .single-credit .single-position {
+        font-weight: 700; }
+
+.pagination002 {
+  margin-top: 5em;
+  padding-bottom: 10em; }
+  .pagination002 .single-pagination {
+    padding-bottom: 7em;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-weight: 700; }
+    .pagination002 .single-pagination .pagination002-title {
+      font-size: 14px;
+      padding-bottom: 20px;
+      letter-spacing: 1px; }
+    .pagination002 .single-pagination .pagination002-project {
+      font-size: 40px;
+      letter-spacing: 2.8px;
+      line-height: 1.3; }
+
 .small_title_wrapper, .themealpha_project_info_wrapper {
   padding-bottom: 25px; }
 
@@ -3194,14 +3236,27 @@ ul.nav li a:hover::after {
     line-height: 1.2; }
   .block-journal-meta .journal-meta-summary {
     padding-bottom: 7em;
-    font-family: "Libre Baskerville", Helvetica, serif;
     font-size: 20px; }
 
 .block-journal-content .journal-masthead {
   background-size: cover;
   height: 50vh;
   width: 100%;
-  background-position: left top; }
+  background-position: left top;
+  margin-bottom: 10em; }
+.block-journal-content .journal-text-block {
+  padding-bottom: 10em;
+  text-align: center; }
+  .block-journal-content .journal-text-block .text-block-title {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    padding-bottom: 1.5em; }
+  .block-journal-content .journal-text-block .text-block-text {
+    line-height: 28px; }
+.block-journal-content .journal-image {
+  padding-bottom: 10em; }
 
 .post_meta_wrapper {
   padding: 75px 20px 0;
