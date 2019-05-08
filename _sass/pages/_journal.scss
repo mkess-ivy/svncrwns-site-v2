@@ -229,7 +229,31 @@
 
 // - New Layout 050819
 
+.block-journal-meta {
+    padding: 6em 0 0 0.7em;
 
+    .journal-meta-title {
+        padding-bottom: 1.5em;
+        font-family: $font-brand4;
+        font-weight: $heavy;
+        text-transform: uppercase;
+        font-size: 32px;
+        line-height: 1.2;
+    }
+    .journal-meta-summary {
+        padding-bottom: 7em;
+        font-family: $font-brand3;
+        font-size: 20px;
+    }
+}
+.block-journal-content {
+    .journal-masthead {
+        background-size: cover;
+        height: 50vh;
+        width: 100%;
+        background-position: left top;
+    }
+}
 
 
 
