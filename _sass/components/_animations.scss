@@ -53,3 +53,21 @@
         transform: none;
     }
 }
+
+@-webkit-keyframes goSlow {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes goSlow {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}

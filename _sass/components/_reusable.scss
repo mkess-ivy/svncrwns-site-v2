@@ -2,8 +2,16 @@
 .block-credits002 {
   background-color: $soft-red;
   margin-bottom: 10em;
-  padding: 30px;
+  padding: 50px 50px 5px;
   position: relative;
+
+  @include tablet {
+    padding: 2em 7em 3em;
+  }
+
+  @include desktop {
+    width: 70%;
+  }
 
   .credits002-title {
     letter-spacing: 2.67px;
@@ -24,7 +32,11 @@
       font-family: $font-brand4;
       line-height: 1.2;
       letter-spacing: 2.5px;
-      font-size: 20px;
+      font-size: 14px;
+
+      @include tablet {
+        font-size: 18px;
+      }
 
       .single-position {
         font-weight: $heavy;
@@ -36,28 +48,53 @@
 
 // Pagination002 -- Journal 
 .pagination002 {
-  margin-top: 5em;
-  padding-bottom: 10em;
+  padding: 10em 4em 0 2em;
+  position: relative;
+
+  @include tablet {
+    width: 70%;
+    padding: 10em 4em 0 4em;
+  }
+
+  @include desktop {
+    width: 55%;
+  }
+
+  @include desktop-blah {
+    padding: 10em 4em 0.5em 6.5em;
+    width: 60%;
+  }
+
+  @include tv {
+    padding: 10em 4em 0.5em 10em;
+    width: 55%;
+  }
 
   .single-pagination {
     padding-bottom: 7em;
     font-family: $font-brand4;
     text-transform: uppercase;
     font-weight: $heavy;
-    // padding-right: 30px;
 
     .pagination002-title {
       font-size: 14px;
       padding-bottom: 20px;
       letter-spacing: 1px;
     }
+
     .pagination002-project {
       font-size: 40px;
       letter-spacing: 2.8px;
       line-height: 1.3;
+      display: inline;
+
+      @include desktop-blah {
+        font-size: 50px;
+      }
     }
   }
 }
+
 
 // Subheader
 .small_title_wrapper {
@@ -552,5 +589,58 @@ a.general_link {
     border-bottom: none;
     padding-bottom: 0;
     text-decoration: none;
+  }
+}
+
+
+// JS Classes
+.js-dipper-animate {
+  opacity:0;
+  transition: 200ms linear;
+  -webkit-transition: 200ms linear;
+}
+
+.js_bg_receiver_work2.hover {
+  @include tablet {
+    height: 75vh;
+    width: 45%;
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    z-index: -100;
+    display: block;
+    position: fixed;
+    right: 1.5em;
+    top: 10vh;
+    transition: 200ms linear;
+    -webkit-transition: 200ms linear;
+  }
+  @include tv {
+    width: 35%;
+    right: 2.3em;
+  }
+  
+}
+a.js_hover_trigger2 {
+  &:hover {
+    border-bottom: 1px solid;
+  }
+}
+.js_hover_trigger2 a {
+  position: relative;
+   transition: 200ms linear;
+    -webkit-transition: 200ms linear;
+
+  &:hover {
+    // color: $color-brand3;
+    border-bottom: 1px solid;
+    transition: 200ms linear;
+    -webkit-transition: 200ms linear;
+  }
+}
+.hover-link {
+  &:hover {
+    border-bottom: 1px solid;
+    padding-bottom: 4px;
   }
 }

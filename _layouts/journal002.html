@@ -1,25 +1,19 @@
 {% include grid/head_header_color.html %}
-<div class="grid">
 	
-	<div class="frow direction-reverse justify-between">
-		
-		<section class="block-journal-meta">
-			<div class="journal-meta-title">{{ page.title }}</div>
-			<div class="journal-meta-summary">{{ page.summary}}</div>
-		</section>
-		
+<section class="journal-wrapper">
+	<section class="block-journal-meta dipper-alert">
+		<div class="journal-meta-title">{{ page.title }}</div>
+		<div class="journal-meta-summary">{{ page.summary}}</div>
+	</section>
+	<section class="block-journal-content">
+		<div class="journal-masthead" style="background-image:url('{{ page.masthead-image }}');"></div>
+		<div class="journal-wrapper-inner">
+		{% for section in page.page_sections %}
+			{% include components/block-{{section.block}}.html %}
+		{% endfor %}
+		</div>
+	</section>
+</section>
 
-
-		<section class="block-journal-content">
-			<div class="journal-masthead" style="background-image:url('{{ page.masthead-image }}');"></div>
-			
-			{% for section in page.page_sections %}
-				{% include components/block-{{section.block}}.html %}
-
-			{% endfor %}
-		</section>
-	</div>
 {% include components/block-pagination002.html %}
-
-</div>
 {% include grid/end_footer.html %}

@@ -228,9 +228,37 @@
 // Journal Single Page
 
 // - New Layout 050819
-
+.journal-wrapper {
+    position: relative;
+}
+.journal-wrapper-inner {
+    @include desktop {
+        margin-left: 2em;
+    }
+}
 .block-journal-meta {
-    padding: 6em 0 0 0.7em;
+    padding: 6em 0 0 2em;
+
+    @include palm-mid {
+        padding: 6em 3em 0 2em;
+    }
+    @include tablet {
+        padding: 10em 10em 0 3em;
+    }
+    @include laptop {
+        padding: 10em 17em 0 3em;
+    }
+    @include desktop {
+        padding: 15em 1em 15em 0;
+        width: 32%;
+        right: 0;
+        position: fixed;
+        transition: 200ms linear;
+        -webkit-transition: 200ms linear;
+    }
+    @include tv {
+        padding: 15em 5em 15em 0;
+    }
 
     .journal-meta-title {
         padding-bottom: 1.5em;
@@ -239,24 +267,51 @@
         text-transform: uppercase;
         font-size: 32px;
         line-height: 1.2;
+
+        @include palm-mid {
+            font-size:40px;
+        }
+        @include laptop {
+            font-size: 32px;
+        }
     }
     .journal-meta-summary {
         padding-bottom: 7em;
-        // font-family: $font-brand3;
         font-size: 20px;
+
+        @include palm-mid {
+            font-size: 24px;
+        }
+        @include tablet {
+            padding-bottom: 5em;
+        }
+        @include desktop {
+            font-size: 18px;
+        }
     }
 }
 .block-journal-content {
+    @include desktop {
+        width: 62%;
+    }
     .journal-masthead {
         background-size: cover;
-        height: 50vh;
+        height: 70vh;
         width: 100%;
-        background-position: left top;
+        background-position: right top;
         margin-bottom: 10em;
+
+        @include desktop {
+            height: 100vh;
+        }
     }
     .journal-text-block {
-        padding-bottom: 10em;
+        padding: 0 2.3em 10em;
         text-align: center;
+
+        @include tablet {
+            padding: 0 7em 10em;
+        }
 
         .text-block-title {
             text-transform: uppercase;
@@ -264,13 +319,39 @@
             font-family: $font-brand4;
             font-size: 24px;
             padding-bottom: 1.5em;
+
+            @include palm-mid {
+               font-size: 32px; 
+            }
+            @include tablet {
+                font-size: 42px;
+            }
+            @include desktop {
+                font-size: 28px;
+            }
         }
         .text-block-text {
             line-height: 28px;
+
+            @include palm-mid {
+                font-size: 20px;
+            }
+            @include tablet {
+                font-size: 28px;
+                line-height: 40px;
+            }
+            @include desktop {
+                font-size: 18px;
+                line-height: 30px;
+            }
         }
     }
     .journal-image {
         padding-bottom: 10em;
+
+        img {
+            width: 100%;
+        }
     }
 }
 

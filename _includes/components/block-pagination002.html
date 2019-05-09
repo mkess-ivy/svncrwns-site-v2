@@ -1,14 +1,46 @@
+{% if page.collection %}
+    {% assign links = site[page.collection]  %}
+{% endif %}
+
+{% for link in links %}
+    {% if link.title == page.title %}
+        {% unless forloop.first %}
+            {% assign prev = tmpprev %}
+        {% endunless %}
+        {% unless forloop.last %}
+            {% assign next = links[forloop.index] %}
+        {% endunless %}
+    {% endif %}
+    {% assign tmpprev = link %}
+{% endfor %}
+<script>
+document.body.onkeyup = function(e){
+	if (e.keyCode == '37') { window.location = '{{prevurl}}'; }
+	if (e.keyCode == '39') { window.location = '{{nexturl}}'; }
+};
+</script>
 <section class="pagination002">
+	{% if prev %}
 	<div class="single-pagination">
 		<div class="pagination002-title">Previous Journal</div>
-		<a href="#"><div class="pagination002-project">
-			SVNCRWNS visits Brooklyn Museum
+		<a href="{{ prev.url }}" class="hover-link">
+		<div class="pagination002-project js_hover_trigger2">
+			
+			{{ prev.title }}
+			<div class="js_bg_receiver_work2" style="background-image:url('{{ prev.featured_image }}');"></div>
+			
 		</div></a>
 	</div>
+	{% endif %}
+	{% if next %}
 	<div class="single-pagination">
 		<div class="pagination002-title">Next Journal</div>
-		<a href="#"><div class="pagination002-project">
-			BMA Cocktail Art Party w/ Mark Bradford & GWCC
+		<a href="{{ next.url }}" class="hover-link">
+		<div class="pagination002-project js_hover_trigger2">
+			{{ next.title }}
+			<div class="js_bg_receiver_work2" style="background-image:url('{{ next.featured_image }}');"></div>
+			
 		</div></a>
 	</div>
+	{% endif %}
 </section>

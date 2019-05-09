@@ -1,16 +1,16 @@
-<section class="block-credits002">
-				<div class="credits002-title">Credits</div>
+<section class="block-credits002 dipper">
+	<div class="credits002-title">Credits</div>
 
-				<div class="credits002-content">
-					{% for item in section.credits %}
-					<div class="single-credit">
-						<div class="single-position">
-							{{ item.position}}
-						</div>
-						<div class="single-name">
-							{{ item.name }}
-						</div>
-					</div>
-					{% endfor %}
-				</div>
-			</section>
+	<div class="credits002-content">
+		{% for item in section.credits %}
+		<div class="single-credit">
+			<div class="single-position">
+				{{ item.position}}
+			</div>
+			<div class="single-name">
+				{{ item.name }}
+			</div>
+		</div>
+		{% endfor %}
+	</div>
+</section>

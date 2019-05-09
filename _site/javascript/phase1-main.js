@@ -1,3 +1,14 @@
+
+// Waypoints
+    var $dipper = $('.dipper');
+    $dipper.waypoint(function (direction) {
+        if (direction == 'down') {
+            $('.dipper-alert').addClass('js-dipper-animate');
+        } else {
+            $('.dipper-alert').removeClass('js-dipper-animate');
+        }
+    }, {offset: '50%'});
+
 $(document).ready(function(){
 
     var forEach=function(t,o,r){if("[object Object]"===Object.prototype.toString.call(t))for(var c in t)Object.prototype.hasOwnProperty.call(t,c)&&o.call(r,t[c],c,t);else for(var e=0,l=t.length;l>e;e++)o.call(r,t[e],e,t)};
@@ -17,6 +28,15 @@ $(document).ready(function(){
     },function(){
         $('.js_bg_receiver_work', this).removeClass('hover');
     });
+
+    // Hover Feature - Pagination
+    $('.js_hover_trigger2').hover(function(){
+        $('.js_bg_receiver_work2', this).addClass('hover');
+    },function(){
+        $('.js_bg_receiver_work2', this).removeClass('hover');
+    });
+
+    
 
 
     // Wait for window load
@@ -127,7 +147,6 @@ $(document).ready(function(){
             }
         ]
     });
-
-    
-
 });
+
+

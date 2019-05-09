@@ -45,3 +45,16 @@ for (var i = 0; i < btns.length; i++) {
     this.className += " active";
   });
 }
+
+window.onscroll = function changeNav(){
+    var navBar = document.getElementById('navBar'),
+          secondSection = document.getElementById('secondSection'),
+          secondSectionTop = aboutSection.getBoundingClientRect().top, 
+          navBarHeight = navBar.getBoundingClientRect().height;
+
+    if(secondSectionTop <= navBarHeight) {
+          navBar.className = ('basic-classname');
+    } else if(aboutSectionTop >= navBarHeight) {
+         navBar.className =  ('basic-classname added-classname');
+    }
+}
