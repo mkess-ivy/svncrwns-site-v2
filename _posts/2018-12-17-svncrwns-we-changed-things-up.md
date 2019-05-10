@@ -36,6 +36,6 @@ page_sections:
 - template: journal-text
   block: journal-text
   text-block-title: Primary Menu
-  text-block-summary: We removed the main menu and made it a fixed menu to be visible anywhere on the site.  We organized our portfolio work into two categories, client work and in-house projects.  We added tags to our work so users can have an idea of what kind of work they are about to view.  The overlay menu is visible on all pages, positioned in the lower right hand corner.  We also made the overlay button animated. Before, there were two images, that never really lined up as perfectly as we wanted.  The animations and organization here, should drastically improve our bounce rates.
+  text-block-summary: We removed the main menu and made it a fixed menu to be visible anywhere on the site.  We organized our portfolio work into two categories, client work and in-house projects.  We added tags to our work so users can have an idea of what kind of work they are about to view.  The overlay menu is visible on all pages, positioned in the lower right hand corner.  We also made the overlay button animated.
 ---
 
