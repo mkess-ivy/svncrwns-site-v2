@@ -14,8 +14,8 @@
   <div class="frow justify-start">
     {% assign project_season = site.catalog | where: "portfolio-grid", "need" %}
     {% for section in project_season %}
-    <div class="portfolio_single_work filterDiv {{ section.category }}">
-      <a href="{{ section.url }}"><div class="portfolio_single_img" style="background-image: url('{{section.portfolio-cover}}');"></div></a>
+    <div class="portfolio_single_work filterDiv {{ section.category }} ">
+      <a href="{{ section.url }}"><div class="portfolio_single_img workFade" style="background-image: url('{{section.portfolio-cover}}');"></div></a>
       <div class="portfolio_single_title">
       	<a href="{{ section.url }}">{{ section.title }}</a>
         <!-- <div class="frow justify-start">

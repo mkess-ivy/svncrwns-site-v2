@@ -1,8 +1,9 @@
 ---
 layout: journal002
-title: SVNCRWNS.COM - We've Changed Things Up a Bit
+title: New Journal layout Testing the Website 002 // Draft 001
 summary: In our latest update, we’ve organized our work better, and defined which works were our own in-house projects and which were client projects.  We’ve also added new features for better user experience.
 masthead-image: /dist/images/cityofgods-1.jpg
+featured_image: /dist/images/cityofgods-1.jpg
 
 page_sections:
 - template: journal-text

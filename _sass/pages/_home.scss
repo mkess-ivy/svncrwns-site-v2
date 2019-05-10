@@ -321,3 +321,93 @@
   font-size: 14px;
   padding-top: 10px;
 }
+.themealpha-home-section-title {
+  font-size: 38px;
+  position: relative;
+  margin-bottom: -24px;
+  z-index: 999;
+  text-align: center;
+  // color: $off-white;
+  color: $our-work-color;
+  // text-shadow:
+  //   -1px -1px 0 #000,
+  //   1px -1px 0 #000,
+  //   -1px 1px 0 #000,
+  //   1px 1px 0 #000;
+  font-family: $font-brand4;
+  font-weight: 700;
+  text-transform: uppercase;
+  @include palm-mid {
+    text-align: initial;
+    padding: 25px 20px 0;
+  }
+  @include tablet {
+    padding: 25px 0 0;
+    margin-bottom: -35px;
+  }
+  @include laptop {
+    padding: 25px 0 0;
+  }
+}
+.home-lastrow {
+  margin-bottom: 45px;
+}
+.home-lastrow-bigtitle {
+  font-size: 32px;
+  font-family: 'Montserrat',sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 100%;
+  padding: 75px 135px 75px 0;
+  line-height: 1;
+  animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+  animation-duration: .7s;
+  -webkit-animation-duration: .7s;
+  animation-fill-mode: both;
+  -webkit-animation-fill-mode: both;
+  animation-name: fadeInLeft;
+  -webkit-animation-name: fadeInLeft;
+
+  @include palm-mid {
+
+  }
+  @include tablet {
+    width: 55%;
+    font-size: 38px;
+    padding: 100px 125px 75px 0;
+  }
+  @include laptop {
+    font-size: 44px;
+    padding: 50px 200px 25px 0; 
+  }
+
+  a {
+    color: $portfolio-title-color;
+    
+    max-width: 320px;
+    display: inline;
+    line-height: 1.2;
+
+    &:hover {
+      // border: 0;
+      color: $portfolio-title-hover;
+      transition: 200ms ease-in-out;
+    }
+  }
+}
+.home-lastrow-newsletter {
+  width: 100%;
+  padding: 0px 0 75px;
+
+  @include tablet {
+    width: 40%;
+    padding: 100px 0;
+    color: $off-white;
+  }
+  @include laptop {
+    width: 28%;
+    padding: 50px 0 25px;
+  }
+  
+}

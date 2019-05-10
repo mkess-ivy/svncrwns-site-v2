@@ -257,7 +257,7 @@
         -webkit-transition: 200ms linear;
     }
     @include tv {
-        padding: 15em 5em 15em 0;
+        padding: 15em 11em 15em 0;
     }
 
     .journal-meta-title {
@@ -371,7 +371,11 @@
         }
     }
 }
-
+.journal-video {
+    @include desktop {
+        margin-bottom: 10em;    
+    }
+}
 
 
 

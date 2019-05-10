@@ -16,6 +16,15 @@
         } else {
             $goSlow.removeClass('js-goslow');
         }
+    }, {offset: '80%'});
+
+    var $workFade =  $('.workFade');
+    $workFade.waypoint(function (direction) {
+        if (direction == 'down') {
+            $workFade.addClass('fadeIn');
+        } else {
+            $workFade.removeClass('fadeIn');
+        }
     }, {offset: '20%'});
 
 $(document).ready(function(){

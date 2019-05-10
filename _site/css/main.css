@@ -655,7 +655,7 @@ a.phase1-btn {
       width: 60%; } }
   @media screen and (min-width: 1439px) {
     .pagination002 {
-      padding: 10em 4em 6em 10em;
+      padding: 10em 4em 3em 10em;
       width: 55%; } }
   .pagination002 .single-pagination {
     padding-bottom: 7em;
@@ -674,9 +674,6 @@ a.phase1-btn {
       @media screen and (min-width: 1200px) {
         .pagination002 .single-pagination .pagination002-project {
           font-size: 50px; } }
-      @media screen and (min-width: 1439px) {
-        .pagination002 .single-pagination .pagination002-project {
-          font-size: 55px; } }
 
 .small_title_wrapper, .themealpha_project_info_wrapper {
   padding-bottom: 25px; }
@@ -1090,6 +1087,11 @@ a.general_link {
   transition: 200ms linear;
   -webkit-transition: 200ms linear; }
 
+.goSlow,
+.workFade {
+  transition: 200ms linear;
+  -webkit-transition: 200ms linear; }
+
 @media screen and (min-width: 750px) {
   .js_bg_receiver_work2.hover {
     height: 75vh;
@@ -1122,10 +1124,6 @@ a.js_hover_trigger2:hover {
 .hover-link:hover {
   border-bottom: 1px solid;
   padding-bottom: 4px; }
-
-.goSlow {
-  transition: 200ms linear;
-  -webkit-transition: 200ms linear; }
 
 @-webkit-keyframes fadeInTop {
   0% {
@@ -2144,77 +2142,6 @@ ul.nav li a:hover::after {
     .themealpha-phase1-subheader a:hover {
       color: #A16414; }
 
-.themealpha-home-section-title {
-  font-size: 38px;
-  position: relative;
-  margin-bottom: -24px;
-  z-index: 999;
-  text-align: center;
-  color: #070707;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  text-transform: uppercase; }
-  @media screen and (min-width: 500px) {
-    .themealpha-home-section-title {
-      text-align: initial;
-      padding: 25px 20px 0; } }
-  @media screen and (min-width: 750px) {
-    .themealpha-home-section-title {
-      padding: 25px 0 0;
-      margin-bottom: -35px; } }
-  @media screen and (min-width: 900px) {
-    .themealpha-home-section-title {
-      padding: 25px 0 0; } }
-
-.home-lastrow {
-  margin-bottom: 45px; }
-
-.home-lastrow-bigtitle {
-  font-size: 32px;
-  font-family: 'Montserrat',sans-serif;
-  font-weight: bold;
-  text-transform: uppercase;
-  width: 100%;
-  padding: 75px 135px 75px 0;
-  line-height: 1;
-  animation-delay: 2s;
-  -webkit-animation-delay: 2s;
-  animation-duration: .7s;
-  -webkit-animation-duration: .7s;
-  animation-fill-mode: both;
-  -webkit-animation-fill-mode: both;
-  animation-name: fadeInLeft;
-  -webkit-animation-name: fadeInLeft; }
-  @media screen and (min-width: 750px) {
-    .home-lastrow-bigtitle {
-      width: 55%;
-      font-size: 38px;
-      padding: 100px 125px 75px 0; } }
-  @media screen and (min-width: 900px) {
-    .home-lastrow-bigtitle {
-      font-size: 44px;
-      padding: 50px 200px 25px 0; } }
-  .home-lastrow-bigtitle a {
-    color: #070707;
-    max-width: 320px;
-    display: block; }
-    .home-lastrow-bigtitle a:hover {
-      border: 0;
-      color: #99703E; }
-
-.home-lastrow-newsletter {
-  width: 100%;
-  padding: 0px 0 75px; }
-  @media screen and (min-width: 750px) {
-    .home-lastrow-newsletter {
-      width: 40%;
-      padding: 100px 0;
-      color: #F7F7F7; } }
-  @media screen and (min-width: 900px) {
-    .home-lastrow-newsletter {
-      width: 28%;
-      padding: 50px 0 25px; } }
-
 .themealpha_featured_meta {
   text-align: left;
   position: relative;
@@ -3119,6 +3046,78 @@ ul.nav li a:hover::after {
   font-size: 14px;
   padding-top: 10px; }
 
+.themealpha-home-section-title {
+  font-size: 38px;
+  position: relative;
+  margin-bottom: -24px;
+  z-index: 999;
+  text-align: center;
+  color: #070707;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase; }
+  @media screen and (min-width: 500px) {
+    .themealpha-home-section-title {
+      text-align: initial;
+      padding: 25px 20px 0; } }
+  @media screen and (min-width: 750px) {
+    .themealpha-home-section-title {
+      padding: 25px 0 0;
+      margin-bottom: -35px; } }
+  @media screen and (min-width: 900px) {
+    .themealpha-home-section-title {
+      padding: 25px 0 0; } }
+
+.home-lastrow {
+  margin-bottom: 45px; }
+
+.home-lastrow-bigtitle {
+  font-size: 32px;
+  font-family: 'Montserrat',sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 100%;
+  padding: 75px 135px 75px 0;
+  line-height: 1;
+  animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+  animation-duration: .7s;
+  -webkit-animation-duration: .7s;
+  animation-fill-mode: both;
+  -webkit-animation-fill-mode: both;
+  animation-name: fadeInLeft;
+  -webkit-animation-name: fadeInLeft; }
+  @media screen and (min-width: 750px) {
+    .home-lastrow-bigtitle {
+      width: 55%;
+      font-size: 38px;
+      padding: 100px 125px 75px 0; } }
+  @media screen and (min-width: 900px) {
+    .home-lastrow-bigtitle {
+      font-size: 44px;
+      padding: 50px 200px 25px 0; } }
+  .home-lastrow-bigtitle a {
+    color: #070707;
+    max-width: 320px;
+    display: inline;
+    line-height: 1.2; }
+    .home-lastrow-bigtitle a:hover {
+      color: #99703E;
+      transition: 200ms ease-in-out; }
+
+.home-lastrow-newsletter {
+  width: 100%;
+  padding: 0px 0 75px; }
+  @media screen and (min-width: 750px) {
+    .home-lastrow-newsletter {
+      width: 40%;
+      padding: 100px 0;
+      color: #F7F7F7; } }
+  @media screen and (min-width: 900px) {
+    .home-lastrow-newsletter {
+      width: 28%;
+      padding: 50px 0 25px; } }
+
 .masthead_title {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
@@ -3342,7 +3341,7 @@ ul.nav li a:hover::after {
       -webkit-transition: 200ms linear; } }
   @media screen and (min-width: 1439px) {
     .block-journal-meta {
-      padding: 15em 5em 15em 0; } }
+      padding: 15em 11em 15em 0; } }
   .block-journal-meta .journal-meta-title {
     padding-bottom: 1.5em;
     font-family: "Montserrat", sans-serif;
@@ -3430,6 +3429,10 @@ ul.nav li a:hover::after {
   border-bottom: 1px solid; }
   .journal-wrapper-content a:hover {
     color: #A58124; }
+
+@media screen and (min-width: 1024px) {
+  .journal-video {
+    margin-bottom: 10em; } }
 
 .post_meta_wrapper {
   padding: 75px 20px 0;

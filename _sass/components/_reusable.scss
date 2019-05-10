@@ -67,7 +67,7 @@
   }
 
   @include tv {
-    padding: 10em 4em 6em 10em;
+    padding: 10em 4em 3em 10em;
     width: 55%;
   }
 
@@ -93,7 +93,7 @@
         font-size: 50px;
       }
       @include tv {
-        font-size: 55px;
+        // font-size: 55px;
       }
     }
   }
@@ -598,6 +598,7 @@ a.general_link {
 
 
 // JS Classes
+// - Waypoint Classes
 .js-dipper-animate {
   opacity:0;
   transition: 200ms linear;
@@ -608,7 +609,13 @@ a.general_link {
   transition: 200ms linear;
   -webkit-transition: 200ms linear;
 }
+.goSlow,
+.workFade {
+  transition: 200ms linear;
+  -webkit-transition: 200ms linear;
+}
 
+// On Hover Show Background Classes
 .js_bg_receiver_work2.hover {
   @include tablet {
     height: 75vh;
@@ -653,8 +660,4 @@ a.js_hover_trigger2 {
     border-bottom: 1px solid;
     padding-bottom: 4px;
   }
-}
-.goSlow {
-  transition: 200ms linear;
-  -webkit-transition: 200ms linear;
 }
