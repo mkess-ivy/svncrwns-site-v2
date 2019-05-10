@@ -354,7 +354,23 @@
         }
     }
 }
+.journal-wrapper-content {
+    @include desktop {
+        padding-bottom: 5em;
+    }
+    p {
+        @include desktop {
+            font-size: 18px;
+        }
+    }
 
+    a {
+        border-bottom: 1px solid;
+        &:hover {
+            color: $color-brand3;
+        }
+    }
+}
 
 
 

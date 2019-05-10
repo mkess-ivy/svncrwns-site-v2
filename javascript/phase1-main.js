@@ -7,7 +7,16 @@
         } else {
             $('.dipper-alert').removeClass('js-dipper-animate');
         }
-    }, {offset: '50%'});
+    }, {offset: '90%'});
+
+    var $goSlow = $('.goSlow');
+    $goSlow.waypoint(function (direction) {
+        if (direction == 'down') {
+            $goSlow.addClass('js-goslow');
+        } else {
+            $goSlow.removeClass('js-goslow');
+        }
+    }, {offset: '20%'});
 
 $(document).ready(function(){
 

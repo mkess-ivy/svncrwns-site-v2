@@ -647,14 +647,15 @@ a.phase1-btn {
       padding: 10em 4em 0 4em; } }
   @media screen and (min-width: 1024px) {
     .pagination002 {
-      width: 55%; } }
+      width: 55%;
+      opacity: 0; } }
   @media screen and (min-width: 1200px) {
     .pagination002 {
       padding: 10em 4em 0.5em 6.5em;
       width: 60%; } }
   @media screen and (min-width: 1439px) {
     .pagination002 {
-      padding: 10em 4em 0.5em 10em;
+      padding: 10em 4em 6em 10em;
       width: 55%; } }
   .pagination002 .single-pagination {
     padding-bottom: 7em;
@@ -673,6 +674,9 @@ a.phase1-btn {
       @media screen and (min-width: 1200px) {
         .pagination002 .single-pagination .pagination002-project {
           font-size: 50px; } }
+      @media screen and (min-width: 1439px) {
+        .pagination002 .single-pagination .pagination002-project {
+          font-size: 55px; } }
 
 .small_title_wrapper, .themealpha_project_info_wrapper {
   padding-bottom: 25px; }
@@ -1081,6 +1085,11 @@ a.general_link {
   transition: 200ms linear;
   -webkit-transition: 200ms linear; }
 
+.js-goslow {
+  opacity: 1;
+  transition: 200ms linear;
+  -webkit-transition: 200ms linear; }
+
 @media screen and (min-width: 750px) {
   .js_bg_receiver_work2.hover {
     height: 75vh;
@@ -1097,24 +1106,26 @@ a.general_link {
     -webkit-transition: 200ms linear; } }
 @media screen and (min-width: 1439px) {
   .js_bg_receiver_work2.hover {
-    width: 35%;
-    right: 2.3em; } }
+    width: 45%;
+    right: 0;
+    height: 100vh;
+    top: 0; } }
 
 a.js_hover_trigger2:hover {
   border-bottom: 1px solid; }
 
 .js_hover_trigger2 a {
-  position: relative;
-  transition: 200ms linear;
-  -webkit-transition: 200ms linear; }
+  position: relative; }
   .js_hover_trigger2 a:hover {
-    border-bottom: 1px solid;
-    transition: 200ms linear;
-    -webkit-transition: 200ms linear; }
+    border-bottom: 1px solid; }
 
 .hover-link:hover {
   border-bottom: 1px solid;
   padding-bottom: 4px; }
+
+.goSlow {
+  transition: 200ms linear;
+  -webkit-transition: 200ms linear; }
 
 @-webkit-keyframes fadeInTop {
   0% {
@@ -3408,6 +3419,17 @@ ul.nav li a:hover::after {
   padding-bottom: 10em; }
   .block-journal-content .journal-image img {
     width: 100%; }
+
+@media screen and (min-width: 1024px) {
+  .journal-wrapper-content {
+    padding-bottom: 5em; } }
+@media screen and (min-width: 1024px) {
+  .journal-wrapper-content p {
+    font-size: 18px; } }
+.journal-wrapper-content a {
+  border-bottom: 1px solid; }
+  .journal-wrapper-content a:hover {
+    color: #A58124; }
 
 .post_meta_wrapper {
   padding: 75px 20px 0;

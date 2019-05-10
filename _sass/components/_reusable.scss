@@ -58,6 +58,7 @@
 
   @include desktop {
     width: 55%;
+    opacity: 0;
   }
 
   @include desktop-blah {
@@ -66,7 +67,7 @@
   }
 
   @include tv {
-    padding: 10em 4em 0.5em 10em;
+    padding: 10em 4em 6em 10em;
     width: 55%;
   }
 
@@ -90,6 +91,9 @@
 
       @include desktop-blah {
         font-size: 50px;
+      }
+      @include tv {
+        font-size: 55px;
       }
     }
   }
@@ -599,6 +603,11 @@ a.general_link {
   transition: 200ms linear;
   -webkit-transition: 200ms linear;
 }
+.js-goslow {
+  opacity: 1;
+  transition: 200ms linear;
+  -webkit-transition: 200ms linear;
+}
 
 .js_bg_receiver_work2.hover {
   @include tablet {
@@ -616,8 +625,10 @@ a.general_link {
     -webkit-transition: 200ms linear;
   }
   @include tv {
-    width: 35%;
-    right: 2.3em;
+    width: 45%;
+    right: 0;
+    height: 100vh;
+    top: 0;
   }
   
 }
@@ -628,14 +639,13 @@ a.js_hover_trigger2 {
 }
 .js_hover_trigger2 a {
   position: relative;
-   transition: 200ms linear;
-    -webkit-transition: 200ms linear;
+   // transition: 200ms linear;
+   //  -webkit-transition: 200ms linear;
 
   &:hover {
     // color: $color-brand3;
     border-bottom: 1px solid;
-    transition: 200ms linear;
-    -webkit-transition: 200ms linear;
+
   }
 }
 .hover-link {
@@ -643,4 +653,8 @@ a.js_hover_trigger2 {
     border-bottom: 1px solid;
     padding-bottom: 4px;
   }
+}
+.goSlow {
+  transition: 200ms linear;
+  -webkit-transition: 200ms linear;
 }
