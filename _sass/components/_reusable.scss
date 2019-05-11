@@ -67,7 +67,7 @@
   }
 
   @include tv {
-    padding: 10em 4em 3em 10em;
+    padding: 10em 4em 3em 15em;
     width: 55%;
   }
 
@@ -623,7 +623,7 @@ a.general_link {
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
-    z-index: -100;
+    z-index: 2;
     display: block;
     position: fixed;
     right: 1.5em;

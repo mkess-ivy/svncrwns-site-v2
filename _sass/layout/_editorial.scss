@@ -27,6 +27,7 @@
 		width: 30%;
 		// margin-left: 90px;
 		// margin-bottom: 125px;
+		padding: 50px 0 0;
 	}
 	
 }
@@ -36,7 +37,7 @@
 
 	@include tablet {
 		padding: 0 0 15px;
-		font-size: 24px !important;
+		font-size: 16px !important
 	}
 }
 
@@ -146,6 +147,11 @@
 	@include widescreen {
 		width: 70%;
 	}
+}
+.nobgcolor {
+	background: transparent;
+	color: $off-black;
+	margin: 0;
 }
 .project_details_title {
 	@extend .archive_header;

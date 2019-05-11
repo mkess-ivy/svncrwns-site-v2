@@ -2,6 +2,7 @@
 layout: work-blocks-layout
 title: "AVAM Logan Conference"
 season: "4"
+masthead-image: /dist/images/catalog_avam_logan.jpg
 category: film
 seo-description: SVNCRWNS worked with American Visionary Art Museum to produce media coverage for its annual Logan Visionary Conference.
 seo-keywords: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects
@@ -47,20 +48,19 @@ page_sections:
 - template: video-grid
   block: video-grid
 
-- template: block-credits
-  block: credits
-  credits-title: AVAM Media Coverage
-  contributions:
+- template: credits002
+  block: credits002
+  credits:
   - position: Creative Direction
-    person: SVNCRWNS
+    name: SVNCRWNS
   - position: Photography
-    person: SVNCRWNS
+    name: SVNCRWNS
   - position: Editing
-    person: SVNCRWNS
+    name: SVNCRWNS
   - position: Videography
-    person: Kirby Griffin
+    name: Kirby Griffin
   - position: Videography
-    person: Dena Simmons
+    name: Dena Simmons
   
 ---
 

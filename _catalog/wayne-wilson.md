@@ -23,10 +23,9 @@ page_sections:
   - image-name: /dist/images/waynewilson_2.png
   - image-name: /dist/images/waynewilson_3.png
   - image-name: /dist/images/waynewilson_4.png
-- template: credits
-  block: credits
-  credits-title: Wayne Wilson Photography
-  contributions:
+- template: credits002
+  block: credits002
+  credits:
   - position: Photography
-    person: SVNCRWNS
+    name: SVNCRWNS
 ---

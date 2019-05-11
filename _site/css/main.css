@@ -470,7 +470,7 @@ a.phase1-btn {
   height: 60vh !important; }
   @media screen and (min-width: 750px) {
     .phase1_cover_slide {
-      height: 100vh !important; } }
+      height: 80vh !important; } }
 
 .caret_slide {
   position: absolute;
@@ -506,6 +506,12 @@ a.phase1-btn {
   @media screen and (min-width: 750px) {
     .slide_web_cover {
       height: calc(100vh - 120px); } }
+  @media screen and (min-width: 1439px) {
+    .slide_web_cover {
+      height: calc(90vh - 115px); } }
+
+.phase1_slider {
+  margin-bottom: 5em; }
 
 .phase1_slider_web {
   width: 100%; }
@@ -526,7 +532,7 @@ a.phase1-btn {
   @media screen and (min-width: 1439px) {
     .phase1_cover_slide_web {
       background-size: contain;
-      height: calc(100vh - 115px); } }
+      height: calc(90vh - 115px); } }
 
 .caret_slide_web {
   position: absolute;
@@ -655,7 +661,7 @@ a.phase1-btn {
       width: 60%; } }
   @media screen and (min-width: 1439px) {
     .pagination002 {
-      padding: 10em 4em 3em 10em;
+      padding: 10em 4em 3em 15em;
       width: 55%; } }
   .pagination002 .single-pagination {
     padding-bottom: 7em;
@@ -1099,7 +1105,7 @@ a.general_link {
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
-    z-index: -100;
+    z-index: 2;
     display: block;
     position: fixed;
     right: 1.5em;
@@ -1208,7 +1214,8 @@ a.js_hover_trigger2:hover {
       padding: 15px 0 0; } }
   @media screen and (min-width: 1024px) {
     .editorial_links {
-      width: 30%; } }
+      width: 30%;
+      padding: 50px 0 0; } }
 
 .view_website {
   font-family: "Montserrat", sans-serif;
@@ -1220,7 +1227,7 @@ a.js_hover_trigger2:hover {
   @media screen and (min-width: 750px) {
     .view_website {
       padding: 0 0 15px;
-      font-size: 24px !important; } }
+      font-size: 16px !important; } }
 
 .small_beta, .themealpha_small_beta {
   border-bottom: 1px solid #eee;
@@ -1310,6 +1317,11 @@ a.js_hover_trigger2:hover {
   @media screen and (min-width: 1320px) {
     .project_details {
       width: 70%; } }
+
+.nobgcolor {
+  background: transparent;
+  color: #070707;
+  margin: 0; }
 
 .project_details_title {
   font-size: 20px !important; }
@@ -4049,6 +4061,17 @@ a.pagination_links:hover {
     @media screen and (min-width: 750px) {
       .page-header-02 .header-02-text {
         font-size: 22px; } }
+
+.single-thumbnail {
+  margin-bottom: 25px; }
+  @media screen and (min-width: 750px) {
+    .single-thumbnail {
+      width: 31%; } }
+  @media screen and (min-width: 1024px) {
+    .single-thumbnail {
+      width: 250px;
+      margin-right: 25px;
+      margin-bottom: 25px; } }
 
 /**
  * Syntax highlighting styles

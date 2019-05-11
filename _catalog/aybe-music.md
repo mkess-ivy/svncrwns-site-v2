@@ -2,6 +2,9 @@
 layout: work-blocks-layout
 title: "Aybe Music"
 season: "4"
+
+masthead-image: /dist/images/home-slide-2.jpg
+
 category: photo
 seo-description: SVNCRWNS worked with Aybe to complete photography shoots for the artist's brand.  Check out the photography used a single cover for Aybe's latest single, Distance.
 seo-keywords: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects
@@ -28,13 +31,12 @@ page_sections:
   - image-name: "/dist/images/aybemusic_4.png"
   - image-name: "/dist/images/aybemusic_5.png"
   - image-name: "/dist/images/aybemusic_6.png"
-- template: block-credits
-  block: credits
-  credits-title: Aybe Music Photography
-  contributions:
+- template: credits002
+  block: credits002
+  credits:
   - position: Photography
-    person: SVNCRWNS
+    name: SVNCRWNS
   - position: Creative Direction
-    person: Taylor's Barbershop
+    name: SVNCRWNS
 ---
 

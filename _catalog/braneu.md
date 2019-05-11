@@ -2,6 +2,9 @@
 layout: work-blocks-layout
 title: "Branëu"
 season: "4"
+
+masthead-image           : /dist/images/braneu-cover.jpg
+
 category: website
 portfolio-grid: need
 seo-description: SVNCRWNS worked with Braneu to take their idea to an e-commerce platform featuring their collection of mens, womens and childrens clothing.
@@ -9,6 +12,9 @@ seo-keywords: production company, svncrwns, e-commerce, women-owned businesses, 
 work-tags 							: "web design + development"
 work-space 							: "client"
 portfolio-cover						: /dist/images/braneu-cover.jpg
+
+project-links: 
+- website: http://www.braneu.com
 
 page_sections:
 - template: project-meta
@@ -34,14 +40,11 @@ page_sections:
   - image-name: /dist/images/braneu-project-3.png
     image-caption-title: Responsive Design is not optional!
     image-caption: Browsing on mobile devices is the leader for how users are consuming information.  Having our platforms accessible on all devices with simple user experiences is always our main goal.  Don't lose sales because the user experience for mobile browsing is inadequate.
-- template: credits
-  block: credits
-  credits-title: Braneu Website
-  contributions:
+- template: credits002
+  block: credits002
+  website-link: http://www.google.com
+  credits:
   - position: E-commerce Web Design & Development
-    person: SVNCRWNS
-- template: project-links
-  block: project-links
-  website-link: http://www.braneu.com  
+    name: SVNCRWNS
 
 ---

@@ -1,0 +1,43 @@
+{% if section.project-details-cover %}
+	<section class="project_details_section">
+		
+		<div class="project_details nobgcolor">
+			
+			<div class="project_details_title">Project Details</div>
+			<div class="frow justify-between">
+				<div class="themealpha_small_beta">
+				    <div class="themealpha_project_info_wrapper">
+						<div class="themealpha_project_header_text">01. About this Project</div>
+				    </div>
+				    <div class="themebeta_title_description">
+						{{ section.summary }}
+				    </div>
+				</div>
+				<div class="themealpha_small_beta">
+				    <div class="themealpha_project_info_wrapper">
+						<div class="themealpha_project_header_text">02. Opportunity</div>
+				    </div>
+				    <div class="themebeta_title_description">
+						{{ section.opportunity }}
+				    </div>
+				</div>
+				<div class="themealpha_small_beta">
+				    <div class="themealpha_project_info_wrapper">
+						<div class="themealpha_project_header_text">03. Insights</div>
+				    </div>
+				    <div class="themebeta_title_description">
+						{{ section.insights }}
+				    </div>
+				</div>
+				<div class="themealpha_small_beta">
+				    <div class="themealpha_project_info_wrapper">
+						<div class="themealpha_project_header_text">04. Solution</div>
+				    </div>
+				    <div class="themebeta_title_description">
+						{{ section.solution }}
+				    </div>
+				</div>		
+			</div>
+		</div>
+	</section>
+	{% endif %}

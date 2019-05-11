@@ -1,3 +1,5 @@
+
+
 {% if page.collection %}
     {% assign links = site[page.collection]  %}
 {% endif %}
@@ -22,7 +24,7 @@ document.body.onkeyup = function(e){
 <section class="pagination002 dipper goSlow">
 	{% if prev %}
 	<div class="single-pagination">
-		<div class="pagination002-title">Previous Journal</div>
+		<div class="pagination002-title">Previous {{ include.name }}</div>
 		
 		<div class="pagination002-project js_hover_trigger2">
 			<a href="{{ prev.url }}" class="hover-link">
@@ -34,7 +36,7 @@ document.body.onkeyup = function(e){
 	{% endif %}
 	{% if next %}
 	<div class="single-pagination">
-		<div class="pagination002-title">Next Journal</div>
+		<div class="pagination002-title">Next {{ include.name }}</div>
 		
 		<div class="pagination002-project js_hover_trigger2"><a href="{{ next.url }}" class="hover-link">
 			{{ next.title }}

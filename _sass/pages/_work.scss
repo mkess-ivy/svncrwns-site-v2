@@ -163,7 +163,15 @@
     }
   }
 }
-// .portfolio_grid_work {
-// 	margin-bottom: 12em;
-// }
 
+.single-thumbnail {
+	margin-bottom: 25px;
+	@include tablet {
+		width: 31%;
+	}
+	@include desktop {
+		width: 250px;
+		margin-right: 25px;
+		margin-bottom: 25px;
+	}
+}

@@ -3,6 +3,9 @@ layout: work-blocks-layout
 title: "Noisy Tenants"
 season: "4"
 category: website 
+
+masthead-image: /dist/images/noisytenants-cover.jpg
+
 seo-description: SVNCRWNS has worked with Noisy Tenants to create a brand identity, partner on in-house projects, and launch its platform to share their company's work + mission.
 seo-keywords: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects
 portfolio-cover: /dist/images/noisytenants-cover.jpg
@@ -36,16 +39,13 @@ page_sections:
     image-caption-title: 100% Responsive
     image-caption: Because users will mostly experience your website from their phones, the mobile phone deserves a unique experience of its own.  All pages designed for best viewing pleasure on mobile, tablet and desktop devices.
   - image-name: /dist/images/noisytenants-editorial-5.jpg
-- template: credits
-  block: credits
-  credits-title: Noisy Tenants Website
-  contributions:
-  - position: Website Design
-    person: Noisy Tenants & SVNCRWNS
-  - position: Website Development
-    person: SVNCRWNS
-- template: project-links
-  block: project-links
+- template: credits002
+  block: credits002
   website-link: http://www.noisytenants.com
   code-link: https://github.com/nickmtchl/nickmtchl.github.io
+  credits:
+  - position: Website Design
+    name: Noisy Tenants & SVNCRWNS
+  - position: Website Development
+    name: SVNCRWNS
 ---

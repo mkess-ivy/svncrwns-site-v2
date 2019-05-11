@@ -3,6 +3,9 @@ layout: work-blocks-layout
 title: Taylor's Barbershop
 season: 4
 category: website
+
+masthead-image: "/dist/images/taylorsbarbershop-website-mockup.jpg"
+
 seo-description: SVNCRWNS has worked with serial entrepreneur, Dawayne Taylor, to
   launch three of his latest ventures.  Taylors Barbershop is an upscale barbershop
   space serving the Richmond, Virginia area.
@@ -83,16 +86,13 @@ page_sections:
       line that is sourced nationally, is also used in the barbershop.  Products include
       oils, beard butters, and an assortment of pomades to get your finished look
       while on-the-go.
-- template: block-credits
-  block: credits
-  credits-title: Taylor's Barbershop Website
-  contributions:
-  - position: Website Design
-    person: SVNCRWNS
-  - position: Photography
-    person: Taylor's Barbershop
-- template: project-links
-  block: project-links
+- template: credits002
+  block: credits002
   website-link: https://www.taylorbarbershop.com
+  credits:
+  - position: Website Design
+    name: SVNCRWNS
+  - position: Photography
+    name: Taylor's Barbershop
 
 ---
