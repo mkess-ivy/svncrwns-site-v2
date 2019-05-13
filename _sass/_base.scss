@@ -66,6 +66,7 @@ a {
   &:hover {
     color: $off-black;
     border-bottom: 1px solid;
+    cursor: url('/dist/images/cursor-circle.png'), auto;
   }
 }
 a.no-line {

@@ -1,0 +1,46 @@
+---
+layout: journal002
+title: Starting a Brand
+masthead-image: "/dist/images/post-starting-a-brand.jpg"
+summary: Living in Baltimore is an artful experience.  This city is a mecca for young artists of all kinds of disciplines.  Coming together to celebrate each other, experience art and make great connections, that's just a piece of what the city has to offer.  Producer + Visionary, Cheyanne Givens, gifted the city with an experience to celebrate male space + artistry.  Check out our recap of Delicate Baltimore
+
+featured_image: "/dist/images/post-starting-a-brand.jpg"
+featured_summary: "Living in Baltimore is an artful experience.  This city is a mecca for young artists of all kinds of disciplines.  Coming together to celebrate each other, experience art and make great connections, that's just a piece of what the city has to offer.  Producer + Visionary, Cheyanne Givens, gifted the city with an experience to celebrate male space + artistry.  Check out our recap of Delicate Baltimore"
+
+page_sections:
+- template: journal-image
+  block: journal-image
+  journal-image: /dist/images/post_delicate_2.jpg
+- template: journal-image
+  block: journal-image
+  journal-image: /dist/images/post_delicate_3.png
+- template: journal-image
+  block: journal-image
+  journal-image: /dist/images/post_delicate_4.jpg
+- template: journal-image
+  block: journal-image
+  journal-image: /dist/images/post_delicate_5.jpg
+- template: journal-image
+  block: journal-image
+  journal-image: /dist/images/post_delicate_6.jpg
+- template: journal-image
+  block: journal-image
+  journal-image: /dist/images/post_delicate_7.jpg
+- template: journal-image
+  block: journal-image
+  journal-image: /dist/images/post_delicate_8.jpg
+- template: journal-image
+  block: journal-image
+  journal-image: /dist/images/post_delicate_9.jpg
+- template: journal-image
+  block: journal-image
+  journal-image: /dist/images/post_delicate_10.jpg
+- template: credits002
+  block: credits002
+  credits:
+  - position: Photography
+    name: SVNCRWNS
+  - position: Event Curation
+    name: WVRDROBE
+---
+

@@ -91,8 +91,10 @@ page_sections:
   website-link: https://www.taylorbarbershop.com
   credits:
   - position: Website Design
-    name: SVNCRWNS
+    names:
+    - name: SVNCRWNS
   - position: Photography
-    name: Taylor's Barbershop
+    names:
+    - name: Taylor's Barbershop
 
 ---

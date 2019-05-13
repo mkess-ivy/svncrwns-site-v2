@@ -6,24 +6,13 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 10 May 2019 23:51:41 -0400</pubDate>
-    <lastBuildDate>Fri, 10 May 2019 23:51:41 -0400</lastBuildDate>
+    <pubDate>Sun, 12 May 2019 20:34:04 -0400</pubDate>
+    <lastBuildDate>Sun, 12 May 2019 20:34:04 -0400</lastBuildDate>
     <generator>Jekyll v3.6.3</generator>
     
       <item>
-        <title>New Journal layout Testing the Website 002 // Draft 001</title>
+        <title>SVNCRWNS visits Art &amp; Practice &amp; Mark Bradfor Studio</title>
         <description>
-</description>
-        <pubDate>Wed, 08 May 2019 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/journal/new-journal-layout/</link>
-        <guid isPermaLink="true">http://localhost:4000/journal/new-journal-layout/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>SVNCRWNS visits Art &amp; Practice, Studio Visit w/ Mark Bradford</title>
-        <description>&lt;p&gt;Check out our talk by way of &lt;a href=&quot;http://www.localcolorpodcast.com/2018/01/26/episode-51-creative-mornings-panel/&quot;&gt;Local Color Podcast&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 01 May 2019 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/journal/svncrwns-visits-art-practice/</link>
@@ -44,7 +33,7 @@
       </item>
     
       <item>
-        <title>SVNCRWNS.com - Gets a Facelift with New User Experience + More Information</title>
+        <title>Our Website Gets New User Experience</title>
         <description>
 </description>
         <pubDate>Mon, 17 Dec 2018 00:00:00 -0500</pubDate>
@@ -99,17 +88,6 @@
       </item>
     
       <item>
-        <title>Starting a Brand</title>
-        <description>
-</description>
-        <pubDate>Thu, 12 Jul 2018 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/journal/starting-a-brand/</link>
-        <guid isPermaLink="true">http://localhost:4000/journal/starting-a-brand/</guid>
-        
-        
-      </item>
-    
-      <item>
         <title>The Production Company is Branding Itself</title>
         <description>&lt;div class=&quot;archive_header js_scroll_reveal&quot;&gt;
     Resources
@@ -128,6 +106,28 @@
         <pubDate>Tue, 10 Jul 2018 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/journal/branding-our-business/</link>
         <guid isPermaLink="true">http://localhost:4000/journal/branding-our-business/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>SVNCRWNS covers Baltimore's Gifted Photo Shoot</title>
+        <description>
+</description>
+        <pubDate>Mon, 23 Apr 2018 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/journal/svncrwns-covers-baltimores-gifted/</link>
+        <guid isPermaLink="true">http://localhost:4000/journal/svncrwns-covers-baltimores-gifted/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>SVNCRWNS screens film at Exhibit Opening in Brooklyn, New York</title>
+        <description>
+</description>
+        <pubDate>Fri, 23 Feb 2018 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/journal/our-brothers-keeper-event/</link>
+        <guid isPermaLink="true">http://localhost:4000/journal/our-brothers-keeper-event/</guid>
         
         
       </item>

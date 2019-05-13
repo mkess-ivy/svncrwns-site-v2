@@ -35,8 +35,10 @@ page_sections:
   block: credits002
   credits:
   - position: Photography
-    name: SVNCRWNS
+    names:
+    - name: SVNCRWNS
   - position: Creative Direction
-    name: SVNCRWNS
+    names:
+    - name: SVNCRWNS
 ---
 

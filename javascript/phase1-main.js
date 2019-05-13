@@ -16,7 +16,7 @@
         } else {
             $goSlow.removeClass('js-goslow');
         }
-    }, {offset: '80%'});
+    }, {offset: '30%'});
 
     var $workFade =  $('.workFade');
     $workFade.waypoint(function (direction) {
@@ -54,7 +54,67 @@ $(document).ready(function(){
         $('.js_bg_receiver_work2', this).removeClass('hover');
     });
 
-    
+    // Hover Feature - Pagination
+    $('.js_hover_trigger_backstage').hover(function(){
+        $('.js_bg_receiver_work_backstage', this).addClass('hover');
+    },function(){
+        $('.js_bg_receiver_work_backstage', this).removeClass('hover');
+    });
+
+    // Hover on Backstage Projects
+    $('.js-baltimore').hover(function() {
+        $('.js-backstage-img').addClass('baltimore');
+    }, function() {
+        $('.js-backstage-img').removeClass('baltimore');
+    });
+
+    $('.js-believing-takes-time').hover(function() {
+        $('.js-backstage-img').addClass('believing-takes-time');
+    }, function() {
+        $('.js-backstage-img').removeClass('believing-takes-time');
+    });
+
+    $('.js-cityofgods').hover(function() {
+        $('.js-backstage-img').addClass('cityofgods');
+    }, function() {
+        $('.js-backstage-img').removeClass('cityofgods');
+    });
+
+    $('.js-fambma').hover(function() {
+        $('.js-backstage-img').addClass('fambma');
+    }, function() {
+        $('.js-backstage-img').removeClass('fambma');
+    });
+
+    $('.js-famwalters').hover(function() {
+        $('.js-backstage-img').addClass('famwalters');
+    }, function() {
+        $('.js-backstage-img').removeClass('famwalters');
+    });
+
+    $('.js-humble').hover(function() {
+        $('.js-backstage-img').addClass('humble');
+    }, function() {
+        $('.js-backstage-img').removeClass('humble');
+    });
+
+    $('.js-obk').hover(function() {
+        $('.js-backstage-img').addClass('obk');
+    }, function() {
+        $('.js-backstage-img').removeClass('obk');
+    });
+
+    $('.js-renegade').hover(function() {
+        $('.js-backstage-img').addClass('renegade');
+    }, function() {
+        $('.js-backstage-img').removeClass('renegade');
+    });
+
+    $('.js-warisover').hover(function() {
+        $('.js-backstage-img').addClass('warisover');
+    }, function() {
+        $('.js-backstage-img').removeClass('warisover');
+    });
 
 
     // Wait for window load

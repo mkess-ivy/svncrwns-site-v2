@@ -27,4 +27,4 @@ page_sections:
   position: 58%
 
 ---
-Leave us some details about what you’re interested in below, or send us an \[email\](mailto:hello@svncrwns.com).  We typically respond within 72 hours.
+Leave us some details about what you’re interested in below, or send us an email.  We typically respond within 72 hours.

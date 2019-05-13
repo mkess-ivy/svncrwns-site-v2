@@ -1,23 +1,22 @@
 ---
-layout: work-blocks-layout
+layout: backstage-blocks-layout
 title: "Believing Takes Time Youth Exhibit"
 season: "4"
 category: event
+
+backstage-class: believing-takes-time
+
 seo-description: SVNCRWNS curated and produced a photography exhibit, Believing takes Time, inviting youth artists from their photography workshop series to showcase and sell their work.
 seo-keywords: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects
 
 portfolio-cover: /dist/images/btt-project-1.jpg
 work-tags: "curriculum + event"
 work-space: "in-house"
+backstage-summary: Believing Takes Time is a youth photography exhibit that was presented to share the photography work of several young girls (ages 7 - 13) that participated in the 12-week Youth Photography Workshop hosted by SVNCRWNS + Greenmount West Community Center (GWCC). The work was on display at Gallery CA May 3 - May 25 2018. 
 
 page_sections:
-- template: project-meta
-  block: project-meta
-  brand-statement: "Working with youth in Greenmount West Community Center, bonding with young women, sharing art skills + how to make money"
-  category: event
-- template: project-details
-  block: project-details
-  project-details-cover: btt-project-details.png
+- template: project-details002
+  block: project-details002
   summary: "Believing Takes Time is a youth photography exhibit that was presented to share the photography work of several young girls (ages 7 - 13) that participated in the 12-week Youth Photography Workshop hosted by SVNCRWNS + Greenmount West Community Center (GWCC). The work was on display at Gallery CA May 3 - May 25 2018."
   opportunity: "Before the exhibit and workshop, SVNCRWNS had been spending time at the community center using the space as an office to complete our work. We learned about their summer camp and upcoming fall/winter programming that would be kicking off soon.<br/> After meeting many of the kids in the space, we thought of ways we could impact them. It was important to not just share fun activities with the kids, but to also introduce them to new hobbies and share entrepreneurial skills. Of all the instructors in the space, 90% were entrepreneurs extending themselves as resources to the community center."
   insights: "Although the neighborhood has gained new energy and resources in the community due to the newly developed real estate, the bleak reality for a lot of folks in urban America is living in poverty. Poverty is a huge topic to unpack, but as innovators and resource connectors, we used our time in the center to create curriculum that would be interesting and opportunity-driven - we presented artrepreneurship to the youth. The idea of artrepreneurship is very important, especially in resource-stricken environments. To change your reality by creating opportunities for self is no small task.<br/>As youth between the ages of 7 - 13, we thought this was a great age range to introduce different art skills that could be used to create income. Very quickly, we landed on photography. Our goals were to learn the fundamentals of photography, receive camera and film equipment for real-world practice, learn to see using your photography eye to create a collection of photos and then figure out ways to sell our art."
@@ -33,20 +32,25 @@ page_sections:
   - image-name: /dist/images/btt-project-4.png
     image-caption-title: Art for sale - Youth Artists Make Sales from local exhibit
     image-caption: 100+ black and white and color photos were printed ranging from sizes 4x6 to 20x24. We sold about 35% of our inventory after the show closed, and the kids made $350+ collectively.
-- template: credits
-  block: credits
-  credits-title: Believing Takes Time Workshop & Exhibit
-  contributions:
+- template: credits002
+  block: credits002
+  credits:
   - position: Exhibit Curation
-    person: SVNCRWNS
+    names:
+    - name: SVNCRWNS
   - position: Creative Direction & Installation
-    person: SVNCRWNS
+    names:
+    - name: SVNCRWNS
   - position: Workshop Facilitator
-    person: SVNCRWNS
+    names:
+    - name: SVNCRWNS
   - position: Workshop Speakers
-    person: Neptune, Shann Wallace
+    names:
+    - name: Neptune, Shann Wallace
   - position: Camera Donations
-    person: Devin Allen
+    names:
+    - name: Devin Allen
   - position: Food Sponsors
-    person: Crust by Mack, Jessica Clark
+    names:
+    - name: Crust by Mack, Jessica Clark
 ---

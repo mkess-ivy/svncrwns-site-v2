@@ -45,7 +45,9 @@ page_sections:
   code-link: https://github.com/nickmtchl/nickmtchl.github.io
   credits:
   - position: Website Design
-    name: Noisy Tenants & SVNCRWNS
+    names:
+    - name: Noisy Tenants & SVNCRWNS
   - position: Website Development
-    name: SVNCRWNS
+    names:
+    - name: SVNCRWNS
 ---

@@ -152,6 +152,8 @@
 	background: transparent;
 	color: $off-black;
 	margin: 0;
+	padding: 60px 0;
+	// opacity: 0;
 }
 .project_details_title {
 	@extend .archive_header;

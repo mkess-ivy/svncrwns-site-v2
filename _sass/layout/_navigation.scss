@@ -352,6 +352,9 @@ ul.nav li a:hover::after {
         padding-bottom: 0;
       }
       a {
+
+        font-size: 14px;
+        font-style: italic;
         &:hover {
           border-bottom: 2px solid $menu-link-hover;
         }
@@ -359,6 +362,8 @@ ul.nav li a:hover::after {
       &.themealpha-nav a {
         
         color: $menu-link-color;
+        font-size: 14px;
+        font-style: italic;
 
         &:hover {
           border-bottom: 2px solid $menu-link-hover;

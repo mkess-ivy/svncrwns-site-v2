@@ -1,0 +1,12 @@
+<div class="grid">
+	<div class="themealpha-home-section-title backstage">Backstage</div>
+</div>
+<section class="backstage-work js-backstage-img">
+	<ul>
+		{% for item in site.backstage %}
+		<li class="backstage-title">
+			<a href="{{ item.url }}" class="js-{{ item.backstage-class }}">{{ item.title }}</a>
+		</li>
+		{% endfor %}
+	</ul>
+</section>

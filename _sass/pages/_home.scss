@@ -348,6 +348,10 @@
   @include laptop {
     padding: 25px 0 0;
   }
+  &.backstage {
+    margin-bottom: -2.7em;
+    font-style: italic;
+  }
 }
 .home-lastrow {
   margin-bottom: 45px;

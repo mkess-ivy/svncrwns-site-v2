@@ -45,6 +45,7 @@ page_sections:
   website-link: http://www.google.com
   credits:
   - position: E-commerce Web Design & Development
-    name: SVNCRWNS
+    names:
+    - name: SVNCRWNS
 
 ---

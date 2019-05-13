@@ -36,10 +36,13 @@ page_sections:
   block: credits002
   credits:
   - position: Talent
-    name: Jade Flower Foster
+    names:
+    - name: Jade Flower Foster
   - position: Creative Direction
-    name: SVNCRWNS
+    names:
+    - name: SVNCRWNS
   - position: Photography
-    name: SVNCRWNS
+    names:
+    - name: SVNCRWNS
 ---
 

@@ -5,6 +5,8 @@ title 							: "City of Gods x Arabbers"
 season                          : "1"
 category 						: film
 
+backstage-class: cityofgods
+
 [//]: # (SEO Information)
 seo-description: SVNCRWNS worked with City of Gods Shop to create a short film sharing the story of the Baltimore Arabbers, a multi-generational owned produce stand delivering fresh food throughout Baltimore, MD.
 
@@ -27,4 +29,4 @@ work-tags 							: "documentary, short film, brand lifestyle content"
 work-cover							:
 work-space 							: "client"
 ---
-{% include components/film.html film-url="https://player.vimeo.com/video/208178444?api=1" %}
+{% include components/block-film.html film-url="https://player.vimeo.com/video/208178444?api=1" %}

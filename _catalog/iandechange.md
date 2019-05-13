@@ -48,7 +48,8 @@ page_sections:
   website-link: http://www.iandechange.com
   credits:
   - position: Wed Design & Code
-    name: SVNCRWNS
+    names:
+    - name: SVNCRWNS
 ---
 
 

@@ -40,13 +40,14 @@ page_sections:
   - image-name: /dist/images/gwcc-project-4.png
     image-caption-title: 20+ Page Website
     image-caption: Hi-resolution photography, HTML5 fullscreen videos, menu overlays, a custom map of the Greenmount West Community with map markers by way of the MapBox API, and more features.
-- template: credits
-  block: credits
-  credits-title: GWCC Website + Content
-  contributions:
+- template: credits002
+  block: credits002
+  credits:
   - position: Custom Site Design + Development
-    person: SVNCRWNS
+    names:
+    - name: SVNCRWNS
   - position: Photography
-    person: SVNCRWNS
+    names:
+    - name: SVNCRWNS
 
 ---

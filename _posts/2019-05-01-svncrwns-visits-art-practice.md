@@ -1,6 +1,6 @@
 ---
 layout: journal002
-title: SVNCRWNS visits Art & Practice, Studio Visit w/ Mark Bradford
+title: SVNCRWNS visits Art & Practice & Mark Bradfor Studio
 summary: SVNCRWNS is invited to talk with Creative Mornings Baltimore on the theme of 'Context', their work in the community and what they are planning with the Baltimore Museum of Art x Mark Bradford partnership
 masthead-image: /dist/images/post-svncrwns-visits-art-practice.jpg
 
@@ -14,10 +14,57 @@ featured_summary: "SVNCRWNS is invited to talk with Creative Mornings Baltimore 
 page_sections:
 - template: journal-text
   block: journal-text 
-  text-block-title: SVNCRWNS speaks at Creative Mornings
-  text-block-summary: We were invited to talk at Creative Mornings in Baltimore, MD about the theme of "Context".  We touched on our recent trip to Los Angeles to visit abstract artist, Mark Bradford, and talked about what our work means to us and what inspires us to continue to focus on building and expanding on community resources.
+  text-block-title: Tour of Art + Practice & The Studio
+  text-block-summary: Our first stop was to tour The Studio where Mark Bradford makes his art with the team.  After seeing demos of new projects and getting a tutorial on new video equipment, we  took a walk throughout Leimert Park to see the entire campus and all of the developments that are happening.  Next we toured Art + Practice and First Place for Youth, a nonprofit that helps foster kids become self-sufficient into adulthood.  We met the entire Art + Practice & Studio team and they showed us a good time in Los Angeles.
 - template: journal-image
   block: journal-image
-  journal-image: "/dist/images/post_creative_mornings.jpg"
+  journal-image: "/dist/images/post-svncrwns-visits-art-practice017.jpg"
+- template: journal-image
+  block: journal-image
+  journal-image: "/dist/images/post-svncrwns-visits-art-practice001.jpg"
+- template: journal-image
+  block: journal-image
+  journal-image: "/dist/images/post-svncrwns-visits-art-practice002.jpg"
+- template: journal-image
+  block: journal-image
+  journal-image: "/dist/images/post-svncrwns-visits-art-practice003.jpg"
+- template: journal-image
+  block: journal-image
+  transform: yes
+  journal-image: "/dist/images/post-svncrwns-visits-art-practice004.JPG"
+- template: journal-image
+  block: journal-image
+  journal-image: "/dist/images/post-svncrwns-visits-art-practice005.jpg"
+- template: journal-image
+  block: journal-image
+  journal-image: "/dist/images/post-svncrwns-visits-art-practice006.jpg"
+- template: journal-image
+  block: journal-image
+  journal-image: "/dist/images/post-svncrwns-visits-art-practice007.jpg"
+- template: journal-image
+  block: journal-image
+  journal-image: "/dist/images/post-svncrwns-visits-art-practice008.jpg"
+- template: journal-image
+  block: journal-image
+  journal-image: "/dist/images/post-svncrwns-visits-art-practice009.jpg"
+- template: journal-image
+  block: journal-image
+  journal-image: "/dist/images/post-svncrwns-visits-art-practice010.jpg"
+- template: journal-image
+  block: journal-image
+  journal-image: "/dist/images/post-svncrwns-visits-art-practice011.jpg"
+- template: journal-image
+  block: journal-image
+  journal-image: "/dist/images/post-svncrwns-visits-art-practice012.jpg"
+- template: journal-image
+  block: journal-image
+  journal-image: "/dist/images/post-svncrwns-visits-art-practice013.jpg"
+- template: journal-image
+  block: journal-image
+  transform: yes
+  journal-image: "/dist/images/post-svncrwns-visits-art-practice014.jpg"
+- template: journal-image
+  block: journal-image
+  transform: yes
+  journal-image: "/dist/images/post-svncrwns-visits-art-practice015.jpg"
 ---
-Check out our talk by way of [Local Color Podcast](http://www.localcolorpodcast.com/2018/01/26/episode-51-creative-mornings-panel/)

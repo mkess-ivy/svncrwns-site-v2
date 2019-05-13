@@ -8,7 +8,6 @@ seo-description: SVNCRWNS teams up with Her Sweet Release 2018
 seo-keywords: svncrwns, media coverage, event coverage, festival coverage, recap video production, videography production
 
 featured_image: /dist/images/post-hersweetrelease-001.jpg
-featured_summary: "We took a recent trip to visit NYC.  Whenever we visit other cities, one of our favorite stops is to check out the galleries, museums or new exhibitions.  We really love meeting new artists and checking out their work.  The Brooklyn Museum is high on our list for things to do when in NYC.  Check out some of our documented experience in the recap below."
 
 page_sections: 
 - template: journal-image
@@ -16,7 +15,11 @@ page_sections:
   journal-image:
 - template: journal-image
   block: journal-image
-  journal-image:
+  journal-image: /dist/images/post-hersweetrelease.jpg
+- template: journal-text
+  block: journal-text
+  text-block-title: Her Sweet Release tags SVNCRWNS for NYE Celebration
+  text-block-summary: SVNCRWNS Co-founder, Montier Kess and Good Quemistry founder, Bakari Jones pictured at the first Her Sweet Release event in 2017.  SVNCRWNS was honored to celebrate and document the experience at Her Sweet Release for the Inaugral New Years Eve 2018 event.  Check our recap below.
 - template: journal-video
   block: journal-video
   vimeo-code: 335487393

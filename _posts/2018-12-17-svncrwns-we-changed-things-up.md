@@ -1,13 +1,13 @@
 ---
 layout: journal002
-title: SVNCRWNS.com - Gets a Facelift with New User Experience + More Information
+title: Our Website Gets New User Experience
 summary:  At one point, we just had a portfolio of work online.  Now, we're taking steps to give our users more information about our service, culture and goals as a company.
 masthead-image: /dist/images/post-svncrwns-changed-cover002.jpg
 seo-description: SVNCRWNS shares their process as they are improving their company and preparing to approach their clients with better services and better marketing.
 
 seo-keywords: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects
 
-featured: true
+
 featured_image: /dist/images/post-svncrwns-website-updates.jpg
 featured_summary: "In our latest update, we’ve organized our work better, and defined which works were our own in-house projects and which were client projects.  We’ve also added new features for better user experience."
 

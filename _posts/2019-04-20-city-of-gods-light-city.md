@@ -8,6 +8,7 @@ seo-description: SVNCRWNS completes media coverage for City of Gods collaboratio
 
 seo-keywords: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects
 
+featured: true
 featured_image: /dist/images/cog-lightcity-1.jpg
 featured_summary: "Media coverage for City of Gods collaboration with Light City, April 2018"
 

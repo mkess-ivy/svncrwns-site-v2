@@ -46,31 +46,36 @@
   margin: 0 auto;
   position: relative;
   border-radius: 50%;
-  border: 4px solid $color-brand3;
-  color: $off-white;
-  background-color: $color-brand3 !important;
+  border: 4px solid $yellow;
+  color: $off-black;
+  background-color: $yellow !important;
+  padding: 2em 1.4em;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+  font-family: $font-brand4;
 }
 .play:hover {
   background: $color-brand5 !important;
   color: blue;
   cursor: pointer;
 }
-.play:after {
-  position: absolute;
-  content: "";
-  top: 50%;
-  margin-top: -15px;
-  left: 50%;
-  margin-left:  -8px;
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 15px 0 15px 20px;
-  border-color: transparent transparent transparent $off-white;
-  &:hover {
-      border-color: transparent transparent transparent blue;
-  }
-}
+// .play:after {
+//   position: absolute;
+//   content: "";
+//   top: 50%;
+//   margin-top: -15px;
+//   left: 50%;
+//   margin-left:  -8px;
+//   width: 0;
+//   height: 0;
+//   border-style: solid;
+//   border-width: 15px 0 15px 20px;
+//   border-color: transparent transparent transparent $off-black;
+//   &:hover {
+//       border-color: transparent transparent transparent blue;
+//   }
+// }
 .video-container {
   width: 90%;
   position: absolute;

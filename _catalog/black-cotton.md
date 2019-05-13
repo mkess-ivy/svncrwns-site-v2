@@ -31,12 +31,15 @@ page_sections:
   block: credits002
   credits:
   - position: Event Curation
-    name: Noisy Tenants
+    names:
+    - name: Noisy Tenants
   - position: Art Installation
-    name: SVNCRWNS
+    names:
+    - name: SVNCRWNS
   - position: Art Sponsor
-    name: Sankofa
+    names:
+    - name: Sankofa
   - position: Videography
-    name: SVNCRWNS
+    names:
+    - name: SVNCRWNS
 ---
-{% include components/film.html film-url="https://player.vimeo.com/video/256622459?api=1 " %}

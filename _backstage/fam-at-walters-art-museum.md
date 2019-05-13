@@ -6,6 +6,8 @@ season				            : "4"
 category						: photo
 portfolio-grid					: need
 
+backstage-class: famwalters
+
 [//]: # (SEO Information)
 seo-description: SVNCRWNS has worked with Fashion at Morgan, a modeling organization at Morgan State University, for several years as an advisor for their fall and spring fashion shows.
 

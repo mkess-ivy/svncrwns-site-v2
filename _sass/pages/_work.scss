@@ -107,7 +107,7 @@
   background-color: #fff;
   border-radius: 10px;
   border: 2px solid;
-  cursor: pointer;
+  cursor: url('/dist/images/cursor-circle.png'), auto;
   margin: 0 8px;
   font-family: $font-brand4;
   text-transform: uppercase;
@@ -115,8 +115,12 @@
   font-weight: bold;
   letter-spacing: 1.3px;
 }
+button:hover {
+	cursor: url('/dist/images/cursor-circle.png'), auto;
+}
 .btn:hover {
   background-color: $soft-red;
+  cursor: url('/dist/images/cursor-circle.png'), auto;
 }
 .btn.active {
   background-color: $off-black;
@@ -137,7 +141,7 @@
   animation-fill-mode: both;
 
   @include tablet {
-    margin: 10em auto;
+    margin: 10em auto 6em;
     max-width: 750px;
     width: 75%;  
   }
@@ -154,12 +158,14 @@
     }
   }
   .header-02-text {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.5;
     font-weight: 400;
+    width: 70%;
+    margin: auto;
 
     @include tablet {
-      font-size: 22px;  
+      // font-size: 22px;  
     }
   }
 }

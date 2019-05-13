@@ -52,15 +52,20 @@ page_sections:
   block: credits002
   credits:
   - position: Creative Direction
-    name: SVNCRWNS
+    names:
+    - name: SVNCRWNS
   - position: Photography
-    name: SVNCRWNS
+    names:
+    - name: SVNCRWNS
   - position: Editing
-    name: SVNCRWNS
+    names:
+    - name: SVNCRWNS
   - position: Videography
-    name: Kirby Griffin
+    names:
+    - name: Kirby Griffin
   - position: Videography
-    name: Dena Simmons
+    names:
+    - name: Dena Simmons
   
 ---
 

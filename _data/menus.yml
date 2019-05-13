@@ -26,7 +26,11 @@ header:
   title: Journal
   identifier: journal
   weight: 2
+- url: "/backstage"
+  title: Backstage
+  identifier: backstage
+  weight: 3
 - url: "/connect"
   title: Connect
   identifier: connect
-  weight: 3
+  weight: 4

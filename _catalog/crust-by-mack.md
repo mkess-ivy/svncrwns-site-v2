@@ -13,7 +13,6 @@ seo-keywords: production company, svncrwns, e-commerce, women-owned businesses, 
 summary: "Shot an interview for the founder of Crust by Mack to share new goals for the brand"
 portfolio-cover: /dist/images/crustbymack-1.jpg
 
-[//]: # (Overlay Menu Info)
 work-tags 							: "art direction, photography"
 work-cover							:
 work-space 							: "client"
@@ -39,8 +38,10 @@ page_sections:
   block: credits002
   credits:
   - position: Photography
-    name: Crust by Mack
+    names:
+    - name: Crust by Mack
   - position: Videography
-    name: SVNCRWNS
+    names:
+    - name: SVNCRWNS
 ---
 

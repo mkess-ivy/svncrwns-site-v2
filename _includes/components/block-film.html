@@ -1,0 +1,26 @@
+<div class="film-wrapper">
+
+  <div class="frow column-end">
+
+    <div class="film-project" style="background-image: url('{{ page.film-photo }}');">
+
+      <div class="svn-video-overlay">
+        <div class="frow centered">
+          <div class="video-container">
+              <button class="html5-close"><i class="fa fa-times fa-2x" aria-hidden="true"></i></button>
+            <iframe id="video" src="https://player.vimeo.com/video/{{page.vimeo-code}}?api=1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+
+      <div class="frow centered svn-play-btn-height">
+        <div class="svn-play-btn">
+          <span class="play catalog-play" id="video-fullscreen">play</span>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>

@@ -40,5 +40,6 @@ page_sections:
   website-link: http://www.ingramfamilyfoundation.org
   credits:
   - position: Web Design & Code
-    name: SVNCRWNS
+    names:
+    - name: SVNCRWNS
 ---

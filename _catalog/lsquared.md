@@ -38,5 +38,6 @@ page_sections:
   website-link: http://www.lsquarellc.com
   credits:
   - position: Web Design + Code
-    name: SVNCRWNS
+    names:
+    - name: SVNCRWNS
 ---
