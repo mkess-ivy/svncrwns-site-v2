@@ -324,16 +324,10 @@
 .themealpha-home-section-title {
   font-size: 38px;
   position: relative;
-  margin-bottom: -24px;
+  margin-bottom: -35px;
   z-index: 999;
   text-align: center;
-  // color: $off-white;
   color: $our-work-color;
-  // text-shadow:
-  //   -1px -1px 0 #000,
-  //   1px -1px 0 #000,
-  //   -1px 1px 0 #000,
-  //   1px 1px 0 #000;
   font-family: $font-brand4;
   font-weight: 700;
   text-transform: uppercase;
@@ -343,14 +337,26 @@
   }
   @include tablet {
     padding: 25px 0 0;
-    margin-bottom: -35px;
+    margin-bottom: -20px;
   }
   @include laptop {
     padding: 25px 0 0;
   }
+  @include tv {
+    margin-bottom: -35px;
+  }
   &.backstage {
     margin-bottom: -2.7em;
     font-style: italic;
+    font-size: 28px;
+
+    @include palm-mid {
+      text-align: center;
+    }
+    @include desktop {
+      text-align: initial;
+      font-size: 38px;
+    }
   }
 }
 .home-lastrow {

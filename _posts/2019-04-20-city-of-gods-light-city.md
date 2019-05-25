@@ -20,7 +20,9 @@ page_sections:
   block: credits002
   credits:
   - position: Videography
-    name: SVNCRWNS
+    names:
+    - name: SVNCRWNS
   - position: Photography
-    name: SVNCRWNS
+    names:
+    - name: SVNCRWNS
 ---

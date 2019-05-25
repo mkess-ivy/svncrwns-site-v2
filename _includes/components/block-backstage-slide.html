@@ -1,0 +1,7 @@
+<div class="featured_post">
+    <div class="journal-featured-slider">
+        {% for slide in page.backstage-slides %}
+        <div class="journal-slide" style="background-image: url('{{ slide.image }}');"></div>
+        {% endfor %}
+    </div>
+</div>

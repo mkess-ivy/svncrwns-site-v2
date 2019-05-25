@@ -3,7 +3,8 @@ layout: work-blocks-layout
 title: "I&E Change"
 season: "4"
 masthead-image: /dist/images/iandechange-cover.jpg
-category: website
+category: website, special-project
+portfolio-grid: need
 
 seo-description: SVNCRWNS has worked I&E Change to refine their brand identity and update their website.
 

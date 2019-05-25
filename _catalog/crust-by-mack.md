@@ -3,6 +3,7 @@ layout: work-blocks-layout
 title: "Crust by Mack"
 season: "4"
 category: film
+portfolio-grid: need
 
 masthead-image: /dist/images/crustbymack-1.jpg
 
@@ -17,12 +18,12 @@ work-tags 							: "art direction, photography"
 work-cover							:
 work-space 							: "client"
 
-summary: "Crust by Mack is a baker's brand for homemade sweet and savory hand pies by chef + baker, Amanda Mack. The brand has been very present in the local marketplaces for Baltimore's chefs and restaurant space. Established in 2015, Crust by Mack has received many accolades for its unique recipes and combination of flavors. We're excited for what the brand has in store for this upcoming year."
+summary: "Crust by Mack is a bakery that makes homemade sweet and savory hand pies by chef + baker, Amanda Mack."
 
 page_sections:
 - template: project-meta
   block: project-meta
-  brand-statement: Crust by Mack is a baker's brand for homemade sweet and savory hand pies by chef + baker, Amanda Mack. The brand has been very present in the local marketplaces for Baltimore's chefs and restaurant space. Established in 2015, Crust by Mack has received many accolades for its unique recipes and combination of flavors. We're excited for what the brand has in store for this upcoming year.
+  brand-statement: SVNCRWNS worked with Crust by Mack to produce an interview to launch her campaign for raising funds to open their bakery.
   category: film
 - template: journal-video
   block: journal-video

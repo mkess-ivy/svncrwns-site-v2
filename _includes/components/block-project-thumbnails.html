@@ -4,9 +4,9 @@
 
 		<div class="thumbnails-container">
 			<div class="frow justify-start">
-				{% for item in site.data.[section.thumbnails] %}
+				{% for item in section.thumbnails %}
 				<div class="single-thumbnail">
-					<img src=" {{ item.slide }}" />
+					<img src=" {{ item.image }}" />
 				</div>
 				{% endfor %}
 			</div>

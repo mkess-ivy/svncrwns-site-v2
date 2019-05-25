@@ -184,15 +184,17 @@ $(document).ready(function(){
                     arrows: false,
                     centerMode: true,
                     centerPadding: '30px',
-                    slidesToShow: 2
+                    slidesToShow: 1
                 }
             },
             {
-                breakpoint: 480,
+                breakpoint: 500,
                 settings: {
                     arrows: false,
                     centerMode: true,
                     centerPadding: '20px',
+                    speed: 300,
+                    autoplaySpeed: 3000,
                     slidesToShow: 1
                 }
             }
@@ -204,6 +206,8 @@ $(document).ready(function(){
         centerPadding: '80px',
         arrows: false,
         slidesToShow: 2,
+        autoplaySpeed: 1,
+        speed: 8000,
         responsive: [
             {
                 breakpoint: 768,
@@ -211,7 +215,7 @@ $(document).ready(function(){
                     arrows: false,
                     centerMode: true,
                     centerPadding: '50px',
-                    slidesToShow: 2
+                    slidesToShow: 1
                 }
             },
             {

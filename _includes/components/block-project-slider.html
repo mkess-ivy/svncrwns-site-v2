@@ -1,5 +1,5 @@
 <div class="phase1_slider">
-    {% for item in site.data[section.slider] %}
-      <div class="phase1_cover_slide" style="background-image:url('{{ item.slide }}')"></div>
+    {% for item in section.slides %}
+      <div class="phase1_cover_slide" style="background-image:url('{{ item.image }}')"></div>
     {% endfor %}
 </div>

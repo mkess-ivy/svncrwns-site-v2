@@ -2,7 +2,7 @@
 layout: work-blocks-layout
 title: Greenmount West CC
 season: 4
-category: website
+category: special-project, website
 masthead-image: "/dist/images/gwcc-cover.jpg"
 seo-description: SVNCRWNS has worked with Greenmount West Community Center to launch its digital platform, sharing the work and events being held at the center.
 seo-keywords: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects

@@ -5,7 +5,7 @@ season: "4"
 
 masthead-image: /dist/images/home-slide-2.jpg
 
-category: photo
+category: special-project, photo
 seo-description: SVNCRWNS worked with Aybe to complete photography shoots for the artist's brand.  Check out the photography used a single cover for Aybe's latest single, Distance.
 seo-keywords: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects
 summary: "branded photography content created for singer and songwriter, AYBE"
@@ -21,7 +21,7 @@ page_sections:
   work-space: client
   work-tags: "photography, artist development, brand management, brand strategy"
   brand-statement: Working with singer + songwriter, Aybe to create the single cover art for new song, and begin developing her brand identity.  
-  category: photo
+  category: special-project
 - template: editorial-image-ok
   block: editorial-image
   editorial-images:

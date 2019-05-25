@@ -38,25 +38,34 @@
   	-webkit-animation: fadeInTop 1s 0.5s linear both;
 
 	@include palm-mid {
-		width: 48%;
 		padding-bottom: 50px;
 	}
+	@include tablet {
+		width: 50%;		
+	}
 	@include laptop {
-		width: 31%;
+		width: 33%;
 	}
 	@include desktop {
 		width: 32%;
 	}
 
 	.portfolio_single_img {
-		height: 200px;
+		height: 250px;
 		background: black;
 		margin-bottom: 10px;
 		background-size: cover;
 		background-position: center;
 
+		@include palm-mid {
+			height: 320px;
+		}
+
 		@include laptop {
-			height: 350px;
+			height: 250px;
+		}
+		@include tv {
+			height: 320px;
 		}
 		&:hover {
 			filter: blur(1.5px)sepia(50%);
@@ -108,12 +117,18 @@
   border-radius: 10px;
   border: 2px solid;
   cursor: url('/dist/images/cursor-circle.png'), auto;
-  margin: 0 8px;
   font-family: $font-brand4;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: bold;
   letter-spacing: 1.3px;
+  margin: 10px auto;
+  display: block;
+
+  @include laptop {
+  	display: inline;
+  	margin: 0 10px;
+  }
 }
 button:hover {
 	cursor: url('/dist/images/cursor-circle.png'), auto;
@@ -129,51 +144,55 @@ button:hover {
 
 // Page Header 02 Component
 .page-header-02 {
-  margin: 4em 0; 
-  text-align: center;
-  animation-duration: 0.7s;
-  -webkit-animation-duration: 0.7s;
-  animation-delay: 0.3s;
-  -webkit-animation-delay: 0.3s;
-  animation-name: fadeAppear;
-  -webkit-animation-name: fadeAppear;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
+	margin: 4em 0; 
+	text-align: center;
+	animation-duration: 0.7s;
+	-webkit-animation-duration: 0.7s;
+	animation-delay: 0.3s;
+	-webkit-animation-delay: 0.3s;
+	animation-name: fadeAppear;
+	-webkit-animation-name: fadeAppear;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
 
-  @include tablet {
-    margin: 10em auto 6em;
-    max-width: 750px;
-    width: 75%;  
-  }
-  .header-02-title {
-    padding-bottom: 25px;
-    text-transform: uppercase;
-    font-family: $font-brand4;
-    font-weight: 500;
-    font-size: 30px;
+	@include tablet {
+    	margin: 10em auto 6em;
+    	max-width: 750px;
+    	width: 75%;  
+  	}
 
-    @include tablet {
-      padding-bottom: 50px;
-      font-size: 36px;
-    }
-  }
-  .header-02-text {
-    font-size: 16px;
-    line-height: 1.5;
-    font-weight: 400;
-    width: 70%;
-    margin: auto;
+  	.header-02-title {
+    	padding-bottom: 25px;
+    	text-transform: uppercase;
+    	font-family: $font-brand4;
+    	font-weight: 500;
+    	font-size: 30px;
 
-    @include tablet {
-      // font-size: 22px;  
-    }
-  }
+    	@include tablet {
+      		padding-bottom: 50px;
+      		font-size: 36px;
+    	}
+  	}
+
+  	.header-02-text {
+    	font-size: 16px;
+    	line-height: 1.5;
+    	font-weight: 400;
+    	margin: auto;
+
+    	@include desktop {
+      		width: 75%;
+    	}
+	}
 }
 
 .single-thumbnail {
 	margin-bottom: 25px;
+	
 	@include tablet {
 		width: 31%;
+		margin-right: 10px;
+		margin-bottom: 10px;
 	}
 	@include desktop {
 		width: 250px;

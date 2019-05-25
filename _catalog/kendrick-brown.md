@@ -1,5 +1,4 @@
 ---
-[//]: # (Meta Info)
 layout: editorial-slide
 title: "Kendrick Brown"
 
@@ -26,10 +25,30 @@ page_sections:
   category: photo
 - template: project-slider
   block: project-slider
-  slider: kendrick_brown_slider
+  slides:
+  - image: /dist/images/kendrick_brown_slide1.jpg
+  - image: /dist/images/kendrick_brown_slide8.jpg
+  - image: /dist/images/kendrick_brown_slide2.jpg
+  - image: /dist/images/kendrick_brown_slide9.jpg
+  - image: /dist/images/kendrick_brown_slide3.jpg
+  - image: /dist/images/kendrick_brown_slide10.jpg
+  - image: /dist/images/kendrick_brown_slide4.jpg
+  - image: /dist/images/kendrick_brown_slide5.jpg
+  - image: /dist/images/kendrick_brown_slide6.jpg
+  - image: /dist/images/kendrick_brown_slide7.jpg
 - template: project-thumbnails
   block: project-thumbnails
-  thumbnails: kendrick_brown_slider
+  thumbnails:
+  - image: /dist/images/kendrick_brown_slide1.jpg
+  - image: /dist/images/kendrick_brown_slide8.jpg
+  - image: /dist/images/kendrick_brown_slide2.jpg
+  - image: /dist/images/kendrick_brown_slide9.jpg
+  - image: /dist/images/kendrick_brown_slide3.jpg
+  - image: /dist/images/kendrick_brown_slide10.jpg
+  - image: /dist/images/kendrick_brown_slide4.jpg
+  - image: /dist/images/kendrick_brown_slide5.jpg
+  - image: /dist/images/kendrick_brown_slide6.jpg
+  - image: /dist/images/kendrick_brown_slide7.jpg
 - template: credits002
   block: credits002
   credits:

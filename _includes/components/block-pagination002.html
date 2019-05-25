@@ -1,6 +1,6 @@
+{% assign portfolio-collection = page.collection | where: "portfolio-grid", "need" %}
 
-
-{% if page.collection %}
+{% if portfolio-collection %}
     {% assign links = site[page.collection]  %}
 {% endif %}
 
@@ -23,7 +23,7 @@ document.body.onkeyup = function(e){
 </script>
 
 <section class="pagination002 dipper goSlow">
-	<div class="frow centered">
+	<div class="grid">
 		{% if prev %}
 		<div class="single-pagination">
 			<div class="pagination002-title">Previous {{ include.name }}</div>
@@ -46,6 +46,6 @@ document.body.onkeyup = function(e){
 				</a>
 			</div>
 		</div>
+		{% endif %}
 	</div>
-	{% endif %}
 </section>

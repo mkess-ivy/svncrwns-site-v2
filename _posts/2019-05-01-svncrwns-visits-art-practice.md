@@ -1,6 +1,6 @@
 ---
 layout: journal002
-title: SVNCRWNS visits Art & Practice & Mark Bradfor Studio
+title: SVNCRWNS visits Art & Practice & Mark Bradford Studio
 summary: SVNCRWNS is invited to talk with Creative Mornings Baltimore on the theme of 'Context', their work in the community and what they are planning with the Baltimore Museum of Art x Mark Bradford partnership
 masthead-image: /dist/images/post-svncrwns-visits-art-practice.jpg
 

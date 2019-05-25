@@ -101,18 +101,15 @@
         }
     }
     .featured_summary {
-      font-family: $font-brand3;
-      letter-spacing: 0.5px;
-      font-size: 14px;
+        font-family: $font-brand3;
+        letter-spacing: 0.5px;
+        font-size: 14px;
       
-
-      @include tablet {
-          font-size: 20px;
-          line-height: 30px;
-
-      }
-    }
-    
+        @include tablet {
+            font-size: 20px;
+            line-height: 30px;
+        }
+    }   
 }
 // List of Posts
 .general_post {
@@ -120,11 +117,8 @@
     width: 100%;
 
     @include tablet {
-        width: 50%;
+        width: 49%;
         padding: 0 0 50px;
-    }
-    @include laptop {
-        width: 50%;
     }
     @include desktop-blah {
         width: 32%;
@@ -247,29 +241,29 @@
         padding: 10em 10em 0 3em;
     }
     @include laptop {
-        padding: 10em 17em 0 3em;
+        padding: 10em 20em 0 3em;
     }
     @include desktop {
-        padding: 15em 1em 15em 0;
+        padding: 20em 1em 20em;
         width: 32%;
         right: 0;
         position: fixed;
         transition: 200ms linear;
         -webkit-transition: 200ms linear;
     }
-    @include tv {
-        padding: 15em 11em 15em 0;
+    @include desktop-blah {
+        padding: 20em 3em 20em;
     }
 
     .journal-meta-title {
-        padding-bottom: 1.5em;
+        padding-bottom: 0.7em;
         font-family: $font-brand4;
         font-weight: $heavy;
         text-transform: uppercase;
-        font-size: 32px;
+        font-size: 26px;
         line-height: 1.2;
 
-        @include palm-mid {
+        @include tablet {
             font-size:40px;
         }
         @include laptop {
@@ -278,13 +272,14 @@
     }
     .journal-meta-summary {
         padding-bottom: 7em;
-        font-size: 20px;
+        font-size: 18px;
 
         @include palm-mid {
-            font-size: 24px;
+            font-size: 20px;
         }
         @include tablet {
             padding-bottom: 5em;
+            font-size: 22px;
         }
         @include desktop {
             font-size: 18px;
@@ -295,15 +290,19 @@
     @include desktop {
         width: 62%;
     }
+    @include desktop-blah {
+        width: 65%;
+    }
     .journal-masthead {
         background-size: cover;
         height: 70vh;
         width: 100%;
-        background-position: right top;
+        background-position: center center;
         margin-bottom: 10em;
 
         @include desktop {
             height: 100vh;
+            background-position: right top;
         }
     }
     .journal-text-block {
@@ -373,6 +372,8 @@
     }
 }
 .journal-video {
+    margin-bottom: 7em;
+
     @include desktop {
         margin-bottom: 10em;    
     }
@@ -648,26 +649,37 @@ a.pagination_links {
 }
 // Journal - Featured Post 02
 .featured_post_002 {
-  padding-bottom: 15em;
+  padding-bottom: 7em;
   animation: fadeAppear 0.7s 0.5s ease-in both;
   -webkit-animation: fadeAppear 0.7s 0.5s ease-in both;
 
+  @include laptop {
+    // padding-bottom: 15em;
+  }
+
   .featured_post_single {
-    width: 49%;
+    padding-bottom: 3em;
+    width: 100%;
 
-
+    @include tablet {
+        width: 49%;    
+    }
 
     .featured_post_image {
-      height: 65vh;
-      background-size: cover;
-      background-position-x: 65%;
-      margin-bottom: 20px;
+        height: 45vh;
+        background-size: cover;
+        background-position-x: 65%;
+        margin-bottom: 20px;
 
-      &:hover {
+        &:hover {
             filter: blur(3px);
             transition: 0.3s linear;
             transform: scale(0.999);
           
+        }
+
+        @include desktop {
+            height: 65vh;
         }
     }
     .featured_post_title {
@@ -686,11 +698,19 @@ a.pagination_links {
   font-family: $font-brand4;
   text-transform: uppercase;
   text-align: center;
-  padding-bottom: 12em;
+  padding-bottom: 8em;
   font-weight: 500;
 
+  @include laptop {
+    padding-bottom: 10em;
+  }
+
   .omega_title {
-    font-size: 40px;
+    font-size: 24px;
+    @include tablet {
+        font-size: 40px;    
+    }
+    
   }
 }
 

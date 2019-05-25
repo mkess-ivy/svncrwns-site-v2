@@ -1,0 +1,25 @@
+<section class="project_details_section ">
+	<div class="project_details_title">Extras</div>
+	<div class="thumbnails-container">
+		
+		{% for item in section.extras %}
+		<div class="extra-single">
+			<div class="frow justify-between">
+				<div class="backstage-extra-image">
+					<img src=" {{ item.image }}" />
+				</div>
+				
+				<div class="backstage-extra-content">
+					<div class="frow centered">
+						<div>
+							<div class="backstage-content-title">{{ item.title }}</div>
+							<div class="backstage-content-text">{{ item.text }}</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		{% endfor %}
+		
+	</div>
+</section>

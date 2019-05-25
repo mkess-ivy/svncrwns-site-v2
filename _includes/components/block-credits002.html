@@ -1,20 +1,22 @@
 <section class="block-credits002">
-	<div class="credits002-title">Credits</div>
+	<div class="grid">
+		<div class="credits002-title">Credits</div>
 
-	<div class="credits002-content">
-		{% for item in section.credits %}
-		<div class="single-credit">
-			<div class="single-position">
-				{{ item.position}}
-			</div>
-			{% for name in item.names %}
-			<div class="single-name">
-				{{ name.name }}
+		<div class="credits002-content">
+			{% for item in section.credits %}
+			<div class="single-credit">
+				<div class="single-position">
+					{{ item.position}}
+				</div>
+				{% for name in item.names %}
+				<div class="single-name">
+					{{ name.name }}
+				</div>
+				{% endfor %}
 			</div>
 			{% endfor %}
 		</div>
-		{% endfor %}
-	</div>
 
-	{% include components/block-project-links.html %}
+		{% include components/block-project-links.html %}
+	</div>
 </section>

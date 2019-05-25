@@ -3,7 +3,7 @@ layout: work-blocks-layout
 title: "AVAM Logan Conference"
 season: "4"
 masthead-image: /dist/images/catalog_avam_logan.jpg
-category: film
+category: special-project, film
 seo-description: SVNCRWNS worked with American Visionary Art Museum to produce media coverage for its annual Logan Visionary Conference.
 seo-keywords: production company, svncrwns, e-commerce, women-owned businesses, creative team, consulting, business operations, launch my brand, manage my brand, photography, videography, special projects
 summary: "media coverage for American Visionary Art Museum 2018 Visionary Conference"

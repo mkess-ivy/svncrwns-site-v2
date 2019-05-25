@@ -2,7 +2,7 @@
 layout: work-blocks-layout
 title: Taylor's Barbershop
 season: 4
-category: website
+category: website, special-project
 
 masthead-image: "/dist/images/taylorsbarbershop-website-mockup.jpg"
 
