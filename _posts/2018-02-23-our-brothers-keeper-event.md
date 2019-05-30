@@ -1,6 +1,6 @@
 ---
 layout: journal002
-title: SVNCRWNS screens film at Exhibit Opening in Brooklyn, New York
+title: SVNCRWNS screens film at Exhibit Opening in Brooklyn
 
 masthead-image: /dist/images/post-our-brothers-keeper010.png
 summary: SVNCRWNS is invited to collaborate with Baltimore Museum of Art, Greenmount West Community Center, Noisy Tenants and Mark Bradford.  Recap from Cocktail Party @ Ritz Carlton, Baltimore. October, 2017.

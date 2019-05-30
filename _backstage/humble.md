@@ -31,7 +31,6 @@ page_sections:
   block: project-thumbnails
   thumbnails:
   - image: /dist/images/catalog_humble.jpg
-  - image: /dist/images/catalog_humble.jpg
 - template: credits002
   block: credits002
   credits:

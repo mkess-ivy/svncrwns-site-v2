@@ -65,7 +65,7 @@
 	1px 1px 0 #000;
 	z-index: 0;
 	position: relative;
-	padding-bottom: 0.5em;
+	// padding-bottom: 0.5em;
 
 	@include tablet {
 		font-size: 40px;
@@ -73,6 +73,8 @@
 
 	a {
 		color: $off-white;
+		display: block;
+		padding: 0.1em 0;
 
 		&:hover {
 			color: $yellow;

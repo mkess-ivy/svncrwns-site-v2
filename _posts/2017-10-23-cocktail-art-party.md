@@ -1,6 +1,6 @@
 ---
 layout: journal002
-title: BMA Cocktail Art Party w/ Mark Bradford & GWCC to announce partnership
+title: BMA Cocktail Art Party w/ Mark Bradford & GWCC
 
 masthead-image: /dist/images/post-bma-cocktail-art-party.jpg
 summary: SVNCRWNS is invited to collaborate with Baltimore Museum of Art, Greenmount West Community Center, Noisy Tenants and Mark Bradford.  Recap from Cocktail Party @ Ritz Carlton, Baltimore. October, 2017.
