@@ -59,23 +59,26 @@
     width: 50%;
   }
   @include desktop {
-    width: 55%;
+    width: 60%;
     opacity: 0;
     height: calc(100vh - 30px);
     background: $yellow;
-    padding-top: 14%;
-    padding-left: 9.5em;
-    padding-right: 9.5em;
+    padding-top: 20%;
+    padding-left: 5.5em;
+    padding-right: 3.5em;
   }
 
   @include desktop-blah {
-    width: 60%;
+    // width: 60%;
+    padding-top: 16%;
+    padding-left: 3.5em;
+    padding-right: 3.5em;
   }
 
   @include tv {
     width: 55%;
-    // padding-left: 5em;
-    // padding-right: 5em;
+    padding-left: 5em;
+    padding-right: 5em;
   }
 
   .single-pagination {
@@ -97,15 +100,15 @@
     .pagination002-project {
       font-size: 24px;
       letter-spacing: 2.8px;
-      line-height: 1.6;
+      line-height: 1.4;
       display: inline;
 
       @include desktop {
-        font-size: 32px;
+        font-size: 28px;
       }
 
       @include desktop-blah {
-        font-size: 36px;
+        font-size: 32px;
       }
     }
   }
