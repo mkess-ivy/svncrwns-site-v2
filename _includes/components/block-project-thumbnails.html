@@ -2,14 +2,15 @@
 	<div class="project_details nobgcolor">
 		<div class="project_details_title">Thumbnails</div>
 
-		<div class="thumbnails-container">
+		<div class="imageGallery1">
 			<div class="frow justify-start">
 				{% for item in section.thumbnails %}
 				<div class="single-thumbnail">
-					<img src=" {{ item.image }}" />
+					<a href="{{ item.image }}"><img src="{{ item.image }}" /></a>
 				</div>
 				{% endfor %}
 			</div>
 		</div>
+
 	</div>
 </section>

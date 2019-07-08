@@ -1,4 +1,4 @@
-
+// jQuery components
 // Waypoints
     var $dipper = $('.dipper');
     $dipper.waypoint(function (direction) {
@@ -115,6 +115,9 @@ $(document).ready(function(){
     }, function() {
         $('.js-backstage-img').removeClass('warisover');
     });
+
+    // simpleLightbox
+    $('.imageGallery1 a').simpleLightbox();
 
 
     // Wait for window load

@@ -3,7 +3,7 @@ page_sections:
 - template: page-header-02
   block: page-header-02
   page-intro-title: Our Work
-  page-intro-text: We’re a modern partner to fashion, media & wellness brands.  We use our skills to solve problems for organizations and personal brands by way of producing content (photo + film), websites and events.  We’re a strategy & production company that creates cinematic stories for brands + products and we offer consulting to identify opportunities of growth + efficiency in business operations. View our work&nbsp;below.
+  page-intro-text: We’re a modern partner to retail, media & wellness brands.  We use our skills to solve problems for organizations and personal brands by way of producing content (photo + film), websites and events.  We’re a brand management company that creates cinematic stories for brands + products and we offer consulting to identify opportunities of growth + efficiency in business operations. View our work&nbsp;below.
 - template: block-portfolio-grid
   block: portfolio-grid
 - template: block-read-more

@@ -1152,6 +1152,19 @@ a.js_hover_trigger2:hover {
   -webkit-transform: rotate(90deg);
   margin-bottom: 10em; }
 
+.single-thumbnail {
+  margin-bottom: 25px; }
+  @media screen and (min-width: 750px) {
+    .single-thumbnail {
+      width: 31%;
+      margin-right: 10px;
+      margin-bottom: 10px; } }
+  @media screen and (min-width: 1024px) {
+    .single-thumbnail {
+      width: 250px;
+      margin-right: 25px;
+      margin-bottom: 25px; } }
+
 @-webkit-keyframes fadeInTop {
   0% {
     opacity: 0;
@@ -2658,7 +2671,7 @@ ul.nav li a:hover::after {
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   text-align: center;
-  padding-bottom: 5em; }
+  padding-bottom: 2em; }
   @media screen and (min-width: 750px) {
     .backstage-msg {
       width: 45%;
@@ -4420,19 +4433,6 @@ button:hover {
     @media screen and (min-width: 1024px) {
       .page-header-02 .header-02-text {
         width: 75%; } }
-
-.single-thumbnail {
-  margin-bottom: 25px; }
-  @media screen and (min-width: 750px) {
-    .single-thumbnail {
-      width: 31%;
-      margin-right: 10px;
-      margin-bottom: 10px; } }
-  @media screen and (min-width: 1024px) {
-    .single-thumbnail {
-      width: 250px;
-      margin-right: 25px;
-      margin-bottom: 25px; } }
 
 /**
  * Syntax highlighting styles

@@ -683,3 +683,23 @@ a.js_hover_trigger2 {
   -webkit-transform: rotate(90deg);
   margin-bottom: 10em;
 }
+
+// Thumbnails Component
+.imageGallery1 {
+  
+}
+.single-thumbnail {
+  margin-bottom: 25px;
+  
+  @include tablet {
+    width: 31%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  @include desktop {
+    width: 250px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+  }
+}
+

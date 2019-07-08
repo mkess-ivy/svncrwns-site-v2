@@ -185,18 +185,3 @@ button:hover {
     	}
 	}
 }
-
-.single-thumbnail {
-	margin-bottom: 25px;
-	
-	@include tablet {
-		width: 31%;
-		margin-right: 10px;
-		margin-bottom: 10px;
-	}
-	@include desktop {
-		width: 250px;
-		margin-right: 25px;
-		margin-bottom: 25px;
-	}
-}

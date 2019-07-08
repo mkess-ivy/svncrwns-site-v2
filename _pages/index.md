@@ -2,10 +2,7 @@
 layout: blocks-layout-wide
 title: SVNCRWNS - Home
 permalink: "/"
-seo-description: SVNCRWNS is a production company that works to launch and manage
-  brands.  We're a modern partner to retail, media and health & wellness brands that
-  need support developing their identity and connecting with their audience.  We focus
-  on brand styling, e-commerce website design, content production + special projects.
+seo-description: SVNCRWNS is a brand management company that empowers artists, entrepreneurs & executives with strategy, information and marketing tools. We work with our clients to grow + manage their brands by way of creating content, platforms and experiences. We’re a modern partner to retail, media and wellness brands that need support developing their identity, connecting with their audience and scaling their business.
 seo-keywords: production company, svncrwns, e-commerce, women-owned businesses, creative
   team, consulting, business operations, launch my brand, manage my brand
 page_sections:
@@ -21,7 +18,7 @@ page_sections:
 
 ---
 
-SVNCRWNS is a strategy & production company.  We empower artists and entrepreneurs with strategy, information and marketing tools.  We work with our clients to grow + manage their brands by way of creating platforms, events and content.  We're a modern partner to fashion, media and wellness brands that need support developing their identity and connecting with their audience.  [Check out our work](/work), and [let's partner on something](/connect) interesting.
+SVNCRWNS is a brand management company that empowers artists, entrepreneurs & executives with strategy, information and marketing tools. We work with our clients to grow + manage their brands by way of creating content, platforms and experiences. We’re a modern partner to retail, media and wellness brands that need support developing their identity, connecting with their audience and scaling their business.  [Check out our work](/work), and [let's partner on something](/connect) amazing.
 
 
 ###### Pronounced: seven crowns

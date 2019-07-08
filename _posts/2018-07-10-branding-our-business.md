@@ -1,6 +1,6 @@
 ---
 layout: journal002
-title: The Production Company is Branding Itself
+title: The Branding Company is Branding Itself
 masthead-image: /dist/images/post_brand_company.jpg
 summary: We had to take several looks at ourselves as a company positioning ourselves to help other companies grow.  It's time we start branding ourselves and showing our audience what it takes to begin this journey.  Check out the first 5 items we tackled below.
 
@@ -34,7 +34,7 @@ page_sections:
 - template: journal-text
   block: journal-text
   text-block-title: "004 - Strategy"
-  text-block-summary: We created a mind map to strategize our business for the next 5 years.  We thought of every possible idea that seemed innovative, necessary and effective to culture and figured out how to tie it in with our business model.  We also factored in play time.  We love working with our clients, but our production company is also a space to create our own art.  Some of the things we tied in - wanting a streetwear brand, wanting to open a studio/workspace, wanting to do collaborations with other agencies in the space of fashion, art and + culture.
+  text-block-summary: We created a mind map to strategize our business for the next 5 years.  We thought of every possible idea that seemed innovative, necessary and effective to culture and figured out how to tie it in with our business model.  We also factored in play time.  We love working with our clients, but our brand management company is also a space to create our own art.  Some of the things we tied in - wanting a streetwear brand, wanting to open a studio/workspace, wanting to do collaborations with other agencies in the space of fashion, art and + culture.
 - template: journal-text
   block: journal-text
   text-block-title: "005 - Pricing Model"
