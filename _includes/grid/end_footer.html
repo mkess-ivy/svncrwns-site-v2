@@ -1,11 +1,11 @@
 <div class="fullwidth-footer">
-	
-	    {%  include grid/short_footer.html %}
-	
+	{%  include grid/short_footer.html %}
 </div>
-{% if page.layout == "phase1-project" or page.layout == "backstage-blocks-layout-video" %}
+
+{% if page.layout == "phase1-project" %}
   {% include html5video.html %}
 {% endif %}
+
 </body>
 
 </html>

@@ -2,7 +2,6 @@
     <div class="grid_project">
         <div class="frow justify-between">
             <div class="left_footer">
-                
                 {% unless page.title == "SVNCRWNS - Home" %}
                 {% for item in site.data.site-settings %}
                 <a href="/"><img src = "{{ item.footer-logo }}" width="25" /></a>&nbsp;&nbsp;
@@ -20,6 +19,7 @@
                 {% endfor %}
                 {% endif %}
             </div>
+            
             <div class="right_footer">
                 {% unless page.title=="SVNCRWNS - Home" %}
                 <ul>
