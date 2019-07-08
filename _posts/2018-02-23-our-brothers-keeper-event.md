@@ -17,6 +17,8 @@ page_sections:
   block: journal-text
   text-block-title: Coyote Agency launches with Exhibit Opening, Our Brother's Keeper
   text-block-summary: Coyote Agency tapped SVNCRWNS to collaborate on the exhibit opening for Our Brother's Keeper.  We were invited to produce a short film covering the barbering industry.  Our film screened February 2018 in Brooklyn, New York.
+  text-block-link: /backstage/our-brothers-keeper/
+  text-link-msg: View the Film
 - template: journal-image
   block: journal-image
   journal-image: /dist/images/post-our-brothers-keeper001.jpg

@@ -345,6 +345,24 @@
                 line-height: 30px;
             }
         }
+        .text-block-link {
+            margin: 3em auto 0;
+
+            a {
+                background: $off-black;
+                padding: 12px 15px;
+                color: $off-white;
+                font-family: $font-brand4;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                font-size: 14px;
+                font-weight: $heavy;
+
+                &:hover {
+                    color: $yellow;
+                }
+            }
+        }
     }
     .journal-image {
         padding-bottom: 10em;

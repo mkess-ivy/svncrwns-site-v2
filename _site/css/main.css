@@ -3765,6 +3765,19 @@ ul.nav li a:hover::after {
       .block-journal-content .journal-text-block .text-block-text {
         font-size: 18px;
         line-height: 30px; } }
+  .block-journal-content .journal-text-block .text-block-link {
+    margin: 3em auto 0; }
+    .block-journal-content .journal-text-block .text-block-link a {
+      background: #070707;
+      padding: 12px 15px;
+      color: #F7F7F7;
+      font-family: "Montserrat", sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-size: 14px;
+      font-weight: 700; }
+      .block-journal-content .journal-text-block .text-block-link a:hover {
+        color: #c8f330; }
 .block-journal-content .journal-image {
   padding-bottom: 10em; }
   .block-journal-content .journal-image img {

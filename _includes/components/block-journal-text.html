@@ -1,4 +1,13 @@
 <div class="journal-text-block">
 	<div class="text-block-title">{{ section.text-block-title }}</div>
 	<div class="text-block-text">{{ section.text-block-summary }}</div>
+
+	{% if section.text-block-link %}
+	<div class="text-block-link">
+		<a href="{{ section.text-block-link }}">
+			{{ section.text-link-msg }}
+		</a>
+	</div>
+	{% endif %}
+
 </div>
