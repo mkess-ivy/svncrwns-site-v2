@@ -27,6 +27,25 @@ page_sections:
 - template: journal-video
   block: journal-video
   vimeo-code: 211146089
+- template: project-thumbnails
+  block: project-thumbnails
+  thumbnails:
+  - image: /dist/images/collabmore16.jpg
+  - image: /dist/images/collabmore2.jpg
+  - image: /dist/images/collabmore3.jpg
+  - image: /dist/images/collabmore4.jpg
+  - image: /dist/images/collabmore5.jpg
+  - image: /dist/images/collabmore6.jpg
+  - image: /dist/images/collabmore7.jpg
+  - image: /dist/images/collabmore8.jpg
+  - image: /dist/images/collabmore9.jpg
+  - image: /dist/images/collabmore10.jpg
+  - image: /dist/images/collabmore11.jpg
+  - image: /dist/images/collabmore17.jpg
+  - image: /dist/images/collabmore12.jpg
+  - image: /dist/images/collabmore13.jpg
+  - image: /dist/images/collabmore14.jpg
+  - image: /dist/images/collabmore15.jpg
 - template: credits002
   block: credits002
   credits:
