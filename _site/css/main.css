@@ -120,7 +120,7 @@ a.no-line:hover {
 /* Fullscreen Overlay */
 .svn-video-overlay {
   width: 100%;
-  background: rgba(197, 145, 80, 0.9);
+  background: rgba(200, 243, 48, 0.9);
   position: fixed;
   z-index: 5;
   opacity: 0;

@@ -16,18 +16,18 @@ seo-keywords: production company, svncrwns, e-commerce, women-owned businesses, 
 page_sections:
 - template: journal-image
   block: journal-image
-  journal-image: /dist/images/post-bma-cocktail-party-001.JPG
+  journal-image: /dist/images/post-bma-cocktail-party-001.jpg
 - template: journal-image
   block: journal-image
-  journal-image: /dist/images/post-bma-cocktail-party-002.JPG
+  journal-image: /dist/images/post-bma-cocktail-party-002.jpg
 - template: journal-image
   block: journal-image
-  journal-image: /dist/images/post-bma-cocktail-party-003.JPG
+  journal-image: /dist/images/post-bma-cocktail-party-003.jpg
 - template: journal-image
   block: journal-image
-  journal-image: /dist/images/post-bma-cocktail-party-004.JPG
+  journal-image: /dist/images/post-bma-cocktail-party-004.jpg
 - template: journal-image
   block: journal-image
-  journal-image: /dist/images/post-bma-cocktail-party-005.JPG
+  journal-image: /dist/images/post-bma-cocktail-party-005.jpg
 ---
 

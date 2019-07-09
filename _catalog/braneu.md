@@ -42,7 +42,7 @@ page_sections:
     image-caption: Browsing on mobile devices is the leader for how users are consuming information.  Having our platforms accessible on all devices with simple user experiences is always our main goal.  Don't lose sales because the user experience for mobile browsing is inadequate.
 - template: credits002
   block: credits002
-  website-link: http://www.google.com
+  website-link: http://www.braneu.com
   credits:
   - position: E-commerce Web Design & Development
     names:

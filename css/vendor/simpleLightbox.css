@@ -154,9 +154,10 @@
   line-height: 1.66667em;
   position: absolute;
   right: -0.33333em;
-  top: 0;
-  color: #fff;
-  color: rgba(255, 255, 255, 0.7);
+  top: 10px;
+  color: #c8f330;
+  /*color: rgba(255, 255, 255, 0.7);*/
+  outline: 0;
   text-align: center;
 }
 

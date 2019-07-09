@@ -23,16 +23,15 @@
   description: a short film about the intimate space of barbershops told through the
     lens of women.
   category: film
-  url: "/work/our-brothers-keeper/"
+  url: "/backstage/our-brothers-keeper/"
   work-space: in-house
 - title: Believing Takes Time
   image: "/dist/images/btt-project-1.jpg"
   description: A youth photography exhibit created to share artrepreneurship skills
     with youth
   category: event
-  url: "/work/believing-takes-time/"
+  url: "/backstage/believing-takes-time/"
   work-space: in-house
-
 - title: Greenmount West CC
   image: "/dist/images/gwcc-cover.jpg"
   description: Worked with institution to develop programming, branding and digital

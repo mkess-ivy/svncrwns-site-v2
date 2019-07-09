@@ -116,8 +116,7 @@ $(document).ready(function(){
         $('.js-backstage-img').removeClass('warisover');
     });
 
-    // simpleLightbox
-    $('.imageGallery1 a').simpleLightbox();
+    
 
 
     // Wait for window load
@@ -232,6 +231,9 @@ $(document).ready(function(){
             }
         ]
     });
+
+    // simpleLightbox
+    $('.imageGallery1 a').simpleLightbox();
 
     // bottom menu
 var menuLeft = document.getElementById( 'cbp-spmenu-s1' ),
