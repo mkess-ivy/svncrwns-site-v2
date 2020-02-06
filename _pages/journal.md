@@ -16,7 +16,7 @@ page_sections:
   block: journal-entries
 - template: read-more
   block: read-more
-  image: "/uploads/read-more-journal.jpg"
+  image: "/uploads/geo-bg-art.jpg"
   prev-link: "/work/"
   prev-title: View all Work
   next-link: "/connect/"

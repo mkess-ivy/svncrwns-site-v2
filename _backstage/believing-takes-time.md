@@ -70,7 +70,7 @@ page_sections:
     text: SVNCRWNS was hands on for every detail of exhibit layout and installation, finding local printer companies to assist with large format printing, and even helping our kids come up with price points for their work.  Opening Day was May 3 2017, there were kids, their families, local vendors selling snacks and beverages and 5+ walls filled with youth photography based on the theme of Believing Takes Time. We even created a photography backdrop wall to take photos with our friends that came to visit our work.
   - image: /dist/images/btt-project-4.png
     title: Art for sale - Youth Artists Make Sales from local exhibit
-    text: 100+ black and white and color photos were printed ranging from sizes 4x6 to 20x24. We sold about 35% of our inventory after the show closed, and the kids made $350+ collectively.
+    text: 100+ black and white and color photos were printed ranging from sizes 4x6 to 20x24.
 - template: credits002
   block: credits002
   credits:

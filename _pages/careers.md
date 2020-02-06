@@ -4,7 +4,7 @@ title: Careers
 permalink: /careers/
 
 tagline: Careers! - We're Growing
-tagline-description: "The time has come and we couldn’t be more excited to expand on our talent and company.  We’re looking for women artists in tech, design and media who are passionate about supporting other women artists and entrepreneurs.  Join our team, check out the open positions below."
+tagline-description: "We’re looking for women artists in tech, design and media who are passionate about supporting other women artists and entrepreneurs.  Join our team, check out the open positions below."
 
 career-image: careers-image-main.png
 

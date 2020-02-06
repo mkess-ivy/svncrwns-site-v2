@@ -22,13 +22,13 @@ header:
   title: Work
   identifier: work
   weight: 1
-- url: "/backstage"
-  title: Backstage
-  identifier: backstage
-  weight: 2
 - url: "/journal"
   title: Journal
   identifier: journal
+  weight: 2
+- url: "/backstage"
+  title: Backstage
+  identifier: backstage
   weight: 3
 - url: "/connect"
   title: Connect

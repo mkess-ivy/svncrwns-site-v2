@@ -48,6 +48,21 @@
 	ul li a:hover > img {
 		opacity: 1;
 	}
+
+	ul {
+		margin: 10px 20px;
+		li {
+			font-size: 25px;
+			padding-bottom: 15px;
+
+			@include palm-mid {
+				font-size: 35px;
+			}
+			@include laptop {
+				font-size: 44px;
+			}
+		}
+	}
 }
 
 .backstage-title {
@@ -98,7 +113,7 @@
 	
 }
 .backstage-single {
-	margin: 5em 0 5em;
+	margin: 7em 0 3em;
     // width: 50%;
     // max-width: 450px;
 
@@ -106,17 +121,33 @@
     	width: 60%;
     	max-width: 450px;
     }
+    .backstage-tag {
+    	text-transform: uppercase;
+    	font-family: $font-brand4;
+    	font-weight: $heavy;
+    	
+
+    	a {
+    		color: $light-brown;
+    	}
+    }
 
     .title {
     	text-transform: uppercase;
 	    font-weight: 700;
-	    font-family: 'Montserrat',sans-serif;
-	    font-size: 32px;
+	    font-family: $font-brand4;
+	    font-size: 22px;
 	    padding-bottom: 0.5em;
+	    
+
+	    @include palm-mid {
+	    	font-size: 28px;
+	    	padding-bottom: 0.2em;
+	    }
 	}
 	.summary {
-		font-family: 'Montserrat',sans-serif;
-    	letter-spacing: 0.5px;
+		font-family: $font-brand3;
+    	// letter-spacing: 0.5px;
 	}
 }
 .baltimore {

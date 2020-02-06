@@ -1,7 +1,9 @@
 .editorial_title {
 	@extend .beta_page_title;
 	padding: 0 !important;
-	font-size: 36px !important;
+	// font-size: 36px !important;
+	font-size: 22px !important;
+
 
 	@include tablet {
 		width: 75%;
@@ -16,12 +18,12 @@
 .editorial_links {
 	// margin-bottom: 75px;
 	// background: $editorial-links-color;
-	padding: 15px 25px 0;
+	padding: 15px 0 0;
 	width: 75%;
 
 	@include tablet {
 		width: 50%;
-		padding: 15px 0 0;
+		// padding: 15px 0 0;
 	}
 	@include desktop {
 		width: 30%;
@@ -61,10 +63,10 @@
 	padding: 100px 0 50px;
 
 	@include palm-mid {
-		padding: 100px 0 75px;		
+		// padding: 100px 0 75px;		
 	}
 	@include desktop-blah {
-		padding: 100px 0 125px;
+		// padding: 100px 0 125px;
 	}
 }
 .themealpha_small_title_text {
@@ -73,18 +75,22 @@
 	width: 85% !important;
 	margin-top: -7px !important;
 	font-size: 18px !important;
+	font-weight: normal;
+	padding-left: 0;
+	font-family: $font-brand3;
+	letter-spacing: 0;
 
 	@include palm-mid {
-		font-size: 22px !important;		
+		// font-size: 22px !important;		
 	}
 }
 .themealpha_small_alpha {
 	width: 100%;
-	padding-top: 50px;
+	padding-top: 20px;
 
 	@include laptop {
 		width: 44%;	
-		padding-top: 75px;
+		// padding-top: 75px;
 	}
 }
 .themealpha_small_title_line {
@@ -123,7 +129,7 @@
 	margin-bottom: 125px;
 
 	@include widescreen {
-		margin-top: -8vh;
+		// margin-top: -8vh;
 	}
 }
 .project_details {
@@ -140,13 +146,15 @@
 	}
 	@include laptop {
 		margin: 0;
+		max-width: none;
+		width: 100%;
 	}	
-	@include desktop-blah {
-		width: 80%;
-	}
-	@include widescreen {
-		width: 70%;
-	}
+	// @include desktop-blah {
+	// 	width: 80%;
+	// }
+	// @include widescreen {
+	// 	width: 70%;
+	// }
 }
 .nobgcolor {
 	background: transparent;
@@ -167,24 +175,26 @@
 	background-size: cover;
 	background-position: top center;
 	background-repeat: no-repeat;
-	height: 320px;
-	z-index: -2;
+	// height: 320px;
+	height: 600px;
 
-	@include laptop {
-		position: absolute;
-		top: -30vh;
-		right: 4vh;
-		width: 45%; 
-	}
-	@include desktop-blah {
-		top: -25vh;
-	}
-	@include widescreen {
-		top: -30vh;
-		height: 450px;
-		width: 50%;
-		right: 3vh;
-	}
+	// z-index: -2;
+
+	// @include laptop {
+	// 	position: absolute;
+	// 	top: -30vh;
+	// 	right: 4vh;
+	// 	width: 45%; 
+	// }
+	// @include desktop-blah {
+	// 	top: -25vh;
+	// }
+	// @include widescreen {
+	// 	top: -30vh;
+	// 	height: 450px;
+	// 	width: 50%;
+	// 	right: 3vh;
+	// }
 }
 
 // Editorial Captions
@@ -194,7 +204,7 @@
 	margin: 75px 0;
 
 	@include tablet {
-		width: 75%;
+		// width: 75%;
 		margin: 0 0 250px;
 	}
 	@include desktop-blah {
@@ -239,7 +249,21 @@
 //   }
 // }
 .project_links {
-	@include tablet {
-		margin-top: -3em;
+	padding-left: 1em;
+
+	@include palm-mid {
+		padding-left: 1em;
 	}
+	@include tablet {
+		// margin-top: -3em;
+	}
+}
+.project-highlights {
+	text-transform: uppercase;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 500;
+    letter-spacing: 2.5px;
+    text-align: center;
+    padding-bottom: 4em;
+    font-size: 20px;
 }

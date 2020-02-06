@@ -9,9 +9,10 @@ seo-description: SVNCRWNS is a production company that works to launch and manag
 seo-keywords: production company, svncrwns, e-commerce, women-owned businesses, creative
   team, consulting, business operations, launch my brand, manage my brand
 page_sections:
-- template: backstage-meta
-  block: backstage-meta
-  welcome-msg: welcome to <span>SVNCRWNS Backstage</span> - a collection of in-house projects produced by our team. Includes fashion films, lookbooks and experimental films.
+- template: page-header-02
+  block: page-header-02
+  page-intro-title: Backstage Projects
+  page-intro-text: Welcome to <span>SVNCRWNS Backstage</span> - a collection of in-house projects produced by our team. Includes fashion films, lookbooks and experimental films.
 - template: backstage-work
   block: backstage-work
 ---

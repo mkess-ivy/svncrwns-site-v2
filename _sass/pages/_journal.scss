@@ -232,7 +232,7 @@
     }
 }
 .block-journal-meta {
-    padding: 6em 0 0 2em;
+    padding: 6em 1em 0 1em;
 
     @include palm-mid {
         padding: 6em 3em 0 2em;
@@ -255,12 +255,25 @@
         padding: 20em 3em 20em;
     }
 
+     .journal-tag {
+        text-transform: uppercase;
+        font-family: $font-brand4;
+        font-weight: $heavy;
+        
+
+        a {
+            color: $light-brown;
+        }
+    }
+
     .journal-meta-title {
         padding-bottom: 0.7em;
         font-family: $font-brand4;
         font-weight: $heavy;
         text-transform: uppercase;
-        font-size: 26px;
+        // font-size: 26px;
+        font-size: 22px;
+
         line-height: 1.2;
 
         @include tablet {
@@ -272,7 +285,9 @@
     }
     .journal-meta-summary {
         padding-bottom: 7em;
-        font-size: 18px;
+        // font-size: 18px;
+        font-size: 16px;
+
 
         @include palm-mid {
             font-size: 20px;
@@ -724,7 +739,10 @@ a.pagination_links {
   }
 
   .omega_title {
-    font-size: 24px;
+    font-size: 21px;
+    @include palm-mid {
+        font-size: 24px;
+    }
     @include tablet {
         font-size: 40px;    
     }

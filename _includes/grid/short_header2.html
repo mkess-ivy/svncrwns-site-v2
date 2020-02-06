@@ -1,13 +1,15 @@
 <header class="phase1-site-header {% if page.layout == "blocks-layout" or page.layout == "editorial" %}blocks-layout-header{% endif %}">
-	<div class="grid_project">
-	    <div class="frow justify-between">
-	        <div class="left_header">
-	            {% for item in site.data.site-settings %}
+	    
+    <div class="left_header">
+      	<div class="grid_project site-logo">
+        	<div class="frow justify-between">
+            	{% for item in site.data.site-settings %}
 	            <a href="/"><img src="{{ item.global-logo }}" width="{{ item.width }}" style="margin: 5px 0;" /></a>
 	            {% endfor %}
+	            {% include grid/collapsed_menu.html %}
 	        </div>
-	        {% include grid/collapsed_menu.html %}
-	        <!-- {% include phase1_overlay_menu3.html %} -->
+	        
+	        {% include phase1_overlay_menu3.html %}
 	    </div>
 	</div>
 </header>

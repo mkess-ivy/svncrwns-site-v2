@@ -8,7 +8,7 @@ seo-keywords: production company, svncrwns, e-commerce, women-owned businesses, 
 page_sections:
 - template: block-home-page-header
   block: home-page-header
-  tagline: Strategy & Production
+  tagline: Mgmt & Studio
 - template: block-featured-work
   block: featured-work
 - template: block-link-newsletter

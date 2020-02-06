@@ -38,6 +38,21 @@ page_sections:
   - image: /dist/images/obk-project-2.png
   - image: /dist/images/obk-project-3.png
   - image: /dist/images/obk-project-4.png
+- template: credits002
+  block: credits002
+  credits:
+  - position: Production
+    names:
+    - name: SVNCRWNS
+  - position: Cinematography & Editing
+    names:
+    - name: SVNCRWNS
+  - position: Baltimore Woman Barber
+    names:
+    - name: Shannon Porter (@cutqween_studio)
+  - position: Brooklyn Woman Barber
+    names:
+    - name: Gaia Earth Peace (@chokmahhairlab)
 ---
 <div class="editorial-video" style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/255387616?portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 

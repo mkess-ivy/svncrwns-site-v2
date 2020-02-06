@@ -19,7 +19,7 @@ page_sections:
   block: contact-info
 - template: block-read-more
   block: read-more
-  image: "/uploads/read-more-contact-3.jpg"
+  image: "/uploads/geo-bg-art.jpg"
   prev-link: "/journal"
   prev-title: View the Journal
   next-link: "/"

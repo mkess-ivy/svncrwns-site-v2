@@ -3,8 +3,8 @@ layout: phase1-newsletter
 title: Newsletter
 permalink: /newsletter/
 
-newsletter-description: Be an early adopter, you'll thank us later.
-newsletter-cover-image: whatwedo-hero.jpg
+newsletter-description: Providing insights and tips that help brands grow
+newsletter-cover-image: newsletter-hero.jpg
 
 seo-description: SVNCRWNS is a production company that works to launch and manage brands.  Join our newsletter to learn how we focus on brand styling, e-commerce website design, content production + special projects.  We are sharing insights and resources for the artist/entrepreneur.  Subscribe today!
 

@@ -44,6 +44,18 @@ page_sections:
   - image: /dist/images/fam_at_walters_cover.jpg
   - image: /dist/images/fam_at_walters_slide_3.jpg
   - image: /dist/images/fam_at_walters_slide_4.jpg
+- template: credits002
+  block: credits002
+  credits:
+  - position: Creative Direction
+    names:
+    - name: SVNCRWNS
+  - position: Photography & Editing
+    names:
+    - name: SVNCRWNS
+  - position: Models
+    names:
+    - name: Fashion @ Morgan E-board 2018
 ---
 
 {% include components/phase-slide-title.html %}

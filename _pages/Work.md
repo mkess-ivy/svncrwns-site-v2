@@ -8,7 +8,7 @@ page_sections:
   block: portfolio-grid
 - template: block-read-more
   block: read-more
-  image: "/uploads/read-more-bsk.jpg"
+  image: "/uploads/geo-bg-art.jpg"
   prev-link: "/"
   prev-title: Go Home
   next-link: "/journal"
