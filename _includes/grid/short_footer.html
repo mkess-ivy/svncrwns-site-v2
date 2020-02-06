@@ -24,14 +24,14 @@
                 {% unless page.title=="SVNCRWNS - Home" %}
                 <ul>
                     {% for menu-item in site.data.menus.footer %}
-                        <li><a href="{{ menu-item.url }}">{{ menu-item.title }}</a></li>
+                        <li><a href="{{ menu-item.url }}" target="_blank">{{ menu-item.title }}</a></li>
                     {% endfor %}
                 </ul>
                 {% endunless %}
                 {% if page.title == "SVNCRWNS - Home" %}
                 <ul>
                     {% for menu-item in site.data.menus.footer %}
-                        <li><a href="{{ menu-item.url }}">{{ menu-item.title }}</a></li>
+                        <li><a href="{{ menu-item.url }}" target="_blank">{{ menu-item.title }}</a></li>
                     {% endfor %}
                 </ul>
                 {% endif %}
