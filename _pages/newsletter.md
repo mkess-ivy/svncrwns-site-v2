@@ -41,8 +41,8 @@ seo-keywords: production company, svncrwns, newsletter, insights, portfolio, res
         }
         .newsletter_description {
             font-family: 'Libre Baskerville', Helvetica, serif;
-            font-size: 18px;
-            line-height: 28px;
+            font-size: 16px;
+            line-height: 1.4;
         }
         #mc_embed_signup input.email {
             margin: 30px auto;

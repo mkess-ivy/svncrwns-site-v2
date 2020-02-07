@@ -1,8 +1,11 @@
 {% include grid/head_header_color.html %}
 	
+
+
 <section class="journal-wrapper">
+	{% include components/block-pagination002-journal.html %}
 	<section class="block-journal-meta dipper-alert">
-		<div class="journal-tag"><a href="/journal">Journal</a></div>
+		<div class="work-space-tag"><a href="/journal">Journal</a></div>
 		<div class="journal-meta-title">{{ page.title }}</div>
 		<div class="journal-meta-summary">{{ page.summary}}</div>
 	</section>

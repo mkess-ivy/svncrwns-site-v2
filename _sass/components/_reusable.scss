@@ -5,16 +5,27 @@
   margin-bottom: 5em;
 
   position: relative;
+  padding-left: 25px;
 
   @include palm-mid {
     // padding-left: 2em;
   }
   @include tablet {
     margin-bottom: 7em;
+    margin-top: 5em;
+    margin-left: -50px;
+    padding-left: 100px;
   }
   @include desktop {
     width: 70%;
-    padding-left: 4em;
+    padding-left: 60px;
+    
+  }
+  @include desktop-blah {
+    margin-left: 0;
+  }
+  @include tv {
+    padding-left: 110px;
   }
 
   .credits002-title {
@@ -25,7 +36,7 @@
     font-weight: $heavy;
     position: absolute;
     top: -23px;
-    padding-left: 0.5em;
+    // padding-left: 0.5em;
 
     @include palm-mid {
       // padding-left: 1em;
@@ -37,10 +48,10 @@
   .credits002-content {
     padding-top: 5em;
     padding-bottom: 5em;
-    padding-left: 0.5em;
+    // padding-left: 0.5em;
 
     @include palm-mid {
-      padding-left: 1em;
+      // padding-left: 1em;
     }
     @include tablet {
       padding-bottom: 2em;
@@ -85,20 +96,20 @@
     height: calc(100vh - 30px);
     background: $yellow;
     padding-top: 20%;
-    padding-left: 5.5em;
+    // padding-left: 5.5em;
     padding-right: 3.5em;
   }
 
   @include desktop-blah {
     // width: 60%;
     padding-top: 16%;
-    padding-left: 3.5em;
+    // padding-left: 3.5em;
     padding-right: 3.5em;
   }
 
   @include tv {
     width: 55%;
-    padding-left: 5em;
+    padding-left: 9em;
     padding-right: 5em;
   }
 
@@ -134,10 +145,41 @@
     }
   }
 }
+.pagination002-top-title {
+  text-transform: uppercase;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    /* padding-bottom: 10px; */
+    background: #c8f330;
+    padding: 20px 14px;
+    border-radius: 50%;
+    margin-top: 20px;
+    position: absolute;
+    right: 20px;
+
+    @include tablet {
+      top: 65px;
+    }
+    @include laptop {
+      top: 105px;
+      right: 50px;
+    }
+    @include desktop-blah {
+      top: 115px;
+    }
+
+    &.journal {
+      @include laptop {
+        top: 150px;
+        z-index: 5;
+      }
+    }
+}
 
 // Subheader
 .small_title_wrapper {
-  padding-bottom: 25px;
+  // padding-bottom: 25px;
 }
 .small_title_line {
   display: inline-block;
@@ -304,6 +346,7 @@ a.brand_cta {
 .home-meta-title {
   @include heavy_font(30px);
   line-height: 1;
+  padding-bottom: 10px;
 
   @include laptop {
     font-size: 46px;
@@ -438,10 +481,10 @@ a.general_link {
   // border: 1px solid;
   background: $off-white;
   color: $off-black;
-  padding: 0 0 0.5em 0;
+  padding: 0.4em;
   margin-right: 8px;
   // border-radius: 4px;
-  @include heavy_font(14px);
+  @include heavy_font(10px);
 
   a {
     color: $light-brown;
@@ -599,6 +642,10 @@ a.general_link {
 
 .block-editorial-img {
   padding-bottom: 50px;
+
+  @include tablet {
+    padding-bottom: 75px;
+  }
 }
 
 // Back to Work Bar

@@ -1,6 +1,6 @@
 ---
 layout: work-blocks-layout
-title: "Aybe Music"
+title: "Singer & Songwriter, Aybe"
 season: "4"
 
 masthead-image: /dist/images/home-slide-2.jpg

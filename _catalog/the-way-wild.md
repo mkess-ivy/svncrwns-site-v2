@@ -27,6 +27,9 @@ page_sections:
   block: project-meta
   brand-statement: SVNCRWNS has worked with designer, Kenn Hall, to create a lookbook and fashion film for new collection.
   category: film
+- template: project-hero
+  block: project-hero
+  project-details-cover: "/dist/images/thewaywild.jpg"
 - template: journal-video
   block: journal-video
   vimeo-code: 242409564

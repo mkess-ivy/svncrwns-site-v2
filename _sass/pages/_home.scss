@@ -382,17 +382,24 @@
   animation-name: fadeInLeft;
   -webkit-animation-name: fadeInLeft;
 
-  @include palm-mid {
-
-  }
   @include tablet {
     width: 55%;
     font-size: 38px;
     padding: 100px 125px 75px 0;
   }
+
   @include laptop {
     font-size: 44px;
-    padding: 50px 200px 25px 0; 
+    padding: 50px 100px 25px 0; 
+    width: 57%;
+  }
+  @include desktop {
+    width: 45%;
+    padding: 50px 0 25px 0;
+  }
+
+  @include desktop-blah {
+    width: 35%;
   }
 
   a {
@@ -403,7 +410,6 @@
     line-height: 1.2;
 
     &:hover {
-      // border: 0;
       color: $portfolio-title-hover;
       transition: 200ms ease-in-out;
     }

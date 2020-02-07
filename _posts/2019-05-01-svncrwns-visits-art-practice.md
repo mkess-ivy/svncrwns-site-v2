@@ -1,6 +1,6 @@
 ---
 layout: journal002
-title: SVNCRWNS visits Art & Practice & Mark Bradford Studio
+title: SVNCRWNS visits Art + Practice & Mark Bradford Studio
 summary: SVNCRWNS is invited to talk with Creative Mornings Baltimore on the theme of 'Context', their work in the community and what they are planning with the Baltimore Museum of Art x Mark Bradford partnership
 masthead-image: /dist/images/post-svncrwns-visits-art-practice.jpg
 
@@ -30,14 +30,7 @@ page_sections:
   journal-image: "/dist/images/post-svncrwns-visits-art-practice003.jpg"
 - template: journal-image
   block: journal-image
-  transform: yes
-  journal-image: "/dist/images/post-svncrwns-visits-art-practice004.JPG"
-- template: journal-image
-  block: journal-image
-  journal-image: "/dist/images/post-svncrwns-visits-art-practice005.jpg"
-- template: journal-image
-  block: journal-image
-  journal-image: "/dist/images/post-svncrwns-visits-art-practice006.jpg"
+  journal-image: "/dist/images/post-svncrwns-visits-art-practice004.jpg"
 - template: journal-image
   block: journal-image
   journal-image: "/dist/images/post-svncrwns-visits-art-practice007.jpg"
@@ -55,16 +48,11 @@ page_sections:
   journal-image: "/dist/images/post-svncrwns-visits-art-practice011.jpg"
 - template: journal-image
   block: journal-image
-  journal-image: "/dist/images/post-svncrwns-visits-art-practice012.jpg"
-- template: journal-image
-  block: journal-image
   journal-image: "/dist/images/post-svncrwns-visits-art-practice013.jpg"
 - template: journal-image
   block: journal-image
-  transform: yes
   journal-image: "/dist/images/post-svncrwns-visits-art-practice014.jpg"
 - template: journal-image
   block: journal-image
-  transform: yes
   journal-image: "/dist/images/post-svncrwns-visits-art-practice015.jpg"
 ---

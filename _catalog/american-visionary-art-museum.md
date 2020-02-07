@@ -1,6 +1,6 @@
 ---
 layout: work-blocks-layout
-title: "AVAM Logan Conference"
+title: "American Visionary Art Museum"
 season: "4"
 masthead-image: /dist/images/catalog_avam_logan.jpg
 category: special-project, film

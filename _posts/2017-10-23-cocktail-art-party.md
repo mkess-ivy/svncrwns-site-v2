@@ -25,9 +25,6 @@ page_sections:
   journal-image: /dist/images/post-bma-cocktail-party-003.jpg
 - template: journal-image
   block: journal-image
-  journal-image: /dist/images/post-bma-cocktail-party-004.jpg
-- template: journal-image
-  block: journal-image
   journal-image: /dist/images/post-bma-cocktail-party-005.jpg
 ---
 

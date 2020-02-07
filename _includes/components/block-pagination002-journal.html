@@ -1,0 +1,13 @@
+
+
+<!-- Pagination links -->
+<div class="pagination">
+ 
+  
+  {% if page.next.url %}
+    <div class="pagination002-top-title journal"><a href="{{ page.next.url }}" class="next">Next</a></div>
+  {% endif %}
+  {% unless page.next.url %}
+  	<div class="pagination002-top-title journal"><a href="{{ page.previous.url }}" class="next">Prev</a></div>
+  {% endunless %}
+</div>

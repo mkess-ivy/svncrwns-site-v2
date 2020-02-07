@@ -1,0 +1,37 @@
+{% assign portfolio-collection = page.collection | where: "portfolio-grid", "need" %}
+
+{% if portfolio-collection %}
+    {% assign links = site[page.collection]  %}
+{% endif %}
+
+{% for link in links %}
+    {% if link.title == page.title %}
+        {% unless forloop.first %}
+            {% assign prev = tmpprev %}
+        {% endunless %}
+        {% unless forloop.last %}
+            {% assign next = links[forloop.index] %}
+        {% endunless %}
+    {% endif %}
+    {% assign tmpprev = link %}
+{% endfor %}
+<script>
+document.body.onkeyup = function(e){
+	if (e.keyCode == '37') { window.location = '{{prevurl}}'; }
+	if (e.keyCode == '39') { window.location = '{{nexturl}}'; }
+};
+</script>
+
+<section class="dipper goSlow">
+	
+		
+		{% if next %}
+		
+			<div class="pagination002-top-title"><a href="{{ next.url }}" class="hover-link">Next</a></div>
+		
+		{% endif %}
+		{% unless next %}
+		  	<div class="pagination002-top-title journal"><a href="{{ prev.url }}" class="next">Prev</a></div>
+		{% endunless %}
+		
+</section>

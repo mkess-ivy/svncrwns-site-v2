@@ -24,6 +24,9 @@ page_sections:
   block: project-meta
   brand-statement: SVNCRWNS partnered with a set of collaborators to create the pilot event, Spectrum.  A fashion show highlighting local designers and stylists and creating an environment for buyers to learn about new talent.
   category: event
+- template: project-hero
+  block: project-hero
+  project-details-cover: /dist/images/collabmore3.jpg
 - template: journal-video
   block: journal-video
   vimeo-code: 211146089

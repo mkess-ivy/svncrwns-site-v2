@@ -1,5 +1,6 @@
 {% include grid/head_header_color.html %}
 <div class="grid">
+	{% include components/block-pagination002-top.html %}
 	{% for section in page.page_sections %}
 		{% include components/block-{{ section.block}}.html %}
 	{% endfor %}

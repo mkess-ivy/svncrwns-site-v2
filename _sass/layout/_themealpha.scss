@@ -2,7 +2,7 @@
 .themealpha-phase1-masthead {
   color: $off-black;
   position: relative;
-  padding: 75px 20px 100px;
+  padding: 75px 0px 100px;
 
   @include tablet {
     padding: 50px 0 50px;
@@ -15,7 +15,8 @@
 .themealpha-phase1-header {
   font-family: $font-brand4;
   color: $brown;
-  font-size: 40px;
+  // font-size: 40px;
+  font-size: 36px;
   line-height: 1.1;
   margin-bottom: 10px;
   text-transform: uppercase;

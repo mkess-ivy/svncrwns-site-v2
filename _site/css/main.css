@@ -198,7 +198,7 @@ a.no-line:hover {
       margin: 10px auto; } }
   @media screen and (min-width: 600px) {
     .grid {
-      max-width: 500px; } }
+      max-width: 550px; } }
   @media screen and (min-width: 750px) {
     .grid {
       max-width: none;
@@ -604,14 +604,24 @@ a.phase1-btn {
 .block-credits002 {
   background-color: #d3b7ac;
   margin-bottom: 5em;
-  position: relative; }
+  position: relative;
+  padding-left: 25px; }
   @media screen and (min-width: 750px) {
     .block-credits002 {
-      margin-bottom: 7em; } }
+      margin-bottom: 7em;
+      margin-top: 5em;
+      margin-left: -50px;
+      padding-left: 100px; } }
   @media screen and (min-width: 1024px) {
     .block-credits002 {
       width: 70%;
-      padding-left: 4em; } }
+      padding-left: 60px; } }
+  @media screen and (min-width: 1200px) {
+    .block-credits002 {
+      margin-left: 0; } }
+  @media screen and (min-width: 1439px) {
+    .block-credits002 {
+      padding-left: 110px; } }
   .block-credits002 .credits002-title {
     letter-spacing: 2.67px;
     text-transform: uppercase;
@@ -619,19 +629,14 @@ a.phase1-btn {
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     position: absolute;
-    top: -23px;
-    padding-left: 0.5em; }
+    top: -23px; }
     @media screen and (min-width: 500px) {
       .block-credits002 .credits002-title {
         top: -30px;
         font-size: 40px; } }
   .block-credits002 .credits002-content {
     padding-top: 5em;
-    padding-bottom: 5em;
-    padding-left: 0.5em; }
-    @media screen and (min-width: 500px) {
-      .block-credits002 .credits002-content {
-        padding-left: 1em; } }
+    padding-bottom: 5em; }
     @media screen and (min-width: 750px) {
       .block-credits002 .credits002-content {
         padding-bottom: 2em; } }
@@ -664,17 +669,15 @@ a.phase1-btn {
       height: calc(100vh - 30px);
       background: #c8f330;
       padding-top: 20%;
-      padding-left: 5.5em;
       padding-right: 3.5em; } }
   @media screen and (min-width: 1200px) {
     .pagination002 {
       padding-top: 16%;
-      padding-left: 3.5em;
       padding-right: 3.5em; } }
   @media screen and (min-width: 1439px) {
     .pagination002 {
       width: 55%;
-      padding-left: 5em;
+      padding-left: 9em;
       padding-right: 5em; } }
   .pagination002 .single-pagination {
     padding-bottom: 5em;
@@ -700,8 +703,32 @@ a.phase1-btn {
         .pagination002 .single-pagination .pagination002-project {
           font-size: 32px; } }
 
-.small_title_wrapper, .themealpha_project_info_wrapper {
-  padding-bottom: 25px; }
+.pagination002-top-title {
+  text-transform: uppercase;
+  font-family: 'Montserrat',sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  /* padding-bottom: 10px; */
+  background: #c8f330;
+  padding: 20px 14px;
+  border-radius: 50%;
+  margin-top: 20px;
+  position: absolute;
+  right: 20px; }
+  @media screen and (min-width: 750px) {
+    .pagination002-top-title {
+      top: 65px; } }
+  @media screen and (min-width: 900px) {
+    .pagination002-top-title {
+      top: 105px;
+      right: 50px; } }
+  @media screen and (min-width: 1200px) {
+    .pagination002-top-title {
+      top: 115px; } }
+  @media screen and (min-width: 900px) {
+    .pagination002-top-title.journal {
+      top: 150px;
+      z-index: 5; } }
 
 .small_title_line, .themealpha_small_title_line {
   display: inline-block;
@@ -832,7 +859,8 @@ a.brand_cta {
   letter-spacing: 1px;
   font-weight: 700;
   font-size: 30px;
-  line-height: 1; }
+  line-height: 1;
+  padding-bottom: 10px; }
   @media screen and (min-width: 900px) {
     .home-meta-title {
       font-size: 46px;
@@ -941,13 +969,13 @@ a.general_link {
 .work-space-tag {
   background: #F7F7F7;
   color: #070707;
-  padding: 0 0 0.5em 0;
+  padding: 0.4em;
   margin-right: 8px;
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 700;
-  font-size: 14px; }
+  font-size: 10px; }
   .work-space-tag a {
     color: #b69d9d; }
 
@@ -1074,6 +1102,9 @@ a.general_link {
 
 .block-editorial-img {
   padding-bottom: 50px; }
+  @media screen and (min-width: 750px) {
+    .block-editorial-img {
+      padding-bottom: 75px; } }
 
 .wn-bg {
   background-color: #d3b7ac;
@@ -1422,17 +1453,20 @@ a.js_hover_trigger2:hover {
   height: 60vh; }
 
 .editorial_meta {
-  padding: 100px 0 50px; }
+  padding: 100px 0 75px; }
 
 .themealpha_small_title_text {
   text-transform: initial !important;
   width: 85% !important;
   margin-top: -7px !important;
-  font-size: 18px !important;
+  font-size: 16px !important;
   font-weight: normal;
   padding-left: 0;
   font-family: "Libre Baskerville", Helvetica, serif;
   letter-spacing: 0; }
+  @media screen and (min-width: 500px) {
+    .themealpha_small_title_text {
+      font-size: 18px !important; } }
 
 .themealpha_small_alpha {
   width: 100%;
@@ -1470,7 +1504,7 @@ a.js_hover_trigger2:hover {
   padding: 30px;
   background: #99703E;
   color: #F7F7F7;
-  margin: -15vh auto;
+  margin: -7vh auto;
   width: 90%; }
   @media screen and (min-width: 750px) {
     .project_details {
@@ -1479,9 +1513,12 @@ a.js_hover_trigger2:hover {
       margin: -25vh auto 0; } }
   @media screen and (min-width: 900px) {
     .project_details {
-      margin: 0;
+      margin: -7vh auto 0;
       max-width: none;
-      width: 100%; } }
+      width: 90%; } }
+  @media screen and (min-width: 1200px) {
+    .project_details {
+      width: 80%; } }
 
 .nobgcolor {
   background: transparent;
@@ -1504,10 +1541,13 @@ a.js_hover_trigger2:hover {
 .caption_wrapper {
   width: 100%;
   max-width: 850px;
-  margin: 75px 0; }
+  margin: 0px 0 125px; }
   @media screen and (min-width: 750px) {
     .caption_wrapper {
-      margin: 0 0 250px; } }
+      margin: 0 0 175px; } }
+  @media screen and (min-width: 1024px) {
+    .caption_wrapper {
+      width: 75%; } }
   @media screen and (min-width: 1200px) {
     .caption_wrapper {
       width: 60%; } }
@@ -1537,12 +1577,6 @@ a.js_hover_trigger2:hover {
 
 .editorial_images {
   padding-bottom: 75px; }
-
-.project_links {
-  padding-left: 1em; }
-  @media screen and (min-width: 500px) {
-    .project_links {
-      padding-left: 1em; } }
 
 .project-highlights {
   text-transform: uppercase;
@@ -1937,7 +1971,7 @@ body.noScroll {
 .overlay {
   position: fixed;
   width: 100%;
-  height: 93%;
+  height: 100%;
   bottom: 0;
   left: 0;
   background-size: cover;
@@ -2257,19 +2291,22 @@ ul.nav li a:hover::after {
     padding: 0; } }
 @media screen and (min-width: 600px) {
   .site-logo {
-    max-width: 500px; } }
+    max-width: 550px; } }
 @media screen and (min-width: 750px) {
   .site-logo {
     max-width: none;
     margin: 10px 50px 0; } }
 @media screen and (min-width: 1200px) {
   .site-logo {
+    margin: 10px 35px 0 100px; } }
+@media screen and (min-width: 1439px) {
+  .site-logo {
     margin: 10px 35px 0 150px; } }
 
 .themealpha-phase1-masthead {
   color: #070707;
   position: relative;
-  padding: 75px 20px 100px; }
+  padding: 75px 0px 100px; }
   @media screen and (min-width: 750px) {
     .themealpha-phase1-masthead {
       padding: 50px 0 50px; } }
@@ -2280,7 +2317,7 @@ ul.nav li a:hover::after {
 .themealpha-phase1-header {
   font-family: "Montserrat", sans-serif;
   color: #A16414;
-  font-size: 40px;
+  font-size: 36px;
   line-height: 1.1;
   margin-bottom: 10px;
   text-transform: uppercase;
@@ -2735,8 +2772,7 @@ ul.nav li a:hover::after {
   .backstage-work ul {
     margin: 10px 20px; }
     .backstage-work ul li {
-      font-size: 25px;
-      padding-bottom: 15px; }
+      font-size: 25px; }
       @media screen and (min-width: 500px) {
         .backstage-work ul li {
           font-size: 35px; } }
@@ -2761,7 +2797,7 @@ ul.nav li a:hover::after {
   .backstage-title a {
     color: #F7F7F7;
     display: block;
-    padding: 0.1em 0; }
+    padding: 10px 0 15px; }
     .backstage-title a:hover {
       color: #c8f330;
       transition: 200ms linear;
@@ -3499,7 +3535,15 @@ ul.nav li a:hover::after {
   @media screen and (min-width: 900px) {
     .home-lastrow-bigtitle {
       font-size: 44px;
-      padding: 50px 200px 25px 0; } }
+      padding: 50px 100px 25px 0;
+      width: 57%; } }
+  @media screen and (min-width: 1024px) {
+    .home-lastrow-bigtitle {
+      width: 45%;
+      padding: 50px 0 25px 0; } }
+  @media screen and (min-width: 1200px) {
+    .home-lastrow-bigtitle {
+      width: 35%; } }
   .home-lastrow-bigtitle a {
     color: #070707;
     max-width: 320px;
@@ -3762,7 +3806,7 @@ ul.nav li a:hover::after {
       .block-journal-meta .journal-meta-title {
         font-size: 32px; } }
   .block-journal-meta .journal-meta-summary {
-    padding-bottom: 7em;
+    padding-bottom: 75px;
     font-size: 16px; }
     @media screen and (min-width: 500px) {
       .block-journal-meta .journal-meta-summary {

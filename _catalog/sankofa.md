@@ -23,6 +23,9 @@ page_sections:
   block: project-meta
   brand-statement: SVNCRWNS has worked with Sankofa to complete a catalog of work.  We offered brand styling, consulting, event activation, and content production.
   category: special-project
+- template: project-hero
+  block: project-hero
+  project-details-cover: /dist/images/project_popupmuseum/popupmuseum-6_v2.jpg
 - template: journal-video
   block: journal-video
   vimeo-code: 198145423
