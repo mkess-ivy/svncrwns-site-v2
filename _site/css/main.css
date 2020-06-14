@@ -2545,11 +2545,13 @@ ul.nav li a:hover::after {
     font-size: 12px;
     letter-spacing: 0.5px;
     font-family: "Montserrat", sans-serif;
-    font-weight: 700; }
+    font-weight: 700;
+    text-align: center; }
     .topbar_section .topbar_title a {
       color: #F7F7F7; }
     .topbar_section .topbar_title a:hover {
-      color: #F7F7F7; }
+      color: #c8f330;
+      border-bottom: 0; }
     .topbar_section .topbar_title a:visited {
       color: #F7F7F7; }
 

@@ -12,12 +12,14 @@
     letter-spacing: 0.5px;
     font-family: $font-brand4;
     font-weight: 700;
+    text-align: center;
 
     a {
       color: $off-white;
     }
     a:hover {
-      color: $off-white;
+      color: $yellow;
+      border-bottom: 0;
     }
     a:visited {
       color: $off-white;
