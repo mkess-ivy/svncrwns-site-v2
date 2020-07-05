@@ -18,7 +18,7 @@
       color: $off-white;
     }
     a:hover {
-      color: $yellow;
+      color: $yellow !important;
       border-bottom: 0;
     }
     a:visited {

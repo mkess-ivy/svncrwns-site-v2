@@ -2550,7 +2550,7 @@ ul.nav li a:hover::after {
     .topbar_section .topbar_title a {
       color: #F7F7F7; }
     .topbar_section .topbar_title a:hover {
-      color: #c8f330;
+      color: #c8f330 !important;
       border-bottom: 0; }
     .topbar_section .topbar_title a:visited {
       color: #F7F7F7; }
