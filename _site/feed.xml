@@ -4,10 +4,10 @@
     <title>SVNCRWNS</title>
     <description>SVNCRWNS is a strategy and production company based in Baltimore, MD. We use our skills and resources to work with clients to push their missions forward.  Services include Creative Direction, Strategy, Image Making and Web Design + Development
 </description>
-    <link>https://www.svncrwns.com/</link>
-    <atom:link href="https://www.svncrwns.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 19 Jun 2020 01:57:02 -0400</pubDate>
-    <lastBuildDate>Fri, 19 Jun 2020 01:57:02 -0400</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 17 Aug 2020 03:35:37 -0400</pubDate>
+    <lastBuildDate>Mon, 17 Aug 2020 03:35:37 -0400</lastBuildDate>
     <generator>Jekyll v3.6.3</generator>
     
       <item>
@@ -15,8 +15,8 @@
         <description>
 </description>
         <pubDate>Wed, 01 May 2019 00:00:00 -0400</pubDate>
-        <link>https://www.svncrwns.com/journal/svncrwns-visits-art-practice/</link>
-        <guid isPermaLink="true">https://www.svncrwns.com/journal/svncrwns-visits-art-practice/</guid>
+        <link>http://localhost:4000/journal/svncrwns-visits-art-practice/</link>
+        <guid isPermaLink="true">http://localhost:4000/journal/svncrwns-visits-art-practice/</guid>
         
         
       </item>
@@ -26,8 +26,8 @@
         <description>
 </description>
         <pubDate>Sat, 20 Apr 2019 00:00:00 -0400</pubDate>
-        <link>https://www.svncrwns.com/journal/city-of-gods-light-city/</link>
-        <guid isPermaLink="true">https://www.svncrwns.com/journal/city-of-gods-light-city/</guid>
+        <link>http://localhost:4000/journal/city-of-gods-light-city/</link>
+        <guid isPermaLink="true">http://localhost:4000/journal/city-of-gods-light-city/</guid>
         
         
       </item>
@@ -37,8 +37,8 @@
         <description>
 </description>
         <pubDate>Mon, 17 Dec 2018 00:00:00 -0500</pubDate>
-        <link>https://www.svncrwns.com/journal/svncrwns-we-changed-things-up/</link>
-        <guid isPermaLink="true">https://www.svncrwns.com/journal/svncrwns-we-changed-things-up/</guid>
+        <link>http://localhost:4000/journal/svncrwns-we-changed-things-up/</link>
+        <guid isPermaLink="true">http://localhost:4000/journal/svncrwns-we-changed-things-up/</guid>
         
         
       </item>
@@ -48,8 +48,8 @@
         <description>
 </description>
         <pubDate>Mon, 17 Sep 2018 00:00:00 -0400</pubDate>
-        <link>https://www.svncrwns.com/journal/svncrwns-visits-bk-museum/</link>
-        <guid isPermaLink="true">https://www.svncrwns.com/journal/svncrwns-visits-bk-museum/</guid>
+        <link>http://localhost:4000/journal/svncrwns-visits-bk-museum/</link>
+        <guid isPermaLink="true">http://localhost:4000/journal/svncrwns-visits-bk-museum/</guid>
         
         
       </item>
@@ -59,8 +59,8 @@
         <description>
 </description>
         <pubDate>Tue, 07 Aug 2018 00:00:00 -0400</pubDate>
-        <link>https://www.svncrwns.com/journal/event-recap-w-her-sweet-release-nye-18/</link>
-        <guid isPermaLink="true">https://www.svncrwns.com/journal/event-recap-w-her-sweet-release-nye-18/</guid>
+        <link>http://localhost:4000/journal/event-recap-w-her-sweet-release-nye-18/</link>
+        <guid isPermaLink="true">http://localhost:4000/journal/event-recap-w-her-sweet-release-nye-18/</guid>
         
         
       </item>
@@ -70,8 +70,8 @@
         <description>
 </description>
         <pubDate>Sun, 15 Jul 2018 00:00:00 -0400</pubDate>
-        <link>https://www.svncrwns.com/journal/delicate/</link>
-        <guid isPermaLink="true">https://www.svncrwns.com/journal/delicate/</guid>
+        <link>http://localhost:4000/journal/delicate/</link>
+        <guid isPermaLink="true">http://localhost:4000/journal/delicate/</guid>
         
         
       </item>
@@ -93,8 +93,8 @@
 &lt;p&gt;D. &lt;a href=&quot;https://www.forbes.com/sites/jerrymclaughlin/2011/12/14/a-simple-blueprint-for-a-successful-brand/#2d4767b05484&quot;&gt;A Simple Blueprint for Successful Brands&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 10 Jul 2018 00:00:00 -0400</pubDate>
-        <link>https://www.svncrwns.com/journal/branding-our-business/</link>
-        <guid isPermaLink="true">https://www.svncrwns.com/journal/branding-our-business/</guid>
+        <link>http://localhost:4000/journal/branding-our-business/</link>
+        <guid isPermaLink="true">http://localhost:4000/journal/branding-our-business/</guid>
         
         
       </item>
@@ -104,8 +104,8 @@
         <description>
 </description>
         <pubDate>Mon, 23 Apr 2018 00:00:00 -0400</pubDate>
-        <link>https://www.svncrwns.com/journal/svncrwns-covers-baltimores-gifted/</link>
-        <guid isPermaLink="true">https://www.svncrwns.com/journal/svncrwns-covers-baltimores-gifted/</guid>
+        <link>http://localhost:4000/journal/svncrwns-covers-baltimores-gifted/</link>
+        <guid isPermaLink="true">http://localhost:4000/journal/svncrwns-covers-baltimores-gifted/</guid>
         
         
       </item>
@@ -115,8 +115,8 @@
         <description>
 </description>
         <pubDate>Fri, 23 Feb 2018 00:00:00 -0500</pubDate>
-        <link>https://www.svncrwns.com/journal/our-brothers-keeper-event/</link>
-        <guid isPermaLink="true">https://www.svncrwns.com/journal/our-brothers-keeper-event/</guid>
+        <link>http://localhost:4000/journal/our-brothers-keeper-event/</link>
+        <guid isPermaLink="true">http://localhost:4000/journal/our-brothers-keeper-event/</guid>
         
         
       </item>
@@ -126,8 +126,8 @@
         <description>&lt;p&gt;Check out our talk by way of &lt;a href=&quot;http://www.localcolorpodcast.com/2018/01/26/episode-51-creative-mornings-panel/&quot;&gt;Local Color Podcast&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Sun, 17 Dec 2017 00:00:00 -0500</pubDate>
-        <link>https://www.svncrwns.com/journal/creative-mornings/</link>
-        <guid isPermaLink="true">https://www.svncrwns.com/journal/creative-mornings/</guid>
+        <link>http://localhost:4000/journal/creative-mornings/</link>
+        <guid isPermaLink="true">http://localhost:4000/journal/creative-mornings/</guid>
         
         
       </item>
