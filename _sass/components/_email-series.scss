@@ -1,0 +1,78 @@
+.grid.es_grid {
+    padding-top: 25px;
+
+    @include tv {
+        margin: 10px auto;
+    }
+}
+
+.es_title_wrapper {
+    text-align: center;
+    margin: 65px 0 100px;
+
+    @include tablet-frow {
+        margin: 100px 0 125px;
+    }
+    @include desktop-blah {
+        margin: 200px 0 125px;
+    }
+
+    .es_title {
+        font-size: 32px;
+        text-transform: uppercase;
+        font-family: 'Montserrat',sans-serif;
+        font-weight: 500;
+        @include palm-mid {
+            font-size: 36px;
+        }
+        @include tablet-small {
+            font-size: 60px;
+        }
+    }
+    .es_subtitle {
+        font-size: 20px;
+        text-transform: uppercase;
+        font-family: 'Montserrat',sans-serif;
+        font-weight: 500;
+        // padding-top: 10px;
+    }
+}
+.es_img {
+    text-align: center;
+    padding: 50px 0 125px;
+    width: 90%;
+    margin: auto;
+
+    @include palm {
+        width: auto;
+        margin: initial;
+    }
+}
+.es_wrapper {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: $font-brand4;
+
+    @include palm-mid {
+        width: 75%;
+    }
+
+    @include tablet-frow {
+        margin: 0 auto 125px;
+    }
+    @include desktop {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    @include desktop-blah {
+        width: 65%;
+    }
+}
+.bold {
+    font-weight: bold;
+}
+.email_section {
+    margin: 75px 0;
+}

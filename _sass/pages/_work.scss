@@ -2,7 +2,7 @@
 	@include heavy_font(24px);
 	padding: 75px 0 50px;
 	@include laptop {
-		padding: 75px 0;
+		padding: 125px 0;
 		font-size: 32px;
 	}
 }

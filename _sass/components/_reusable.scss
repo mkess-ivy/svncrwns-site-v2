@@ -791,3 +791,116 @@ a.js_hover_trigger2 {
   }
 }
 
+
+// Footer CTAs
+.footer_cta_wrapper {
+
+}
+.footer_tag {
+  color: $off-white;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: $font-brand4;
+  padding-bottom: 25px;
+}
+.single_footer_cta {
+  width: 100%;
+  padding: 50px 25px;
+
+  @include tablet-frow {
+    width: 50%;
+    padding: 25px 25px 70px;
+  }
+}
+.single_footer_wrapper {
+  @include palm-mid {
+    width: 75%;
+    margin: auto;
+  }
+  @include tablet-small {
+    width: 65%;
+    max-width: 365px;
+  }
+}
+.footer_slide {
+  padding-bottom: 20px;
+  width: 85%;
+  margin: auto;
+
+  @include desktop-blah {
+    width: 100%;
+  }
+}
+
+
+.footer_details_wrapper {
+  font-family: $font-brand4;
+  color: $off-white;
+
+  .footer_details_title {
+    text-transform: uppercase;
+    font-weight: $heavy;
+    padding-bottom: 5px;
+  }
+  .footer_details_notes {
+    font-size: 12px;
+  }
+}
+
+.footer_exc {
+  font-size: 46px;
+  text-transform: uppercase;
+  font-family: $font-brand4;
+  font-weight: $heavy;
+  line-height: 42px;
+  padding: 20px 0 30px;
+  text-align: center;
+
+  @include palm-mid {
+    font-size: 50px;
+    line-height: 44px;
+  }
+  @include tablet-small {
+    font-size: 60px;
+    line-height: 54px;
+  }
+  @include tablet-frow {
+    font-size: 40px;
+    line-height: 36px;
+  }
+  @include desktop {
+    font-size: 46px;
+    line-height: 40px;
+  }
+  @include desktop-blah {
+    padding: 35px 0;
+    font-size: 56px;
+    line-height: 50px;
+  }
+}
+.footer_exc_desc {
+  font-size: 12px;
+  letter-spacing: 0;
+  font-family: $font-brand4;
+  padding-bottom: 25px;
+  text-align: center;
+}
+.brand_btn {
+  div {
+    text-align: center;
+    border: 2px solid;
+    font-family: $font-brand4;
+    text-transform: uppercase;
+    font-size: 12px;
+    border-radius: 25px;
+    padding: 5px;
+    font-weight: $heavy;
+    width: 150px;
+    margin: auto;
+
+    &:hover {
+      background-color: $off-black;
+      color: $yellow;
+    }
+  }
+}

@@ -19,7 +19,7 @@
   }
   @include tv {
     max-width: 1350px;
-    margin: 10px auto;
+    margin: 10px 140px;
   }
   &.fixed_width_grid {
     @include desktop {
@@ -32,6 +32,13 @@
         max-width: 1200px;
         margin: 0 auto 25px;
     }
+  }
+}
+.grid.blm {
+  @extend .grid;
+
+  @include tv {
+    margin: 10px auto;
   }
 }
 .grid_lp {
