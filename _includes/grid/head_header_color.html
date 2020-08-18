@@ -12,5 +12,11 @@
 
     <div class="se-pre-con"></div>
 
+    {% unless page.layout == "services-now" %}
     {% include grid/short_header2.html %}
+    {% endunless %}
+
+    {% if page.layout == "services-now" %}
+    {% include grid/services_header.html %}
+    {% endif %}
     

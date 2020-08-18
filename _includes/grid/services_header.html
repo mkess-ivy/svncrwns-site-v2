@@ -1,10 +1,10 @@
-<header class="phase1-site-header {% if page.layout == "blocks-layout" or page.layout == "editorial" %}blocks-layout-header{% endif %}" {% if page.layout == "services-now" %} style="background: transparent;"{% endif %}>
+<header class="phase1-site-header" style="background: transparent;">
 	{% include grid/newsletter_topbar.html %} 
     <div class="left_header">
       	<div class="grid_project site-logo">
         	<div class="frow justify-between">
             	{% for item in site.data.site-settings %}
-	            <a href="/"><img src="{{ item.global-logo }}" width="{{ item.width }}" style="margin: 5px 0;" /></a>
+	            <a href="/"><img src="{{ item.global-logo-white }}" width="{{ item.width }}" style="margin: 5px 0;" /></a>
 	            {% endfor %}
 	            {% include grid/collapsed_menu.html %}
 	        </div>

@@ -41,6 +41,11 @@
     margin: 10px auto;
   }
 }
+.grid.services-now {
+  @include palm-mid {
+    padding-top: 75px;
+  }
+}
 .grid_lp {
   @include desktop-blah {
       max-width: 1000px;

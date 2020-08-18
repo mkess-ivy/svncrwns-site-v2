@@ -1,0 +1,115 @@
+.services_title_wrapper {
+    color: $off-white;
+    font-family: $font-brand4;
+    text-align: center;
+
+    .services_title {
+        text-transform: uppercase;
+        font-weight: bold;
+        padding-bottom: 25px;
+    }
+    .services_desc {
+        font-size: 14px;
+        font-weight: lighter;
+        padding-bottom: 100px;
+    }
+}
+
+.services_benefit_wrapper {
+    color: $off-white;
+
+    .benefit_list_wrapper {
+        padding-top: 100px;
+        font-family: 'Montserrat',sans-serif;
+    }
+    .benefit_list_title {
+        text-align: center;
+
+        border-bottom: 1px solid;
+        width: 80%;
+        margin: 0 auto 75px;
+        padding-bottom: 7px;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    .benefit_single {
+        text-align: center;
+        width: 75%;
+        margin: 0 auto 75px;
+    }
+    .benefit_icon {
+        padding-bottom: 30px;
+    }
+    .benefit_copy {
+        font-size: 14px;
+    }
+}
+
+.services_idea_wrapper {
+ padding-top: 125px;;   
+}
+.services_idea_icon {
+    text-align: center;
+    padding-bottom: 50px;
+
+    img {
+        width: 50px;
+    }
+}
+.services_idea_intro {
+    color: $off-white;
+    font-family: $font-brand4;
+}
+
+.services_idea_desc {
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 75px;
+}
+.services_idea_list {
+    color: white;
+    width: 85%;
+    margin: auto;
+    font-family: 'Montserrat',sans-serif;
+}
+.services_idea_single {
+    padding-bottom: 50px;
+}
+.services_idea_title {
+    color: $yellow;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 7px;
+}
+.services_idea_note {
+    font-size:14px;
+}
+
+.services_offer_wrapper {
+    color: $off-white;
+    font-family: $font-brand4;
+    text-align: center;
+    padding: 200px 0 100px;
+}
+.services_offer_title {
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+.services_offer {
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1;
+    font-size: 50px;
+    
+    padding: 50px 0;
+}
+.services_offer_desc {
+    
+    font-size: 14px;
+    padding-bottom: 50px;
+}
+
+.es_callout {
+}

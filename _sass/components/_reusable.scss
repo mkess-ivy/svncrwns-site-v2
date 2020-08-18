@@ -904,3 +904,16 @@ a.js_hover_trigger2 {
     }
   }
 }
+
+.brand_btn_v2 {
+  @extend .brand_btn;
+
+  div {
+    width: 200px;
+    color: $yellow;
+    &:hover {
+      background: $yellow;
+      color: $off-black;
+    }
+  }
+}
