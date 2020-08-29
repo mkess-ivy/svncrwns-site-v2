@@ -2573,6 +2573,18 @@ ul.nav li a:hover::after {
   font-size: 14px;
   padding-bottom: 50px; }
 
+.es_callout {
+  padding-top: 50px; }
+
+.es_callout_title {
+  text-transform: uppercase;
+  font-family: 'Montserrat',sans-serif;
+  font-weight: bold;
+  padding-bottom: 7px;
+  border-bottom: 1px solid;
+  width: 95%;
+  margin: auto; }
+
 .themealpha-phase1-masthead {
   color: #070707;
   position: relative;
