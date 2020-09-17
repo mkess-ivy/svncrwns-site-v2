@@ -1,0 +1,43 @@
+<head>
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-73941806-1"></script>
+    <script>
+     window.dataLayer = window.dataLayer || [];
+     function gtag(){dataLayer.push(arguments);}
+     gtag('js', new Date());
+     gtag('config', 'UA-73941806-1');
+    </script>
+
+  <!-- SEO Information -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% if page.url == "/404.html" %}
+  <meta http-equiv="refresh" content="5; url=/">
+  {% endif %}
+
+  <title>{{ page.title }} - {{ site.title }}</title>
+  <meta name="author" content="SVNCRWNS" />
+  <meta name="description" content="The Resource app is for artists and entrepreneurs that need to hire for short and long-term projects" />
+  <link rel="canonical" href="{{ site.url }}{{ page.url | replace: 'index.html','' }}" />
+
+  <!-- Meta OG Tags -->
+  <meta name="og:title" content="SVNCRWNS - Resource" />
+  <meta property="og:url" content="https://www.svncrwns.com/resource" />
+  <meta property="og:image" content="/uploads/resource-logo.png" />
+
+  <link rel="shortcut icon" href="/crwn.png" type="image/png" />
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+
+  <!-- Vendor Stylesheets -->
+  <link rel="stylesheet" type="text/css" href="/css/vendor/frow.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" type="text/css" href="/css/vendor/hamburgers.css" />
+  <link rel="stylesheet" type="text/css" href="/css/vendor/animate.css" />
+
+</head>
+<body class="resource">
