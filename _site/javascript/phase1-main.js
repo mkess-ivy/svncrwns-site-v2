@@ -231,6 +231,15 @@ $(document).ready(function(){
             }
         ]
     });
+    $('.theme2020-slider').slick({
+        dots: false,
+        infinite: true,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        fade: true,
+        cssEase: 'linear',
+        arrows: false,
+    });
 
     // simpleLightbox
     $('.imageGallery1 a').simpleLightbox();

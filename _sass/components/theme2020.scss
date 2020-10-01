@@ -1,0 +1,287 @@
+.theme2020-intro {
+    height: 95vh;
+
+    .theme2020-title {
+        text-transform:uppercase;
+        font-family: $font-brand4;
+        font-weight: bold;
+        font-size: 48px;
+        color:$off-white;
+        padding-bottom: 50px;
+    }
+
+    .theme2020-locations {
+        position: absolute;
+        bottom:17px;
+
+        @include tablet {
+            // position: relative;
+            bottom: initial;
+        }
+        ul {
+            color: $white;
+            text-transform: uppercase;
+            font-family: $font-brand4;
+            font-size:8px;
+
+            @include tablet {
+                font-size:12px;
+            }
+
+            li {
+                list-style: none;
+                display: inline;
+                // padding-left: 30px;
+                width:75px;
+
+                @include tablet {
+                    width:135px;
+                }
+            }
+        }
+    }
+}
+
+
+.theme2020-section {
+    padding-top: 7vh;
+
+    .theme2020-content {
+        width:100%;
+        padding-bottom:50px;
+
+        @include tablet {
+            width: 55%;
+            padding-bottom:0;
+        }
+    }
+}
+.theme2020-row {
+    margin-bottom:125px;
+
+    &.end {
+        margin-bottom: 50px;
+    }
+}
+.theme2020-small {
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: $font-brand4;
+    padding-bottom: 10px;
+
+    @include tablet {
+        font-size: 16px;
+    }
+}
+
+.theme2020-copy {
+    font-weight: 300;
+    font-family: $font-brand4;
+    font-size: 24px;
+    padding-bottom: 35px;
+
+    @include tablet {
+        font-size: 28px;
+    }
+}
+.theme2020-btns {
+    display: block;
+
+    a:hover {
+        border-bottom: 0;
+        
+    }
+    div {
+        border: 2px solid;
+        display: inline-block;
+        padding: 7px 25px;
+        text-transform: uppercase;
+        font-size: 10px;
+        font-family: $font-brand4;
+        font-weight: 700;
+        margin-bottom: 75px;
+        letter-spacing: 0.5px;
+
+        @include tablet {
+            font-size: 13px;
+        }
+
+        &:hover {
+            background: $off-black;
+            color: $off-white;
+        }
+    }
+
+    &.white {
+        
+        div {
+            color: $off-white;
+
+            &:hover {
+                border-color: $off-black;
+                background: $off-white;
+                color: $off-black;
+            }
+        }
+        
+    }
+}
+
+.theme2020-list {
+    font-family: $font-brand4;
+    font-size: 18px;
+    margin-bottom: 75px;
+
+    @include tablet {
+        margin-bottom: 30px;
+    }
+
+    li {
+        padding-bottom:7px;
+
+        a {
+            div {
+
+                &:hover {
+                    // border-bottom: 1px solid;
+                    // padding-bottom: 2px;
+                }
+            }
+        }
+    }
+
+    &.footer {
+        li {
+            a {
+                div {
+                    display: inline-block;
+
+                    &:hover {
+                        
+                    }
+                }
+            }
+        }
+    }
+}
+
+.theme2020-ownership {
+    width: 100%;
+    padding-bottom:75px;
+
+    @include tablet {
+        width: 45%;
+        padding-bottom:0;
+    }
+}
+.reel {
+    height: 75vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: $off-white;
+}
+.reel-info {
+    // height:50vh;
+    text-align: center;
+
+    .reel-title {
+        text-transform: uppercase;
+        font-family: $font-brand4;
+        font-size: 14px;
+        padding-bottom: 30px;
+
+        @include tablet {
+            font-size: 32px;
+        }
+    }
+}
+
+.partners {
+    margin: 15vh 0;
+    .partners-wrapper {
+        width:95%;
+        margin-top:25px;
+
+        @include tablet {
+            width:85%;
+        }
+    }
+    .logo-partner {
+        padding: 0 13px 30px 0;
+        width:76px;
+
+        @include tablet {
+            width:225px;
+            padding: 0 25px 40px 0;
+        }
+    }
+}
+
+.newsletter {
+    background: $off-black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    color: $off-white;
+    padding: 7vh 0;
+
+    .newsletter-intro {
+        width: 100%;
+
+        @include tablet {
+            width:45%;
+        }
+    }
+}
+
+.theme2020-footer {
+    padding-top: 50px;
+    padding-bottom: 10px;
+
+    .theme2020-footer-col {
+        width:225px;
+    }
+    .left_footer_copy {
+        text-transform: uppercase;
+        font-weight: 300;
+        font-size: 11px;
+        font-family: $font-brand4;
+    }
+    
+}
+
+.theme2020-slider {
+    display: flex;
+    align-items: center;
+    height: 93vh;
+    width: 100vw;
+    background: $brown;
+    user-select: none;
+
+    .slide {
+        width: 100vw;
+        height: 93vh;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        // filter: grayscale(90%);
+        position:  0 0;
+        // color: pink;
+        // blend-mode: color-burn;
+    }
+}
+.theme2020-intro {
+    height: 95vh;
+    position: absolute;
+    top: 55px;
+    left: 0;
+    right: 0;
+    text-align: center;
+
+    @include tablet {
+        height:100vh;
+    }
+}

@@ -23,19 +23,7 @@ footer:
 
 
 header:
-- url: "/work"
-  title: Work
+- url: "/contact"
+  title: Contact
   identifier: work
   weight: 1
-- url: "/journal"
-  title: Journal
-  identifier: journal
-  weight: 2
-- url: "/backstage"
-  title: Backstage
-  identifier: backstage
-  weight: 3
-- url: "/connect"
-  title: Connect
-  identifier: connect
-  weight: 4

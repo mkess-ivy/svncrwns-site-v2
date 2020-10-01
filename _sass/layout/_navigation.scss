@@ -9,12 +9,13 @@
 /* Phase 1 Header */
 .phase1-site-header {
   @include laptop {
-    padding-top: 0;
-    top:0;
-    position: fixed;
-    width: 100%;
-    background: $off-white;
-    z-index: 3000;
+    // padding-top: 0;
+    // top:0;
+    // position: fixed;
+    // width: 100%;
+    // background: $off-white;
+    // z-index: 1;
+    // height:100vh;
     // margin-top: -10px;
   }
   &.project-layout {
@@ -330,8 +331,8 @@ ul.nav li a:hover::after {
 
 // Collapsed Menu
 .collapsed_menu_wrapper {
-  display: none;
-  padding-top: 25px;
+  // display: none;
+  // padding-top: 25px;
 
   @include tablet-small {
     padding-top: 20px;
@@ -349,10 +350,10 @@ ul.nav li a:hover::after {
     padding-top: 5px;
 
     li {
-      padding-right: 10px;
-      @include heavy_font(14px);
+      padding:7px 10px 10px 0;
+      @include heavy_font(10px);
       letter-spacing: 2px;
-      padding-bottom: 10px;
+      
 
       @include tablet {
         display: inline-block;
@@ -362,19 +363,22 @@ ul.nav li a:hover::after {
       a {
 
         font-size: 14px;
-        font-style: italic;
+        color: $off-black;
+        // font-style: italic;
         &:hover {
-          border-bottom: 2px solid $menu-link-hover;
+          border-bottom:1px solid;
         }
       }
       &.themealpha-nav a {
         
         color: $menu-link-color;
         font-size: 14px;
-        font-style: italic;
+        // font-style: italic;
 
         &:hover {
-          border-bottom: 2px solid $menu-link-hover;
+          // border-bottom: 2px solid $menu-link-hover;
+          color: $off-black;
+
         }
       }
       
@@ -560,7 +564,7 @@ ul.nav li a:hover::after {
     margin: 10px 50px 0;
   }
   @include desktop-blah {
-    margin: 10px 35px 0 100px;
+    margin: 10px 35px 7px 100px;
   }
   @include tv {
     margin: 10px 35px 0 150px;

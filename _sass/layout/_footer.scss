@@ -85,9 +85,9 @@
 	margin: 0 20px 10px;
 
 	@include tablet {
-		position: fixed;
-		z-index: 3;
-		bottom: 0;
+		// position: fixed;
+		// z-index: 3;
+		// bottom: 0;
 		width: 100%;
 		margin: auto;
 		background: $off-white;

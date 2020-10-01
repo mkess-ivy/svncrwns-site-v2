@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+  {% include grid/head.html %}
+
+{% if page.title == "SVNCRWNS - Home" %}
+    <body style="background-color: {{ site.homepage-bg-color }};">
+{% endif %}
+
+{% unless page.title == "SVNCRWNS - Home" %}
+    <body style="background-color: #{{ page.bg_color }}; color: #{{ page.text_color }}; background-image:url({{ page.bg_img}});">
+{% endunless %}
+
+    <div class="se-pre-con"></div>
+
+    <header class="phase1-site-header">
+        
+        <div class="menu-wrapper">
+            <div class="left_header">
+                <div class="grid_project site-logo">
+                  <div class="frow justify-between">
+                      
+                      <a href="/"><img src="{{ site.theme2020-logo }}" width="30" style="margin: 5px 0;" /></a>
+  
+                      <div class="collapsed_menu_wrapper">
+                      
+                          {% unless page.title == "SVNCRWNS - Home" %}
+                          <ul>
+                              {% for menu-item in site.data.menus.header %}
+                              <li class=""><a href="{{ menu-item.url }}" {% if page.layout == "services-now" %}style="color: #f7f7f7;"{% endif %}>{{ menu-item.title }}</a></li>
+                              {% endfor %}
+                          </ul>
+                          
+                          {% endunless %}
+  
+                          {% if page.title == "SVNCRWNS - Home" %}
+                          <ul>
+                              {% for menu-item in site.data.menus.header %}
+                              <li class="themealpha-nav"><a href="{{ menu-item.url }}">{{ menu-item.title }}</a></li>
+                              {% endfor%}
+                          </ul>
+                          
+                          {% endif %}
+                      </div>
+  
+  
+                  </div>
+                  
+                  
+              </div>
+          </div>
+        </div>
+    
+    
+        <script type="text/javascript" src="https://downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us11.list-manage.com","uuid":"ab04d0cabec9aa1f49ca3e65e","lid":"2fe748f030","uniqueMethods":true}) })</script>
+    </header>
+    

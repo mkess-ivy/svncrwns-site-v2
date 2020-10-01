@@ -1,5 +1,7 @@
+- theme2020-logo: /dist/images/crwns-logo-graphic-b.png
+  width: 30
 - global-logo: /dist/images/svncrwns-logo-2020.png
   global-logo-white: /dist/images/svncrwns-logo-2020-white.png
   width: 150
-- footer-logo: /dist/images/logo_graphic_black.png
+- footer-logo: /dist/images/crwns-logo-graphic-b.png
 - footer-copyright: ©2015 — 2020. All Rights Reserved

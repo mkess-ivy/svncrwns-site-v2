@@ -1,0 +1,91 @@
+<div class="grid">
+	<footer class="theme2020-footer js_scroll_reveal">
+        
+        <div class="theme2020-row end">
+            <div class="frow justify-start">
+                <div class="theme2020-footer-col">
+                    <div class="theme2020-small">Links</div>
+                    <ul class="theme2020-list footer">
+                        <li><a href="/dropbox-link" target="_blank"><div>Work w/ Us</div></a></li>
+                        <li><a href="/contact/"><div>Contact</div></a></li>
+                        <li><a href="/careers"><div>Careers</div></a></li>
+                        <li><a href="https://www.instagram.com/svncrwns"><div>Instagram</div></a></li>
+                    </ul>
+                </div>
+                <div class="theme2020-footer-col">
+                    <div class="theme2020-small">Founders</div>
+                    <ul class="theme2020-list footer">
+                        <li><a href=""><div>Chavon Lee</div></a></li>
+                        <li><a href="http://www.montierkess.co" target="_blank"><div>Montier Kess</div></a></li>
+                    </ul>
+                </div>
+                <div class="theme2020-footer-col">
+                    <div class="theme2020-small">Brands</div>
+                    <ul class="theme2020-list footer">
+                        <li><a href="http://www.cultureintersects.com" target="_blank"><div>Culture Intersects</div></a></li>
+                        <li><a href="http://www.blackloveoffering.com"><div>Black Love Offering</div></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="theme2020-footer-bottom">
+            <div class="frow justify-between">
+                <div class="left_footer">
+                    
+                    {% for item in site.data.site-settings %}
+                    <a href="/"><img src = "{{ item.footer-logo }}" width="20" /></a>
+                    <div class="left_footer_copy">
+                        {{ item.footer-copyright }}
+                    </div>
+                    {% endfor %}
+                    
+                </div>
+            </div>
+        </div>
+            
+        
+    </footer>
+<div>
+    
+<!-- Vendor Files -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script type="text/javascript" src="/javascript/jquery.waypoints.min.js"></script>
+<script type="text/javascript" src="https://use.fontawesome.com/d476a27cae.js"></script>
+
+{% if page.layout == "phase1-slide" or page.layout == "phase1-slide-web" or page.layout == "editorial-slide" or page.layout == "backstage-blocks-layout" %}
+<script type="text/javascript" src="/slick/slick.min.js"></script>
+{% endif %}
+
+{% if page.title == "SVNCRWNS - Home" or page.title == "Journal" %}
+<script type="text/javascript" src="/slick/slick.min.js"></script>
+{% endif %}
+
+<script type="text/javascript" src="/javascript/simpleLightbox.js"></script> 
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.2/fullpage.js"></script>
+
+<!-- Scripts -->
+<script type="text/javascript" src="/javascript/phase1-main.js"></script>
+{% unless page.layout == "journal002" %}
+<script type="text/javascript" src="/javascript/components.js"></script>
+{% endunless %}
+
+<!-- Scroll Reveal -->
+<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    window.sr = ScrollReveal();
+    sr.reveal('.js_scroll_reveal', {
+        reset: true,
+        easing: 'ease-in',
+        duration: 700
+    });
+
+    AOS.init({
+        duration: 1200
+    });
+
+</script>
+</body>
+
+</html>
