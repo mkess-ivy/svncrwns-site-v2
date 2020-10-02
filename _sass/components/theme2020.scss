@@ -468,12 +468,13 @@
     @include tablet {
         width: 31%;
         margin: 5px 5px 25px 5px;
-        height: 30vh;
+        height: 40vh;
     }
 
     @include desktop {
         width: 30%;
         margin: 15px 15px 75px 15px;
+        height: 60vh;
     }
 }
 .portfolio {

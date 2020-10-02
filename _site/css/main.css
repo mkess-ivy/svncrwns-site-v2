@@ -1995,11 +1995,12 @@ a.js_hover_trigger2:hover {
     .portfolio-single {
       width: 31%;
       margin: 5px 5px 25px 5px;
-      height: 30vh; } }
+      height: 40vh; } }
   @media screen and (min-width: 1024px) {
     .portfolio-single {
       width: 30%;
-      margin: 15px 15px 75px 15px; } }
+      margin: 15px 15px 75px 15px;
+      height: 60vh; } }
 
 .portfolio {
   margin-bottom: 75px; }
