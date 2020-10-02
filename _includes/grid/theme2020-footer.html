@@ -31,14 +31,10 @@
         <div class="theme2020-footer-bottom">
             <div class="frow justify-between">
                 <div class="left_footer">
-                    
-                    {% for item in site.data.site-settings %}
-                    <a href="/"><img src = "{{ item.footer-logo }}" width="20" /></a>
+                    <a href="/" class="theme2020-footer-logo"><img src = "{{ site.footer-logo }}" width="20" /></a>
                     <div class="left_footer_copy">
-                        {{ item.footer-copyright }}
+                        {{ site.footer-copyright }}
                     </div>
-                    {% endfor %}
-                    
                 </div>
             </div>
         </div>

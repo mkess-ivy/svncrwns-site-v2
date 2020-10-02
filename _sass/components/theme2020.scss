@@ -1,5 +1,19 @@
 .theme2020-intro {
     height: 95vh;
+    position: absolute;
+    top: 45px;
+    left: 0;
+    right: 0;
+    text-align: center;
+
+    @include tablet {
+        height:100vh;
+    }
+
+    @include desktop-blah {
+        height: 95vh;
+        top: 55px;
+    }
 
     .theme2020-title {
         text-transform:uppercase;
@@ -12,12 +26,20 @@
 
     .theme2020-locations {
         position: absolute;
-        bottom:17px;
+        bottom:20px;
 
         @include tablet {
-            // position: relative;
-            bottom: initial;
+            bottom: 75px;
         }
+
+        @include  desktop {
+            width: 700px;
+        }
+
+        @include desktop-blah {
+            bottom:20px;
+        }
+
         ul {
             color: $white;
             text-transform: uppercase;
@@ -28,10 +50,13 @@
                 font-size:12px;
             }
 
+            @include  desktop {
+                font-size: 18px;
+            }
+
             li {
                 list-style: none;
                 display: inline;
-                // padding-left: 30px;
                 width:75px;
 
                 @include tablet {
@@ -41,14 +66,16 @@
         }
     }
 }
-
-
 .theme2020-section {
     padding-top: 7vh;
 
+    @include tablet {
+        padding: 7vh 0;
+    }
+
     .theme2020-content {
         width:100%;
-        padding-bottom:50px;
+        padding-bottom:125px;
 
         @include tablet {
             width: 55%;
@@ -58,6 +85,10 @@
 }
 .theme2020-row {
     margin-bottom:125px;
+
+    @include tablet {
+        margin-bottom: 150px;
+    }
 
     &.end {
         margin-bottom: 50px;
@@ -74,7 +105,6 @@
         font-size: 16px;
     }
 }
-
 .theme2020-copy {
     font-weight: 300;
     font-family: $font-brand4;
@@ -87,10 +117,9 @@
 }
 .theme2020-btns {
     display: block;
+    color: $off-black;
 
     a:hover {
-        border-bottom: 0;
-        
     }
     div {
         border: 2px solid;
@@ -100,7 +129,6 @@
         font-size: 10px;
         font-family: $font-brand4;
         font-weight: 700;
-        margin-bottom: 75px;
         letter-spacing: 0.5px;
 
         @include tablet {
@@ -119,7 +147,7 @@
             color: $off-white;
 
             &:hover {
-                border-color: $off-black;
+                border-color: $off-white;
                 background: $off-white;
                 color: $off-black;
             }
@@ -131,7 +159,7 @@
 .theme2020-list {
     font-family: $font-brand4;
     font-size: 18px;
-    margin-bottom: 75px;
+    margin-bottom: 25px;
 
     @include tablet {
         margin-bottom: 30px;
@@ -141,13 +169,14 @@
         padding-bottom:7px;
 
         a {
-            div {
+            color:$off-black;
+            text-decoration: none;
 
-                &:hover {
-                    // border-bottom: 1px solid;
-                    // padding-bottom: 2px;
-                }
+            &:hover {
+                border-bottom: 1px solid;
+                padding-bottom: 2px;
             }
+            
         }
     }
 
@@ -165,14 +194,17 @@
         }
     }
 }
-
 .theme2020-ownership {
     width: 100%;
-    padding-bottom:75px;
+    padding-bottom:125px;
 
     @include tablet {
-        width: 45%;
+        width: 70%;
         padding-bottom:0;
+    }
+
+    @include desktop {
+        width:79%;
     }
 }
 .reel {
@@ -181,9 +213,12 @@
     background-size: cover;
     background-repeat: no-repeat;
     color: $off-white;
+
+    @include desktop {
+        height:50vh;
+    }
 }
 .reel-info {
-    // height:50vh;
     text-align: center;
 
     .reel-title {
@@ -193,28 +228,41 @@
         padding-bottom: 30px;
 
         @include tablet {
-            font-size: 32px;
+            font-size: 24px;
+        }
+
+        @include desktop {
+            font-size: 28px;
         }
     }
 }
 
 .partners {
-    margin: 15vh 0;
+    margin: 7vh 0;
     .partners-wrapper {
         width:95%;
         margin-top:25px;
 
         @include tablet {
-            width:85%;
+            width:90%;
+        }
+
+        @include desktop-blah {
+            width: 75%;
         }
     }
     .logo-partner {
-        padding: 0 13px 30px 0;
-        width:76px;
+        padding: 0 0px 30px 0;
+        width:100px;
 
         @include tablet {
-            width:225px;
-            padding: 0 25px 40px 0;
+            width:105px;
+            padding: 0 0 40px 0;
+        }
+
+        @include desktop {
+            width:175px;
+            text-align: center;
         }
     }
 }
@@ -224,15 +272,22 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    
     color: $off-white;
-    padding: 7vh 0;
+    padding: 15vh 0;
+
+    @include desktop {
+        padding:7vh 0;
+    }
 
     .newsletter-intro {
         width: 100%;
 
         @include tablet {
-            width:45%;
+            width:60%;
+        }
+
+        @include desktop-blah {
+            width: 40%;
         }
     }
 }
@@ -243,45 +298,92 @@
 
     .theme2020-footer-col {
         width:225px;
+        padding-bottom: 40px;
+
+        @include tablet {
+            width:205px;
+        }
+
+        @include desktop-blah {
+            padding-bottom: 0;
+        }
     }
+
     .left_footer_copy {
         text-transform: uppercase;
         font-weight: 300;
         font-size: 11px;
         font-family: $font-brand4;
     }
-    
+}
+.theme2020-footer-logo {
+    display: inline-block;
+    padding-right: 15px;
 }
 
 .theme2020-slider {
     display: flex;
     align-items: center;
-    height: 93vh;
+    height: 94vh;
     width: 100vw;
     background: $brown;
     user-select: none;
 
+    @include tablet {
+        height: 95vh;
+    }
+
+    @include desktop {
+        height:97vh;
+    }
+    @include desktop-blah {
+        height: 95vh;
+    }
+
     .slide {
         width: 100vw;
-        height: 93vh;
+        height: 94vh;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
         // filter: grayscale(90%);
-        position:  0 0;
-        // color: pink;
+        position: 0 0;
         // blend-mode: color-burn;
+
+        @include tablet {
+            height: 95vh;
+        }
+
+        @include desktop {
+            height:97vh;
+        }
+
+        @include desktop-blah {
+            height: 95vh;
+        }
     }
 }
-.theme2020-intro {
-    height: 95vh;
-    position: absolute;
-    top: 55px;
-    left: 0;
-    right: 0;
-    text-align: center;
+.founders {
+    padding-bottom: 50px;
+}
+.menu-wrapper {
+    @include tablet {
+        padding-bottom:5px;
+    }
+}
+.theme2020-industries {
+    @include tablet {
+        min-width: 200px;
+    }
+}
+.gwcc-logo {
+    width:30px;
 
     @include tablet {
-        height:100vh;
+        width:40px;
+    }
+
+    @include desktop-blah {
+        width:50px;
     }
 }

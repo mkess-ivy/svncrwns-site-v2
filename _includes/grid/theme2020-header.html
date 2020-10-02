@@ -17,38 +17,25 @@
         
         <div class="menu-wrapper">
             <div class="left_header">
-                <div class="grid_project site-logo">
-                  <div class="frow justify-between">
+                <div class="grid">
+                    <div class="frow justify-between">
                       
-                      <a href="/"><img src="{{ site.theme2020-logo }}" width="30" style="margin: 5px 0;" /></a>
+                        <a href="/"><img src="{{ site.theme2020-logo }}" width="25" style="margin: 5px 0;" /></a>
   
-                      <div class="collapsed_menu_wrapper">
+                        <div class="collapsed_menu_wrapper">
                       
-                          {% unless page.title == "SVNCRWNS - Home" %}
-                          <ul>
-                              {% for menu-item in site.data.menus.header %}
-                              <li class=""><a href="{{ menu-item.url }}" {% if page.layout == "services-now" %}style="color: #f7f7f7;"{% endif %}>{{ menu-item.title }}</a></li>
-                              {% endfor %}
-                          </ul>
-                          
-                          {% endunless %}
-  
-                          {% if page.title == "SVNCRWNS - Home" %}
-                          <ul>
-                              {% for menu-item in site.data.menus.header %}
-                              <li class="themealpha-nav"><a href="{{ menu-item.url }}">{{ menu-item.title }}</a></li>
-                              {% endfor%}
-                          </ul>
-                          
-                          {% endif %}
-                      </div>
+                            <ul>
+                                {% for menu-item in site.data.menus.header %}
+                                <li><a href="{{ menu-item.url }}">{{ menu-item.title }}</a></li>
+                                {% endfor%}
+                            </ul>
+                        
+                        </div>
   
   
-                  </div>
-                  
-                  
-              </div>
-          </div>
+                    </div>
+                </div>
+            </div>
         </div>
     
     

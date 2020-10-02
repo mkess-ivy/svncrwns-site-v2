@@ -25,6 +25,8 @@ collections:
 # Site Variables
 logo: "/dist/images/svn-logo.svg"
 theme2020-logo: "/dist/images/crwns-logo-graphic-b.png"
+footer-logo: /dist/images/crwns-logo-graphic-b.png
+footer-copyright: ©2015 — 2020. All Rights Reserved
 
 # Brand Colors
 homepage-bg-color: '#f7f7f7'

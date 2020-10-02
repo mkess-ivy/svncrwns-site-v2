@@ -55,25 +55,25 @@ img {
 /**
 * Links
 **/
-a {
-  color: $off-black;
-  text-decoration: none;
+// a {
+//   color: $off-black;
+//   text-decoration: none;
 
-  &:visited {
-    color: darken($off-black, 15%);
-  }
+//   &:visited {
+//     color: darken($off-black, 15%);
+//   }
 
-  &:hover {
-    color: $off-black;
-    border-bottom: 1px solid;
-    cursor: url('/dist/images/cursor-circle.png'), auto;
-  }
-}
-a.no-line {
-  &:hover {
-    border-bottom: 0;
-  }
-}
+//   &:hover {
+//     color: $off-black;
+//     border-bottom: 1px solid;
+//     cursor: url('/dist/images/cursor-circle.png'), auto;
+//   }
+// }
+// a.no-line {
+//   &:hover {
+//     border-bottom: 0;
+//   }
+// }
 
 /**
  * Clearfix
