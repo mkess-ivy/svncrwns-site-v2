@@ -1851,7 +1851,7 @@ a.js_hover_trigger2:hover {
     width: 100%; }
     @media screen and (min-width: 750px) {
       .newsletter .newsletter-intro {
-        width: 60%; } }
+        width: 70%; } }
     @media screen and (min-width: 1200px) {
       .newsletter .newsletter-intro {
         width: 40%; } }
@@ -1887,7 +1887,7 @@ a.js_hover_trigger2:hover {
   user-select: none; }
   @media screen and (min-width: 750px) {
     .theme2020-slider {
-      height: 95vh; } }
+      height: 96vh; } }
   @media screen and (min-width: 1024px) {
     .theme2020-slider {
       height: 97vh; } }
@@ -1903,7 +1903,7 @@ a.js_hover_trigger2:hover {
     position: 0 0; }
     @media screen and (min-width: 750px) {
       .theme2020-slider .slide {
-        height: 95vh; } }
+        height: 96vh; } }
     @media screen and (min-width: 1024px) {
       .theme2020-slider .slide {
         height: 97vh; } }
@@ -1930,6 +1930,85 @@ a.js_hover_trigger2:hover {
   @media screen and (min-width: 1200px) {
     .gwcc-logo {
       width: 50px; } }
+
+.pagetitle {
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  padding: 50px 0; }
+
+.inquiries {
+  width: 110px; }
+  @media screen and (min-width: 750px) {
+    .inquiries {
+      width: 225px; } }
+  @media screen and (min-width: 1024px) {
+    .inquiries {
+      width: 175px; } }
+
+.inquiries-info {
+  max-width: 800px;
+  padding: 30px 0 0 60px; }
+  @media screen and (min-width: 750px) {
+    .inquiries-info {
+      width: 75%; } }
+  @media screen and (min-width: 1024px) {
+    .inquiries-info {
+      padding: 0 0 0 60px; } }
+
+.inquiries-arrow {
+  padding: 15px 0 0; }
+  @media screen and (min-width: 750px) {
+    .inquiries-arrow {
+      padding: 30px 0 0; } }
+
+.instagram {
+  padding: 40px; }
+  .instagram .ig-single {
+    width: 100%;
+    text-align: center;
+    padding: 0 0 25px; }
+    @media screen and (min-width: 750px) {
+      .instagram .ig-single {
+        width: 50%;
+        padding: 0 0 35px; } }
+    @media screen and (min-width: 1024px) {
+      .instagram .ig-single {
+        width: 19%;
+        padding-bottom: 0; } }
+
+.t20-link {
+  color: #070707;
+  text-decoration: none;
+  border-bottom: 1px solid;
+  padding-bottom: 1px; }
+  .t20-link:hover {
+    color: #A16414; }
+
+.portfolio-single {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+  height: 60vh;
+  margin: 15px; }
+  @media screen and (min-width: 750px) {
+    .portfolio-single {
+      width: 31%;
+      margin: 5px 5px 25px 5px;
+      height: 30vh; } }
+  @media screen and (min-width: 1024px) {
+    .portfolio-single {
+      width: 30%;
+      margin: 15px 15px 75px 15px; } }
+
+.portfolio {
+  margin-bottom: 75px; }
+
+.embedded-form {
+  width: 80%; }
+  @media screen and (min-width: 1024px) {
+    .embedded-form {
+      margin: 100px 0px 60px; } }
 
 .font_size_lg {
   font-size: 26px;

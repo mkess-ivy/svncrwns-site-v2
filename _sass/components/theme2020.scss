@@ -283,7 +283,7 @@
         width: 100%;
 
         @include tablet {
-            width:60%;
+            width:70%;
         }
 
         @include desktop-blah {
@@ -330,7 +330,7 @@
     user-select: none;
 
     @include tablet {
-        height: 95vh;
+        height: 96vh;
     }
 
     @include desktop {
@@ -351,7 +351,7 @@
         // blend-mode: color-burn;
 
         @include tablet {
-            height: 95vh;
+            height: 96vh;
         }
 
         @include desktop {
@@ -385,5 +385,106 @@
 
     @include desktop-blah {
         width:50px;
+    }
+}
+
+// Contact Page
+.pagetitle {
+    font-family: $font-brand4;
+    font-size: 32px;
+    padding: 50px 0;
+}
+.inquiries {
+    width:110px;
+
+    @include tablet {
+        width:225px;
+    }
+
+    @include desktop  {
+        width: 175px;
+    }
+}
+.inquiries-info {
+    max-width: 800px;
+    padding:  30px 0 0 60px;
+
+    @include tablet {
+        width:75%;
+    }
+
+    @include desktop {
+        padding: 0 0 0 60px;
+    }
+}
+.inquiries-arrow {
+    padding:15px 0 0;
+
+    @include tablet {
+        padding:30px 0 0;
+    }
+}
+
+.instagram {
+    padding:40px;
+
+    .ig-single {
+        width: 100%;
+        text-align: center;
+        padding: 0 0 25px;
+        
+        @include tablet {
+            // min-width: 255px;
+            width: 50%;
+            padding: 0 0 35px;
+        }
+
+        @include desktop {
+            width: 19%;
+            padding-bottom: 0;
+        }
+    }
+}
+.t20-link {
+    color: $off-black;
+    text-decoration: none;
+    border-bottom: 1px solid;
+    padding-bottom: 1px;
+
+    &:hover {
+        color: $brown;
+    }
+}
+
+//  Portfolio
+.portfolio-single {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    height: 60vh;
+    margin: 15px;
+
+    @include tablet {
+        width: 31%;
+        margin: 5px 5px 25px 5px;
+        height: 30vh;
+    }
+
+    @include desktop {
+        width: 30%;
+        margin: 15px 15px 75px 15px;
+    }
+}
+.portfolio {
+    margin-bottom: 75px;
+}
+
+// Subscribe
+.embedded-form {
+    width:80%;
+
+    @include desktop {
+        margin: 100px 0px 60px;
     }
 }

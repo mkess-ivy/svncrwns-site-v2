@@ -1,0 +1,11 @@
+<div class="grid">
+    <section class="portfolio">
+        <div class="frow justify-start">
+            
+            {%for item in page.portfolio %}
+                <div class="portfolio-single" style="background-image:url('{{ item.single }}');"></div>
+            {% endfor %}
+
+        </div>
+    </section>
+</div>
