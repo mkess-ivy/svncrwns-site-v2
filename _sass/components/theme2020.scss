@@ -213,9 +213,40 @@
     background-size: cover;
     background-repeat: no-repeat;
     color: $off-white;
+    position: relative;
+    overflow: hidden;
+    width:100%;
+    background: url('/dist/images/theme2020reel-bg.png');
 
     @include desktop {
-        height:50vh;
+        height:75vh;
+    }
+}
+#video-bg {
+    min-width:100%;
+    min-height:100%;
+    height: auto;
+    width: auto;
+    z-index:1;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    @include desktop {
+        height: 75vh;
+    }
+}
+.video-overlay {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    right: 0;
+    left: 0;
+    text-align: center;
+    height: 100vh;
+
+    @include desktop {
+        height:75vh;
     }
 }
 .reel-info {
